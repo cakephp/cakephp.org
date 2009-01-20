@@ -1,0 +1,65 @@
+/* SVN FILE: $Id: */
+#content h2{
+	padding:15px 25px;
+}
+#content .page {
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+#post-a-job{
+	position:absolute;
+	width:180px; height:47px;
+	padding-left:25px; padding-top:5px;
+	right:25px; top:0px;
+	background:url(images/post-job.jpg) no-repeat left top;
+	line-height:40px;
+	font-family:"Times New Roman", Times, serif;
+	font-size:25px; font-weight:bold;
+	color:#FFFFFF; text-decoration:none;
+}
+
+#content table.rounded{
+	position:relative;
+	margin:0 auto;
+	width:820px;
+	padding-top:30px;
+	padding-left:15px; padding-right:15px;
+	background:#F9F4A6 url(images/job_board_top_bg.jpg) no-repeat left top;
+	border:none;
+
+
+}
+#content table.rounded thead tr th{background-color:transparent !important; padding-bottom:25px; background-color:none; }
+#content table.rounded tbody{ border:#000000 solid 1px ;}
+#content table.rounded tbody tr{ border:#000000 solid 1px ;}
+#content table.rounded tbody tr td{ padding:5px; line-height:20px; background-color:#FCF9D2; border-bottom:#F9F4A6 solid 2px;}
+#content .table-foot{
+	position:relative;
+	margin:0 auto;
+	width:800px;padding-left:20px;
+	height:100px;
+
+
+	line-height:60px;
+	background:#F9F4A6 url(images/job_board_bottom_bg.jpg) no-repeat left top;
+}
+a.job-next{
+	position:relative;
+	background:url(images/job-next.jpg) no-repeat left center;
+	width:58px; height:19px;
+	padding:5px;
+	padding-right:25px;
+	color:#FFFFFF; font-weight:bold;
+}
+a.job-prev{
+	position:relative;
+	background:url(images/job-prev.jpg) no-repeat left center;
+	width:58px; height:19px;
+	padding:5px;
+	padding-left:20px; padding-right:10px;
+	color:#FFFFFF; font-weight:bold;
+}
+
+.table-foot span{float: left;}
+span.jobs-powered-by{float: right; margin: 0 30px 0 0; font-size: 10px;}

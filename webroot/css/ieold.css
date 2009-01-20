@@ -1,0 +1,64 @@
+.png, .png img, img.image {
+	behavior: url(/css/iepngfix.htc);
+}
+
+#get-it li.download_stable a{
+	background:transparent url(images/ieold/download_btn.gif) no-repeat;
+}
+
+body.js .panel{
+	background:url(images/ieold/panel_bg.gif) no-repeat center;
+}
+
+#sites_nav{
+	background:transparent url(images/ieold/sites_nav_bg.gif) no-repeat bottom center;
+}
+
+.tabs{
+	background:#fff url(images/ieold/tabs_bar_bg.gif) no-repeat;
+}
+
+.tabs li.active a{
+	background:transparent url(images/ieold/tab_active.gif) no-repeat center;
+}
+
+
+.tabs a.previous, .tabs a.next{
+	background:url(images/ieold/tab_arrows.gif) no-repeat left;
+}
+
+.tabs a.next{
+	background:url(images/ieold/tab_arrows.gif) no-repeat right;
+}
+
+.tabs li a:hover{
+	background:transparent url(images/ieold/tab_hover.gif) no-repeat center;
+}
+
+#donations ul li {
+	padding-bottom: 3px;
+}
+#donations ul li a {
+	display: inline;
+}
+
+.actions a {
+	display: block;
+	width: 300px;
+}
+
+#search {
+	left: 650px;
+}
+
+#secondary_nav {
+	left: 630px;
+}
+
+#read ul {
+	margin-left: 20px;
+}
+
+#bakery_last .channel {
+	margin: 0;
+}
