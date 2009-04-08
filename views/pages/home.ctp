@@ -59,7 +59,6 @@
 			     <li><a href="http://book.cakephp.org/">The Cookbook</a> (official docs)</li>
 			     <li><a href="http://cakephp.org/screencasts">Screencasts</a></li>
 			     <li><a href="http://cakephp.org/files/Resources/CakePHP-1.2-Cheatsheet.pdf">CakePHP cheatsheet</a></li>
-			     <li><a href="http://book.cakephp.org/view/326/the-cake-blog-tutorial">1.1 Blog Tutorial</a></li>
 				 <li><a href="http://book.cakephp.org/view/219/the-cakephp-blog-tutorial">1.2 Blog Tutorial</a></li>
 				 <li><a href="http://www-128.ibm.com/developerworks/edu/os-dw-os-php-cake1.html">IBM: Cook Up Websites Fast (5 part series)</a></li>
 				 <li><a href="http://www-128.ibm.com/developerworks/edu/os-dw-os-php-wiki1.html">IBM: Build A Production Wiki (5 part series)</a></li>
@@ -97,7 +96,7 @@
 					<li><a href="http://www.cakedc.com/articles">CakeDC Team</a></li>
 			        <li><a href="http://debuggable.com/">Felix and Tim...(and nate?)</a></li>
 					<li><a href="http://www.littlehart.net/atthekeyboard/">GrumpyCanuck</a></li>
-					<li><a href="http://snook.ca/">Snook.ca</a></li>
+					<li><a href="http://snook.ca/">Snook.ca</a></li>					
 				</ul>
 			</span>
 		</div><!--	panel -->

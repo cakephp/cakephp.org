@@ -2,6 +2,12 @@
 
 <div id="meta">
 	<div class="box">
+		<?php echo $html->link($html->image('cakefest_berlin_gray_large.png', array(
+				'class' => 'image png',
+				'width' => 200
+			)), "http://www.cakefest.org/", null, false, false)
+		?>
+		<br /><br />
 		<div id="donations">
 			<h3>CakePHP Loves you</h3>
 			<h4>Give some love back</h4>
