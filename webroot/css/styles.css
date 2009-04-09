@@ -506,7 +506,7 @@ div#breakingnews a {
 	color: #FFFF66;
 }
 #meta{
-	overflow:auto;
+	overflow:hidden;
 	margin-top:10px;
 	padding:15px;
 	background:#f0f09a url(images/meta_bg.png) repeat-x bottom;
@@ -533,7 +533,7 @@ div#breakingnews a {
 	width: 146px;
 }
 
-.box, #donations, #quotes, #just_baked, #bakery_last, #ohloh_journal {
+.box, #conferences, #donations, #quotes, #just_baked, #bakery_last, #ohloh_journal {
 	float:left;
 	width:196px;
 	margin-right:11px;

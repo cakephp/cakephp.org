@@ -2,12 +2,16 @@
 
 <div id="meta">
 	<div class="box">
-		<?php echo $html->link($html->image('cakefest_berlin_gray_large.png', array(
-				'class' => 'image png',
-				'width' => 200
-			)), "http://www.cakefest.org/", null, false, false)
-		?>
-		<br /><br />
+		<div id="conferences">
+			<a href="http://mysqlconf.com">
+				<img src="http://assets.en.oreilly.com/1/event/21/mysql2009_210x60.gif" width="196" border="0"  alt="MySQL Conference & Expo 2009" title="MySQL Conference & Expo 2009"  />
+			</a>
+			<?php echo $html->link($html->image('cakefest_berlin_gray_large.png', array(
+					'class' => 'image png',
+					'width' => 196
+				)), "http://www.cakefest.org/", null, false, false)
+			?>
+		</div>
 		<div id="donations">
 			<h3>CakePHP Loves you</h3>
 			<h4>Give some love back</h4>
@@ -109,7 +113,7 @@
 			<li><a href="http://www.zeadoo.com" target="_new">Zeadoo</a></li>
 			<li><a href="http://thechaw.com" target="_new">Chaw</a></li>
 			<li><a href="http://cghub.com" target="_new">cghub</a></li>
-			
+
 
 		</ul>
 	</div>

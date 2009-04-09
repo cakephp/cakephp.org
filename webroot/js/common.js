@@ -13,7 +13,9 @@ var CP={
 		equalize:function(selector){
 			var maxHeight=1;
 			$(selector).each(function(){
-				if (this.offsetHeight>maxHeight) maxHeight=this.offsetHeight;
+				if (this.offsetHeight > maxHeight) {
+					maxHeight = this.offsetHeight;
+				}
 			});
 			$(selector).css("height",maxHeight+"px");
 		}
@@ -107,5 +109,5 @@ var Tabs={
 
 
 $(document).ready(function(){
-	CP.init()}
-	);
+	CP.init()
+});
