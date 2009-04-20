@@ -101,7 +101,7 @@
 	<div id="just_baked">
 		<h3>Just baked</h3>
 		<h4>They are using cakePHP</h4>
-		<ul>
+		<ul>			
 			<li><a href="http://addons.mozilla.org" target="_new">Mozilla Addons</a></li>
 			<li><a href="http://scratch.mit.edu/" target="_new">Scratch by MIT</a></li>
 			<li><a href="http://www.yaledailynews.com" target="_new">Yale Daily News</a></li>
@@ -113,7 +113,8 @@
 			<li><a href="http://www.zeadoo.com" target="_new">Zeadoo</a></li>
 			<li><a href="http://thechaw.com" target="_new">Chaw</a></li>
 			<li><a href="http://cghub.com" target="_new">cghub</a></li>
-
+			<li><a href="http://www.missuniverse.com/" target="_new">Miss Universe</a></li>
+			<li><a href="http://www.affilorama.com" target="_new">Affilorama</a></li>
 
 		</ul>
 	</div>
