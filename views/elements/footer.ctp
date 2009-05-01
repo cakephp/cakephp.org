@@ -3,9 +3,6 @@
 <div id="meta">
 	<div class="box">
 		<div id="conferences">
-			<a href="http://mysqlconf.com">
-				<img src="http://assets.en.oreilly.com/1/event/21/mysql2009_210x60.gif" width="196" border="0"  alt="MySQL Conference & Expo 2009" title="MySQL Conference & Expo 2009"  />
-			</a>
 			<?php echo $html->link($html->image('cakefest_berlin_gray_large.png', array(
 					'class' => 'image png',
 					'width' => 196
@@ -100,7 +97,14 @@
 
 	<div id="just_baked">
 		<h3>Just baked</h3>
-		<h4>They are using cakePHP</h4>
+		<br/>
+		<ul>
+			<li><a href="http://www.missuniverse.com/" target="_new">Miss Universe</a></li>
+			<li><a href="http://www.affilorama.com" target="_new">Affilorama</a></li>
+			<li><a href="http://www.hotscripts.com" target="_new">Hot Scripts</a></li>
+			<li><a href="http://www.baseballboss.com" target="_new">Baseball Boss</a></li>
+		</ul>		
+		<h4>They are using CakePHP</h4>
 		<ul>			
 			<li><a href="http://addons.mozilla.org" target="_new">Mozilla Addons</a></li>
 			<li><a href="http://scratch.mit.edu/" target="_new">Scratch by MIT</a></li>
@@ -113,9 +117,6 @@
 			<li><a href="http://www.zeadoo.com" target="_new">Zeadoo</a></li>
 			<li><a href="http://thechaw.com" target="_new">Chaw</a></li>
 			<li><a href="http://cghub.com" target="_new">cghub</a></li>
-			<li><a href="http://www.missuniverse.com/" target="_new">Miss Universe</a></li>
-			<li><a href="http://www.affilorama.com" target="_new">Affilorama</a></li>
-
 		</ul>
 	</div>
 	<div id="bakery_last">
