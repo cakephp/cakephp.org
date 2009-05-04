@@ -49,10 +49,10 @@ class AppController extends Controller {
 		$one['changelog'] = 'https://trac.cakephp.org/wiki/changelog/1.1.x.x';
 
 		$two = array();
-		$two['version'] = '1.2.2.8120 Stable';
-		$two['date'] = 'March 19, 2009';
-		$two['link'] = 'http://cakeforge.org/frs/?group_id=23&release_id=441';
-		$two['announcement'] = 'http://bakery.cakephp.org/articles/view/release-1-2-2-8120';
+		$two['version'] = '1.2.3.8166 Stable';
+		$two['date'] = 'May 4, 2009';
+		$two['link'] = 'http://cakeforge.org/frs/?group_id=23&release_id=442';
+		$two['announcement'] = 'http://bakery.cakephp.org/articles/view/release-cakephp-1-2-3-8166';
 		$two['changelog'] = 'https://trac.cakephp.org/wiki/changelog/1.2.x.x';
 
 		$this->set(compact('one', 'two'));
