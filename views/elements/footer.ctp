@@ -14,7 +14,7 @@
 			<h4>Give some love back</h4>
 			<ul>
 				<li class="sponsor-cakefest">
-					<?php echo $html->link('sponsor CakeFest', 'http://www.cakefest.org/pages/sponsor'); ?>
+					<?php echo $html->link('Sponsor CakeFest', 'http://www.cakefest.org/pages/sponsors'); ?>
 				</li>
 
 				<li class="donate-any-amount">
