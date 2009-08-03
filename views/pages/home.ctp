@@ -9,7 +9,7 @@
 	); ?>
 	&
 	<?php echo $html->link(
-		'Release: 1.3-dev',
+		'1.3-dev',
 		'http://bakery.cakephp.org/articles/view/release-cakephp-1-2-4-8284'
 	); ?>
 </div>
