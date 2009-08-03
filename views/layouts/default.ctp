@@ -76,6 +76,7 @@
 				<li><a href="http://live.cakephp.org/">Live</a></li>
 				<li><a href="http://cakeforge.org/">Forge</a></li>
 				<li><a href="https://trac.cakephp.org/">Trac</a></li>
+				<li><a href="http://code.cakephp.org/">Code</a></li>
 			</ul>
 		</div>
 
