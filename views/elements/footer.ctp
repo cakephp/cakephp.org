@@ -87,7 +87,7 @@
 			</ul>
 		</div>
 		<p>&nbsp;</p>
-		<div id="quotes">
+		<div id="quotes" style="display: none;">
 			<h3>What people say</h3>
 			<div class="quote">
 				<blockquote>
