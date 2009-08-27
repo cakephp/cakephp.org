@@ -3,10 +3,15 @@
 <div id="meta">
 	<div class="box">
 		<div id="conferences">
-			<?php echo $html->link($html->image('cakefest_berlin_gray_large.png', array(
+			<?php echo $html->link($html->image('conferences/CW09_Speaker.png', array(
 					'class' => 'image png',
-					'width' => 196
-				)), "http://www.cakefest.org/", null, false, false)
+					'width' => 150
+				)), "http://cw.mtacon.com/schedule/speakers#nate_abele", null, false, false)
+			?>
+			<?php echo $html->link($html->image('conferences/zendcon09_speakerbutton.jpg', array(
+					'class' => 'image png',
+					'width' => 160
+				)), "http://zendcon.com/speakers", null, false, false)
 			?>
 		</div>
 		<div id="donations">
@@ -85,27 +90,49 @@
 		<div id="quotes">
 			<h3>What people say</h3>
 			<div class="quote">
-				<blockquote> Cake saved my Life</blockquote>
-				<cite>&mdash; sdevore</cite>
+				<blockquote>
+					Thanks to CakePHP, we have created an app prototype in one week, where it would
+					have certainly took more than 1 month without ... :D
+				</blockquote>
+			 	<cite>&mdash;
+				<a href="http://twitter.com/scharrier/status/3575118194" target="_new">Sebastien
+					Charrier</a>
+				</cite>
 			</div>
 			<div class="quote">
-				<blockquote>Who needs documentation when it tells me how to do everything?</blockquote>
-			 	<cite>&mdash; <a href="http://www.snook.ca/archives/php/cakephp_initial/" target="_new">Jonathan Snook - Snook.ca</a></cite>
+				<blockquote>
+					@<a href="http://twitter.com/nateabele" target="_new">nateabele</a> Great work
+					with CakePHP to the CakePHP team too we're big fans and following its
+					development closely! Cheers
+				</blockquote>
+				<cite>&mdash;
+					<a href="http://twitter.com/Skystack/status/3558986436">The Skystack Team</a>
+				</cite>
+			</div>
+			<div class="quote">
+				<blockquote>
+					The CakePHP API is the most beautiful API I've ever seen. I could trawl through
+					for hours.
+				</blockquote>
+				<cite>&mdash;
+					<a href="http://twitter.com/cozycabbage/statuses/3552584972">Michael
+						Kozakewich</a>
+				</cite>
 			</div>
 		</div>
 	</div>
 
 	<div id="just_baked">
 		<h3>Just baked</h3>
-		<br/>
 		<ul>
+			<li><a href="http://pianomarvel.com/" target="_new">Piano Marvel</a></li>
 			<li><a href="http://www.fachak.com/" target="_new">Fachak</a></li>
 			<li><a href="http://www.missuniverse.com/" target="_new">Miss Universe</a></li>
 			<li><a href="http://www.affilorama.com" target="_new">Affilorama</a></li>
 			<li><a href="http://www.hotscripts.com" target="_new">Hot Scripts</a></li>
 			<li><a href="http://www.baseballboss.com" target="_new">Baseball Boss</a></li>
 		</ul>		
-		<h4>They are using CakePHP</h4>
+		<h4><a href="http://book.cakephp.org/view/510/Sites-in-the-wild">They are using cakePHP</h4>
 		<ul>			
 			<li><a href="http://addons.mozilla.org" target="_new">Mozilla Addons</a></li>
 			<li><a href="http://scratch.mit.edu/" target="_new">Scratch by MIT</a></li>

@@ -23,11 +23,13 @@
 				<?php echo $html->image('new.png', array('class' => 'image png'))?>
 			</a>
 			<p class="left">
-				CakePHP is a rapid development framework for PHP that provides an extensible architecture for developing, maintaining, and deploying
+				CakePHP is a rapid development framework for PHP that provides an extensible
+				architecture for developing, maintaining, and deploying
 				applications. Using commonly known design patterns like
-				<a href="http://wikipedia.org/wiki/Model-view-controller" target="_new">MVC</a>
-				and <a href="http://wikipedia.org/wiki/Object-relational_mapping" target="_new">ORM</a>
-				within the convention over configuration paradigm, CakePHP reduces development costs and helps developers write less code.
+				<a href="http://wikipedia.org/wiki/Model-view-controller" target="_new">MVC</a> and
+				<a href="http://wikipedia.org/wiki/Object-relational_mapping" target="_new">ORM</a>
+				within the convention over configuration paradigm, CakePHP reduces development costs
+				and helps developers write less code.
 			</p>
 			<ul class="actions">
 				<li class="download_stable">
@@ -49,13 +51,26 @@
 			<h2>Hot Features</h2>
 			<?php echo $html->image('hot-features.png', array('class' => 'image png'))?>
 			<ul class="features">
-			   	<li><strong>No Configuration</strong> - Set-up the database and let the magic begin</li>
-			   	<li><strong>Extremely Simple</strong> - Just look at the name...It's Cake</li>
-				<li><strong>Active, Friendly Community</strong> - Join us #cakephp on IRC. We'd love to help you get started.</li>
-			   	<li><strong>Flexible License</strong> - Distributed under the MIT License</li>
-			   	<li><strong>Clean IP</strong> - Every line of code was written by the CakePHP development team</li>
-			   	<li><strong>Best Practices</strong> - covering security, authentication, and session handling, among the many other features.</li>
-			   	<li><strong>OO</strong> - Whether you are a seasoned object-oriented programmer or a beginner, you'll feel comfortable</li>
+			   	<li>
+					<strong>No Configuration</strong> - Set-up the database and let the magic
+					begin
+				</li><li>
+					<strong>Extremely Simple</strong> - Just look at the name...It's Cake
+				</li><li>
+					<strong>Active, Friendly Community</strong> - Join us #cakephp on IRC. We'd love
+					to help you get started
+				</li><li>
+					<strong>Flexible License</strong> - Distributed under the MIT License
+				</li><li>
+					<strong>Clean IP</strong> - Every line of code was written by the CakePHP
+					development team
+				</li><li>
+					<strong>Best Practices</strong> - covering security, authentication, and session
+					handling, among the many other features
+				</li><li>
+					<strong>OO</strong> - Whether you are a seasoned object-oriented programmer or a
+					beginner, you'll feel comfortable
+				</li>
 			</ul>
 		</div><!--	panel -->
 		<div id="learn" class="panel">
@@ -64,23 +79,56 @@
 			<ul class="features">
 			     <li><a href="http://book.cakephp.org/">The Cookbook</a> (official docs)</li>
 			     <li><a href="http://cakephp.org/screencasts">Screencasts</a></li>
+<<<<<<< Updated upstream:views/pages/home.ctp
 			     <li><a href="http://cakephp.org/files/Resources/CakePHP-1.2-Cheatsheet.pdf">CakePHP cheatsheet</a></li>
 				 <li><a href="http://book.cakephp.org/view/219/the-cakephp-blog-tutorial">1.2 Blog Tutorial</a></li>
 				 <li><a href="http://www.ibm.com/developerworks/opensource/tutorials/os-php-cake1/index.html">IBM: Cook Up Websites Fast (5 part series)</a></li>
+=======
+			     <li><a
+					href="http://cakephp.org/files/Resources/CakePHP-1.2-Cheatsheet.pdf">CakePHP
+					cheatsheet</a>
+				</li><li>
+					<a
+						href="http://book.cakephp.org/view/326/the-cake-blog-tutorial">1.1 Blog
+						Tutorial</a>
+				</li>
+				 <li><a
+						href="http://book.cakephp.org/view/219/the-cakephp-blog-tutorial">1.2 Blog
+						Tutorial</a>
+				</li>
+				 <li><a
+					href="http://www-128.ibm.com/developerworks/edu/os-dw-os-php-cake1.html">IBM:
+					Cook Up Websites Fast (5 part series)</a>
+				</li>
+				 <li><a
+					href="http://www-128.ibm.com/developerworks/edu/os-dw-os-php-wiki1.html">IBM:
+					Build A Production Wiki (5 part series)</a>
+				</li>
+>>>>>>> Stashed changes:views/pages/home.ctp
 				 <li><a href="http://astore.amazon.com/cakesoftwaref-20">CakePHP Book Store</a></li>
 			</ul>
-			<h4 style="margin-top: 20px">for more goodies, <a href="http://bakery.cakephp.org">check out the Bakery</a></h4>
+			<h4 style="margin-top: 20px">
+				for more goodies, <a href="http://bakery.cakephp.org">check out the Bakery</a>
+			</h4>
 		</div><!--	panel -->
 		<div id="interact" class="panel">
 			<h2>Interact</h2>
 			<?php echo $html->image('interact.png', array('class' => 'image png'))?>
 			<p style="margin-bottom: 8px">
-				The CakePHP community is vast and interacts in numerous ways. The <strong><a href="http://groups.google.com/group/cake-php">Google Group</a></strong>
-				is a great forum for posting questions and comments. There are also many in the irc channel, <strong><a href="irc://irc.freenode.net/cakephp">#cakephp on irc.freenode.net</a></strong>,
-				including the core developers and long time community members.
+				The CakePHP community is vast and interacts in numerous ways. The
+				<strong><a href="http://groups.google.com/group/cake-php">Google Group</a></strong>
+				is a great forum for posting questions and comments. There are also many in the irc
+				channel, <strong><a href="irc://irc.freenode.net/cakephp">#cakephp on
+				irc.freenode.net</a></strong>, including the core developers and long time community
+				members.
 			</p>
 			<?php
-				echo $this->element('channel', array('site' => 'GoogleGroup', 'title'=> 'Latest posts on the google group', 'count' => 2, 'cache' => array('key'=> 'cache_google_group', 'time' => '+20 minutes')));
+				echo $this->element('channel', array(
+					'site' => 'GoogleGroup',
+					'title' => 'Latest posts on the google group',
+					'count' => 2,
+					'cache' => array('key' => 'cache_google_group', 'time' => '+20 minutes')
+				));
 			?>
 		</div><!--	panel -->
 		<div id="read" class="panel">
