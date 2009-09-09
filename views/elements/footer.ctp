@@ -136,7 +136,6 @@
 		<ul>			
 			<li><a href="http://addons.mozilla.org" target="_new">Mozilla Addons</a></li>
 			<li><a href="http://scratch.mit.edu/" target="_new">Scratch by MIT</a></li>
-			<li><a href="http://www.yaledailynews.com" target="_new">Yale Daily News</a></li>
 			<li><a href="http://store.theonion.com/" target="_new">The Onion Store</a></li>
 			<li><a href="http://noserub.com/" target="_new">NoseRub</a></li>
 			<li><a href="http://foamee.com/" target="_new">foamee</a></li>

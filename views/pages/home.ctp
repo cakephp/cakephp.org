@@ -4,8 +4,8 @@
 <div id="breakingnews">
 	<strong>Extra Hot:</strong>
 	<?php echo $html->link(
-		'Release: 1.2.4.8284 Stable',
-		'http://bakery.cakephp.org/articles/view/release-cakephp-1-2-4-8284'
+		'Release: 1.2.5 Stable',
+		'http://bakery.cakephp.org/articles/view/release-cakephp-1-2-5'
 	); ?>
 	&
 	<?php echo $html->link(
