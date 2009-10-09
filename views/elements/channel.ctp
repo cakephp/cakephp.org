@@ -1,6 +1,4 @@
 <?php
-/* SVN FILE: $Id: channel.ctp 671 2008-12-17 21:12:48Z gwoo $ */
-
 if (empty($data) && !empty($site)) {
 	$Feed = ClassRegistry::init('Feed');
 	$data = $Feed->read($site);
@@ -11,7 +9,6 @@ if (empty($data['Rss'])) {
 }
 
 $feed = $data['Rss'];
-//pr($feed);
 if (!empty($feed['Channel'])):
 	$channel = $feed['Channel'];
 

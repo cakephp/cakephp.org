@@ -1,17 +1,12 @@
-<?php /* SVN FILE: $Id: footer.ctp 686 2009-01-16 22:43:58Z gwoo $ */?>
-
 <div id="meta">
 	<div class="box">
 		<div id="conferences">
-			<?php echo $html->link($html->image('conferences/CW09_Speaker.png', array(
+			<?php
+			echo $html->link(
+				$html->image('http://matsuri.cakephp.jp/themed/tokyo09/img/badges/matsurired_en.png', array(
 					'class' => 'image png',
-					'width' => 150
-				)), "http://cw.mtacon.com/schedule/speakers#nate_abele", null, false, false)
-			?>
-			<?php echo $html->link($html->image('conferences/zendcon09_speakerbutton.jpg', array(
-					'class' => 'image png',
-					'width' => 160
-				)), "http://zendcon.com/speakers", null, false, false)
+					'width' => 196)),
+				'http://matsuri.cakephp.jp/', null, false, false);
 			?>
 		</div>
 		<div id="donations">
