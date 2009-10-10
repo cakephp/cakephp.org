@@ -1,13 +1,11 @@
 <div id="meta">
 	<div class="box">
 		<div id="conferences">
-			<?php
-			echo $html->link(
+			<?php echo $html->link(
 				$html->image('http://matsuri.cakephp.jp/themed/tokyo09/img/badges/matsurired_en.png', array(
 					'class' => 'image png',
 					'width' => 196)),
-				'http://matsuri.cakephp.jp/', null, false, false);
-			?>
+				'http://matsuri.cakephp.jp/', null, false, false); ?>
 		</div>
 		<div id="donations">
 			<h3>CakePHP Loves you</h3>
