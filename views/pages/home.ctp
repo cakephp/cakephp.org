@@ -140,7 +140,7 @@
 			</span>
 			<span style="float:left">
 				<ul class="features">
-					<li><a href="http://www.cakedc.com/articles">CakeDC Team</a></li>
+					<li><a href="http://www.cakedc.com">CakeDC Team</a></li>
 			        <li><a href="http://debuggable.com/">Felix and Tim...(and nate?)</a></li>
 					<li><a href="http://www.littlehart.net/atthekeyboard/">GrumpyCanuck</a></li>
 					<li><a href="http://snook.ca/">Snook.ca</a></li>
