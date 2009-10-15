@@ -100,6 +100,7 @@
 
 		</div>
 		<div id="footer">
+			<p>&copy; 2005-<?php echo date('Y'); ?> Cake Software Foundation, Inc.</p>
 			<?php
 				echo '<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_thin_badge"></script>';
 			?>
