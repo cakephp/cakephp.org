@@ -15,6 +15,7 @@
 		}
 	?>
 	<a id="post-a-job" href="http://www.eliteopensourcejobs.com/jobs/add/community_id:48075b46-da18-4009-a658-83a14dddecbf">Post a job</a>
+
 	<table class="rounded" cellspacing="0">
 		<thead>
 			<tr>
@@ -44,4 +45,7 @@
 		<?php endif; ?>
 		<!-- <a href="#" class="job-prev">Prev</a> <a href="#" class="job-next">Next</a> -->
 	</div>
+
+	<div style="padding-left: 20px; padding-top: 20px;"><?php echo $this->element('ads/728x90'); ?></div>
+
 </div>

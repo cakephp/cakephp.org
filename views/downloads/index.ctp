@@ -1,6 +1,8 @@
 <div class="page">
 <h2><?php __('Downloads');?></h2>
 
+<div style="padding-left: 20px;"><?php echo $this->element('ads/728x90'); ?></div>
+
 <h3>
 	<?php echo $html->link('..', array('action' => 'index'))?>
 	<?php
@@ -30,7 +32,7 @@
 ?>
 		<tr<?php echo $class?>>
 			<td><?php echo $html->link($download['name'], array($download['path']), array('class' => 'dir'));?></td>
-			<td>&nbsp</td>
+			<td>&nbsp;</td>
 			<td><?php echo $download['size']['num'];?> <?php echo $download['size']['ext'];?></td>
 		</tr>
 <?php
@@ -69,4 +71,7 @@
 	<em><a href="<?php echo $two['announcement']?>" target="_new">read the announcement</a></em>
 	<em><a href="<?php echo $two['changelog']?>" target="_new">view the changelog</a></em>
 </h4>
+
+<div style="padding-left: 20px; padding-top: 20px;"><?php echo $this->element('ads/728x90'); ?></div>
+
 </div>

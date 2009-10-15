@@ -1,6 +1,9 @@
 <?php /* SVN FILE: $Id: index.ctp 672 2008-12-18 01:04:21Z gwoo $ */?>
 <div class="page">
 <h2><?php __('Planet CakePHP')?></h2>
+
+<div style="padding-left: 20px;"><?php echo $this->element('ads/728x90'); ?></div>
+
 <?php
 if (!empty($data)):
 	$j = 0;
@@ -54,6 +57,9 @@ if (!empty($data)):
 
 endif;
 ?>
+
+<div style="padding-left: 20px;"><?php echo $this->element('ads/728x90'); ?></div>
+
 <div class="channel">
 	<h3>submit a feed</h3>
 	<?php echo $form->create('Feed', array('action' => 'submit'))?>
@@ -74,5 +80,7 @@ endif;
 
 </div>
 <div class="clear"><!----></div>
+
+<div style="padding-left: 20px;"><?php echo $this->element('ads/728x90'); ?></div>
 
 </div>
