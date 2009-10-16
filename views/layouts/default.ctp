@@ -99,17 +99,16 @@
 
 		</div>
 		<div id="footer">
-			<?php
-				echo '<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_thin_badge"></script>';
-			?>
-
+			<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_thin_badge"></script>
 			<?php echo $html->link(
 				$html->image('cake.power.gif', array('alt'=> __("CakePHP: the rapid development php framework", true), 'border'=>"0")),
 				'http://www.cakephp.org/',
 				array('target'=>'_new'), null, false);
 			?>
-			<p><a href="http://www.nolimit-studio.com/" rel="nofollow">design by armando sosa</a></p>
-			<p><?php echo $html->link(__('Privacy', true), array('admin' => false, 'prefix' => null, 'plugin' => null, 'controller' => 'pages', 'action' => 'privacy')); ?></p>
+			<p><a href="http://www.nolimit-studio.com/" rel="nofollow">design by armando sosa</a> |
+			<?php echo $html->link(
+				__('Privacy Policy', true),
+				array('admin' => false, 'prefix' => null, 'plugin' => null, 'controller' => 'pages', 'action' => 'privacy')); ?></p>
 			<p>&copy; 2005-<?php echo date('Y'); ?> <?php echo $html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org'); ?></p>
 		</div>
 	</div>
