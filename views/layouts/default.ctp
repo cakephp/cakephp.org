@@ -1,5 +1,4 @@
 <?php
-/* SVN FILE: $Id: default.ctp 608 2008-09-22 23:45:29Z gwoo $ */
 /**
  *
  * PHP versions 4 and 5
@@ -100,32 +99,31 @@
 
 		</div>
 		<div id="footer">
-			<p>&copy; 2005-<?php echo date('Y'); ?> Cake Software Foundation, Inc.</p>
 			<?php
 				echo '<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_thin_badge"></script>';
 			?>
 
 			<?php echo $html->link(
-							$html->image('cake.power.gif', array('alt'=> __("CakePHP: the rapid development php framework", true), 'border'=>"0")),
-							'http://www.cakephp.org/',
-							array('target'=>'_new'), null, false
-						);
+				$html->image('cake.power.gif', array('alt'=> __("CakePHP: the rapid development php framework", true), 'border'=>"0")),
+				'http://www.cakephp.org/',
+				array('target'=>'_new'), null, false);
 			?>
-			<p><a href="http://www.nolimit-studio.com/">design by armando sosa</a></p>
+			<!-- <p><a href="http://www.nolimit-studio.com/">design by armando sosa</a></p> -->
+			<p>&copy; 2005-<?php echo date('Y'); ?> <?php echo $html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org'); ?></p>
 		</div>
 	</div>
 	<?php echo $cakeDebug; ?>
 	<?php echo $scripts_for_layout; ?>
 	<?php if(env('SERVER_ADDR') != '127.0.0.1'):?>
-			<script type="text/javascript">
-				var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-				document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-			</script>
-			<script type="text/javascript">
-				var pageTracker = _gat._getTracker("UA-743287-4");
-				pageTracker._initData();
-				pageTracker._trackPageview();
-			</script>
+		<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			var pageTracker = _gat._getTracker("UA-743287-4");
+			pageTracker._initData();
+			pageTracker._trackPageview();
+		</script>
 	<?php endif;?>
 </body>
 </html>
