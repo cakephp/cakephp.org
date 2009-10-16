@@ -108,7 +108,7 @@
 				'http://www.cakephp.org/',
 				array('target'=>'_new'), null, false);
 			?>
-			<!-- <p><a href="http://www.nolimit-studio.com/">design by armando sosa</a></p> -->
+			<p><a href="http://www.nolimit-studio.com/" rel="nofollow">design by armando sosa</a></p>
 			<p>&copy; 2005-<?php echo date('Y'); ?> <?php echo $html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org'); ?></p>
 		</div>
 	</div>
