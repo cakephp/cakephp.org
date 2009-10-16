@@ -107,5 +107,6 @@
 		</div><!--	panel -->
 	</div>
 </div>
-
+<div style="padding-left: 20px;"><?php echo $this->element('ads/728x90'); ?></div>
 <?php echo $this->element('footer');?>
+<div style="padding-left: 20px; padding-top: 20px;"><?php echo $this->element('ads/728x90'); ?></div>
