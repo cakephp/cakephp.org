@@ -109,6 +109,7 @@
 				array('target'=>'_new'), null, false);
 			?>
 			<p><a href="http://www.nolimit-studio.com/" rel="nofollow">design by armando sosa</a></p>
+			<p><?php echo $html->link(__('Privacy', true), array('admin' => false, 'prefix' => null, 'plugin' => null, 'controller' => 'pages', 'action' => 'privacy')); ?></p>
 			<p>&copy; 2005-<?php echo date('Y'); ?> <?php echo $html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org'); ?></p>
 		</div>
 	</div>
