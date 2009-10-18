@@ -151,6 +151,4 @@
 	</div> <!-- panels -->
 	<div class="tabs"><ul><li style="position: static; top: auto; display: block; opacity: 1; left: auto;" class="active"><a href="#get-it">Get it now!</a></li><li style="position: static; top: auto; display: block; opacity: 1; left: auto;" class=""><a href="#hot_features">Hot Features</a></li><li style="position: static; top: auto; display: block; opacity: 1; left: auto;" class=""><a href="#learn">Learn</a></li><li style="position: static; top: auto; display: block; opacity: 1; left: auto;" class=""><a href="#interact">Interact</a></li><li style="position: static; top: auto; display: block; opacity: 1; left: auto;" class=""><a href="#read">Read</a></li></ul><a href="#" class="next">»</a><a href="#" class="previous">«</a></div>
 </div><!-- #features.tabs_container -->
-<div style="padding-left: 20px;"><?php echo $this->element('ads/728x90'); ?></div>
 <?php echo $this->element('footer');?>
-<div style="padding-left: 20px; padding-top: 20px;"><?php echo $this->element('ads/728x90'); ?></div>
