@@ -1,4 +1,16 @@
 <?php
+/**
+ * Authorized Ohloh sources
+ *
+ */
+$ohlohSources = array(
+	'gwoo' => strtotime('01 October 2009'),
+	'Nate Abele' => strtotime('01 October 2009'),
+	'mariano.iglesias' => true,
+	'PhpNut' => true,
+	'Mark Story' => true,
+);
+
 if (empty($data) && !empty($site)) {
 	$Feed = ClassRegistry::init('Feed');
 	$data = $Feed->read($site);
@@ -33,7 +45,11 @@ if (!empty($feed['Channel'])):
 			if (isset($channel['Item'][0])):
 				foreach ($channel['Item'] as $key => $item):
 					if ($site == 'Ohloh') {
-						if (!in_array($item['source']['value'], array('gwoo', 'Nate Abele', 'mariano.iglesias', 'Mark Story'))) {
+						if (!in_array($item['source']['value'], array_keys($ohlohSources))) {
+							continue;
+						}
+						if (is_numeric($ohlohSources[$item['source']['value']]) &&
+							strtotime($item['pubDate']) > $ohlohSources[$item['source']['value']]) {
 							continue;
 						}
 						$psuedo = trim($item['title']['pseudo']);
@@ -55,7 +71,11 @@ if (!empty($feed['Channel'])):
 				endforeach;
 			else:
 				if ($site == 'Ohloh') {
-					if (!in_array($item['source']['value'], array('gwoo', 'Nate Abele', 'mariano.iglesias', 'Mark Story'))) {
+					if (!in_array($item['source']['value'], array_keys($ohlohSources))) {
+						continue;
+					}
+					if (is_numeric($ohlohSources[$item['source']['value']]) &&
+						strtotime($item['pubDate']) > $ohlohSources[$item['source']['value']]) {
 						continue;
 					}
 					$psuedo = trim($item['title']['pseudo']);
