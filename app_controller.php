@@ -56,11 +56,11 @@ class AppController extends Controller {
 		$two['changelog'] = 'http://code.cakephp.org/wiki/changelog/1_2_x_x';
 		
 		$three = array(
-			'version' => '1.3-dev', 
-			'date' => 'August 3, 2009',
-			'link' => 'http://cakeforge.org/frs/?group_id=23&release_id=448',
-			'announcement' => 'http://bakery.cakephp.org/articles/view/release-cakephp-1-2-4-8284',
-			'changelog' => '447'
+			'version' => '1.3-alpha', 
+			'date' => 'Nov 4, 2009',
+			'link' => 'http://cakeforge.org/frs/?group_id=23&release_id=452',
+			'announcement' => 'http://bakery.cakephp.org/articles/view/hot-out-of-the-oven-cakephp-1-3-alpha',
+			'changelog' => 'http://code.cakephp.org/wiki/changelog/1_3_0-alpha'
 		);
 
 		$this->set(compact('one', 'two', 'three'));

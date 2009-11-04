@@ -4,13 +4,13 @@
 <div id="breakingnews">
 	<strong>Extra Hot:</strong>
 	<?php echo $html->link(
-		'Release: 1.2.5 Stable',
-		'http://bakery.cakephp.org/articles/view/release-cakephp-1-2-5'
+		'Release: 1.3.0 alpha',
+		'http://bakery.cakephp.org/articles/view/hot-out-of-the-oven-cakephp-1-3-alpha'
 	); ?>
 	&
 	<?php echo $html->link(
-		'1.3-dev',
-		'http://bakery.cakephp.org/articles/view/release-cakephp-1-2-4-8284'
+		'1.2.5 Stable',
+		'http://bakery.cakephp.org/articles/view/release-cakephp-1-2-5'
 	); ?>
 </div>
 
