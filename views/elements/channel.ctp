@@ -5,10 +5,11 @@
  */
 $ohlohSources = array(
 	'gwoo' => strtotime('01 October 2009'),
-	'Nate Abele' => strtotime('01 October 2009'),
-	'mariano.iglesias' => true,
-	'PhpNut' => true,
-	'Mark Story' => true,
+	'nate' => strtotime('01 October 2009'),
+	//'mariano.iglesias' => true,
+	'phpnut' => true,
+	'mark_story' => true,
+	'predominant' => true,
 );
 
 if (empty($data) && !empty($site)) {
@@ -45,11 +46,11 @@ if (!empty($feed['Channel'])):
 			if (isset($channel['Item'][0])):
 				foreach ($channel['Item'] as $key => $item):
 					if ($site == 'Ohloh') {
-						if (!in_array($item['source']['value'], array_keys($ohlohSources))) {
+						if (!in_array($item['author'], array_keys($ohlohSources))) {
 							continue;
 						}
-						if (is_numeric($ohlohSources[$item['source']['value']]) &&
-							strtotime($item['pubDate']) > $ohlohSources[$item['source']['value']]) {
+						if (is_numeric($ohlohSources[$item['author']]) &&
+							strtotime($item['pubDate']) > $ohlohSources[$item['author']]) {
 							continue;
 						}
 						$psuedo = trim($item['title']['pseudo']);
@@ -71,11 +72,11 @@ if (!empty($feed['Channel'])):
 				endforeach;
 			else:
 				if ($site == 'Ohloh') {
-					if (!in_array($item['source']['value'], array_keys($ohlohSources))) {
+					if (!in_array($item['author'], array_keys($ohlohSources))) {
 						continue;
 					}
-					if (is_numeric($ohlohSources[$item['source']['value']]) &&
-						strtotime($item['pubDate']) > $ohlohSources[$item['source']['value']]) {
+					if (is_numeric($ohlohSources[$item['author']]) &&
+						strtotime($item['pubDate']) > $ohlohSources[$item['author']]) {
 						continue;
 					}
 					$psuedo = trim($item['title']['pseudo']);
