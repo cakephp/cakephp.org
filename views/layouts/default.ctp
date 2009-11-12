@@ -33,11 +33,8 @@
 
 	<?php
 		echo $html->charset();
-
 		echo $html->meta('icon');
-
 		echo $html->css('styles');
-
 		echo '<!--[if lte IE 7]>' . $html->css('ieold') . '<![endif]-->';
 	?>
 </head>
@@ -45,8 +42,8 @@
 	<div id="container">
 		<div id="header">
 			<h1><?php
-				$image = $html->image('cake-logo.png',  array('alt' => "CakePHP : the rapid development php framework", 'class' => 'png'));
-				echo $html->link($image, '/', null, null, false);
+				$image = $html->image('cake-logo.png',  array('alt' => 'CakePHP : the rapid development php framework', 'class' => 'png'));
+				echo $html->link($image, '/', array('escape' => false));
 			?></h1>
 			<p class="copy">
 				<?php __('CakePHP enables PHP users at all levels to rapidly develop robust web applications.');?>
@@ -75,6 +72,7 @@
 				<li><a href="http://live.cakephp.org/">Live</a></li>
 				<li><a href="http://cakeforge.org/">Forge</a></li>
 				<li><a href="http://code.cakephp.org/">Code</a></li>
+				<li><a href="http://cakeqs.org/">Questions</a></li>
 			</ul>
 		</div>
 

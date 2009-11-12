@@ -1,11 +1,13 @@
 <div id="meta">
 	<div class="box">
 		<div id="conferences">
+			<!--
 			<?php echo $html->link(
 				$html->image('http://matsuri.cakephp.jp/themed/tokyo09/img/badges/matsurired_en.png', array(
 					'class' => 'image png',
 					'width' => 196)),
 				'http://matsuri.cakephp.jp/', null, false, false); ?>
+			-->
 		</div>
 		<div id="donations">
 			<h3>CakePHP Loves you</h3>
@@ -118,13 +120,14 @@
 	<div id="just_baked">
 		<h3>Just baked</h3>
 		<ul>
+			<li><a href="http://cakeqs.org" target="_new"><?php __('CakePHP Questions'); ?></a></li>
+			<li><a href="http://www.traffictravis.com" target="_new"><?php __('Traffic Travis'); ?></a></li>
 			<li><a href="http://pianomarvel.com/" target="_new"><?php __('Piano Marvel'); ?></a></li>
 			<li><a href="http://www.fachak.com/" target="_new"><?php __('Fachak'); ?></a></li>
 			<li><a href="http://www.missuniverse.com/" target="_new"><?php __('Miss Universe'); ?></a></li>
 			<li><a href="http://www.affilorama.com" target="_new"><?php __('Affilorama'); ?></a></li>
 			<li><a href="http://www.hotscripts.com" target="_new"><?php __('Hot Scripts'); ?></a></li>
 			<li><a href="http://www.baseballboss.com" target="_new"><?php __('Baseball Boss'); ?></a></li>
-			<li><a href="http://www.traffictravis.com" target="_new"><?php __('Traffic Travis'); ?></a></li>
 		</ul>		
 		<h4><a href="http://book.cakephp.org/view/510/Sites-in-the-wild">They are using cakePHP</h4>
 		<ul>			
