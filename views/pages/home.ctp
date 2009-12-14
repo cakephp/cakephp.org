@@ -90,12 +90,12 @@
 					</a>
 				</li>
 				<li>
-					<a href="http://www-128.ibm.com/developerworks/edu/os-dw-os-php-cake1.html">
+					<a href="http://www.ibm.com/developerworks/opensource/tutorials/os-php-cake1/index.html">
 						IBM: Cook Up Websites Fast (5 part series)
 					</a>
 				</li>
 				<li>
-					<a href="http://www-128.ibm.com/developerworks/edu/os-dw-os-php-wiki1.html">
+					<a href="http://www.ibm.com/developerworks/edu/os-dw-os-php-wiki1.html">
 						IBM: Build A Production Wiki (5 part series)
 					</a>
 				</li>
