@@ -61,12 +61,14 @@
 				*/ ?>
 			</ul>
 		</div>
+		<?php /*
 		<div id="secondary_nav">
 			<ul class="navigation">
 				<li><?php echo $html->link('About CakePHP', array('controller' => 'pages', 'action' => 'display', 'features'));?></li>
 				<li><a href="https://trac.cakephp.org/wiki/Contributors">Developers</a></li>
 			</ul>
 		</div>
+		*/ ?>
 		<div id="sites_nav">
 			<?php /*
 			<ul class="navigation">
