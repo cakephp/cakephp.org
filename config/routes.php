@@ -38,9 +38,9 @@
 
 	Router::connect('/search', array('controller' => 'pages', 'action' => 'display', 'search'));
 
-	Router::connect('/planet', array('controller' => 'feeds', 'action' => 'index'));
-
 	Router::connect('/downloads/*', array('controller' => 'downloads', 'action' => 'index'));
+	Router::connect('/planet', array('controller' => 'feeds', 'action' => 'index'));
+	Router::connect('/logos', array('controller' => 'pages', 'action' => 'display', 'logos'));
 
 /**
  * Services
