@@ -35,10 +35,12 @@
 		echo $html->charset();
 		echo $html->meta('icon');
 		echo $html->css('styles');
+		echo $html->css('/csfnavbar/css/style');
 		echo '<!--[if lte IE 7]>' . $html->css('ieold') . '<![endif]-->';
 	?>
 </head>
 <body class="js">
+	<?php echo $this->element('navbar', array('plugin' => 'csfnavbar')); ?>
 	<div id="container">
 		<div id="header">
 			<h1><?php
@@ -64,6 +66,7 @@
 			</ul>
 		</div>
 		<div id="sites_nav">
+			<?php /*
 			<ul class="navigation">
 				<li class="current"><a href="http://cakephp.org/">CakePHP</a></li>
 				<li><a href="http://api.cakephp.org/">API</a></li>
@@ -74,6 +77,7 @@
 				<li><a href="http://code.cakephp.org/">Code</a></li>
 				<li><a href="http://cakeqs.org/">Questions</a></li>
 			</ul>
+			*/ ?>
 		</div>
 
 		<!-- Google CSE Search Box Begins  searchbox_009885676942928220334%3Azpzwk0qnnsk-->
