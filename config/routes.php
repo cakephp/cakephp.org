@@ -35,13 +35,22 @@
  * to use (in this case, /app/views/pages/home.thtml)...
  */
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
-	
+
 	Router::connect('/search', array('controller' => 'pages', 'action' => 'display', 'search'));
-	
+
 	Router::connect('/planet', array('controller' => 'feeds', 'action' => 'index'));
-	
+
 	Router::connect('/downloads/*', array('controller' => 'downloads', 'action' => 'index'));
-	
+
+/**
+ * Services
+ */
+	Router::connect('/services',               array('controller' => 'pages', 'action' => 'display', 'services'));
+	Router::connect('/services/support',       array('controller' => 'pages', 'action' => 'display', 'services'));
+	Router::connect('/services/training',      array('controller' => 'pages', 'action' => 'display', 'services'));
+	Router::connect('/services/consultation',  array('controller' => 'pages', 'action' => 'display', 'services'));
+	Router::connect('/services/certification', array('controller' => 'pages', 'action' => 'display', 'services'));
+
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */
