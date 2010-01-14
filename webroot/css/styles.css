@@ -170,7 +170,6 @@ list-style-image: url("images/arrow.gif");
 */
 
 #container {
-	background: url(../img/cake.icon.gif) no-repeat 2px 6px;
 	position:relative;
 	width:860px;
 	margin:0 auto;
