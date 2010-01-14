@@ -53,10 +53,10 @@
 		</div>
 		<div id="main_nav">
 			<ul class="navigation">
-				<li><?php echo $html->link('Jobs', array('controller' => 'jobs'));?></li>
+				<?php /* <li><?php echo $html->link('Jobs', array('controller' => 'jobs'));?></li> */ ?>
 				<li><?php echo $html->link('Planet', array('controller' => 'feeds'));?></li>
-				<li><?php echo $html->link('Downloads', array('controller' => 'downloads'));?></li>
-				<li><?php echo $html->link('Screencasts', array('controller' => 'screencasts'));?></li>
+				<?php /* <li><?php echo $html->link('Downloads', array('controller' => 'downloads'));?></li> */ ?>
+				<?php /* <li><?php echo $html->link('Screencasts', array('controller' => 'screencasts'));?></li> */ ?>
 			</ul>
 		</div>
 		<div id="secondary_nav">
