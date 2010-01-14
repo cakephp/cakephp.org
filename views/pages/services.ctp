@@ -10,7 +10,7 @@
 		</div>
 
 		<div id="training" class="panel">
-			<?php echo $html->image('hot-features.png', array('class' => 'image'))?>
+			<?php echo $html->image('hot-features.png', array('class' => 'image')); ?>
 			<h2>Training</h2>
 			<p>Undertaking CakePHP work within your organization, and want to ensure your team has the best tools, skills and understanding of the CakePHP Framework and MVC approaches possible? Training for general development, application planning and design, as well as education for preparation before Certification are available.</p>
 			<br/>
@@ -23,7 +23,7 @@
 
 		<div id="consultation" class="panel">
 			<h2>Consultation</h2>
-			<?php echo $html->image('community.png', array('class' => 'image'))?>
+			<?php echo $html->image('community.png', array('class' => 'image')); ?>
 			<p>Through a variety of guided and custom consultation services, we can provide guidance for existing and planned PHP applications. This also includes deployment management, development workflow optimisation, test driven development and more.</p>
 			<br/>
 			<p>Code Review, performance analysis, security audits and standards reporting are also available.</p>
@@ -33,7 +33,7 @@
 
 		<div id="certification" class="panel">
 			<h2>Certification</h2>
-			<?php echo $html->image('learn.png', array('class' => 'image'))?>
+			<?php echo $html->image('learn.png', array('class' => 'image')); ?>
 			<p>CakePHP Certification involves an exam whereby a developers understanding of the CakePHP framework, MVC principles and standards used within CakePHP are tested. The certification examination is performed online, testing a set of real world scenarios and intimate CakePHP specifics.</p>
 			<br/>
 			<p>Certification ensures you'll stand out from the crowd when it comes to job applications. It can also boost your employment value for existing employers, and be a great asset when it comes to salary review.</p>
