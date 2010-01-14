@@ -107,7 +107,6 @@ var Tabs={
 
 }
 
-
-$(document).ready(function(){
+$(function() {
 	CP.init()
 });
