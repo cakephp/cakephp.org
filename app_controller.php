@@ -50,17 +50,17 @@ class AppController extends Controller {
 
 		$two = array();
 		$two['version'] = '1.2.5 Stable';
-		$two['date'] = 'Sept 9, 2009';
-		$two['link'] = 'http://cakeforge.org/frs/?group_id=23&release_id=449';
+		$two['date'] = 'September 9, 2009';
+		$two['link'] = 'http://github.com/cakephp/cakephp1x/downloads';
 		$two['announcement'] = 'http://bakery.cakephp.org/articles/view/release-cakephp-1-2-5';
-		$two['changelog'] = 'http://code.cakephp.org/wiki/changelog/1_2_x_x';
+		$two['changelog'] = 'http://cakephp.lighthouseapp.com/projects/42648/changelog-1-2-5';
 		
 		$three = array(
-			'version' => '1.3-alpha', 
-			'date' => 'Nov 4, 2009',
-			'link' => 'http://cakeforge.org/frs/?group_id=23&release_id=452',
-			'announcement' => 'http://bakery.cakephp.org/articles/view/hot-out-of-the-oven-cakephp-1-3-alpha',
-			'changelog' => 'http://code.cakephp.org/wiki/changelog/1_3_0-alpha'
+			'version' => '1.3-beta', 
+			'date' => 'January 16, 2009',
+			'link' => 'http://github.com/cakephp/cakephp1x/downloads',
+			'announcement' => 'http://bakery.cakephp.org/articles/view/cakephp-1-3-0-beta-has-landed',
+			'changelog' => 'http://cakephp.lighthouseapp.com/projects/42648/changelog-1-3-0-beta'
 		);
 
 		$this->set(compact('one', 'two', 'three'));
