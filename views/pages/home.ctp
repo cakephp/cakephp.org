@@ -9,8 +9,8 @@
 	); ?>
 	&
 	<?php echo $html->link(
-		'1.2.5 Stable',
-		'http://bakery.cakephp.org/articles/view/release-cakephp-1-2-5'
+		'1.2.6 Stable',
+		'http://bakery.cakephp.org/articles/view/release-cakephp-1-2-6'
 	); ?>
 </div>
 
