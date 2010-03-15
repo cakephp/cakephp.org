@@ -136,7 +136,6 @@
 			<li><a href="http://store.theonion.com/" target="_new">The Onion Store</a></li>
 			<li><a href="http://noserub.com/" target="_new">NoseRub</a></li>
 			<li><a href="http://foamee.com/" target="_new">foamee</a></li>
-			<li><a href="http://twimbler.com" target="_new">twimbler</a></li>
 			<li><a href="http://www.mapme.com" target="_new">MapMe</a></li>
 			<li><a href="http://www.zeadoo.com" target="_new">Zeadoo</a></li>
 			<li><a href="http://thechaw.com" target="_new">Chaw</a></li>
