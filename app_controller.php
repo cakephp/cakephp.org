@@ -41,26 +41,28 @@ class AppController extends Controller {
 	var $helpers = array('Html', 'Form', 'Javascript');
 
 	function beforeRender() {
-		$one = array();
-		$one['version'] = 'Stable: 1.1.20.7692';
-		$one['date'] = 'January 1, 2008';
-		$one['link'] = 'http://cakeforge.org/frs/?group_id=23&release_id=428';
-		$one['announcement'] = 'http://bakery.cakephp.org/articles/view/release-cakephp-rc3-the-rc-of-triumph';
-		$one['changelog'] = 'https://trac.cakephp.org/wiki/changelog/1.1.x.x';
+		$one = array(
+			'version' => 'Stable: 1.1.20.7692',
+			'date' => 'January 1, 2008',
+			'link' => 'http://cakeforge.org/frs/?group_id=23&release_id=428',
+			'announcement' => 'http://bakery.cakephp.org/articles/view/release-cakephp-rc3-the-rc-of-triumph',
+			'changelog' => 'https://trac.cakephp.org/wiki/changelog/1.1.x.x'
+		);
 
-		$two = array();
-		$two['version'] = '1.2.5 Stable';
-		$two['date'] = 'September 9, 2009';
-		$two['link'] = 'http://github.com/cakephp/cakephp1x/downloads';
-		$two['announcement'] = 'http://bakery.cakephp.org/articles/view/release-cakephp-1-2-5';
-		$two['changelog'] = 'http://cakephp.lighthouseapp.com/projects/42648/changelog-1-2-5';
+		$two = array(
+			'version' => '1.2.6 Stable',
+			'date' => 'January 29, 2010',
+			'link' => 'http://github.com/cakephp/cakephp1x/downloads',
+			'announcement' => 'http://bakery.cakephp.org/articles/view/release-cakephp-1-2-6',
+			'changelog' => 'http://cakephp.lighthouseapp.com/projects/42648/changelog-1-2-6'
+		);
 		
 		$three = array(
-			'version' => '1.3-beta', 
-			'date' => 'January 16, 2009',
+			'version' => '1.3.0-RC2', 
+			'date' => 'March 14, 2010',
 			'link' => 'http://github.com/cakephp/cakephp1x/downloads',
-			'announcement' => 'http://bakery.cakephp.org/articles/view/cakephp-1-3-0-beta-has-landed',
-			'changelog' => 'http://cakephp.lighthouseapp.com/projects/42648/changelog-1-3-0-beta'
+			'announcement' => 'http://bakery.cakephp.org/articles/view/cakephp-1-3-0-rc2-released',
+			'changelog' => 'http://cakephp.lighthouseapp.com/projects/42648/changelog-1-3-0-RC2'
 		);
 
 		$this->set(compact('one', 'two', 'three'));
