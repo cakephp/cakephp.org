@@ -15,6 +15,17 @@
 	<p>For the publication or promotion of commercial services related to CakePHP development, use of the logos is not permitted without permission from the Cake Software Foundation. For more information regarding the licensing options and capabilities, please contact <a href="mailto:legal@cakefoundation.org">legal@cakefoundation.org</a>.</p>
 
 	<br/>
+	<h4>Logos</h4>
+	<img src="/img/logo/cakephp_logo_250_trans.png" />&nbsp;&nbsp;
+	<img src="/img/logo/cakephp_logo_125_trans.png" /><br/>
+	
+	<br/>
+	<img src="/img/logo/powered_by_cake_logo_25.png" />&nbsp;&nbsp;
+	<img src="/img/cake.power.gif" /><br/>
+
+
+
+	<br/>
 	<h2><?php __('iPad Wallpapers'); ?></h2>
 	<p>Got a fancy new iPad but stuck with that <strong>boring</strong> Apple background? Spruce up your iPad with one of these CakePHP backgrounds specifically designed for the iPad.</p>
 	<?php
