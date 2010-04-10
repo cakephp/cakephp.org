@@ -13,4 +13,33 @@
 	<br/>
 	<h4>Where can't I use it?</h4>
 	<p>For the publication or promotion of commercial services related to CakePHP development, use of the logos is not permitted without permission from the Cake Software Foundation. For more information regarding the licensing options and capabilities, please contact <a href="mailto:legal@cakefoundation.org">legal@cakefoundation.org</a>.</p>
+
+	<br/>
+	<h2><?php __('iPad Wallpapers'); ?></h2>
+	<p>Got a fancy new iPad but stuck with that <strong>boring</strong> Apple background? Spruce up your iPad with one of these CakePHP backgrounds specifically designed for the iPad.</p>
+	<?php
+	$images = array(
+		'CakePHP-1.1-iPad01-light',
+		'CakePHP-1.1-iPad01',
+		'CakePHP-1.1-iPad02-light',
+		'CakePHP-1.1-iPad02',
+		'CakePHP-1.2-iPad01-light',
+		'CakePHP-1.2-iPad01',
+		'CakePHP-1.2-iPad02-light',
+		'CakePHP-1.2-iPad02',
+		'CakePHP-1.2-iPad03-light',
+		'CakePHP-1.2-iPad03',
+	);
+	$count = 0;
+	foreach ($images as $image):
+		if ($count % 4 === 0):
+			echo '<br/>';
+		endif;
+		echo $html->link(
+			$html->image('ipad-wallpaper/' . $image . '-thumb.png'),
+			'/img/ipad-wallpaper/' . $image . '.png',
+			array('escape' => false, 'style' => 'padding: 5px 5px 5px 0'));
+		$count++;
+	endforeach;
+	?>
 </div>
