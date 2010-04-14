@@ -38,7 +38,7 @@
  */
 class AppController extends Controller {
 
-	var $helpers = array('Html', 'Form', 'Javascript');
+	var $helpers = array('Html', 'Form', 'Javascript', 'Session');
 
 	function beforeRender() {
 		$one = array(
@@ -58,11 +58,11 @@ class AppController extends Controller {
 		);
 		
 		$three = array(
-			'version' => '1.3.0-RC2', 
-			'date' => 'March 14, 2010',
+			'version' => '1.3.0-RC4', 
+			'date' => 'April 13, 2010',
 			'link' => 'http://github.com/cakephp/cakephp1x/downloads',
-			'announcement' => 'http://bakery.cakephp.org/articles/view/cakephp-1-3-0-rc2-released',
-			'changelog' => 'http://cakephp.lighthouseapp.com/projects/42648/changelog-1-3-0-RC2'
+			'announcement' => 'http://bakery.cakephp.org/articles/view/cakephp-1-3-0-rc4-has-arisen',
+			'changelog' => 'http://cakephp.lighthouseapp.com/projects/42648/changelog-1-3-0-RC4'
 		);
 
 		$this->set(compact('one', 'two', 'three'));
