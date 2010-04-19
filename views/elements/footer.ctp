@@ -1,6 +1,7 @@
 <div id="meta">
 	<div class="box">
 		<div id="conferences">
+			<a href="http://www.oscon.com/oscon2010/public/schedule/detail/13214"><img src="http://assets.en.oreilly.com/1/event/45/oscon2010_spkr_125x125.jpg" width="125" height="125"  border="0"  alt="OSCON 2010" title="OSCON 2010" /></a>
 			<!--
 			<?php echo $html->link(
 				$html->image('http://matsuri.cakephp.jp/themed/tokyo09/img/badges/matsurired_en.png', array(
