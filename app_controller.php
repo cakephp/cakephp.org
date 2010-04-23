@@ -50,11 +50,11 @@ class AppController extends Controller {
 		);
 
 		$two = array(
-			'version' => '1.2.6 Stable',
-			'date' => 'January 29, 2010',
+			'version' => '1.2.7 Stable',
+			'date' => 'April 23, 2010',
 			'link' => 'http://github.com/cakephp/cakephp1x/downloads',
-			'announcement' => 'http://bakery.cakephp.org/articles/view/release-cakephp-1-2-6',
-			'changelog' => 'http://cakephp.lighthouseapp.com/projects/42648/changelog-1-2-6'
+			'announcement' => 'http://bakery.cakephp.org/articles/view/cakephp-1-2-7-released',
+			'changelog' => 'http://cakephp.lighthouseapp.com/projects/42648/changelog-1-2-7'
 		);
 		
 		$three = array(
