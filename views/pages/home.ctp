@@ -33,11 +33,11 @@
 			</p>
 			<ul class="actions">
 				<li class="download_stable">
-					<a href="<?php echo htmlentities($two['link'])?>"><?php echo $two['version']?></a>
+					<a href="<?php echo htmlentities($three['link'])?>"><?php echo $three['version']?></a>
 				</li>
-				<li><a href="<?php echo htmlentities($three['link'])?>">download: <?php echo $three['version']?></a></li>
-				<li><a href="<?php echo $two['announcement']?>" target="_new">read the announcement</a></li>
-				<li><a href="<?php echo $two['changelog']?>" target="_new">view the changelog</a></li>
+				<li><a href="<?php echo $three['announcement']?>" target="_new">read the announcement</a></li>
+				<li><a href="<?php echo $three['changelog']?>" target="_new">view the changelog</a></li>
+				<li><a href="<?php echo htmlentities($two['link'])?>">download: <?php echo $two['version']?></a></li>
 				<li><?php echo $html->link('discover more hot features', array('features'));?></li>
 				<p style="padding-left: 14px">
 					<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_users_logo"></script>
