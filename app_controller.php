@@ -58,7 +58,7 @@ class AppController extends Controller {
 		);
 		
 		$three = array(
-			'version' => '1.3.0', 
+			'version' => '1.3.0 Stable', 
 			'date' => 'April 24, 2010',
 			'link' => 'http://github.com/cakephp/cakephp1x/downloads',
 			'announcement' => 'http://bakery.cakephp.org/articles/view/announcing-cakephp-1-3-0-stable',
