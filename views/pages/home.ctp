@@ -1,6 +1,8 @@
 <?php /* SVN FILE: $Id: home.ctp 685 2009-01-16 21:35:58Z gwoo $ */?>
 <?php $javascript->link(array('jquery', 'interface', 'common'), false);?>
 
+<a href="http://cakefest.org" target="_blank"><img style="margin-left: 20px; margin-bottom: 10px;" src="http://cakefest.org/img/banners/cakefest2010-820x140.png" alt="CakeFest: The CakePHP Conference"></a>
+
 <div id="breakingnews">
 	<strong>Extra Hot:</strong>
 	<?php echo $html->link(
