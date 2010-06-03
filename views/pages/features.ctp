@@ -4,9 +4,9 @@
 		<?php
 		echo $this->element('features/basic');
 		echo $this->element('features/advanced');
-		echo $this->element('features/get-it');
-		echo $this->element('features/learn');
-		echo $this->element('features/interact');
+		echo $this->element('home/download');
+		echo $this->element('home/learn');
+		echo $this->element('home/interact');
 		?>
 	</div>
 </div>
