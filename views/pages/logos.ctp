@@ -1,21 +1,28 @@
 <div class="page">
 	<h2><?php __('CakePHP Logos and Assets')?></h2>
-	<p>The logos linked below are licensed as <a href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial</a>; please link to <a href="http://cakephp.org">http://cakephp.org</a> as the attribution when using them (either as a hyperlink or simply the text).</p>
+	<p><?php echo sprintf(
+			__('The logos linked below are licensed as %s; please link to %s as the attribution when using them (either as a hyperlink or simply the text).', true),
+			'<a href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial</a>',
+			'<a href="http://cakephp.org">http://cakephp.org</a>'); ?></p>
 
 	<br/>
-	<p>If you intend on making money or promoting a commercial service by using these logos, you must first contact <a href="mailto:legal@cakefoundation.org">legal@cakefoundation.org</a> for licensing information before using the logo or any associated assets.</p>
+	<p><?php echo sprintf(
+		__('If you intend on making money or promoting a commercial service by using these logos, you must first contact %s for licensing information before using the logo or any associated assets.', true),
+		'<a href="mailto:legal@cakefoundation.org">legal@cakefoundation.org</a>'); ?></p>
 
 	<br/>
-	<h4>Where can I use it?</h4>
-	<p>If you run, own or operate a personal blog, you may use the logo to discuss CakePHP, or place the logo to show your support and that you use the framework.</p>
-	<p>If you have built a product and wish to identify that the product or site is powered by CakePHP, you may also use the assets for this purpose.</p>
+	<h4><?php __('Where can I use it?'); ?></h4>
+	<p><?php __('If you run, own or operate a personal blog, you may use the logo to discuss CakePHP, or place the logo to show your support and that you use the framework.'); ?></p>
+	<p><?php __('If you have built a product and wish to identify that the product or site is powered by CakePHP, you may also use the assets for this purpose.'); ?></p>
 	
 	<br/>
-	<h4>Where can't I use it?</h4>
-	<p>For the publication or promotion of commercial services related to CakePHP development, use of the logos is not permitted without permission from the Cake Software Foundation. For more information regarding the licensing options and capabilities, please contact <a href="mailto:legal@cakefoundation.org">legal@cakefoundation.org</a>.</p>
+	<h4><?php __('Where can\'t I use it?'); ?></h4>
+	<p><?php echo sprintf(
+		__('For the publication or promotion of commercial services related to CakePHP development, use of the logos is not permitted without permission from the Cake Software Foundation. For more information regarding the licensing options and capabilities, please contact %s.', true),
+		'<a href="mailto:legal@cakefoundation.org">legal@cakefoundation.org</a>'); ?></p>
 
 	<br/>
-	<h4>Logos</h4>
+	<h4><?php __('Logos'); ?></h4>
 	<img src="/img/logo/cakephp_logo_250_trans.png" />&nbsp;&nbsp;
 	<img src="/img/logo/cakephp_logo_125_trans.png" /><br/>
 	
@@ -27,7 +34,9 @@
 
 	<br/>
 	<h2><?php __('iPad Wallpapers'); ?></h2>
-	<p>Got a fancy new iPad but stuck with that <strong>boring</strong> Apple background? Spruce up your iPad with one of these CakePHP backgrounds specifically designed for the iPad.</p>
+	<p><?php echo sprintf(
+		__('Got a fancy new iPad but stuck with that %s Apple background? Spruce up your iPad with one of these CakePHP backgrounds specifically designed for the iPad.', true),
+		'<strong>' . __('boring', true) . '</strong>'); ?></p>
 	<?php
 	$images = array(
 		'CakePHP-1.1-iPad01-light',

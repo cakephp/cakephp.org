@@ -1,4 +1,3 @@
-<?php /* SVN FILE: $Id: search.ctp 560 2008-06-04 22:41:44Z gwoo $ */?>
 <!-- Google Search Result Snippet Begins -->
 <div class="page">
 <!-- Google CSE Search Box Begins  searchbox_009885676942928220334%3Azpzwk0qnnsk-->
