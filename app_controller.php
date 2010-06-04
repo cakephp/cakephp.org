@@ -42,7 +42,7 @@ class AppController extends Controller {
 
 	function beforeRender() {
 		$one = array(
-			'version' => 'Stable: 1.1.20.7692',
+			'version' => __('Stable', true) . ': 1.1.20.7692',
 			'date' => 'January 1, 2008',
 			'link' => 'http://cakeforge.org/frs/?group_id=23&release_id=428',
 			'announcement' => 'http://bakery.cakephp.org/articles/view/release-cakephp-rc3-the-rc-of-triumph',
@@ -50,7 +50,7 @@ class AppController extends Controller {
 		);
 
 		$two = array(
-			'version' => '1.2.7 Stable',
+			'version' => '1.2.7 ' . __('Stable', true),
 			'date' => 'April 23, 2010',
 			'link' => 'http://github.com/cakephp/cakephp1x/downloads',
 			'announcement' => 'http://bakery.cakephp.org/articles/view/cakephp-1-2-7-released',
@@ -58,7 +58,7 @@ class AppController extends Controller {
 		);
 		
 		$three = array(
-			'version' => '1.3.1 Stable', 
+			'version' => '1.3.1 ' . __('Stable', true), 
 			'date' => 'May 29, 2010',
 			'link' => 'http://github.com/cakephp/cakephp/downloads',
 			'announcement' => 'http://bakery.cakephp.org/articles/view/cakephp-1-3-1-now-with-delicious-sprinkles',
