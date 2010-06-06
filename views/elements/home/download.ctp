@@ -1,6 +1,6 @@
 <div id="get-it" class="panel">
 	<h2><?php __('Get it now!'); ?></h2>
-	<a href="<?php echo htmlentities($two['link'])?>"><?php echo $html->image('new.png', array('class' => 'image png'))?></a>
+	<a href="<?php echo htmlentities($three['link'])?>"><?php echo $html->image('new.png', array('class' => 'image png'))?></a>
 	<p class="left">
 		<?php __('CakePHP is a rapid development framework for PHP that provides an extensible architecture for developing, maintaining, and deploying applications.'); ?>
 		<?php echo sprintf(__('Using commonly known design patterns like %s and %s within the convention over configuration paradigm, CakePHP reduces development costs and helps developers write less code.', true),
