@@ -1,6 +1,6 @@
 <div id="interact" class="panel">
 	<h2><?php __('Interact'); ?></h2>
-	<?php echo $html->image('interact.png', array('class' => 'image png'))?>
+	<?php echo $this->Html->image('interact.png', array('class' => 'image png'))?>
 	<p style="margin-bottom: 8px">
 		<?php __('The CakePHP community is vast and interacts in numerous ways.'); ?>
 		<?php echo sprintf(
