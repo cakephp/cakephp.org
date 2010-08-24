@@ -1,5 +1,5 @@
 <?php
-$javascript->link(array('jquery', 'google_maps', 'http://maps.google.com/maps?file=api&v=2&key='.$key), false);
+$this->Html->script(array('jquery', 'google_maps', 'http://maps.google.com/maps?file=api&v=2&key='.$key), false);
 
 ?>
 <div class="page">

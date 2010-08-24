@@ -1,5 +1,5 @@
 <?php
-	echo $javascript->link('qtobject');
+	echo $this->Html->script('qtobject');
 ?>
 <div class="page">
 <h2 style="text-align: center"><?php echo $screencast['Screencast']['title']?></h2>
