@@ -14,7 +14,12 @@ class Feed extends AppModel {
 		return $this->_schema = array('url' => array('type' => 'text'));
 	}
 
-	var $validate = array('url' => array('required' => VALID_NOT_EMPTY, 'valid' => 'url'));
+	var $validate = array(
+		'url' => array(
+			'required' => 'notEmpty',
+			'valid' => 'url'
+		)
+	);
 
 	var $__feeds = array(
 		//'Nate\'s blog' => 'http://cake.insertdesignhere.com/posts.rss',
