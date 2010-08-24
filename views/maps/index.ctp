@@ -40,38 +40,38 @@ $this->Html->script(array('jquery', 'google_maps', 'http://maps.google.com/maps?
 <?php endif;?>
 
 	<div class="form">
-		<?php echo $form->create('Map', array('url' => $paginator->url(array('action' => 'index'), true)));?>
+		<?php echo $this->Form->create('Map', array('url' => $paginator->url(array('action' => 'index'), true)));?>
 			<fieldset>
 				<legend><?php __('Add your mark');?></legend>
 				<?php
-					echo $form->error('no_address_found', 'The latitude and longitude were not valid, or the address could not be found.');
+					echo $this->Form->error('no_address_found', 'The latitude and longitude were not valid, or the address could not be found.');
 				?>
 				<div class="left" style="margin-right: 60px;">
 				<?php
-					echo $form->input('title');
-					echo $form->input('description');
-					echo $form->input('filter', array('label' => '2 + 9 = ?'));
+					echo $this->Form->input('title');
+					echo $this->Form->input('description');
+					echo $this->Form->input('filter', array('label' => '2 + 9 = ?'));
 				?>
 				</div>
 				<div class="right">
-					<?php echo $form->input('address', array('cols' => 30, 'rows' => 2));?>
+					<?php echo $this->Form->input('address', array('cols' => 30, 'rows' => 2));?>
 
 					<div id="message">enter your address or click the map to set your position</div>
 
 					<?php
-						echo $form->input('latitude', array('error' => 'invalid latitude'));
-						echo $form->input('longitude', array('error' => 'invalid longitude'));
+						echo $this->Form->input('latitude', array('error' => 'invalid latitude'));
+						echo $this->Form->input('longitude', array('error' => 'invalid longitude'));
 					?>
 				</div>
 				<div class="clear">
 				<?php
-					echo $form->hidden('Other.name');
-					echo $form->hidden('Other.body');
+					echo $this->Form->hidden('Other.name');
+					echo $this->Form->hidden('Other.body');
 				?>
 				</div>
 			</fieldset>
 
-		<?php echo $form->end('Add');?>
+		<?php echo $this->Form->end('Add');?>
 	</div>
 	<div class="clear"><!----></div>
 </div>
