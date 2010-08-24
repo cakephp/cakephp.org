@@ -6,7 +6,7 @@ $this->Html->script(array('jquery', 'google_maps', 'http://maps.google.com/maps?
 	<h2><?php __('Where are all the bakers?');?></h2>
 	<p>
 		<?php
-			echo $paginator->counter(array(
+			echo $this->Paginator->counter(array(
 			'format' => __('Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%', true)
 			));
 		?>
@@ -33,14 +33,14 @@ $this->Html->script(array('jquery', 'google_maps', 'http://maps.google.com/maps?
 ?>
 </div>
 <div class="paging">
-	<?php echo $paginator->prev('<< '.__('previous', true), array(), null, array('class'=>'disabled'));?>
- 	<?php echo $paginator->numbers(array('modulus' => 12, 'first' => 3, 'last' => 3));?>
-	<?php echo $paginator->next(__('next', true).' >>', array(), null, array('class'=>'disabled'));?>
+	<?php echo $this->Paginator->prev('<< '.__('previous', true), array(), null, array('class'=>'disabled'));?>
+ 	<?php echo $this->Paginator->numbers(array('modulus' => 12, 'first' => 3, 'last' => 3));?>
+	<?php echo $this->Paginator->next(__('next', true).' >>', array(), null, array('class'=>'disabled'));?>
 </div>
 <?php endif;?>
 
 	<div class="form">
-		<?php echo $this->Form->create('Map', array('url' => $paginator->url(array('action' => 'index'), true)));?>
+		<?php echo $this->Form->create('Map', array('url' => $this->Paginator->url(array('action' => 'index'), true)));?>
 			<fieldset>
 				<legend><?php __('Add your mark');?></legend>
 				<?php
