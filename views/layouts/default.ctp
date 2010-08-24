@@ -7,11 +7,11 @@
 	</title>
 
 	<?php
-		echo $html->charset();
-		echo $html->meta('icon');
-		echo $html->css('styles');
-		echo $html->css('/csfnavbar/css/style');
-		echo '<!--[if lte IE 7]>' . $html->css('ieold') . '<![endif]-->';
+		echo $this->Html->charset();
+		echo $this->Html->meta('icon');
+		echo $this->Html->css('styles');
+		echo $this->Html->css('/csfnavbar/css/style');
+		echo '<!--[if lte IE 7]>' . $this->Html->css('ieold') . '<![endif]-->';
 	?>
 </head>
 <body class="js">
@@ -19,8 +19,8 @@
 	<div id="container">
 		<div id="header">
 			<h1><?php
-				$image = $html->image('cake-logo.png',  array('alt' => 'CakePHP : the rapid development php framework', 'class' => 'png'));
-				echo $html->link($image, '/', array('escape' => false));
+				$image = $this->Html->image('cake-logo.png',  array('alt' => 'CakePHP : the rapid development php framework', 'class' => 'png'));
+				echo $this->Html->link($image, '/', array('escape' => false));
 			?></h1>
 			<p class="copy">
 				<?php __('CakePHP enables PHP users at all levels to rapidly develop robust web applications.');?>
@@ -29,17 +29,17 @@
 		<div id="main_nav">
 			<ul class="navigation">
 				<?php /*
-				<li><?php echo $html->link('Jobs', array('controller' => 'jobs'));?></li>
-				<li><?php echo $html->link('Planet', array('controller' => 'feeds'));?></li>
-				<li><?php echo $html->link('Downloads', array('controller' => 'downloads'));?></li>
-				<li><?php echo $html->link('Screencasts', array('controller' => 'screencasts'));?></li>
+				<li><?php echo $this->Html->link('Jobs', array('controller' => 'jobs'));?></li>
+				<li><?php echo $this->Html->link('Planet', array('controller' => 'feeds'));?></li>
+				<li><?php echo $this->Html->link('Downloads', array('controller' => 'downloads'));?></li>
+				<li><?php echo $this->Html->link('Screencasts', array('controller' => 'screencasts'));?></li>
 				*/ ?>
 			</ul>
 		</div>
 		<?php /*
 		<div id="secondary_nav">
 			<ul class="navigation">
-				<li><?php echo $html->link('About CakePHP', array('controller' => 'pages', 'action' => 'display', 'features'));?></li>
+				<li><?php echo $this->Html->link('About CakePHP', array('controller' => 'pages', 'action' => 'display', 'features'));?></li>
 				<li><a href="https://trac.cakephp.org/wiki/Contributors">Developers</a></li>
 			</ul>
 		</div>
@@ -60,7 +60,7 @@
 		</div>
 
 		<!-- Google CSE Search Box Begins  searchbox_009885676942928220334%3Azpzwk0qnnsk-->
-		<form action="<?php echo $html->url('/pages/search', true)?>" id="search">
+		<form action="<?php echo $this->Html->url('/pages/search', true)?>" id="search">
 		  <input type="hidden" name="cx" value="009885676942928220334:zpzwk0qnnsk" />
 		  <input type="hidden" name="cof" value="FORID:11" />
 		  <label for="search_term">Search</label>
@@ -81,8 +81,8 @@
 		</div>
 		<div id="footer">
 			<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_thin_badge"></script>
-			<?php echo $html->link(
-				$html->image(
+			<?php echo $this->Html->link(
+				$this->Html->image(
 					'cake.power.gif',
 					array(
 						'alt'=> __("CakePHP: the rapid development php framework", true),
@@ -93,10 +93,10 @@
 					'target' => '_new',
 					'escape' => false)); ?>
 			<p><a href="http://www.nolimit-studio.com/" rel="nofollow"><?php __('design by'); ?> armando sosa</a> |
-			<?php echo $html->link(
+			<?php echo $this->Html->link(
 				__('Privacy Policy', true),
 				array('admin' => false, 'prefix' => null, 'plugin' => null, 'controller' => 'pages', 'action' => 'privacy')); ?></p>
-			<p>&copy; 2005-<?php echo date('Y'); ?> <?php echo $html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org'); ?></p>
+			<p>&copy; 2005-<?php echo date('Y'); ?> <?php echo $this->Html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org'); ?></p>
 		</div>
 	</div>
 	<?php echo $scripts_for_layout; ?>

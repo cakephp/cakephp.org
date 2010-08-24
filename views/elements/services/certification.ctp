@@ -1,6 +1,6 @@
 <div id="certification" class="panel">
 	<h2><?php __('Certification'); ?></h2>
-	<?php echo $html->image('learn.png', array('class' => 'image')); ?>
+	<?php echo $this->Html->image('learn.png', array('class' => 'image')); ?>
 	<p><?php __('CakePHP Certification involves an exam whereby a developers understanding of the CakePHP framework, MVC principles and standards used within CakePHP are tested.'); ?>
 		<?php __('The certification examination is performed online, testing a set of real world scenarios and intimate CakePHP specifics.'); ?></p>
 	<br/>

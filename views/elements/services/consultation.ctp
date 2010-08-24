@@ -1,6 +1,6 @@
 <div id="consultation" class="panel">
 	<h2><?php __('Consultation'); ?></h2>
-	<?php echo $html->image('community.png', array('class' => 'image')); ?>
+	<?php echo $this->Html->image('community.png', array('class' => 'image')); ?>
 	<p><?php __('Through a variety of guided and custom consultation services, we can provide guidance for existing and planned PHP applications.'); ?>
 		<?php __('This also includes deployment management, development workflow optimisation, test driven development and more.'); ?></p>
 	<br/>

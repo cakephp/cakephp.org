@@ -55,8 +55,8 @@
 		if ($count % 4 === 0):
 			echo '<br/>';
 		endif;
-		echo $html->link(
-			$html->image('ipad-wallpaper/' . $image . '-thumb.png'),
+		echo $this->Html->link(
+			$this->Html->image('ipad-wallpaper/' . $image . '-thumb.png'),
 			'/img/ipad-wallpaper/' . $image . '.png',
 			array('escape' => false, 'style' => 'padding: 5px 5px 5px 0'));
 		$count++;

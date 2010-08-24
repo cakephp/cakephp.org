@@ -1,4 +1,4 @@
-<?php $html->css('jobs', null, array(), false); ?>
+<?php $this->Html->css('jobs', null, array(), false); ?>
 
 <div class="page">
 
@@ -32,8 +32,8 @@
 					<?php continue; ?>
 				<?php endif; ?>
 				<td><?php echo h($job['Job']['location']); ?></td>
-				<td><?php echo $html->link($job['Job']['company'], $job['Job']['url']); ?></td>
-				<td><?php echo $html->link($job['Job']['title'], $job['Job']['url']); ?></td>
+				<td><?php echo $this->Html->link($job['Job']['company'], $job['Job']['url']); ?></td>
+				<td><?php echo $this->Html->link($job['Job']['title'], $job['Job']['url']); ?></td>
 			</tr>
 		<?php endforeach; ?>
 		</tbody>

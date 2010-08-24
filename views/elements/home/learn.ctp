@@ -1,6 +1,6 @@
 <div id="learn" class="panel">
 	<h2><?php __('Learn'); ?></h2>
-	<?php echo $html->image('learn.png', array('class' => 'image png'))?>
+	<?php echo $this->Html->image('learn.png', array('class' => 'image png'))?>
 	<ul class="features">
 	    <li><a href="http://book.cakephp.org/"><?php __('The Cookbook'); ?></a> (<?php __('official docs'); ?>)</li>
 	    <li><a href="http://cakephp.org/screencasts"><?php __('Screencasts'); ?></a></li>

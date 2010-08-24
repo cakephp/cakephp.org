@@ -4,12 +4,12 @@
 <div style="padding-left: 20px;"><?php echo $this->element('ads/728x90'); ?></div>
 
 <h3>
-	<?php echo $html->link('..', array('action' => 'index'))?>
+	<?php echo $this->Html->link('..', array('action' => 'index'))?>
 	<?php
 	$path = '/';
 	foreach ((array)$args as $part):
 		$path .= $part . '/';
-		echo '/' . $html->link($part, array($path));
+		echo '/' . $this->Html->link($part, array($path));
 	endforeach;
 	echo '/' . $current;
 	?>
@@ -31,7 +31,7 @@
 		}
 		?>
 		<tr<?php echo $class?>>
-			<td><?php echo $html->link($download['name'], array($download['path']), array('class' => 'dir'));?></td>
+			<td><?php echo $this->Html->link($download['name'], array($download['path']), array('class' => 'dir'));?></td>
 			<td>&nbsp;</td>
 			<td><?php echo $download['size']['num'];?> <?php echo $download['size']['ext'];?></td>
 		</tr>
@@ -46,7 +46,7 @@
 		}
 		?>
 		<tr<?php echo $class?>>
-			<td><?php echo $html->link($download['name'], $download['path']);?></td>
+			<td><?php echo $this->Html->link($download['name'], $download['path']);?></td>
 			<td><?php echo $download['md5'];?></td>
 			<td><?php echo $download['size']['num'];?> <?php echo $download['size']['ext'];?></td>
 		</tr>

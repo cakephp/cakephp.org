@@ -1,5 +1,5 @@
 <div id="advanced" class="panel">
-	<?php echo $html->image('hot-features.png', array('class' => 'image'))?>
+	<?php echo $this->Html->image('hot-features.png', array('class' => 'image'))?>
 	<h2><?php __('There\'s More'); ?></h2>
 	<ul class="features">
 		<li><?php __('Internationalization and Localization with static translations in gettext style or dynamic translations of model data.'); ?></li>

@@ -1,9 +1,9 @@
 <div id="hot_features" class="panel">
-	<p class="right" style="margin: 10px 6px"><?php echo $html->link(
+	<p class="right" style="margin: 10px 6px"><?php echo $this->Html->link(
 		__('read about all the features', true),
 		array('controller' => 'pages', 'action' => 'display', 'features')); ?></p>
 	<h2><?php __('Hot Features'); ?></h2>
-	<?php echo $html->image('hot-features.png', array('class' => 'image png')); ?>
+	<?php echo $this->Html->image('hot-features.png', array('class' => 'image png')); ?>
 	<ul class="features">
 		<li><strong><?php __('No Configuration'); ?></strong> - <?php __('Set-up the database and let the magic begin'); ?></li>
 		<li><strong><?php __('Extremely Simple'); ?></strong> - <?php __('Just look at the name...It\'s Cake'); ?></li>

@@ -55,9 +55,9 @@
 </div>
 <div class="actions">
 	<ul>
-		<li><?php echo $html->link(__('Edit Screencast', true), array('action'=>'edit', $screencast['Screencast']['id'])); ?> </li>
-		<li><?php echo $html->link(__('Delete Screencast', true), array('action'=>'delete', $screencast['Screencast']['id']), null, sprintf(__('Are you sure you want to delete # %s?', true), $screencast['Screencast']['id'])); ?> </li>
-		<li><?php echo $html->link(__('List Screencasts', true), array('action'=>'index')); ?> </li>
-		<li><?php echo $html->link(__('New Screencast', true), array('action'=>'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('Edit Screencast', true), array('action'=>'edit', $screencast['Screencast']['id'])); ?> </li>
+		<li><?php echo $this->Html->link(__('Delete Screencast', true), array('action'=>'delete', $screencast['Screencast']['id']), null, sprintf(__('Are you sure you want to delete # %s?', true), $screencast['Screencast']['id'])); ?> </li>
+		<li><?php echo $this->Html->link(__('List Screencasts', true), array('action'=>'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Screencast', true), array('action'=>'add')); ?> </li>
 	</ul>
 </div>

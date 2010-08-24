@@ -1,4 +1,4 @@
-<?php $javascript->link(array('jquery', 'interface', 'common', 'services-switcher'), false);?>
+<?php $this->Html->script(array('jquery', 'interface', 'common', 'services-switcher'), false);?>
 <div id="features" class="tab-container">
 	<div style="overflow: visible; display: block; left: 0px;" class="panels">
 		<?php

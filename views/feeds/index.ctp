@@ -24,7 +24,7 @@ if (!empty($data)):
 			}
 			echo '<div class="channel">';
 
-				echo '<h3>' . $html->link($channel['title'], $channel['link'], array('escape' => false));
+				echo '<h3>' . $this->Html->link($channel['title'], $channel['link'], array('escape' => false));
 				if ($site === 'Ohloh') {
 					echo '<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_thin_badge"></script>';
 				}
@@ -52,7 +52,7 @@ if (!empty($data)):
 							$class = ' class="zebra"';
 						}
 
-						echo '<li'.$class.'>' . $html->link($item['title'], $item['link'], array('escape' => false)); 
+						echo '<li'.$class.'>' . $this->Html->link($item['title'], $item['link'], array('escape' => false)); 
 						if ($site == 'Ohloh') {
 							echo ' <em>(<a href="' . $item['source']['url'] . '">' . $item['source']['value'] . '</a>)</em>';
 						}
@@ -74,9 +74,9 @@ endif;
 
 <div class="channel">
 	<h3>submit a feed</h3>
-	<?php echo $form->create('Feed', array('action' => 'submit'))?>
+	<?php echo $this->Form->create('Feed', array('action' => 'submit'))?>
 	<?php
-		echo $form->input('url', array('label' => false, 'rows'=>'2', 'cols'=>'40',
+		echo $this->Form->input('url', array('label' => false, 'rows'=>'2', 'cols'=>'40',
 			'error' => array(
 				'valid' => __('Please specify a valid url', true),
 				'required' => __('Please specify a valid url', true)
@@ -85,10 +85,10 @@ endif;
 		);
 	?>
 	<div class="clear">
-		<?php echo $form->input('Other.name');?>
-		<?php echo $form->input('Other.email');?>
+		<?php echo $this->Form->input('Other.name');?>
+		<?php echo $this->Form->input('Other.email');?>
 	</div>
-	<?php echo $form->end('Send')?>
+	<?php echo $this->Form->end('Send')?>
 
 </div>
 <div class="clear"><!----></div>

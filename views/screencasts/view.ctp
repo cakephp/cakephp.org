@@ -17,6 +17,6 @@
 		</noscript>
 	</div>
 	<p>
-		<?php echo $html->link('more screencasts', array('action' => 'index'));?>
+		<?php echo $this->Html->link('more screencasts', array('action' => 'index'));?>
 	</p>
 </div>

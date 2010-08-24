@@ -37,7 +37,7 @@ if (!empty($feed['Channel'])):
 		$count = 50;
 	}
 
-	echo '<h3>' . $html->link($title, $channel['link']).'</h3>';
+	echo '<h3>' . $this->Html->link($title, $channel['link']).'</h3>';
 
 	echo '<div class="channel">';
 
@@ -61,7 +61,7 @@ if (!empty($feed['Channel'])):
 					if ($i++ > $count) {
 						break;
 					}
-					echo '<li>' . $html->link($item['title'], $item['link'], array('escape' => false));
+					echo '<li>' . $this->Html->link($item['title'], $item['link'], array('escape' => false));
 
 					if ($site == 'Ohloh') {
 						echo ' <em>(<a href="' . $item['source']['url'] . '">' . $item['source']['value'] . ')</a></em>';
@@ -85,7 +85,7 @@ if (!empty($feed['Channel'])):
 					}
 				}
 			
-				echo '<li>' . $html->link($item['title'], $item['link'], array('escape' => false));
+				echo '<li>' . $this->Html->link($item['title'], $item['link'], array('escape' => false));
 
 				if ($site == 'Ohloh') {
 					echo ' <em>(<a href="' . $item['source']['url'] . '">' . $item['source']['value'] . ')</a></em>';

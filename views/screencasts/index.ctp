@@ -2,7 +2,7 @@
 <h2>
 <em style="float:right; margin-top: 6px;">
 <a href="http://www.apple.com/quicktime/download/">
-    <?php echo $html->image('qt.jpg',array('alt'=>'download quicktime'))?>
+    <?php echo $this->Html->image('qt.jpg',array('alt'=>'download quicktime'))?>
     download the latest quicktime
 </a>
 </em>
@@ -15,15 +15,15 @@ Screencasts are here!
 	<?php $adCount++; ?>
 	<div style="float:left; width: 190px; margin: 40px 0;">
 		<?php if(!empty($screencast['Screencast']['image'])): ?>
-			<?php echo $html->link(
-				$html->image($screencast['Screencast']['image'], array('alt'=>$screencast['Screencast']['title'])),
+			<?php echo $this->Html->link(
+				$this->Html->image($screencast['Screencast']['image'], array('alt'=>$screencast['Screencast']['title'])),
 				'/screencasts/view/' . $screencast['Screencast']['id'],
 				null, null, false); ?>
 		<?php endif; ?>
 	</div>
 
 	<div style="float:left; width:550px; margin: 32px 0;">
-		<h2><?php echo $html->link($screencast['Screencast']['title'], '/screencasts/view/'.$screencast['Screencast']['id']);?></h2>
+		<h2><?php echo $this->Html->link($screencast['Screencast']['title'], '/screencasts/view/'.$screencast['Screencast']['id']);?></h2>
 		<p><i>produced by:</i> <?php echo $screencast['Screencast']['producer'];?></p>
 		<p>
 			<i>size:</i> <?php echo $screencast['Screencast']['size'];?>
@@ -43,9 +43,9 @@ Screencasts are here!
 <?php endforeach;?>
 
 <div class="paging">
-	<?php echo $paginator->prev('<< '.__('previous', true), array(), null, array('class'=>'disabled'));?>
- | 	<?php echo $paginator->numbers();?>
-	<?php echo $paginator->next(__('next', true).' >>', array(), null, array('class'=>'disabled'));?>
+	<?php echo $this->Paginator->prev('<< '.__('previous', true), array(), null, array('class'=>'disabled'));?>
+ | 	<?php echo $this->Paginator->numbers();?>
+	<?php echo $this->Paginator->next(__('next', true).' >>', array(), null, array('class'=>'disabled'));?>
 </div>
 
 <div style="padding-left: 20px;"><?php echo $this->element('ads/728x90'); ?></div>
