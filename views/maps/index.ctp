@@ -24,8 +24,8 @@ $this->Html->script(array('jquery', 'google_maps', 'http://maps.google.com/maps?
 	}
 	?>
 	<div class="geo<?php echo $class?>">
-		<a href="#map" class="marker"><h4><?php echo $html->clean($mark['Map']['title']);?></h4></a>
-		<span class="description"><?php echo $html->clean($mark['Map']['description']);?></span>
+		<a href="#map" class="marker"><h4><?php echo $this->Html->clean($mark['Map']['title']);?></h4></a>
+		<span class="description"><?php echo $this->Html->clean($mark['Map']['description']);?></span>
 		<abbr class="latitude" title="<?php echo $mark['Map']['latitude'];?>"></abbr>
 		<abbr class="longitude" title="<?php echo $mark['Map']['longitude'];?>"></abbr>
 	</div>

@@ -1,7 +1,7 @@
 <!-- Google Search Result Snippet Begins -->
 <div class="page">
 <!-- Google CSE Search Box Begins  searchbox_009885676942928220334%3Azpzwk0qnnsk-->
-<form action="<?php echo $html->url('/pages/search', true)?>" id="search2">
+<form action="<?php echo $this->Html->url('/pages/search', true)?>" id="search2">
   <input type="hidden" name="cx" value="009885676942928220334:zpzwk0qnnsk" />
   <input type="hidden" name="cof" value="FORID:11" />
   <label for="search_term">Search</label>
