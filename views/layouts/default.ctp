@@ -82,10 +82,16 @@
 		<div id="footer">
 			<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_thin_badge"></script>
 			<?php echo $html->link(
-				$html->image('cake.power.gif', array('alt'=> __("CakePHP: the rapid development php framework", true), 'border'=>"0")),
+				$html->image(
+					'cake.power.gif',
+					array(
+						'alt'=> __("CakePHP: the rapid development php framework", true),
+						'border' => '0'
+					)),
 				'http://www.cakephp.org/',
-				array('target'=>'_new'), null, false);
-			?>
+				array(
+					'target' => '_new',
+					'escape' => false)); ?>
 			<p><a href="http://www.nolimit-studio.com/" rel="nofollow"><?php __('design by'); ?> armando sosa</a> |
 			<?php echo $html->link(
 				__('Privacy Policy', true),
@@ -93,7 +99,6 @@
 			<p>&copy; 2005-<?php echo date('Y'); ?> <?php echo $html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org'); ?></p>
 		</div>
 	</div>
-	<?php echo $cakeDebug; ?>
 	<?php echo $scripts_for_layout; ?>
 	<?php if(env('SERVER_ADDR') != '127.0.0.1'):?>
 		<script type="text/javascript">
