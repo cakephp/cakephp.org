@@ -1,27 +1,59 @@
 <?php
-//App::import('Core', 'Xml');
-
+/**
+ * Feed Model
+ *
+ * @package cakephp
+ * @subpackage cakephp.models
+ */
 class Feed extends AppModel {
 
-	var $useTable = false;
+/**
+ * Table to use
+ *
+ * @var mixed String for table name, or false for no table.
+ */
+	public $useTable = false;
 
-	function __construct($id = null, $table = null, $ds = null) {
+/**
+ * Constructor
+ *
+ * @param mixed $id Feed ID
+ * @param mixed $table Table name
+ * @param mixed $ds Datasource
+ */
+	public function __construct($id = null, $table = null, $ds = null) {
 		parent::__construct($id, $table, $ds);
 		Cache::config('feed', array('engine' => 'File', 'serialize' => true));
 	}
 
-	function schema() {
+/**
+ * Get model schema
+ *
+ * @return array Schema
+ */
+	public function schema() {
 		return $this->_schema = array('url' => array('type' => 'text'));
 	}
 
-	var $validate = array(
+
+/**
+ * Validation
+ *
+ * @var array
+ */
+	public $validate = array(
 		'url' => array(
 			'required' => 'notEmpty',
 			'valid' => 'url'
 		)
 	);
 
-	var $__feeds = array(
+/**
+ * Feeds
+ *
+ * @var array
+ */
+	private $__feeds = array(
 		//'Nate\'s blog' => 'http://cake.insertdesignhere.com/posts.rss',
 		//'With Cake' => 'http://withcake.com/posts/rss',
 		'Ohloh' => 'http://www.ohloh.net/projects/cakephp/messages.rss',
@@ -35,31 +67,35 @@ class Feed extends AppModel {
 		//'Jippi' => 'http://www.cakephp.nu/feed'
 	);
 
-	//var $__feeds = array('Google Group' => 'http://groups.google.com/group/cake-php/feed/rss_v2_0_msgs.xml');
-
-	function findAll() {
-
-			App::import(array('Xml', 'HttpSocket'));
-
-			$socket =& new HttpSocket();
-
-			$data = array();
-			foreach ($this->__feeds as $name => $feed) {
-				$fed = Cache::read($name . '_feed_data', 'feed');
-				if (empty($fed)) {
-					$get = $socket->get($feed);
-					$rss = new Xml($get);
-					$fed = Set::reverse($rss);
-					Cache::write($name . '_feed_data', $fed, array('config' => 'feed', 'duration' => '+20 minutes'));
-				}
-
-				$data[$name] = $fed;
-
+/**
+ * Find All
+ *
+ * @return array Results
+ */
+	public function findAll() {
+		App::import(array('Xml', 'HttpSocket'));
+		$socket =& new HttpSocket();
+		$data = array();
+		foreach ($this->__feeds as $name => $feed) {
+			$fed = Cache::read($name . '_feed_data', 'feed');
+			if (empty($fed)) {
+				$get = $socket->get($feed);
+				$rss = new Xml($get);
+				$fed = Set::reverse($rss);
+				Cache::write($name . '_feed_data', $fed, 'feed');
 			}
+			$data[$name] = $fed;
+		}
 		return $data;
 	}
 
-	function read($feed) {
+/**
+ * Read feeds from cache.
+ *
+ * @param string $feed 
+ * @return array Results
+ */
+	public function read($feed) {
 		$data = Cache::read($feed . '_feed_data', 'feed');
 		if (empty($data)) {
 			$data = $this->findAll();
@@ -67,7 +103,6 @@ class Feed extends AppModel {
 				return $data[$feed];
 			}
 		}
-
 		return $data;
 	}
 }
