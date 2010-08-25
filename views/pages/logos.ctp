@@ -13,7 +13,7 @@
 	<br/>
 	<h4><?php __('Where can I use it?'); ?></h4>
 	<p><?php __('If you run, own or operate a personal blog, you may use the logo to discuss CakePHP, or place the logo to show your support and that you use the framework.'); ?></p>
-	<p><?php __('If you have built a product and wish to identify that the product or site is powered by CakePHP, you may also use the assets for this purpose.'); ?></p>
+	<p><?php __('If you intend to use the CakePHP logo to promote a service or product you must first obtain written permission from the Cake Software Foundation.'); ?> <?php __('You may use the "powered by" logos to let the world know that your site or product is built with CakePHP.'); ?></p>
 	
 	<br/>
 	<h4><?php __('Where can\'t I use it?'); ?></h4>
