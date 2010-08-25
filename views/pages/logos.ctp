@@ -2,7 +2,7 @@
 	<h2><?php __('CakePHP Logos and Assets')?></h2>
 	<p><?php echo sprintf(
 			__('The logos linked below are licensed as %s; please link to %s as the attribution when using them (either as a hyperlink or simply the text).', true),
-			'<a href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial</a>',
+			'<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported</a>',
 			'<a href="http://cakephp.org">http://cakephp.org</a>'); ?></p>
 
 	<br/>
