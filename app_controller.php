@@ -38,8 +38,18 @@
  */
 class AppController extends Controller {
 
+/**
+ * Helpers
+ *
+ * @var array
+ */
 	var $helpers = array('Html', 'Form', 'Javascript', 'Session');
 
+/**
+ * Before Render
+ *
+ * @return void
+ */
 	function beforeRender() {
 		$one = array(
 			'version' => __('Stable', true) . ': 1.1.20.7692',
@@ -58,11 +68,11 @@ class AppController extends Controller {
 		);
 		
 		$three = array(
-			'version' => '1.3.3 ' . __('Stable', true), 
-			'date' => 'July 18, 2010',
+			'version' => '1.3.4 ' . __('Stable', true), 
+			'date' => 'September 12, 2010',
 			'link' => 'http://github.com/cakephp/cakephp/downloads',
-			'announcement' => 'http://bakery.cakephp.org/articles/view/cakephp-1-3-3-rainbow-icing-edition-released',
-			'changelog' => 'http://cakephp.lighthouseapp.com/projects/42648/changelog-1-3-3'
+			'announcement' => 'http://bakery.cakephp.org/articles/view/cakephp-1-3-4-released',
+			'changelog' => 'http://cakephp.lighthouseapp.com/projects/42648/changelog-1-3-4'
 		);
 
 		$this->set(compact('one', 'two', 'three'));
