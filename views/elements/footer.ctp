@@ -130,7 +130,7 @@
 			<li><a href="http://www.hotscripts.com" target="_new"><?php __('Hot Scripts'); ?></a></li>
 			<li><a href="http://www.baseballboss.com" target="_new"><?php __('Baseball Boss'); ?></a></li>
 		</ul>		
-		<h4><a href="http://book.cakephp.org/view/510/Sites-in-the-wild">They are using cakePHP</h4>
+		<h4><a href="http://book.cakephp.org/view/510/Sites-in-the-wild">They are using CakePHP</h4>
 		<ul>			
 			<li><a href="http://addons.mozilla.org" target="_new">Mozilla Addons</a></li>
 			<li><a href="http://scratch.mit.edu/" target="_new">Scratch by MIT</a></li>
