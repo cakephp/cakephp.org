@@ -121,7 +121,6 @@
 	<div id="just_baked">
 		<h3>Just baked</h3>
 		<ul>
-			<li><a href="http://croogo.org" target="_new"><?php __('Croogo'); ?></a></li>
 			<li><a href="http://cakeqs.org" target="_new"><?php __('CakePHP Questions'); ?></a></li>
 			<li><a href="http://www.traffictravis.com" target="_new"><?php __('Traffic Travis'); ?></a></li>
 			<li><a href="http://pianomarvel.com/" target="_new"><?php __('Piano Marvel'); ?></a></li>
@@ -133,6 +132,7 @@
 		</ul>		
 		<h4><a href="http://book.cakephp.org/view/510/Sites-in-the-wild">They are using CakePHP</h4>
 		<ul>			
+			<li><a href="http://croogo.org" target="_new">Croogo</a></li>
 			<li><a href="http://addons.mozilla.org" target="_new">Mozilla Addons</a></li>
 			<li><a href="http://scratch.mit.edu/" target="_new">Scratch by MIT</a></li>
 			<li><a href="http://store.theonion.com/" target="_new">The Onion Store</a></li>
