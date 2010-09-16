@@ -9,6 +9,7 @@
 	<?php
 		echo $this->Html->charset();
 		echo $this->Html->meta('icon');
+		echo $this->element('ie9-jumplist');
 		echo $this->Html->css('styles');
 		echo $this->Html->css('/csfnavbar/css/style');
 		echo '<!--[if lte IE 7]>' . $this->Html->css('ieold') . '<![endif]-->';
