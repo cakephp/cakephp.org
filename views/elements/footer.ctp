@@ -121,6 +121,7 @@
 	<div id="just_baked">
 		<h3>Just baked</h3>
 		<ul>
+			<li><a href="http://croogo.org" target="_new"><?php __('Croogo'); ?></a></li>
 			<li><a href="http://cakeqs.org" target="_new"><?php __('CakePHP Questions'); ?></a></li>
 			<li><a href="http://www.traffictravis.com" target="_new"><?php __('Traffic Travis'); ?></a></li>
 			<li><a href="http://pianomarvel.com/" target="_new"><?php __('Piano Marvel'); ?></a></li>
