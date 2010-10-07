@@ -1,7 +1,5 @@
 <?php $this->Html->script(array('jquery', 'interface', 'common'), false); ?>
 
-<a href="http://cakefest.org" target="_blank"><img style="margin-left: 20px; margin-bottom: 10px;" src="http://cakefest.org/img/banners/cakefest2010-820x140.png" alt="<?php __('CakeFest: The CakePHP Conference'); ?>"></a>
-
 <?php echo $this->element('home/breaking-news'); ?>
 
 <div id="features" class="tab-container">
