@@ -61,10 +61,10 @@ if (!empty($feed['Channel'])):
 					if ($i++ > $count) {
 						break;
 					}
-					echo '<li>' . $this->Html->link($item['title'], $item['link'], array('escape' => false));
+					echo '<li>' . $this->Html->link($item['title'], $item['link']);
 
 					if ($site == 'Ohloh') {
-						echo ' <em>(<a href="' . $item['source']['url'] . '">' . $item['source']['value'] . ')</a></em>';
+						echo ' <em>(<a href="' . $item['source']['url'] . '">' .h($item['source']['value']) . ')</a></em>';
 					}
 
 					echo '</li>';
