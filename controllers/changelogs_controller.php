@@ -23,7 +23,6 @@ class ChangelogsController extends AppController {
  */
 	public function index() {
 		$tags = $this->Changelog->tags();
-		debug($tags);
 		$this->set('tags', $tags);
 	}
 
