@@ -53,9 +53,11 @@ class Changelog extends AppModel {
  */
 	public function tags() {
 		extract(self::$_settings);
-		$gitdir = $path . $repo . DS . '.git';
+		$gitdir = escapeshellcmd($path . $repo . DS . '.git');
+		$git = escapeshellcmd($git);
 		$tags = explode("\n", trim(`${git} --git-dir=${gitdir} tag`));
 		usort($tags, array('Changelog', 'sort'));
+		debug($tags);
 		if (empty($tags)) {
 			return false;
 		}
