@@ -57,7 +57,6 @@ class Changelog extends AppModel {
 		$git = escapeshellcmd($git);
 		$tags = explode("\n", trim(`${git} --git-dir=${gitdir} tag`));
 		usort($tags, array('Changelog', 'sort'));
-		debug($tags);
 		if (empty($tags)) {
 			return false;
 		}
@@ -94,5 +93,33 @@ class Changelog extends AppModel {
 		}
 
 		return version_compare($fromMatches['iteration'], $toMatches['iteration']);
+	}
+
+/**
+ * Get changes for the specified tag
+ *
+ * @param string $tag 
+ * @return void
+ * @author Graham Weldon
+ */
+	public function changes($tag) {
+		$tags = $this->tags();
+		$index = array_search($tag, $tags);
+		if ($index === false) {
+			return false;
+		}
+		extract(self::$_settings);
+		$gitdir = escapeshellcmd($path . $repo . DS . '.git');
+		$git = escapeshellcmd($git);
+		$tag = escapeshellcmd($tag);
+		$previous = escapeshellcmd($tags[$index + 1]);
+		$format = '';
+		$commits = explode("\n", trim(`$git --git-dir=${gitdir} rev-list --no-merges --oneline ${tag} ^${previous} ${format}`));
+		$changes = array();
+		foreach ($commits as $commit) {
+			preg_match('/^([^ ]+) (.*)$/', $commit, $matches);
+			$changes[$matches[1]] = $matches[2];
+		}
+		return $changes;
 	}
 }

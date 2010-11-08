@@ -38,5 +38,7 @@ class ChangelogsController extends AppController {
 			$this->setAction('index');
 			return;
 		}
+		$this->set('tag', $tag);
+		$this->set('changes', $this->Changelog->changes($tag));
 	}
 }
