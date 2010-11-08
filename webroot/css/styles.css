@@ -748,8 +748,18 @@ a.white {
     display: inline;
 }
 .changelogs ul {
-    margin: 1em 0 1em 1em;
+    margin: 1em 0 1em 2em;
+}
+.changelogs .series {
+	margin-top: 1em;
+	display: block;
+	width: 250px;
+	float: left;
 }
 .changelogs li {
     margin-bottom: 1em;
+}
+.changelogs li a {
+	color: #E32;
+	font-family: monospace;
 }

@@ -2,6 +2,7 @@
 	<h2><?php __('Changelogs'); ?></h2>
 	<p><?php __('Select a version below to view its changelog.'); ?></p>
 	
+	<div>
 	<ul>
 	<?php
 	$previous = null;
@@ -11,9 +12,10 @@
 			$previous = $matches['series'];
 			?>
 			</ul>
-			<br/><br/>
+			</div>
+			<div class="series">
 			<h3><?php echo sprintf(__('%s series', true), $matches['series']); ?> </h3>
-			<ul style="margin-left: 20px;">
+			<ul>
 			<?php
 		}
 		?>
@@ -24,4 +26,6 @@
 	endforeach;
 	?>
 	</ul>
+	</div>
+	<div class="clear"></div>
 </div>
