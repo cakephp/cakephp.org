@@ -1,14 +1,11 @@
 <div id="meta">
 	<div class="box">
 		<div id="conferences">
-			<!--
-			<a href="http://www.oscon.com/oscon2010/public/schedule/detail/13214"><img src="http://assets.en.oreilly.com/1/event/45/oscon2010_spkr_125x125.jpg" width="125" height="125"  border="0"  alt="OSCON 2010" title="OSCON 2010" /></a>
 			<?php echo $this->Html->link(
-				$this->Html->image('http://matsuri.cakephp.jp/themed/tokyo09/img/badges/matsurired_en.png', array(
+				$this->Html->image('http://2010.osdc.com.au/sites/default/files/imagecache/wysiwyg_imageupload_preview/wysiwyg_imageupload/1/osdc2010.png', array(
 					'class' => 'image png',
 					'width' => 196)),
-				'http://matsuri.cakephp.jp/', null, false, false); ?>
-			-->
+				'http://2010.osdc.com.au/proposal/31/re-imagining-cakephp-path-20', array('escape' => false)); ?>
 		</div>
 		<div id="donations">
 			<h3>CakePHP Loves you</h3>
