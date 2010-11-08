@@ -61,7 +61,7 @@ class Changelog extends AppModel {
 		if (empty($tags)) {
 			return false;
 		}
-		return $tags;
+		return array_reverse($tags);
 	}
 
 /**
