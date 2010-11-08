@@ -61,7 +61,7 @@ class Changelog extends AppModel {
 			return $cached;
 		}
 		
-		$gitdir = escapeshellcmd($path . $repo . DS . '.git');
+		$gitdir = escapeshellcmd($this->_gitDirectory($path, $repo));
 		$git = escapeshellcmd($git);
 		$tags = explode("\n", trim(`${git} --git-dir=${gitdir} tag`));
 		usort($tags, array('Changelog', 'sort'));
@@ -110,7 +110,6 @@ class Changelog extends AppModel {
  *
  * @param string $tag 
  * @return void
- * @author Graham Weldon
  */
 	public function changes($tag) {
 		$tags = $this->tags();
@@ -126,12 +125,11 @@ class Changelog extends AppModel {
 			return $cached;
 		}
 
-		$gitdir = escapeshellcmd($path . $repo . DS . '.git');
+		$gitdir = escapeshellcmd($this->_gitDirectory($path, $repo));
 		$git = escapeshellcmd($git);
 		$tag = escapeshellcmd($tag);
 		$previous = escapeshellcmd($tags[$index + 1]);
-		$format = '';
-		$commits = explode("\n", trim(`$git --git-dir=${gitdir} rev-list --no-merges --oneline ${tag} ^${previous} ${format}`));
+		$commits = explode("\n", trim(`$git --git-dir=${gitdir} rev-list --no-merges --oneline ${tag} ^${previous}`));
 		$changes = array();
 		foreach ($commits as $commit) {
 			preg_match('/^([^ ]+) (.*)$/', $commit, $matches);
@@ -139,5 +137,22 @@ class Changelog extends AppModel {
 		}
 		Cache::write('commits_' . $tag, $changes, $cacheEngine);
 		return $changes;
+	}
+
+/**
+ * Construct the path to the git directory
+ *
+ * @param string $path Path
+ * @param string $repo Repository name
+ * @return string Git directory
+ */
+	protected function _gitDirectory($path, $repo) {
+		$gitdir = $path . $repo;
+		
+		// If the repo name ends with '.git' we're going to assume its a bare repository.
+		if (preg_match('/^.*\.git$/', $repo)) {
+			return $gitdir;
+		}
+		return $gitdir . DS . '.git';
 	}
 }
