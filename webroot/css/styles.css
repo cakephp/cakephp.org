@@ -741,3 +741,15 @@ div#markers .geo {
 a.white {
 	color: #f4f4f4;
 }
+
+/* Changelogs */
+.changelogs h2,
+.changelogs h3 {
+    display: inline;
+}
+.changelogs ul {
+    margin: 1em 0 1em 1em;
+}
+.changelogs li {
+    margin-bottom: 1em;
+}
