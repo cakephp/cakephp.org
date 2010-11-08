@@ -23,6 +23,7 @@ class Changelog extends AppModel {
 		'repo' => null,
 		'path' => null,
 		'git' => '/opt/local/bin/git',
+		'cacheEngine' => 'changelog',
 		'sort' => array(
 			'regex' => '/(?<version>[\d\.]+)(?:-(?<title>[a-zA-Z]+)(?:(?<iteration>\d)?))?/',
 			'titleOrder' => array('dev', 'alpha', 'beta', 'rc'),
@@ -53,6 +54,13 @@ class Changelog extends AppModel {
  */
 	public function tags() {
 		extract(self::$_settings);
+
+		// Check the cache first
+		$cached = Cache::read('changelog_tags');
+		if ($cached !== false) {
+			return $cached;
+		}
+		
 		$gitdir = escapeshellcmd($path . $repo . DS . '.git');
 		$git = escapeshellcmd($git);
 		$tags = explode("\n", trim(`${git} --git-dir=${gitdir} tag`));
@@ -60,7 +68,9 @@ class Changelog extends AppModel {
 		if (empty($tags)) {
 			return false;
 		}
-		return array_reverse($tags);
+		$tags = array_reverse($tags);
+		Cache::write('changelog_tags', $tags);
+		return $tags;
 	}
 
 /**
@@ -109,6 +119,13 @@ class Changelog extends AppModel {
 			return false;
 		}
 		extract(self::$_settings);
+
+		// Check the cache first.
+		$cached = Cache::read('commits_' . $tag, $cacheEngine);
+		if ($cached !== false) {
+			return $cached;
+		}
+
 		$gitdir = escapeshellcmd($path . $repo . DS . '.git');
 		$git = escapeshellcmd($git);
 		$tag = escapeshellcmd($tag);
@@ -120,6 +137,7 @@ class Changelog extends AppModel {
 			preg_match('/^([^ ]+) (.*)$/', $commit, $matches);
 			$changes[$matches[1]] = $matches[2];
 		}
+		Cache::write('commits_' . $tag, $changes, $cacheEngine);
 		return $changes;
 	}
 }
