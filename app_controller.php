@@ -60,19 +60,19 @@ class AppController extends Controller {
 		);
 
 		$two = array(
-			'version' => '1.2.8 ' . __('Stable', true),
-			'date' => 'August 21, 2010',
+			'version' => '1.2.9 ' . __('Stable', true),
+			'date' => 'November 13, 2010',
 			'link' => 'http://github.com/cakephp/cakephp/downloads',
-			'announcement' => 'http://bakery.cakephp.org/articles/view/cakephp-1-2-8-released',
-			'changelog' => 'http://cakephp.lighthouseapp.com/projects/42648/changelog-1-2-8'
+			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2010/11/13/cakephp_1_3_6_and_1_2_9_released',
+			'changelog' => 'http://cakephp.org/changelogs/1.2.9'
 		);
 		
 		$three = array(
-			'version' => '1.3.5 ' . __('Stable', true), 
-			'date' => 'October 24, 2010',
+			'version' => '1.3.6 ' . __('Stable', true), 
+			'date' => 'November 13, 2010',
 			'link' => 'http://github.com/cakephp/cakephp/downloads',
-			'announcement' => 'http://bakery.cakephp.org/articles/view/cakephp-1-3-5-released',
-			'changelog' => 'http://cakephp.lighthouseapp.com/projects/42648/changelog-1-3-5'
+			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2010/11/13/cakephp_1_3_6_and_1_2_9_released',
+			'changelog' => 'http://cakephp.org/changelogs/1.3.6'
 		);
 
 		$this->set(compact('one', 'two', 'three'));
