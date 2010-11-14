@@ -31,6 +31,22 @@ class Changelog extends AppModel {
 	);
 
 /**
+ * Override constructor to provide customisation for settings
+ *
+ * @param string $id Id
+ * @param string $table Table
+ * @param string $ds Datasource
+ */
+	public function __construct($id = false, $table = null, $ds = null) {
+		parent::__construct($id, $table, $ds);
+		
+		$git = Configure::read('Changelog.Git');
+		if (!empty($git)) {
+			self::$_settings['git'] = $git;
+		}
+	}
+
+/**
  * Get and Set the repository name
  *
  * @param string $repo Repository name

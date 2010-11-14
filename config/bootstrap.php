@@ -44,4 +44,5 @@
  */
 //EOF
 
+Configure::write('Changelog.Git', '/usr/local/bin/git');
 Configure::write('Changelog.Repository', 'cakephp.git');
