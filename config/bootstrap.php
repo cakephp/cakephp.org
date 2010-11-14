@@ -43,4 +43,5 @@
  *
  */
 //EOF
-?>
+
+Configure::write('Changelog.Repository', 'cakephp.git');

@@ -51,6 +51,9 @@
 	Router::connect('/services/consultation',  array('controller' => 'pages', 'action' => 'display', 'services'));
 	Router::connect('/services/certification', array('controller' => 'pages', 'action' => 'display', 'services'));
 
+	Router::connect('/changelogs', array('controller' => 'changelogs', 'action' => 'index'));
+	Router::connect('/changelogs/*', array('controller' => 'changelogs', 'action' => 'view'));
+
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */
