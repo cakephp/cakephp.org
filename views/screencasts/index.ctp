@@ -17,8 +17,7 @@ Screencasts are here!
 		<?php if(!empty($screencast['Screencast']['image'])): ?>
 			<?php echo $this->Html->link(
 				$this->Html->image($screencast['Screencast']['image'], array('alt'=>$screencast['Screencast']['title'])),
-				'/screencasts/view/' . $screencast['Screencast']['id'],
-				null, null, false); ?>
+				'/screencasts/view/' . $screencast['Screencast']['id'], array('escape' => false)); ?>
 		<?php endif; ?>
 	</div>
 

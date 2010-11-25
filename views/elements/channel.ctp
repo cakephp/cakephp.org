@@ -43,6 +43,7 @@ if (!empty($feed['Channel'])):
 
 		echo '<ul class="items">';
 			$i = 0;
+			$escape = true;
 			if (isset($channel['Item'][0])):
 				foreach ($channel['Item'] as $key => $item):
 					if ($site == 'Ohloh') {
@@ -57,11 +58,12 @@ if (!empty($feed['Channel'])):
 						if (!empty($psuedo)) {
 							$item['title'] = $item['description'];
 						}
+						$escape = false;
 					}
 					if ($i++ > $count) {
 						break;
 					}
-					echo '<li>' . $this->Html->link($item['title'], $item['link']);
+					echo '<li>' . $this->Html->link($item['title'], $item['link'], compact('escape'));
 
 					if ($site == 'Ohloh') {
 						echo ' <em>(<a href="' . $item['source']['url'] . '">' .h($item['source']['value']) . ')</a></em>';
