@@ -148,7 +148,7 @@
 	</div>
 	<div id="ohloh_journal">
 		<?php
-			echo $this->element('channel', array('site' => 'Ohloh', 'title'=> 'Ohloh Journal', 'count' => 6));
+			// echo $this->element('channel', array('site' => 'Ohloh', 'title'=> 'Ohloh Journal', 'count' => 6));
 		?>
 	</div>
 	<span class="clear:both"></span>
