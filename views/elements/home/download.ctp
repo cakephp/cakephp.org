@@ -13,6 +13,7 @@
 		<li><a href="<?php echo $three['announcement']?>" target="_new"><?php __('read the announcement'); ?></a></li>
 		<li><a href="<?php echo $three['changelog']?>" target="_new"><?php __('view the changelog'); ?></a></li>
 		<li><a href="<?php echo htmlentities($two['link'])?>"><?php __('download'); ?>: <?php echo $two['version']?></a></li>
+		<li><a href="<?php echo htmlentities($one['link'])?>"><?php __('download'); ?>: <?php echo $one['version']?></a></li>
 		<li><?php echo $this->Html->link(__('discover more hot features', true), array('features')); ?></li>
 		<p style="padding-left: 14px">
 			<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_users_logo"></script>
