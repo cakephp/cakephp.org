@@ -133,6 +133,8 @@
 		</ul>		
 		<h4><a href="http://book.cakephp.org/view/510/Sites-in-the-wild">They are using CakePHP</h4>
 		<ul>			
+			<li><a href="http://www.mygasfeed.com">My Gas Feed</a></li>
+			<li><a href="http://www.thedailysave.com">The Daily Save</a></li>
 			<li><a href="http://croogo.org" target="_new">Croogo</a></li>
 			<li><a href="http://scratch.mit.edu/" target="_new">Scratch by MIT</a></li>
 			<li><a href="http://store.theonion.com/" target="_new">The Onion Store</a></li>
@@ -142,7 +144,6 @@
 			<li><a href="http://www.zeadoo.com" target="_new">Zeadoo</a></li>
 			<li><a href="http://thechaw.com" target="_new">Chaw</a></li>
 			<li><a href="http://cghub.com" target="_new">cghub</a></li>
-			<li><a href="http://www.mygasfeed.com">My Gas Feed</a></li>
 		</ul>
 	</div>
 	<div id="bakery_last">
