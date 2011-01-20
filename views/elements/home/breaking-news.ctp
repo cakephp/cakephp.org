@@ -6,6 +6,6 @@
 		'http://bakery.cakephp.org/articles/markstory/2010/12/26/happy_holiday_yule_cake_-_cakephp_2_0-dev_released'); ?>
 	&amp;
 	<?php echo $this->Html->link(
-		' 1.3.6 ' . __('Stable', true),
-		'http://bakery.cakephp.org/articles/markstory/2010/11/13/cakephp_1_3_6_and_1_2_9_released'); ?>
+		' 1.3.7 ' . __('Stable', true),
+		'http://bakery.cakephp.org/articles/markstory/2011/01/17/cakephp_1_3_7_released'); ?>
 </div>

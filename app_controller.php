@@ -68,11 +68,11 @@ class AppController extends Controller {
 		);
 		
 		$three = array(
-			'version' => '1.3.6 ' . __('Stable', true), 
-			'date' => 'November 13, 2010',
+			'version' => '1.3.7 ' . __('Stable', true), 
+			'date' => 'January 19, 2010',
 			'link' => 'http://github.com/cakephp/cakephp/downloads',
-			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2010/11/13/cakephp_1_3_6_and_1_2_9_released',
-			'changelog' => 'http://cakephp.org/changelogs/1.3.6'
+			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2011/01/19/cakephp_1_3_7_released',
+			'changelog' => 'http://cakephp.org/changelogs/1.3.7'
 		);
 
 		$this->set(compact('one', 'two', 'three'));
