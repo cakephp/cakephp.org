@@ -7,5 +7,5 @@
 	&amp;
 	<?php echo $this->Html->link(
 		' 1.3.7 ' . __('Stable', true),
-		'http://bakery.cakephp.org/articles/markstory/2011/01/17/cakephp_1_3_7_released'); ?>
+		'http://bakery.cakephp.org/articles/markstory/2011/01/19/cakephp_1_3_7_released'); ?>
 </div>
