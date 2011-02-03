@@ -43,7 +43,7 @@ class AppController extends Controller {
  *
  * @var array
  */
-	var $helpers = array('Html', 'Form', 'Javascript', 'Session');
+	var $helpers = array('Html', 'Form', 'Javascript', 'Session', 'Js');
 
 /**
  * Before Render

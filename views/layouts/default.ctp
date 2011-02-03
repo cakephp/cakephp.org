@@ -101,6 +101,7 @@
 		</div>
 	</div>
 	<?php echo $scripts_for_layout; ?>
+	<?php echo $this->Js->writeBuffer(); ?>
 	<?php if(env('SERVER_ADDR') != '127.0.0.1'):?>
 		<script type="text/javascript">
 			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
