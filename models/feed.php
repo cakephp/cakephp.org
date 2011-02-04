@@ -57,7 +57,7 @@ class Feed extends AppModel {
 		//'Nate\'s blog' => 'http://cake.insertdesignhere.com/posts.rss',
 		//'With Cake' => 'http://withcake.com/posts/rss',
 		'Ohloh' => 'http://www.ohloh.net/projects/cakephp/messages.rss',
-		'Bakery' => 'http://bakery.cakephp.org/articles/rss',
+		'Bakery' => 'http://bakery.cakephp.org/articles.rss',
 		'Trac' => 'https://trac.cakephp.org/timeline?changeset=on&ticket=on&max=50&daysback=90&format=rss',
 		//'Tickets' => 'http://groups.google.com/group/tickets-cakephp/feed/rss_v2_0_msgs.xml',
 		'GoogleGroup' => 'http://groups.google.com/group/cake-php/feed/rss_v2_0_msgs.xml',
