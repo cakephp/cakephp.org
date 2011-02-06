@@ -8,6 +8,8 @@
  */
 class ScreencastsController extends AppController {
 
+	public $uses = array();
+
 /**
  * Default index action
  *
