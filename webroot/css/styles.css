@@ -348,6 +348,9 @@ body.js .tab-container{
 	overflow:hidden;
 	width: 830px;
 }
+body.js .tab-container.error404{
+	padding-top: 10px;
+}
 
 .tabs{
 	height:50px;
