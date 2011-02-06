@@ -39,4 +39,3 @@
  */
 class AppHelper extends Helper {
 }
-?>

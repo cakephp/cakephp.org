@@ -78,4 +78,3 @@ class AppController extends Controller {
 		$this->set(compact('one', 'two', 'three'));
 	}
 }
-?>
