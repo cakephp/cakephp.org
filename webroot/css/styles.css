@@ -617,6 +617,13 @@ div#breakingnews a {
 	color:#c0c25b;
 }
 
+#footer .hosting {
+	margin: 10px 0;
+	float: left;
+	background-color: #fff;
+	padding: 0 20px 10px;
+}
+
 ul.features {
 	font-size: 85%;
 	margin-top: 10px;

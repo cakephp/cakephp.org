@@ -81,6 +81,12 @@
 
 		</div>
 		<div id="footer">
+			<div class="hosting">
+				<?php echo $this->Html->link(
+					$this->Html->image('rackspace-logo.png'),
+					'http://rackspace.com',
+					array('escape' => false)); ?>
+			</div>
 			<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_thin_badge"></script>
 			<?php echo $this->Html->link(
 				$this->Html->image(
@@ -99,6 +105,7 @@
 				array('admin' => false, 'prefix' => null, 'plugin' => null, 'controller' => 'pages', 'action' => 'privacy')); ?></p>
 			<p>&copy; 2005-<?php echo date('Y'); ?> <?php echo $this->Html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org'); ?></p>
 		</div>
+		<div class="clear"></div>
 	</div>
 	<?php echo $scripts_for_layout; ?>
 	<?php echo $this->Js->writeBuffer(); ?>
