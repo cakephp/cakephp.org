@@ -60,7 +60,7 @@ class AppController extends Controller {
 		);
 
 		$two = array(
-			'version' => '1.2.9 ' . __('Stable', true),
+			'version' => '1.2.10 ' . __('Stable', true),
 			'date' => 'March 20, 2011',
 			'link' => 'http://github.com/cakephp/cakephp/downloads',
 			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2011/03/20/cakephp_1_3_8_and_1_2_10_released',
