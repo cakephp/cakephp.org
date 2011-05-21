@@ -55,7 +55,7 @@ class AppController extends Controller {
 			'version' => '2.0.0-alpha',
 			'date' => 'May 20, 2011',
 			'link' => 'http://github.com/cakephp/cakephp/downloads',
-			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2011/05/20/cakephp_1_3_9_and_2_0_0_alpha_released',
+			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2011/05/21/cakephp_1_3_9_and_2_0_0-alpha_released',
 			'changelog' => 'http://cakephp.org/changelogs/2.0.0-alpha'
 		);
 
@@ -71,7 +71,7 @@ class AppController extends Controller {
 			'version' => '1.3.9 ' . __('Stable', true), 
 			'date' => 'May 20, 2011',
 			'link' => 'http://github.com/cakephp/cakephp/downloads',
-			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2011/05/20/cakephp_1_3_9_and_2_0_0_alpha_released',
+			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2011/05/21/cakephp_1_3_9_and_2_0_0-alpha_released',
 			'changelog' => 'http://cakephp.org/changelogs/1.3.9'
 		);
 
