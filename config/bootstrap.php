@@ -79,6 +79,9 @@ Configure::write('Sites', array(
 	),
 	'Using' => array(
 		array(
+			'name' => 'followmy.tv',
+			'url' => 'http://followmy.tv'),
+		array(
 			'name' => 'My Gas Feed',
 			'url' => 'http://www.mygasfeed.com'),
 		array(
@@ -92,25 +95,25 @@ Configure::write('Sites', array(
 			'url' => 'http://croogo.org'),
 		array(
 			'name' => 'Scratch by MIT',
-			'url' => 'http://scratch.mit.edu/'),
+			'url' => 'http://scratch.mit.edu'),
 		array(
 			'name' => 'The Onion Store',
-			'url' => 'http://store.theonion.com/'),
+			'url' => 'http://store.theonion.com'),
 		array(
 			'name' => 'NoseRub',
-			'url' => 'http://noserub.com/'),
+			'url' => 'http://noserub.com'),
 		array(
 			'name' => 'foamee',
-			'url' => 'http://foamee.com/'),
+			'url' => 'http://foamee.com'),
 		array(
 			'name' => 'MapMe',
 			'url' => 'http://www.mapme.com'),
 		array(
 			'name' => 'Zeadoo',
 			'url' => 'http://www.zeadoo.com'),
-		array(
-			'name' => 'cghub',
-			'url' => 'http://cghub.com'),
+		// array(
+		// 	'name' => 'cghub',
+		// 	'url' => 'http://cghub.com'),
 	),
 ));
 
