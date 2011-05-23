@@ -122,27 +122,15 @@
 	<div id="just_baked">
 		<h3>Just baked</h3>
 		<ul>
-			<li><a href="http://amerpages.com" target="_new"><?php __('Amerpages'); ?></a></li>
-			<li><a href="http://cakeqs.org" target="_new"><?php __('CakePHP Questions'); ?></a></li>
-			<li><a href="http://www.traffictravis.com" target="_new"><?php __('Traffic Travis'); ?></a></li>
-			<li><a href="http://pianomarvel.com/" target="_new"><?php __('Piano Marvel'); ?></a></li>
-			<li><a href="http://www.missuniverse.com/" target="_new"><?php __('Miss Universe'); ?></a></li>
-			<li><a href="http://www.affilorama.com" target="_new"><?php __('Affilorama'); ?></a></li>
-			<li><a href="http://www.hotscripts.com" target="_new"><?php __('Hot Scripts'); ?></a></li>
+			<?php foreach (Configure::read('Sites.JustBaked') as $s): ?>
+				<li><a href="<?php echo $s['url']; ?>" target="_new"><?php echo $s['name']; ?></a></li>
+			<?php endforeach; ?>
 		</ul>		
 		<h4><a href="http://book.cakephp.org/view/510/Sites-in-the-wild">They are using CakePHP</h4>
 		<ul>			
-			<li><a href="http://www.mygasfeed.com">My Gas Feed</a></li>
-			<li><a href="http://www.thedailysave.com">The Daily Save</a></li>
-			<li><a href="http://amblingbooks.com">Ambling Books</a></li>
-			<li><a href="http://croogo.org" target="_new">Croogo</a></li>
-			<li><a href="http://scratch.mit.edu/" target="_new">Scratch by MIT</a></li>
-			<li><a href="http://store.theonion.com/" target="_new">The Onion Store</a></li>
-			<li><a href="http://noserub.com/" target="_new">NoseRub</a></li>
-			<li><a href="http://foamee.com/" target="_new">foamee</a></li>
-			<li><a href="http://www.mapme.com" target="_new">MapMe</a></li>
-			<li><a href="http://www.zeadoo.com" target="_new">Zeadoo</a></li>
-			<li><a href="http://cghub.com" target="_new">cghub</a></li>
+			<?php foreach (Configure::read('Sites.Using') as $s): ?>
+				<li><a href="<?php echo $s['url']; ?>" target="_new"><?php echo $s['name']; ?></a></li>
+			<?php endforeach; ?>
 		</ul>
 	</div>
 	<div id="bakery_last">
