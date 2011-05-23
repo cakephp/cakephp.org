@@ -36,8 +36,8 @@ if (!empty($feed['Channel'])):
 	if (empty($count)) {
 		$count = 50;
 	}
-
-	echo '<h3>' . $this->Html->link($title, $channel['link']).'</h3>';
+//var_dump($channel);
+	echo '<h3>' . $this->Html->link($title, $channel['Link'][0]).'</h3>';
 
 	echo '<div class="channel">';
 
