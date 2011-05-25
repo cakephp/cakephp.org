@@ -36,8 +36,14 @@ if (!empty($feed['Channel'])):
 	if (empty($count)) {
 		$count = 50;
 	}
-//var_dump($channel);
-	echo '<h3>' . $this->Html->link($title, $channel['Link'][0]).'</h3>';
+
+	if ($site == 'Bakery') {
+		$channelLink = $channel['Link'][0];
+	} else {
+		$channelLink = $channel['link'];
+	}
+
+	echo '<h3>' . $this->Html->link($title, $channelLink) . '</h3>';
 
 	echo '<div class="channel">';
 
