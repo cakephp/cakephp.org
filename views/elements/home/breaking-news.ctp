@@ -6,6 +6,6 @@
 		'http://bakery.cakephp.org/articles/markstory/2011/05/21/cakephp_1_3_9_and_2_0_0-alpha_released'); ?>
 	&amp;
 	<?php echo $this->Html->link(
-		' 1.3.9 ' . __('Stable', true),
-		'http://bakery.cakephp.org/articles/markstory/2011/05/21/cakephp_1_3_9_and_2_0_0-alpha_released'); ?>
+		' 1.3.10 ' . __('Stable', true),
+		'http://bakery.cakephp.org/articles/predominant/2011/05/30/cakephp_1_3_10_released'); ?>
 </div>
