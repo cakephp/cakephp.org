@@ -56,6 +56,10 @@ Configure::write('Changelog.Repository', 'cakephp.git');
 Configure::write('Sites', array(
 	'JustBaked' => array(
 		array(
+			'name' => 'Copify',
+			'url' => 'http://copify.com',
+			'title' => 'Copywriting'),
+		array(
 			'name' => 'Amerpages',
 			'url' => 'http://amerpages.com'),
 		array(
@@ -108,9 +112,9 @@ Configure::write('Sites', array(
 		array(
 			'name' => 'MapMe',
 			'url' => 'http://www.mapme.com'),
-		array(
-			'name' => 'Zeadoo',
-			'url' => 'http://www.zeadoo.com'),
+		// array(
+		// 	'name' => 'Zeadoo',
+		// 	'url' => 'http://www.zeadoo.com'),
 		// array(
 		// 	'name' => 'cghub',
 		// 	'url' => 'http://cghub.com'),
