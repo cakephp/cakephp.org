@@ -57,7 +57,7 @@ Configure::write('Sites', array(
 	'JustBaked' => array(
 		array(
 			'name' => 'Copify',
-			'url' => 'http://copify.com',
+			'url' => 'http://www.copify.com',
 			'title' => 'Copywriting'),
 		array(
 			'name' => 'Amerpages',
