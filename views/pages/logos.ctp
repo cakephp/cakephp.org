@@ -33,10 +33,8 @@
 
 
 	<br/>
-	<h2><?php __('iPad Wallpapers'); ?></h2>
-	<p><?php echo sprintf(
-		__('Got a fancy new iPad but stuck with that %s Apple background? Spruce up your iPad with one of these CakePHP backgrounds specifically designed for the iPad.', true),
-		'<strong>' . __('boring', true) . '</strong>'); ?></p>
+	<h2><?php __('Wallpapers'); ?></h2>
+	<p><?php __('These wallpapers are designed as 1024 pixels wide, and square. This makes them appropriate for devices that allow orientation switching while maintaining the design of the wallpaper within the bounds of your device. They\'re also great for desktop backgrounds, or any other place you want a giant sexy CakePHP wallpaper.'); ?></p>
 	<?php
 	$images = array(
 		'CakePHP-1.1-iPad01-light',
