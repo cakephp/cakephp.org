@@ -56,6 +56,9 @@ Configure::write('Changelog.Repository', 'cakephp.git');
 Configure::write('Sites', array(
 	'JustBaked' => array(
 		array(
+			'name' => 'Website Feedback Forms',
+			'url' => 'https://websitefeedbackforms.com/'),
+		array(
 			'name' => 'Copify',
 			'url' => 'http://www.copify.com',
 			'title' => 'Copywriting'),
