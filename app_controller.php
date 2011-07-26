@@ -52,11 +52,11 @@ class AppController extends Controller {
  */
 	function beforeRender() {
 		$one = array(
-			'version' => '2.0.0-alpha',
-			'date' => 'May 20, 2011',
+			'version' => '2.0.0-beta',
+			'date' => 'Jul 26, 2011',
 			'link' => 'http://github.com/cakephp/cakephp/downloads',
-			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2011/05/21/cakephp_1_3_9_and_2_0_0-alpha_released',
-			'changelog' => 'http://cakephp.org/changelogs/2.0.0-alpha'
+			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2011/07/26/cakephp_1_3_11_and_2_0_0-beta_released',
+			'changelog' => 'http://cakephp.org/changelogs/2.0.0-beta'
 		);
 
 		$two = array(
@@ -68,11 +68,11 @@ class AppController extends Controller {
 		);
 		
 		$three = array(
-			'version' => '1.3.10 ' . __('Stable', true), 
-			'date' => 'May 30, 2011',
+			'version' => '1.3.11 ' . __('Stable', true), 
+			'date' => 'Jul 26, 2011',
 			'link' => 'http://github.com/cakephp/cakephp/downloads',
-			'announcement' => 'http://bakery.cakephp.org/articles/predominant/2011/05/30/cakephp_1_3_10_released',
-			'changelog' => 'http://cakephp.org/changelogs/1.3.10'
+			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2011/07/26/cakephp_1_3_11_and_2_0_0-beta_released',
+			'changelog' => 'http://cakephp.org/changelogs/1.3.11'
 		);
 
 		$this->set(compact('one', 'two', 'three'));
