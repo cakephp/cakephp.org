@@ -535,7 +535,7 @@ div#breakingnews a {
 	width: 146px;
 }
 
-.box, #conferences, #donations, #quotes, #just_baked, #bakery_last, #ohloh_journal {
+.box, #conferences, #donations, #quotes, #just_baked, #bakery_last, #ohloh_journal, #publications {
 	float:left;
 	width:196px;
 	margin-right:11px;
@@ -548,7 +548,7 @@ div#breakingnews a {
 #quotes {
 	height: 60%;
 }
-#quotes, #just_baked, #bakery_last, #ohloh_journal {
+#quotes, #just_baked, #bakery_last, #ohloh_journal, #publications {
 	background:#f9f9d2 url(images/meta_div_bg.png) repeat-x;
 }
 
