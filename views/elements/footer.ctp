@@ -11,7 +11,7 @@
 	echo $this->element('just-baked');
 	echo $this->element('bakery-latest');
 	//echo $this->element('ohloh');
-	
+	echo $this->element('publications');
 	?>
 	<span class="clear:both"></span>
 </div>
