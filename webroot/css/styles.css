@@ -552,6 +552,10 @@ div#breakingnews a {
 	background:#f9f9d2 url(images/meta_div_bg.png) repeat-x;
 }
 
+#publications a {
+	padding: 3px 0 3px 30px;
+}
+
 #donations h3{
 	padding:0 30px 0 11px;
 	color:#fe0;
