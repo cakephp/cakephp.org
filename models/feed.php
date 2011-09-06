@@ -74,7 +74,7 @@ class Feed extends AppModel {
  */
 	public function findAll() {
 		App::import(array('Xml', 'HttpSocket'));
-		$socket =& new HttpSocket();
+		$socket =& new HttpSocket(array('timeout' => 5));
 		$data = array();
 		foreach ($this->__feeds as $name => $feed) {
 			$fed = Cache::read($name . '_feed_data', 'feed');
