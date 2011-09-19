@@ -2,10 +2,10 @@
 	<strong><?php __('Extra Hot'); ?>:</strong>
 	<?php __('Release') ?>
 	<?php echo $this->Html->link(
-		' 2.0.0-RC1',
-		'http://bakery.cakephp.org/articles/markstory/2011/09/04/cakephp_2_0_0-rc1_hot_and_fresh'); ?>
+		' 2.0.0-RC2',
+		'http://bakery.cakephp.org/articles/lorenzo/2011/09/19/cakephp_triple_layered_edition_released'); ?>
 	&amp;
 	<?php echo $this->Html->link(
-		' 1.3.11 ' . __('Stable', true),
-		'http://bakery.cakephp.org/articles/lorenzo/2011/07/26/cakephp_1_3_11_and_2_0_0-beta_released'); ?>
+		' 1.3.12 ' . __('Stable', true),
+		'http://bakery.cakephp.org/articles/lorenzo/2011/09/19/cakephp_triple_layered_edition_released'); ?>
 </div>

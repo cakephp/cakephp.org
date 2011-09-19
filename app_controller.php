@@ -52,27 +52,27 @@ class AppController extends Controller {
  */
 	function beforeRender() {
 		$one = array(
-			'version' => '2.0.0-RC1',
-			'date' => 'Sept 04, 2011',
+			'version' => '2.0.0-RC2',
+			'date' => 'Sept 18, 2011',
 			'link' => 'http://github.com/cakephp/cakephp/downloads',
-			'announcement' => ' http://bakery.cakephp.org/articles/markstory/2011/09/04/cakephp_2_0_0-rc1_hot_and_fresh',
-			'changelog' => 'http://cakephp.org/changelogs/2.0.0-RC1'
+			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2011/09/19/cakephp_triple_layered_edition_released',
+			'changelog' => 'http://cakephp.org/changelogs/2.0.0-RC2'
 		);
 
 		$two = array(
-			'version' => '1.2.10 ' . __('Stable', true),
-			'date' => 'March 20, 2011',
+			'version' => '1.2.11 ' . __('Stable', true),
+			'date' => 'Sept 18, 2011',
 			'link' => 'http://github.com/cakephp/cakephp/downloads',
-			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2011/03/20/cakephp_1_3_8_and_1_2_10_released',
-			'changelog' => 'http://cakephp.org/changelogs/1.2.10'
+			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2011/09/19/cakephp_triple_layered_edition_released',
+			'changelog' => 'http://cakephp.org/changelogs/1.2.11'
 		);
 		
 		$three = array(
-			'version' => '1.3.11 ' . __('Stable', true), 
-			'date' => 'Jul 26, 2011',
+			'version' => '1.3.12 ' . __('Stable', true), 
+			'date' => 'Sept 18, 2011',
 			'link' => 'http://github.com/cakephp/cakephp/downloads',
-			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2011/07/26/cakephp_1_3_11_and_2_0_0-beta_released',
-			'changelog' => 'http://cakephp.org/changelogs/1.3.11'
+			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2011/09/19/cakephp_triple_layered_edition_released',
+			'changelog' => 'http://cakephp.org/changelogs/1.3.12'
 		);
 
 		$this->set(compact('one', 'two', 'three'));
