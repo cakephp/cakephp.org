@@ -83,9 +83,9 @@ Configure::write('Sites', array(
 		array(
 			'name' => 'Affilorama',
 			'url' => 'http://www.affilorama.com'),
-		array(
-			'name' => 'Hot Scripts',
-			'url' => 'http://www.hotscripts.com'),
+		// array(
+		// 	'name' => 'Hot Scripts',
+		// 	'url' => 'http://www.hotscripts.com'),
 	),
 	'Using' => array(
 		array(
