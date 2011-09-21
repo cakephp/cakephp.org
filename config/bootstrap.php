@@ -56,6 +56,9 @@ Configure::write('Changelog.Repository', 'cakephp.git');
 Configure::write('Sites', array(
 	'JustBaked' => array(
 		array(
+			'name' => 'Booking Boy',
+			'url' => 'http://www.bookingboy.com/'),
+		array(
 			'name' => 'Website Feedback Forms',
 			'url' => 'https://websitefeedbackforms.com/'),
 		array(
