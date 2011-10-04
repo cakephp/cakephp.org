@@ -1,5 +1,10 @@
 <div id="conferences">
 	<?php
+	echo $this->Html->link(
+		$this->Html->image('http://2011.phpmatsuri.net/uploads/banner_03.gif', array(
+			'class' => 'image png',
+			'width' => 196)),
+		'http://2011.phpmatsuri.net/page/what-is-php-matsuri', array('escape' => false));
 	/*
 	echo $this->Html->link(
 		$this->Html->image('http://2010.osdc.com.au/sites/default/files/imagecache/wysiwyg_imageupload_preview/wysiwyg_imageupload/1/osdc2010.png', array(
