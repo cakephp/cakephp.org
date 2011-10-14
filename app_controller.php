@@ -54,7 +54,7 @@ class AppController extends Controller {
 		$one = array(
 			'version' => '2.0.0-RC3',
 			'date' => 'Oct 3, 2011',
-			'link' => 'http://github.com/cakephp/cakephp/downloads',
+			'link' => 'https://github.com/cakephp/cakephp/zipball/2.0.0-RC3',
 			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2011/10/03/cakephp_2_0_0-rc3_freshly_sliced',
 			'changelog' => 'http://cakephp.org/changelogs/2.0.0-RC3'
 		);
@@ -62,7 +62,7 @@ class AppController extends Controller {
 		$two = array(
 			'version' => '1.2.11 ' . __('Stable', true),
 			'date' => 'Sept 18, 2011',
-			'link' => 'http://github.com/cakephp/cakephp/downloads',
+			'link' => 'https://github.com/cakephp/cakephp/zipball/1.2.11',
 			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2011/09/19/cakephp_triple_layered_edition_released',
 			'changelog' => 'http://cakephp.org/changelogs/1.2.11'
 		);
@@ -70,7 +70,7 @@ class AppController extends Controller {
 		$three = array(
 			'version' => '1.3.12 ' . __('Stable', true), 
 			'date' => 'Sept 18, 2011',
-			'link' => 'http://github.com/cakephp/cakephp/downloads',
+			'link' => 'https://github.com/cakephp/cakephp/zipball/1.3.12',
 			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2011/09/19/cakephp_triple_layered_edition_released',
 			'changelog' => 'http://cakephp.org/changelogs/1.3.12'
 		);
