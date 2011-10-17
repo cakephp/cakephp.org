@@ -52,11 +52,11 @@ class AppController extends Controller {
  */
 	function beforeRender() {
 		$one = array(
-			'version' => '2.0.0-RC3',
-			'date' => 'Oct 3, 2011',
-			'link' => 'https://github.com/cakephp/cakephp/zipball/2.0.0-RC3',
-			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2011/10/03/cakephp_2_0_0-rc3_freshly_sliced',
-			'changelog' => 'http://cakephp.org/changelogs/2.0.0-RC3'
+			'version' => '2.0.0',
+			'date' => 'Oct 16, 2011',
+			'link' => 'https://github.com/cakephp/cakephp/zipball/2.0.0',
+			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2011/10/16/cakephp_2_0_released',
+			'changelog' => 'http://cakephp.org/changelogs/2.0.0-R'
 		);
 
 		$two = array(
@@ -68,11 +68,11 @@ class AppController extends Controller {
 		);
 		
 		$three = array(
-			'version' => '1.3.12 ' . __('Stable', true), 
-			'date' => 'Sept 18, 2011',
-			'link' => 'https://github.com/cakephp/cakephp/zipball/1.3.12',
-			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2011/09/19/cakephp_triple_layered_edition_released',
-			'changelog' => 'http://cakephp.org/changelogs/1.3.12'
+			'version' => '1.3.13 ' . __('Stable', true), 
+			'date' => 'Oct 15, 2011',
+			'link' => 'https://github.com/cakephp/cakephp/zipball/1.3.13',
+			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2011/10/15/cakephp_1_3_13_released',
+			'changelog' => 'http://cakephp.org/changelogs/1.3.13'
 		);
 
 		$this->set(compact('one', 'two', 'three'));
