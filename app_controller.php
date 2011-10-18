@@ -52,14 +52,6 @@ class AppController extends Controller {
  */
 	function beforeRender() {
 		$one = array(
-			'version' => '2.0.0',
-			'date' => 'Oct 16, 2011',
-			'link' => 'https://github.com/cakephp/cakephp/zipball/2.0.0',
-			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2011/10/16/cakephp_2_0_released',
-			'changelog' => 'http://cakephp.org/changelogs/2.0.0-R'
-		);
-
-		$two = array(
 			'version' => '1.2.11 ' . __('Stable', true),
 			'date' => 'Sept 18, 2011',
 			'link' => 'https://github.com/cakephp/cakephp/zipball/1.2.11',
@@ -67,12 +59,20 @@ class AppController extends Controller {
 			'changelog' => 'http://cakephp.org/changelogs/1.2.11'
 		);
 		
-		$three = array(
+		$two = array(
 			'version' => '1.3.13 ' . __('Stable', true), 
 			'date' => 'Oct 15, 2011',
 			'link' => 'https://github.com/cakephp/cakephp/zipball/1.3.13',
 			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2011/10/15/cakephp_1_3_13_released',
 			'changelog' => 'http://cakephp.org/changelogs/1.3.13'
+		);
+
+		$three = array(
+			'version' => '2.0.0',
+			'date' => 'Oct 16, 2011',
+			'link' => 'https://github.com/cakephp/cakephp/zipball/2.0.0',
+			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2011/10/16/cakephp_2_0_released',
+			'changelog' => 'http://cakephp.org/changelogs/2.0.0-R'
 		);
 
 		$this->set(compact('one', 'two', 'three'));
