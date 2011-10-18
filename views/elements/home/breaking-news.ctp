@@ -2,7 +2,7 @@
 	<strong><?php __('Extra Hot'); ?>:</strong>
 	<?php __('Release') ?>
 	<?php echo $this->Html->link(
-		' 2.0.0' . __('Stable', true),
+		' 2.0.0 ' . __('Stable', true),
 		'http://bakery.cakephp.org/articles/lorenzo/2011/10/16/cakephp_2_0_released'); ?>
 	&amp;
 	<?php echo $this->Html->link(
