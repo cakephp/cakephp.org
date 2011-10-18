@@ -68,7 +68,7 @@ class AppController extends Controller {
 		);
 
 		$three = array(
-			'version' => '2.0.0',
+			'version' => '2.0.0 ' . __('Stable', true),
 			'date' => 'Oct 16, 2011',
 			'link' => 'https://github.com/cakephp/cakephp/zipball/2.0.0',
 			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2011/10/16/cakephp_2_0_released',
