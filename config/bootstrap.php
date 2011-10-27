@@ -56,6 +56,12 @@ Configure::write('Changelog.Repository', 'cakephp.git');
 Configure::write('Sites', array(
 	'JustBaked' => array(
 		array(
+			'name' => 'Fanroom',
+			'url' => 'http://fanroom.co.uk'),
+		array(
+			'name' => 'socialpoke.me',
+			'url' => 'http://socialpoke.me'),
+		array(
 			'name' => 'Booking Boy',
 			'url' => 'http://www.bookingboy.com/'),
 		array(
@@ -77,12 +83,12 @@ Configure::write('Sites', array(
 		array(
 			'name' => 'Piano Marvel',
 			'url' => 'http://pianomarvel.com'),
-		array(
-			'name' => 'Miss Universe',
-			'url' => 'http://www.missuniverse.com'),
-		array(
-			'name' => 'Affilorama',
-			'url' => 'http://www.affilorama.com'),
+		// array(
+		// 	'name' => 'Miss Universe',
+		// 	'url' => 'http://www.missuniverse.com'),
+		// array(
+		// 	'name' => 'Affilorama',
+		// 	'url' => 'http://www.affilorama.com'),
 		// array(
 		// 	'name' => 'Hot Scripts',
 		// 	'url' => 'http://www.hotscripts.com'),
