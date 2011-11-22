@@ -48,7 +48,7 @@ class GeocodedBehavior extends ModelBehavior {
 			}
 		}
 
-		if (!isset($this->lookupServices[low($lookup)])) {
+		if (!isset($this->lookupServices[strtolower($lookup)])) {
 			trigger_error('The lookup service "' . $lookup . '" does not exist.', E_USER_WARNING);
 			return false;
 		}
@@ -83,10 +83,10 @@ class GeocodedBehavior extends ModelBehavior {
 			return false;
 		}
 
-		if (!$code = $model->Geocode->findByAddress(low($address))) {
+		if (!$code = $model->Geocode->findByAddress(strtolower($address))) {
 			if ($code = $this->_geocoords($model, $address)) {
 				$model->Geocode->create();
-				$model->Geocode->save(array('address' => low($address), $fields[0] => $code[$fields[0]], $fields[1] => $code[$fields[1]]));
+				$model->Geocode->save(array('address' => strtolower($address), $fields[0] => $code[$fields[0]], $fields[1] => $code[$fields[1]]));
 			}
 		} else {
 			$code = array($fields[0] => $code['Geocode'][$fields[0]], $fields[1] => $code['Geocode'][$fields[1]]);
@@ -107,15 +107,15 @@ class GeocodedBehavior extends ModelBehavior {
 	function _geocoords(&$model, $address) {
 		extract($this->settings[$model->name]);
 
-		$url = r(
+		$url = str_replace(
 			array('%key', '%address'),
 			array($key, rawurlencode($address)),
-			$this->lookupServices[low($lookup)][0]
+			$this->lookupServices[strtolower($lookup)][0]
 		);
 
 		$code = false;
 		if($result = $this->connection->get($url)) {
-			if (preg_match($this->lookupServices[low($lookup)][1], $result, $match)) {
+			if (preg_match($this->lookupServices[strtolower($lookup)][1], $result, $match)) {
 				$code = array($fields[0] => floatval($match[1]), $fields[1] => floatval($match[2]));
 			}
 		}
@@ -132,8 +132,8 @@ class GeocodedBehavior extends ModelBehavior {
  */
 	function distance($lat1, $lon1, $lat2 = null, $lon2 = null, $unit = 'M') {
 		$m =  69.09 * rad2deg(acos(sin(deg2rad($lat1)) * sin(deg2rad($lat2)) +  cos(deg2rad($lat1)) * cos(deg2rad($lat2)) * cos(deg2rad($lon1 - $lon2))));
-		if (isset($this->units[up($unit)])) {
-			$m *= $this->units[up($unit)];
+		if (isset($this->units[strtoupper($unit)])) {
+			$m *= $this->units[strtoupper($unit)];
 		}
 		return $m;
 	}

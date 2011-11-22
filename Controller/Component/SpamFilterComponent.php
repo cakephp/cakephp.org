@@ -1,6 +1,6 @@
 <?php
 
-class SpamFilterComponent extends Object {
+class SpamFilterComponent extends Component {
 
 	var $key = 'Other';
 

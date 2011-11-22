@@ -8,7 +8,7 @@ $ohlohSources = array(
 );
 ?>
 <div class="page">
-<h2><?php __('Planet CakePHP')?></h2>
+<h2><?php echo __('Planet CakePHP')?></h2>
 
 <div style="padding-left: 20px;"><?php echo $this->element('ads/728x90'); ?></div>
 
@@ -78,8 +78,8 @@ endif;
 	<?php
 		echo $this->Form->input('url', array('label' => false, 'rows'=>'2', 'cols'=>'40',
 			'error' => array(
-				'valid' => __('Please specify a valid url', true),
-				'required' => __('Please specify a valid url', true)
+				'valid' => __('Please specify a valid url'),
+				'required' => __('Please specify a valid url')
 				)
 			)
 		);

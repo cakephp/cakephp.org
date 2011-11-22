@@ -1,25 +1,26 @@
 <div class="page">
-<h2><?php __('Downloads');?></h2>
+<h2><?php echo __('Downloads');?></h2>
 
 <div style="padding-left: 20px;"><?php echo $this->element('ads/728x90'); ?></div>
 
 <h3>
 	<?php echo $this->Html->link('..', array('action' => 'index'))?>
 	<?php
-	$path = '/';
-	foreach ((array)$args as $part):
-		$path .= $part . '/';
-		echo '/' . $this->Html->link($part, array($path));
-	endforeach;
-	echo '/' . $current;
+		$path = '/';
+		foreach ((array)$args as $part):
+			$path .= $part . '/';
+			echo '/' . $this->Html->link($part, array($path));
+		endforeach;
+
+		echo '/' . $current;
 	?>
 </h3>
 
 <table class="downloads">
 	<tr>
-		<th><?php __('Name');?></th>
-		<th><?php __('MD5');?></th>
-		<th><?php __('Size');?></th>
+		<th><?php echo __('Name');?></th>
+		<th><?php echo __('MD5');?></th>
+		<th><?php echo __('Size');?></th>
 	</tr>
 
 	<?php

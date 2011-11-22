@@ -2,7 +2,7 @@
 
 <div class="page">
 
-<h2><?php echo $this->pageTitle = __('Jobs', true)?></h2>
+<h2><?php echo $this->pageTitle = __('Jobs')?></h2>
 
 	<?php
 		$count = 0;

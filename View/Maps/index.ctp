@@ -3,11 +3,11 @@ $this->Html->script(array('jquery', 'google_maps', 'http://maps.google.com/maps?
 
 ?>
 <div class="page">
-	<h2><?php __('Where are all the bakers?');?></h2>
+	<h2><?php echo __('Where are all the bakers?');?></h2>
 	<p>
 		<?php
 			echo $this->Paginator->counter(array(
-			'format' => __('Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%', true)
+			'format' => __('Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%')
 			));
 		?>
 	</p>
@@ -33,16 +33,16 @@ $this->Html->script(array('jquery', 'google_maps', 'http://maps.google.com/maps?
 ?>
 </div>
 <div class="paging">
-	<?php echo $this->Paginator->prev('<< '.__('previous', true), array(), null, array('class'=>'disabled'));?>
+	<?php echo $this->Paginator->prev('<< '.__('previous'), array(), null, array('class'=>'disabled'));?>
  	<?php echo $this->Paginator->numbers(array('modulus' => 12, 'first' => 3, 'last' => 3));?>
-	<?php echo $this->Paginator->next(__('next', true).' >>', array(), null, array('class'=>'disabled'));?>
+	<?php echo $this->Paginator->next(__('next').' >>', array(), null, array('class'=>'disabled'));?>
 </div>
 <?php endif;?>
 
 	<div class="form">
 		<?php echo $this->Form->create('Map', array('url' => $this->Paginator->url(array('action' => 'index'), true)));?>
 			<fieldset>
-				<legend><?php __('Add your mark');?></legend>
+				<legend><?php echo __('Add your mark');?></legend>
 				<?php
 					echo $this->Form->error('no_address_found', 'The latitude and longitude were not valid, or the address could not be found.');
 				?>

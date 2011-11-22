@@ -13,28 +13,28 @@ class MapsController extends AppController {
 	}
 
 	function index() {
-		$this->Session->setFlash(__('A cake in the face of all spammers.', true));
+		$this->Session->setFlash(__('A cake in the face of all spammers.'));
 		$this->redirect('/');
 		return false;
 
 		if (
-			empty($this->data['Map']['filter'])
+			empty($this->request->data['Map']['filter'])
 			||
-			(!empty($this->data['Map']['filter']) && $this->data['Map']['filter'] != 11)
+			(!empty($this->request->data['Map']['filter']) && $this->request->data['Map']['filter'] != 11)
 			||
-			!empty($this->data['Other']['name'])
+			!empty($this->request->data['Other']['name'])
 			||
-			!empty($this->data['Other']['body'])
+			!empty($this->request->data['Other']['body'])
 		) {
-			$this->data = null;
+			$this->request->data = null;
 		}
 
-		if (!empty($this->data)) {
+		if (!empty($this->request->data)) {
 			$this->Map->create();
-			if ($this->Map->save($this->data)) {
-				$this->Session->setFlash(__('Nice. Your mark was added', true));
+			if ($this->Map->save($this->request->data)) {
+				$this->Session->setFlash(__('Nice. Your mark was added'));
 			} else {
-				$this->Session->setFlash(__('Ooops. Your mark could not added', true));
+				$this->Session->setFlash(__('Ooops. Your mark could not added'));
 			}
 		}
 

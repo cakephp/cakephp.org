@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>
-		<?php __('CakePHP: the rapid development php framework. '); ?>
+		<?php echo __('CakePHP: the rapid development php framework. '); ?>
 		<?php echo $title_for_layout;?>
 	</title>
 
@@ -24,7 +24,7 @@
 				echo $this->Html->link($image, '/', array('escape' => false));
 			?></h1>
 			<p class="copy">
-				<?php __('CakePHP enables PHP users at all levels to rapidly develop robust web applications.');?>
+				<?php echo __('CakePHP enables PHP users at all levels to rapidly develop robust web applications.');?>
 			</p>
 		</div>
 		<div id="main_nav">
@@ -73,8 +73,8 @@
 
 		<div id="content">
 			<?php
-				if ($session->check('Message.flash')):
-						$session->flash();
+				if ($this->Session->check('Message.flash')):
+						$this->Session->flash();
 				endif;
 			?>
 			<?php echo $content_for_layout;?>
