@@ -91,4 +91,3 @@ class PagesController extends AppController{
 		$this->render(join('/', $path));
 	}
 }
-?>

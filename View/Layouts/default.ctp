@@ -20,7 +20,11 @@
 	<div id="container">
 		<div id="header">
 			<h1><?php
+<<<<<<< HEAD
 				$image = $this->Html->image('cake-logo.png',  array('alt' => 'CakePHP : the rapid development php framework', 'class' => 'png'));
+=======
+				$image = $this->Html->image('cake-logo.png',  array('alt' => "CakePHP : the rapid development php framework", 'class' => 'png'));
+>>>>>>> Updating files.
 				echo $this->Html->link($image, '/', array('escape' => false));
 			?></h1>
 			<p class="copy">
