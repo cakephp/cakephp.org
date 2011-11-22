@@ -16,7 +16,7 @@
 	?>
 </head>
 <body class="js">
-	<?php echo $this->element('navbar', array('plugin' => 'csfnavbar')); ?>
+	<?php echo $this->element('navbar', array(), array('plugin' => 'Csfnavbar')); ?>
 	<div id="container">
 		<div id="header">
 			<h1><?php
