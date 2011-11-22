@@ -34,7 +34,7 @@ class ChangelogsController extends AppController {
  */
 	public function view($tag = null) {
 		if (!$tag || !in_array($tag, $this->Changelog->tags())) {
-			$this->Session->setFlash(__('Invalid tag for changelogs', true));
+			$this->Session->setFlash(__('Invalid tag for changelogs'));
 			$this->setAction('index');
 			return;
 		}

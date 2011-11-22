@@ -68,8 +68,8 @@
 <h4 class="title">
 	<a href="<?php echo $three['link']?>"><?php echo $three['version']?></a>
 	<em>(<?php echo $three['date']?>)</em>
-	<em><a href="<?php echo $three['announcement']?>" target="_new"><?php __('read the announcement'); ?></a></em>
-	<em><a href="<?php echo $three['changelog']?>" target="_new"><?php __('view the changelog'); ?></a></em>
+	<em><a href="<?php echo $three['announcement']?>" target="_new"><?php echo __('read the announcement'); ?></a></em>
+	<em><a href="<?php echo $three['changelog']?>" target="_new"><?php echo __('view the changelog'); ?></a></em>
 </h4>
 
 <div style="padding-left: 20px; padding-top: 20px;"><?php echo $this->element('ads/728x90'); ?></div>

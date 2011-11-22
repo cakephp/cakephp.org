@@ -1,7 +1,7 @@
 <div id="read" class="panel">
-	<h2><?php __('Read'); ?></h2>
+	<h2><?php echo __('Read'); ?></h2>
 	<?php echo $this->Html->image('read.png', array('class' => 'image png'))?>
-	<h4><?php __('just a few of the blogs'); ?></h4>
+	<h4><?php echo __('just a few of the blogs'); ?></h4>
 	<span style="float:left;margin-right: 30px">
 		<ul class="features">
 	        <li><a href="http://bakery.cakephp.org/">The Bakery</a></li>

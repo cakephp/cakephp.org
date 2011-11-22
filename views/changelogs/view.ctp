@@ -1,7 +1,7 @@
 <div class="page changelogs">
 	
-	<h2><?php echo $this->Html->link(__('Changelogs', true), array('action' => 'index')); ?> &raquo; </h2>
-	<h3><?php echo sprintf(__('Version %s.', true), $tag); ?></h3>
+	<h2><?php echo $this->Html->link(__('Changelogs'), array('action' => 'index')); ?> &raquo; </h2>
+	<h3><?php echo sprintf(__('Version %s.'), $tag); ?></h3>
 	
 	<ul>
 	<?php

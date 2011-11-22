@@ -1,6 +1,6 @@
 <div class="page changelogs">
-	<h2><?php __('Changelogs'); ?></h2>
-	<p><?php __('Select a version below to view its changelog.'); ?></p>
+	<h2><?php echo __('Changelogs'); ?></h2>
+	<p><?php echo __('Select a version below to view its changelog.'); ?></p>
 	
 	<div>
 	<ul>
@@ -14,7 +14,7 @@
 			</ul>
 			</div>
 			<div class="series">
-			<h3><?php echo sprintf(__('%s series', true), $matches['series']); ?> </h3>
+			<h3><?php echo sprintf(__('%s series'), $matches['series']); ?> </h3>
 			<ul>
 			<?php
 		}

@@ -20,11 +20,7 @@
 	<div id="container">
 		<div id="header">
 			<h1><?php
-<<<<<<< HEAD
 				$image = $this->Html->image('cake-logo.png',  array('alt' => 'CakePHP : the rapid development php framework', 'class' => 'png'));
-=======
-				$image = $this->Html->image('cake-logo.png',  array('alt' => "CakePHP : the rapid development php framework", 'class' => 'png'));
->>>>>>> Updating files.
 				echo $this->Html->link($image, '/', array('escape' => false));
 			?></h1>
 			<p class="copy">
@@ -96,16 +92,16 @@
 				$this->Html->image(
 					'cake.power.gif',
 					array(
-						'alt'=> __("CakePHP: the rapid development php framework", true),
+						'alt'=> __("CakePHP: the rapid development php framework"),
 						'border' => '0'
 					)),
 				'http://www.cakephp.org/',
 				array(
 					'target' => '_new',
 					'escape' => false)); ?>
-			<p><a href="http://www.nolimit-studio.com/" rel="nofollow"><?php __('design by'); ?> armando sosa</a> |
+			<p><a href="http://www.nolimit-studio.com/" rel="nofollow"><?php echo __('design by'); ?> armando sosa</a> |
 			<?php echo $this->Html->link(
-				__('Privacy Policy', true),
+				__('Privacy Policy'),
 				array('admin' => false, 'prefix' => null, 'plugin' => null, 'controller' => 'pages', 'action' => 'privacy')); ?></p>
 			<p>&copy; 2005-<?php echo date('Y'); ?> <?php echo $this->Html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org'); ?></p>
 		</div>

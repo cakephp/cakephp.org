@@ -59,13 +59,8 @@ class Feed extends AppModel {
 		//'Nate\'s blog' => 'http://cake.insertdesignhere.com/posts.rss',
 		//'With Cake' => 'http://withcake.com/posts/rss',
 		'Ohloh' => 'http://www.ohloh.net/projects/cakephp/messages.rss',
-<<<<<<< HEAD
 		'Bakery' => 'http://bakery.cakephp.org/articles.rss',
-		'Trac' => 'https://trac.cakephp.org/timeline?changeset=on&ticket=on&max=50&daysback=90&format=rss',
-=======
-		'Bakery' => 'http://bakery.cakephp.org/articles/rss',
-		//'Trac' => 'https://trac.cakephp.org/timeline?changeset=on&ticket=on&max=50&daysback=90&format=rss',
->>>>>>> Updating files.
+		// 'Trac' => 'https://trac.cakephp.org/timeline?changeset=on&ticket=on&max=50&daysback=90&format=rss',
 		//'Tickets' => 'http://groups.google.com/group/tickets-cakephp/feed/rss_v2_0_msgs.xml',
 		'GoogleGroup' => 'http://groups.google.com/group/cake-php/feed/rss_v2_0_msgs.xml',
 		'CakeDC' => 'http://cakedc.com/articles.rss',
@@ -74,23 +69,13 @@ class Feed extends AppModel {
 		//'Jippi' => 'http://www.cakephp.nu/feed'
 	);
 
-<<<<<<< HEAD
 /**
  * Find All
  *
  * @return array Results
  */
 	public function findAll() {
-		App::import(array('Xml', 'HttpSocket'));
-		$socket =& new HttpSocket(array('timeout' => 5));
-=======
-	//var $__feeds = array('Google Group' => 'http://groups.google.com/group/cake-php/feed/rss_v2_0_msgs.xml');
-
-	function findAll() {
-
-		$socket = new HttpSocket();
-
->>>>>>> Updating files.
+		$socket = new HttpSocket(array('timeout' => 5));
 		$data = array();
 		foreach ($this->__feeds as $name => $feed) {
 			$fed = Cache::read($name . '_feed_data', 'feed');
@@ -98,17 +83,9 @@ class Feed extends AppModel {
 				$get = $socket->get($feed);
 				$rss = new Xml($get);
 				$fed = Set::reverse($rss);
-<<<<<<< HEAD
 				Cache::write($name . '_feed_data', $fed, 'feed');
 			}
 			$data[$name] = $fed;
-=======
-				Cache::write($name . '_feed_data', $fed, array('config' => 'feed', 'duration' => '+20 minutes'));
-			}
-
-			$data[$name] = $fed;
-
->>>>>>> Updating files.
 		}
 		return $data;
 	}
