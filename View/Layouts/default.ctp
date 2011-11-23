@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<title>
 		<?php echo __('CakePHP: the rapid development php framework. '); ?>
@@ -10,9 +10,10 @@
 		echo $this->Html->charset();
 		echo $this->Html->meta('icon');
 		echo $this->element('ie9-jumplist');
-		echo $this->Html->css('styles');
+		echo $this->Html->css('foundation');
+		echo $this->Html->css('app');
 		echo $this->Html->css('/csfnavbar/css/style');
-		echo '<!--[if lte IE 7]>' . $this->Html->css('ieold') . '<![endif]-->';
+		echo '<!--[if lt IE 9]>' . $this->Html->css('ie') . '<![endif]-->';
 	?>
 </head>
 <body class="js">
