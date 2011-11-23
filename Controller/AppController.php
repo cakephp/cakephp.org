@@ -15,7 +15,7 @@ class AppController extends Controller {
  *
  * @var array
  */
-	public $helpers = array('Js', 'Session', 'Html', 'Form');
+	public $helpers = array('Html', 'Js', 'Session', 'Form');
 
 /**
  * Before Render
