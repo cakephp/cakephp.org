@@ -64,7 +64,7 @@ class Feed extends AppModel {
 		//'Tickets' => 'http://groups.google.com/group/tickets-cakephp/feed/rss_v2_0_msgs.xml',
 		'GoogleGroup' => 'http://groups.google.com/group/cake-php/feed/rss_v2_0_msgs.xml',
 		'CakeDC' => 'http://cakedc.com/articles.rss',
-		'Debuggable' => 'http://feeds.feedburner.com/debuggable',
+		//'Debuggable' => 'http://feeds.feedburner.com/debuggable',
 		//'CakeBaker' => 'http://feeds.feedburner.com/Cakebaker',
 		//'Jippi' => 'http://www.cakephp.nu/feed'
 	);
@@ -81,8 +81,8 @@ class Feed extends AppModel {
 			$fed = Cache::read($name . '_feed_data', 'feed');
 			if (empty($fed)) {
 				$get = $socket->get($feed);
-				$rss = new Xml($get);
-				$fed = Set::reverse($rss);
+				$rss = Xml::build($get->body());
+				$fed = Xml::toArray($rss);
 				Cache::write($name . '_feed_data', $fed, 'feed');
 			}
 			$data[$name] = $fed;
@@ -96,7 +96,7 @@ class Feed extends AppModel {
  * @param string $feed 
  * @return array Results
  */
-	public function read($feed) {
+	public function read($feed = null, $id = null) {
 		$data = Cache::read($feed . '_feed_data', 'feed');
 		if (empty($data)) {
 			$data = $this->findAll();
