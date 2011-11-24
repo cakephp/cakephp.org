@@ -21,7 +21,8 @@
 <body class="js">
 	<?php echo $this->element('navbar', array(), array('plugin' => 'Csfnavbar')); ?>
 	<div id="container">
-		<header>
+		<header id="masthead">
+			<div class="header-wrapper">
 			<div class="row">
 				<h1><?php
 					echo $this->Html->image('cake-logo.png', array(
@@ -34,13 +35,14 @@
 					<?php echo __('CakePHP makes building web applications simpler, faster and require less code.');?>
 				</h2>
 
-				<nav id="main-nav" class="row">
-					<ul class="navigation columns five offset-by-six">
+				<nav class="main-nav">
+					<ul class="navigation">
 						<li><?php echo $this->Html->link(__('News'), array('controller' => 'news')); ?></li>
 						<li><?php echo $this->Html->link(__('Development'), array('controller' => 'pages', 'action' => 'display', 'development')); ?></li>
 						<li><?php echo $this->Html->link(__('Documentation'), array('controller' => 'pages', 'action' => 'display', 'documentation')); ?></li>
 					</ul>
 				</nav>
+			</div>
 			</div>
 		</header>
 
@@ -49,7 +51,8 @@
 			<?php echo $content_for_layout;?>
 		</div>
 
-		<footer class="row">
+		<footer id="mastend" >
+			<div class="row">
 			<nav class="six columns centered">
 				<ul class="footer-nav">
 					<li><?php echo $this->Html->link(__('News'), array('controller' => 'news')); ?></li>
@@ -70,6 +73,7 @@
 				__('Privacy Policy'),
 				array('admin' => false, 'prefix' => null, 'plugin' => null, 'controller' => 'pages', 'action' => 'privacy')); ?>
 			</p>
+			</div>
 		</footer>
 
 	</div>
