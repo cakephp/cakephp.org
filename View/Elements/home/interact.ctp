@@ -1,14 +1,10 @@
-<div id="interact" class="panel">
-	<h2><?php echo __('Interact'); ?></h2>
-	<?php echo $this->Html->image('interact.png', array('class' => 'image png'))?>
-	<p style="margin-bottom: 8px">
-		<?php echo __('The CakePHP community is vast and interacts in numerous ways.'); ?>
-		<?php echo sprintf(
-			__('The %s is a great forum for posting questions and comments.'),
-			sprintf(
-				'<strong><a href="http://groups.google.com/group/cake-php">%s</a></strong>',
-				__('Google Group'))); ?>
-		<?php echo sprintf(__('There are also many in the irc channel, %s, including the core developers and long time community members.'), '<strong><a href="irc://irc.freenode.net/cakephp">#cakephp on irc.freenode.net</a></strong>'); ?>
+<div class="columns four">
+	sexy image!
+</div>
+<div class="columns eight">
+	<h3><?php echo __('Mailing List') ?></h3>
+	<p>
+		Got a question, or need some help?  Post on the [Google group]
 	</p>
 	<?php
 		echo $this->element('channel', array(
@@ -18,4 +14,10 @@
 			'cache' => array('key' => 'cache_google_group', 'time' => '+20 minutes')
 		));
 	?>
+
+	<h3><?php echo __('IRC') ?></h3>
+	<p>Stop by #cakephp on freenode.net and chat with other bakers.</p>
+
+	<h3><?php echo __('Screencasts and Tutorials'); ?></h3>
+	<p>View talks from previous CakeFests, screencasts and tutorials on [tv.cakephp.org]</p>
 </div>
