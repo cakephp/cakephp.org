@@ -24,14 +24,14 @@
 		<header id="masthead">
 			<div class="header-wrapper">
 			<div class="row">
-				<h1><?php
+				<h1 class="columns three"><?php
 					echo $this->Html->image('cake-logo.png', array(
 						'alt' => 'CakePHP : the rapid development php framework',
 						'class' => 'png',
 						'url' => '/'
 					));
 				?></h1>
-				<h2>
+				<h2 class="columns six">
 					<?php echo __('CakePHP makes building web applications simpler, faster and require less code.');?>
 				</h2>
 
