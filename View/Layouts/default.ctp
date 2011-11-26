@@ -22,6 +22,7 @@
 	<?php echo $this->element('navbar', array(), array('plugin' => 'Csfnavbar')); ?>
 	<div id="container">
 		<header id="masthead">
+			<div class="header-backing"></div>
 			<div class="header-wrapper">
 			<div class="row">
 				<h1 class="columns three"><?php

@@ -69,11 +69,11 @@
 
 <div class="row">
 	<div class="section">
-		<div class="columns eight">
+		<div class="columns nine">
 			<h2><?php echo __('Who uses CakePHP'); ?></h2>
 			<?php echo $this->element('home/slider'); ?>
 		</div>
-		<div class="columns four">
+		<div class="columns three">
 			<h3><?php echo __('Other sites using CakePHP'); ?></h3>
 			<ul>
 				<li>

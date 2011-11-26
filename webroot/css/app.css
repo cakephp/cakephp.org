@@ -57,10 +57,21 @@ h3, h4 {
  * Header
  */
 #masthead {
-	background: #417282;
+	background: #417282 url(images/header-bg.png) repeat-x;
+	position: relative;
+	overflow: hidden;
 }
-.header-wrapper {
+.header-backing {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
 	background: url(images/header-halftone.png) repeat-x;
+
+	-webkit-transform: rotate(-2.8deg);
+	-moz-transform: rotate(-2.8deg);
+	transform: rotate(-2.8deg);
 }
 .header-wrapper .row {
 	position: relative;
@@ -157,16 +168,61 @@ dl.tabs dd a.active {
 }
 
 /**
+ * News
+ */
+.news article {
+	margin-bottom: 1.5em;
+}
+
+/**
  * Featured sites
  */
 .photo-carousel li {
 	float: left;
 	margin: 0 10px 0 0;
+	position: relative;
+	z-index: 0;
+	text-align: center;
 }
 .polaroid {
 	display: block;
 	background: #F2F2F2;
 	padding: 5px 5px 20px 5px;
+	position: relative;
+	width: 200px;
+}
+
+.polaroid:before,
+.polaroid:after {
+	content: ' ';
+	width: 80%;
+	height: 10px;
+	position: absolute;
+
+	bottom: 4px;
+
+	z-index: -1;
+
+	-moz-box-shadow: 0px 0px 8px #222;
+	-webkit-box-shadow: 0px 0px 8px #222;
+	box-shadow: 0px 0px 8px #222;
+}
+
+.polaroid:before {
+	left: 6px;
+
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	transform: rotate(-3deg);
+
+}
+
+.polaroid:after {
+	right: 6px;
+
+	-webkit-transform: rotate(3deg);
+	-moz-transform: rotate(3deg);
+	transform: rotate(3deg);
 }
 
 
