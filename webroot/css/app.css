@@ -111,6 +111,19 @@ h3, h4 {
 	color: #fff;
 }
 
+.download {
+	position: absolute;
+	top: 100px;
+	right: 50px;
+	background: url(images/download-button.png) no-repeat;
+	width: 265px;
+	height: 139px;
+}
+.download-current {
+	padding: 90px;
+	display: block;
+	color: #fff;
+}
 
 /**
  * Containers
@@ -165,7 +178,6 @@ h3, h4 {
 		-moz-border-radius: 8px;
 		-webkit-border-radius: 8px;
 		border-radius: 8px;
-
 	}
 }
 
@@ -256,5 +268,29 @@ dl.tabs dd a.active {
  * Footer
  */
 #mastend {
-	background: #417282;
+	background: #417282 url(images/header-halftone.png) repeat-x;
+	border-top: 2px solid #BD8A5D;
 }
+.copyright {
+	color: #fff;
+	text-align: center;
+}
+.footer-nav a,
+.copyright a {
+	color: #B2CCCD;
+}
+
+.footer-nav {
+	text-align: center;
+	margin: 20px auto;
+}
+.footer-nav li {
+	display: inline;
+	border-left: 1px solid #b2cccd;
+	padding: 0 10px;
+}
+.footer-nav li:first-child {
+	border: 0;
+}
+
+
