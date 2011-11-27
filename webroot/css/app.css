@@ -120,8 +120,9 @@ h3, h4 {
 	-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
 	border-radius: 8px;
-	padding: 10px;
-	margin-bottom: 20px;
+	padding: 1em;
+	margin-bottom: 1.5em;
+	position: relative;
 }
 .section:after {
 	content: '';
@@ -129,6 +130,7 @@ h3, h4 {
 	display: block;
 	clear: both;
 }
+
 #content {
 	background: url(images/pale-halftone.png) repeat-x;
 }
@@ -139,9 +141,32 @@ h3, h4 {
 .cakephp-love {
 	background: #C92434;
 	color: #fff;
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+
+	padding: 1em;
+
+	-moz-border-radius: 0 8px 8px 0;
+	-webkit-border-radius: 0 8px 8px 0;
+	border-radius: 0 8px 8px 0;
 }
 .cakephp-love h3 {
 	color: #fff;
+}
+
+/* cakephp love vertically stacks on narrow devices. */
+@media only screen and (max-width: 768px) {
+	.cakephp-love {
+		position: static;
+
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		border-radius: 8px;
+
+	}
 }
 
 /**
@@ -214,7 +239,6 @@ dl.tabs dd a.active {
 	-webkit-transform: rotate(-3deg);
 	-moz-transform: rotate(-3deg);
 	transform: rotate(-3deg);
-
 }
 
 .polaroid:after {
