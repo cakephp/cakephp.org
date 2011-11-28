@@ -32,7 +32,7 @@
 						'url' => '/'
 					));
 				?></h1>
-				<h2 class="tagline columns six">
+				<h2 class="tagline">
 					<?php echo __('CakePHP makes building web applications simpler, faster and require less code.');?>
 				</h2>
 

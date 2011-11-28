@@ -84,11 +84,15 @@ h3, h4 {
 	z-index: 1;
 	position: relative;
 }
-.masthead h2 {
+.tagline {
+	float: left;
+	text-shadow: 0px 1px 0px #111;
+
 	color: #fff;
 	font-size: 28px;
 	text-shadow: 0px 1px 0px #111;
-	margin: 65px 0 0 0;
+	margin: 60px 0 0 0;
+	width: 47.8%;
 }
 
 /* navigation */
@@ -122,8 +126,8 @@ h3, h4 {
 .logo {
 	margin-top: 20px;
 }
-.logo img {
-	max-width: auto;
+.masthead .logo img {
+	max-width: none;
 }
 
 
@@ -157,20 +161,25 @@ h3, h4 {
 		position: absolute;
 		top: 60px;
 		right: 20px;
-		margin: 20px auto;
+		margin: 10px auto;
 	}
-	.masthead .columns.tagline {
-		margin: 0 10px 10px 20px;
-		clear: both;
-		width: 100%;
+	.tagline {
+		width: 40%;
+		margin: 60px 0 10px 20px;
 	}
 	.masthead .logo {
 		margin-left: 20px;
 	}
 }
+@media only screen and (max-width: 767px) {
+	.tagline {
+		width: auto;
+		margin: 20px;
+	}
+}
 
 /* mobile layout */
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 560px) {
 	.masthead .logo {
 		margin-top: 70px;
 		text-align: center;
@@ -180,10 +189,17 @@ h3, h4 {
 		position: static;
 		margin: 0 auto 10px;
 	}
-	.masthead .tagline {
+	.tagline {
+		width: auto;
+		float: none;
+		margin: 20px;
 		text-align: center;
 	}
+	.main-nav {
+		left: 20px;
+	}
 }
+
 
 /**
  * Containers
