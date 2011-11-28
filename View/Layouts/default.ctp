@@ -9,9 +9,11 @@
 		echo $this->Html->charset();
 		echo $this->Html->meta('icon');
 		echo $this->element('ie9-jumplist');
+
 		echo $this->Html->css('foundation');
 		echo $this->Html->css('app');
 		echo $this->Html->css('/csfnavbar/css/style');
+
 		echo $this->Html->script('foundation');
 		echo $this->Html->script('app');
 
@@ -21,18 +23,16 @@
 <body class="js">
 	<?php echo $this->element('navbar', array(), array('plugin' => 'Csfnavbar')); ?>
 	<div id="container">
-		<header id="masthead">
+		<header class="masthead">
 			<div class="header-backing"></div>
-			<div class="header-wrapper">
 			<div class="row">
-				<h1 class="columns three"><?php
+				<h1 class="logo columns three"><?php
 					echo $this->Html->image('cake-logo.png', array(
 						'alt' => 'CakePHP : the rapid development php framework',
-						'class' => 'png',
 						'url' => '/'
 					));
 				?></h1>
-				<h2 class="columns six">
+				<h2 class="tagline columns six">
 					<?php echo __('CakePHP makes building web applications simpler, faster and require less code.');?>
 				</h2>
 
@@ -43,7 +43,11 @@
 						<li><?php echo $this->Html->link(__('Documentation'), array('controller' => 'pages', 'action' => 'display', 'documentation')); ?></li>
 					</ul>
 				</nav>
-			</div>
+				<?php 
+				if (!empty($headerButton)):
+					echo $headerButton;
+				endif;
+				?>
 			</div>
 		</header>
 

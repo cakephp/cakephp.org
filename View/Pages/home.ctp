@@ -1,8 +1,8 @@
-j<?php
-	echo $this->element('home/download');
+<?php
+	$this->set('headerButton', $this->element('home/download'));
 ?>
 <div class="row">
-	<div class="section">
+	<div class="section why">
 	<h2><?php echo __('Why use CakePHP'); ?></h2>
 	<div class="row">
 		<div class="four columns">

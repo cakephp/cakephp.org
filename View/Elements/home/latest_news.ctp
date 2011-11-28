@@ -1,5 +1,7 @@
 <div class="columns three">
-	Sexy cake.
+<?php
+	echo $this->Html->image('news-cake.png', array('alt' => 'Hot and new'));
+?>
 </div>
 
 <div class="news columns five">
