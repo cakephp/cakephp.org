@@ -77,25 +77,19 @@
 			<h3><?php echo __('Other sites using CakePHP'); ?></h3>
 			<ul>
 				<li>
-					Croogo
+					<a target="_new" href="http://croogo.com">Croogo</a>
 				</li>
 				<li>
-					followmy.tv
+					<a target="_new" href="http://followmy.tv">followmy.tv</a>
 				</li>
 				<li>
-					My Gas Feed
+					<a target="_new" href="http://www.thedailysave.com/">The Daily Save</a>
 				</li>
 				<li>
-					The Daily Save
+					<a target="_new" href="http://amblingbooks.com">Ambling Books</a>
 				</li>
 				<li>
-					Ambling Books
-				</li>
-				<li>
-					Scratch by MIT
-				</li>
-				<li>
-					The Onion Store
+					<a target="_new" href="http://scratch.mit.edu/">Scratch by MIT</a>
 				</li>
 			</ul>
 		</div>
