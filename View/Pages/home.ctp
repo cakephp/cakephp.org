@@ -76,21 +76,11 @@
 		<div class="columns three">
 			<h3><?php echo __('Other sites using CakePHP'); ?></h3>
 			<ul>
+				<?php foreach (Configure::read('Sites.Using') as $site): ?>
 				<li>
-					<a target="_new" href="http://croogo.com">Croogo</a>
+				<a target="_new" href="<?php echo h($site['url']); ?>"><?php echo h($site['name']); ?></a>
 				</li>
-				<li>
-					<a target="_new" href="http://followmy.tv">followmy.tv</a>
-				</li>
-				<li>
-					<a target="_new" href="http://www.thedailysave.com/">The Daily Save</a>
-				</li>
-				<li>
-					<a target="_new" href="http://amblingbooks.com">Ambling Books</a>
-				</li>
-				<li>
-					<a target="_new" href="http://scratch.mit.edu/">Scratch by MIT</a>
-				</li>
+				<?php endforeach; ?>
 			</ul>
 		</div>
 	</div>
