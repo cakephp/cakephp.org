@@ -10,12 +10,10 @@
 		echo $this->Html->meta('icon');
 		echo $this->element('ie9-jumplist');
 
-		echo $this->Html->css('foundation');
-		echo $this->Html->css('app');
+		echo $this->AssetCompress->css('app.css');
 		echo $this->Html->css('/csfnavbar/css/style');
 
-		echo $this->Html->script('foundation');
-		echo $this->Html->script('app');
+		echo $this->AssetCompress->script('app.js');
 
 		echo '<!--[if lt IE 9]>' . $this->Html->css('ie') . '<![endif]-->';
 	?>

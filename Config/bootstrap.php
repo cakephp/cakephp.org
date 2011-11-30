@@ -28,6 +28,7 @@
  */
 
 CakePlugin::load('Csfnavbar');
+CakePlugin::load('AssetCompress');
 
 /**
  * Changelog settings

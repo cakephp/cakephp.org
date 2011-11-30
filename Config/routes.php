@@ -63,4 +63,5 @@
  * developement.
  */
 	Router::connect('/tests', array('controller' => 'tests', 'action' => 'index'));
-?>
+
+	require CAKE . 'Config' . DS . 'routes.php';
