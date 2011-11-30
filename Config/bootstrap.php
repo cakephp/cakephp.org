@@ -99,15 +99,6 @@ Configure::write('Sites', array(
 			'name' => 'Scratch by MIT',
 			'url' => 'http://scratch.mit.edu'),
 		array(
-			'name' => 'The Onion Store',
-			'url' => 'http://store.theonion.com'),
-		array(
-			'name' => 'NoseRub',
-			'url' => 'http://noserub.com'),
-		array(
-			'name' => 'foamee',
-			'url' => 'http://foamee.com'),
-		array(
 			'name' => 'MapMe',
 			'url' => 'http://www.mapme.com'),
 		// array(
