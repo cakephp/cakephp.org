@@ -205,6 +205,9 @@ h3, h4 {
 	.main-nav {
 		left: 20px;
 	}
+	.main-nav ul {
+		text-align: center;
+	}
 }
 
 
@@ -362,10 +365,8 @@ dl.tabs dd a.active {
 .jcarousel-container {
 	padding: 0 40px;
 	position: relative;
-	height: 150px;
 }
 .jcarousel-clip {
-	height: 150px;
 	width: 100%;
 	overflow: hidden;
 }
@@ -389,7 +390,7 @@ dl.tabs dd a.active {
 }
 .photo-carousel {
 	margin: 0;
-	height: 150px;
+	height: 200px;
 }
 .photo-carousel li {
 	float: left;
@@ -398,7 +399,7 @@ dl.tabs dd a.active {
 	position: relative;
 	z-index: 0;
 	text-align: center;
-	height: 150px;
+	height: 200px;
 
 	width: 33%;
 }
