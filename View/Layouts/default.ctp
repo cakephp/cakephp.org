@@ -54,28 +54,33 @@
 			<?php echo $content_for_layout;?>
 		</div>
 
-		<footer id="mastend" >
+		<footer class="mastend">
 			<div class="row">
-			<nav class="six columns centered">
+			<nav class="six columns offset-by-three">
 				<ul class="footer-nav">
 					<li><?php echo $this->Html->link(__('News'), array('controller' => 'news')); ?></li>
 					<li><?php echo $this->Html->link(__('Development'), array('controller' => 'pages', 'action' => 'display', 'development')); ?></li>
 					<li><?php echo $this->Html->link(__('Documentation'), array('controller' => 'pages', 'action' => 'display', 'documentation')); ?></li>
 				</ul>
-				<p class="copyright">&copy; 2005-<?php echo date('Y'); ?> <?php echo $this->Html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org'); ?></p>
+				<p class="copyright">
+					&copy; 2005-<?php echo date('Y'); ?> <?php echo $this->Html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org'); ?>
+					<br />
+					<span class="mini">
+					<?php echo $this->Html->link(
+					__('Privacy Policy'),
+					array('admin' => false, 'prefix' => null, 'plugin' => null, 'controller' => 'pages', 'action' => 'privacy')); ?>
+					</span>
+				</p>
 			</nav>
-			<div class="hosting">
+			<div class="columns three hosting">
 				<?php echo $this->Html->link(
 					$this->Html->image('rackspace-logo.png'),
 					'http://rackspace.com',
 					array('escape' => false)); ?>
+
+				<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_thin_badge"></script>
+
 			</div>
-			<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_thin_badge"></script>
-			<p><a href="http://www.mark-story.com" rel="nofollow"><?php echo __('design by'); ?> mark story</a> |
-			<?php echo $this->Html->link(
-				__('Privacy Policy'),
-				array('admin' => false, 'prefix' => null, 'plugin' => null, 'controller' => 'pages', 'action' => 'privacy')); ?>
-			</p>
 			</div>
 		</footer>
 

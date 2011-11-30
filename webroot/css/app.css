@@ -58,6 +58,13 @@ h3, h4 {
 	color: #BD8A5D;
 }
 
+/**
+ * Generic classes
+ */
+.mini {
+	font-size: 10px;
+}
+
 
 /**
  * Header
@@ -355,8 +362,10 @@ dl.tabs dd a.active {
 .jcarousel-container {
 	padding: 0 40px;
 	position: relative;
+	height: 150px;
 }
 .jcarousel-clip {
+	height: 150px;
 	width: 100%;
 	overflow: hidden;
 }
@@ -380,19 +389,18 @@ dl.tabs dd a.active {
 }
 .photo-carousel {
 	margin: 0;
+	height: 150px;
 }
 .photo-carousel li {
 	float: left;
 	margin: 0;
-	margin: 0 10px 0 0;
+	margin: 0;
 	position: relative;
 	z-index: 0;
 	text-align: center;
 	height: 150px;
-	width: 200px;
 
-	width: 30%
-	margin: 0 1% 0 0;
+	width: 33%;
 }
 .polaroid {
 	display: block;
@@ -440,10 +448,11 @@ dl.tabs dd a.active {
 /**
  * Footer
  */
-#mastend {
+.mastend {
 	background: #417282 url(/css/images/header-halftone.png) repeat-x;
 	border-top: 2px solid #BD8A5D;
 }
+.hosting,
 .copyright {
 	color: #fff;
 	text-align: center;
@@ -465,5 +474,9 @@ dl.tabs dd a.active {
 .footer-nav li:first-child {
 	border: 0;
 }
+.mastend .mini a {
+	color: #B2CCCD;
+}
+
 
 

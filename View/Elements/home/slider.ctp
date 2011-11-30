@@ -1,5 +1,5 @@
 <div class="slider">
-	<ul id="carousel" class="photo-carousel columns twelve">
+	<ul id="carousel" class="photo-carousel">
 		<li>
 			<span class="polaroid">
 				<img src="http://static.flickr.com/66/199481236_dc98b5abb3_s.jpg" />
