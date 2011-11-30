@@ -1,7 +1,7 @@
-<div class="page changelogs">
-	
-	<h2><?php echo $this->Html->link(__('Changelogs'), array('action' => 'index')); ?> &raquo; </h2>
-	<h3><?php echo sprintf(__('Version %s.'), $tag); ?></h3>
+<div class="row changelogs">
+	<div class="section">
+	<h2><?php echo $this->Html->link(__('Changelogs'), array('action' => 'index')); ?></h2>
+	<h3><?php echo __('Version %s.', $tag); ?></h3>
 	
 	<ul>
 	<?php
@@ -13,4 +13,5 @@
 	endforeach;
 	?>
 	</ul>
+	</div>
 </div>

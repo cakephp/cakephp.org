@@ -72,7 +72,7 @@ class Changelog extends AppModel {
 		extract(self::$_settings);
 
 		// Check the cache first
-		$cached = Cache::read('changelog_tags');
+		$cached = Cache::read('changelog_tags', $cacheEngine);
 		if ($cached !== false) {
 			return $cached;
 		}
