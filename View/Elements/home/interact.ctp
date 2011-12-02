@@ -4,7 +4,8 @@
 <div class="columns eight">
 	<h3><?php echo __('Mailing List') ?></h3>
 	<p>
-		Got a question, or need some help?  Post on the [Google group]
+		Got a question, or need some help?  Post on the 
+		<a href="http://groups.google.com/group/cakephp">Google group</a>
 	</p>
 	<?php
 		echo $this->element('channel', array(
@@ -19,5 +20,7 @@
 	<p>Stop by #cakephp on freenode.net and chat with other bakers.</p>
 
 	<h3><?php echo __('Screencasts and Tutorials'); ?></h3>
-	<p>View talks from previous CakeFests, screencasts and tutorials on [tv.cakephp.org]</p>
+	<p>View talks from previous CakeFests, screencasts and tutorials on 
+		<a href="http://tv.cakephp.org">tv.cakephp.org</a>
+	</p>
 </div>
