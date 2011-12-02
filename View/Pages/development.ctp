@@ -31,6 +31,7 @@
 		
 		<div class="columns three">
 			<h2>Changelogs</h2>
+			<?php echo $this->element('versions'); ?>
 		</div>
 
 	</div>

@@ -24,6 +24,7 @@ class ChangelogsController extends AppController {
 	public function index() {
 		$tags = $this->Changelog->tags();
 		$this->set('tags', $tags);
+		return $tags;
 	}
 
 /**
