@@ -63,6 +63,7 @@ class Feed extends AppModel {
 		// 'Trac' => 'https://trac.cakephp.org/timeline?changeset=on&ticket=on&max=50&daysback=90&format=rss',
 		//'Tickets' => 'http://groups.google.com/group/tickets-cakephp/feed/rss_v2_0_msgs.xml',
 		'GoogleGroup' => 'http://groups.google.com/group/cake-php/feed/rss_v2_0_msgs.xml',
+		'CoreGoogleGroup' => 'http://groups.google.com/group/cakephp-core/feed/rss_v2_0_msgs.xml',
 		'CakeDC' => 'http://cakedc.com/articles.rss',
 		//'Debuggable' => 'http://feeds.feedburner.com/debuggable',
 		//'CakeBaker' => 'http://feeds.feedburner.com/Cakebaker',

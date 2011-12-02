@@ -6,7 +6,6 @@
 $ohlohSources = array(
 	'gwoo' => strtotime('01 October 2009'),
 	'nate' => strtotime('01 October 2009'),
-	//'mariano.iglesias' => true,
 	'phpnut' => true,
 	'mark_story' => true,
 	'predominant' => true,
@@ -17,13 +16,13 @@ if (empty($data) && !empty($site)) {
 	$data = $Feed->read($site);
 }
 
-if (empty($data['Rss'])) {
+if (empty($data['rss'])) {
 	return false;
 }
 
-$feed = $data['Rss'];
-if (!empty($feed['Channel'])):
-	$channel = $feed['Channel'];
+$feed = $data['rss'];
+if (!empty($feed['channel'])):
+	$channel = $feed['channel'];
 
 	if (empty($site)) {
 		$site = null;
@@ -50,8 +49,8 @@ if (!empty($feed['Channel'])):
 		echo '<ul class="items">';
 			$i = 0;
 			$escape = true;
-			if (isset($channel['Item'][0])):
-				foreach ($channel['Item'] as $key => $item):
+			if (isset($channel['item'][0])):
+				foreach ($channel['item'] as $key => $item):
 					if ($site == 'Ohloh') {
 						if (!in_array($item['author'], array_keys($ohlohSources))) {
 							continue;

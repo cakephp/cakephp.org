@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="section">
 		<div class="columns nine">
-		<h2><?php __('Github'); ?></h2>
+		<h2><?php echo __('Github'); ?></h2>
 		<p>
 			CakePHP's code repositories are hosted at
 			<a href="http://github.com/cakephp/cakephp">github.com</a>
@@ -20,13 +20,31 @@
 			CakePHP's development. Join the 
 			<a href="http://groups.google.com/group/cakephp-core">Core mailing list</a>
 		</p>
+		<?php
+			echo $this->element('channel', array(
+				'site' => 'CoreGoogleGroup',
+				'title' => __('Latest posts on the cakephp-core google group'),
+				'count' => 4,
+				'cache' => array('key' => 'cache_core_google_group', 'time' => '+20 minutes')
+			));
+		?>
 
-		<h2><?php __('General Mailing list'); ?></h2>
+		<h2><?php echo __('General Mailing list'); ?></h2>
 		<p>
 			Have a problem? Learn more about CakePHP from the fantastic 
 			community. Show off a newly launched application. 
 			Join the <a href="http://groups.google.com/group/cakephp">CakePHP mailing list</a>.
 		</p>
+
+		<?php
+			echo $this->element('channel', array(
+				'site' => 'GoogleGroup',
+				'title' => __('Latest posts on the google group'),
+				'count' => 4,
+				'cache' => array('key' => 'cache_google_group', 'time' => '+20 minutes')
+			));
+		?>
+
 		</div>
 		
 		<div class="columns three">
