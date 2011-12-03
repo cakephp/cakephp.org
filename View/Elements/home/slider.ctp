@@ -1,50 +1,32 @@
 <div class="slider">
 	<ul id="carousel" class="photo-carousel">
+	<?php foreach (Configure::read('Sites.JustBaked') as $site): ?>
 		<li>
 			<span class="polaroid">
-				<img src="http://static.flickr.com/66/199481236_dc98b5abb3_s.jpg" />
+				<?php echo $this->Html->image('featured-sites/' . $site['image'], array('url' => $site['url'])) ?>
 			</span>
-			<a href="#" rel="nofollow">missuniverse.com</a>
+			<?php echo $this->Html->link($site['name'], $site['url']); ?>
 		</li>
+	<?php endforeach; ?>
 
-		<li>
-			<span class="polaroid">
-				<img src="http://static.flickr.com/66/199481236_dc98b5abb3_s.jpg" />
-			</span>
-			<a href="#" rel="nofollow">example.com</a>
-		</li>
-
-		<li>
-			<span class="polaroid">
-				<img src="http://static.flickr.com/66/199481236_dc98b5abb3_s.jpg" />
-			</span>
-			<a href="#" rel="nofollow">google.com</a>
-		</li>
-
-		<li>
-			<span class="polaroid">
-				<img src="http://static.flickr.com/66/199481236_dc98b5abb3_s.jpg" />
-			</span>
-			<a href="#" rel="nofollow">awesome.com</a>
-		</li>
-
-		<li>
-			<span class="polaroid">
-				<img src="http://static.flickr.com/66/199481236_dc98b5abb3_s.jpg" />
-			</span>
-			<a href="#" rel="nofollow">woot.com</a>
-		</li>
-
-		<li>
-			<span class="polaroid">
-				<img src="http://static.flickr.com/66/199481236_dc98b5abb3_s.jpg" />
-			</span>
-			<a href="#" rel="nofollow">disco.com</a>
-		</li>
-	
 	</ul>
 </div>
 <?php
 $this->Html->script('jquery.jcarousel', array('inline' => false));
 
-$this->Js->buffer('$("#carousel").jcarousel({visible: 3});');
+$js = <<<TEXT
+var visible = \$(window).width() < 560 ? 1 : 3;
+\$('#carousel').jcarousel({
+	visible: visible,
+	scroll: visible,
+	reloadCallback: function (car) {
+		var vis = 3;
+		if (\$(window).width() < 560) {
+			vis = 1;
+		}
+		car.options.visible = vis;
+		car.options.scroll = vis;
+	}
+});
+TEXT;
+$this->Js->buffer($js);
