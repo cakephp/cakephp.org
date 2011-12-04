@@ -13,7 +13,6 @@
 		echo $this->AssetCompress->css('app.css');
 		echo $this->Html->css('/csfnavbar/css/style');
 
-		echo $this->AssetCompress->script('app.js');
 
 		echo '<!--[if lt IE 9]>' . $this->Html->css('ie') . '<![endif]-->';
 	?>
@@ -85,8 +84,12 @@
 		</footer>
 
 	</div>
-	<?php echo $scripts_for_layout; ?>
-	<?php echo $this->Js->writeBuffer(); ?>
+	<?php
+		echo $this->AssetCompress->script('app.js');
+		echo $this->AssetCompress->includeJs();
+		echo $scripts_for_layout;
+		echo $this->Js->writeBuffer();
+	?>
 	<?php if(env('SERVER_ADDR') != '127.0.0.1'):?>
 		<script type="text/javascript">
 			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
