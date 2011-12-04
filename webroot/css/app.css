@@ -362,6 +362,11 @@ dl.tabs dd a.active {
 .news article {
 	margin-bottom: 1.5em;
 }
+.news .published {
+	font-size: 12px;
+	display: block;
+	margin-bottom: 0.5em;
+}
 .channel li {
 	margin-left: 1em;
 }

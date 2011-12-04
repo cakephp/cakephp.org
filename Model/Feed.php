@@ -65,6 +65,7 @@ class Feed extends AppModel {
 		'GoogleGroup' => 'http://groups.google.com/group/cake-php/feed/rss_v2_0_msgs.xml',
 		'CoreGoogleGroup' => 'http://groups.google.com/group/cakephp-core/feed/rss_v2_0_msgs.xml',
 		'CakeDC' => 'http://cakedc.com/articles.rss',
+		'BakeryNews' => 'http://bakery.cakephp.org/articles/featured.rss'
 		//'Debuggable' => 'http://feeds.feedburner.com/debuggable',
 		//'CakeBaker' => 'http://feeds.feedburner.com/Cakebaker',
 		//'Jippi' => 'http://www.cakephp.nu/feed'
