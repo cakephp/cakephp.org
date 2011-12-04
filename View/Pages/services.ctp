@@ -3,7 +3,7 @@
 	<div class="section">
 		<h1><?php echo __('Services'); ?></h1>
 
-		<dl class="tabs">
+		<dl class="tabs mobile">
 			<dd><a href="#support" class="active"><?php echo __('Support'); ?></a></dd>
 			<dd><a href="#training"><?php echo __('Training'); ?></a></dd>
 			<dd><a href="#consultation"><?php echo __('Consultation'); ?></a></dd>

@@ -350,10 +350,21 @@ dl.tabs dd a {
 	font-size: 16px;
 	background: #fff;
 }
+dl.tabs.mobile dd a.active,
 dl.tabs dd a.active {
 	border: 0;
 	background: #C92434;
 	color: #fff;
+}
+dl.tabs.mobile {
+	border-bottom: 1px dotted #BD8A5D;
+}
+dl.tabs.mobile dd a {
+	border: none;
+	border-top: 1px dotted #BD8A5D;
+}
+dl.tabs.mobile dd a {
+	background: none;
 }
 
 /**
