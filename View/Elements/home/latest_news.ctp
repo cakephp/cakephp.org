@@ -11,7 +11,7 @@
 		$items = $feed['rss']['channel']['item'];
 		echo $this->element('news/item', array('article' => $items[$i]));
 	}
-	echo $this->Html->link('all news', array('controller' => 'news', 'action' => 'index')); 
+	echo $this->Html->link('more news', array('controller' => 'news', 'action' => 'index')); 
 	?>
 </div>
 
