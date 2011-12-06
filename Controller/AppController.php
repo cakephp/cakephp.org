@@ -16,7 +16,7 @@ class AppController extends Controller {
  * @var array
  */
 	public $helpers = array(
-		'AssetCompress.AssetCompress'
+		'AssetCompress.AssetCompress',
 		'Form',
 		'Html',
 		'Js',
