@@ -1,3 +1,6 @@
 [submodule "Plugin/AssetCompress"]
 	path = Plugin/AssetCompress
 	url = git://github.com/markstory/asset_compress.git
+[submodule "Plugin/Csfnavbar"]
+	path = Plugin/Csfnavbar
+	url = git://github.com/cakephp/csfnavbar.git
