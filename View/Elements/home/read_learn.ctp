@@ -5,7 +5,7 @@
 	<h3><?php echo __('Learn') ?></h3>
 	<ul>
 		<li>
-			<a href=http://book.cakephp.org/2.0/en/getting-started.html">
+			<a href="http://book.cakephp.org/2.0/en/getting-started.html">
 				Getting started tutorial
 			</a>
 		</li>
