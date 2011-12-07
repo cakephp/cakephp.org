@@ -26,6 +26,9 @@
  * @lastmodified	$Date: 2007-12-28 14:02:33 -0800 (Fri, 28 Dec 2007) $
  * @license			http://www.opensource.org/licenses/mit-license.php The MIT License
  */
+Cache::config('default', array(
+	'engine' => 'File',
+));
 
 CakePlugin::load('Csfnavbar');
 CakePlugin::load('AssetCompress');
@@ -42,21 +45,29 @@ Configure::write('Changelog.Repository', 'cakephp.git');
 Configure::write('Sites', array(
 	'JustBaked' => array(
 		array(
-			'name' => 'Fanroom',
-			'url' => 'http://fanroom.co.uk'),
-		array(
+			'image' => 'social-poke.png',
 			'name' => 'socialpoke.me',
 			'url' => 'http://socialpoke.me'),
+		array(
+			'image' => 'piano-marvel.png',
+			'name' => 'Piano Marvel',
+			'url' => 'http://pianomarvel.com'),
+		array(
+			'image' => 'feedbackforms.png',
+			'name' => 'Website Feedback Forms',
+			'url' => 'https://websitefeedbackforms.com/'),
+		array(
+			'image' => 'copify.png',
+			'name' => 'Copify',
+			'url' => 'http://www.copify.com',
+			'title' => 'Copywriting'),
+		/*
 		array(
 			'name' => 'Booking Boy',
 			'url' => 'http://www.bookingboy.com/'),
 		array(
-			'name' => 'Website Feedback Forms',
-			'url' => 'https://websitefeedbackforms.com/'),
-		array(
-			'name' => 'Copify',
-			'url' => 'http://www.copify.com',
-			'title' => 'Copywriting'),
+			'name' => 'Fanroom',
+			'url' => 'http://fanroom.co.uk'),
 		array(
 			'name' => 'Amerpages',
 			'url' => 'http://amerpages.com'),
@@ -66,9 +77,7 @@ Configure::write('Sites', array(
 		array(
 			'name' => 'Traffic Travis',
 			'url' => 'http://www.traffictravis.com'),
-		array(
-			'name' => 'Piano Marvel',
-			'url' => 'http://pianomarvel.com'),
+		 */
 		// array(
 		// 	'name' => 'Miss Universe',
 		// 	'url' => 'http://www.missuniverse.com'),
