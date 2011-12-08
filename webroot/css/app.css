@@ -401,6 +401,7 @@ dl.tabs.mobile dd a {
 	position: absolute;
 	top: 50%;
 	left: 0;
+	cursor: pointer;
 }
 .jcarousel-prev {
 	background-position: 0 -20px;
@@ -410,6 +411,7 @@ dl.tabs.mobile dd a {
 .jcarousel-prev-disabled,
 .jcarousel-next-disabled {
 	opacity: 0.4;
+	cursor: auto;
 }
 .photo-carousel {
 	margin: 0;
