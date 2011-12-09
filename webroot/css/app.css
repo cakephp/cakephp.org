@@ -524,3 +524,81 @@ dl.tabs.mobile dd a {
 
 
 
+
+/**
+ * CSF navbar override.
+ */
+@media only screen and (max-width: 1000px) {
+	#cakephp-global-navigation ul li.main {
+		margin-left: 10px;
+	}
+}
+@media only screen and (max-width: 727px) {
+	/*
+	#cakephp-global-navigation {
+		position: relative;
+	}
+	#cakephp-global-navigation ul li {
+		display: none;
+		position: static;
+	}
+	#cakephp-global-navigation > ul li.main {
+		display: block;
+	}
+	#cakephp-global-navigation > ul li {
+		display: block;
+		float: none;
+		width: 100%;
+		background-color: #303030;
+		height: auto;
+	}
+	#cakephp-global-navigation > ul ul {
+		border: 0;
+		background: rgba(255, 255, 255, 0.2);
+		position: absolute;
+		top: 33px;
+		left: 30%;
+		width: 50%;
+		height: 110px;
+		border-radius: 5px;
+		float: none;
+	}
+	#cakephp-global-navigation ul li ul li {
+		background: none;
+		width: 48%;
+		padding-left: 1%;
+		padding-right: 1%;
+		float: left;
+	}
+	*/
+
+	#cakephp-global-navigation ul li {
+		display: none;
+		position: static;
+		width: auto;
+	}
+	#cakephp-global-navigation ul ul {
+		width: auto;
+	}
+	#cakephp-global-navigation > ul li.main {
+		display: block;
+	}
+	#cakephp-global-navigation > ul > li {
+		display: none;
+		float: none;
+		width: 100%;
+		background-color: #303030;
+		height: auto;
+	}
+	#cakephp-global-navigation > ul:hover li {
+		display: block;
+	}
+	#cakephp-global-navigation ul li ul li {
+		width: auto;
+	}
+	#cakephp-global-navigation ul li:hover ul {
+		display: none;
+		margin: 0;
+	}
+
+}
