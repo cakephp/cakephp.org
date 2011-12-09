@@ -46,33 +46,5 @@ $(document).ready(function() {
 	/* Gives elements with a class of 'disabled' a return: false; */
 	
 
-	var nav = $('#cakephp-global-navigation');
-	var unbind = function () {
-		nav.undelegate('click', '> ul > li');
-	};
-
-	var bind = function () {
-		nav.delegate('ul > li', 'click', function (e) {
-			e.preventDefault();
-			$(this).find('ul').toggle();
-		});
-		$("#cakephp-global-navigation ul li a.empty").unbind('click')
-			.parent().unbind('mouseleave mouseenter');
-	};
-	
-	// toggle the accordian mode
-	$(window).bind('resize', function () {
-		var win = $(this);
-		if (win.width() < 727) {
-			bind();
-		} else {
-			unbind();
-		}
-	});
-
-	if ($(window).width() < 727) {
-		bind();
-	}
-
-	
+	var nav = $('#cakephp-global-navigation ul').responsiveMenu();
 });
