@@ -59,8 +59,15 @@ Configure::write('Sites', array(
 		array(
 			'image' => 'copify.png',
 			'name' => 'Copify',
-			'url' => 'http://www.copify.com',
-			'title' => 'Copywriting'),
+			'url' => 'http://www.copify.com'),
+		array(
+			'image' => 'flipcomp.png',
+			'name' => 'Flipcomp',
+			'url' => 'http://www.flipcomp.com'),
+		array(
+			'image' => 'hotscripts.png',
+			'name' => 'Hot Scripts',
+			'url' => 'http://www.hotscripts.com'),
 		/*
 		array(
 			'name' => 'Booking Boy',
@@ -84,9 +91,6 @@ Configure::write('Sites', array(
 		// array(
 		// 	'name' => 'Affilorama',
 		// 	'url' => 'http://www.affilorama.com'),
-		// array(
-		// 	'name' => 'Hot Scripts',
-		// 	'url' => 'http://www.hotscripts.com'),
 	),
 	'Using' => array(
 		array(
