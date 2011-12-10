@@ -19,7 +19,7 @@
 
 			$window.resize(function() {
 				setClass();
-				$this.find('ul').css('display', 'none');
+				$this.children('ul').css('display', 'none');
 			});
 
 			setClass();
