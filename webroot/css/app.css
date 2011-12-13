@@ -367,6 +367,8 @@ dl.tabs.mobile dd a {
 		border: none;
 		border-top: 1px dotted #BD8A5D;
 		border-radius: none;
+		-webkit-border-radius: none;
+		-moz-border-radius: none;
 	}
 }
 
