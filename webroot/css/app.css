@@ -401,15 +401,16 @@ dl.tabs.mobile dd a {
 	width: 35px;
 	height: 20px;
 	background: url(/css/images/hand-icons.png) no-repeat;
+	background-position: 0 -20px;
 	position: absolute;
 	top: 50%;
-	left: 0;
+	right: 0;
 	cursor: pointer;
 }
 .jcarousel-prev {
-	background-position: 0 -20px;
-	left: auto;
-	right: 0;
+	background-position: 0 0;
+	right: auto;
+	left: 0;
 }
 .jcarousel-prev-disabled,
 .jcarousel-next-disabled {
