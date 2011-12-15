@@ -52,33 +52,38 @@
 			<?php echo $content_for_layout;?>
 		</div>
 
-		<footer class="mastend">
+		<footer class="mastend clearfix">
 			<div class="row">
-			<nav class="six columns offset-by-three">
-				<ul class="footer-nav">
-					<li><?php echo $this->Html->link(__('News'), array('controller' => 'news')); ?></li>
-					<li><?php echo $this->Html->link(__('Development'), array('controller' => 'pages', 'action' => 'display', 'development')); ?></li>
-					<li><?php echo $this->Html->link(__('Documentation'), array('controller' => 'pages', 'action' => 'display', 'documentation')); ?></li>
-				</ul>
-				<p class="copyright">
-					&copy; 2005-<?php echo date('Y'); ?> <?php echo $this->Html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org'); ?>
-					<br />
-					<span class="mini">
+				<nav class="six columns">
+					<ul class="footer-nav">
+						<li><?php echo $this->Html->link(__('News'), array('controller' => 'news')); ?></li>
+						<li><?php echo $this->Html->link(__('Development'), array('controller' => 'pages', 'action' => 'display', 'development')); ?></li>
+						<li><?php echo $this->Html->link(__('Documentation'), array('controller' => 'pages', 'action' => 'display', 'documentation')); ?></li>
+						<li class="download"><?php echo $this->Html->link(__('Download'), $three['link']); ?></li>
+					</ul>
+				</nav>
+				<div class="columns three offset-by-three hosting">
 					<?php echo $this->Html->link(
-					__('Privacy Policy'),
-					array('admin' => false, 'prefix' => null, 'plugin' => null, 'controller' => 'pages', 'action' => 'privacy')); ?>
-					</span>
-				</p>
-			</nav>
-			<div class="columns three hosting">
-				<?php echo $this->Html->link(
-					$this->Html->image('rackspace-logo.png'),
-					'http://rackspace.com',
-					array('escape' => false)); ?>
+						$this->Html->image('rackspace-logo.png'),
+						'http://rackspace.com',
+						array('escape' => false)); ?>
 
-				<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_thin_badge"></script>
-
+				</div>
 			</div>
+			
+			<div class="row overlined">
+				<div class="columns six mini">
+					&copy; 2005-<?php echo date('Y'); ?> <?php echo $this->Html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org'); ?>
+				</div>
+				<div class="columns six mini right-align">
+					<?php
+					echo $this->Html->link(
+						__('Privacy Policy'),
+						array('admin' => false, 'prefix' => null, 'plugin' => null, 'controller' => 'pages', 'action' => 'privacy')); 
+					?>
+					&nbsp;
+					<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_thin_badge"></script>
+				</div>
 			</div>
 		</footer>
 

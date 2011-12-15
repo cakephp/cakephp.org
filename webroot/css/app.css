@@ -33,7 +33,7 @@
  * Elements
  */
 body {
-	background: #B2CCCD;
+	background: #fff;
 	color: #000;
 	font-family: Helvetica, Arial;
 	font-size: 14px;
@@ -62,13 +62,12 @@ h3, h4 {
 	color: #BD8A5D;
 }
 
-/**
- * Generic classes
- */
 .mini {
-	font-size: 10px;
+	font-size: 12px;
 }
-
+.right-align {
+	text-align: right;
+}
 
 /**
  * Header
@@ -219,11 +218,6 @@ h3, h4 {
  * Containers
  */
 .section {
-	background: #fff;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	border-radius: 8px;
-	padding: 1em;
 	margin-bottom: 1.5em;
 	position: relative;
 }
@@ -235,7 +229,6 @@ h3, h4 {
 }
 
 #content {
-	background: url(/css/images/pale-halftone.png) repeat-x;
 	padding-top: 1.5em;
 }
 
@@ -281,9 +274,9 @@ h3, h4 {
 
 	padding: 1em;
 
-	-moz-border-radius: 0 8px 8px 0;
-	-webkit-border-radius: 0 8px 8px 0;
-	border-radius: 0 8px 8px 0;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
 }
 .cakephp-love h3 {
 	color: #fff;
@@ -496,36 +489,48 @@ dl.tabs.mobile dd a {
  * Footer
  */
 .mastend {
-	background: #417282 url(/css/images/header-halftone.png) repeat-x;
-	border-top: 2px solid #BD8A5D;
+	background: #B2CCCD url(/css/images/pale-halftone-bottom.png) repeat-x;
 }
-.hosting,
 .copyright {
-	color: #fff;
-	text-align: center;
+	font-size: 12px;
+	color: #003c4b;
 }
 .hosting {
+	text-align: right;
 	margin: 20px 0 0 0;
 }
 .footer-nav a,
 .copyright a {
-	color: #B2CCCD;
+	color: #003c4b;
+}
+.mastend .overlined {
+	border-top: 1px solid #407180;
+	padding-top: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.mastend .overlined img {
+	vertical-align: middle;
 }
 
 .footer-nav {
-	text-align: center;
-	margin: 20px auto;
+	margin: 30px 0 10px;
 }
 .footer-nav li {
+	font-family: MuseoSlab500;
+	font-size: 16px;
 	display: inline;
-	border-left: 1px solid #b2cccd;
-	padding: 0 8px 0 10px;
+	padding: 0 8px 0 0;
 }
-.footer-nav li:first-child {
-	border: 0;
+.mastend .download {
+	width: auto;
+	height: auto;
+	background: none;
+	margin: auto;
+	float: none;
 }
-.mastend .mini a {
-	color: #B2CCCD;
+.mastend .download a {
+	color: #C92434;
 }
 
 /**
