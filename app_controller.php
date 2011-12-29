@@ -60,19 +60,19 @@ class AppController extends Controller {
 		);
 		
 		$two = array(
-			'version' => '1.3.13 ' . __('Stable', true), 
-			'date' => 'Oct 15, 2011',
-			'link' => 'https://github.com/cakephp/cakephp/zipball/1.3.13',
-			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2011/10/15/cakephp_1_3_13_released',
-			'changelog' => 'http://cakephp.org/changelogs/1.3.13'
+			'version' => '1.3.14 ' . __('Stable', true), 
+			'date' => 'Dec 28, 2011',
+			'link' => 'https://github.com/cakephp/cakephp/zipball/1.3.14',
+			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2011/12/29/cakephp_1_3_14_and_2_0_5_released',
+			'changelog' => 'http://cakephp.org/changelogs/1.3.14'
 		);
 
 		$three = array(
-			'version' => '2.0.4 ' . __('Stable', true),
-			'date' => 'Nov 13, 2011',
-			'link' => 'https://github.com/cakephp/cakephp/zipball/2.0.4',
-			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2011/11/28/cakephp_2_0_4_released',
-			'changelog' => 'http://cakephp.org/changelogs/2.0.4'
+			'version' => '2.0.5 ' . __('Stable', true),
+			'date' => 'Dec 28, 2011',
+			'link' => 'https://github.com/cakephp/cakephp/zipball/2.0.5',
+			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2011/12/29/cakephp_1_3_14_and_2_0_5_released',
+			'changelog' => 'http://cakephp.org/changelogs/2.0.5'
 		);
 
 		$this->set(compact('one', 'two', 'three'));
