@@ -42,7 +42,7 @@
 
 
 <div class="row">
-	<div class="section">
+	<div class="section news-section">
 		<div class="eight columns">
 			<dl class="tabs">
 				<dd><a href="#news" class="active"><?php echo __('News'); ?></a></dd>

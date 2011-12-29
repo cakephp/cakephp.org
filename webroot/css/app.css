@@ -260,6 +260,10 @@ h3, h4 {
 	background-position: 0 -400px;
 }
 
+.news-section {
+	min-height: 270px;
+}
+
 /**
  * CakePHP Love/donations
  */
@@ -528,6 +532,9 @@ dl.tabs.mobile dd a {
 	background: none;
 	margin: auto;
 	float: none;
+	position: static;
+	top: auto;
+	right: auto;
 }
 .mastend .download a {
 	color: #C92434;
