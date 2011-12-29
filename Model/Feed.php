@@ -81,11 +81,16 @@ class Feed extends AppModel {
 		$data = array();
 		foreach ($this->__feeds as $name => $feed) {
 			$fed = Cache::read($name . '_feed_data', 'feed');
-			if (empty($fed)) {
-				$get = $socket->get($feed);
-				$rss = Xml::build($get->body());
-				$fed = Xml::toArray($rss);
-				Cache::write($name . '_feed_data', $fed, 'feed');
+			try {
+				if (empty($fed)) {
+					$get = $socket->get($feed);
+					$rss = Xml::build($get->body());
+					$fed = Xml::toArray($rss);
+					Cache::write($name . '_feed_data', $fed, 'feed');
+				}
+			} catch (SocketException $e) {
+				$fed = array();
+				$this->log($e->getMessage());
 			}
 			$data[$name] = $fed;
 		}

@@ -5,14 +5,18 @@
 </div>
 
 <div class="news columns five">
-	<?php
+<?php
 	$feed = $this->requestAction('/news/index');
-	for ($i = 0; $i < 3; $i++) {
+	if (isset($feed['rss']['channel']['item'])) {
 		$items = $feed['rss']['channel']['item'];
-		echo $this->element('news/item', array('article' => $items[$i]));
+		for ($i = 0; $i < 3; $i++) {
+			echo $this->element('news/item', array('article' => $items[$i]));
+		}
+		echo $this->Html->link('more news', array('controller' => 'news', 'action' => 'index')); 
+	} else {
+		echo '<p class="error">' . __('Could not fetch news') . '</p>';
 	}
-	echo $this->Html->link('more news', array('controller' => 'news', 'action' => 'index')); 
-	?>
+?>
 </div>
 
 <div class="columns four">
