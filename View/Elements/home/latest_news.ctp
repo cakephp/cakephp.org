@@ -1,4 +1,4 @@
-<div class="columns three center-align">
+<div class="columns three center-align tab-image">
 <?php
 echo $this->Html->image('news-cake.png', array(
 	'alt' => 'Hot and new',

@@ -1,4 +1,4 @@
-<div class="columns four">
+<div class="columns four tab-image center-align">
 	sexy image!
 </div>
 <div class="columns eight">

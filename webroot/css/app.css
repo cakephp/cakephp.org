@@ -396,6 +396,12 @@ dl.tabs.mobile dd a {
 .channel li {
 	margin-left: 1em;
 }
+@media only screen and (max-width: 767px) {
+	.tab-image {
+		width: auto;
+		float: left;
+	}
+}
 
 /**
  * Featured sites
