@@ -188,6 +188,7 @@ h3, h4 {
 	.tagline {
 		width: auto;
 		margin: 20px;
+		text-align: center;
 	}
 }
 
@@ -196,6 +197,9 @@ h3, h4 {
 	.masthead .logo {
 		margin-top: 70px;
 		text-align: center;
+	}
+	.masthead .logo img {
+		width: 160px;
 	}
 	.download {
 		float: none;
@@ -206,7 +210,6 @@ h3, h4 {
 		width: auto;
 		float: none;
 		margin: 20px;
-		text-align: center;
 	}
 	.main-nav {
 		left: 20px;
@@ -216,6 +219,12 @@ h3, h4 {
 	}
 }
 
+@media only screen and (max-width: 1000px) {
+	.section {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
 
 /**
  * Containers
@@ -542,6 +551,15 @@ dl.tabs.mobile dd a {
 }
 .mastend .download a {
 	color: #C92434;
+}
+@media only screen and (max-width: 450px) {
+	.mastend {
+		background-position: bottom left;
+	}
+	.mastend .footer-nav li {
+		display: inline-block;
+		width: 45%;
+	}
 }
 
 /**
