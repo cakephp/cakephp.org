@@ -17,7 +17,7 @@
 	?>
 
 	<h3><?php echo __('IRC') ?></h3>
-	<p>Stop by #cakephp on freenode.net and chat with other bakers.</p>
+	<p>Stop by <a href='irc://irc.freenode.net/cakephp'>#cakephp</a> on <a href='http://freenode.net'>freenode.net</a> and chat with other bakers.</p>
 
 	<h3><?php echo __('Screencasts and Tutorials'); ?></h3>
 	<p>View talks from previous CakeFests, screencasts and tutorials on 
