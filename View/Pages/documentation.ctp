@@ -22,7 +22,7 @@
 
 				<ul>
 					<li><a href="http://api13.cakephp.org">The api</a></li>
-					<li><a href="http://book.cakephp.org/">The book</a></li>
+					<li><a href="http://book.cakephp.org/1.3/en/view/876/The-Manual">The book</a></li>
 				</ul>
 			</div>
 
@@ -32,7 +32,7 @@
 
 				<ul>
 					<li><a href="http://api12.cakephp.org">The api</a></li>
-					<li><a href="http://book.cakephp.org/view/3/The-Manual">The book</a></li>
+					<li><a href="http://book.cakephp.org/1.2/en/view/3/The-Manual">The book</a></li>
 				</ul>
 			</div>
 		</div>
