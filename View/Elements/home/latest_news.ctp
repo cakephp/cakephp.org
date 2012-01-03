@@ -1,6 +1,8 @@
-<div class="columns three">
+<div class="columns three center-align">
 <?php
-	echo $this->Html->image('news-cake.png', array('alt' => 'Hot and new'));
+echo $this->Html->image('news-cake.png', array(
+	'alt' => 'Hot and new',
+));
 ?>
 </div>
 

@@ -68,6 +68,9 @@ h3, h4 {
 .right-align {
 	text-align: right;
 }
+.center-align {
+	text-align: center;
+}
 
 /**
  * Header
@@ -263,6 +266,7 @@ h3, h4 {
 .news-section {
 	min-height: 270px;
 }
+
 
 /**
  * CakePHP Love/donations

@@ -1,5 +1,9 @@
-<div class="columns four">
-	sexy image!
+<div class="columns four center-align">
+<?php
+echo $this->Html->image('learn-cook.png', array(
+	'alt' => 'Read and Learn',
+));
+?>
 </div>
 <div class="columns eight">
 	<h3><?php echo __('Learn') ?></h3>
