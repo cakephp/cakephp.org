@@ -1,6 +1,6 @@
 <li id="trainingTab">
-	<div class="columns four">
-		<?php echo $this->Html->image('hot-features.png', array('class' => 'image')); ?>
+	<div class="columns four center-align tab-image">
+		<?php echo $this->Html->image('services/training.png', array('class' => 'image')); ?>
 	</div>
 	
 	<div class="columns eight">

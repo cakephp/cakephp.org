@@ -12,8 +12,6 @@
 	</ul>
 </div>
 <?php
-$this->Html->script('jquery.jcarousel', array('inline' => false));
-
 $js = <<<TEXT
 var visible = \$(window).width() < 560 ? 1 : 3;
 \$('#carousel').jcarousel({
