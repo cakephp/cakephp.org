@@ -7,8 +7,8 @@
 	<?php
 	foreach ($changes as $hash => $change):
 		?><li><?php
-			echo '[' . $this->Html->link($hash, 'http://github.com/cakephp/cakephp/commit/' . $hash, array('target' => '_blank')) . ']';
-			echo ' ' . $change;
+			echo $this->Html->link($hash, 'http://github.com/cakephp/cakephp/commit/' . $hash, array('target' => '_blank'));
+			echo ' ' . h($change);
 		?></li><?php
 	endforeach;
 	?>
