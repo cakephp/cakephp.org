@@ -9,17 +9,36 @@
 				<a href="http://github.com/cakephp/cakephp">github.com</a>
 			</p>
 
+			<h2><?php echo __('Security Issues'); ?></h2>
+			<p>
+				Found a security exploit in CakePHP? Please don't message the mailing list, or open an
+				issue on lighthouse.  Instead, please email <strong>security [at] cakephp.org </strong>.
+				Email sent to this address are forwarded to the maintainers of CakePHP.
+			</p>
+			<p>
+				When a security issue is reported, we first try to confirm the vulnerability.  Once confirmed, we'll
+				do the following:
+			</p>
+			<ol>
+				<li>Send acknowledgement to the reporter, that we received and confirmed the issue.</li>
+				<li>Work on a patch to fix the issue.</li>
+				<li>Write a post describing the vulnerability, possible exploits and provide instructions on 
+					how to apply the patch / upgrade.</li>
+				<li>Apply the patch to all maintained and affected versions of CakePHP</li>
+				<li>Create new packaged releases for each affected version.</li>
+				<li>Publish the post on the CakePHP blog/Bakery</li>
+			</ol>
+
 			<h2><?php echo __('Lighthouse Issues'); ?></h2>
 			<p>
 				Found a bug? Suggest an improvement? Issue tracking for
 				CakePHP can be found at 
-				<a href="http://cakephp.lighthouseapp.com">lighthouse</a>
+				<a href="http://cakephp.lighthouseapp.com">lighthouse</a>.
 			</p>
 
 			<h2><?php echo __('General Mailing list'); ?></h2>
 			<p>
-				Have a problem? Learn more about CakePHP from the fantastic 
-				community. Show off a newly launched application. 
+				Discuss a problem you're having, or learn from other CakePHP developers around the globe.
 				Join the <a href="http://groups.google.com/group/cakephp">CakePHP mailing list</a>.
 			</p>
 
