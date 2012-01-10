@@ -45,9 +45,9 @@ Configure::write('Changelog.Repository', 'cakephp.git');
 Configure::write('Sites', array(
 	'JustBaked' => array(
 		array(
-			'image' => 'social-poke.png',
-			'name' => 'socialpoke.me',
-			'url' => 'http://socialpoke.me'),
+			'image' => 'hotscripts.png',
+			'name' => 'Hot Scripts',
+			'url' => 'http://www.hotscripts.com'),
 		array(
 			'image' => 'piano-marvel.png',
 			'name' => 'Piano Marvel',
@@ -61,13 +61,13 @@ Configure::write('Sites', array(
 			'name' => 'Copify',
 			'url' => 'http://www.copify.com'),
 		array(
+			'image' => 'social-poke.png',
+			'name' => 'socialpoke.me',
+			'url' => 'http://socialpoke.me'),
+		array(
 			'image' => 'flipcomp.png',
 			'name' => 'Flipcomp',
 			'url' => 'http://www.flipcomp.com'),
-		array(
-			'image' => 'hotscripts.png',
-			'name' => 'Hot Scripts',
-			'url' => 'http://www.hotscripts.com'),
 		/*
 		array(
 			'name' => 'Booking Boy',

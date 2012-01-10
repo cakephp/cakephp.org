@@ -12,7 +12,7 @@
 
 		<div class="four columns">
 			<h3 class="icon icon-configuration"><?php echo __('No Configuration'); ?></h3>
-			<p>No messy XML or YAML files.  Just setup your database and you're ready to bake.</p>
+			<p>No complicated XML or YAML files.  Just setup your database and you're ready to bake.</p>
 		</div>
 
 		<div class="four columns">
@@ -24,7 +24,7 @@
 	<div class="row">
 		<div class="four columns">
 			<h3 class="icon icon-batteries"><?php echo __('Batteries Included'); ?></h3>
-			<p>The things you need are built-in.  Translations, database access, caching, validation, authentication, and much more are all built into one of the original MVC frameworks.</p>
+			<p>The things you need are built-in.  Translations, database access, caching, validation, authentication, and much more are all built into one of the original PHP MVC frameworks.</p>
 		</div>
 
 		<div class="four columns">
@@ -34,7 +34,7 @@
 
 		<div class="four columns">
 			<h3 class="icon icon-secure"><?php echo __('Secure'); ?></h3>
-			<p>CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention, and XSS prevention.</p>
+			<p>CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention, and XSS prevention, helping you keep your application safe &amp; secure.</p>
 		</div>
 	</div>
 	</div>
