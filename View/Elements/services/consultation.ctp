@@ -1,6 +1,6 @@
 <li id="consultationTab">
 	<div class="columns four">
-		<?php echo $this->Html->image('community.png', array('class' => 'image')); ?>
+		<?php echo $this->Html->image('services/consultation.png', array('class' => 'image')); ?>
 	</div>
 	
 	<div class="columns eight">
