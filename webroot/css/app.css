@@ -104,7 +104,7 @@ h3, h4 {
 	color: #fff;
 	font-size: 28px;
 	text-shadow: 0px 1px 0px #111;
-	margin: 60px 0 0 0;
+	margin: 60px 0 0 20px;
 	width: 47.8%;
 }
 
@@ -137,6 +137,7 @@ h3, h4 {
 }
 
 .logo {
+	float: left;
 	margin-top: 20px;
 }
 .masthead .logo img {
@@ -169,26 +170,29 @@ h3, h4 {
 }
 
 /* tablet/smaller */
-@media only screen and (max-width: 1000px) {
-	.download {
-		position: absolute;
-		top: 60px;
-		right: 20px;
-		margin: 10px auto;
-	}
-	.tagline {
-		width: 40%;
-		margin: 60px 0 10px 20px;
-	}
-	.masthead .logo {
-		margin-left: 20px;
-	}
-}
 @media only screen and (max-width: 767px) {
 	.tagline {
-		width: auto;
-		margin: 20px;
-		text-align: center;
+		width: 42%;
+		margin: 75px 0 10px 20px;
+		font-size: 2.3rem;
+	}
+	.download {
+		background: url(/css/images/download-small.png) no-repeat;
+		width: 219px;
+		height: 94px;
+		margin: 25px 0 20px 0;
+		position: absolute;
+		top: 60px;
+		right: 10px;
+	}
+	.download-current {
+		padding: 65px 0 0 0;
+	}
+	.masthead .logo {
+		margin-top: 35px;
+	}
+	.logo img {
+		height: 22%;
 	}
 }
 
@@ -198,24 +202,20 @@ h3, h4 {
 		margin-top: 70px;
 		text-align: center;
 	}
-	.masthead .logo img {
-		width: 160px;
-	}
-	.download {
-		float: none;
-		position: static;
-		margin: 0 auto 10px;
-	}
 	.tagline {
 		width: auto;
-		float: none;
-		margin: 20px;
+		clear: both;
+		margin: 0 20px 20px 20px;
+		font-size: 2.2rem;
 	}
 	.main-nav {
 		left: 20px;
 	}
 	.main-nav ul {
 		text-align: center;
+	}
+	.logo img {
+		height: 20%;
 	}
 }
 
@@ -396,10 +396,21 @@ dl.tabs.mobile dd a {
 .channel li {
 	margin-left: 1em;
 }
+
 @media only screen and (max-width: 767px) {
 	.tab-image {
-		width: auto;
 		float: left;
+	}
+}
+
+/* phone size */
+@media only screen and (max-width: 560px) {
+	.tab-image {
+		width: auto;
+		margin-bottom: 10px;
+	}
+	.tab-image img {
+		height: 20%;
 	}
 }
 

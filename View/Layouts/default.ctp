@@ -22,7 +22,7 @@
 		<header class="masthead">
 			<div class="header-backing"></div>
 			<div class="row">
-				<h1 class="logo columns three"><?php
+				<h1 class="logo"><?php
 					echo $this->Html->image('cake-logo.png', array(
 						'alt' => 'CakePHP : the rapid development php framework',
 						'url' => '/'
