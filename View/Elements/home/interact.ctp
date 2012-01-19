@@ -1,5 +1,9 @@
 <div class="columns four tab-image center-align">
-	sexy image!
+<?php
+echo $this->Html->image('interact.png', array(
+	'alt' => 'Interact',
+));
+?>
 </div>
 <div class="columns eight">
 	<h3><?php echo __('Mailing List') ?></h3>
