@@ -52,11 +52,11 @@ class AppController extends Controller {
  */
 	function beforeRender() {
 		$one = array(
-			'version' => '2.1 ' . __('alpha', true),
+			'version' => '2.1 ' . __('beta', true),
 			'date' => 'Sept 18, 2011',
-			'link' => 'https://github.com/cakephp/cakephp/zipball/2.1.0-alpha',
-			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2012/01/09/cakephp_2_1-alpha_just_baked/',
-			'changelog' => 'http://cakephp.org/changelogs/2.1.0-alpha'
+			'link' => 'https://github.com/cakephp/cakephp/zipball/2.1.0-beta',
+			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2012/01/23/cakephp_2_1_hot_and_fresh',
+			'changelog' => 'http://cakephp.org/changelogs/2.1.0-beta'
 		);
 		
 		$two = array(
