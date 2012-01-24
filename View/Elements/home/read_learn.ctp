@@ -21,7 +21,6 @@ echo $this->Html->image('learn-cook.png', array(
 		<li>
 			<a href="http://tv.cakephp.org">Screencasts</a>
 		</li>
-		<li>CakePHP Cheatsheet</li>
 	</ul>
 
 	<h3><?php echo __('Read') ?></h3>

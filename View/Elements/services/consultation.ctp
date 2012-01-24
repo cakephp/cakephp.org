@@ -1,5 +1,5 @@
 <li id="consultationTab">
-	<div class="columns four">
+	<div class="columns four center-align">
 		<?php echo $this->Html->image('services/consultation.png', array('class' => 'image')); ?>
 	</div>
 	

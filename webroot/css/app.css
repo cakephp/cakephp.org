@@ -169,13 +169,8 @@ h3, h4 {
 	display: block;
 }
 
-/* tablet/smaller */
-@media only screen and (max-width: 767px) {
-	.tagline {
-		width: 42%;
-		margin: 75px 0 10px 20px;
-		font-size: 2.3rem;
-	}
+/* use smaller download on netbook, and smaller */
+@media only screen and (max-width: 900px) {
 	.download {
 		background: url(/css/images/download-small.png) no-repeat;
 		width: 219px;
@@ -188,8 +183,24 @@ h3, h4 {
 	.download-current {
 		padding: 65px 0 0 0;
 	}
+	.download-other {
+		color: #003D4C;
+		margin: 20px 0 0 0;
+		display: block;
+		text-align: center;
+	}
+}
+
+/* tablet/smaller */
+@media only screen and (max-width: 767px) {
+	.tagline {
+		width: 42%;
+		margin: 75px 0 10px 20px;
+		font-size: 2.3rem;
+	}
 	.masthead .logo {
 		margin-top: 35px;
+		margin-left: 10px;
 	}
 	.logo img {
 		height: 22%;
@@ -200,6 +211,7 @@ h3, h4 {
 @media only screen and (max-width: 560px) {
 	.masthead .logo {
 		margin-top: 70px;
+		margin-bottom: 0;
 		text-align: center;
 	}
 	.tagline {

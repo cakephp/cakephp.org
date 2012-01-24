@@ -1,6 +1,6 @@
 <li id="supportTab" class="active">
-	<div class="columns four">
-		<?php echo $this->Html->image('hot-features.png', array('class' => 'image')); ?>
+	<div class="columns four center-align">
+		<?php echo $this->Html->image('services/support.png', array('class' => 'image')); ?>
 	</div>
 
 	<div class="columns eight">
