@@ -32,11 +32,16 @@
 /**
  * Elements
  */
+html {
+	height: 100%;
+}
 body {
-	background: #fff;
 	color: #000;
+	background: #fff;
 	font-family: Helvetica, Arial;
 	font-size: 14px;
+	height: 100%;
+	overflow-y: scroll;
 }
 a {
 	color: #417282;
@@ -251,8 +256,13 @@ h3, h4 {
 	display: block;
 	clear: both;
 }
-
+#container {
+	min-height: 100%;
+	height: auto;
+	margin-bottom: -127px;
+}
 #content {
+	background: #fff;
 	padding-top: 1.5em;
 }
 
@@ -531,11 +541,21 @@ dl.tabs.mobile dd a {
 }
 
 
+
 /**
  * Footer
  */
+
+/* pushes the footer down */
+.footer-push {
+	clear: both;
+	height: 127px;
+}
+
 .mastend {
 	background: #B2CCCD url(/css/images/pale-halftone-bottom.png) repeat-x;
+	clear: both;
+	height: 127px;
 }
 .copyright {
 	font-size: 12px;
@@ -581,9 +601,15 @@ dl.tabs.mobile dd a {
 .mastend .download a {
 	color: #C92434;
 }
+@media only screen and (max-width: 727px) {
+	.mastend {
+		height: 200px;
+	}
+}
 @media only screen and (max-width: 450px) {
 	.mastend {
 		background-position: bottom left;
+		height: 251px;
 	}
 	.mastend .footer-nav li {
 		display: inline-block;

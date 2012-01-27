@@ -13,12 +13,12 @@
 		echo $this->Html->css('/csfnavbar/css/style');
 		echo $this->AssetCompress->css('app.css');
 
-		echo '<!--[if lt IE 9]>' . $this->Html->css('ie') . '<![endif]-->';
+		echo '<!--[if lt IE 9]>' . $this->Html->script('html5shiv') . '<![endif]-->';
 	?>
 </head>
 <body class="js">
-	<?php echo $this->element('navbar', array(), array('plugin' => 'Csfnavbar')); ?>
 	<div id="container">
+		<?php echo $this->element('navbar', array(), array('plugin' => 'Csfnavbar')); ?>
 		<header class="masthead">
 			<div class="header-backing"></div>
 			<div class="row">
@@ -51,43 +51,44 @@
 			<?php $this->Session->flash(); ?>
 			<?php echo $content_for_layout;?>
 		</div>
-
-		<footer class="mastend clearfix">
-			<div class="row">
-				<nav class="six columns">
-					<ul class="footer-nav">
-						<li><?php echo $this->Html->link(__('News'), array('controller' => 'news')); ?></li>
-						<li><?php echo $this->Html->link(__('Development'), array('controller' => 'pages', 'action' => 'display', 'development')); ?></li>
-						<li><?php echo $this->Html->link(__('Documentation'), array('controller' => 'pages', 'action' => 'display', 'documentation')); ?></li>
-						<li class="download"><?php echo $this->Html->link(__('Download'), $three['link']); ?></li>
-					</ul>
-				</nav>
-				<div class="columns three offset-by-three hosting">
-					<?php echo $this->Html->link(
-						$this->Html->image('rackspace-logo.png'),
-						'http://rackspace.com',
-						array('escape' => false)); ?>
-
-				</div>
-			</div>
-			
-			<div class="row overlined">
-				<div class="columns six mini">
-					&copy; 2005-<?php echo date('Y'); ?> <?php echo $this->Html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org'); ?>
-				</div>
-				<div class="columns six mini right-align">
-					<?php
-					echo $this->Html->link(
-						__('Privacy Policy'),
-						array('admin' => false, 'prefix' => null, 'plugin' => null, 'controller' => 'pages', 'action' => 'privacy')); 
-					?>
-					&nbsp;
-					<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_thin_badge"></script>
-				</div>
-			</div>
-		</footer>
-
+		<div class="footer-push"></div>
 	</div>
+
+	<footer class="mastend clearfix">
+		<div class="row">
+			<nav class="six columns">
+				<ul class="footer-nav">
+					<li><?php echo $this->Html->link(__('News'), array('controller' => 'news')); ?></li>
+					<li><?php echo $this->Html->link(__('Development'), array('controller' => 'pages', 'action' => 'display', 'development')); ?></li>
+					<li><?php echo $this->Html->link(__('Documentation'), array('controller' => 'pages', 'action' => 'display', 'documentation')); ?></li>
+					<li class="download"><?php echo $this->Html->link(__('Download'), $three['link']); ?></li>
+				</ul>
+			</nav>
+			<div class="columns three offset-by-three hosting">
+				<?php echo $this->Html->link(
+					$this->Html->image('rackspace-logo.png'),
+					'http://rackspace.com',
+					array('escape' => false)); ?>
+
+			</div>
+		</div>
+		
+		<div class="row overlined">
+			<div class="columns six mini">
+				&copy; 2005-<?php echo date('Y'); ?> <?php echo $this->Html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org'); ?>
+			</div>
+			<div class="columns six mini right-align">
+				<?php
+				echo $this->Html->link(
+					__('Privacy Policy'),
+					array('admin' => false, 'prefix' => null, 'plugin' => null, 'controller' => 'pages', 'action' => 'privacy')); 
+				?>
+				&nbsp;
+				<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_thin_badge"></script>
+			</div>
+		</div>
+	</footer>
+
 	<?php
 		echo $this->AssetCompress->script('app.js');
 		echo $this->AssetCompress->includeJs();
