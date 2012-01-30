@@ -421,14 +421,21 @@ dl.tabs.mobile {
 dl.tabs.mobile dd a {
 	background: none;
 }
+
 @media only screen and (max-width: 767px) {
+	dl.tabs.mobile {
+		padding: 0;
+	}
 	dl.tabs.mobile dd a {
 		border: none;
 		border-top: 1px dotted #BD8A5D;
-		border-radius: none;
-		-webkit-border-radius: none;
-		-moz-border-radius: none;
+		border-radius: 0;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
 	}
+}
+.tabs-content li .column:first-child {
+	margin-left: 0;
 }
 
 /**
