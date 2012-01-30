@@ -175,7 +175,7 @@ h3, h4 {
 }
 
 /* use smaller download on netbook, and smaller */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 905px) {
 	.download {
 		background: url(/css/images/download-small.png) no-repeat;
 		width: 219px;
@@ -199,9 +199,12 @@ h3, h4 {
 /* tablet/smaller */
 @media only screen and (max-width: 767px) {
 	.tagline {
-		width: 42%;
+		width: 40%;
 		margin: 75px 0 10px 20px;
 		font-size: 2.3rem;
+	}
+	.tagline.no-button {
+		width: 70%;
 	}
 	.masthead .logo {
 		margin-top: 35px;
@@ -212,6 +215,18 @@ h3, h4 {
 	}
 }
 
+@media only screen and (max-width: 675px) {
+	.tagline {
+		width: auto;
+		clear: both;
+		margin: 0 20px 20px 20px;
+		font-size: 2.2rem;
+	}
+	.tagline.no-button {
+		width: auto;
+	}
+}
+
 /* mobile layout */
 @media only screen and (max-width: 560px) {
 	.masthead .logo {
@@ -219,27 +234,39 @@ h3, h4 {
 		margin-bottom: 0;
 		text-align: center;
 	}
-	.tagline {
-		width: auto;
-		clear: both;
-		margin: 0 20px 20px 20px;
-		font-size: 2.2rem;
-	}
 	.main-nav {
-		left: 20px;
+		left: 10px;
+		top: 10px;
+		right: 10px;
 	}
 	.main-nav ul {
 		text-align: center;
 	}
 	.logo img {
-		height: 20%;
+		height: 120px;
 	}
 }
 
-@media only screen and (max-width: 1000px) {
-	.section {
-		margin-left: 10px;
-		margin-right: 10px;
+@media only screen and (max-width: 340px) {
+	.masthead .logo {
+		margin-top: 55px;
+	}
+	.main-nav {
+		top: 5px;
+		left: 5px;
+		right: 5px;
+	}
+	.main-nav ul {
+		text-align: left;
+	}
+	.main-nav li {
+		margin: 0 0 0 5px;)
+	}
+	.main-nav a {
+		font-size: 14px;
+	}
+	.tagline {
+		font-size: 1.8rem;
 	}
 }
 
@@ -614,6 +641,9 @@ dl.tabs.mobile dd a {
 	.mastend .footer-nav li {
 		display: inline-block;
 		width: 45%;
+	}
+	.mastend .footer-nav li:nth-child(even) {
+		text-align: right;
 	}
 }
 

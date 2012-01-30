@@ -28,7 +28,7 @@
 						'url' => '/'
 					));
 				?></h1>
-				<h2 class="tagline">
+				<h2 class="tagline <?php echo (empty($headerButton)) ? 'no-button' : '' ?>">
 					<?php echo __('CakePHP makes building web applications simpler, faster and require less code.');?>
 				</h2>
 
