@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row section">
 	<div class="columns three center-align tab-image">
 	<?php
 	echo $this->Html->image('news-cake.png', array(
