@@ -1,5 +1,5 @@
 <div class="row section">
-	<div class="columns three center-align tab-image">
+	<div class="columns four center-align tab-image">
 	<?php
 	echo $this->Html->image('news-cake.png', array(
 		'alt' => 'Hot and new',
@@ -7,7 +7,7 @@
 	?>
 	</div>
 
-	<div class="news columns nine">
+	<div class="news columns eight">
 	<?php
 		$feed = $this->requestAction('/news/index');
 		if (isset($feed['rss']['channel']['item'])) {
