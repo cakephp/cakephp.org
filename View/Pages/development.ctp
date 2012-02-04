@@ -29,6 +29,13 @@
 				<li>Publish the post on the CakePHP blog/Bakery</li>
 			</ol>
 
+			<h2><?php echo __('Continuous Integration'); ?></h2>
+			<p>
+				CakePHP is <a href="https://en.wikipedia.org/wiki/Continuous_Integration">continuously integrated</a>
+				check the status of the <a href="http://ci.cakephp.org">various builds</a> 
+				on CakePHP's Jenkins server.
+			</p>
+
 			<h2><?php echo __('Lighthouse Issues'); ?></h2>
 			<p>
 				Found a bug? Suggest an improvement? Issue tracking for
