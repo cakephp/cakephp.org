@@ -5,7 +5,7 @@
 			width: 768
 		}
 
-		var options = $.extend(defaults, options);
+		options = $.extend(defaults, options);
 		return this.each(function() {
 			var $this = $(this);
 			var $window = $(window);
