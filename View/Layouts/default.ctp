@@ -57,7 +57,7 @@
 
 	<footer class="mastend clearfix">
 		<div class="row">
-			<nav class="six columns">
+			<nav class="seven columns">
 				<ul class="footer-nav">
 					<li><?php echo $this->Html->link(__('News'), array('controller' => 'news')); ?></li>
 					<li><?php echo $this->Html->link(__('Development'), array('controller' => 'pages', 'action' => 'display', 'development')); ?></li>
@@ -65,7 +65,7 @@
 					<li class="download"><?php echo $this->Html->link(__('Download'), $three['link']); ?></li>
 				</ul>
 			</nav>
-			<div class="columns three offset-by-three hosting">
+			<div class="columns three offset-by-two hosting">
 				<?php echo $this->Html->link(
 					$this->Html->image('rackspace-logo.png'),
 					'http://rackspace.com',

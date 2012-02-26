@@ -1,70 +1,13 @@
 /* app.css for cakephp.org */
-/*!
- * Web Fonts from fontspring.com
- *
- * All OpenType features and all extended glyphs have been removed.
- * Fully installable fonts can be purchased at http://www.fontspring.com
- *
- * The fonts included in this stylesheet are subject to the End User License you purchased
- * from Fontspring. The fonts are protected under domestic and international trademark and 
- * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
- * distributing this font software.
- *
- * (c) 2010-2011 Fontspring
- *
- * The fonts included are copyrighted by the vendor listed below.
- *
- * Vendor:      exljbris
- * License URL: http://www.fontspring.com/fflicense/exljbris
- */
-@font-face {
-    font-family: 'MuseoSlab500';
-    src: url('/css/Museo_Slab_500-webfont.eot');
-    src: url('/css/Museo_Slab_500-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/css/Museo_Slab_500-webfont.woff') format('woff'),
-         url('/css/Museo_Slab_500-webfont.ttf') format('truetype'),
-         url('/css/Museo_Slab_500-webfont.svg#MuseoSlab500') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
+/* See cake.css for more general styling info */
 
 /**
  * Elements
  */
-html {
-	height: 100%;
-}
 body {
-	color: #000;
-	background: #fff;
-	font-family: Helvetica, Arial;
 	font-size: 14px;
 	height: 100%;
 	overflow-y: scroll;
-}
-a {
-	color: #417282;
-}
-a:hover {
-	color: #003D4C;
-	text-decoration: underline;
-}
-h1, h2, h3, h4, h5 {
-	font-family: MuseoSlab500, Helvetica, Arial;
-	font-weight: normal;
-}
-h1 {
-	font-size: 3.0rem;
-	color: #C92434;
-}
-h2 {
-	font-size: 2.8rem;
-	color: #C92434;
-}
-h3, h4 {
-	font-size: 2.1rem;
-	color: #BD8A5D;
 }
 
 .mini {
@@ -80,24 +23,6 @@ h3, h4 {
 /**
  * Header
  */
-.masthead {
-	background: #417282 url(/css/images/header-bg.png) repeat-x;
-	position: relative;
-	overflow: hidden;
-}
-.header-backing {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	right: 0px;
-	bottom: 0px;
-	z-index: 0;
-	background: url(/css/images/header-halftone.png) repeat-x;
-
-	-webkit-transform: rotate(-2.8deg);
-	-moz-transform: rotate(-2.8deg);
-	transform: rotate(-2.8deg);
-}
 .masthead .row {
 	z-index: 1;
 	position: relative;
@@ -152,7 +77,7 @@ h3, h4 {
 
 .download {
 	float: left;
-	background: url(/css/images/download-button.png) no-repeat;
+	background: url(../css/images/download-button.png) no-repeat;
 	width: 265px;
 	height: 139px;
 	margin: 70px 0 20px 0;
@@ -177,7 +102,7 @@ h3, h4 {
 /* use smaller download on netbook, and smaller */
 @media only screen and (max-width: 905px) {
 	.download {
-		background: url(/css/images/download-small.png) no-repeat;
+		background: url(../css/images/download-small.png) no-repeat;
 		width: 219px;
 		height: 94px;
 		margin: 25px 0 20px 0;
@@ -269,7 +194,7 @@ h3, h4 {
 		font-size: 1.8rem;
 	}
 	.download {
-		background: url(/css/images/download-mobile.png) no-repeat;
+		background: url(../css/images/download-mobile.png) no-repeat;
 		margin-top: 40px;
 		width: 160px;
 		height: 78px;
@@ -312,7 +237,7 @@ h3, h4 {
 	margin-bottom: 6px;
 }
 .why .icon {
-	background: url(/css/images/why-icon-sheet.png) top left no-repeat;
+	background: url(../css/images/why-icon-sheet.png) top left no-repeat;
 
 }
 .why .icon-configuration {
@@ -495,7 +420,7 @@ dl.tabs.mobile dd a {
 .jcarousel-next {
 	width: 35px;
 	height: 20px;
-	background: url(/css/images/hand-icons.png) no-repeat;
+	background: url(../css/images/hand-icons.png) no-repeat;
 	background-position: 0 -20px;
 	position: absolute;
 	top: 50%;
@@ -600,9 +525,9 @@ dl.tabs.mobile dd a {
 }
 
 .mastend {
-	background: #B2CCCD url(/css/images/pale-halftone-bottom.png) repeat-x;
+	background: #B2CCCD url(../css/images/pale-halftone-bottom.png) repeat-x;
 	clear: both;
-	height: 127px;
+	min-height: 127px;
 }
 .copyright {
 	font-size: 12px;
@@ -651,11 +576,11 @@ dl.tabs.mobile dd a {
 @media only screen and (max-width: 727px) {
 	.mastend {
 		height: 200px;
+		background-position: bottom left;
 	}
 }
 @media only screen and (max-width: 450px) {
 	.mastend {
-		background-position: bottom left;
 		height: 251px;
 	}
 	.mastend .footer-nav li {
