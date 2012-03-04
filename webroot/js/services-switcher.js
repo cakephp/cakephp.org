@@ -2,12 +2,8 @@ $(function() {
 	var url = window.location.href;
 	var regex = new RegExp('\/services\/([a-z]+)$');
 	var matches = regex.exec(url);
+	console.log(matches);
 	if (matches.length > 1) {
-		for (var i = 0; i < Tabs.panels.length; i++) {
-			if (Tabs.panels[i].id == matches[1]) {
-				Tabs.showPanel(Tabs.panels[i]);
-				break;
-			}
-		}
+		$('a[href="#' + matches[1] + '"]').trigger('click');
 	}
 });
