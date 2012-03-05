@@ -1,5 +1,8 @@
 /* app.css for cakephp.org */
 /* See cake.css for more general styling info */
+html {
+	height: 100%;
+}
 
 /**
  * Elements
