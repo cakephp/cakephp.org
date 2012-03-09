@@ -401,10 +401,11 @@ dl.tabs.mobile dd a {
 @media only screen and (max-width: 560px) {
 	.tab-image {
 		width: auto;
-		margin-bottom: 10px;
+		margin: 0 auto 10px auto;
+		float: none;
 	}
 	.tab-image img {
-		height: 20%;
+		display: inline;
 	}
 }
 
