@@ -45,6 +45,5 @@ $(document).ready(function() {
 	/* DISABLED BUTTONS ------------- */
 	/* Gives elements with a class of 'disabled' a return: false; */
 	
-
-	var nav = $('#cakephp-global-navigation ul').responsiveMenu();
+	$('#cakephp-global-navigation').menuSelect({'class': 'nav-select'});
 });
