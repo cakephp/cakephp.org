@@ -1,6 +1,10 @@
 <div class="slider">
 	<ul id="carousel" class="photo-carousel">
-	<?php foreach (Configure::read('Sites.JustBaked') as $site): ?>
+	<?php
+	$sites = Configure::read('Sites.JustBaked');
+	shuffle($sites);
+	?>
+	<?php foreach ($sites as $site): ?>
 		<li>
 			<span class="polaroid">
 				<?php echo $this->Html->image('featured-sites/' . $site['image'], array('url' => $site['url'])) ?>
