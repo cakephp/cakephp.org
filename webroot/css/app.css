@@ -8,9 +8,12 @@ html {
  * Elements
  */
 body {
-	font-size: 14px;
 	height: 100%;
 	overflow-y: scroll;
+}
+body, p {
+	font-size: 1.4rem;
+	font-size: 14px;
 }
 
 .mini {
@@ -126,6 +129,10 @@ body {
 
 /* tablet/smaller */
 @media only screen and (max-width: 767px) {
+	body, p {
+		font-size: 1.5rem
+		font-size: 15px;
+	}
 	.tagline {
 		width: 40%;
 		margin: 75px 0 10px 20px;
