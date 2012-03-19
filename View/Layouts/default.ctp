@@ -92,7 +92,6 @@
 
 	<?php
 		echo $this->AssetCompress->script('app.js');
-		echo $this->AssetCompress->includeJs();
 		echo $scripts_for_layout;
 		echo $this->Js->writeBuffer();
 	?>

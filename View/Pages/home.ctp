@@ -76,7 +76,11 @@
 	<div class="columns three">
 		<h3><?php echo __('Other sites using CakePHP'); ?></h3>
 		<ul>
-			<?php foreach (Configure::read('Sites.Using') as $site): ?>
+			<?php
+			$sites = Configure::read('Sites.Using');
+			shuffle($sites);
+			?>
+			<?php foreach ($sites as $site): ?>
 			<li>
 			<a target="_new" href="<?php echo h($site['url']); ?>"><?php echo h($site['name']); ?></a>
 			</li>

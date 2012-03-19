@@ -68,10 +68,19 @@ Configure::write('Sites', array(
 			'image' => 'flipcomp.png',
 			'name' => 'Flipcomp',
 			'url' => 'http://www.flipcomp.com'),
-		/*
 		array(
+			'image' => 'booking-boy.png',
 			'name' => 'Booking Boy',
 			'url' => 'http://www.bookingboy.com/'),
+		array(
+			'image' => 'affilorama.png',
+			'name' => 'Affilorama',
+			'url' => 'http://www.affilorama.com'),
+		array(
+			'image' => 'traffic-travis.png',
+			'name' => 'Traffic Travis',
+			'url' => 'http://www.traffictravis.com'),
+		/*
 		array(
 			'name' => 'Fanroom',
 			'url' => 'http://fanroom.co.uk'),
@@ -82,15 +91,9 @@ Configure::write('Sites', array(
 			'name' => 'CakePHP Questions',
 			'url' => 'http://ask.cakephp.org'),
 		array(
-			'name' => 'Traffic Travis',
-			'url' => 'http://www.traffictravis.com'),
+			'name' => 'Miss Universe',
+			'url' => 'http://www.missuniverse.com'),
 		 */
-		// array(
-		// 	'name' => 'Miss Universe',
-		// 	'url' => 'http://www.missuniverse.com'),
-		// array(
-		// 	'name' => 'Affilorama',
-		// 	'url' => 'http://www.affilorama.com'),
 	),
 	'Using' => array(
 		array(
