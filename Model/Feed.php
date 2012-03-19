@@ -84,9 +84,14 @@ class Feed extends AppModel {
 			try {
 				if (empty($fed)) {
 					$get = $socket->get($feed);
-					$rss = Xml::build($get->body());
-					$fed = Xml::toArray($rss);
-					Cache::write($name . '_feed_data', $fed, 'feed');
+					libxml_use_internal_errors(false);
+					try {
+						$rss = Xml::build($get->body());
+						$fed = Xml::toArray($rss);
+						Cache::write($name . '_feed_data', $fed, 'feed');
+					} catch (Exception $e) {
+						$fed = array();
+					}
 				}
 			} catch (SocketException $e) {
 				$fed = array();
