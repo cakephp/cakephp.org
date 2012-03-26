@@ -451,6 +451,7 @@ dl.tabs.mobile dd a {
 .photo-carousel {
 	margin: 0;
 	height: 200px;
+	list-style: none outside none;
 }
 .photo-carousel li {
 	float: left;
