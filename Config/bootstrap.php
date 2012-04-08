@@ -80,6 +80,10 @@ Configure::write('Sites', array(
 			'image' => 'traffic-travis.png',
 			'name' => 'Traffic Travis',
 			'url' => 'http://www.traffictravis.com'),
+		array(
+			'image' => 'fmtv.jpg',
+			'name' => 'followmy.tv',
+			'url' => 'http://followmy.tv'),
 		/*
 		array(
 			'name' => 'Fanroom',
@@ -96,9 +100,6 @@ Configure::write('Sites', array(
 		 */
 	),
 	'Using' => array(
-		array(
-			'name' => 'followmy.tv',
-			'url' => 'http://followmy.tv'),
 		array(
 			'name' => 'My Gas Feed',
 			'url' => 'http://www.mygasfeed.com'),
