@@ -130,7 +130,7 @@ body, p {
 /* tablet/smaller */
 @media only screen and (max-width: 767px) {
 	body, p {
-		font-size: 1.5rem
+		font-size: 1.5rem;
 		font-size: 15px;
 	}
 	.tagline {
