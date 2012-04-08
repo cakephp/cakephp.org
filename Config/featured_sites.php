@@ -4,35 +4,35 @@ $config = array(
 	'Sites' => array(
 		'JustBaked' => array(
 			array(
-				'image' => 'hotscripts.png',
+				'image' => 'hotscripts.jpg',
 				'name' => 'Hot Scripts',
 				'url' => 'http://www.hotscripts.com'),
 			array(
-				'image' => 'piano-marvel.png',
+				'image' => 'piano-marvel.jpg',
 				'name' => 'Piano Marvel',
 				'url' => 'http://pianomarvel.com'),
 			array(
-				'image' => 'feedbackforms.png',
+				'image' => 'feedbackforms.jpg',
 				'name' => 'Website Feedback Forms',
 				'url' => 'https://websitefeedbackforms.com/'),
 			array(
-				'image' => 'copify.png',
+				'image' => 'copify.jpg',
 				'name' => 'Copify',
 				'url' => 'http://www.copify.com'),
 			array(
-				'image' => 'social-poke.png',
+				'image' => 'social-poke.jpg',
 				'name' => 'socialpoke.me',
 				'url' => 'http://socialpoke.me'),
 			array(
-				'image' => 'flipcomp.png',
+				'image' => 'flipcomp.jpg',
 				'name' => 'Flipcomp',
 				'url' => 'http://www.flipcomp.com'),
 			array(
-				'image' => 'booking-boy.png',
+				'image' => 'booking-boy.jpg',
 				'name' => 'Booking Boy',
 				'url' => 'http://www.bookingboy.com/'),
 			array(
-				'image' => 'affilorama.png',
+				'image' => 'affilorama.jpg',
 				'name' => 'Affilorama',
 				'url' => 'http://www.affilorama.com'),
 			array(
