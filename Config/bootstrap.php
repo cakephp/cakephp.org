@@ -128,3 +128,5 @@ Configure::write('Sites', array(
 ));
 
 
+// Load featured sites config
+Configure::load('featured_sites.php');
