@@ -43,20 +43,10 @@ $config = array(
 				'image' => 'fmtv.jpg',
 				'name' => 'followmy.tv',
 				'url' => 'http://followmy.tv'),
-			/*
 			array(
-				'name' => 'Fanroom',
-				'url' => 'http://fanroom.co.uk'),
-			array(
-				'name' => 'Amerpages',
-				'url' => 'http://amerpages.com'),
-			array(
-				'name' => 'CakePHP Questions',
-				'url' => 'http://ask.cakephp.org'),
-			array(
-				'name' => 'Miss Universe',
-				'url' => 'http://www.missuniverse.com'),
-			 */
+				'image' => 'teamspeak.jpg',
+				'name' => 'teamspeak.net',
+				'url' => 'http://teamspeak.net'),
 		),
 		'Using' => array(
 			array(
@@ -77,12 +67,6 @@ $config = array(
 			array(
 				'name' => 'MapMe',
 				'url' => 'http://www.mapme.com'),
-			// array(
-			// 	'name' => 'Zeadoo',
-			// 	'url' => 'http://www.zeadoo.com'),
-			// array(
-			// 	'name' => 'cghub',
-			// 	'url' => 'http://cghub.com'),
 		),
 	),
 );
