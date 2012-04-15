@@ -50,6 +50,9 @@ $config = array(
 		),
 		'Using' => array(
 			array(
+				'name' => 'KZO',
+				'url' => 'http://kzoinnovations.com'),
+			array(
 				'name' => 'My Gas Feed',
 				'url' => 'http://www.mygasfeed.com'),
 			array(
