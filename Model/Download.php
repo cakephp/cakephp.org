@@ -1,5 +1,5 @@
 <?php
-
+App::uses('Folder', 'Utility');
 class Download extends AppModel {
 
 	var $useTable = false;
@@ -9,9 +9,6 @@ class Download extends AppModel {
 
 	function read($path = null) {
 		$data = null;
-		if (!class_exists('Folder')) {
-			uses('Folder');
-		}
 
 		$wwwPath = join('/', explode(DS, $path));
 
