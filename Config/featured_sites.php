@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * Conventions:
+ *
+ * - Add new sites to the bottom of each group
+ * - Expire old sites from the top of each group
+ * - The 'Using' group uses vertical space on the site - try not to make the list any longer.
+ *
+ */
+
 $config = array(
 	'Sites' => array(
 		'JustBaked' => array(
@@ -49,12 +58,14 @@ $config = array(
 				'url' => 'http://teamspeak.net'),
 		),
 		'Using' => array(
-			array(
-				'name' => 'KZO',
-				'url' => 'http://kzoinnovations.com'),
-			array(
-				'name' => 'My Gas Feed',
-				'url' => 'http://www.mygasfeed.com'),
+			// *** Expired: 2012-04-30
+			// array(
+			// 	'name' => 'KZO',
+			// 	'url' => 'http://kzoinnovations.com'),
+			// *** Expired: 2012-04-30
+			// array(
+			// 	'name' => 'My Gas Feed',
+			// 	'url' => 'http://www.mygasfeed.com'),
 			array(
 				'name' => 'The Daily Save',
 				'url' => 'http://www.thedailysave.com'),
@@ -70,6 +81,12 @@ $config = array(
 			array(
 				'name' => 'MapMe',
 				'url' => 'http://www.mapme.com'),
+			array(
+				'name' => 'Netmums',
+				'url' => 'http://www.netmums.com/'),
+			array(
+				'name' => 'Auctigo',
+				'url' => 'http://www.auctigo.com'),
 		),
 	),
 );
