@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * Conventions:
+ *
+ * - Add new sites to the bottom of each group
+ * - Expire old sites from the top of each group
+ * - The 'Using' group uses vertical space on the site - try not to make the list any longer.
+ *
+ */
+
 $config = array(
 	'Sites' => array(
 		'JustBaked' => array(
@@ -43,25 +52,20 @@ $config = array(
 				'image' => 'fmtv.jpg',
 				'name' => 'followmy.tv',
 				'url' => 'http://followmy.tv'),
-			/*
 			array(
-				'name' => 'Fanroom',
-				'url' => 'http://fanroom.co.uk'),
-			array(
-				'name' => 'Amerpages',
-				'url' => 'http://amerpages.com'),
-			array(
-				'name' => 'CakePHP Questions',
-				'url' => 'http://ask.cakephp.org'),
-			array(
-				'name' => 'Miss Universe',
-				'url' => 'http://www.missuniverse.com'),
-			 */
+				'image' => 'teamspeak.jpg',
+				'name' => 'teamspeak.net',
+				'url' => 'http://teamspeak.net'),
 		),
 		'Using' => array(
-			array(
-				'name' => 'My Gas Feed',
-				'url' => 'http://www.mygasfeed.com'),
+			// *** Expired: 2012-04-30
+			// array(
+			// 	'name' => 'KZO',
+			// 	'url' => 'http://kzoinnovations.com'),
+			// *** Expired: 2012-04-30
+			// array(
+			// 	'name' => 'My Gas Feed',
+			// 	'url' => 'http://www.mygasfeed.com'),
 			array(
 				'name' => 'The Daily Save',
 				'url' => 'http://www.thedailysave.com'),
@@ -77,12 +81,12 @@ $config = array(
 			array(
 				'name' => 'MapMe',
 				'url' => 'http://www.mapme.com'),
-			// array(
-			// 	'name' => 'Zeadoo',
-			// 	'url' => 'http://www.zeadoo.com'),
-			// array(
-			// 	'name' => 'cghub',
-			// 	'url' => 'http://cghub.com'),
+			array(
+				'name' => 'Netmums',
+				'url' => 'http://www.netmums.com/'),
+			array(
+				'name' => 'Auctigo',
+				'url' => 'http://www.auctigo.com'),
 		),
 	),
 );
