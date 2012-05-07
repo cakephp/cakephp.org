@@ -26,6 +26,10 @@ body, p {
 	text-align: center;
 }
 
+#cakephp-global-navigation li.main {
+	background-image: url('/csfnavbar/css/main-link.png');
+}
+
 /**
  * Header
  */

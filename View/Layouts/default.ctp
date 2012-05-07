@@ -11,7 +11,6 @@
 		echo $this->Html->meta('icon');
 		echo $this->element('ie9-jumplist');
 
-		echo $this->Html->css('/csfnavbar/css/style');
 		echo $this->AssetCompress->css('app.css');
 
 		echo '<!--[if lt IE 9]>' . $this->Html->script('html5shiv') . '<![endif]-->';
