@@ -62,13 +62,16 @@ $config = array(
 			// array(
 			// 	'name' => 'KZO',
 			// 	'url' => 'http://kzoinnovations.com'),
+
 			// *** Expired: 2012-04-30
 			// array(
 			// 	'name' => 'My Gas Feed',
 			// 	'url' => 'http://www.mygasfeed.com'),
-			array(
-				'name' => 'The Daily Save',
-				'url' => 'http://www.thedailysave.com'),
+
+			// *** Expired: 2012-05-10
+			// array(
+			// 	'name' => 'The Daily Save',
+			// 	'url' => 'http://www.thedailysave.com'),
 			array(
 				'name' => 'Ambling Books',
 				'url' => 'http://amblingbooks.com'),
@@ -87,6 +90,9 @@ $config = array(
 			array(
 				'name' => 'Auctigo',
 				'url' => 'http://www.auctigo.com'),
+			array(
+				'name' => 'KüchenAtlas',
+				'url' => 'http://www.kuechen-atlas.de'),
 		),
 	),
 );
