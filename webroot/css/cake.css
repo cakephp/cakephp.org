@@ -245,18 +245,20 @@ ul ul {
 		margin-left: 10px;
 	}
 }
+
 @media only screen and (max-width: 727px) {
+
 	#cakephp-global-navigation .nav-select {
 		display: block;
 		position: absolute;
 		top: 3px;
 		right: 10px;
 	}
-	#cakephp-global-navigation li {
-		display: none;
-	}
 	#cakephp-global-navigation .main {
 		display: block;
+	}
+	#cakephp-global-navigation li {
+		display: none;
 	}
 
 }

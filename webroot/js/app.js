@@ -6,8 +6,8 @@ $(document).ready(function() {
 	/* TABS --------------------------------- */
 	/* Remove if you don't need :) */
 	
-	var tabs = $('dl.tabs');
-		tabsContent = $('ul.tabs-content')
+	var tabs = $('dl.tabs'),
+		tabsContent = $('ul.tabs-content');
 	
 	tabs.each(function(i) {
 		//Get all tabs
@@ -15,11 +15,11 @@ $(document).ready(function() {
 		tab.click(function(e) {
 			
 			//Get Location of tab's content
-			var contentLocation = $(this).attr("href")
+			var contentLocation = $(this).attr("href");
 			contentLocation = contentLocation + "Tab";
 			
 			//Let go if not a hashed one
-			if(contentLocation.charAt(0)=="#") {
+			if (contentLocation.charAt(0)=="#") {
 			
 				e.preventDefault();
 			
