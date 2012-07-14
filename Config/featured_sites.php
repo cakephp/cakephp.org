@@ -93,6 +93,9 @@ $config = array(
 			array(
 				'name' => 'KüchenAtlas',
 				'url' => 'http://www.kuechen-atlas.de'),
+			array(
+				'name' => 'Clinic Finder',
+				'url' => 'http://theclinicfinder.com'),
 		),
 	),
 );
