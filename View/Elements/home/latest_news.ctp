@@ -2,7 +2,7 @@
 	<div class="columns four center-align tab-image">
 	<?php
 	echo $this->Html->image('news-cake.png', array(
-		'alt' => 'Hot and new',
+		'alt' => __('Hot and new'),
 	));
 	?>
 	</div>
@@ -15,7 +15,7 @@
 			for ($i = 0; $i < 3; $i++) {
 				echo $this->element('news/item', array('article' => $items[$i]));
 			}
-			echo $this->Html->link('more news', array('controller' => 'news', 'action' => 'index')); 
+			echo $this->Html->link(__('more news'), array('controller' => 'news', 'action' => 'index'));
 		} else {
 			echo '<p class="error">' . __('Could not fetch news') . '</p>';
 		}

@@ -1,7 +1,7 @@
 <div class="columns four center-align tab-image">
 <?php
 echo $this->Html->image('learn-cook.png', array(
-	'alt' => 'Read and Learn',
+	'alt' => __('Read and Learn'),
 ));
 ?>
 </div>
@@ -10,21 +10,21 @@ echo $this->Html->image('learn-cook.png', array(
 	<ul>
 		<li>
 			<a href="http://book.cakephp.org/2.0/en/getting-started.html">
-				Getting started tutorial
+				<?php echo __('Getting started tutorial') ?>
 			</a>
 		</li>
 		<li>
 			<a href="http://book.cakephp.org/2.0/en/">
-				Cookbook (offical documentation)
+				<?php echo __('Cookbook (offical documentation)') ?>
 			</a>
 		</li>
 		<li>
-			<a href="http://tv.cakephp.org">Screencasts</a>
+			<a href="http://tv.cakephp.org"><?php echo __('Screencasts') ?></a>
 		</li>
 	</ul>
 
 	<h3><?php echo __('Read') ?></h3>
-	<p>Just a few of the blogs</p>
+	<p><?php echo __('Just a few of the blogs') ?></p>
 	<ul>
 		<li>
 			<a href="http://bakery.cakephp.org">The Bakery</a>
