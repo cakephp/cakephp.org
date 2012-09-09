@@ -1,8 +1,8 @@
-<h3>CakePHP Loves you</h3>
-<h4>Give some love back</h4>
+<h3><?php echo __('CakePHP Loves you') ?></h3>
+<h4><?php echo __('Give some love back') ?></h4>
 <ul>
 	<li class="sponsor-cakefest">
-		<?php echo $this->Html->link('Sponsor CakeFest', 'http://cakefest.org/sponsors'); ?>
+		<?php echo $this->Html->link(__('Sponsor CakeFest'), 'http://cakefest.org/sponsors'); ?>
 	</li>
 
 	<li class="donate-any-amount">
@@ -68,4 +68,4 @@
 		</form>
 	</li>
 </ul>
-<?php echo $this->Html->image('heart.png', array('alt' => 'Love CakePHP', 'class' => 'heart')); ?>
+<?php echo $this->Html->image('heart.png', array('alt' => __('Love CakePHP'), 'class' => 'heart')); ?>

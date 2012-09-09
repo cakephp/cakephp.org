@@ -8,8 +8,10 @@ echo $this->Html->image('interact.png', array(
 <div class="columns eight">
 	<h3><?php echo __('Mailing List') ?></h3>
 	<p>
-		Got a question, or need some help?  Post on the 
-		<a href="http://groups.google.com/group/cakephp">Google group</a>
+		<?php echo __(
+			'Got a question, or need some help? Post on the %s',
+			$this->Html->link(__('Google group'), 'http://groups.google.com/group/cakephp')
+		); ?>
 	</p>
 	<?php
 		echo $this->element('channel', array(
@@ -21,10 +23,19 @@ echo $this->Html->image('interact.png', array(
 	?>
 
 	<h3><?php echo __('IRC') ?></h3>
-	<p>Stop by <a href='irc://irc.freenode.net/cakephp'>#cakephp</a> on <a href='http://freenode.net'>freenode.net</a> and chat with other bakers.</p>
+	<p>
+		<?php echo __(
+			'Stop by %s on %s and chat with other bakers.',
+			$this->Html->link(__('#cakephp'), __('irc://irc.freenode.net/cakephp')),
+			$this->Html->link(__('freenode.net'), __('http://freenode.net'))
+		) ?>
+	</p>
 
 	<h3><?php echo __('Screencasts and Tutorials'); ?></h3>
-	<p>View talks from previous CakeFests, screencasts and tutorials on 
-		<a href="http://tv.cakephp.org">tv.cakephp.org</a>
+	<p>
+		<?php echo __(
+			'View talks from previous CakeFests, screencasts and tutorials on %s',
+			$this->Html->link('tv.cakephp.org', 'http://tv.cakephp.org')
+		) ?>
 	</p>
 </div>
