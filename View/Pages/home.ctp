@@ -10,39 +10,45 @@
 	<div class="row why">
 		<div class="four columns">
 			<h3 class="icon icon-build"><?php echo __('Build Quickly'); ?></h3>
-			<p>Use code generation and scaffolding features to rapidly build prototypes.</p>
+			<p><?php echo __('Use code generation and scaffolding features to rapidly build prototypes.'); ?></p>
 		</div>
 
 		<div class="four columns">
 			<h3 class="icon icon-configuration"><?php echo __('No Configuration'); ?></h3>
-			<p>No complicated XML or YAML files.  Just setup your database and you're ready to bake.</p>
+			<p><?php echo __('No complicated XML or YAML files. Just setup your database and you\'re ready to bake.'); ?></p>
 		</div>
 
 		<div class="four columns">
 			<h3 class="icon icon-license"><?php echo __('Friendly License'); ?></h3>
-			<p>CakePHP is licensed under the MIT license which makes it perfect for use in commercial applications.</p>
+			<p><?php echo __('CakePHP is licensed under the MIT license which makes it perfect for use in commercial applications.'); ?></p>
 		</div>
 	</div>
 
 	<div class="row why">
 		<div class="four columns">
 			<h3 class="icon icon-batteries"><?php echo __('Batteries Included'); ?></h3>
-			<p>The things you need are built-in.  Translations, database access, caching, validation, authentication, and much more are all built into one of the original PHP MVC frameworks.</p>
+			<p>
+				<?php echo __('The things you need are built-in.') ?>
+				<?php echo __('Translations, database access, caching, validation, authentication, and much more are all built into one of the original PHP MVC frameworks.') ?>
+			</p>
 		</div>
 
 		<div class="four columns">
 			<h3 class="icon icon-mvc"><?php echo __('Clean MVC Conventions'); ?></h3>
-			<p>Instead of having to plan where things go, CakePHP comes with a set of conventions to guide you in developing your application.</p>
+			<p>
+				<?php echo __('Instead of having to plan where things go, CakePHP comes with a set of conventions to guide you in developing your application.') ?>
+			</p>
 		</div>
 
 		<div class="four columns">
 			<h3 class="icon icon-secure"><?php echo __('Secure'); ?></h3>
-			<p>CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention, and XSS prevention, helping you keep your application safe &amp; secure.</p>
+			<p>
+				<?php echo __('CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention, and XSS prevention, helping you keep your application safe &amp; secure.') ?>
+			</p>
 		</div>
 	</div>
 
 </div>
-
 
 <div class="row section news-section">
 	<div class="eight columns">

@@ -1,0 +1,21 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: CakePHP.org\n"
+"POT-Creation-Date: 2012-09-08 15:33+0200\n"
+"PO-Revision-Date: 2012-09-08 15:38+0100\n"
+"Last-Translator: Pierre Martin <contact@pierre-martin.fr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n>1);\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+
+#: webroot/test.php:87
+msgid "Debug setting does not allow access to this url."
+msgstr "Les paramètres de debug n'autorisent pas l'accès à cette url."
+
