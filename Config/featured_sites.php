@@ -56,6 +56,10 @@ $config = array(
 				'image' => 'teamspeak.jpg',
 				'name' => 'teamspeak.net',
 				'url' => 'http://teamspeak.net'),
+			array(
+				'image' => '7shifts.jpg',
+				'name' => '7shifts',
+				'url' => 'http://7shifts.com'),
 		),
 		'Using' => array(
 			// *** Expired: 2012-04-30
