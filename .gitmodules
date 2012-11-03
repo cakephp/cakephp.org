@@ -4,3 +4,6 @@
 [submodule "Plugin/Csfnavbar"]
 	path = Plugin/Csfnavbar
 	url = git://github.com/cakephp/csfnavbar.git
+[submodule "deploy"]
+	path = deploy
+	url = git://github.com/predominant/deploy.git
