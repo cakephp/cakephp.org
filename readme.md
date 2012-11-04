@@ -12,4 +12,4 @@ Once initialised, run the following console to generate assets:
 
 ## Setting up git path ##
 
-The path to git needs to be setup in `Config/core.php`
+The path to git needs to be setup in `Config/core.php`.
