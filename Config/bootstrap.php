@@ -30,8 +30,13 @@ Cache::config('default', array(
 	'engine' => 'File',
 ));
 
+Configure::write('Dispatcher.filters', array(
+	'AssetDispatcher',
+	'CacheDispatcher'
+));
 CakePlugin::load('Csfnavbar');
 CakePlugin::load('AssetCompress');
+
 
 /**
  * Changelog settings
