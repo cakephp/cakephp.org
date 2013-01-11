@@ -21,7 +21,7 @@ def deploy(environment='stage'):
 	delete(deployconf, timestr)
 	config(deployconf, timestr)
 	# links(deployconf, timestr)
-    fullwritable(deployconf, timestr)
+	fullwritable(deployconf, timestr)
 	current_link(deployconf, timestr)
 	asset_generate(deployconf, timestr)
 	services(deployconf, timestr)
