@@ -12,6 +12,9 @@
 		],
 		"delete": [
 			"Config/bootstrap.php"
+		],
+		"fullwritable": [
+			"tmp"
 		]
 	},
 	"production": {
