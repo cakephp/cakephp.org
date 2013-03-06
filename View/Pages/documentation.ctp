@@ -13,7 +13,7 @@
 		<h3><?php echo __('2.0'); ?></h3>
 
 		<ul>
-			<li><a href="http://api20.cakephp.org/classes"><?php echo __('The api') ?></a></li>
+			<li><a href="http://api.cakephp.org/"><?php echo __('The api') ?></a></li>
 			<li><a href="http://book.cakephp.org/2.0/en/"><?php echo __('The book') ?></a></li>
 		</ul>
 	</div>
@@ -22,7 +22,7 @@
 		<h3><?php echo __('1.3'); ?></h3>
 
 		<ul>
-			<li><a href="http://api13.cakephp.org/classes"><?php echo __('The api') ?></a></li>
+			<li><a href="http://api.cakephp.org/1.3"><?php echo __('The api') ?></a></li>
 			<li><a href="http://book.cakephp.org/1.3/en/view/876/The-Manual"><?php echo __('The book') ?></a></li>
 		</ul>
 	</div>
@@ -32,7 +32,7 @@
 		<h3><?php echo __('1.2'); ?></h3>
 
 		<ul>
-			<li><a href="http://api12.cakephp.org/classes"><?php echo __('The api') ?></a></li>
+			<li><a href="http://api.cakephp.org/1.2"><?php echo __('The api') ?></a></li>
 			<li><a href="http://book.cakephp.org/1.2/en/view/3/The-Manual"><?php echo __('The book') ?></a></li>
 		</ul>
 	</div>
