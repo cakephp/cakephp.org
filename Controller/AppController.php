@@ -30,27 +30,27 @@ class AppController extends Controller {
  */
 	function beforeRender() {
 		$one = array(
-			'version' => '1.2.11 ' . __('Stable'),
-			'date' => 'Sept 18, 2011',
-			'link' => 'https://github.com/cakephp/cakephp/zipball/1.2.11',
-			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2011/09/19/cakephp_triple_layered_edition_released',
-			'changelog' => 'http://cakephp.org/changelogs/1.2.11'
+			'version' => '1.2.12 ' . __('Stable'),
+			'date' => 'April 28, 2013',
+			'link' => 'https://github.com/cakephp/cakephp/zipball/1.2.12',
+			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2013/04/28/security_release_-_cakephp_1_2_12_1_3_16_2_2_8_and_2_3_4',
+			'changelog' => 'http://cakephp.org/changelogs/1.2.12'
 		);
 		
 		$two = array(
-			'version' => '1.3.15 ' . __('Stable'), 
-			'date' => 'March 26, 2011',
-			'link' => 'https://github.com/cakephp/cakephp/zipball/1.3.15',
-			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2012/03/26/cakephp_2_1_1_and_1_3_15_released',
-			'changelog' => 'http://cakephp.org/changelogs/1.3.15'
+			'version' => '1.3.16 ' . __('Stable'), 
+			'date' => 'April 28, 20113',
+			'link' => 'https://github.com/cakephp/cakephp/zipball/1.3.16',
+			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2013/04/28/security_release_-_cakephp_1_2_12_1_3_16_2_2_8_and_2_3_4',
+			'changelog' => 'http://cakephp.org/changelogs/1.3.16'
 		);
 
 		$three = array(
-			'version' => '2.3.3 ' . __('Stable'),
-			'date' => 'April 24, 2013',
-			'link' => 'https://github.com/cakephp/cakephp/zipball/2.3.3',
-			'announcement' => 'http://bakery.cakephp.org/articles/lorenzo/2013/04/24/security_fix_cakephp_2_3_3_available',
-			'changelog' => 'http://cakephp.org/changelogs/2.3.3'
+			'version' => '2.3.4 ' . __('Stable'),
+			'date' => 'April 28, 2013',
+			'link' => 'https://github.com/cakephp/cakephp/zipball/2.3.4',
+			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2013/04/28/security_release_-_cakephp_1_2_12_1_3_16_2_2_8_and_2_3_4',
+			'changelog' => 'http://cakephp.org/changelogs/2.3.4'
 		);
 
 		$this->set(compact('one', 'two', 'three'));
