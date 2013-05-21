@@ -1,4 +1,4 @@
-<div class="page">
+<div class="row">
 	<h2><?php echo __('Privacy Policy for cakephp.org')?></h2>
 	<p><?php echo __('The privacy of our visitors to cakephp.org is important to us.'); ?></p>
 
