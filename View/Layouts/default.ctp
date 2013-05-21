@@ -78,13 +78,14 @@
 				&copy; 2005-<?php echo date('Y'); ?> <?php echo $this->Html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org'); ?>
 			</div>
 			<div class="columns six mini right-align">
+				<span style="display: inline-block; height: 13px;">
+					<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_thin_badge"></script>
+				</span>
 				<?php
 				echo $this->Html->link(
 					__('Privacy Policy'),
 					array('admin' => false, 'prefix' => null, 'plugin' => null, 'controller' => 'pages', 'action' => 'privacy')); 
 				?>
-				&nbsp;
-				<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_thin_badge"></script>
 			</div>
 		</div>
 	</footer>
