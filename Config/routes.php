@@ -37,6 +37,9 @@
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 
 	Router::connect('/search', array('controller' => 'pages', 'action' => 'display', 'search'));
+	Router::connect('/development', array('controller' => 'pages', 'action' => 'display', 'development'));
+	Router::connect('/documentation', array('controller' => 'pages', 'action' => 'display', 'documentation'));
+	Router::connect('/privacy', array('controller' => 'pages', 'action' => 'display', 'privacy'));
 
 	Router::connect('/downloads/*', array('controller' => 'downloads', 'action' => 'index'));
 	Router::connect('/planet', array('controller' => 'feeds', 'action' => 'index'));
