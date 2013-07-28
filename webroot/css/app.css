@@ -528,6 +528,15 @@ dl.tabs.mobile dd a {
 	}
 }
 
+/**
+ * Changelogs
+ */
+.changelog-set li {
+	display: inline-block;
+	width: 7em;
+	line-height: 2em;
+	word-break: none;
+}
 
 
 /**

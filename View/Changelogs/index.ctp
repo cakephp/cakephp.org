@@ -3,7 +3,6 @@
 	<p><?php echo __('Select a version below to view its changelog.'); ?></p>
 </div>
 
-<div class="row">
 <?php
 $previous = null;
 foreach ($tags as $tag):
@@ -14,7 +13,7 @@ foreach ($tags as $tag):
 		}
 		$previous = $matches['series'];
 		?>
-		<div class="columns three changelog-set">
+		<div class="row changelog-set">
 		<h3><?php echo __('%s series', $matches['series']); ?></h3>
 		<ul>
 		<?php
@@ -26,4 +25,3 @@ foreach ($tags as $tag):
 	<?php
 endforeach;
 ?>
-</div>
