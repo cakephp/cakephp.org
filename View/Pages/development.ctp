@@ -58,7 +58,7 @@
 				<?php echo implode("\n", array(
 					__('Discuss a problem you\'re having, or learn from other CakePHP developers around the globe.'),
 					String::insert(__('Join the :mailing-list.'), array(
-						'mailing-list' => '<a href="http://groups.google.com/group/cakephp">' . __('CakePHP mailing list') . '</a>'
+						'mailing-list' => '<a href="http://groups.google.com/group/cake-php">' . __('CakePHP mailing list') . '</a>'
 					))
 				)) ?>
 			</p>
