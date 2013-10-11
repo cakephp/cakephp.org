@@ -45,11 +45,11 @@
 				); ?>
 			</p>
 
-			<h2><?php echo __('Lighthouse Issues'); ?></h2>
+			<h2><?php echo __('Github Issues'); ?></h2>
 			<p>
 				<?php echo __(
 					'Found a bug? Suggest an improvement? Issue tracking for CakePHP can be found at %s.',
-					'<a href="http://cakephp.lighthouseapp.com">lighthouse</a>'
+					'<a href="https://github.com/cakephp/cakephp/issues">Github</a>'
 				) ?>
 			</p>
 
