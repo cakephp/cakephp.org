@@ -10,7 +10,7 @@ echo $this->Html->image('interact.png', array(
 	<p>
 		<?php echo __(
 			'Got a question, or need some help? Post on the %s',
-			$this->Html->link(__('Google group'), 'http://groups.google.com/group/cakephp')
+			$this->Html->link(__('Google group'), 'http://groups.google.com/group/cake-php')
 		); ?>
 	</p>
 	<?php
