@@ -100,6 +100,9 @@ $config = array(
 			array(
 				'name' => 'Clinic Finder',
 				'url' => 'http://theclinicfinder.com'),
+			array(
+				'name' => 'Bamma',
+				'url' => 'http://bamma.com'),
 		),
 	),
 );
