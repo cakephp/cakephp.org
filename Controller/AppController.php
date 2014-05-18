@@ -49,7 +49,7 @@ class AppController extends Controller {
 			'version' => '2.5.1 ' . __('Stable'),
 			'date' => 'May 17, 2014',
 			'link' => 'https://github.com/cakephp/cakephp/zipball/2.5.1',
-			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2014/05/18/cakephp_2_4_10_and_2_5_1_releaed',
+			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2014/05/18/cakephp_2_4_10_and_2_5_1_released',
 			'changelog' => 'http://cakephp.org/changelogs/2.5.1'
 		);
 
