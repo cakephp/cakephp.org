@@ -38,19 +38,19 @@ class AppController extends Controller {
 		);
 		
 		$two = array(
-			'version' => '1.3.18 ' . __('Stable'), 
-			'date' => 'April 28, 2014',
-			'link' => 'https://github.com/cakephp/cakephp/zipball/1.3.18',
-			'announcement' => 'http://bakery.cakephp.org/articles/markstory/http://bakery.cakephp.org/articles/markstory/2014/04/29/cakephp_1_3_18_and_2_4_8_released',
-			'changelog' => 'http://cakephp.org/changelogs/1.3.18'
+			'version' => '1.3.19 ' . __('Stable'),
+			'date' => 'June 14, 2014',
+			'link' => 'https://github.com/cakephp/cakephp/zipball/1.3.19',
+			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2014/06/15/cakephp_2_5_2_and_1_3_19_released',
+			'changelog' => 'http://cakephp.org/changelogs/1.3.19'
 		);
 
 		$three = array(
-			'version' => '2.5.1 ' . __('Stable'),
-			'date' => 'May 17, 2014',
-			'link' => 'https://github.com/cakephp/cakephp/zipball/2.5.1',
-			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2014/05/18/cakephp_2_4_10_and_2_5_1_released',
-			'changelog' => 'http://cakephp.org/changelogs/2.5.1'
+			'version' => '2.5.2 ' . __('Stable'),
+			'date' => 'June 14, 2014',
+			'link' => 'https://github.com/cakephp/cakephp/zipball/2.5.2',
+			'announcement' => 'http://bakery.cakephp.org/articles/markstory/2014/06/15/cakephp_2_5_2_and_1_3_19_released',
+			'changelog' => 'http://cakephp.org/changelogs/2.5.2'
 		);
 
 		$this->set(compact('one', 'two', 'three'));
