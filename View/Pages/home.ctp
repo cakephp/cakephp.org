@@ -48,6 +48,12 @@
 		</div>
 	</div>
 
+	<div class="row promo">
+		<div class="twelve columns" style="padding-bottom: 20px; text-align: center;">
+			<a href="http://cakefest.org" target="_blank"><img src="/img/banners/cakefest_2014_promo_banner.png" alt="CakeFest 2014" title="CakeFest 2014" style="width: 100%; max-width: 800px;"></a>
+		</div>
+	</div>
+
 </div>
 
 <div class="row section news-section">
