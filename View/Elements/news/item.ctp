@@ -10,7 +10,7 @@
 		</time>
 	</span>
 	<?php if (!empty($showDescription)): ?>
-	<p><?php echo h($article['description']); ?></p>
+	<p><?php echo h(strip_tags($article['description'])); ?></p>
 	<?php endif; ?>
 	<?php echo $this->Html->link(__('Read more'), $article['link'], array('class' => 'read-more')); ?>
 </article>
