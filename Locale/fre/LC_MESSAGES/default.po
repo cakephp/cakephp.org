@@ -245,7 +245,7 @@ msgstr "La Certification vous assurera de vous différencier de la masse dans le
 
 #: View/Elements/services/certification.ctp:12
 msgid "It can also boost your employment value for existing employers, and be a great asset when it comes to salary review."
-msgstr "Celà peut également booster votre valeur perÃ§ue par votre employeur, et être un atout important lors de votre revue de salaire."
+msgstr "Celà peut également booster votre valeur perçue par votre employeur, et être un atout important lors de votre revue de salaire."
 
 #: View/Elements/services/certification.ctp:13
 msgid "More information will be available shortly."
@@ -262,7 +262,7 @@ msgstr "A travers une variété de services de consultation personnalisés et gu
 
 #: View/Elements/services/consultation.ctp:10
 msgid "This also includes deployment management, development workflow optimisation, test driven development and more."
-msgstr "Celà inclue également la gestion des déploiements, l'optimisation du processus de développement, le développement dirigé par les tests et plus."
+msgstr "Celà inclut également la gestion des déploiements, l'optimisation du processus de développement, le développement dirigé par les tests et plus."
 
 #: View/Elements/services/consultation.ctp:12
 msgid "Code Review, performance analysis, security audits and standards reporting are also available."
@@ -367,11 +367,11 @@ msgstr "Politique de Confidentialité"
 
 #: View/Maps/index.ctp:6
 msgid "Where are all the bakers?"
-msgstr "OÃ¹ sont situés tous les boulangers ?"
+msgstr "Où sont situés tous les boulangers ?"
 
 #: View/Maps/index.ctp:10
 msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
-msgstr "Page %page% sur %pages%, affiche %current% enregistrements sur un total de %count%, commenÃ§ant à l'enregistrement %start%, s'arrêtant au %end%"
+msgstr "Page %page% sur %pages%, affiche %current% enregistrements sur un total de %count%, commençant à l'enregistrement %start%, s'arrêtant au %end%"
 
 #: View/Maps/index.ctp:36
 msgid "previous"
@@ -395,7 +395,7 @@ msgstr "Github"
 
 #: View/Pages/development.ctp:8
 msgid "CakePHP's code repositories are hosted at %s"
-msgstr "Les repositories du code de CakePHP sont hébergées sur %s"
+msgstr "Les repositories du code de CakePHP sont hébergés sur %s"
 
 #: View/Pages/development.ctp:14
 msgid "Security Issues"
@@ -640,7 +640,7 @@ msgstr "Si vous souhaitez faire des bénéfices ou promouvoir un service commerc
 
 #: View/Pages/logos.ctp:15
 msgid "Where can I use it?"
-msgstr "OÃ¹ puis-je l'utiliser ?"
+msgstr "Où puis-je l'utiliser ?"
 
 #: View/Pages/logos.ctp:16
 msgid "If you run, own or operate a personal blog, you may use the logo to discuss CakePHP, or place the logo to show your support and that you use the framework."
@@ -656,7 +656,7 @@ msgstr "Vous pouvez utiliser les logos \"powered by\" pour faire savoir au monde
 
 #: View/Pages/logos.ctp:20
 msgid "Where can't I use it?"
-msgstr "OÃ¹ ne puis-je pas l'utiliser ?"
+msgstr "Où ne puis-je pas l'utiliser ?"
 
 #: View/Pages/logos.ctp:22
 msgid "For the publication or promotion of commercial services related to CakePHP development, use of the logos is not permitted without permission from the Cake Software Foundation. For more information regarding the licensing options and capabilities, please contact %s."
@@ -672,11 +672,11 @@ msgstr "Fonds d'écran"
 
 #: View/Pages/logos.ctp:41
 msgid "These wallpapers are designed as 1024 pixels wide, and square. This makes them appropriate for devices that allow orientation switching while maintaining the design of the wallpaper within the bounds of your device. They're also great for desktop backgrounds, or any other place you want a giant sexy CakePHP wallpaper."
-msgstr "Ces fonds d'écrans sont conÃ§us avec une largeur de 1024 pixels, et carrés. Cela les rend appropriés aux terminaux qui autorisent un changement d'orientation tout en maintenant le fond d'écran dans les limites de votre écran. Ils sont également adaptés aux fonds d'écrans de votre bureau, ou de tout autre endroit ou vous souhaiterez un poster géant et sexy de CakePHP."
+msgstr "Ces fonds d'écrans sont conçus avec une largeur de 1024 pixels, et carrés. Cela les rend appropriés aux terminaux qui autorisent un changement d'orientation tout en maintenant le fond d'écran dans les limites de votre écran. Ils sont également adaptés aux fonds d'écrans de votre bureau, ou de tout autre endroit ou vous souhaiterez un poster géant et sexy de CakePHP."
 
 #: View/Pages/privacy.ctp:2
 msgid "Privacy Policy for cakephp.org"
-msgstr "Politque de Confidentialité de cakephp.org"
+msgstr "Politique de Confidentialité de cakephp.org"
 
 #: View/Pages/privacy.ctp:3
 msgid "The privacy of our visitors to cakephp.org is important to us."
@@ -728,7 +728,7 @@ msgstr "Ces sociétés peuvent utiliser des informations (ceci n'inclue pas votr
 
 #: View/Pages/privacy.ctp:28
 msgid "If you would like more information about this practice and to know your choices about not having this information used by these companies, %s."
-msgstr "Si vous souhaitez plus d'informations sur cette pratique et connaÃ®tre vos possibilités pour ne pas laisser le droit d'utilisation de vos données à ces sociétés, %s."
+msgstr "Si vous souhaitez plus d'informations sur cette pratique et connaître vos possibilités pour ne pas laisser le droit d'utilisation de vos données à ces sociétés, %s."
 
 #: View/Pages/privacy.ctp:29
 msgid "click here"
@@ -804,7 +804,7 @@ msgstr "Services"
 #~ msgstr "Fonctionnalités"
 
 #~ msgid "Model, View, Controller Architecture"
-#~ msgstr "Architecture Modèle, Vue, ContrÃ´leur"
+#~ msgstr "Architecture Modèle, Vue, Contrôleur"
 
 #~ msgid "Application Scaffolding"
 #~ msgstr "Prototypage d'application"
@@ -819,7 +819,7 @@ msgstr "Services"
 #~ "RSS etc."
 
 #~ msgid "Access Control Lists and Authentication"
-#~ msgstr "ACL (Listes de ContrÃ´le d'Accès) et Authentification"
+#~ msgstr "ACL (Listes de Contrôle d'Accès) et Authentification"
 
 #~ msgid "Simple yet extensive validation of model data"
 #~ msgstr "Simple mais extensible validation des données du modèle"
@@ -837,7 +837,7 @@ msgstr "Services"
 #~ "etc."
 
 #~ msgid "Extra Hot"
-#~ msgstr "BrÃ»lant"
+#~ msgstr "Brûlant"
 
 #~ msgid "Release:"
 #~ msgstr "Release :"
@@ -860,8 +860,8 @@ msgstr "Services"
 #~ "developers write less code."
 #~ msgstr ""
 #~ "Utilisant des motifs de conception bien connus tels %s et %s ainsi que le "
-#~ "paradigme \"conventions plutÃ´t que configurations\", CakePHP réduit les "
-#~ "coÃ»ts de développement et aide les développeurs à écrire moins de code."
+#~ "paradigme \"conventions plutôt que configurations\", CakePHP réduit les "
+#~ "coûts de développement et aide les développeurs à écrire moins de code."
 
 #~ msgid "MVC"
 #~ msgstr "MVC"
@@ -939,7 +939,7 @@ msgstr "Services"
 #~ msgstr ""
 #~ "Il y a également le channel IRC, <a href=\"irc://irc.freenode.net/cakephp-"
 #~ "fr\">#cakephp-fr sur irc.freenode.net</a>, avec notamment les membres "
-#~ "actifs de la communauté franÃ§aise."
+#~ "actifs de la communauté française."
 
 #~ msgid "official docs"
 #~ msgstr "docs officielles"
@@ -1000,7 +1000,7 @@ msgstr "Services"
 #~ msgstr "Supprimer"
 
 #~ msgid "Are you sure you want to delete # %s?"
-#~ msgstr "Etes-vous sÃ»r de vouloir supprimer # %s ?"
+#~ msgstr "Etes-vous sûr de vouloir supprimer # %s ?"
 
 #~ msgid "Actions"
 #~ msgstr "Actions"
