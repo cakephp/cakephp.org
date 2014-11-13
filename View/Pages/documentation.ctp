@@ -10,10 +10,19 @@
 
 <div class="row section">
 	<div class="columns four">
+		<h3><?php echo __('3.0'); ?></h3>
+
+		<ul>
+			<li><a href="http://api.cakephp.org/3.0"><?php echo __('The api') ?></a></li>
+			<li><a href="http://book.cakephp.org/3.0/en/"><?php echo __('The book') ?></a></li>
+		</ul>
+	</div>
+
+	<div class="columns four">
 		<h3><?php echo __('2.0'); ?></h3>
 
 		<ul>
-			<li><a href="http://api.cakephp.org/"><?php echo __('The api') ?></a></li>
+			<li><a href="http://api.cakephp.org/2.5"><?php echo __('The api') ?></a></li>
 			<li><a href="http://book.cakephp.org/2.0/en/"><?php echo __('The book') ?></a></li>
 		</ul>
 	</div>
@@ -24,16 +33,6 @@
 		<ul>
 			<li><a href="http://api.cakephp.org/1.3"><?php echo __('The api') ?></a></li>
 			<li><a href="http://book.cakephp.org/1.3/en/"><?php echo __('The book') ?></a></li>
-		</ul>
-	</div>
-
-
-	<div class="columns four">
-		<h3><?php echo __('1.2'); ?></h3>
-
-		<ul>
-			<li><a href="http://api.cakephp.org/1.2"><?php echo __('The api') ?></a></li>
-			<li><a href="http://book.cakephp.org/1.2/en/"><?php echo __('The book') ?></a></li>
 		</ul>
 	</div>
 </div>
