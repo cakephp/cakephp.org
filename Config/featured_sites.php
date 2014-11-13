@@ -18,6 +18,10 @@ $config = array(
 			// 	'name' => 'Website Feedback Forms',
 			// 	'url' => 'https://websitefeedbackforms.com/'),
 			array(
+				'image' => 'tribehr.png',
+				'name' => 'TribeHR',
+				'url' => 'http://tribehr.com'),
+			array(
 				'image' => 'hotscripts.jpg',
 				'name' => 'Hot Scripts',
 				'url' => 'http://www.hotscripts.com'),
