@@ -27,19 +27,22 @@ echo $this->Html->image('learn-cook.png', array(
 	<p><?php echo __('Just a few of the blogs') ?></p>
 	<ul>
 		<li>
-			<a href="http://bakery.cakephp.org">The Bakery</a>
-		</li>
-		<li>
 			<a href="http://mark-story.com">Mark Story</a>
 		</li>
 		<li>
 			<a href="http://cakedc.com/articles">CakeDC Team</a>
 		</li>
 		<li>
-			<a href="http://ad7six.com/">AD7Six</a>
+			<a href="http://josediazgonzalez.com">Jose Diaz-Gonzalez</a>
 		</li>
 		<li>
-			<a href="http://nuts-and-bolts-of-cakephp.com/">Nuts and Bolts of CakePHP</a>
+			<a href="http://zenofcoding.com">Zen of Coding</a>
+		</li>
+		<li>
+			<a href="http://www.dereuromark.de">DerEuroMark</a>
+		</li>
+		<li>
+			<a href="http://ad7six.com/">AD7Six</a>
 		</li>
 	</ul>
 </div>
