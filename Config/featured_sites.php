@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Conventions:
  *
@@ -8,7 +7,6 @@
  * - The 'Using' group uses vertical space on the site - try not to make the list any longer.
  *
  */
-
 $config = array(
 	'Sites' => array(
 		'JustBaked' => array(
@@ -65,22 +63,12 @@ $config = array(
 				'image' => '7shifts.jpg',
 				'name' => '7shifts',
 				'url' => 'http://7shifts.com'),
+			array(
+				'image' => 'uri-online-judge.png',
+				'name' => 'URI Online Judge',
+				'url' => 'http://www.urionlinejudge.com.br'),
 		),
 		'Using' => array(
-			// *** Expired: 2012-04-30
-			// array(
-			// 	'name' => 'KZO',
-			// 	'url' => 'http://kzoinnovations.com'),
-
-			// *** Expired: 2012-04-30
-			// array(
-			// 	'name' => 'My Gas Feed',
-			// 	'url' => 'http://www.mygasfeed.com'),
-
-			// *** Expired: 2012-05-10
-			// array(
-			// 	'name' => 'The Daily Save',
-			// 	'url' => 'http://www.thedailysave.com'),
 			array(
 				'name' => 'Ambling Books',
 				'url' => 'http://amblingbooks.com'),
@@ -108,7 +96,7 @@ $config = array(
 			array(
 				'name' => 'Bamma',
 				'url' => 'http://bamma.com'),
-		),
-	),
+		)
+	)
 );
 return $config;
