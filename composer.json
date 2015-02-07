@@ -16,7 +16,8 @@
         "cakephp/cakephp": "3.0.*-dev",
         "mobiledetect/mobiledetectlib": "2.*",
         "cakephp/migrations": "dev-master",
-        "cakephp/plugin-installer": "*"
+        "cakephp/plugin-installer": "*",
+        "josegonzalez/dotenv": "dev-master"
     },
     "require-dev": {
         "d11wtq/boris": "1.0.*",

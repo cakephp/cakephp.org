@@ -52,6 +52,17 @@ use Cake\Network\Request;
 use Cake\Routing\DispatcherFactory;
 use Cake\Utility\Inflector;
 use Cake\Utility\Security;
+use josegonzalez\Dotenv\Loader as Dotenv;
+
+/**
+ * Attempt to load local environment variables. When none are found, it
+ * is assumed that they are defined on the server instance in `$_ENV` or
+ * `$_SERVER`.
+ */
+try {
+    (new Dotenv(ROOT . DS . '.env'))->parse()->toEnv();
+} catch (Exception $e) {
+}
 
 /**
  * Read configuration file and inject configuration into various

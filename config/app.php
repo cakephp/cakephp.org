@@ -9,7 +9,7 @@ return [
      * Development Mode:
      * true: Errors and warnings shown.
      */
-    'debug' => true,
+    'debug' => env('DEBUG'),
 
     /**
      * Configure basic information about the application.
@@ -62,7 +62,7 @@ return [
      *   You should treat it as extremely sensitive data.
      */
     'Security' => [
-        'salt' => '__SALT__',
+        'salt' => env('SECURITY_DEFAULT_SALT'),
     ],
 
     /**
@@ -212,16 +212,16 @@ return [
             'className' => 'Cake\Database\Connection',
             'driver' => 'Cake\Database\Driver\Mysql',
             'persistent' => false,
-            'host' => 'localhost',
+            'host' => env('DATABASE_DEFAULT_HOST') ?: 'localhost',
             /*
             * CakePHP will use the default DB port based on the driver selected
             * MySQL on MAMP uses port 8889, MAMP users will want to uncomment
             * the following line and set the port accordingly
             */
             //'port' => 'nonstandard_port_number',
-            'username' => 'my_app',
-            'password' => 'secret',
-            'database' => 'my_app',
+            'username' => env('DATABASE_DEFAULT_USER') ?: 'my_app',
+            'password' => env('DATABASE_DEFAULT_PASS') ?: 'secret',
+            'database' => env('DATABASE_DEFAULT_NAME') ?: 'my_app',
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'cacheMetadata' => true,
@@ -253,11 +253,11 @@ return [
             'className' => 'Cake\Database\Connection',
             'driver' => 'Cake\Database\Driver\Mysql',
             'persistent' => false,
-            'host' => 'localhost',
+            'host' => env('DATABASE_TEST_HOST') ?: 'localhost',
             //'port' => 'nonstandard_port_number',
-            'username' => 'my_app',
-            'password' => 'secret',
-            'database' => 'test_myapp',
+            'username' => env('DATABASE_TEST_USER') ?: 'test_myapp',
+            'password' => env('DATABASE_TEST_PASS') ?: 'secret',
+            'database' => env('DATABASE_TEST_NAME') ?: 'test_myapp',
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'cacheMetadata' => true,

@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1886944a935daba00f39d4bcb661d110",
+    "hash": "52535e3ed900d38d72d57b74a3466680",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -326,6 +326,53 @@
                 "password"
             ],
             "time": "2014-11-20 16:49:30"
+        },
+        {
+            "name": "josegonzalez/dotenv",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/josegonzalez/php-dotenv.git",
+                "reference": "88fb0bd78c762e6239b980bc3c5edee0be9724a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/josegonzalez/php-dotenv/zipball/88fb0bd78c762e6239b980bc3c5edee0be9724a5",
+                "reference": "88fb0bd78c762e6239b980bc3c5edee0be9724a5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "josegonzalez\\Dotenv": [
+                        "src",
+                        "tests"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jose Diaz-Gonzalez",
+                    "email": "dotenv@josegonzalez.com",
+                    "homepage": "http://josediazgonzalez.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "dotenv file parsing for PHP",
+            "homepage": "https://github.com/josegonzalez/php-dotenv",
+            "keywords": [
+                "configuration",
+                "dotenv",
+                "php"
+            ],
+            "time": "2015-01-16 15:58:03"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -1881,6 +1928,7 @@
     "stability-flags": {
         "cakephp/cakephp": 20,
         "cakephp/migrations": 20,
+        "josegonzalez/dotenv": 20,
         "cakephp/debug_kit": 20,
         "cakephp/bake": 20,
         "cakephp/cakephp-codesniffer": 20
