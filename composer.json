@@ -17,7 +17,8 @@
         "mobiledetect/mobiledetectlib": "2.*",
         "cakephp/migrations": "dev-master",
         "cakephp/plugin-installer": "*",
-        "josegonzalez/dotenv": "dev-master"
+        "josegonzalez/dotenv": "dev-master",
+        "markstory/asset_compress": "3.0.*-dev"
     },
     "require-dev": {
         "d11wtq/boris": "1.0.*",
