@@ -1,5 +1,6 @@
+/vendor/*
+/config/app.php
+/tmp/*
+/logs/*
 .DS_Store
-tmp
-/config/database.php
-/config/core.php
 fabfile.pyc

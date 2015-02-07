@@ -1,0 +1,43 @@
+{
+    "name": "cakephp/cakephp-org",
+    "description": "The CakePHP framework website",
+    "type": "project",
+    "keywords": ["cakephp", "framework"],
+    "homepage": "http://cakephp.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CakePHP Community",
+            "homepage": "https://github.com/cakephp/cakephp/graphs/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.11",
+        "cakephp/cakephp": "3.0.*-dev",
+        "mobiledetect/mobiledetectlib": "2.*",
+        "cakephp/migrations": "dev-master",
+        "cakephp/plugin-installer": "*"
+    },
+    "require-dev": {
+        "d11wtq/boris": "1.0.*",
+        "cakephp/debug_kit": "3.0.*-dev",
+        "cakephp/bake": "dev-master",
+        "cakephp/cakephp-codesniffer": "dev-master",
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
