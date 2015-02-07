@@ -1,18 +1,20 @@
 <?php
 
-class SpamFilterComponent extends Component {
+class SpamFilterComponent extends Component
+{
 
-	var $key = 'Other';
+    var $key = 'Other';
 
-	var $fields = array('name', 'body');
+    var $fields = array('name', 'body');
 
-	function startup(&$controller) {
-		if (!empty($controller->data[$this->key])) {
-			foreach ($this->fields as $field) {
-				if (!empty($controller->data[$this->key][$field])) {
-					$controller->redirect($controller->referer());
-				}
-			}
-		}
-	}
+    function startup(&$controller)
+    {
+        if (!empty($controller->data[$this->key])) {
+            foreach ($this->fields as $field) {
+                if (!empty($controller->data[$this->key][$field])) {
+                    $controller->redirect($controller->referer());
+                }
+            }
+        }
+    }
 }
