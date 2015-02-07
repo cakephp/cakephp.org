@@ -41,8 +41,6 @@
 	Router::connect('/documentation', array('controller' => 'pages', 'action' => 'display', 'documentation'));
 	Router::connect('/privacy', array('controller' => 'pages', 'action' => 'display', 'privacy'));
 
-	Router::connect('/downloads/*', array('controller' => 'downloads', 'action' => 'index'));
-	Router::connect('/planet', array('controller' => 'feeds', 'action' => 'index'));
 	Router::connect('/logos', array('controller' => 'pages', 'action' => 'display', 'logos'));
 	Router::connect('/asset/*', array('plugin' => 'asset_compress', 'controller' => 'assets', 'action' => 'get'));
 
