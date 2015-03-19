@@ -48,11 +48,11 @@ class AppController extends Controller
         );
 
         $three = array(
-        'version' => '2.6.1 ' . __('Stable'),
-        'date' => 'Jan 15, 2015',
-        'link' => 'https://github.com/cakephp/cakephp/zipball/2.6.1',
-        'announcement' => 'http://bakery.cakephp.org/articles/markstory/2015/01/16/cakephp_2_6_1_released',
-        'changelog' => 'http://cakephp.org/changelogs/2.6.1'
+        'version' => '2.6.3 ' . __('Stable'),
+        'date' => 'Mar 16, 2015',
+        'link' => 'https://github.com/cakephp/cakephp/zipball/2.6.3',
+        'announcement' => 'http://bakery.cakephp.org/articles/markstory/2015/03/16/cakephp_2_6_3_released',
+        'changelog' => 'http://cakephp.org/changelogs/2.6.3'
         );
 
         $this->set(compact('one', 'two', 'three'));
