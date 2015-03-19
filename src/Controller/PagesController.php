@@ -1,5 +1,6 @@
 <?php
 /* SVN FILE: $Id: pages_controller.php 442 2007-12-28 22:02:33Z gwoo $ */
+use App\Controller\AppController;
 /**
  * Static content controller.
  *

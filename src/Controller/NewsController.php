@@ -1,6 +1,6 @@
 <?php
 
-App::uses('AppController', 'Controller');
+use App\Controller\AppController;
 
 class NewsController extends AppController
 {

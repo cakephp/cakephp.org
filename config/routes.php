@@ -1,5 +1,7 @@
 <?php
 /* SVN FILE: $Id: routes.php 682 2009-01-12 16:37:23Z gwoo $ */
+use Cake\Routing\Router;
+
 /**
  * Short description for file.
  *
@@ -28,42 +30,40 @@
  * @lastmodified	$Date: 2009-01-12 08:37:23 -0800 (Mon, 12 Jan 2009) $
  * @license			http://www.opensource.org/licenses/mit-license.php The MIT License
  */
-	Router::parseExtensions('rss');
+    Router::extensions('rss');
 /**
  * Here, we are connecting '/' (base path) to controller called 'Pages',
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/views/pages/home.thtml)...
  */
-	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
+    Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 
-	Router::connect('/search', array('controller' => 'pages', 'action' => 'display', 'search'));
-	Router::connect('/development', array('controller' => 'pages', 'action' => 'display', 'development'));
-	Router::connect('/documentation', array('controller' => 'pages', 'action' => 'display', 'documentation'));
-	Router::connect('/privacy', array('controller' => 'pages', 'action' => 'display', 'privacy'));
+    Router::connect('/search', array('controller' => 'pages', 'action' => 'display', 'search'));
+    Router::connect('/development', array('controller' => 'pages', 'action' => 'display', 'development'));
+    Router::connect('/documentation', array('controller' => 'pages', 'action' => 'display', 'documentation'));
+    Router::connect('/privacy', array('controller' => 'pages', 'action' => 'display', 'privacy'));
 
-	Router::connect('/logos', array('controller' => 'pages', 'action' => 'display', 'logos'));
-	Router::connect('/asset/*', array('plugin' => 'asset_compress', 'controller' => 'assets', 'action' => 'get'));
+    Router::connect('/logos', array('controller' => 'pages', 'action' => 'display', 'logos'));
+    Router::connect('/asset/*', array('plugin' => 'asset_compress', 'controller' => 'assets', 'action' => 'get'));
 
 /**
  * Services
  */
-	Router::connect('/services',               array('controller' => 'pages', 'action' => 'display', 'services'));
-	Router::connect('/services/support',       array('controller' => 'pages', 'action' => 'display', 'services'));
-	Router::connect('/services/training',      array('controller' => 'pages', 'action' => 'display', 'services'));
-	Router::connect('/services/consultation',  array('controller' => 'pages', 'action' => 'display', 'services'));
-	Router::connect('/services/certification', array('controller' => 'pages', 'action' => 'display', 'services'));
+    Router::connect('/services',               array('controller' => 'pages', 'action' => 'display', 'services'));
+    Router::connect('/services/support',       array('controller' => 'pages', 'action' => 'display', 'services'));
+    Router::connect('/services/training',      array('controller' => 'pages', 'action' => 'display', 'services'));
+    Router::connect('/services/consultation',  array('controller' => 'pages', 'action' => 'display', 'services'));
+    Router::connect('/services/certification', array('controller' => 'pages', 'action' => 'display', 'services'));
 
-	Router::connect('/changelogs', array('controller' => 'changelogs', 'action' => 'index'));
-	Router::connect('/changelogs/*', array('controller' => 'changelogs', 'action' => 'view'));
+    Router::connect('/changelogs', array('controller' => 'changelogs', 'action' => 'index'));
+    Router::connect('/changelogs/*', array('controller' => 'changelogs', 'action' => 'view'));
 
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */
-	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
+    Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 /**
  * Then we connect url '/test' to our test controller. This is helpfull in
  * developement.
  */
-	Router::connect('/tests', array('controller' => 'tests', 'action' => 'index'));
-
-	require CAKE . 'Config' . DS . 'routes.php';
+    Router::connect('/tests', array('controller' => 'tests', 'action' => 'index'));

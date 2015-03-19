@@ -1,5 +1,7 @@
 <?php
 
+use Cake\Controller\Component;
+
 class SpamFilterComponent extends Component
 {
 

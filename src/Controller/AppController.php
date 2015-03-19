@@ -1,4 +1,8 @@
 <?php
+namespace App\Controller;
+
+use Cake\Controller\Controller;
+use AssetCompress\View\Helper\AssetCompressHelper;
 /**
  * Short description for class.
  *
@@ -16,13 +20,13 @@ class AppController extends Controller
      *
      * @var array
      */
-    public $helpers = array(
+    public $helpers = [
     'AssetCompress.AssetCompress',
     'Form',
     'Html',
     'Js',
     'Session',
-    );
+    ];
 
     /**
      * Before Render
