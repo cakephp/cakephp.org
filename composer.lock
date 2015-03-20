@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dec501c11047a3d221f19baacae298d0",
+    "hash": "c1b83a7c3bac42873c46d9a54ea230fb",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -108,7 +108,7 @@
                     "email": "mapthegod@gmail.com"
                 },
                 {
-                    "name": "Jose Lorenzo Rodriguez",
+                    "name": "José Lorenzo Rodríguez",
                     "email": "jose.zap@gmail.com"
                 }
             ],
@@ -130,14 +130,8 @@
             "version": "3.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "3ee42f696e2814e39aad878373ec410e96fb89a7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/3ee42f696e2814e39aad878373ec410e96fb89a7",
-                "reference": "3ee42f696e2814e39aad878373ec410e96fb89a7",
-                "shasum": ""
+                "url": "/Users/deizel/Projects/cakephp/cakephp",
+                "reference": "4bf10d0506f00b56c58d6b05abfc9458aa239a32"
             },
             "require": {
                 "aura/intl": "1.1.*",
@@ -173,11 +167,20 @@
                 "files": [
                     "src/Core/functions.php",
                     "src/Collection/functions.php",
-                    "src/I18n/functions.php",
-                    "src/Utility/bootstrap.php"
+                    "src/I18n/functions.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Cake\\Test\\": "tests",
+                    "Company\\TestPluginThree\\Test\\": "tests/test_app/Plugin/Company/TestPluginThree/tests",
+                    "TestApp\\": "tests/test_app/TestApp",
+                    "TestPlugin\\": "tests/test_app/Plugin/TestPlugin/src",
+                    "TestPlugin\\Test\\": "tests/test_app/Plugin/TestPlugin/tests",
+                    "TestPluginTwo\\": "tests/test_app/Plugin/TestPluginTwo/src",
+                    "PluginJs\\": "tests/test_app/Plugin/PluginJs/src"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -192,7 +195,30 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-03-19 11:02:40"
+            "support": {
+                "issues": "https://github.com/cakephp/cakephp/issues",
+                "forum": "http://stackoverflow.com/tags/cakephp",
+                "irc": "irc://irc.freenode.org/cakephp",
+                "source": "https://github.com/cakephp/cakephp"
+            },
+            "time": "2015-03-14 11:54:20"
+        },
+        {
+            "name": "cakephp/csfnavbar",
+            "version": "3.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "/Users/deizel/Projects/cakephp/csfnavbar",
+                "reference": "c05830779d40d51629bbb1f259f9f626ffef3aa0"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Csfnavbar\\": "src"
+                }
+            },
+            "description": "Top bar navigation for CakePHP domains",
+            "time": "2015-03-20 08:18:52"
         },
         {
             "name": "cakephp/migrations",
@@ -845,14 +871,8 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cakephp/bake.git",
-                "reference": "9bebeff869c0c62d68dc3d75b6af63593dfbf0da"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/bake/zipball/9bebeff869c0c62d68dc3d75b6af63593dfbf0da",
-                "reference": "9bebeff869c0c62d68dc3d75b6af63593dfbf0da",
-                "shasum": ""
+                "url": "/Users/deizel/Projects/cakephp/bake",
+                "reference": "0adfe6f2004eb2c7f6c55a4af01bcea57aa1c933"
             },
             "require": {
                 "cakephp/cakephp": "3.0.x-dev",
@@ -868,7 +888,14 @@
                     "Bake\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "BakeTest\\": "tests/test_app/Plugin/BakeTest/src",
+                    "Bake\\Test\\": "tests",
+                    "Bake\\Test\\App\\": "tests/test_app/App",
+                    "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -884,7 +911,13 @@
                 "bake",
                 "cakephp"
             ],
-            "time": "2015-03-17 14:09:32"
+            "support": {
+                "issues": "https://github.com/cakephp/bake/issues",
+                "forum": "http://stackoverflow.com/tags/cakephp",
+                "irc": "irc://irc.freenode.org/cakephp",
+                "source": "https://github.com/cakephp/bake"
+            },
+            "time": "2015-03-05 06:45:14"
         },
         {
             "name": "cakephp/cakephp-codesniffer",
@@ -986,40 +1019,37 @@
             "time": "2015-03-13 04:54:40"
         },
         {
-            "name": "d11wtq/boris",
-            "version": "v1.0.10",
+            "name": "dnoegel/php-xdg-base-dir",
+            "version": "0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/borisrepl/boris.git",
-                "reference": "31055b15e2d3fe47f31f6aa8e277f8f3fc7eb483"
+                "url": "https://github.com/dnoegel/php-xdg-base-dir.git",
+                "reference": "265b8593498b997dc2d31e75b89f053b5cc9621a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/borisrepl/boris/zipball/31055b15e2d3fe47f31f6aa8e277f8f3fc7eb483",
-                "reference": "31055b15e2d3fe47f31f6aa8e277f8f3fc7eb483",
+                "url": "https://api.github.com/repos/dnoegel/php-xdg-base-dir/zipball/265b8593498b997dc2d31e75b89f053b5cc9621a",
+                "reference": "265b8593498b997dc2d31e75b89f053b5cc9621a",
                 "shasum": ""
             },
             "require": {
-                "ext-pcntl": "*",
-                "ext-posix": "*",
-                "ext-readline": "*",
-                "php": ">=5.3.0"
+                "php": ">=5.3.2"
             },
-            "bin": [
-                "bin/boris"
-            ],
-            "type": "library",
+            "require-dev": {
+                "phpunit/phpunit": "@stable"
+            },
+            "type": "project",
             "autoload": {
-                "psr-0": {
-                    "Boris": "lib"
+                "psr-4": {
+                    "XdgBaseDir\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "description": "A tiny, but robust REPL (Read-Evaluate-Print-Loop) for PHP.",
-            "time": "2015-03-01 08:05:19"
+            "description": "implementation of xdg base directory specification for php",
+            "time": "2014-10-24 07:27:01"
         },
         {
             "name": "doctrine/instantiator",
@@ -1074,6 +1104,137 @@
                 "instantiate"
             ],
             "time": "2014-10-13 12:58:55"
+        },
+        {
+            "name": "jakub-onderka/php-console-color",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JakubOnderka/PHP-Console-Color.git",
+                "reference": "e0b393dacf7703fc36a4efc3df1435485197e6c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JakubOnderka/PHP-Console-Color/zipball/e0b393dacf7703fc36a4efc3df1435485197e6c1",
+                "reference": "e0b393dacf7703fc36a4efc3df1435485197e6c1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "jakub-onderka/php-code-style": "1.0",
+                "jakub-onderka/php-parallel-lint": "0.*",
+                "jakub-onderka/php-var-dump-check": "0.*",
+                "phpunit/phpunit": "3.7.*",
+                "squizlabs/php_codesniffer": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JakubOnderka\\PhpConsoleColor": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jakub Onderka",
+                    "email": "jakub.onderka@gmail.com",
+                    "homepage": "http://www.acci.cz"
+                }
+            ],
+            "time": "2014-04-08 15:00:19"
+        },
+        {
+            "name": "jakub-onderka/php-console-highlighter",
+            "version": "v0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JakubOnderka/PHP-Console-Highlighter.git",
+                "reference": "05bce997da20acf873e6bf396276798f3cd2c76a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JakubOnderka/PHP-Console-Highlighter/zipball/05bce997da20acf873e6bf396276798f3cd2c76a",
+                "reference": "05bce997da20acf873e6bf396276798f3cd2c76a",
+                "shasum": ""
+            },
+            "require": {
+                "jakub-onderka/php-console-color": "~0.1",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "jakub-onderka/php-code-style": "~1.0",
+                "jakub-onderka/php-parallel-lint": "~0.5",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JakubOnderka\\PhpConsoleHighlighter": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jakub Onderka",
+                    "email": "acci@acci.cz",
+                    "homepage": "http://www.acci.cz/"
+                }
+            ],
+            "time": "2014-07-14 20:59:35"
+        },
+        {
+            "name": "nikic/php-parser",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/PHP-Parser.git",
+                "reference": "ac05ef6f95bf8361549604b6031c115f92f39528"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ac05ef6f95bf8361549604b6031c115f92f39528",
+                "reference": "ac05ef6f95bf8361549604b6031c115f92f39528",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "lib/bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov"
+                }
+            ],
+            "description": "A PHP parser written in PHP",
+            "keywords": [
+                "parser",
+                "php"
+            ],
+            "time": "2015-01-18 11:29:59"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -1555,6 +1716,77 @@
             "time": "2014-10-03 05:12:11"
         },
         {
+            "name": "psy/psysh",
+            "version": "v0.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/psysh.git",
+                "reference": "b5dd7660c0ef38e96cd8cd8fa924b6be0e53906a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/b5dd7660c0ef38e96cd8cd8fa924b6be0e53906a",
+                "reference": "b5dd7660c0ef38e96cd8cd8fa924b6be0e53906a",
+                "shasum": ""
+            },
+            "require": {
+                "dnoegel/php-xdg-base-dir": "0.1",
+                "jakub-onderka/php-console-highlighter": "0.3.*",
+                "nikic/php-parser": "~1.0",
+                "php": ">=5.3.0",
+                "symfony/console": "~2.3.10|~2.4.2|~2.5"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "~1.5",
+                "phpunit/phpunit": "~3.7|~4.0",
+                "squizlabs/php_codesniffer": "~2.0",
+                "symfony/finder": "~2.1|~3.0"
+            },
+            "suggest": {
+                "ext-pcntl": "Enabling the PCNTL extension makes PsySH a lot happier :)",
+                "ext-pdo-sqlite": "The doc command requires SQLite to work.",
+                "ext-posix": "If you have PCNTL, you'll want the POSIX extension as well.",
+                "ext-readline": "Enables support for arrow-key history navigation, and showing and manipulating command history."
+            },
+            "bin": [
+                "bin/psysh"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.4.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Psy/functions.php"
+                ],
+                "psr-0": {
+                    "Psy\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Hileman",
+                    "email": "justin@justinhileman.info",
+                    "homepage": "http://justinhileman.com"
+                }
+            ],
+            "description": "An interactive shell for modern PHP.",
+            "homepage": "http://psysh.org",
+            "keywords": [
+                "REPL",
+                "console",
+                "interactive",
+                "shell"
+            ],
+            "time": "2015-03-17 15:17:33"
+        },
+        {
             "name": "sebastian/comparator",
             "version": "1.1.1",
             "source": {
@@ -2007,6 +2239,8 @@
         "cakephp/migrations": 20,
         "josegonzalez/dotenv": 20,
         "markstory/asset_compress": 20,
+        "cakephp/csfnavbar": 20,
+        "psy/psysh": 0,
         "cakephp/debug_kit": 20,
         "cakephp/bake": 20,
         "cakephp/cakephp-codesniffer": 20
@@ -2014,7 +2248,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.5.11"
+        "php": ">=5.4.16"
     },
     "platform-dev": []
 }
