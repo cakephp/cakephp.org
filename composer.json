@@ -19,7 +19,9 @@
         "cakephp/plugin-installer": "*",
         "josegonzalez/dotenv": "dev-master",
         "markstory/asset_compress": "3.0.*-dev",
-        "cakephp/csfnavbar": "3.0.x-dev"
+        "cakephp/csfnavbar": "3.0.x-dev",
+        "mnsami/composer-custom-directory-installer": "1.0.*",
+        "predominant/deploy": "*"
     },
     "require-dev": {
         "psy/psysh": "@stable",
@@ -49,6 +51,23 @@
         {
             "type": "vcs",
             "url": "https://github.com/cakephp/csfnavbar"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "predominant/deploy",
+                "type": "library",
+                "version": "1.0",
+                "dist": {
+                    "url": "https://github.com/predominant/deploy/archive/master.zip",
+                    "type": "zip"
+                }
+            }
         }
-    ]
+    ],
+    "extra": {
+        "installer-paths":{
+          "./deploy/": ["predominant/deploy"]
+        }
+    }
 }

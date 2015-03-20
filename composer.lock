@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c1b83a7c3bac42873c46d9a54ea230fb",
+    "hash": "7716235b75ed6a044a914ded56bd8200",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -208,8 +208,14 @@
             "version": "3.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "/Users/deizel/Projects/cakephp/csfnavbar",
+                "url": "https://github.com/cakephp/csfnavbar.git",
                 "reference": "c05830779d40d51629bbb1f259f9f626ffef3aa0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cakephp/csfnavbar/zipball/c05830779d40d51629bbb1f259f9f626ffef3aa0",
+                "reference": "c05830779d40d51629bbb1f259f9f626ffef3aa0",
+                "shasum": ""
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -218,6 +224,9 @@
                 }
             },
             "description": "Top bar navigation for CakePHP domains",
+            "support": {
+                "source": "https://github.com/cakephp/csfnavbar/tree/3.0"
+            },
             "time": "2015-03-20 08:18:52"
         },
         {
@@ -456,6 +465,57 @@
             "time": "2015-03-14 21:08:05"
         },
         {
+            "name": "mnsami/composer-custom-directory-installer",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mnsami/composer-custom-directory-installer.git",
+                "reference": "f2247c448aa61e5d664083e9126629c3767a432e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mnsami/composer-custom-directory-installer/zipball/f2247c448aa61e5d664083e9126629c3767a432e",
+                "reference": "f2247c448aa61e5d664083e9126629c3767a432e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "*",
+                "php": ">=5.3"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": [
+                    "Composer\\CustomDirectoryInstaller\\LibraryPlugin",
+                    "Composer\\CustomDirectoryInstaller\\PearPlugin"
+                ],
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\CustomDirectoryInstaller": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mina Nabil Sami",
+                    "email": "mina.nsami@gmail.com"
+                }
+            ],
+            "description": "A composer plugin, to help install packages of different types in custom paths.",
+            "keywords": [
+                "composer",
+                "composer-installer",
+                "composer-plugin"
+            ],
+            "time": "2014-10-04 22:18:00"
+        },
+        {
             "name": "mobiledetect/mobiledetectlib",
             "version": "2.8.12",
             "source": {
@@ -554,6 +614,17 @@
                 "time"
             ],
             "time": "2014-09-26 02:52:02"
+        },
+        {
+            "name": "predominant/deploy",
+            "version": "1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/predominant/deploy/archive/master.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
         },
         {
             "name": "psr/log",
