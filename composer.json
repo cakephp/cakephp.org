@@ -18,7 +18,8 @@
         "cakephp/migrations": "dev-master",
         "cakephp/plugin-installer": "*",
         "josegonzalez/dotenv": "dev-master",
-        "markstory/asset_compress": "3.0.*-dev"
+        "markstory/asset_compress": "3.0.*-dev",
+        "cakephp/csfnavbar": "3.0.x-dev"
     },
     "require-dev": {
         "psy/psysh": "@stable",
@@ -43,5 +44,11 @@
         "post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cakephp/csfnavbar"
+        }
+    ]
 }

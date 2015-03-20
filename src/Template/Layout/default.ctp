@@ -19,7 +19,7 @@
 </head>
 <body class="js">
 	<div id="container">
-		<?php //= $this->element('navbar', array(), array('plugin' => 'Csfnavbar')); ?>
+		<?= $this->element('Csfnavbar.navbar'); ?>
 		<header class="masthead">
 			<div class="header-backing"></div>
 			<div class="row">
