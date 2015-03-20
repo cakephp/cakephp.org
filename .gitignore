@@ -4,3 +4,4 @@
 .env
 .DS_Store
 fabfile.pyc
+/deploy/*
