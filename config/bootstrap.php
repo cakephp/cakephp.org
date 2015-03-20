@@ -15,7 +15,7 @@
 
 /**
  * Configure paths required to find CakePHP + general filepath
- * constants
+ * constants.
  */
 require __DIR__ . '/paths.php';
 

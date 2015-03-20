@@ -1,15 +1,23 @@
 <?php
+namespace App\Controller\Component;
 
 use Cake\Controller\Component;
 
 class SpamFilterComponent extends Component
 {
 
-    var $key = 'Other';
+    public $key = 'Other';
 
-    var $fields = array('name', 'body');
+    public $fields = ['name', 'body'];
 
-    function startup(&$controller)
+    /**
+     * Called after the controller's beforeFilter method, and before the
+     * controller action is called.
+     *
+     * @param \Cake\Controller\Controller $controller The current controller.
+     * @return void
+     */
+    public function startup(&$controller)
     {
         if (!empty($controller->data[$this->key])) {
             foreach ($this->fields as $field) {

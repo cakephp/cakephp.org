@@ -31,9 +31,9 @@ class PagesController extends AppController
     /**
      * Displays a view
      *
-     * @return void|\Cake\Network\Response
      * @throws \Cake\Network\Exception\NotFoundException When the view file could not
      *   be found or \Cake\View\Exception\MissingTemplateException in debug mode.
+     * @return void|\Cake\Network\Response
      */
     public function display()
     {

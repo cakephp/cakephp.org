@@ -1,5 +1,8 @@
 <?php
+namespace App\Controller;
+
 use App\Controller\AppController;
+
 /**
  * Changelogs Controller
  *
@@ -22,7 +25,7 @@ class ChangelogsController extends AppController
     /**
      * Index Action
      *
-     * @return void
+     * @return array List of tags
      */
     public function index()
     {
