@@ -21,7 +21,8 @@
         "markstory/asset_compress": "3.0.*-dev",
         "cakephp/csfnavbar": "3.0.x-dev",
         "mnsami/composer-custom-directory-installer": "1.0.*",
-        "predominant/deploy": "*"
+        "predominant/deploy": "*",
+        "tedivm/jshrink": "*"
     },
     "require-dev": {
         "psy/psysh": "@stable",

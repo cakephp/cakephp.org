@@ -192,7 +192,6 @@ Request::addDetector('tablet', function ($request) {
 
 Plugin::load('Migrations');
 
-Plugin::load('AssetCompress', ['bootstrap' => true]);
 Plugin::load('Csfnavbar');
 
 // Only try to load DebugKit in development mode
@@ -209,3 +208,5 @@ Configure::load('featured_sites');
 DispatcherFactory::add('Asset');
 DispatcherFactory::add('Routing');
 DispatcherFactory::add('ControllerFactory');
+
+Plugin::load('AssetCompress', ['bootstrap' => true]);
