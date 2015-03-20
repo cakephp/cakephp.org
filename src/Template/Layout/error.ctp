@@ -2,19 +2,20 @@
 <html lang="en">
 <head>
 	<title>
-		<?php echo __('CakePHP: the rapid development php framework. '); ?>
-		<?php echo $title_for_layout;?>
+		<?= __('CakePHP: the rapid development php framework. ') ?>
+		<?= $this->fetch('title') ?>
 	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<?php
-		echo $this->Html->charset();
-		echo $this->Html->meta('icon');
-		echo $this->element('ie9-jumplist');
+	<?= $this->Html->charset(); ?>
+	<?= $this->Html->meta('icon'); ?>
+	<?= $this->element('ie9-jumplist'); ?>
 
-		echo $this->AssetCompress->css('app.css');
+	<?= $this->AssetCompress->css('app.css'); ?>
 
-		echo '<!--[if lt IE 9]>' . $this->Html->script('html5shiv') . '<![endif]-->';
-	?>
+	<!--[if lt IE 9]><?= $this->Html->script('html5shiv'); ?><![endif]-->
+
+	<?= $this->fetch('meta'); ?>
+	<?= $this->fetch('css'); ?>
 </head>
 <body class="js">
 	<div id="container">
@@ -39,7 +40,7 @@
 						<li><?php echo $this->Html->link(__('Documentation'), array('controller' => 'pages', 'action' => 'display', 'documentation')); ?></li>
 					</ul>
 				</nav>
-				<?php 
+				<?php
 				if (!empty($headerButton)):
 					echo $headerButton;
 				endif;
@@ -48,8 +49,9 @@
 		</header>
 
 		<div id="content">
-			<?php $this->Session->flash(); ?>
-			<?php echo $content_for_layout;?>
+			<?= $this->Flash->render() ?>
+
+			<?= $this->fetch('content') ?>
 		</div>
 		<div class="footer-push"></div>
 	</div>
@@ -72,7 +74,7 @@
 
 			</div>
 		</div>
-		
+
 		<div class="row overlined">
 			<div class="columns six mini">
 				&copy; 2005-<?php echo date('Y'); ?> <?php echo $this->Html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org'); ?>
@@ -84,17 +86,15 @@
 				<?php
 				echo $this->Html->link(
 					__('Privacy Policy'),
-					array('admin' => false, 'prefix' => null, 'plugin' => null, 'controller' => 'pages', 'action' => 'privacy')); 
+					array('admin' => false, 'prefix' => null, 'plugin' => null, 'controller' => 'pages', 'action' => 'privacy'));
 				?>
 			</div>
 		</div>
 	</footer>
 
-	<?php
-		echo $this->AssetCompress->script('app.js');
-		echo $scripts_for_layout;
-		echo $this->Js->writeBuffer();
-	?>
+	<?= $this->AssetCompress->script('app.js') ?>
+	<?= $this->fetch('script') ?>
+	<?= $this->Js->writeBuffer() ?>
 	<?php if(env('SERVER_ADDR') != '127.0.0.1'):?>
 		<script type="text/javascript">
 			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

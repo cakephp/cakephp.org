@@ -1,69 +1,104 @@
 <?php
-/* SVN FILE: $Id: routes.php 682 2009-01-12 16:37:23Z gwoo $ */
-use Cake\Routing\Router;
-
 /**
- * Short description for file.
+ * Routes configuration
  *
  * In this file, you set up routes to your controllers and their actions.
  * Routes are very important mechanism that allows you to freely connect
- * different urls to chosen controllers and their actions (functions).
+ * different URLs to chosen controllers and their actions (functions).
  *
- * PHP versions 4 and 5
- *
- * CakePHP(tm) :  Rapid Development Framework <http://www.cakephp.org/>
- * Copyright 2005-2007, Cake Software Foundation, Inc.
- *								1785 E. Sahara Avenue, Suite 490-204
- *								Las Vegas, Nevada 89104
+ * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
+ * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
  *
  * Licensed under The MIT License
+ * For full copyright and license information, please see the LICENSE.txt
  * Redistributions of files must retain the above copyright notice.
  *
- * @filesource
- * @copyright		Copyright 2005-2007, Cake Software Foundation, Inc.
- * @link				http://www.cakefoundation.org/projects/info/cakephp CakePHP(tm) Project
- * @package			cake
- * @subpackage		cake.app.config
- * @since			CakePHP(tm) v 0.2.9
- * @version			$Revision: 682 $
- * @modifiedby		$LastChangedBy: gwoo $
- * @lastmodified	$Date: 2009-01-12 08:37:23 -0800 (Mon, 12 Jan 2009) $
- * @license			http://www.opensource.org/licenses/mit-license.php The MIT License
+ * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
+ * @link          http://cakephp.org CakePHP(tm) Project
+ * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
-    Router::extensions('rss');
-/**
- * Here, we are connecting '/' (base path) to controller called 'Pages',
- * its action called 'display', and we pass a param to select the view file
- * to use (in this case, /app/views/pages/home.thtml)...
- */
-    Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 
-    Router::connect('/search', array('controller' => 'pages', 'action' => 'display', 'search'));
-    Router::connect('/development', array('controller' => 'pages', 'action' => 'display', 'development'));
-    Router::connect('/documentation', array('controller' => 'pages', 'action' => 'display', 'documentation'));
-    Router::connect('/privacy', array('controller' => 'pages', 'action' => 'display', 'privacy'));
-
-    Router::connect('/logos', array('controller' => 'pages', 'action' => 'display', 'logos'));
-    Router::connect('/asset/*', array('plugin' => 'asset_compress', 'controller' => 'assets', 'action' => 'get'));
+use Cake\Core\Plugin;
+use Cake\Routing\Router;
 
 /**
- * Services
+ * The default class to use for all routes
+ *
+ * The following route classes are supplied with CakePHP and are appropriate
+ * to set as the default:
+ *
+ * - Route
+ * - InflectedRoute
+ * - DashedRoute
+ *
+ * If no call is made to `Router::defaultRouteClass`, the class used is
+ * `Route` (`Cake\Routing\Route\Route`)
+ *
+ * Note that `Route` does not do any inflections on URLs which will result in
+ * inconsistently cased URLs when used with `:plugin`, `:controller` and
+ * `:action` markers.
+ *
  */
-    Router::connect('/services',               array('controller' => 'pages', 'action' => 'display', 'services'));
-    Router::connect('/services/support',       array('controller' => 'pages', 'action' => 'display', 'services'));
-    Router::connect('/services/training',      array('controller' => 'pages', 'action' => 'display', 'services'));
-    Router::connect('/services/consultation',  array('controller' => 'pages', 'action' => 'display', 'services'));
-    Router::connect('/services/certification', array('controller' => 'pages', 'action' => 'display', 'services'));
+Router::defaultRouteClass('Route');
 
-    Router::connect('/changelogs', array('controller' => 'changelogs', 'action' => 'index'));
-    Router::connect('/changelogs/*', array('controller' => 'changelogs', 'action' => 'view'));
+Router::extensions('rss');
+
+Router::scope('/', function ($routes) {
+    /**
+     * Here, we are connecting '/' (base path) to a controller called 'Pages',
+     * its action called 'display', and we pass a param to select the view file
+     * to use (in this case, src/Template/Pages/home.ctp)...
+     */
+    $routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
+
+    /**
+     * ...and connect the rest of 'Pages' controller's URLs.
+     */
+    $routes->connect('/pages/*', ['controller' => 'Pages', 'action' => 'display']);
+
+    /**
+     * Custom routes
+     */
+    $routes->connect('/search', ['controller' => 'pages', 'action' => 'display', 'search']);
+    $routes->connect('/development', ['controller' => 'pages', 'action' => 'display', 'development']);
+    $routes->connect('/documentation', ['controller' => 'pages', 'action' => 'display', 'documentation']);
+    $routes->connect('/privacy', ['controller' => 'pages', 'action' => 'display', 'privacy']);
+    $routes->connect('/logos', ['controller' => 'pages', 'action' => 'display', 'logos']);
+
+    $servicesUrl = ['controller' => 'pages', 'action' => 'display', 'services'];
+
+    $routes->connect('/services', $servicesUrl);
+    $routes->connect('/services/support', $servicesUrl);
+    $routes->connect('/services/training', $servicesUrl);
+    $routes->connect('/services/consultation', $servicesUrl);
+    $routes->connect('/services/certification', $servicesUrl);
+
+    $routes->connect('/changelogs', ['controller' => 'changelogs', 'action' => 'index']);
+    $routes->connect('/changelogs/*', ['controller' => 'changelogs', 'action' => 'view']);
+
+    $routes->connect('/asset/*', ['plugin' => 'asset_compress', 'controller' => 'assets', 'action' => 'get']);
+
+    /**
+     * Connect catchall routes for all controllers.
+     *
+     * Using the argument `InflectedRoute`, the `fallbacks` method is a shortcut for
+     *    `$routes->connect('/:controller', ['action' => 'index'], ['routeClass' => 'InflectedRoute']);`
+     *    `$routes->connect('/:controller/:action/*', [], ['routeClass' => 'InflectedRoute']);`
+     *
+     * Any route class can be used with this method, such as:
+     * - DashedRoute
+     * - InflectedRoute
+     * - Route
+     * - Or your own route class
+     *
+     * You can remove these routes once you've connected the
+     * routes you want in your application.
+     */
+    $routes->fallbacks('InflectedRoute');
+});
 
 /**
- * ...and connect the rest of 'Pages' controller's urls.
+ * Load all plugin routes.  See the Plugin documentation on
+ * how to customize the loading of plugin routes.
  */
-    Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
-/**
- * Then we connect url '/test' to our test controller. This is helpfull in
- * developement.
- */
-    Router::connect('/tests', array('controller' => 'tests', 'action' => 'index'));
+Plugin::routes();

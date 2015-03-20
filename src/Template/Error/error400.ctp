@@ -1,12 +1,11 @@
 <?php
 use Cake\Core\Configure;
-use Cake\Error\Debugger;
 
 if (Configure::read('debug')):
     $this->layout = 'dev_error';
 
     $this->assign('title', $message);
-    $this->assign('templateName', 'error500.ctp');
+    $this->assign('templateName', 'error400.ctp');
 
     $this->start('file');
 ?>
@@ -20,9 +19,8 @@ if (Configure::read('debug')):
         <strong>SQL Query Params: </strong>
         <?= Debugger::dump($error->params) ?>
 <?php endif; ?>
+<?= $this->element('auto_table_warning') ?>
 <?php
-    echo $this->element('auto_table_warning');
-
     if (extension_loaded('xdebug')):
         xdebug_print_function_stack();
     endif;
@@ -30,8 +28,11 @@ if (Configure::read('debug')):
     $this->end();
 endif;
 ?>
-<h2><?= __d('cake', 'An Internal Error Has Occurred') ?></h2>
+<h2><?= h($message) ?></h2>
 <p class="error">
     <strong><?= __d('cake', 'Error') ?>: </strong>
-    <?= h($message) ?>
+    <?= sprintf(
+        __d('cake', 'The requested address %s was not found on this server.'),
+        "<strong>'{$url}'</strong>"
+    ) ?>
 </p>
