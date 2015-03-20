@@ -6,7 +6,7 @@ use App\Controller\AppController;
 class NewsController extends AppController
 {
 
-    public $uses = ['Feed'];
+    //public $uses = ['Feed'];
 
     /**
      * Index action
@@ -15,8 +15,10 @@ class NewsController extends AppController
      */
     public function index()
     {
+        /*
         $data = $this->Feed->read('BakeryNews');
         $this->set(compact('data'));
         return $data;
+        */
     }
 }

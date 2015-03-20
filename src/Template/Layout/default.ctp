@@ -19,7 +19,7 @@
 </head>
 <body class="js">
 	<div id="container">
-		<?php echo $this->element('navbar', array(), array('plugin' => 'Csfnavbar')); ?>
+		<?php //= $this->element('navbar', array(), array('plugin' => 'Csfnavbar')); ?>
 		<header class="masthead">
 			<div class="header-backing"></div>
 			<div class="row">
@@ -93,7 +93,7 @@
 
 	<?= $this->AssetCompress->script('app.js') ?>
 	<?= $this->fetch('script') ?>
-	<?= $this->Js->writeBuffer() ?>
+	<?php //= $this->Js->writeBuffer() ?>
 	<?php if(env('SERVER_ADDR') != '127.0.0.1'):?>
 		<script type="text/javascript">
 			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

@@ -1,3 +1,6 @@
+<?php
+use Cake\Core\Configure;
+?>
 <div class="slider">
 	<ul id="carousel" class="photo-carousel">
 	<?php
@@ -31,4 +34,4 @@ var visible = \$(window).width() < 560 ? 1 : 3;
 	}
 });
 TEXT;
-$this->Js->buffer($js);
+//$this->Js->buffer($js);

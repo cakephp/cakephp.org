@@ -199,6 +199,8 @@ if (Configure::read('debug')) {
     Plugin::load('DebugKit', ['bootstrap' => true]);
 }
 
+Configure::load('featured_sites');
+
 /**
  * Connect middleware/dispatcher filters.
  */

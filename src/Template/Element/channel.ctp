@@ -3,6 +3,8 @@
  * Authorized Ohloh sources
  *
  */
+return false;
+
 $ohlohSources = array(
 	'gwoo' => strtotime('01 October 2009'),
 	'nate' => strtotime('01 October 2009'),
@@ -91,7 +93,7 @@ if (!empty($feed['channel'])):
 						$item['title'] = $item['description'];
 					}
 				}
-			
+
 				echo '<li>' . $this->Html->link($item['title'], $item['link'], array('escape' => false));
 
 				if ($site == 'Ohloh') {

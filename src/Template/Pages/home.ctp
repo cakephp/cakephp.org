@@ -1,5 +1,6 @@
 <?php
-	$this->set('headerButton', $this->element('home/download'));
+use Cake\Core\Configure;
+$this->set('headerButton', $this->element('home/download'));
 ?>
 	<div class="row">
 		<div class="twelve columns">

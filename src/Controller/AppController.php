@@ -16,6 +16,7 @@ namespace App\Controller;
 
 use AssetCompress\View\Helper\AssetCompressHelper;
 use Cake\Controller\Controller;
+use Cake\Event\Event;
 
 /**
  * Application Controller
@@ -37,16 +38,16 @@ class AppController extends Controller
         'AssetCompress.AssetCompress',
         'Form',
         'Html',
-        'Js',
         'Session',
     ];
 
     /**
      * Before Render
      *
+     * @param \Cake\Event\Event $event The event object.
      * @return void
      */
-    public function beforeRender()
+    public function beforeRender(Event $event)
     {
         $one = [
             'version' => '1.2.12 ' . __('Stable'),
