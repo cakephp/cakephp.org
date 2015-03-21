@@ -11,7 +11,7 @@
  * Fully installable fonts can be purchased at http://www.fontspring.com
  *
  * The fonts included in this stylesheet are subject to the End User License you purchased
- * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * from Fontspring. The fonts are protected under domestic and international trademark and
  * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
  * distributing this font software.
  *
@@ -35,118 +35,118 @@
 
 /* Container elements */
 html {
-	width: 100%;
+    width: 100%;
 }
 body {
-	color: #000;
-	background: #fff;
-	font-family: Arial;
-	width: 100%;
+    color: #000;
+    background: #fff;
+    font-family: Arial;
+    width: 100%;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5 {
-	font-family: MuseoSlab500, Helvetica, Arial;
-	font-weight: normal;
+    font-family: MuseoSlab500, Helvetica, Arial;
+    font-weight: normal;
 }
 h1 {
-	font-size: 30px;
-	font-size: 3.0rem;
-	color: #C92434;
+    font-size: 30px;
+    font-size: 3.0rem;
+    color: #C92434;
 }
 h2 {
-	font-size: 28px;
-	font-size: 2.8rem;
-	color: #C92434;
+    font-size: 28px;
+    font-size: 2.8rem;
+    color: #C92434;
 }
 h3, h4 {
-	font-size: 24px;
-	font-size: 2.4rem;
-	color: #BD8A5D;
+    font-size: 24px;
+    font-size: 2.4rem;
+    color: #BD8A5D;
 }
 h5, h6 {
-	font-size: 21px;
-	font-size: 2.1rem;
-	color: #BD8A5D;
+    font-size: 21px;
+    font-size: 2.1rem;
+    color: #BD8A5D;
 }
 
 /* Links */
 a {
-	color: #417282;
+    color: #417282;
 }
 a:hover {
-	color: #003D4C;
-	text-decoration: underline;
+    color: #003D4C;
+    text-decoration: underline;
 }
 
 /* General button */
 .button {
-	font-family: MuseoSlab500, Helvetica, Arial;
-	font-weight: normal;
-	
-	-webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30);
-	-moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30);
-	-o-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30);
-	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.30);
-	
-	border: 1px solid #a61e2b;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-o-border-radius: 3px;
-	border-radius: 3px;
+    font-family: MuseoSlab500, Helvetica, Arial;
+    font-weight: normal;
+
+    -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30);
+    -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30);
+    -o-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30);
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.30);
+
+    border: 1px solid #a61e2b;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
 }
 .button:hover,
 .button:focus {
-	text-decoration: none;
-	-moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
-	-webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
-	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
 .button:active {
-	outline: 0;
-	-moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
-	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
-	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+    outline: 0;
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 /* Pale blue buttons */
 .button.pale {
-	background: #b2cccd;
-	background-image: -webkit-linear-gradient(top, #b2cccd, #a1bebf);
-	background-image: -moz-linear-gradient(top, #b2cccd, #a1bebf);
-	background-image: -o-linear-gradient(top, #b2cccd, #a1bebf);
-	background-image: linear-gradient(top, #b2cccd, #a1bebf);
-	border-color: #698b8c;
+    background: #b2cccd;
+    background-image: -webkit-linear-gradient(top, #b2cccd, #a1bebf);
+    background-image: -moz-linear-gradient(top, #b2cccd, #a1bebf);
+    background-image: -o-linear-gradient(top, #b2cccd, #a1bebf);
+    background-image: linear-gradient(top, #b2cccd, #a1bebf);
+    border-color: #698b8c;
 }
 .button.pale:hover {
-	background: #aac5c6;
-	border-color: #507273;
+    background: #aac5c6;
+    border-color: #507273;
 }
 
 /* Red buttons */
 .button.red {
-	background: #C92434;
+    background: #C92434;
 
-	background-image: -webkit-linear-gradient(top, #e01b2f, #c92434);
-	background-image: -moz-linear-gradient(top, #e01b2f, #c92434);
-	background-image: -o-linear-gradient(top, #e01b2f, #c92434);
-	background-image: linear-gradient(top, #e01b2f, #c92434);
+    background-image: -webkit-linear-gradient(top, #e01b2f, #c92434);
+    background-image: -moz-linear-gradient(top, #e01b2f, #c92434);
+    background-image: -o-linear-gradient(top, #e01b2f, #c92434);
+    background-image: linear-gradient(top, #e01b2f, #c92434);
 
 }
 .button.red:hover {
-	background: #d62738;
-	border-color: #8c1925;
+    background: #d62738;
+    border-color: #8c1925;
 }
 
 
 
 /* Preformatted text */
 pre, code {
-	font-family: "Bitstream Vera Sans", "Consolas", "Monaco", monospace;
+    font-family: "Bitstream Vera Sans", "Consolas", "Monaco", monospace;
 }
 pre {
-	margin-bottom: 18px;
-	overflow-x: auto;
+    margin-bottom: 18px;
+    overflow-x: auto;
     padding: 8px;
     background: #f2f2f2;
     color: #222;
@@ -172,93 +172,93 @@ pre::-webkit-scrollbar-thumb:horizontal {
 
 /* lists */
 ul, ol {
-	margin-left: 30px;
+    margin-left: 30px;
 }
 ul {
-	list-style: disc outside;
+    list-style: disc outside;
 }
 ul ul {
-	margin: 9px 0 9px 30px;
+    margin: 9px 0 9px 30px;
 }
 
 /* tilted header */
 .masthead {
-	background: #417282 url(../css/images/header-bg.png) repeat-x;
-	position: relative;
-	overflow: hidden;
+    background: #417282 url(../css/images/header-bg.png) repeat-x;
+    position: relative;
+    overflow: hidden;
 }
 .header-backing {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	right: 0px;
-	bottom: 0px;
-	z-index: 0;
-	background: url(../css/images/header-halftone.png) repeat-x;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 0;
+    background: url(../css/images/header-halftone.png) repeat-x;
 
-	-webkit-transform: rotate(-2.8deg);
-	-moz-transform: rotate(-2.8deg);
-	transform: rotate(-2.8deg);
-	
-	-webkit-transform-origin: top center;
-	-moz-transform-origin: top center;
-	transform-origin: top center;
+    -webkit-transform: rotate(-2.8deg);
+    -moz-transform: rotate(-2.8deg);
+    transform: rotate(-2.8deg);
+
+    -webkit-transform-origin: top center;
+    -moz-transform-origin: top center;
+    transform-origin: top center;
 }
 .masthead .row {
-	z-index: 1;
-	position: relative;
+    z-index: 1;
+    position: relative;
 }
 
 /* footer */
 .footer {
-	background: #B2CCCD url(../css/images/pale-halftone-bottom.png) top left repeat-x;
-	padding: 10px 0;
+    background: #B2CCCD url(../css/images/pale-halftone-bottom.png) top left repeat-x;
+    padding: 10px 0;
 }
 
 /* Inline */
 .panel.flyout {
-	border: 3px solid #C92434;
+    border: 3px solid #C92434;
 }
 
 /* Reveal modal dialogs */
 .reveal-modal {
-	background-image: none;
-	border: 4px solid #417282;
+    background-image: none;
+    border: 4px solid #417282;
 
-	-webkit-box-shadow: 4px 4px 0 #003D4C;
-	-moz-box-shadow: 4px 4px 0 #003D4C;
-	box-shadow: 4px 4px 0 #003D4C;
-	
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0;
+    -webkit-box-shadow: 4px 4px 0 #003D4C;
+    -moz-box-shadow: 4px 4px 0 #003D4C;
+    box-shadow: 4px 4px 0 #003D4C;
+
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
 }
 
 #cakephp-global-navigation .nav-select {
-	display: none;
+    display: none;
 }
 /**
  * Responsive CSF navbar override.
  */
 @media only screen and (max-width: 1000px) {
-	#cakephp-global-navigation li.main {
-		margin-left: 10px;
-	}
+    #cakephp-global-navigation li.main {
+        margin-left: 10px;
+    }
 }
 
 @media only screen and (max-width: 727px) {
 
-	#cakephp-global-navigation .nav-select {
-		display: block;
-		position: absolute;
-		top: 3px;
-		right: 10px;
-	}
-	#cakephp-global-navigation .main {
-		display: block;
-	}
-	#cakephp-global-navigation li {
-		display: none;
-	}
+    #cakephp-global-navigation .nav-select {
+        display: block;
+        position: absolute;
+        top: 3px;
+        right: 10px;
+    }
+    #cakephp-global-navigation .main {
+        display: block;
+    }
+    #cakephp-global-navigation li {
+        display: none;
+    }
 
 }

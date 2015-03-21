@@ -8,7 +8,7 @@ Ensure that submodules have been initialised.
 
 Once initialised, run the following console to generate assets:
 
-	cake AssetCompress.asset_compress build
+    cake AssetCompress.asset_compress build
 
 ## Setting up git path ##
 
@@ -20,10 +20,10 @@ Deployment is controlled via Fabric (A Python tool).
 
 Deploying stage site:
 
-	fab
+    fab
 
 Deploying production site:
 
-	fab deploy:environment=production
+    fab deploy:environment=production
 
 
