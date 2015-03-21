@@ -1,29 +1,44 @@
-# CakePHP Main Website #
+# CakePHP.org website
 
-This is the [CakePHP](http://cakephp.org) main website.
+## Dependencies
 
-## Building Assets ##
+This app uses Composer to manage PHP dependencies, as well as
+`composer-asset-plugin` to manage Javascript/CSS dependencies (without requiring
+Bower or Node to be installed on the system.)
 
-Ensure that submodules have been initialised.
+To install all required dependencies, run:
 
-Once initialised, run the following console to generate assets:
+    $ composer global require fxp/composer-asset-plugin:~1.0
+    $ composer install
 
-    cake AssetCompress.asset_compress build
+To add new PHP dependencies, run:
 
-## Setting up git path ##
+    $ composer require user/repo:version
+    $ git add composer.*
 
-The path to git needs to be setup in `Config/core.php`.
+To add new Javascript/CSS dependencies, run:
 
-## Deployment ##
+    $ composer require bower-asset/asset-name
+    $ git add composer.*
 
-Deployment is controlled via Fabric (A Python tool).
+Don't forget to add your new dependencies to the correct section of
+`app/Config/asset_compress.ini` (sections are named after corresponding layout
+files found in `app/View/Layout`).
+
+## Building assets
+
+Once dependencies are in place, run the following console to generate assets:
+
+    $ bin/cake AssetCompress.asset_compress build
+
+## Deployment
+
+Deployment is controlled via Fabric (a Python tool).
 
 Deploying stage site:
 
-    fab
+    $ fab
 
 Deploying production site:
 
-    fab deploy:environment=production
-
-
+    $ fab deploy:environment=production

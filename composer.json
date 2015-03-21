@@ -14,22 +14,28 @@
     "require": {
         "php": ">=5.4.16",
         "cakephp/cakephp": "3.0.*-dev",
-        "mobiledetect/mobiledetectlib": "2.*",
+        "cakephp/csfnavbar": "3.0.x-dev",
         "cakephp/migrations": "dev-master",
         "cakephp/plugin-installer": "*",
+        "fguillot/picofeed": "0.1.2",
         "josegonzalez/dotenv": "dev-master",
         "markstory/asset_compress": "3.0.*-dev",
-        "cakephp/csfnavbar": "3.0.x-dev",
         "mnsami/composer-custom-directory-installer": "1.0.*",
+        "mobiledetect/mobiledetectlib": "2.*",
         "predominant/deploy": "*",
-        "tedivm/jshrink": "*"
+        "tedivm/jshrink": "*",
+        "bower-asset/anythingslider": "1.9.4",
+        "bower-asset/owl-carousel": "dev-master",
+        "bower-asset/bootstrap": "3.3.4",
+        "bower-asset/google-code-prettify": "1.0.4",
+        "bower-asset/modernizr": "dev-master"
     },
     "require-dev": {
-        "psy/psysh": "@stable",
-        "cakephp/debug_kit": "3.0.*-dev",
         "cakephp/bake": "dev-master",
         "cakephp/cakephp-codesniffer": "dev-master",
-        "phpunit/phpunit": "4.*"
+        "cakephp/debug_kit": "3.0.*-dev",
+        "phpunit/phpunit": "4.*",
+        "psy/psysh": "@stable"
     },
     "autoload": {
         "psr-4": {
@@ -69,6 +75,16 @@
     "extra": {
         "installer-paths":{
           "./deploy/": ["predominant/deploy"]
+        },
+        "asset-repositories": {
+            "bower-asset/owl-carousel": {
+                "type": "bower-vcs",
+                "url": "https://github.com/OwlFonk/OwlCarousel.git"
+            },
+            "bower-asset/modernizr": {
+                "type": "bower-vcs",
+                "url": "https://github.com/components/modernizr.git"
+            }
         }
     }
 }

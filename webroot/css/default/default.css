@@ -1,0 +1,9 @@
+.anythingSlider-default .anythingControls a {
+    background-image: url(../../img/default/default.png);
+}
+.anythingSlider-default .arrow a {
+    background-image: url(../../img/default/default.png);
+}
+.anythingSlider-default .anythingWindow {
+    border-width: 0;
+}

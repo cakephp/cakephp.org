@@ -22,7 +22,7 @@
     ?>
     </div>
 </div>
-<?php /**
+<?php /*
 <div class="row">
     <div class="columns twelve">
         <h4>Upcoming Events</h4>
@@ -51,5 +51,4 @@
         ?>
     </div>
 </div>
-**/
-?>
+*/

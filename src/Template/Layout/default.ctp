@@ -1,100 +1,56 @@
+<?php
+/**
+ * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
+ * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
+ *
+ * Licensed under The MIT License
+ * For full copyright and license information, please see the LICENSE.txt
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
+ * @link          http://cakephp.org CakePHP(tm) Project
+ * @since         3.0
+ * @license       http://www.opensource.org/licenses/mit-license.php MIT License
+ */
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
+    <?= $this->Html->charset(); ?>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        <?= __('CakePHP: the rapid development php framework. ') ?>
         <?= $this->fetch('title') ?>
     </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <?= $this->Html->charset(); ?>
-    <?= $this->Html->meta('icon'); ?>
-    <?= $this->element('ie9-jumplist'); ?>
+    <?= $this->Html->meta('icon') ?>
 
-    <?= $this->AssetCompress->css('app.css'); ?>
+    <?= $this->AssetCompress->css('default'); ?>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-    <!--[if lt IE 9]><?= $this->Html->script('html5shiv'); ?><![endif]-->
-
-    <?= $this->fetch('meta'); ?>
-    <?= $this->fetch('css'); ?>
+    <?= $this->fetch('meta') ?>
+    <?= $this->fetch('css') ?>
 </head>
-<body class="js">
-    <div id="container">
-        <?= $this->element('Csfnavbar.navbar'); ?>
-        <header class="masthead">
-            <div class="header-backing"></div>
-            <div class="row">
-                <h1 class="logo"><?php
-                    echo $this->Html->image('cake-logo.png', array(
-                        'alt' => 'CakePHP : the rapid development php framework',
-                        'url' => '/'
-                    ));
-                ?></h1>
-                <h2 class="tagline <?php echo (empty($headerButton)) ? 'no-button' : '' ?>">
-                    <?php echo __('CakePHP makes building web applications simpler, faster and require less code.');?>
-                </h2>
+<body data-twttr-rendered="true">
 
-                <nav class="main-nav">
-                    <ul class="navigation">
-                        <li><?php echo $this->Html->link(__('News'), array('controller' => 'news')); ?></li>
-                        <li><?php echo $this->Html->link(__('Development'), array('controller' => 'pages', 'action' => 'display', 'development')); ?></li>
-                        <li><?php echo $this->Html->link(__('Documentation'), array('controller' => 'pages', 'action' => 'display', 'documentation')); ?></li>
-                    </ul>
-                </nav>
-                <?php
-                if (!empty($headerButton)):
-                    echo $headerButton;
-                endif;
-                ?>
-            </div>
-        </header>
+    <?= $this->element('Layout/default/navbar') ?>
 
-        <div id="content">
-            <?= $this->Flash->render() ?>
-            <?= $this->fetch('content') ?>
-        </div>
-        <div class="footer-push"></div>
+    <?= $this->Flash->render() ?>
+    <?= $this->fetch('content') ?>
+
+    <?= $this->element('Layout/default/footer') ?>
+
     </div>
 
-    <footer class="mastend clearfix">
-        <div class="row">
-            <nav class="seven columns">
-                <ul class="footer-nav">
-                    <li><?php echo $this->Html->link(__('News'), array('controller' => 'news')); ?></li>
-                    <li><?php echo $this->Html->link(__('Development'), array('controller' => 'pages', 'action' => 'display', 'development')); ?></li>
-                    <li><?php echo $this->Html->link(__('Documentation'), array('controller' => 'pages', 'action' => 'display', 'documentation')); ?></li>
-                    <li class="download"><?php echo $this->Html->link(__('Download'), $three['link']); ?></li>
-                </ul>
-            </nav>
-            <div class="columns three offset-by-two hosting">
-                <?php echo $this->Html->link(
-                    $this->Html->image('rackspace-logo.png'),
-                    'http://rackspace.com',
-                    array('escape' => false)); ?>
-
-            </div>
-        </div>
-
-        <div class="row overlined">
-            <div class="columns six mini">
-                &copy; 2005-<?php echo date('Y'); ?> <?php echo $this->Html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org'); ?>
-            </div>
-            <div class="columns six mini right-align">
-                <span style="display: inline-block; height: 13px;">
-                    <script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_thin_badge"></script>
-                </span>
-                <?php
-                echo $this->Html->link(
-                    __('Privacy Policy'),
-                    array('admin' => false, 'prefix' => null, 'plugin' => null, 'controller' => 'pages', 'action' => 'privacy'));
-                ?>
-            </div>
-        </div>
-    </footer>
-
-    <?= $this->AssetCompress->script('app.js') ?>
+    <?= $this->AssetCompress->script('default') ?>
     <?= $this->fetch('script') ?>
     <?php //= $this->Js->writeBuffer() ?>
-    <?php if(env('SERVER_ADDR') != '127.0.0.1'):?>
+
+    <?php $address = env('SERVER_ADDR'); if ($address && !in_array($address, ['127.0.0.1', 'localhost'], true)): ?>
         <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -104,6 +60,6 @@
             pageTracker._initData();
             pageTracker._trackPageview();
         </script>
-    <?php endif;?>
+    <?php endif; ?>
 </body>
 </html>
