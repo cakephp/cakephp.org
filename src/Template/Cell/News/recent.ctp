@@ -24,7 +24,7 @@
         <?php /*<div class="news-right pull-right col-lg-7 col-md-7 col-xs-7">*/ ?>
         <div class="news-right pull-right col-lg-9 col-md-9 col-xs-9">
             <h3><?= $article['name'] ?></h3>
-            <span>published on <?= $article['date'] ?></span>
+            <span>published on <?= $this->Time->nice($article['date']) ?></span>
 
             <?= $article['body'] ?>
             <?= $this->Html->link('Read more', $article['link']) ?>
