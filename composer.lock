@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "580a1cc52d9a0def5a7286c166ab4549",
+    "hash": "67595506ffb8471f8da9ae6306cdc35f",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -632,20 +632,20 @@
         },
         {
             "name": "markstory/asset_compress",
-            "version": "3.0.x-dev",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/markstory/asset_compress.git",
-                "reference": "a1e6a575ed6fa37ed241b7c8b1a61371cebe468d"
+                "url": "https://github.com/josegonzalez/asset_compress.git",
+                "reference": "48e9e615254fc0ff64c2eb5efb2d284a782292a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/markstory/asset_compress/zipball/a1e6a575ed6fa37ed241b7c8b1a61371cebe468d",
-                "reference": "a1e6a575ed6fa37ed241b7c8b1a61371cebe468d",
+                "url": "https://api.github.com/repos/josegonzalez/asset_compress/zipball/48e9e615254fc0ff64c2eb5efb2d284a782292a3",
+                "reference": "48e9e615254fc0ff64c2eb5efb2d284a782292a3",
                 "shasum": ""
             },
             "require": {
-                "cakephp/cakephp": "3.0.*-dev"
+                "cakephp/cakephp": "~3.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "4.1.*"
@@ -663,7 +663,11 @@
                     "AssetCompress\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "AssetCompress\\Test\\": "tests"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -684,7 +688,11 @@
                 "minifier",
                 "sass"
             ],
-            "time": "2015-03-14 21:08:05"
+            "support": {
+                "issues": "https://github.com/markstory/asset_compress/issues",
+                "source": "https://github.com/markstory/asset_compress"
+            },
+            "time": "2015-03-22 18:14:42"
         },
         {
             "name": "mnsami/composer-custom-directory-installer",
@@ -2570,7 +2578,6 @@
         "cakephp/cakephp": 20,
         "cakephp/csfnavbar": 20,
         "josegonzalez/dotenv": 20,
-        "markstory/asset_compress": 20,
         "bower-asset/owl-carousel": 20,
         "bower-asset/modernizr": 20,
         "cakephp/cakephp-codesniffer": 20,
