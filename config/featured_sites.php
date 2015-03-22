@@ -21,37 +21,37 @@ return [
                 'url' => 'http://tribehr.com'
             ],
             [
-                'image' => 'hotscripts.jpg',
+                'image' => 'hotscripts.png',
                 'name' => 'Hot Scripts',
                 'url' => 'http://www.hotscripts.com'
             ],
             [
-                'image' => 'piano-marvel.jpg',
+                'image' => 'piano-marvel.png',
                 'name' => 'Piano Marvel',
                 'url' => 'http://pianomarvel.com'
             ],
             [
-                'image' => 'copify.jpg',
+                'image' => 'copify.png',
                 'name' => 'Copify',
                 'url' => 'http://www.copify.com'
             ],
             [
-                'image' => 'social-poke.jpg',
+                'image' => 'social-poke.png',
                 'name' => 'socialpoke.me',
                 'url' => 'http://socialpoke.me'
             ],
             [
-                'image' => 'flipcomp.jpg',
+                'image' => 'flipcomp.png',
                 'name' => 'Flipcomp',
                 'url' => 'http://www.flipcomp.com'
             ],
             [
-                'image' => 'booking-boy.jpg',
+                'image' => 'booking-boy.png',
                 'name' => 'Booking Boy',
                 'url' => 'http://www.bookingboy.com/'
             ],
             [
-                'image' => 'affilorama.jpg',
+                'image' => 'affilorama.png',
                 'name' => 'Affilorama',
                 'url' => 'http://www.affilorama.com'
             ],
@@ -61,17 +61,17 @@ return [
                 'url' => 'http://www.traffictravis.com'
             ],
             [
-                'image' => 'fmtv.jpg',
+                'image' => 'fmtv.png',
                 'name' => 'followmy.tv',
                 'url' => 'http://followmy.tv'
             ],
             [
-                'image' => 'teamspeak.jpg',
+                'image' => 'teamspeak.png',
                 'name' => 'teamspeak.net',
                 'url' => 'http://teamspeak.net'
             ],
             [
-                'image' => '7shifts.jpg',
+                'image' => '7shifts.png',
                 'name' => '7shifts',
                 'url' => 'http://7shifts.com'
             ],
