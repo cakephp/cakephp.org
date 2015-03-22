@@ -93,7 +93,11 @@
                     'http://rackspace.com',
                     ['class' => 'pull-right lastlogos', 'escape' => false]
                 ) ?>
-                <?= $this->Html->image('default/widget.png', ['class' => 'pull-right lastlogos']) ?>
+                <?= $this->Html->link(
+                    $this->Html->image('default/widget.png'),
+                    'https://www.openhub.net/p/cakephp',
+                    ['class' => 'pull-right lastlogos', 'escape' => false]
+                ) ?>
                 <?php /*= $this->Html->link(
                     'Privacy Policy',
                     ['controller' => 'pages', 'action' => 'display', 'privacy'],
