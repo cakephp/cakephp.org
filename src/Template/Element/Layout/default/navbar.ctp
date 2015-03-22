@@ -13,7 +13,7 @@
                                     <div class="col-lg-2 col-md-2  padding-none"><?= $this->Html->image('default/cake-logo.png') ?></div>
                                     <div class="col-lg-10 col-md-10 padding-none">
                                         <div class="col-lg-12 col-md-12 padding-none">
-                                            <div class="col-lg-3 col-md-3 ">
+                                            <div class="col-lg-3 col-md-3">
                                                 <p>CakePHP makes building web applications simpler, faster and require less code.<br/><br/>
                                                     CakePHP is a modern PHP 5.4+ framework with a flexible Datbase access layer and a powerful scaffolding system that makes building both small and complex systems a breeze.<br/><br/></p>
 
@@ -44,14 +44,14 @@
                                                     </a>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-3 col-md-3 ">
+                                            <div class="col-lg-3 col-md-3" style="line-height: 2em">
                                                 <h4>Downloads</h4>
                                                 <?= $this->Html->link('Releases', 'https://github.com/cakephp/cakephp/tags') ?>
-                                                <h4>Documentation</h4>
+                                                <h4 style="margin-top: 2em">Documentation</h4>
                                                 <?= $this->Html->link('API', 'http://api.cakephp.org/3.0') ?>
                                                 <?= $this->Html->link('Book', 'http://book.cakephp.org/3.0') ?>
                                             </div>
-                                            <div class="col-lg-4 col-md-4">
+                                            <div class="col-lg-4 col-md-4" style="line-height: 2em">
                                                 <h4>Community</h4>
 
                                                 <div class="col-lg-6 col-md-6 padding-none">
