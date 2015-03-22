@@ -29,7 +29,7 @@ class NewsCell extends Cell
         }
 
         $articles = [];
-        for ($i = 1; $i <= 3; $i++) {
+        for ($i = 0; $i < 3; $i++) {
             $articles[] = [
                 'name' => $feed->items[$i]->getTitle(),
                 'date' => $feed->items[$i]->getDate(),
