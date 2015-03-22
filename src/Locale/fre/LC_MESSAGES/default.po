@@ -1,0 +1,1253 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2012-09-09 20:16+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Pierre Martin <contact@pierre-martin.fr>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Controller/AppController.php:33;41;49
+msgid "Stable"
+msgstr "Stable"
+
+#: Controller/ChangelogsController.php:38
+msgid "Invalid tag for changelogs"
+msgstr "Tag invalide pour les changelogs"
+
+#: Controller/FeedsController.php:32
+msgid "your feed was submitted"
+msgstr "votre flux a été soumis"
+
+#: Controller/FeedsController.php:35
+msgid "The feed was not submitted, try again."
+msgstr "Le flux n'a pas été soumis, essayez à nouveau."
+
+#: Controller/MapsController.php:16
+msgid "A cake in the face of all spammers."
+msgstr "Un gâteau à la tête de tous les spameurs."
+
+#: Controller/MapsController.php:35
+msgid "Nice. Your mark was added"
+msgstr "Très bien. Votre note a été ajoutée"
+
+#: Controller/MapsController.php:37
+msgid "Ooops. Your mark could not added"
+msgstr "Oups. Votre note ne peut être ajoutée"
+
+#: View/Changelogs/index.ctp:2
+#: View/Changelogs/view.ctp:3
+#: View/Pages/development.ctp:108
+msgid "Changelogs"
+msgstr "Changelogs"
+
+#: View/Changelogs/index.ctp:3
+msgid "Select a version below to view its changelog."
+msgstr "Sélectionnez une version ci-dessous pour voir son changelog."
+
+#: View/Changelogs/index.ctp:18
+#: View/Elements/versions.ctp:14
+msgid "%s series"
+msgstr "Série %s"
+
+#: View/Changelogs/view.ctp:4
+msgid "Version %s."
+msgstr "Version %s."
+
+#: View/Downloads/index.ctp:2
+msgid "Downloads"
+msgstr "Téléchargements"
+
+#: View/Downloads/index.ctp:21
+msgid "Name"
+msgstr "Nom"
+
+#: View/Downloads/index.ctp:22
+msgid "MD5"
+msgstr "MD5"
+
+#: View/Downloads/index.ctp:23
+msgid "Size"
+msgstr "Taille"
+
+#: View/Downloads/index.ctp:71
+msgid "read the announcement"
+msgstr "lire l'annonce"
+
+#: View/Downloads/index.ctp:72
+msgid "view the changelog"
+msgstr "voir le changelog"
+
+#: View/Elements/donations.ctp:1
+msgid "CakePHP Loves you"
+msgstr "CakePHP vous aime"
+
+#: View/Elements/donations.ctp:2
+msgid "Give some love back"
+msgstr "Donnez un peu d'amour en retour"
+
+#: View/Elements/donations.ctp:5
+msgid "Sponsor CakeFest"
+msgstr "sponsoriser le CakeFest"
+
+#: View/Elements/donations.ctp:11
+msgid "Donate anything"
+msgstr "Donner quelque chose"
+
+#: View/Elements/donations.ctp:20
+msgid "Donate $100"
+msgstr "Donner 100$"
+
+#: View/Elements/donations.ctp:29
+msgid "Donate $50"
+msgstr "Donner 50$"
+
+#: View/Elements/donations.ctp:38
+msgid "Donate $25"
+msgstr "Donner 25$"
+
+#: View/Elements/donations.ctp:47
+msgid "Donate $10"
+msgstr "Donner 10$"
+
+#: View/Elements/donations.ctp:56
+msgid "Donate $5"
+msgstr "Donner 5$"
+
+#: View/Elements/donations.ctp:65
+msgid "Donate $1"
+msgstr "Donner 1$"
+
+#: View/Elements/donations.ctp:71
+msgid "Love CakePHP"
+msgstr "Aimer CakePHP"
+
+#: View/Elements/home/download.ctp:5
+msgid "other releases"
+msgstr "autres releases"
+
+#: View/Elements/home/interact.ctp:9
+msgid "Mailing List"
+msgstr "Mailing List"
+
+#: View/Elements/home/interact.ctp:11
+msgid "Got a question, or need some help? Post on the %s"
+msgstr "Une question ou besoin d'aide ? Postez sur le %s"
+
+#: View/Elements/home/interact.ctp:13
+msgid "Google group"
+msgstr "Google Group"
+
+#: View/Elements/home/interact.ctp:19
+#: View/Pages/development.ctp:69
+msgid "Latest posts on the google group"
+msgstr "Derniers messages du google group"
+
+#: View/Elements/home/interact.ctp:25
+msgid "IRC"
+msgstr "IRC"
+
+#: View/Elements/home/interact.ctp:27
+msgid "Stop by %s on %s and chat with other bakers."
+msgstr "Passez sur %s sur %s et chattez avec d'autres cuisiniez."
+
+#: View/Elements/home/interact.ctp:29
+msgid "#cakephp"
+msgstr "#cakephp-fr"
+
+#: View/Elements/home/interact.ctp:29
+msgid "irc://irc.freenode.net/cakephp"
+msgstr "irc://irc.freenode.net/cakephp-fr"
+
+#: View/Elements/home/interact.ctp:30
+msgid "freenode.net"
+msgstr "freenode.net"
+
+#: View/Elements/home/interact.ctp:30
+msgid "http://freenode.net"
+msgstr "http://freenode.net"
+
+#: View/Elements/home/interact.ctp:34
+msgid "Screencasts and Tutorials"
+msgstr "Screencasts et Tutoriaux"
+
+#: View/Elements/home/interact.ctp:36
+msgid "View talks from previous CakeFests, screencasts and tutorials on %s"
+msgstr "Regardez les conférences des précédents CakeFests, screencasts et tutoriaux sur %s"
+
+#: View/Elements/home/latest_news.ctp:5
+msgid "Hot and new"
+msgstr "Chaud et nouveau"
+
+#: View/Elements/home/latest_news.ctp:18
+msgid "more news"
+msgstr "plus d'actualités"
+
+#: View/Elements/home/latest_news.ctp:20
+msgid "Could not fetch news"
+msgstr "Impossible de récupérer les actualités"
+
+#: View/Elements/home/read_learn.ctp:4
+msgid "Read and Learn"
+msgstr "Lire et Apprendre"
+
+#: View/Elements/home/read_learn.ctp:9
+msgid "Learn"
+msgstr "Apprendre"
+
+#: View/Elements/home/read_learn.ctp:13
+msgid "Getting started tutorial"
+msgstr "Tutorial de démarrage"
+
+#: View/Elements/home/read_learn.ctp:18
+msgid "Cookbook (offical documentation)"
+msgstr "Cookbook (documentation officielle)"
+
+#: View/Elements/home/read_learn.ctp:22
+msgid "Screencasts"
+msgstr "Démonstrations"
+
+#: View/Elements/home/read_learn.ctp:26
+msgid "Read"
+msgstr "Lire"
+
+#: View/Elements/home/read_learn.ctp:27
+msgid "Just a few of the blogs"
+msgstr "Juste quelques blogs"
+
+#: View/Elements/news/item.ctp:7
+msgid "published on "
+msgstr "publié le "
+
+#: View/Elements/news/item.ctp:15
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: View/Elements/services/certification.ctp:7
+#: View/Pages/services.ctp:10
+msgid "Certification"
+msgstr "Certification"
+
+#: View/Elements/services/certification.ctp:9
+msgid "CakePHP Certification involves an exam whereby a developers understanding of the CakePHP framework, MVC principles and standards used within CakePHP are tested."
+msgstr "La Certification CakePHP consiste en un examen  durant lequel la compréhension du framework CakePHP, des principes du MVC et des standards utilisés dans CakePHP par le développeur sont testés."
+
+#: View/Elements/services/certification.ctp:10
+msgid "The certification examination is performed online, testing a set of real world scenarios and intimate CakePHP specifics."
+msgstr "L'examen de certification est effectué en ligne, en testant un ensemble de scénarios réels et de spécificités avancées de CakePHP."
+
+#: View/Elements/services/certification.ctp:11
+msgid "Certification ensures you'll stand out from the crowd when it comes to job applications."
+msgstr "La Certification vous assurera de vous différencier de la masse dans le monde professionnel."
+
+#: View/Elements/services/certification.ctp:12
+msgid "It can also boost your employment value for existing employers, and be a great asset when it comes to salary review."
+msgstr "Celà peut également booster votre valeur perçue par votre employeur, et être un atout important lors de votre revue de salaire."
+
+#: View/Elements/services/certification.ctp:13
+msgid "More information will be available shortly."
+msgstr "Plus d'informations seront disponibles sous peu."
+
+#: View/Elements/services/consultation.ctp:7
+#: View/Pages/services.ctp:9
+msgid "Consultation"
+msgstr "Consulting"
+
+#: View/Elements/services/consultation.ctp:9
+msgid "Through a variety of guided and custom consultation services, we can provide guidance for existing and planned PHP applications."
+msgstr "A travers une variété de services de consultation personnalisés et guidés, nous pouvons vous apporter des conseils pour vos applications PHP existantes ou en prévision."
+
+#: View/Elements/services/consultation.ctp:10
+msgid "This also includes deployment management, development workflow optimisation, test driven development and more."
+msgstr "Celà inclut également la gestion des déploiements, l'optimisation du processus de développement, le développement dirigé par les tests et plus."
+
+#: View/Elements/services/consultation.ctp:12
+msgid "Code Review, performance analysis, security audits and standards reporting are also available."
+msgstr "Revue de Code, analyse de performances, audits de sécurité et couverture de standards sont aussi possibles."
+
+#: View/Elements/services/consultation.ctp:15
+msgid "All these services and more are provided by our professional services provider, the %s."
+msgstr "Tous ces services (et plus encore) sont proposés par notre fournisseur de service officiel, la %s."
+
+#: View/Elements/services/support.ctp:7
+#: View/Pages/services.ctp:7
+msgid "Support"
+msgstr "Support"
+
+#: View/Elements/services/support.ctp:9
+msgid "Professional support for CakePHP is provided by our professional services partner, the %s."
+msgstr "Le support CakePHP Professionnel est proposé par notre fournisseur de service officiel, la %s."
+
+#: View/Elements/services/support.ctp:13
+msgid "For more information on professional support for CakePHP, see the %s."
+msgstr "Pour plus d'informations concernant du support Professionnel de CakePHP, consultez le %s."
+
+#: View/Elements/services/training.ctp:7
+#: View/Pages/services.ctp:8
+msgid "Training"
+msgstr "Formation"
+
+#: View/Elements/services/training.ctp:9
+msgid "Undertaking CakePHP work within your organization, and want to ensure your team has the best tools, skills and understanding of the CakePHP Framework and MVC approaches possible?"
+msgstr "Vous entreprenez du développement CakePHP au sein de votre organisation, et voulez vous assurez que votre équipe a les meilleurs outils, compétences et compréhensions du framework CakePHP et de l'approche MVC possible ?"
+
+#: View/Elements/services/training.ctp:10
+msgid "Training for general development, application planning and design, as well as education for preparation before Certification are available."
+msgstr "Des formations pour le développement en général, la planification d'applications et la conception, ainsi qu'une préparation à la Certification sont disponibles."
+
+#: View/Elements/services/training.ctp:12
+msgid "Training is provided by the Cake Development Corporation."
+msgstr "La formation est proposée par la Cake Development Corporation."
+
+#: View/Elements/services/training.ctp:13
+msgid "Visit their site for more information."
+msgstr "Visitez leur site web pour plus d'informations."
+
+#: View/Errors/error404.ctp:4
+msgid "Page not found"
+msgstr "Page non trouvée"
+
+#: View/Errors/error404.ctp:6
+msgid "We couldn't find the page you requested."
+msgstr "Nous n'avons pas pu trouver la page demandée."
+
+#: View/Errors/error404.ctp:9
+msgid "Don't fret, head back to the %s!"
+msgstr "Ne t'inquiète pas, retourne à la %s"
+
+#: View/Errors/error404.ctp:11
+msgid "CakePHP Homepage"
+msgstr "Page d'accueil de CakePHP"
+
+#: View/Feeds/index.ctp:11
+msgid "Planet CakePHP"
+msgstr "Planète CakePHP"
+
+#: View/Feeds/index.ctp:81;82
+msgid "Please specify a valid url"
+msgstr "Merci de spécifier une url valide"
+
+#: View/Jobs/index.ctp:5
+msgid "Jobs"
+msgstr "Emplois"
+
+#: View/Layouts/default.ctp:5
+msgid "CakePHP: the rapid development php framework. "
+msgstr "CakePHP : le framework de développement rapide php"
+
+#: View/Layouts/default.ctp:32
+msgid "CakePHP makes building web applications simpler, faster and require less code."
+msgstr "CakePHP rend la construction d'applications web plus simple, rapide et nécessite moins de code."
+
+#: View/Layouts/default.ctp:37;61
+#: View/Pages/home.ctp:56
+msgid "News"
+msgstr "Actualités"
+
+#: View/Layouts/default.ctp:38;62
+#: View/Pages/development.ctp:4
+msgid "Development"
+msgstr "Développement"
+
+#: View/Layouts/default.ctp:39;63
+#: View/Pages/documentation.ctp:3
+msgid "Documentation"
+msgstr "Documentation"
+
+#: View/Layouts/default.ctp:64
+msgid "Download"
+msgstr "Téléchargement"
+
+#: View/Layouts/default.ctp:83
+msgid "Privacy Policy"
+msgstr "Politique de Confidentialité"
+
+#: View/Maps/index.ctp:6
+msgid "Where are all the bakers?"
+msgstr "Où sont situés tous les boulangers ?"
+
+#: View/Maps/index.ctp:10
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr "Page %page% sur %pages%, affiche %current% enregistrements sur un total de %count%, commençant à l'enregistrement %start%, s'arrêtant au %end%"
+
+#: View/Maps/index.ctp:36
+msgid "previous"
+msgstr "précédent"
+
+#: View/Maps/index.ctp:38
+msgid "next"
+msgstr "suivant"
+
+#: View/Maps/index.ctp:45
+msgid "Add your mark"
+msgstr "Ajoutez votre note"
+
+#: View/News/index.ctp:5
+msgid "CakePHP News"
+msgstr "Actualités CakePHP"
+
+#: View/Pages/development.ctp:6
+msgid "Github"
+msgstr "Github"
+
+#: View/Pages/development.ctp:8
+msgid "CakePHP's code repositories are hosted at %s"
+msgstr "Les repositories du code de CakePHP sont hébergés sur %s"
+
+#: View/Pages/development.ctp:14
+msgid "Security Issues"
+msgstr "Erreurs de sécurité"
+
+#: View/Pages/development.ctp:18
+msgid "Found a security exploit in CakePHP? Please don't message the mailing list, or open an issue on lighthouse."
+msgstr "Vous avez trouvé une faille de sécurité dans CakePHP ? Merci de ne pas envoyer de message sur la mailing list, ni d'ouvrir une issue sur lighthouse."
+
+#: View/Pages/development.ctp:19
+msgid "Instead, please email %s."
+msgstr "A la place, veuillez contacter %s."
+
+#: View/Pages/development.ctp:20
+msgid "Email sent to this address are forwarded to the maintainers of CakePHP."
+msgstr "Les emails envoyés à cette adresse sont transmis à l'équipe de CakePHP."
+
+#: View/Pages/development.ctp:26
+msgid "When a security issue is reported, we first try to confirm the vulnerability."
+msgstr "Lorsqu'un problème de sécurité est rapporté, nous essayons d'abord de confirmer la faille."
+
+#: View/Pages/development.ctp:27
+msgid "Once confirmed, we'll do the following:"
+msgstr "Une fois confirmée, nous faisons les choses suivantes :"
+
+#: View/Pages/development.ctp:31
+msgid "Send acknowledgement to the reporter, that we received and confirmed the issue."
+msgstr "Envoyer un accusé de réception au rapporteur."
+
+#: View/Pages/development.ctp:32
+msgid "Work on a patch to fix the issue."
+msgstr "Travailler sur un patch pour corriger le problème."
+
+#: View/Pages/development.ctp:33
+msgid "Write a post describing the vulnerability, possible exploits and provide instructions on how to apply the patch / upgrade."
+msgstr "Écrire un article décrivant la vulnérabilité, les exploits possibles et expliquant comment appliquer le patch / mise à jour."
+
+#: View/Pages/development.ctp:34
+msgid "Apply the patch to all maintained and affected versions of CakePHP"
+msgstr "Appliquer le patch à toutes les versions de CakePHP affectées et maintenues"
+
+#: View/Pages/development.ctp:35
+msgid "Create new packaged releases for each affected version."
+msgstr "Créer de nouvelles releases packagées pour chaque version affectée."
+
+#: View/Pages/development.ctp:36
+msgid "Publish the post on the CakePHP blog/Bakery"
+msgstr "Publier l'article sur le blog CakePHP / Bakery"
+
+#: View/Pages/development.ctp:39
+msgid "Continuous Integration"
+msgstr "Intégration continue"
+
+#: View/Pages/development.ctp:41
+msgid "CakePHP is %s check the status of the %s on CakePHP's Jenkins server."
+msgstr "CakePHP est %s vérifiez les statut des %s sur le serveur Jenkins de CakePHP."
+
+#: View/Pages/development.ctp:43
+msgid "continuously integrated"
+msgstr "continuellement intégré"
+
+#: View/Pages/development.ctp:44
+msgid "various builds"
+msgstr "différentes builds"
+
+#: View/Pages/development.ctp:48
+msgid "Lighthouse Issues"
+msgstr "Issues Lighthouse"
+
+#: View/Pages/development.ctp:50
+msgid "Found a bug? Suggest an improvement? Issue tracking for CakePHP can be found at %s."
+msgstr "Bug trouvé ? Suggestion d'amélioration ? Le système de suivi de tickets de CakePHP se trouve sur %s."
+
+#: View/Pages/development.ctp:56
+msgid "General Mailing list"
+msgstr "Mailing list genérale"
+
+#: View/Pages/development.ctp:59
+msgid "Discuss a problem you're having, or learn from other CakePHP developers around the globe."
+msgstr "Discuter d'un problème que vous rencontrez, ou apprendre des autres développeurs CakePHP autour du monde."
+
+#: View/Pages/development.ctp:60;79
+msgid "Join the :mailing-list."
+msgstr "Rejoignez la :mailing-list."
+
+#: View/Pages/development.ctp:61
+msgid "CakePHP mailing list"
+msgstr "Mailing list CakePHP"
+
+#: View/Pages/development.ctp:75
+msgid "Core Mailing list"
+msgstr "Mailing list du coeur"
+
+#: View/Pages/development.ctp:78
+msgid "Discuss new features or get involved with CakePHP's development."
+msgstr "Discuter des nouvelles fonctionnalités ou s'investir dans le développement de CakePHP."
+
+#: View/Pages/development.ctp:80
+msgid "Core mailing list"
+msgstr "Mailing list du coeur"
+
+#: View/Pages/development.ctp:87
+msgid "Latest posts on the cakephp-core google group"
+msgstr "Derniers messages du google group cakephp-core"
+
+#: View/Pages/development.ctp:93
+#: View/Pages/documentation.ctp:43
+msgid "Contributing"
+msgstr "Contribuer"
+
+#: View/Pages/development.ctp:97
+msgid "Contributing to CakePHP is easy."
+msgstr "Contribuer à CakePHP est facile."
+
+#: View/Pages/development.ctp:98
+msgid "Checkout the %s for how you can get started contributing to CakePHP"
+msgstr "Lisez %s pour découvrir comment vous pouvez commencer à contribuer à CakePHP"
+
+#: View/Pages/development.ctp:100
+msgid "guide on contributing"
+msgstr "guide de contribution"
+
+#: View/Pages/documentation.ctp:6
+msgid "There are two official sources of documentation for CakePHP, the book and the api."
+msgstr "Il y a deux sources officielles de documentation pour CakePHP, le livre et l'api."
+
+#: View/Pages/documentation.ctp:13
+msgid "2.0"
+msgstr "2.0"
+
+#: View/Pages/documentation.ctp:16;25;35
+msgid "The api"
+msgstr "L'api"
+
+#: View/Pages/documentation.ctp:17;26;36
+msgid "The book"
+msgstr "Le livre"
+
+#: View/Pages/documentation.ctp:22
+msgid "1.3"
+msgstr "1.3"
+
+#: View/Pages/documentation.ctp:32
+msgid "1.2"
+msgstr "1.2"
+
+#: View/Pages/documentation.ctp:47
+msgid "The source for the CakePHP book is hosted on %s."
+msgstr "Les sources du livre CakePHP sont hébergées sur %s."
+
+#: View/Pages/documentation.ctp:48
+msgid "If you'd like to help out improving the documentation, checkout the guide on %s."
+msgstr "Si vous souhaitez aider à l'amélioration de la documentation, suivez le guide sur %s."
+
+#: View/Pages/documentation.ctp:50
+msgid "contributing to the docs"
+msgstr "contribuer à la documentation"
+
+#: View/Pages/home.ctp:6
+msgid "Why use CakePHP"
+msgstr "Pourquoi utiliser CakePHP"
+
+#: View/Pages/home.ctp:12
+msgid "Build Quickly"
+msgstr "Développement Rapide"
+
+#: View/Pages/home.ctp:13
+msgid "Use code generation and scaffolding features to rapidly build prototypes."
+msgstr "Utilisez la génération de code et le \"scaffolding\" pour rapidement construire des prototypes."
+
+#: View/Pages/home.ctp:17
+msgid "No Configuration"
+msgstr "Pas de Configuration"
+
+#: View/Pages/home.ctp:18
+msgid "No complicated XML or YAML files. Just setup your database and you're ready to bake."
+msgstr "Pas de fichiers XML ou YAML complexes. Configurez simplement votre base de données et commencez à cuisiner."
+
+#: View/Pages/home.ctp:22
+msgid "Friendly License"
+msgstr "Une licence flexible"
+
+#: View/Pages/home.ctp:23
+msgid "CakePHP is licensed under the MIT license which makes it perfect for use in commercial applications."
+msgstr "CakePHP est sous licence MIT ce qui le rend parfait pour une utilisation dans des applications commerciales."
+
+#: View/Pages/home.ctp:29
+msgid "Batteries Included"
+msgstr "Piles incluses"
+
+#: View/Pages/home.ctp:31
+msgid "The things you need are built-in."
+msgstr "Ce dont vous avez besoin est inclus."
+
+#: View/Pages/home.ctp:32
+msgid "Translations, database access, caching, validation, authentication, and much more are all built into one of the original PHP MVC frameworks."
+msgstr "Traductions, accès à la base de données, cache, validation, authentification, et bien d'autres choses sont toutes présentes dans un des premiers frameworks PHP MVC."
+
+#: View/Pages/home.ctp:37
+msgid "Clean MVC Conventions"
+msgstr "Conventions MVC Propres"
+
+#: View/Pages/home.ctp:39
+msgid "Instead of having to plan where things go, CakePHP comes with a set of conventions to guide you in developing your application."
+msgstr "Au lieu de devoir décider de la place de chaque chose, CakePHP vous propose un ensemble de conventions pour vous guider dans le developpement de votre application."
+
+#: View/Pages/home.ctp:44
+msgid "Secure"
+msgstr "Sécurisé"
+
+#: View/Pages/home.ctp:46
+msgid "CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention, and XSS prevention, helping you keep your application safe &amp; secure."
+msgstr "CakePHP est livré avec des outils pour la validation de champs, protection CSRF, protection contre la falsification de formulaires, prévention des injection SQL et XSS, vous permettant de garder votre application sécurisée."
+
+#: View/Pages/home.ctp:57
+msgid "Interact"
+msgstr "Interagir"
+
+#: View/Pages/home.ctp:58
+msgid "Read + Learn"
+msgstr "Lire + Apprendre"
+
+#: View/Pages/home.ctp:79
+msgid "Companies using CakePHP"
+msgstr "Qui utilise CakePHP"
+
+#: View/Pages/home.ctp:83
+msgid "Other sites using CakePHP"
+msgstr "Autres sites utilisant CakePHP"
+
+#: View/Pages/logos.ctp:3
+msgid "CakePHP Logos and Assets"
+msgstr "Logos et Ressources CakePHP"
+
+#: View/Pages/logos.ctp:6
+msgid "The logos linked below are licensed as %s; please link to %s as the attribution when using them (either as a hyperlink or simply the text)."
+msgstr "Les logos affichés ci-dessous sont sous licence %s; merci de laisser un lien vers %s pour l'attribution lorsque vous les utilisez (soit en tant que lien hypertexte ou simplement sous forme de texte)."
+
+#: View/Pages/logos.ctp:11
+msgid "If you intend on making money or promoting a commercial service by using these logos, you must first contact %s for licensing information before using the logo or any associated assets."
+msgstr "Si vous souhaitez faire des bénéfices ou promouvoir un service commercial en utilisant ces logos, vous devez d'abord contacter %s pour obtenir des informations d'utilisation avant d'utiliser le logo ou toute ressource associée."
+
+#: View/Pages/logos.ctp:15
+msgid "Where can I use it?"
+msgstr "Où puis-je l'utiliser ?"
+
+#: View/Pages/logos.ctp:16
+msgid "If you run, own or operate a personal blog, you may use the logo to discuss CakePHP, or place the logo to show your support and that you use the framework."
+msgstr "Si vous gérez un blog personnel, vous pouvez utiliser le logo pour discuter de CakePHP, ou placer le logo pour montrer votre soutien et le fait que vous utilisez le framework."
+
+#: View/Pages/logos.ctp:17
+msgid "If you intend to use the CakePHP logo to promote a service or product you must first obtain written permission from the Cake Software Foundation."
+msgstr "Si vous prévoyez d'utiliser le logo de CakePHP pour promouvoir un service ou produit, vous devez en premier lieu obtenir une permission écrite de la part de la Cake Software Foundation."
+
+#: View/Pages/logos.ctp:17
+msgid "You may use the \"powered by\" logos to let the world know that your site or product is built with CakePHP."
+msgstr "Vous pouvez utiliser les logos \"powered by\" pour faire savoir au monde entier que votre site ou produit est construit avec CakePHP."
+
+#: View/Pages/logos.ctp:20
+msgid "Where can't I use it?"
+msgstr "Où ne puis-je pas l'utiliser ?"
+
+#: View/Pages/logos.ctp:22
+msgid "For the publication or promotion of commercial services related to CakePHP development, use of the logos is not permitted without permission from the Cake Software Foundation. For more information regarding the licensing options and capabilities, please contact %s."
+msgstr "Pour la publication ou promotion de services commerciaux liés au développement CakePHP, l'utilisation des logos n'est pas autorisée sans une permission de  la Cake Software Foundation. Pour plus d'informations concernant les possibilités de licences, veuillez contacter %s."
+
+#: View/Pages/logos.ctp:26
+msgid "Logos"
+msgstr "Logos"
+
+#: View/Pages/logos.ctp:40
+msgid "Wallpapers"
+msgstr "Fonds d'écran"
+
+#: View/Pages/logos.ctp:41
+msgid "These wallpapers are designed as 1024 pixels wide, and square. This makes them appropriate for devices that allow orientation switching while maintaining the design of the wallpaper within the bounds of your device. They're also great for desktop backgrounds, or any other place you want a giant sexy CakePHP wallpaper."
+msgstr "Ces fonds d'écrans sont conçus avec une largeur de 1024 pixels, et carrés. Cela les rend appropriés aux terminaux qui autorisent un changement d'orientation tout en maintenant le fond d'écran dans les limites de votre écran. Ils sont également adaptés aux fonds d'écrans de votre bureau, ou de tout autre endroit ou vous souhaiterez un poster géant et sexy de CakePHP."
+
+#: View/Pages/privacy.ctp:2
+msgid "Privacy Policy for cakephp.org"
+msgstr "Politique de Confidentialité de cakephp.org"
+
+#: View/Pages/privacy.ctp:3
+msgid "The privacy of our visitors to cakephp.org is important to us."
+msgstr "La vie privée des visiteurs de cakephp.org est importante à nos yeux."
+
+#: View/Pages/privacy.ctp:6
+msgid "At cakephp.org, we recognize that privacy of your personal information is important."
+msgstr "Sur cakephp.org, nous reconnaissons que la vie privée de vos informations personnelles est importante."
+
+#: View/Pages/privacy.ctp:7
+msgid "Here is information on what types of personal information we receive and collect when you use and visit cakephp.org, and how we safeguard your information."
+msgstr "Voici des informations sur le type d'informations personnelles que nous recevons et collections lorsque vous utilisez et visitez cakephp.org, et la manière dont nous les protégeons."
+
+#: View/Pages/privacy.ctp:8
+msgid "We never sell your personal information to third parties."
+msgstr "Nous ne vendons jamais vos informations personnelles à des tiers."
+
+#: View/Pages/privacy.ctp:12
+msgid "Log Files:"
+msgstr "Fichiers de Log :"
+
+#: View/Pages/privacy.ctp:14
+msgid "As with most other websites, we collect and use the data contained in log files."
+msgstr "Tout comme sur la plupart des autres sites web, nous collections et utilisons des données contenues dans des fichiers de log."
+
+#: View/Pages/privacy.ctp:15
+msgid "The information in the log files include your IP (internet protocol) address, your ISP (internet service provider, such as AOL or Shaw Cable), the browser you used to visit our site (such as Internet Explorer or Firefox), the time you visited our site and which pages you visited throughout our site."
+msgstr "Les informations contenues dans ces fichiers de log incluent votre adresse IP (internet protocol), votre FAI (fournisseur d'accès à internet, tel que Neuf/SFR ou Orange), le navigateur que vous utilisez pour parcourir notre site (tel que Firefox ou Internet Explorer), le temps passé sur notre site et les pages visitées."
+
+#: View/Pages/privacy.ctp:19
+msgid "Cookies:"
+msgstr "Cookies :"
+
+#: View/Pages/privacy.ctp:20
+msgid "We do use cookies to store information, such as your personal preferences when you visit our site."
+msgstr "Nous utilisons des cookies pour stocker des informations, telles que vos préférences personnelles lorsque vous visitez notre site."
+
+#: View/Pages/privacy.ctp:23
+msgid "Advertising:"
+msgstr "Publicité :"
+
+#: View/Pages/privacy.ctp:25
+msgid "We use third-party advertising companies to serve ads when you visit our website."
+msgstr "Nous utilisons des sociétés tierces pour gérer  les publicités affichées sur notre site."
+
+#: View/Pages/privacy.ctp:26
+msgid "These companies may use information (not including your name, address, email address, or telephone number) about your visits to this and other websites in order to provide advertisements about goods and services of interest to you."
+msgstr "Ces sociétés peuvent utiliser des informations (ceci n'inclue pas votre nom, adresse, adresse email, ou numéro de téléphone) sur vos visites sur ce site et d'autres sites web, dans le but de vous proposer des publicités sur des biens et services ayant un intérêt pour vous."
+
+#: View/Pages/privacy.ctp:28
+msgid "If you would like more information about this practice and to know your choices about not having this information used by these companies, %s."
+msgstr "Si vous souhaitez plus d'informations sur cette pratique et connaître vos possibilités pour ne pas laisser le droit d'utilisation de vos données à ces sociétés, %s."
+
+#: View/Pages/privacy.ctp:29
+msgid "click here"
+msgstr "cliquez ici"
+
+#: View/Pages/services.ctp:4
+msgid "Services"
+msgstr "Services"
+
+#~ msgid "CakePHP Questions"
+#~ msgstr "CakePHP Questions"
+
+#~ msgid "Traffic Travis"
+#~ msgstr "Traffic Travis"
+
+#~ msgid "Piano Marvel"
+#~ msgstr "Piano Marvel"
+
+#~ msgid "Fachak"
+#~ msgstr "Fachak"
+
+#~ msgid "Miss Universe"
+#~ msgstr "Miss Univers"
+
+#~ msgid "Affilorama"
+#~ msgstr "Affilorama"
+
+#~ msgid "Hot Scripts"
+#~ msgstr "Hot Scripts"
+
+#~ msgid "Baseball Boss"
+#~ msgstr "Baseball Boss"
+
+#~ msgid "There's More"
+#~ msgstr "Mais aussi"
+
+#~ msgid ""
+#~ "Internationalization and Localization with static translations in gettext "
+#~ "style or dynamic translations of model data."
+#~ msgstr ""
+#~ "Internationalisation et Localisation avec des traductions statiques dans "
+#~ "le style gettext ou des traductions dynamiques de données de modèle."
+
+#~ msgid ""
+#~ "Full Console environment with support for multiple tasks. Included "
+#~ "shells: bake, schema, acl, i18 extractor, api"
+#~ msgstr ""
+#~ "Environnement Console complet avec le support des tâches multiples. "
+#~ "Shells inclus : bake, schema, acl, extracteur i18n, api"
+
+#~ msgid "CSRF protection via Security Component"
+#~ msgstr "Protection CSRF grâce au composant Security"
+
+#~ msgid "HTTP Authentication via Security Component"
+#~ msgstr "Authentification HTTP grâce au composant Security"
+
+#~ msgid ""
+#~ "Flexible Caching: use memcache, apc, xcache, the file system, or a model "
+#~ "to speed up your application"
+#~ msgstr ""
+#~ "Gestion du cache flexible : utilisez memcache, apc, xcache, le système de "
+#~ "fichiers ou un modèle pour accélérer votre application"
+
+#~ msgid ""
+#~ "Configure class to provide dynamic handling of configuration settings and "
+#~ "App class to handle importing required classes"
+#~ msgstr ""
+#~ "Classe Configuration pour permettre une gestion dynamique des paramètres "
+#~ "de configuration et une classe App pour gérer l'import des classes "
+#~ "requises"
+
+#~ msgid "Basic Features"
+#~ msgstr "Fonctionnalités"
+
+#~ msgid "Model, View, Controller Architecture"
+#~ msgstr "Architecture Modèle, Vue, Contrôleur"
+
+#~ msgid "Application Scaffolding"
+#~ msgstr "Prototypage d'application"
+
+#~ msgid "Code generation via Bake"
+#~ msgstr "Génération de code avec Bake"
+
+#~ msgid ""
+#~ "Helpers for HTML, Forms, Pagination, AJAX, Javascript, XML, RSS and more"
+#~ msgstr ""
+#~ "Assistants pour : HTML, Formulaires, Pagination, AJAX, Javascript, XML, "
+#~ "RSS etc."
+
+#~ msgid "Access Control Lists and Authentication"
+#~ msgstr "ACL (Listes de Contrôle d'Accès) et Authentification"
+
+#~ msgid "Simple yet extensive validation of model data"
+#~ msgstr "Simple mais extensible validation des données du modèle"
+
+#~ msgid "Router for mapping urls and handling extensions"
+#~ msgstr "Routeur pour mapper les urls et gérer les extensions"
+
+#~ msgid "Security, Session, and RequestHandler Components"
+#~ msgstr ""
+#~ "Composants pour la Sécurité, les Sessions et la gestion des Requêtes"
+
+#~ msgid "Utility classes for working with Files, Folders, Arrays and more"
+#~ msgstr ""
+#~ "Classes utilitaires pour travailler avec des Fichiers, Dossiers, Tableaux "
+#~ "etc."
+
+#~ msgid "Extra Hot"
+#~ msgstr "Brûlant"
+
+#~ msgid "Release:"
+#~ msgstr "Release :"
+
+#~ msgid "Get it now!"
+#~ msgstr "Téléchargez-le !"
+
+#~ msgid ""
+#~ "CakePHP is a rapid development framework for PHP that provides an "
+#~ "extensible architecture for developing, maintaining, and deploying "
+#~ "applications."
+#~ msgstr ""
+#~ "CakePHP est un framework de développement rapide pour PHP qui fournit une "
+#~ "architecture extensible pour développer, maintenir et déployer des "
+#~ "applications."
+
+#~ msgid ""
+#~ "Using commonly known design patterns like %s and %s within the convention "
+#~ "over configuration paradigm, CakePHP reduces development costs and helps "
+#~ "developers write less code."
+#~ msgstr ""
+#~ "Utilisant des motifs de conception bien connus tels %s et %s ainsi que le "
+#~ "paradigme \"conventions plutôt que configurations\", CakePHP réduit les "
+#~ "coûts de développement et aide les développeurs à écrire moins de code."
+
+#~ msgid "MVC"
+#~ msgstr "MVC"
+
+#~ msgid "ORM"
+#~ msgstr "ORM"
+
+#~ msgid "download"
+#~ msgstr "téléchargement"
+
+#~ msgid "discover more hot features"
+#~ msgstr "découvrez les fonctionnalités intéressantes"
+
+#~ msgid "read about all the features"
+#~ msgstr "en savoir plus sur les fonctionnalités"
+
+#~ msgid "Hot Features"
+#~ msgstr "Fonctionnalités"
+
+#~ msgid "Set-up the database and let the magic begin"
+#~ msgstr "Configurez la base de données et laissez la magie agir"
+
+#~ msgid "Extremely Simple"
+#~ msgstr "Extrêmement simple"
+
+#~ msgid "Just look at the name...It's Cake"
+#~ msgstr "Regardez le nom... c'est du Gâteau"
+
+#~ msgid "Active, Friendly Community"
+#~ msgstr "Communauté active et sympathique"
+
+#~ msgid "Join us #cakephp on IRC. We'd love to help you get started"
+#~ msgstr ""
+#~ "Rejoignez-nous sur IRC #cakephp-fr. C'est avec plaisir que nous vous "
+#~ "aiderons à démarrer."
+
+#~ msgid "Distributed under the MIT License"
+#~ msgstr "Distribué sous la licence MIT"
+
+#~ msgid "Clean IP"
+#~ msgstr "Propriété Intellectuelle claire"
+
+#~ msgid "Every line of code was written by the CakePHP development team"
+#~ msgstr ""
+#~ "Chaque ligne de code a été écrite par l'équipe de développement de CakePHP"
+
+#~ msgid "Best Practices"
+#~ msgstr "Bonnes pratiques"
+
+#~ msgid ""
+#~ "covering security, authentication, and session handling, among the many "
+#~ "other features"
+#~ msgstr ""
+#~ "couvrant la sécurité, l'authentification et la gestion des sessions, "
+#~ "parmi de nombreuses autres fonctionnalités."
+
+#~ msgid "Object Oriented"
+#~ msgstr "Orienté Objet"
+
+#~ msgid ""
+#~ "Whether you are a seasoned object-oriented programmer or a beginner, "
+#~ "you'll feel comfortable"
+#~ msgstr "Programmeur orienté-objet aguerri ou débutant, vous adorerez !"
+
+#~ msgid "The CakePHP community is vast and interacts in numerous ways."
+#~ msgstr ""
+#~ "La communauté CakePHP est vaste et interagit de nombreuses manières."
+
+#~ msgid "The %s is a great forum for posting questions and comments."
+#~ msgstr "Le %s est un bon endroit pour poster vos questions et commentaires."
+
+#~ msgid ""
+#~ "There are also many in the irc channel, %s, including the core developers "
+#~ "and long time community members."
+#~ msgstr ""
+#~ "Il y a également le channel IRC, <a href=\"irc://irc.freenode.net/cakephp-"
+#~ "fr\">#cakephp-fr sur irc.freenode.net</a>, avec notamment les membres "
+#~ "actifs de la communauté française."
+
+#~ msgid "official docs"
+#~ msgstr "docs officielles"
+
+#~ msgid "1.2 Blog Tutorial"
+#~ msgstr "Tutoriel du blog 1.2"
+
+#~ msgid "IBM: Cook Up Websites Fast (5 part series)"
+#~ msgstr "IBM: Cook Up Websites Fast (5 part series)"
+
+#~ msgid "IBM: Build A Production Wiki (5 part series)"
+#~ msgstr "IBM: Build A Production Wiki (5 part series)"
+
+#~ msgid "CakePHP Book Store"
+#~ msgstr "Livres CakePHP"
+
+#~ msgid "for more goodies"
+#~ msgstr "pour plus de choses"
+
+#~ msgid "check out the Bakery"
+#~ msgstr "visitez la Bakery"
+
+#~ msgid ""
+#~ "CakePHP enables PHP users at all levels to rapidly develop robust web "
+#~ "applications."
+#~ msgstr ""
+#~ "CakePHP permet aux utilisateurs PHP de tous niveaux, de développer "
+#~ "rapidement des applications web."
+
+#~ msgid "CakePHP: the rapid development php framework"
+#~ msgstr "CakePHP : le framework de développement rapide php"
+
+#~ msgid "design by"
+#~ msgstr "design par"
+
+#~ msgid ""
+#~ "Got a fancy new iPad but stuck with that %s Apple background? Spruce up "
+#~ "your iPad with one of these CakePHP backgrounds specifically designed for "
+#~ "the iPad."
+#~ msgstr ""
+#~ "Vous avez un super iPad tout neuf mais utilisez le fond d'écran %s "
+#~ "d'Apple ? Donnez un coup de jeune à votre iPad avec l'un de ces fond "
+#~ "d'écrans CakePHP concus spécialement pour l'iPad."
+
+#~ msgid "boring"
+#~ msgstr "ennuyeux"
+
+#~ msgid "Add Screencast"
+#~ msgstr "Ajouter une démonstration"
+
+#~ msgid "List Screencasts"
+#~ msgstr "Lister les démonstrations"
+
+#~ msgid "Edit Screencast"
+#~ msgstr "Modifier la démonstration"
+
+#~ msgid "Delete"
+#~ msgstr "Supprimer"
+
+#~ msgid "Are you sure you want to delete # %s?"
+#~ msgstr "Etes-vous sûr de vouloir supprimer # %s ?"
+
+#~ msgid "Actions"
+#~ msgstr "Actions"
+
+#~ msgid "View"
+#~ msgstr "Voir"
+
+#~ msgid "Edit"
+#~ msgstr "Modifier"
+
+#~ msgid "Screencast"
+#~ msgstr "Démonstration"
+
+#~ msgid "Id"
+#~ msgstr "Id"
+
+#~ msgid "Title"
+#~ msgstr "Titre"
+
+#~ msgid "Producer"
+#~ msgstr "Producteur"
+
+#~ msgid "Movie"
+#~ msgstr "Film"
+
+#~ msgid "Image"
+#~ msgstr "Image"
+
+#~ msgid "Description"
+#~ msgstr "Description"
+
+#~ msgid "Created"
+#~ msgstr "Créé"
+
+#~ msgid "Modified"
+#~ msgstr "Modifié"
+
+#~ msgid "Delete Screencast"
+#~ msgstr "Supprimer la démonstration"
+
+#~ msgid "New Screencast"
+#~ msgstr "Nouvelle démonstration"
+
+#~ msgid "What people say"
+#~ msgstr "Ils en parlent"
+
+#~ msgid "Cake saved my Life"
+#~ msgstr "Cake m'a sauvé la vie"
+
+#~ msgid "Who needs documentation when it tells me how to do everything?"
+#~ msgstr ""
+#~ "Qui a besoin de documentation quand on me dit comment faire tout celà ?"
+
+#~ msgid "Just baked"
+#~ msgstr "Tout juste cuisinés"
+
+#~ msgid "Mozilla Addons"
+#~ msgstr "Mozilla Addons"
+
+#~ msgid "Scratch by MIT"
+#~ msgstr "Scratch by MIT"
+
+#~ msgid "Yale Daily News"
+#~ msgstr "Yale Daily News"
+
+#~ msgid "The Onion Store"
+#~ msgstr "The Onion Store"
+
+#~ msgid "NoseRub"
+#~ msgstr "NoseRub"
+
+#~ msgid "foamee"
+#~ msgstr "foamee"
+
+#~ msgid "twimbler"
+#~ msgstr "twimbler"
+
+#~ msgid "MapMe"
+#~ msgstr "MapMe"
+
+#~ msgid "Zeadoo"
+#~ msgstr "Zeadoo"
+
+#~ msgid "Chaw"
+#~ msgstr "Chaw"
+
+#~ msgid "cghub"
+#~ msgstr "cghub"
+
+#~ msgid "Latest tips"
+#~ msgstr "Dernières astuces"
+
+#~ msgid "submit a feed"
+#~ msgstr "soumettre un flux"
+
+#~ msgid "Post a job"
+#~ msgstr "Proposer un emploi"
+
+#~ msgid "Latest jobs on the forum"
+#~ msgstr "Dernières offres d'emploi sur le forum"
+
+#~ msgid "CakePHP : the rapid development php framework"
+#~ msgstr "CakePHP : le framework de développement rapide php"
+
+#~ msgid "Planet"
+#~ msgstr "Planète"
+
+#~ msgid "Photos"
+#~ msgstr "Photos"
+
+#~ msgid "http://cakephp.org/"
+#~ msgstr "http://www.cakephp-fr.org"
+
+#~ msgid "API"
+#~ msgstr "API"
+
+#~ msgid "http://book.cakephp.org/"
+#~ msgstr "http://book.cakephp.org/fr"
+
+#~ msgid "Docs"
+#~ msgstr "Docs"
+
+#~ msgid "http://forum.cakephp-fr.org/"
+#~ msgstr "http://forum.cakephp-fr.org/"
+
+#~ msgid "Forums"
+#~ msgstr "Forums"
+
+#~ msgid "Trac"
+#~ msgstr "Trac"
+
+#~ msgid "design by armando sosa"
+#~ msgstr "design par armando sosa"
+
+#~ msgid "show grid"
+#~ msgstr "afficher la grille"
+
+#~ msgid ""
+#~ "The latitude and longitude were not valid, or the address could not be "
+#~ "found."
+#~ msgstr ""
+#~ "La latitude et la longitude n'étaient pas valides ou bien l'adresse ne "
+#~ "peut être trouvée."
+
+#~ msgid "invalid latitude"
+#~ msgstr "latitude invalide"
+
+#~ msgid "invalid longitude"
+#~ msgstr "longitude invalide"
+
+#~ msgid "Add"
+#~ msgstr "Ajouter"
+
+#~ msgid "http://cakephp.org/files/Resources/CakePHP-1.2-Cheatsheet.pdf"
+#~ msgstr "http://cakephp.org/files/Resources/CakePHP-1.2-Cheatsheet.pdf"
+
+#~ msgid "http://book.cakephp.org/view/326/the-cake-blog-tutorial"
+#~ msgstr "http://book.cakephp.org/fr/view/326/Le-tutoriel-du-blog-CakePHP"
+
+#~ msgid "1.1 Blog Tutorial"
+#~ msgstr "Tutoriel du blog 1.1"
+
+#~ msgid "http://book.cakephp.org/view/219/the-cakephp-blog-tutorial"
+#~ msgstr "http://book.cakephp.org/fr/view/219/Le-tutoriel-du-blog-CakePHP"
+
+#~ msgid "http://www.formation-cakephp.fr"
+#~ msgstr "http://www.formation-cakephp.fr"
+
+#~ msgid "Blog Formation CakePHP"
+#~ msgstr "Blog Formation CakePHP"
+
+#~ msgid "http://astore.amazon.com/cakesoftwaref-20"
+#~ msgstr "http://astore.amazon.com/cakesoftwaref-20"
+
+#~ msgid ""
+#~ "for more goodies, <a href=\"http://bakery.cakephp.org\">check out the "
+#~ "Bakery</a>"
+#~ msgstr ""
+#~ "pour plus de choix, <a href=\"http://bakery.cakephp.org\">rendez-vous sur "
+#~ "la Bakery</a> (en)"
+
+#~ msgid "OO"
+#~ msgstr "OO"
+
+#~ msgid "Formation CakePHP (Kalt)"
+#~ msgstr "Formation CakePHP (Kalt)"
+
+#~ msgid "djenvert"
+#~ msgstr "djenvert"
+
+#~ msgid "Pierre MARTIN (real34)"
+#~ msgstr "Pierre MARTIN (real34)"
+
+#~ msgid "in english ..."
+#~ msgstr "en anglais..."
+
+#~ msgid "Mark Story"
+#~ msgstr "Mark Story"
+
+#~ msgid "Ad7six"
+#~ msgstr "Ad7six"
+
+#~ msgid "Teknoid"
+#~ msgstr "Teknoid"
+
+#~ msgid "Mariano"
+#~ msgstr "Mariano"
+
+#~ msgid "CakeDC Team"
+#~ msgstr "CakeDC Team"
+
+#~ msgid "Felix and Tim...(and nate?)"
+#~ msgstr "Felix and Tim...(and nate?)"
+
+#~ msgid "GrumpyCanuck"
+#~ msgstr "GrumpyCanuck"
+
+#~ msgid "Snook.ca"
+#~ msgstr "Snook.ca"
+
+#~ msgid ""
+#~ "Join us wit a real IRC client, <a href=\"irc://irc.freenode.net/cakephp"
+#~ "\">#cakephp on irc.freenode.net</a>."
+#~ msgstr ""
+#~ "Rejoignez-nous avec un vrai client IRC, <a href=\"irc://irc.freenode.net/"
+#~ "cakephp-fr\">#cakephp-fr sur irc.freenode.net</a>."
+
+#~ msgid "WARNING : Do not reload the page or you will be disconnected"
+#~ msgstr "ATTENTION : Ne rechargez pas la page sinon vous serez déconnecté"
+
+#~ msgid "download the latest quicktime"
+#~ msgstr "téléchargez le dernier quicktime"
+
+#~ msgid "produced by:"
+#~ msgstr "produit par :"
+
+#~ msgid "size:"
+#~ msgstr "taille :"
+
+#~ msgid "You must enable Javascript to view this content."
+#~ msgstr "Vous devez activer Javascript pour voir ce contenu."
+
+#~ msgid "more screencasts"
+#~ msgstr "plus de démonstrations"
+
+#~ msgid "http://cakephp.org/screencasts"
+#~ msgstr "http://www.cakephp-fr.org/screencasts"
+
+#~ msgid "15 min Blog Tutorial"
+#~ msgstr "Tutorial du blog en 15 min"

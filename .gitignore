@@ -1,5 +1,7 @@
+/vendor/*
+/tmp/*
+/logs/*
+.env
 .DS_Store
-tmp
-/config/database.php
-/config/core.php
 fabfile.pyc
+/deploy/*

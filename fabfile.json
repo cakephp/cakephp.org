@@ -1,29 +1,29 @@
 {
-	"__base__": {
-		"name": "CakePHP Website",
-		"default": false,
-		"repository_uri": "git@github.com:cakephp/cakephp.org.git",
-		"current_dir": "current",
-		"config_dir": "config",
-		"configs": [
-			"Config/database.php",
-			"Config/bootstrap.php",
-			"Config/core.php"
-		],
-		"delete": [
-			"Config/bootstrap.php"
-		],
-		"fullwritable": [
-			"tmp"
-		]
-	},
-	"production": {
-		"branch": "master",
-		"site_dir": "/home/cakephp/www-live/cakephp.org/",
-		"default": true
-	},
-	"stage": {
-		"branch": "develop",
-		"site_dir": "/home/cakephp/www-staging/cakephp.org/"
-	}
+    "__base__": {
+        "name": "CakePHP Website",
+        "default": false,
+        "repository_uri": "git@github.com:cakephp/cakephp.org.git",
+        "current_dir": "current",
+        "config_dir": "config",
+        "configs": [
+        ],
+        "delete": [
+        ],
+        "fullwritable": [
+            "tmp"
+        ]
+    },
+    "production": {
+        "branch": "master",
+        "site_dir": "/home/cakephp/www-live/cakephp.org/",
+        "default": true
+    },
+    "stage": {
+        "branch": "develop",
+        "site_dir": "/home/cakephp/www-staging/cakephp.org/"
+    },
+    "3.0": {
+        "branch": "3.0",
+        "site_dir": "/home/cakephp/www-30/cakephp.org/"
+    }
 }

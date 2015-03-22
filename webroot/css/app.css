@@ -1,277 +1,277 @@
 /* app.css for cakephp.org */
 /* See cake.css for more general styling info */
 html {
-	height: 100%;
+    height: 100%;
 }
 
 /**
  * Elements
  */
 body {
-	height: 100%;
-	overflow-y: scroll;
+    height: 100%;
+    overflow-y: scroll;
 }
 body, p {
-	font-size: 1.4rem;
-	font-size: 14px;
+    font-size: 1.4rem;
+    font-size: 14px;
 }
 
 .mini {
-	font-size: 12px;
+    font-size: 12px;
 }
 .right-align {
-	text-align: right;
+    text-align: right;
 }
 .center-align {
-	text-align: center;
+    text-align: center;
 }
 
 #cakephp-global-navigation li.main {
-	background-image: url('/csfnavbar/css/main-link.png');
+    background-image: url('/csfnavbar/css/main-link.png');
 }
 
 /**
  * Header
  */
 .masthead .row {
-	z-index: 1;
-	position: relative;
+    z-index: 1;
+    position: relative;
 }
 .tagline {
-	float: left;
-	text-shadow: 0px 1px 0px #111;
+    float: left;
+    text-shadow: 0px 1px 0px #111;
 
-	color: #fff;
-	font-size: 28px;
-	text-shadow: 0px 1px 0px #111;
-	margin: 60px 0 0 20px;
-	width: 47.8%;
+    color: #fff;
+    font-size: 28px;
+    text-shadow: 0px 1px 0px #111;
+    margin: 60px 0 0 20px;
+    width: 47.8%;
 }
 
 /* navigation */
 .main-nav {
-	position: absolute;
-	top: 20px;
-	right: 20px;
-	padding: 10px;
-	background: #417282;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background: #417282;
 
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
 }
 .navigation {
-	margin: 0;
+    margin: 0;
 }
 .navigation li {
-	display: inline;
-	margin: 0 0 0 20px;
+    display: inline;
+    margin: 0 0 0 20px;
 }
 .navigation li:first-child {
-	margin: 0;
+    margin: 0;
 }
 .main-nav a {
-	font-size: 16px;
-	font-family: MuseoSlab500;
-	color: #fff;
+    font-size: 16px;
+    font-family: MuseoSlab500;
+    color: #fff;
 }
 
 .logo {
-	float: left;
-	margin-top: 20px;
+    float: left;
+    margin-top: 20px;
 }
 .masthead .logo img {
-	max-width: none;
+    max-width: none;
 }
 
 
 .download {
-	float: left;
-	background: url(../css/images/download-button.png) no-repeat;
-	width: 265px;
-	height: 139px;
-	margin: 70px 0 20px 0;
+    float: left;
+    background: url(../css/images/download-button.png) no-repeat;
+    width: 265px;
+    height: 139px;
+    margin: 70px 0 20px 0;
 }
 .download-current {
-	padding: 90px 80px 0 80px;
-	display: block;
-	color: #fff;
-	font-size: 14px;
-	font-weight: bold;
-	text-align: center;
+    padding: 90px 80px 0 80px;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
 }
 .download-current:hover {
-	color: #fff;
+    color: #fff;
 }
 .download-other {
-	color: #003D4C;
-	margin: 10px 0 0 150px;
-	display: block;
+    color: #003D4C;
+    margin: 10px 0 0 150px;
+    display: block;
 }
 
 /* use smaller download on netbook, and smaller */
 @media only screen and (max-width: 905px) {
-	.download {
-		background: url(../css/images/download-small.png) no-repeat;
-		width: 219px;
-		height: 94px;
-		margin: 25px 0 20px 0;
-		position: absolute;
-		top: 60px;
-		right: 10px;
-	}
-	.download-current {
-		padding: 65px 0 0 0;
-	}
-	.download-other {
-		color: #003D4C;
-		margin: 20px 0 0 0;
-		display: block;
-		text-align: center;
-	}
+    .download {
+        background: url(../css/images/download-small.png) no-repeat;
+        width: 219px;
+        height: 94px;
+        margin: 25px 0 20px 0;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+    }
+    .download-current {
+        padding: 65px 0 0 0;
+    }
+    .download-other {
+        color: #003D4C;
+        margin: 20px 0 0 0;
+        display: block;
+        text-align: center;
+    }
 }
 
 /* tablet/smaller */
 @media only screen and (max-width: 767px) {
-	body, p {
-		font-size: 1.5rem;
-		font-size: 15px;
-	}
-	.tagline {
-		width: 40%;
-		margin: 75px 0 10px 20px;
-		font-size: 2.3rem;
-	}
-	.tagline.no-button {
-		width: 70%;
-	}
-	.masthead .logo {
-		margin-top: 35px;
-		margin-left: 10px;
-	}
-	.logo img {
-		height: 22%;
-	}
+    body, p {
+        font-size: 1.5rem;
+        font-size: 15px;
+    }
+    .tagline {
+        width: 40%;
+        margin: 75px 0 10px 20px;
+        font-size: 2.3rem;
+    }
+    .tagline.no-button {
+        width: 70%;
+    }
+    .masthead .logo {
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+    .logo img {
+        height: 22%;
+    }
 }
 
 @media only screen and (max-width: 675px) {
-	.tagline {
-		width: auto;
-		clear: both;
-		margin: 0 20px 20px 20px;
-		font-size: 2.2rem;
-	}
-	.tagline.no-button {
-		width: auto;
-	}
+    .tagline {
+        width: auto;
+        clear: both;
+        margin: 0 20px 20px 20px;
+        font-size: 2.2rem;
+    }
+    .tagline.no-button {
+        width: auto;
+    }
 }
 
 /* mobile layout */
 @media only screen and (max-width: 560px) {
-	.masthead .logo {
-		margin-top: 70px;
-		margin-bottom: 0;
-		text-align: center;
-	}
-	.main-nav {
-		left: 10px;
-		top: 10px;
-		right: 10px;
-	}
-	.main-nav ul {
-		text-align: center;
-	}
-	.logo img {
-		height: 120px;
-	}
+    .masthead .logo {
+        margin-top: 70px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .main-nav {
+        left: 10px;
+        top: 10px;
+        right: 10px;
+    }
+    .main-nav ul {
+        text-align: center;
+    }
+    .logo img {
+        height: 120px;
+    }
 }
 
 @media only screen and (max-width: 340px) {
-	.masthead .logo {
-		margin-top: 55px;
-	}
-	.main-nav {
-		top: 5px;
-		left: 5px;
-		right: 5px;
-	}
-	.main-nav ul {
-		text-align: left;
-	}
-	.main-nav li {
-		margin: 0 0 0 5px;)
-	}
-	.main-nav a {
-		font-size: 14px;
-	}
-	.tagline {
-		font-size: 1.8rem;
-	}
-	.download {
-		background: url(../css/images/download-mobile.png) no-repeat;
-		margin-top: 40px;
-		width: 160px;
-		height: 78px;
-		right: 0;
-	}
-	.download-current {
-		padding-top: 35px;
-	}
+    .masthead .logo {
+        margin-top: 55px;
+    }
+    .main-nav {
+        top: 5px;
+        left: 5px;
+        right: 5px;
+    }
+    .main-nav ul {
+        text-align: left;
+    }
+    .main-nav li {
+        margin: 0 0 0 5px;)
+    }
+    .main-nav a {
+        font-size: 14px;
+    }
+    .tagline {
+        font-size: 1.8rem;
+    }
+    .download {
+        background: url(../css/images/download-mobile.png) no-repeat;
+        margin-top: 40px;
+        width: 160px;
+        height: 78px;
+        right: 0;
+    }
+    .download-current {
+        padding-top: 35px;
+    }
 }
 
 /**
  * Containers
  */
 .section {
-	margin-bottom: 1.5em;
-	position: relative;
+    margin-bottom: 1.5em;
+    position: relative;
 }
 .section:after {
-	content: '';
-	height: 0;
-	display: block;
-	clear: both;
+    content: '';
+    height: 0;
+    display: block;
+    clear: both;
 }
 #container {
-	min-height: 100%;
-	height: auto;
-	margin-bottom: -127px;
+    min-height: 100%;
+    height: auto;
+    margin-bottom: -127px;
 }
 #content {
-	background: #fff;
-	padding-top: 1.5em;
+    background: #fff;
+    padding-top: 1.5em;
 }
 
 /**
  * Why section
  */
 .why h3 {
-	font-size: 2.0rem;
-	padding: 3px 0 3px 38px;
-	margin-bottom: 6px;
+    font-size: 2.0rem;
+    padding: 3px 0 3px 38px;
+    margin-bottom: 6px;
 }
 .why .icon {
-	background: url(../css/images/why-icon-sheet.png) top left no-repeat;
+    background: url(../css/images/why-icon-sheet.png) top left no-repeat;
 
 }
 .why .icon-configuration {
-	background-position: 0 -80px;
+    background-position: 0 -80px;
 }
 .why .icon-license {
-	background-position: 0 -160px;
+    background-position: 0 -160px;
 }
 .why .icon-batteries {
-	background-position: 0 -240px;
+    background-position: 0 -240px;
 }
 .why .icon-mvc {
-	background-position: 0 -320px;
+    background-position: 0 -320px;
 }
 .why .icon-secure {
-	background-position: 0 -400px;
+    background-position: 0 -400px;
 }
 
 .news-section {
-	min-height: 270px;
+    min-height: 270px;
 }
 
 
@@ -279,263 +279,263 @@ body, p {
  * CakePHP Love/donations
  */
 .cakephp-love {
-	background: #C92434;
-	color: #fff;
+    background: #C92434;
+    color: #fff;
 
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
 
-	padding: 1em;
+    padding: 1em;
 
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
 }
 .cakephp-love h3 {
-	color: #fff;
+    color: #fff;
 }
 .cakephp-love h4 {
-	color: #B2CCCD;
+    color: #B2CCCD;
 }
 .cakephp-love li {
-	margin-bottom: 0.25em;
+    margin-bottom: 0.25em;
 }
 .cakephp-love a {
-	color: #fff;
-	font-weight: bold;
+    color: #fff;
+    font-weight: bold;
 }
 .cakephp-love form {
-	margin: 0;
+    margin: 0;
 }
 .heart {
-	position: absolute;
-	right: -10%;
-	top: 40%;
+    position: absolute;
+    right: -10%;
+    top: 40%;
 }
 
 /* Don't overhang the right border */
 @media only screen and (max-width: 1024px) {
-	.heart {
-		position: absolute;
-		top: auto;
-		right: 2%;
-		bottom: 5%;
-	}
+    .heart {
+        position: absolute;
+        top: auto;
+        right: 2%;
+        bottom: 5%;
+    }
 }
 /* cakephp love vertically stacks on narrow devices. */
 @media only screen and (max-width: 767px) {
-	.cakephp-love {
-		position: static;
+    .cakephp-love {
+        position: static;
 
-		-moz-border-radius: 8px;
-		-webkit-border-radius: 8px;
-		border-radius: 8px;
-	}
-	.heart {
-		position: absolute;
-		right: 8%;
-		bottom: 5%;
-		top: auto;
-	}
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+    }
+    .heart {
+        position: absolute;
+        right: 8%;
+        bottom: 5%;
+        top: auto;
+    }
 }
 
 /**
  * Tabs
  */
 dl.tabs {
-	padding-bottom: 5px;
-	border-bottom: 2px dashed #BD8A5D;
+    padding-bottom: 5px;
+    border-bottom: 2px dashed #BD8A5D;
 }
 dl.tabs dd a {
-	font-family: MuseoSlab500;
-	border: 0;
-	margin: 0 5px 0 0;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	border-radius: 8px;
-	font-size: 16px;
-	background: #fff;
+    font-family: MuseoSlab500;
+    border: 0;
+    margin: 0 5px 0 0;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #fff;
 }
 dl.tabs.mobile dd a.active,
 dl.tabs dd a.active {
-	border: 0;
-	background: #C92434;
-	color: #fff;
+    border: 0;
+    background: #C92434;
+    color: #fff;
 }
 dl.tabs.mobile {
-	border-bottom: 1px dotted #BD8A5D;
+    border-bottom: 1px dotted #BD8A5D;
 }
 dl.tabs.mobile dd a {
-	background: none;
+    background: none;
 }
 
 @media only screen and (max-width: 767px) {
-	dl.tabs.mobile {
-		padding: 0;
-	}
-	dl.tabs.mobile dd a {
-		border: none;
-		border-top: 1px dotted #BD8A5D;
-		border-radius: 0;
-		-webkit-border-radius: 0;
-		-moz-border-radius: 0;
-	}
+    dl.tabs.mobile {
+        padding: 0;
+    }
+    dl.tabs.mobile dd a {
+        border: none;
+        border-top: 1px dotted #BD8A5D;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+    }
 }
 .tabs-content li .column:first-child {
-	margin-left: 0;
+    margin-left: 0;
 }
 
 /**
  * News
  */
 .news article {
-	margin-bottom: 1.5em;
+    margin-bottom: 1.5em;
 }
 .news .published {
-	font-size: 12px;
-	display: block;
-	margin-bottom: 0.5em;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 0.5em;
 }
 .channel li {
-	margin-left: 1em;
+    margin-left: 1em;
 }
 
 @media only screen and (max-width: 767px) {
-	.tab-image {
-		float: left;
-	}
+    .tab-image {
+        float: left;
+    }
 }
 
 /* phone size */
 @media only screen and (max-width: 560px) {
-	.tab-image {
-		width: auto;
-		margin: 0 auto 10px auto;
-		float: none;
-	}
-	.tab-image img {
-		display: inline;
-	}
+    .tab-image {
+        width: auto;
+        margin: 0 auto 10px auto;
+        float: none;
+    }
+    .tab-image img {
+        display: inline;
+    }
 }
 
 /**
  * Featured sites
  */
 .jcarousel-container {
-	padding: 0 40px;
-	position: relative;
+    padding: 0 40px;
+    position: relative;
 }
 .jcarousel-clip {
-	width: 100%;
-	overflow: hidden;
+    width: 100%;
+    overflow: hidden;
 }
 .jcarousel-prev,
 .jcarousel-next {
-	width: 35px;
-	height: 20px;
-	background: url(../css/images/hand-icons.png) no-repeat;
-	background-position: 0 -20px;
-	position: absolute;
-	top: 50%;
-	right: 0;
-	cursor: pointer;
+    width: 35px;
+    height: 20px;
+    background: url(../css/images/hand-icons.png) no-repeat;
+    background-position: 0 -20px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    cursor: pointer;
 }
 .jcarousel-prev {
-	background-position: 0 0;
-	right: auto;
-	left: 0;
+    background-position: 0 0;
+    right: auto;
+    left: 0;
 }
 .jcarousel-prev-disabled,
 .jcarousel-next-disabled {
-	opacity: 0.4;
-	cursor: auto;
+    opacity: 0.4;
+    cursor: auto;
 }
 .photo-carousel {
-	margin: 0;
-	height: 200px;
-	list-style: none outside none;
+    margin: 0;
+    height: 200px;
+    list-style: none outside none;
 }
 .photo-carousel li {
-	float: left;
-	margin: 0;
-	margin: 0;
-	position: relative;
-	z-index: 0;
-	text-align: center;
-	height: 175px;
+    float: left;
+    margin: 0;
+    margin: 0;
+    position: relative;
+    z-index: 0;
+    text-align: center;
+    height: 175px;
 
-	width: 33%;
+    width: 33%;
 }
 .polaroid {
-	display: block;
-	background: #F2F2F2;
-	padding: 5px 5px 20px 5px;
-	position: relative;
-	margin: 0 5px 0 0;
-	min-height: 135px;
+    display: block;
+    background: #F2F2F2;
+    padding: 5px 5px 20px 5px;
+    position: relative;
+    margin: 0 5px 0 0;
+    min-height: 135px;
 }
 
 .polaroid:before,
 .polaroid:after {
-	content: ' ';
-	width: 80%;
-	height: 10px;
-	position: absolute;
+    content: ' ';
+    width: 80%;
+    height: 10px;
+    position: absolute;
 
-	bottom: 4px;
-	z-index: -1;
+    bottom: 4px;
+    z-index: -1;
 
-	-moz-box-shadow: 0px 0px 10px #222;
-	-webkit-box-shadow: 0px 0px 10px #222;
-	box-shadow: 0px 0px 10px #222;
+    -moz-box-shadow: 0px 0px 10px #222;
+    -webkit-box-shadow: 0px 0px 10px #222;
+    box-shadow: 0px 0px 10px #222;
 }
 .polaroid:before {
-	left: 6px;
+    left: 6px;
 
-	-webkit-transform: rotate(-3deg);
-	-moz-transform: rotate(-3deg);
-	transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    transform: rotate(-3deg);
 }
 .polaroid:after {
-	right: 6px;
+    right: 6px;
 
-	-webkit-transform: rotate(3deg);
-	-moz-transform: rotate(3deg);
-	transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    transform: rotate(3deg);
 }
 
 .polaroid img {
-	border-top: 1px solid #ddd;
-	border-left: 1px solid #ddd;
-	border-right: 1px solid #dedede;
-	border-bottom: 1px solid #dedede;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
 }
 @media only screen and (max-width: 767px) {
-	.photo-carousel {
-		height: 270px;
-	}
-	.polaroid:before {
-		-webkit-transform: rotate(-2deg);
-		-moz-transform: rotate(-2deg);
-		transform: rotate(-2deg);
-	}
-	.polaroid:after {
-		-webkit-transform: rotate(2deg);
-		-moz-transform: rotate(2deg);
-		transform: rotate(2deg);
-	}
+    .photo-carousel {
+        height: 270px;
+    }
+    .polaroid:before {
+        -webkit-transform: rotate(-2deg);
+        -moz-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    .polaroid:after {
+        -webkit-transform: rotate(2deg);
+        -moz-transform: rotate(2deg);
+        transform: rotate(2deg);
+    }
 }
 
 /**
  * Changelogs
  */
 .changelog-set li {
-	display: inline-block;
-	width: 7em;
-	line-height: 2em;
-	word-break: none;
+    display: inline-block;
+    width: 7em;
+    line-height: 2em;
+    word-break: none;
 }
 
 
@@ -545,74 +545,74 @@ dl.tabs.mobile dd a {
 
 /* pushes the footer down */
 .footer-push {
-	clear: both;
-	height: 127px;
+    clear: both;
+    height: 127px;
 }
 
 .mastend {
-	background: #B2CCCD url(../css/images/pale-halftone-bottom.png) repeat-x;
-	clear: both;
-	min-height: 127px;
+    background: #B2CCCD url(../css/images/pale-halftone-bottom.png) repeat-x;
+    clear: both;
+    min-height: 127px;
 }
 .copyright {
-	font-size: 12px;
-	color: #003c4b;
+    font-size: 12px;
+    color: #003c4b;
 }
 .hosting {
-	text-align: right;
-	margin: 20px 0 0 0;
+    text-align: right;
+    margin: 20px 0 0 0;
 }
 .footer-nav a,
 .copyright a {
-	color: #003c4b;
+    color: #003c4b;
 }
 .mastend .overlined {
-	border-top: 1px solid #407180;
-	padding-top: 10px;
-	margin-top: 10px;
-	margin-bottom: 20px;
+    border-top: 1px solid #407180;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 .mastend .overlined img {
-	vertical-align: middle;
+    vertical-align: middle;
 }
 
 .footer-nav {
-	margin: 30px 0 10px;
+    margin: 30px 0 10px;
 }
 .footer-nav li {
-	font-family: MuseoSlab500;
-	font-size: 16px;
-	display: inline;
-	padding: 0 8px 0 0;
+    font-family: MuseoSlab500;
+    font-size: 16px;
+    display: inline;
+    padding: 0 8px 0 0;
 }
 .mastend .download {
-	width: auto;
-	height: auto;
-	background: none;
-	margin: auto;
-	float: none;
-	position: static;
-	top: auto;
-	right: auto;
+    width: auto;
+    height: auto;
+    background: none;
+    margin: auto;
+    float: none;
+    position: static;
+    top: auto;
+    right: auto;
 }
 .mastend .download a {
-	color: #C92434;
+    color: #C92434;
 }
 @media only screen and (max-width: 727px) {
-	.mastend {
-		height: 200px;
-		background-position: bottom left;
-	}
+    .mastend {
+        height: 200px;
+        background-position: bottom left;
+    }
 }
 @media only screen and (max-width: 450px) {
-	.mastend {
-		height: 251px;
-	}
-	.mastend .footer-nav li {
-		display: inline-block;
-		width: 45%;
-	}
-	.mastend .footer-nav li:nth-child(even) {
-		text-align: right;
-	}
+    .mastend {
+        height: 251px;
+    }
+    .mastend .footer-nav li {
+        display: inline-block;
+        width: 45%;
+    }
+    .mastend .footer-nav li:nth-child(even) {
+        text-align: right;
+    }
 }
