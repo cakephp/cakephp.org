@@ -7,7 +7,6 @@ use PicoFeed\Reader\Reader;
 
 class NewsCell extends Cell
 {
-
     public function recent()
     {
         try {
@@ -25,8 +24,7 @@ class NewsCell extends Cell
 
             // Return a Feed object
             $feed = $parser->execute();
-        }
-        catch (PicoFeedException $e) {
+        } catch (PicoFeedException $e) {
             // Do Something...
         }
 
@@ -41,5 +39,4 @@ class NewsCell extends Cell
         }
         $this->set(compact('articles'));
     }
-
 }
