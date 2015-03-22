@@ -219,7 +219,7 @@ class RecipesController extends Controller
 
 
             <div class="relative">
-                <div id="owl">
+                <div id="owl" style="padding-left: 10%; width: 90%">
 
                     <div class="item">
                         <a href="#">
