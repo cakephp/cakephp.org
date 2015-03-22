@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a73e725cc3d89e7f4603427803d24d99",
+    "hash": "1ef64139e4cdf2e050e671e609cc7377",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -1292,20 +1292,20 @@
         },
         {
             "name": "cakephp/debug_kit",
-            "version": "3.0.x-dev",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/debug_kit.git",
-                "reference": "fd474ed54cb7873d690a5aa00dbafe47e25937b6"
+                "reference": "824c1610fe4a79f14f0a22b56de06241dfa49c37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/fd474ed54cb7873d690a5aa00dbafe47e25937b6",
-                "reference": "fd474ed54cb7873d690a5aa00dbafe47e25937b6",
+                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/824c1610fe4a79f14f0a22b56de06241dfa49c37",
+                "reference": "824c1610fe4a79f14f0a22b56de06241dfa49c37",
                 "shasum": ""
             },
             "require": {
-                "cakephp/cakephp": "3.0.*-dev"
+                "cakephp/cakephp": "~3.0"
             },
             "require-dev": {
                 "cakephp/cakephp-codesniffer": "dev-master",
@@ -1348,7 +1348,7 @@
                 "debug",
                 "kit"
             ],
-            "time": "2015-03-13 04:54:40"
+            "time": "2015-03-22 18:05:17"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2575,7 +2575,6 @@
         "bower-asset/modernizr": 20,
         "cakephp/bake": 20,
         "cakephp/cakephp-codesniffer": 20,
-        "cakephp/debug_kit": 20,
         "psy/psysh": 0
     },
     "prefer-stable": true,
