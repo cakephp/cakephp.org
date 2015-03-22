@@ -623,7 +623,7 @@ msgid "Read + Learn"
 msgstr ""
 
 #: View/Pages/home.ctp:79
-msgid "Who uses CakePHP"
+msgid "Companies using CakePHP"
 msgstr ""
 
 #: View/Pages/home.ctp:83
