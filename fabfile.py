@@ -19,9 +19,9 @@ def deploy(environment='3.0'):
     clone(deployconf, timestr)
     delete(deployconf, timestr)
     fullwritable(deployconf, timestr)
-    current_link(deployconf, timestr)
     composer(deployconf, timestr)
     asset_generate(deployconf, timestr)
+    current_link(deployconf, timestr)
 
 def asset_generate(deployconf, timestr):
     run('{0}{1}/bin/cake AssetCompress.asset_compress build'.format(deployconf['site_dir'], timestr))
