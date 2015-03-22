@@ -23,7 +23,7 @@
         </div>
         <?php /*<div class="news-right pull-right col-lg-7 col-md-7 col-xs-7">*/ ?>
         <div class="news-right pull-right col-lg-9 col-md-9 col-xs-9">
-            <h3><?= $article['name'] ?></h3>
+            <h3><?php echo $this->Html->link($article['name'], $article['link']); ?></h3>
             <span>published on <?= $this->Time->nice($article['date']) ?></span>
 
             <?= $article['body'] ?>
