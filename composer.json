@@ -15,7 +15,7 @@
         "php": ">=5.4.16",
         "cakephp/cakephp": "3.0.*-dev",
         "cakephp/csfnavbar": "3.0.x-dev",
-        "cakephp/migrations": "dev-master",
+        "cakephp/migrations": "1.0.0",
         "cakephp/plugin-installer": "*",
         "fguillot/picofeed": "0.1.2",
         "josegonzalez/dotenv": "dev-master",
