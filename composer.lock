@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1ef64139e4cdf2e050e671e609cc7377",
+    "hash": "3b6487768698cc05fe030e2b2a971989",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -1207,20 +1207,20 @@
     "packages-dev": [
         {
             "name": "cakephp/bake",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/bake.git",
-                "reference": "9bebeff869c0c62d68dc3d75b6af63593dfbf0da"
+                "reference": "ad86dbce53c16a8c8af4ee30fdaa4ff41a924778"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/bake/zipball/9bebeff869c0c62d68dc3d75b6af63593dfbf0da",
-                "reference": "9bebeff869c0c62d68dc3d75b6af63593dfbf0da",
+                "url": "https://api.github.com/repos/cakephp/bake/zipball/ad86dbce53c16a8c8af4ee30fdaa4ff41a924778",
+                "reference": "ad86dbce53c16a8c8af4ee30fdaa4ff41a924778",
                 "shasum": ""
             },
             "require": {
-                "cakephp/cakephp": "3.0.x-dev",
+                "cakephp/cakephp": "~3.0",
                 "php": ">=5.4"
             },
             "require-dev": {
@@ -1249,7 +1249,7 @@
                 "bake",
                 "cakephp"
             ],
-            "time": "2015-03-17 14:09:32"
+            "time": "2015-03-22 18:09:12"
         },
         {
             "name": "cakephp/cakephp-codesniffer",
@@ -2573,7 +2573,6 @@
         "markstory/asset_compress": 20,
         "bower-asset/owl-carousel": 20,
         "bower-asset/modernizr": 20,
-        "cakephp/bake": 20,
         "cakephp/cakephp-codesniffer": 20,
         "psy/psysh": 0
     },
