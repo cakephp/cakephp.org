@@ -130,12 +130,12 @@ class RecipesController extends Controller
         <div class="container-fluid <?php // beyond this comment added for quick launch ?> gray narrowbox" style="text-align: left">
 
             <div class="col-lg-6 col-md-6 <?php //border-right ?> <?php // beyond this comment added for quick launch ?> col-lg-offset-3 col-md-offset-3">
-                <?= $this->cell('News::recent') ?>
+                <?= $this->cell('News::recent', [], ['cache' => true]) ?>
             </div>
 
         <?php /*
             <div class="col-lg-6 col-md-6 border-right">
-                <?= $this->cell('News::recent') ?>
+                <?= $this->cell('News::recent', [], ['cache' => true]) ?>
             </div>
             <div class="visible-sm visible-xs clearfix"></div>
             <div class="col-lg-6 col-md-6 books">
