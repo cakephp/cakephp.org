@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "67595506ffb8471f8da9ae6306cdc35f",
+    "hash": "f6648d0dd3cc611143406a2ec5bcad88",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -316,7 +316,7 @@
         },
         {
             "name": "cakephp/cakephp",
-            "version": "3.0.x-dev",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
@@ -2575,7 +2575,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "cakephp/cakephp": 20,
         "cakephp/csfnavbar": 20,
         "josegonzalez/dotenv": 20,
         "bower-asset/owl-carousel": 20,
