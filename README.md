@@ -31,6 +31,15 @@ Once dependencies are in place, run the following console to generate assets:
 
     $ bin/cake AssetCompress.asset_compress build
 
+## Setting up git path
+
+The changelog functionality works using Git. Paths to the git executable and the
+repository can be configured in `Config/changelog.php` if neededthese. You then
+need to create a clone of the `cakephp` repository like this (assuming default
+configuration):
+
+    $ (cd tmp && git clone --bare git@github.com:cakephp/cakephp.git)
+
 ## Deployment
 
 Deployment is controlled via Fabric (a Python tool).

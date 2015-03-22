@@ -2,6 +2,8 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Core\Configure;
+use Cake\Event\Event;
 
 /**
  * Changelogs Controller
@@ -15,11 +17,12 @@ class ChangelogsController extends AppController
     /**
      * Before Filter
      *
+     * @param \Cake\Event\Event $event The event object.
      * @return void
      */
-    public function beforeFilter()
+    public function beforeFilter(Event $event)
     {
-        $this->Changelog->repository(Configure::read('Changelog.Repository'));
+        $this->Changelogs->repository(Configure::read('Changelog.Repository'));
     }
 
     /**
@@ -29,7 +32,7 @@ class ChangelogsController extends AppController
      */
     public function index()
     {
-        $tags = $this->Changelog->tags();
+        $tags = $this->Changelogs->tags();
         $this->set('tags', $tags);
         return $tags;
     }
@@ -42,12 +45,12 @@ class ChangelogsController extends AppController
      */
     public function view($tag = null)
     {
-        if (!$tag || !in_array($tag, $this->Changelog->tags())) {
+        if (!$tag || !in_array($tag, $this->Changelogs->tags())) {
             $this->Session->setFlash(__('Invalid tag for changelogs'));
             $this->setAction('index');
             return;
         }
         $this->set('tag', $tag);
-        $this->set('changes', $this->Changelog->changes($tag));
+        $this->set('changes', $this->Changelogs->changes($tag));
     }
 }

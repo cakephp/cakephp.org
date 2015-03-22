@@ -47,42 +47,42 @@
                                             </div>
                                             <div class="col-lg-3 col-md-3 ">
                                                 <h4>Downloads</h4>
-                                                <a href="#">Releases</a>
+                                                <?= $this->Html->link('Releases', 'https://github.com/cakephp/cakephp/tags') ?>
                                                 <h4>Documentation</h4>
-                                                <a href="#">API</a>
-                                                <a href="#">Book</a>
+                                                <?= $this->Html->link('API', 'http://api.cakephp.org/3.0') ?>
+                                                <?= $this->Html->link('Book', 'http://book.cakephp.org/3.0') ?>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
                                                 <h4>Community</h4>
 
                                                 <div class="col-lg-6 col-md-6 padding-none">
-                                                    <a href="#">Help & Support</a>
-                                                    <a href="#">Issues</a>
-                                                    <a href="#">The Bakery</a>
-                                                    <a href="#">Stack Overflow</a>
-                                                    <a href="#">Facebook Group</a>
-                                                    <a href="#">Google+ Community</a>
-                                                    <a href="#">YouTube Channel</a>
-                                                    <a href="#">Follow us on Twitter</a>
+                                                    <?= $this->Html->link('Help & Support', 'http://webchat.freenode.net/?channels=cakephp&uio=MT1mYWxzZSY5PXRydWUmMTE9MjQ2b8') ?>
+                                                    <?= $this->Html->link('Issues', 'https://github.com/cakephp/cakephp/issues') ?>
+                                                    <?= $this->Html->link('The Bakery', 'http://bakery.cakephp.org/') ?>
+                                                    <?= $this->Html->link('Stack Overflow', 'http://stackoverflow.com/tags/cakephp') ?>
+                                                    <?= $this->Html->link('Facebook Group', 'http://www.facebook.com/groups/cake.community') ?>
+                                                    <?= $this->Html->link('Google+ Community', 'http://goo.gl/mSC0s') ?>
+                                                    <?= $this->Html->link('YouTube Channel', 'http://www.youtube.com/user/CakePHP') ?>
+                                                    <?= $this->Html->link('Follow us on Twitter', 'http://twitter.com/CakePHP') ?>
                                                 </div>
                                                 <div class="col-lg-6 col-md-6 padding-none">
-                                                    <a href="#">Google Group</a>
-                                                    <a href="#">Contributors</a>
-                                                    <a href="#">Plugins & Packages</a>
-                                                    <a href="#">Get Involved</a>
-                                                    <a href="#">Guidlines</a>
-                                                    <a href="#">Cake Fest</a>
-                                                    <a href="#">Logo</a>
+                                                    <?= $this->Html->link('Google Group', 'http://groups.google.com/group/cake-php') ?>
+                                                    <?= $this->Html->link('Contributors', 'http://github.com/cakephp/cakephp/contributors') ?>
+                                                    <?= $this->Html->link('Plugins & Packages', 'http://plugins.cakephp.org/') ?>
+                                                    <?= $this->Html->link('Get Involved', 'http://community.cakephp.org/get-involved') ?>
+                                                    <?= $this->Html->link('Guidelines', 'http://community.cakephp.org/guidelines') ?>
+                                                    <?= $this->Html->link('CakeFest', 'http://cakefest.org/') ?>
+                                                    <?= $this->Html->link('Logos', ['controller' => 'pages', 'action' => 'display', 'logos']) ?>
                                                 </div>
 
                                             </div>
                                             <div class="col-lg-2 col-md-2 ">
                                                 <h4>Services</h4>
-                                                <a href="#">Certification</a>
-                                                <a href="#">Consultation</a>
-                                                <a href="#">Support</a>
-                                                <a href="#">Traning</a>
-                                                <a href="#">Development</a>
+                                                <?= $this->Html->link('Certifications', ['controller' => 'services', 'action' => 'certifications']) ?>
+                                                <?= $this->Html->link('Consultation', ['controller' => 'services', 'action' => 'consultation']) ?>
+                                                <?= $this->Html->link('Support', ['controller' => 'services', 'action' => 'support']) ?>
+                                                <?= $this->Html->link('Training', 'http://training.cakephp.org/') ?>
+                                                <?= $this->Html->link('Development', ['controller' => 'services', 'action' => 'development']) ?>
                                             </div>
                                         </div>
                                     </div>

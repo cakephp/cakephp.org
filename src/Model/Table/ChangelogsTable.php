@@ -1,13 +1,14 @@
 <?php
-namespace App\Model;
+namespace App\Model\Table;
+
+use Cake\Cache\Cache;
+use Cake\Core\Configure;
+use Cake\ORM\Table;
 
 /**
- * Changelog Model
- *
- * @package app
- * @subpackage app.models
+ * Changelogs table
  */
-class Changelog extends AppModel
+class ChangelogsTable extends Table
 {
 
     /**
@@ -86,7 +87,7 @@ class Changelog extends AppModel
         $gitdir = escapeshellcmd($this->_gitDirectory($path, $repo));
         $git = escapeshellcmd($git);
         $tags = explode("\n", trim(`$git --git-dir=$gitdir tag`));
-        usort($tags, ['Changelog', 'sort']);
+        usort($tags, [$this, 'sort']);
         if (empty($tags)) {
             return false;
         }

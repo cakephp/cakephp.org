@@ -200,6 +200,7 @@ if (Configure::read('debug')) {
     Plugin::load('DebugKit', ['bootstrap' => true]);
 }
 
+Configure::load('changelog');
 Configure::load('featured_sites');
 
 /**

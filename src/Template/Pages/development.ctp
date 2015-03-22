@@ -1,3 +1,6 @@
+<?php
+use Cake\Utility\Text;
+?>
 <div class="row">
     <div class="section">
         <div class="columns nine">
@@ -57,7 +60,7 @@
             <p>
                 <?php echo implode("\n", array(
                     __('Discuss a problem you\'re having, or learn from other CakePHP developers around the globe.'),
-                    String::insert(__('Join the :mailing-list.'), array(
+                    Text::insert(__('Join the :mailing-list.'), array(
                         'mailing-list' => '<a href="http://groups.google.com/group/cake-php">' . __('CakePHP mailing list') . '</a>'
                     ))
                 )) ?>
@@ -76,7 +79,7 @@
             <p>
                 <?php echo implode("\n", array(
                     __('Discuss new features or get involved with CakePHP\'s development.'),
-                    String::insert(__('Join the :mailing-list.'), array(
+                    Text::insert(__('Join the :mailing-list.'), array(
                         'mailing-list' => '<a href="http://groups.google.com/group/cakephp-core">' . __('Core mailing list') . '</a>'
                     ))
                 )) ?>
