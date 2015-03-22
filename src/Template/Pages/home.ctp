@@ -222,7 +222,7 @@ class RecipesController extends Controller
                 <div id="owl" style="padding-left: 10%; width: 90%">
 
                     <div class="item">
-                        <a href="#">
+                        <a href="http://www.hotscripts.com/" target="_blank">
                             <div class="code-holder">
                                 <div class="code-holder-shadow"></div>
                                 <div class="code-holder-div" style="background: url('/img/default/carousel-img.jpg'); ">
@@ -232,7 +232,7 @@ class RecipesController extends Controller
                         </a>
                     </div>
                     <div class="item">
-                        <a href="#">
+                        <a href="http://www.flipcomp.com/" target="_blank">
                             <div class="code-holder">
                                 <div class="code-holder-shadow"></div>
                                 <div class="code-holder-div" style="background: url('/img/default/carousel-img-2.jpg'); ">
@@ -242,7 +242,7 @@ class RecipesController extends Controller
                         </a>
                     </div>
                     <div class="item">
-                        <a href="#">
+                        <a href="http://7shifts.com/" target="_blank">
                             <div class="code-holder">
                                 <div class="code-holder-shadow"></div>
                                 <div class="code-holder-div" style="background: url('/img/default/carousel-img-3.jpg'); ">
@@ -253,7 +253,7 @@ class RecipesController extends Controller
                     </div>
 
                     <div class="item">
-                        <a href="#">
+                        <a href="http://www.hotscripts.com/" target="_blank">
                             <div class="code-holder">
                                 <div class="code-holder-shadow"></div>
                                 <div class="code-holder-div" style="background: url('/img/default/carousel-img.jpg'); ">
@@ -263,7 +263,7 @@ class RecipesController extends Controller
                         </a>
                     </div>
                     <div class="item">
-                        <a href="#">
+                        <a href="http://www.flipcomp.com/" target="_blank">
                             <div class="code-holder">
                                 <div class="code-holder-shadow"></div>
                                 <div class="code-holder-div" style="background: url('/img/default/carousel-img-2.jpg'); ">
@@ -273,7 +273,7 @@ class RecipesController extends Controller
                         </a>
                     </div>
                     <div class="item">
-                        <a href="#">
+                        <a href="http://7shifts.com/" target="_blank">
                             <div class="code-holder">
                                 <div class="code-holder-shadow"></div>
                                 <div class="code-holder-div" style="background: url('/img/default/carousel-img-3.jpg'); ">
