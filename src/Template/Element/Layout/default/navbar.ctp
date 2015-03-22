@@ -15,8 +15,7 @@
                                         <div class="col-lg-12 col-md-12 padding-none">
                                             <div class="col-lg-3 col-md-3 ">
                                                 <p>CakePHP makes building web applications simpler, faster and require less code.<br/><br/>
-                                                    The Official CakePHP Group is an open group for community discussions, sharing plugins and framework
-                                                    related trends, as well as updates and announcements from the project.<br/><br/></p>
+                                                    CakePHP is a modern PHP 5.4+ framework with a flexible Datbase access layer and a powerful scaffolding system that makes building both small and complex systems a breeze.<br/><br/></p>
 
                                                 <div class="social-fix">
                                                     <a href="http://www.facebook.com/groups/cake.community" class="pull-left clearnone">
