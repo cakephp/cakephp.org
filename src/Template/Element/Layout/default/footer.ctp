@@ -26,10 +26,11 @@
                     <?= $this->Html->link('Get Involved', 'http://community.cakephp.org/get-involved') ?>
                     <?= $this->Html->link('Guidelines', 'http://community.cakephp.org/guidelines') ?>
                     <?= $this->Html->link('CakeFest', 'http://cakefest.org/') ?>
-                    <?= $this->Html->link('Logos', ['controller' => 'pages', 'action' => 'display', 'logos']) ?>
+                    <?php //= $this->Html->link('Logos', ['controller' => 'pages', 'action' => 'display', 'logos']) ?>
                 </div>
 
             </div>
+            <?php /*
             <div class="col-lg-2 col-md-2">
                 <h4>Services</h4>
                 <?= $this->Html->link('Certifications', ['controller' => 'services', 'action' => 'certifications']) ?>
@@ -38,31 +39,32 @@
                 <?= $this->Html->link('Training', 'http://training.cakephp.org/') ?>
                 <?= $this->Html->link('Development', ['controller' => 'services', 'action' => 'development']) ?>
             </div>
-            <div class="col-lg-3 col-md-3">
+            */ ?>
+            <div class="col-lg-3 col-md-3 <?php // beyond this comment added for quick launch ?> col-lg-offset-2 col-md-offset-2">
                 <p class="pull-left">CakePHP makes building web applications simpler, faster and require less code.<br/><br/>
                     The Official CakePHP Group is an open group for community discussions, sharing plugins and framework
                     related trends, as well as updates and announcements from the project.<br/><br/></p>
 
                 <div class="pull-left">
-                    <a href="#" class="pull-left clearnone">
+                    <a href="http://www.facebook.com/groups/cake.community" class="pull-left clearnone">
                         <div class="social-holder">
                             <div class="social-shadow"></div>
                             <div class="social"><?= $this->Html->image('default/social-1.png') ?></div>
                         </div>
                     </a>
-                    <a href="#"  class="pull-left clearnone">
+                    <a href="http://twitter.com/CakePHP"  class="pull-left clearnone">
                         <div class="social-holder">
                             <div class="social-shadow"></div>
                             <div class="social"><?= $this->Html->image('default/social-2.png') ?></div>
                         </div>
                     </a>
-                    <a href="#" class="pull-left clearnone">
+                    <a href="http://goo.gl/mSC0s" class="pull-left clearnone">
                         <div class="social-holder">
                             <div class="social-shadow"></div>
                             <div class="social"><?= $this->Html->image('default/social-3.png') ?></div>
                         </div>
                     </a>
-                    <a href="#" class="pull-left clearnone">
+                    <a href="http://www.youtube.com/user/CakePHP" class="pull-left clearnone">
                         <div class="social-holder">
                             <div class="social-shadow"></div>
                             <div class="social"><?= $this->Html->image('default/social-4.png') ?></div>
@@ -73,23 +75,31 @@
         </div>
         <div class="container-fluid">
             <div class="col-lg-9 col-md-9 border-top">
+                <?php /*
                 <?= $this->Html->link('News', ['controller' => 'news']) ?>
                 <?= $this->Html->link('Development', ['controller' => 'development']) ?>
                 <?= $this->Html->link('Documenation', ['controller' => 'documentation']) ?>
                 <?= $this->Html->link('Download', ['controller' => 'download']) ?>
                 <div class="copyright">
+                */ ?>
                     © 2005-2015 Cake Software Foundation, Inc.
+                <?php /*
                 </div>
+                */ ?>
             </div>
             <div class="col-lg-3 col-md-3">
                 <br>
-                <?= $this->Html->image('default/rackspace.png', ['class' => 'pull-right lastlogos']) ?>
-                <?= $this->Html->image('default/widget.png', ['class' => 'pull-right lastlogos']) ?>
                 <?= $this->Html->link(
+                    $this->Html->image('default/rackspace.png'),
+                    'http://rackspace.com',
+                    ['class' => 'pull-right lastlogos', 'escape' => false]
+                ) ?>
+                <?= $this->Html->image('default/widget.png', ['class' => 'pull-right lastlogos']) ?>
+                <?php /*= $this->Html->link(
                     'Privacy Policy',
                     ['controller' => 'pages', 'action' => 'display', 'privacy'],
                     ['class' => 'pull-right lastlogos']
-                ) ?>
+                ) */ ?>
             </div>
         </div>
     </footer>

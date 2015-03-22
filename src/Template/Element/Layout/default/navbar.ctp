@@ -1,7 +1,7 @@
     <div class="yamm navbar">
         <div class="container">
             <ul class="nav">
-                <a class="navbar-brand" href="#"><?= $this->Html->image('default/logo.png') ?> CakePHP</a>
+                <a class="navbar-brand" href="/"><?= $this->Html->image('default/logo.png') ?> CakePHP</a>
                 <li class="dropdown pull-right">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         MENU
@@ -19,25 +19,25 @@
                                                     related trends, as well as updates and announcements from the project.<br/><br/></p>
 
                                                 <div class="social-fix">
-                                                    <a href="#" class="pull-left clearnone">
+                                                    <a href="http://www.facebook.com/groups/cake.community" class="pull-left clearnone">
                                                         <div class="social-holder">
                                                             <div class="social-shadow"></div>
                                                             <div class="social"><?= $this->Html->image('default/social-1.png') ?></div>
                                                         </div>
                                                     </a>
-                                                    <a href="#"  class="pull-left clearnone">
+                                                    <a href="http://twitter.com/CakePHP" class="pull-left clearnone">
                                                         <div class="social-holder">
                                                             <div class="social-shadow"></div>
                                                             <div class="social"><?= $this->Html->image('default/social-2.png') ?></div>
                                                         </div>
                                                     </a>
-                                                    <a href="#" class="pull-left clearnone">
+                                                    <a href="http://goo.gl/mSC0s" class="pull-left clearnone">
                                                         <div class="social-holder">
                                                             <div class="social-shadow"></div>
                                                             <div class="social"><?= $this->Html->image('default/social-3.png') ?></div>
                                                         </div>
                                                     </a>
-                                                    <a href="#" class="pull-left clearnone">
+                                                    <a href="http://www.youtube.com/user/CakePHP" class="pull-left clearnone">
                                                         <div class="social-holder">
                                                             <div class="social-shadow"></div>
                                                             <div class="social"><?= $this->Html->image('default/social-4.png') ?></div>
@@ -72,10 +72,11 @@
                                                     <?= $this->Html->link('Get Involved', 'http://community.cakephp.org/get-involved') ?>
                                                     <?= $this->Html->link('Guidelines', 'http://community.cakephp.org/guidelines') ?>
                                                     <?= $this->Html->link('CakeFest', 'http://cakefest.org/') ?>
-                                                    <?= $this->Html->link('Logos', ['controller' => 'pages', 'action' => 'display', 'logos']) ?>
+                                                    <?php //= $this->Html->link('Logos', ['controller' => 'pages', 'action' => 'display', 'logos']) ?>
                                                 </div>
 
                                             </div>
+                                            <?php /*
                                             <div class="col-lg-2 col-md-2 ">
                                                 <h4>Services</h4>
                                                 <?= $this->Html->link('Certifications', ['controller' => 'services', 'action' => 'certifications']) ?>
@@ -84,6 +85,7 @@
                                                 <?= $this->Html->link('Training', 'http://training.cakephp.org/') ?>
                                                 <?= $this->Html->link('Development', ['controller' => 'services', 'action' => 'development']) ?>
                                             </div>
+                                            */ ?>
                                         </div>
                                     </div>
                                 </div>

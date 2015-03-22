@@ -8,13 +8,19 @@ $this->assign('title', 'CakePHP v3.0 - the rapid development php framework.');
             <div class="clearfix"></div>
             <div class="button-holder">
                 <div class="polygon-button-shadow"></div>
-                <?= $this->Html->link('Download v3.0', '#', ['class' => 'polygon-button']) ?>
+                <?= $this->Html->link(
+                    'Download v3.0',
+                    'http://book.cakephp.org/3.0/en/installation.html',
+                    ['class' => 'polygon-button']
+                ) ?>
             </div>
+            <?php /*
             <span class="links-holder">
                 <?= $this->Html->link('News', '#') ?> |
                 <?= $this->Html->link('Development', '#') ?> |
                 <?= $this->Html->link('Documentation', '#') ?>
             </span>
+            */ ?>
         </div>
 
     </div>
@@ -69,6 +75,7 @@ $this->assign('title', 'CakePHP v3.0 - the rapid development php framework.');
                     injection prevention, and XSS prevention, helping you keep your application safe & secure. </p>
             </div>
         </div>
+        <?php /*
         <div class="red narrowbox">
             <h1>Example Recipe</h1>
 
@@ -119,6 +126,14 @@ class RecipesController extends Controller
             </div>
         </div>
         <div class="container-fluid">
+        */ ?>
+        <div class="container-fluid <?php // beyond this comment added for quick launch ?> gray narrowbox" style="text-align: left">
+
+            <div class="col-lg-6 col-md-6 <?php //border-right ?> <?php // beyond this comment added for quick launch ?> col-lg-offset-3 col-md-offset-3">
+                <?= $this->cell('News::recent') ?>
+            </div>
+
+        <?php /*
             <div class="col-lg-6 col-md-6 border-right">
                 <?= $this->cell('News::recent') ?>
             </div>
@@ -168,8 +183,12 @@ class RecipesController extends Controller
 
                 </div>
             </div>
+            */ ?>
         </div>
+
+        <?php /*
         <div class="gray narrowbox">
+
             <h1>It is Simple as CakePHP</h1>
 
             <div id="anything">
@@ -193,6 +212,7 @@ class RecipesController extends Controller
                 <a href="#" class="polygon-button">More Videos</a>
             </div>
         </div>
+        */ ?>
 
         <div class="narrowbox last special">
             <h1>Who uses CakePHP</h1>
