@@ -1,5 +1,6 @@
-from fabric.api import env, run, local, task, settings, sudo
 import json
+import time
+from fabric.api import env, task
 from deploy.common import *
 
 env.hosts = ['cakephp@cakephp.org']
@@ -13,7 +14,7 @@ deployconf = {}
 @task(default=True)
 def deploy(environment='3.0'):
     global deployconf, timestr
-    timestr = run('date +%Y%m%d.%H%M').strip()
+    timestr = str(time.time()).split('.')[0]
     envs = init_environments(environments)
     deployconf = envs[get_environment(environment, envs)]
     clone(deployconf, timestr)
