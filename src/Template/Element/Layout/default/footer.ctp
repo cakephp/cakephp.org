@@ -42,7 +42,7 @@
             */ ?>
             <div class="col-lg-3 col-md-3 <?php // beyond this comment added for quick launch ?> col-lg-offset-2 col-md-offset-2">
                 <p class="pull-left">CakePHP makes building web applications simpler, faster and require less code.<br/><br/>
-                    CakePHP is a modern PHP 5.4+ framework with a flexible Datbase access layer and a powerful scaffolding system that makes building both small and complex systems a breeze.<br/><br/></p>
+                    CakePHP is a modern PHP 5.4+ framework with a flexible Database access layer and a powerful scaffolding system that makes building both small and complex systems a breeze.<br/><br/></p>
 
                 <div class="pull-left">
                     <a href="http://www.facebook.com/groups/cake.community" class="pull-left clearnone">
@@ -93,7 +93,11 @@
                     'http://rackspace.com',
                     ['class' => 'pull-right lastlogos', 'escape' => false]
                 ) ?>
-                <?= $this->Html->image('default/widget.png', ['class' => 'pull-right lastlogos']) ?>
+                <?= $this->Html->link(
+                    $this->Html->image('default/widget.png'),
+                    'https://www.openhub.net/p/cakephp',
+                    ['class' => 'pull-right lastlogos', 'escape' => false]
+                ) ?>
                 <?php /*= $this->Html->link(
                     'Privacy Policy',
                     ['controller' => 'pages', 'action' => 'display', 'privacy'],

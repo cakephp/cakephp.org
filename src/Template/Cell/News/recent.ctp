@@ -23,7 +23,11 @@
         </div>
         <?php /*<div class="news-right pull-right col-lg-7 col-md-7 col-xs-7">*/ ?>
         <div class="news-right pull-right col-lg-9 col-md-9 col-xs-9">
-            <h3><?= $article['name'] ?></h3>
+            <?= $this->Html->link(
+                '<h3>' . $article['name'] . '</h3>',
+                $article['link'],
+                ['escape' => false, 'style' => 'text-transform: initial;']
+            ) ?>
             <span>published on <?= $this->Time->nice($article['date']) ?></span>
 
             <?= $article['body'] ?>
