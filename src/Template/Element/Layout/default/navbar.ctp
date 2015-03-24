@@ -3,9 +3,7 @@
             <ul class="nav">
                 <a class="navbar-brand" href="/"><?= $this->Html->image('default/logo.png') ?> CakePHP</a>
                 <li class="dropdown pull-right">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        MENU
-                    </a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">MENU</a>
                     <ul class="dropdown-menu">
                         <li>
                             <div class="yamm-content">
@@ -14,8 +12,14 @@
                                     <div class="col-lg-10 col-md-10 padding-none">
                                         <div class="col-lg-12 col-md-12 padding-none">
                                             <div class="col-lg-3 col-md-3">
-                                                <p>CakePHP makes building web applications simpler, faster and require less code.<br/><br/>
-                                                    CakePHP is a modern PHP 5.4+ framework with a flexible Database access layer and a powerful scaffolding system that makes building both small and complex systems a breeze.<br/><br/></p>
+                                                <p>
+                                                    CakePHP makes building web applications simpler, faster and require less code.
+                                                    <br/><br/>
+                                                    CakePHP is a modern PHP 5.4+ framework with a flexible Database access layer
+                                                    and a powerful scaffolding system that makes building both small and complex
+                                                    systems a breeze.
+                                                    <br/><br/>
+                                                </p>
                                                 <div class="social-fix">
                                                     <?= $this->element('Layout/default/links/social') ?>
                                                 </div>
@@ -32,11 +36,9 @@
                                                     <?= $this->element('Layout/default/links/community_col2') ?>
                                                 </div>
                                             </div>
-                                            <?php /*
-                                            <div class="col-lg-2 col-md-2">
+                                            <div class="col-lg-2 col-md-2" style="line-height: 2em">
                                                 <?= $this->element('Layout/default/links/services') ?>
                                             </div>
-                                            */ ?>
                                         </div>
                                     </div>
                                 </div>

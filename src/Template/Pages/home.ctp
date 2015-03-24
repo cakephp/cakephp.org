@@ -5,7 +5,7 @@ $this->assign('title', 'CakePHP v3.0 - the rapid development php framework.');
 $sites = Configure::read('Sites.JustBaked');
 ?>
     <div class="hero">
-        <div class="container-fluid text-center">
+        <div class="container-fluid text-center main-head">
             <?= $this->Html->image('default/hero.png') ?>
 
             <div class="clearfix"></div>
@@ -19,8 +19,8 @@ $sites = Configure::read('Sites.JustBaked');
             </div>
             <?= $this->element('Layout/default/links/main') ?>
         </div>
-
     </div>
+
     <div class="main">
         <div class="container-fluid text-center">
             <h1>Benefits</h1>

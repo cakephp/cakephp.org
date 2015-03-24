@@ -1,6 +1,6 @@
 <h4>Services</h4>
-<?= $this->Html->link('Certifications', ['controller' => 'services', 'action' => 'certifications']) ?>
-<?= $this->Html->link('Consultation', ['controller' => 'services', 'action' => 'consultation']) ?>
-<?= $this->Html->link('Support', ['controller' => 'services', 'action' => 'support']) ?>
-<?= $this->Html->link('Training', 'http://training.cakephp.org/') ?>
-<?= $this->Html->link('Development', ['controller' => 'services', 'action' => 'development']) ?>
+<?= $this->Html->link('Certification', ['controller' => 'pages', 'action' => 'display', 'services', '#' => 'certification']) ?>
+<?= $this->Html->link('Consultation', ['controller' => 'pages', 'action' => 'display', 'services', '#' => 'consultation']) ?>
+<?= $this->Html->link('Support', ['controller' => 'pages', 'action' => 'display', 'services', '#' => 'support']) ?>
+<?= $this->Html->link('Training', ['controller' => 'pages', 'action' => 'display', 'services', '#' => 'training']) ?>
+<?= $this->Html->link('Development', 'http://www.cakedc.com/') ?>
