@@ -214,7 +214,6 @@ class RecipesController extends Controller
         <div class="narrowbox last special">
             <h1>Companies using CakePHP</h1>
 
-
             <div class="relative">
                 <div id="owl" style="padding-left: 10%; width: 90%">
                     <?php foreach ($sites as $site): ?>

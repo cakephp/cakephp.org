@@ -25,9 +25,9 @@
         </div>
         <div class="container-fluid">
             <div class="col-lg-9 col-md-9 border-top">
-                <?= $this->Html->link('News', ['controller' => 'pages', 'action' => 'display', 'news']) ?>
-                <?= $this->Html->link('Development', ['controller' => 'development']) ?>
-                <?= $this->Html->link('Documenation', ['controller' => 'documentation']) ?>
+                <?= $this->Html->link('News', ['controller' => 'Pages', 'action' => 'display', 'news']) ?>
+                <?= $this->Html->link('Development', ['controller' => 'Changelogs', 'action' => 'index']) ?>
+                <?= $this->Html->link('Documentation', ['controller' => 'Pages', 'action' => 'display', 'documentation']) ?>
                 <?= $this->Html->link('Download', 'http://book.cakephp.org/3.0/en/installation.html') ?>
                 <div class="copyright">
                     © 2005-2015 Cake Software Foundation, Inc.
@@ -47,7 +47,7 @@
                 ) ?>
                 <?php /*= $this->Html->link(
                     'Privacy Policy',
-                    ['controller' => 'pages', 'action' => 'display', 'privacy'],
+                    ['controller' => 'Pages', 'action' => 'display', 'privacy'],
                     ['class' => 'pull-right lastlogos']
                 ) */ ?>
             </div>
