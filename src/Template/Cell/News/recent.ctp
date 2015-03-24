@@ -1,14 +1,3 @@
-<?php
-// if (isset($feed['rss']['channel']['item'])) {
-//     $items = $feed['rss']['channel']['item'];
-//     for ($i = 0; $i < 3; $i++) {
-//         echo $this->element('news/item', array('article' => $items[$i]));
-//     }
-//     echo $this->Html->link(__('more news'), array('controller' => 'news', 'action' => 'index'));
-// } else {
-//     echo '<p class="error">' . __('Could not fetch news') . '</p>';
-// }
-?>
 <h1>News and Releases</h1>
 
 <?php $i = 1; foreach ($articles as $article): ?>
@@ -44,5 +33,3 @@
         </div>
     </div>
 <?php $i++; $image = '&nbsp'; endforeach; ?>
-
-

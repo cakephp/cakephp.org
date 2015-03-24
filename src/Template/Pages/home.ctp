@@ -1,8 +1,11 @@
 <?php
+use Cake\Core\Configure;
+
 $this->assign('title', 'CakePHP v3.0 - the rapid development php framework.');
+$sites = Configure::read('Sites.JustBaked');
 ?>
     <div class="hero">
-        <div class="container-fluid text-center">
+        <div class="container-fluid text-center main-head">
             <?= $this->Html->image('default/hero.png') ?>
 
             <div class="clearfix"></div>
@@ -14,16 +17,10 @@ $this->assign('title', 'CakePHP v3.0 - the rapid development php framework.');
                     ['class' => 'polygon-button']
                 ) ?>
             </div>
-            <?php /*
-            <span class="links-holder">
-                <?= $this->Html->link('News', '#') ?> |
-                <?= $this->Html->link('Development', '#') ?> |
-                <?= $this->Html->link('Documentation', '#') ?>
-            </span>
-            */ ?>
+            <?= $this->element('Layout/default/links/main') ?>
         </div>
-
     </div>
+
     <div class="main">
         <div class="container-fluid text-center">
             <h1>Benefits</h1>
@@ -220,81 +217,25 @@ class RecipesController extends Controller
 
             <div class="relative">
                 <div id="owl" style="padding-left: 10%; width: 90%">
-
+                    <?php foreach ($sites as $site): ?>
                     <div class="item">
-                        <a href="http://www.hotscripts.com/" target="_blank">
+                        <a href="<?= $site['url'] ?>" target="_blank">
                             <div class="code-holder">
                                 <div class="code-holder-shadow"></div>
-                                <div class="code-holder-div" style="background: url('/img/default/carousel-img.jpg'); ">
+                                <div class="code-holder-div" style="background: url('/img/featured-sites/<?= $site['image'] ?>'); ">
                                 </div>
                             </div>
-                            <h3>Hot Scripts</h3>
+                            <h3><?= $site['name'] ?></h3>
                         </a>
                     </div>
-                    <div class="item">
-                        <a href="http://www.flipcomp.com/" target="_blank">
-                            <div class="code-holder">
-                                <div class="code-holder-shadow"></div>
-                                <div class="code-holder-div" style="background: url('/img/default/carousel-img-2.jpg'); ">
-                                </div>
-                            </div>
-                            <h3>Flipcomp</h3>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="http://7shifts.com/" target="_blank">
-                            <div class="code-holder">
-                                <div class="code-holder-shadow"></div>
-                                <div class="code-holder-div" style="background: url('/img/default/carousel-img-3.jpg'); ">
-                                </div>
-                            </div>
-                            <h3>7shifts</h3>
-                        </a>
-                    </div>
-
-                    <div class="item">
-                        <a href="http://www.hotscripts.com/" target="_blank">
-                            <div class="code-holder">
-                                <div class="code-holder-shadow"></div>
-                                <div class="code-holder-div" style="background: url('/img/default/carousel-img.jpg'); ">
-                                </div>
-                            </div>
-                            <h3>Hot Scripts</h3>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="http://www.flipcomp.com/" target="_blank">
-                            <div class="code-holder">
-                                <div class="code-holder-shadow"></div>
-                                <div class="code-holder-div" style="background: url('/img/default/carousel-img-2.jpg'); ">
-                                </div>
-                            </div>
-                            <h3>Flipcomp</h3>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="http://7shifts.com/" target="_blank">
-                            <div class="code-holder">
-                                <div class="code-holder-shadow"></div>
-                                <div class="code-holder-div" style="background: url('/img/default/carousel-img-3.jpg'); ">
-                                </div>
-                            </div>
-                            <h3>7shifts</h3>
-                        </a>
-                    </div>
-
+                    <?php endforeach; ?>
                 </div>
                 <div class="owl-prev"></div>
                 <div class="owl-next"></div>
             </div>
 
             <div class="clearfix"></div>
-            <div class="container-fluid text-center">
-                <?= $this->Html->image('default/logos.png', ['style' => 'width: 80%; margin-top: 50px;']) ?>
-            </div>
-            <div class="clearfix"></div>
-            <br/>
-            <br/>
-            <br/>
+
+            <?= $this->element('Layout/default/logos') ?>
         </div>
     </div>

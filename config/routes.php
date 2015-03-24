@@ -60,6 +60,7 @@ Router::scope('/', function ($routes) {
      * Custom routes
      */
     $routes->connect('/search', ['controller' => 'pages', 'action' => 'display', 'search']);
+    $routes->connect('/news', ['controller' => 'pages', 'action' => 'display', 'news']);
     $routes->connect('/development', ['controller' => 'pages', 'action' => 'display', 'development']);
     $routes->connect('/documentation', ['controller' => 'pages', 'action' => 'display', 'documentation']);
     $routes->connect('/privacy', ['controller' => 'pages', 'action' => 'display', 'privacy']);

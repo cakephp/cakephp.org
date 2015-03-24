@@ -33,8 +33,7 @@ class ChangelogsController extends AppController
     public function index()
     {
         $tags = $this->Changelogs->tags();
-        $this->set('tags', $tags);
-        return $tags;
+        $this->set(compact('tags'));
     }
 
     /**
@@ -50,7 +49,8 @@ class ChangelogsController extends AppController
             $this->setAction('index');
             return;
         }
-        $this->set('tag', $tag);
-        $this->set('changes', $this->Changelogs->changes($tag));
+        $tags = $this->Changelogs->tags();
+        $changes = $this->Changelogs->changes($tag);
+        $this->set(compact('tag', 'tags', 'changes'));
     }
 }
