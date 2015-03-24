@@ -235,12 +235,7 @@ class RecipesController extends Controller
             </div>
 
             <div class="clearfix"></div>
-            <div class="container-fluid text-center">
-                <?= $this->Html->image('default/logos.png', ['style' => 'width: 80%; margin-top: 50px;']) ?>
-            </div>
-            <div class="clearfix"></div>
-            <br/>
-            <br/>
-            <br/>
+
+            <?= $this->element('Layout/default/logos') ?>
         </div>
     </div>
