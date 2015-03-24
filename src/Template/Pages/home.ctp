@@ -17,13 +17,7 @@ $sites = Configure::read('Sites.JustBaked');
                     ['class' => 'polygon-button']
                 ) ?>
             </div>
-            <?php /*
-            <span class="links-holder">
-                <?= $this->Html->link('News', '#') ?> |
-                <?= $this->Html->link('Development', '#') ?> |
-                <?= $this->Html->link('Documentation', '#') ?>
-            </span>
-            */ ?>
+            <?= $this->element('Layout/default/links/main') ?>
         </div>
 
     </div>

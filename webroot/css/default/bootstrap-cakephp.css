@@ -6355,9 +6355,31 @@ button.close {
   background-repeat: no-repeat;
   padding: 21px 0 40px 0;
 }
+.vertical-bg {
+  background-image: url('../../img/default/vertical-bg.png');
+  background-size: 40% 100%;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-color: transparent;
+}
 .button-holder {
   position: relative;
   margin: 15px 0 50px;
+}
+.hero .polygon-button {
+  background: none repeat scroll 0 0 #c92434;
+  box-shadow: 4px 7px 0 rgba(0, 0, 0, 0.25);
+  clip-path: url("clip.svg#bookclip");
+  color: #fff;
+  display: inline-block;
+  font-family: "ChunkFive Roman";
+  font-size: 18px;
+  height: 91px;
+  line-height: 83px;
+  position: absolute;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  top: -85px;
+  width: 304px;
 }
 .polygon-button-shadow {
   position: absolute;
@@ -6385,15 +6407,75 @@ button.close {
   font-family: 'ChunkFive Roman';
   font-size: 18px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
-  top: 0;
-  position: absolute;
 }
-.hero .polygon-button {
-  top: -85px;
+.logos .polygon-button {
+  width: 65px;
+  height: 91px;
+  -moz-box-shadow: 4px 7px 0 rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 4px 7px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 7px 0 rgba(0, 0, 0, 0.25);
+  background: #c92434;
+  display: inline-block;
+  -webkit-clip-path: polygon(7% 82%, 91% 74%, 99% 10%, 0 0%);
+  clip-path: url(clip.svg#bookclip);
+  line-height: 83px;
+  color: #fff;
+  font-family: 'ChunkFive Roman';
+  font-size: 18px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+.logos .polygon-button.logo1 {
+  background-image: url('../../img/default/logo1.png');
+  background-size: cover;
+  background-position: center center;
+}
+.logos .polygon-button-shadow {
+  position: absolute;
+  margin: auto 0 -7px 5px;
+  bottom: -5px;
+  width: 65px;
+  height: 91px;
+  background: rgba(0, 0, 0, 0.25);
+  display: inline-block;
+  -webkit-clip-path: polygon(7% 82%, 91% 74%, 99% 10%, 0 0%);
+  clip-path: url(clip.svg#bookclip);
+}
+.hero.second {
+  position: relative;
+  z-index: 7900;
+  padding: 20px 0 95px;
+  /*Chrome,Safari*/
+  -webkit-clip-path: url(clip-scnd.svg#svgClip);
+  /* Firefox*/
+  clip-path: url(clip-scnd.svg#svgClip);
+  /* iOS support */
+  -webkit-mask: url(clip-scnd.svg#svgClip);
 }
 .hero .polygon-button,
 .hero .polygon-button-shadow {
   clip-path: url(clip.svg#herobtn);
+}
+.hero iframe {
+  margin-top: 20px;
+  display: inline-block;
+  float: left;
+}
+.hero .fb-follow,
+.hero .fb-like {
+  float: left;
+  margin: 0 10px 0 0;
+}
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.wrap p {
+  font-family: "ChunkFive Roman";
+  color: #fff;
+  font-size: 24px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  /* drop shadow */
+  margin-top: 20px;
 }
 .polygon-button:hover {
   color: #fff;
@@ -6411,8 +6493,26 @@ button.close {
   font-weight: bold;
   margin: 0 5px;
 }
+.dropdown-menu {
+  z-index: 9999;
+}
 .main {
   padding: 40px 0;
+}
+.main.no-padding {
+  padding: 0 0 40px;
+}
+.main.no-padding h3 {
+  color: #417282;
+  font-size: 26px;
+  margin-top: 0;
+}
+.main.no-padding p {
+  font-size: 16px;
+  font-family: "OpenSans", sans-serif;
+}
+.main.no-padding p a {
+  color: #c92434;
 }
 .main h1 {
   font-family: 'ChunkFive Roman';
@@ -6437,10 +6537,6 @@ button.close {
   padding: 80px 0;
   text-align: center;
 }
-.main .narrowbox.special {
-
-  padding: 50px 0;
-}
 .main .narrowbox.last {
   margin-bottom: -74px !important;
 }
@@ -6453,24 +6549,10 @@ button.close {
   height: 544px!important;
   box-shadow: none;
 }
-.main .narrowbox .code-holder #codeSlider .code-holder-shadow {
-  position: absolute;
-  margin: auto 0 -7px 5px;
-  bottom: -525px;
-  max-width: 870px;
-  width: 90%;
-  height: 544px;
-  background: rgba(0, 0, 0, 0.25);
-  display: inline-block;
-  -webkit-clip-path: polygon(7% 82%, 91% 74%, 99% 10%, 0 0%);
-  -moz-clip-path: polygon(7% 82%, 91% 74%, 99% 10%, 0 0%);
-  -o-clip-path: polygon(7% 82%, 91% 74%, 99% 10%, 0 0%);
-  clip-path: url(clip.svg#codeclip);
-}
 .main .narrowbox .code-holder .code-holder-shadow {
   position: absolute;
   margin: auto 0 -7px 5px;
-  bottom: -7px;
+  bottom: -5px;
   max-width: 870px;
   width: 90%;
   height: 544px;
@@ -6481,36 +6563,29 @@ button.close {
   -o-clip-path: polygon(7% 82%, 91% 74%, 99% 10%, 0 0%);
   clip-path: url(clip.svg#codeclip);
 }
-.code-explanation {
-    color: #fff;
-    font-size: 16px;
-    float: left;
-    width: 50%;
-    padding: 40px 30px;
-    text-align: left;
-}
-.code-explanation p {
-    width: 100%;
-}
-.main .narrowbox  .code-holder #codeSlider .code-holder-shadow {
-  position: absolute;
-  margin: auto 0 -7px 5px;
+.main .narrowbox .code-holder #codeSlider .code-holder-shadow {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.25);
   bottom: -37px;
-  max-width: 780px;
-  width: 90%;
-  height: 544px;
-  background: rgba(0, 0, 0, 0.25);
+  clip-path: url("clip.svg#codeclip");
   display: inline-block;
-  -webkit-clip-path: polygon(7% 82%, 91% 74%, 99% 10%, 0 0%);
-  -moz-clip-path: polygon(7% 82%, 91% 74%, 99% 10%, 0 0%);
-  -o-clip-path: polygon(7% 82%, 91% 74%, 99% 10%, 0 0%);
-  clip-path: url(clip.svg#codeclip);
-   z-index: -1;
-   left: -8px;
-
+  height: 544px;
+  left: -8px;
+  margin: auto 0 -7px 5px;
+  max-width: 780px;
+  position: absolute;
+  width: 90%;
+  z-index: -1;
 }
-#codeSlider li {
-    position: relative;
+.main .narrowbox .code-holder #codeSlider .code-holder-div {
+  background: none repeat scroll 0 0 #fff;
+  box-shadow: 4px 7px 0 rgba(0, 0, 0, 0.25);
+  clip-path: url("clip.svg#codeclip");
+  display: inline-block;
+  float: left;
+  height: 544px;
+  max-width: 770px;
+  padding: 40px;
+  width: 90%;
 }
 .main .narrowbox .code-holder .code-holder-div {
   max-width: 870px;
@@ -6526,23 +6601,6 @@ button.close {
   -o-clip-path: polygon(7% 82%, 91% 74%, 99% 10%, 0 0%);
   clip-path: url(clip.svg#codeclip);
   padding: 40px;
-
-}
-.main .narrowbox .code-holder #codeSlider .code-holder-div {
-  max-width: 770px;
-  width: 90%;
-  height: 544px;
-  -moz-box-shadow: 4px 7px 0 rgba(0, 0, 0, 0.25);
-  -webkit-box-shadow: 4px 7px 0 rgba(0, 0, 0, 0.25);
-  box-shadow: 4px 7px 0 rgba(0, 0, 0, 0.25);
-  background: #fff;
-  display: inline-block;
-  -webkit-clip-path: polygon(7% 82%, 91% 74%, 99% 10%, 0 0%);
-  -moz-clip-path: polygon(7% 82%, 91% 74%, 99% 10%, 0 0%);
-  -o-clip-path: polygon(7% 82%, 91% 74%, 99% 10%, 0 0%);
-  clip-path: url(clip.svg#codeclip);
-  padding: 40px;
-  float: left;
 }
 .main .narrowbox .code-holder .code-holder-div pre {
   color: #3a90e7;
@@ -6552,7 +6610,6 @@ button.close {
   background: transparent;
   border: none;
 }
-
 .main .narrowbox.gray {
   background: #f0f3f5;
   margin-bottom: 40px;
@@ -6640,11 +6697,69 @@ button.close {
   overflow: hidden;
   background-size: cover!important;
 }
+.main .narrowbox .code-explanation {
+  color: #fff;
+  float: left;
+  font-size: 16px;
+  padding: 40px 30px;
+  text-align: left;
+  width: 50%;
+}
 .main .narrowbox.red {
   background: url('../../img/default/pattern-red.jpg');
 }
 .main .narrowbox.red h1 {
   color: #fff;
+}
+.main .narrowbox.gray-pattern {
+  background: url('../../img/default/pattern-gray.jpg');
+  padding: 40px 0 44px;
+  margin-bottom: 0;
+}
+.main .narrowbox.gray-pattern h3 {
+  margin-top: 0;
+  text-align: left;
+  color: #417282;
+  font-family: 'ChunkFive Roman';
+  font-size: 26px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.main .narrowbox.gray-pattern ul li {
+  color: #c92434;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.main .narrowbox.gray-pattern ul li a {
+  color: #c92434;
+  font-size: 16px;
+}
+.main .narrowbox.gray-pattern.logos {
+  padding: 140px 0;
+  margin-bottom: 0;
+}
+.main .narrowbox.newred {
+  margin-top: -100px;
+  position: relative;
+  z-index: 1;
+  /*Chrome,Safari*/
+  -webkit-clip-path: url(clip-sndred.svg#svgClip);
+  /* Firefox*/
+  clip-path: url(clip-sndred.svg#svgClip);
+  /* iOS support */
+  -webkit-mask: url(clip-sndred.svg#svgClip);
+}
+.main .narrowbox.newred h1 {
+  margin-top: 10px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  /* drop shadow */
+}
+.main .narrowbox.newred.logos {
+  /*Chrome,Safari*/
+  -webkit-clip-path: url(clip-big.svg#svgClip);
+  /* Firefox*/
+  clip-path: url(clip-big.svg#svgClip);
+  /* iOS support */
+  -webkit-mask: url(clip-big.svg#svgClip);
 }
 .main .news-left img {
   width: 100%;
@@ -6774,6 +6889,93 @@ button.close {
   color: #fff;
   text-transform: uppercase;
   font-size: 14px;
+}
+.main .development {
+  margin-top: -100px;
+  padding: 100px 0;
+}
+.main .development h3 {
+  color: #417282;
+  font-size: 26px;
+  font-family: "ChunkFive Roman";
+  margin-top: 40px;
+}
+.main .development p {
+  font-size: 16px;
+  font-family: "OpenSans", sans-serif;
+  color: #000;
+}
+.main .development p a {
+  color: #c92434;
+}
+.main .development ul {
+  padding-left: 30px;
+  margin-top: 20px;
+}
+.main .development ul li {
+  list-style: decimal;
+  padding-left: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.main .docs {
+  padding: 100px 0;
+}
+.main .docs p {
+  font-size: 16px;
+}
+.main.dev {
+  margin: -133px 0 0;
+  padding: 0;
+}
+.main.dev p {
+  font-size: 16px;
+  font-family: "OpenSans", sans-serif;
+}
+.main.dev p a {
+  color: #c92434;
+}
+.main.dev h3 {
+  font-size: 26px;
+  color: #417282;
+}
+.main .smaller img {
+  margin-bottom: 25px;
+  display: inline-block;
+}
+.menu-right ul {
+  width: 100%;
+}
+.menu-right ul li {
+  border-bottom: 1px solid #ddd;
+  list-style: none!important;
+  width: 55%!important;
+  cursor: pointer;
+  font-size: 16px!important;
+  padding: 10px 0;
+  margin: 0!important;
+}
+.menu-right ul li.show-me {
+  color: #417282;
+  background-image: url(../../img/default/arrow-right.png);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+}
+.menu-right ul li.clicked {
+  color: #c92434;
+  background-image: url(../../img/default/arrow-down.png);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+}
+.menu-right ul li.hide-me {
+  display: none;
+  padding-left: 45px;
+}
+.menu-right ul li a {
+  color: #000;
+  font-size: 16px;
+  font-family: "OpenSans", sans-serif;
 }
 .relative {
   position: relative;
