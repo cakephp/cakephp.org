@@ -39,9 +39,9 @@ $this->assign('title', __('Development'));
 <h3><?= __('Continuous Integration'); ?></h3>
 <p>
     <?= __(
-        'CakePHP is {0} check the status of the {1} on CakePHP\'s Jenkins server.',
+        'CakePHP is {0} check the status of the {1} on Travis CI.',
         '<a href="https://en.wikipedia.org/wiki/Continuous_Integration">' . __('continuously integrated') . '</a>',
-        '<a href="http://ci.cakephp.org">' . __('various builds') . '</a>'
+        '<a href="https://travis-ci.org/cakephp/cakephp">' . __('various builds') . '</a>'
     ) ?>
 </p>
 
