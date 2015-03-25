@@ -5,7 +5,11 @@
                 <?= $this->Html->image('default/cake-logo2.png') ?>
             </div>
             <div class="col-md-9 col-lg-9 col-sm-9 col-xs-12 text-left">
-                <p>CakePHP makes building web applications<br/>simpler, faster and require less code.</p>
+                <p>
+                    <?= __('CakePHP makes building web applications') ?>
+                    <br/>
+                    <?= __('simpler, faster and require less code.') ?>
+                </p>
                 <?= $this->element('Layout/default/links/main') ?>
                 <div class="clearfix"></div>
                 <span>

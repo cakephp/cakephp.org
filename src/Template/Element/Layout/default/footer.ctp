@@ -4,7 +4,7 @@
                 <?= $this->element('Layout/default/links/primary') ?>
             </div>
             <div class="col-lg-4 col-md-4" style="line-height: 2em">
-                <h4>Community</h4>
+                <h4><?= __('Community') ?></h4>
                 <div class="col-lg-6 col-md-6 col-xs-6 no-left-padding">
                     <?= $this->element('Layout/default/links/community_col1') ?>
                 </div>
@@ -16,8 +16,12 @@
                 <?= $this->element('Layout/default/links/services') ?>
             </div>
             <div class="col-lg-3 col-md-3">
-                <p class="pull-left">CakePHP makes building web applications simpler, faster and require less code.<br/><br/>
-                    CakePHP is a modern PHP 5.4+ framework with a flexible Database access layer and a powerful scaffolding system that makes building both small and complex systems a breeze.<br/><br/></p>
+                <p class="pull-left">
+                    <?= __('CakePHP makes building web applications simpler, faster and require less code.') ?>
+                    <br/><br/>
+                    <?= __('CakePHP is a modern PHP 5.4+ framework with a flexible Database access layer and a powerful scaffolding system that makes building both small and complex systems a breeze.') ?>
+                    <br/><br/>
+                </p>
                 <div class="pull-left">
                     <?= $this->element('Layout/default/links/social') ?>
                 </div>

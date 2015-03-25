@@ -1,6 +1,6 @@
 <?php
 $this->extend('/Common/secondary');
-$this->assign('title', 'News');
+$this->assign('title', __('News'));
 ?>
 <div class="main dev">
     <div class="container-fluid docs news">
@@ -11,7 +11,7 @@ $this->assign('title', 'News');
             <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-lg-push-5 col-md-push-4 col-sm-push-4 col-xs-push-3">
                 <div class="button-holder">
                     <div class="polygon-button-shadow"></div>
-                    <a href="http://bakery.cakephp.org/articles/category/news" class="polygon-button">Load More</a>
+                    <a href="http://bakery.cakephp.org/articles/category/news" class="polygon-button"><?= __('Load more') ?></a>
                 </div>
             </div>
         </div>

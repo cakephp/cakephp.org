@@ -23,53 +23,50 @@ $sites = Configure::read('Sites.JustBaked');
 
     <div class="main">
         <div class="container-fluid text-center">
-            <h1>Benefits</h1>
+            <h1><?= __('Benefits') ?></h1>
 
             <div class="col-lg-4 col-md-4">
                 <?= $this->Html->image('default/icon-1.png') ?>
 
-                <h3>Build Quickly</h3>
+                <h3><?= __('Build Quickly') ?></h3>
 
-                <p>Use code generation and scaffolding features to rapidly build prototypes.</p>
+                <p><?= __('Use code generation and scaffolding features to rapidly build prototypes.') ?></p>
             </div>
             <div class="col-lg-4 col-md-4">
                 <?= $this->Html->image('default/icon-2.png') ?>
 
-                <h3>No Configuration</h3>
+                <h3><?= __('No Configuration') ?></h3>
 
-                <p>No complicated XML or YAML files. Just setup your database and you're ready to bake.</p>
+                <p><?= __('No complicated XML or YAML files. Just setup your database and you\'re ready to bake.') ?></p>
             </div>
             <div class="col-lg-4 col-md-4">
                 <?= $this->Html->image('default/icon-3.png') ?>
 
-                <h3>Friendly License</h3>
+                <h3><?= __('Friendly License') ?></h3>
 
-                <p>CakePHP is licensed under the MIT license which makes it perfect for use in commercial applications.</p>
+                <p><?= __('CakePHP is licensed under the MIT license which makes it perfect for use in commercial applications.') ?></p>
             </div>
             <div class="clearfix"></div>
             <div class="col-lg-4 col-md-4">
                 <?= $this->Html->image('default/icon-4.png') ?>
 
-                <h3>Batteries Included</h3>
+                <h3><?= __('Batteries Included') ?></h3>
 
-                <p>The things you need are built-in. Translations, database access, caching, validation, authentication, and
-                    much more are all built into one of the original PHP MVC frameworks. </p>
+                <p><?= __('The things you need are built-in. Translations, database access, caching, validation, authentication, and much more are all built into one of the original PHP MVC frameworks.') ?></p>
             </div>
             <div class="col-lg-4 col-md-4">
                 <?= $this->Html->image('default/icon-5.png') ?>
 
-                <h3>Clean MVC Conventions</h3>
+                <h3><?= __('Clean MVC Conventions') ?></h3>
 
-                <p>Instead of having to plan where things go, CakePHP comes with a set of conventions to guide you in
-                    developing your application. </p>
+                <p><?= __('Instead of having to plan where things go, CakePHP comes with a set of conventions to guide you in developing your application.') ?></p>
             </div>
             <div class="col-lg-4 col-md-4">
                 <?= $this->Html->image('default/icon-6.png') ?>
 
-                <h3>Secure</h3>
+                <h3><?= __('Secure') ?></h3>
 
-                <p>CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL
-                    injection prevention, and XSS prevention, helping you keep your application safe & secure. </p>
+                <p><?= __('CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention, and XSS prevention, helping you keep your application safe & secure.') ?></p>
             </div>
         </div>
         <?php /*
@@ -212,7 +209,7 @@ class RecipesController extends Controller
         */ ?>
 
         <div class="narrowbox last special">
-            <h1>Companies using CakePHP</h1>
+            <h1><?= __('Companies using CakePHP') ?></h1>
 
             <div class="relative">
                 <div id="owl" style="padding-left: 10%; width: 90%">
