@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f6648d0dd3cc611143406a2ec5bcad88",
+    "hash": "8a3d574e5d00de69484cb3020dd92c88",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -589,12 +589,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/josegonzalez/php-dotenv.git",
-                "reference": "0c730f35e50d96b8c08cc6cd23626e80f4f9102c"
+                "reference": "09c80c2a0f2dfe903aefcc8dad7f8e8830926e6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/josegonzalez/php-dotenv/zipball/0c730f35e50d96b8c08cc6cd23626e80f4f9102c",
-                "reference": "0c730f35e50d96b8c08cc6cd23626e80f4f9102c",
+                "url": "https://api.github.com/repos/josegonzalez/php-dotenv/zipball/09c80c2a0f2dfe903aefcc8dad7f8e8830926e6c",
+                "reference": "09c80c2a0f2dfe903aefcc8dad7f8e8830926e6c",
                 "shasum": ""
             },
             "require": {
@@ -628,20 +628,20 @@
                 "dotenv",
                 "php"
             ],
-            "time": "2015-03-02 16:04:03"
+            "time": "2015-03-23 08:33:22"
         },
         {
             "name": "markstory/asset_compress",
-            "version": "1.0.0",
+            "version": "3.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/josegonzalez/asset_compress.git",
-                "reference": "48e9e615254fc0ff64c2eb5efb2d284a782292a3"
+                "url": "https://github.com/markstory/asset_compress.git",
+                "reference": "21d60d6c7397e4c576ae953aea0adcd892592544"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/josegonzalez/asset_compress/zipball/48e9e615254fc0ff64c2eb5efb2d284a782292a3",
-                "reference": "48e9e615254fc0ff64c2eb5efb2d284a782292a3",
+                "url": "https://api.github.com/repos/markstory/asset_compress/zipball/21d60d6c7397e4c576ae953aea0adcd892592544",
+                "reference": "21d60d6c7397e4c576ae953aea0adcd892592544",
                 "shasum": ""
             },
             "require": {
@@ -663,11 +663,7 @@
                     "AssetCompress\\": "src"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "AssetCompress\\Test\\": "tests"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -688,11 +684,7 @@
                 "minifier",
                 "sass"
             ],
-            "support": {
-                "issues": "https://github.com/markstory/asset_compress/issues",
-                "source": "https://github.com/markstory/asset_compress"
-            },
-            "time": "2015-03-22 18:14:42"
+            "time": "2015-03-23 00:53:56"
         },
         {
             "name": "mnsami/composer-custom-directory-installer",
@@ -1533,16 +1525,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v1.2.0",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "edbf162e4cf116102d95eb635608b7d310cc01c6"
+                "reference": "dba7524b3724f25b947cd26a580787c55c8a6f9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/edbf162e4cf116102d95eb635608b7d310cc01c6",
-                "reference": "edbf162e4cf116102d95eb635608b7d310cc01c6",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/dba7524b3724f25b947cd26a580787c55c8a6f9b",
+                "reference": "dba7524b3724f25b947cd26a580787c55c8a6f9b",
                 "shasum": ""
             },
             "require": {
@@ -1574,7 +1566,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2015-03-22 16:17:25"
+            "time": "2015-03-24 19:10:28"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -2577,6 +2569,7 @@
     "stability-flags": {
         "cakephp/csfnavbar": 20,
         "josegonzalez/dotenv": 20,
+        "markstory/asset_compress": 20,
         "bower-asset/owl-carousel": 20,
         "bower-asset/modernizr": 20,
         "cakephp/cakephp-codesniffer": 20,
