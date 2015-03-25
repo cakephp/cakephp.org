@@ -6,7 +6,7 @@ $this->assign('title', __('News'));
     <div class="container-fluid docs news">
         <div class="col-md-2"></div>
         <div class="col-md-8">
-            <?= $this->cell('News::index', [], ['cache' => false]) ?>
+            <?= $this->cell('News::index', [], ['cache' => true]) ?>
             <div class="clearfix"></div>
             <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-lg-push-5 col-md-push-4 col-sm-push-4 col-xs-push-3">
                 <div class="button-holder">
