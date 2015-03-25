@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8a3d574e5d00de69484cb3020dd92c88",
+    "hash": "64f52f170e45f0fffb1ebd0e3d1ec999",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -313,6 +313,34 @@
             },
             "type": "bower-asset-library",
             "time": "2014-05-12 23:20:38"
+        },
+        {
+            "name": "bower-asset/yamm3",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/geedmo/yamm3.git",
+                "reference": "2851befc195866d724222fa6bce26c506ad49438"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/geedmo/yamm3/zipball/2851befc195866d724222fa6bce26c506ad49438",
+                "reference": "2851befc195866d724222fa6bce26c506ad49438",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/bootstrap": ">=3.0.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "yamm/yamm.css"
+            },
+            "description": "Yet another megamenu for Bootstrap 3",
+            "keywords": [
+                "bootstrap",
+                "megadropdown",
+                "megamenu"
+            ]
         },
         {
             "name": "cakephp/cakephp",

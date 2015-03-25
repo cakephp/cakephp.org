@@ -28,7 +28,8 @@
         "bower-asset/owl-carousel": "dev-master",
         "bower-asset/bootstrap": "3.3.4",
         "bower-asset/google-code-prettify": "1.0.4",
-        "bower-asset/modernizr": "dev-master"
+        "bower-asset/modernizr": "dev-master",
+        "bower-asset/yamm3": "1.0.0"
     },
     "require-dev": {
         "cakephp/bake": "1.0.1",
