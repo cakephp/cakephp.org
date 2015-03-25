@@ -74,6 +74,10 @@ body {
   background-repeat: no-repeat;
   padding: 21px 0 40px 0;
 }
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
 .vertical-bg {
   background-image: url('../../img/default/vertical-bg.png');
   background-size: 40% 100%;
@@ -1096,16 +1100,16 @@ footer p {
   .hero .polygon-button {
     width: 40%;
     top: -48px;
+    height: 75px;
+    line-height: 70px;
   }
   .hero .polygon-button-shadow {
     width: 40%;
-    bottom: -45px;
+    bottom: -30px;
+    height: 75px;
   }
 }
 @media (max-width: 600px) {
-  /*    .main .narrowbox .code-holder .code-holder-div,.main .narrowbox .code-holder .code-holder-shadow{
-            height:auto !important;
-        }*/
   .main .narrowbox .anythingSlider {
     height: 400px !important;
   }
@@ -1445,4 +1449,8 @@ footer p {
     height: auto !important;
     overflow: visible !important;
   }
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
