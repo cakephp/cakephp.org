@@ -908,7 +908,7 @@ footer p {
   padding: 0 !important;
 }
 .social-fix {
-  position: absolute;
+  position: static;
   width: 500px;
 }
 .clearfix.hidden,
@@ -1008,6 +1008,9 @@ footer p {
   }
   .main .narrowbox.newred.special ul {
     padding-left: 0;
+  }
+  .main .narrowbox.newred.special ul li {
+    white-space: nowrap;
   }
   .vertical-bg {
     background-image: none;
@@ -1124,7 +1127,7 @@ footer p {
     margin-left: 46px !important;
   }
   .main .narrowbox.newred {
-    margin-top: -90px;
+    margin-top: -125px;
   }
   .main .narrowbox #owl h3 {
     padding: 40px;
@@ -1148,18 +1151,6 @@ footer p {
     position: absolute;
     right: 0;
     top: -70px;
-  }
-  .hero .fb-like {
-    position: absolute;
-    right: 0 !important;
-    top: -100px;
-    float: none;
-  }
-  .hero .fb-follow {
-    position: absolute;
-    right: 100px;
-    top: -100px;
-    float: none;
   }
 }
 @media screen and (-moz-images-in-menus: 0) {
@@ -1185,25 +1176,13 @@ footer p {
   }
   .wrap .logo-container img {
     width: 60px;
-    margin-top: 50px;
+    margin-top: 10px;
     float: none;
   }
   .git {
     position: absolute;
     right: 0;
     top: -110px;
-  }
-  .hero .fb-like {
-    position: absolute;
-    right: 0 !important;
-    top: -140px;
-    float: none;
-  }
-  .hero .fb-follow {
-    position: absolute;
-    right: 100px;
-    top: -140px;
-    float: none;
   }
   .hero .wrap p {
     margin-top: 5px;

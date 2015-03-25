@@ -15,8 +15,8 @@
                 <span>
                     <iframe src="https://ghbtns.com/github-btn.html?user=cakephp&amp;repo=cakephp&amp;type=star&amp;count=true&amp;size=small" frameborder="0" scrolling="0" width="120px" height="30px"></iframe>
                     <iframe src="https://ghbtns.com/github-btn.html?user=cakephp&amp;repo=cakephp&amp;type=fork&amp;count=true&amp;size=small" frameborder="0" scrolling="0" width="120px" height="30px"></iframe>
+                    <div class="hidden-xs fb-like" data-href="https://www.facebook.com/cakephp" data-width="200" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
                 </span>
-                <div class="fb-like" data-href="https://www.facebook.com/cakephp" data-width="200" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
             </div>
         </div>
     </div>
