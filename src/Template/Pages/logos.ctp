@@ -84,13 +84,8 @@ $wallpapers = array(
                             [
                                 'target' => '_blank',
                                 'escape' => false,
-                                'class' => 'polygon-button',
-                                'style' => implode('; ', [
-                                    'padding: 5px 5px 5px 0',
-                                    'background-image: url(/img/ipad-wallpaper/' . $wallpaper . '-thumb.png)',
-                                    'background-size: cover',
-                                    'background-position: center center',
-                                ])
+                                'class' => 'polygon-button wallpaper',
+                                'style' => 'background-image: url(/img/ipad-wallpaper/' . $wallpaper . '-thumb.png);'
                             ]
                         ) ?>
                     </div>
