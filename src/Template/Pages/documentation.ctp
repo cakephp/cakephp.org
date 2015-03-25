@@ -13,25 +13,25 @@ $this->assign('title', __('Documentation'));
 <div class="main">
     <div class="gray narrowbox newred gray-pattern">
         <div class="container-fluid text-center">
-            <div class="col-lg-2 col-md-2 col-lg-push-2 col-md-push-2">
+            <div class="col-xs-4 col-md-2 col-lg-push-2 col-md-push-2">
                 <h3>3.0</h3><br/>
                 <ul>
-                    <li><?= $this->Html->link(__('The API'), 'http://api.cakephp.org/3.0/') ?></li>
-                    <li><?= $this->Html->link(__('The Book'), 'http://book.cakephp.org/3.0/') ?></li>
+                    <li style="white-space: nowrap"><?= $this->Html->link(__('The API'), 'http://api.cakephp.org/3.0/') ?></li>
+                    <li style="white-space: nowrap"><?= $this->Html->link(__('The Book'), 'http://book.cakephp.org/3.0/') ?></li>
                 </ul>
             </div>
-             <div class="col-lg-2 col-md-2 col-lg-push-2 col-md-push-2">
+             <div class="col-xs-4 col-lg-2 col-md-2 col-lg-push-2 col-md-push-2">
                 <h3>2.0</h3><br/>
                 <ul>
-                    <li><?= $this->Html->link(__('The API'), 'http://api.cakephp.org/2.0/') ?></li>
-                    <li><?= $this->Html->link(__('The Book'), 'http://book.cakephp.org/2.0/') ?></li>
+                    <li style="white-space: nowrap"><?= $this->Html->link(__('The API'), 'http://api.cakephp.org/2.0/') ?></li>
+                    <li style="white-space: nowrap"><?= $this->Html->link(__('The Book'), 'http://book.cakephp.org/2.0/') ?></li>
                 </ul>
             </div>
-             <div class="col-lg-2 col-md-2 col-lg-push-2 col-md-push-2">
+             <div class="col-xs-4 col-lg-2 col-md-2 col-lg-push-2 col-md-push-2">
                 <h3>1.3</h3><br/>
                 <ul>
-                    <li><?= $this->Html->link(__('The API'), 'http://api.cakephp.org/1.3/') ?></li>
-                    <li><?= $this->Html->link(__('The Book'), 'http://book.cakephp.org/1.3/') ?></li>
+                    <li style="white-space: nowrap"><?= $this->Html->link(__('The API'), 'http://api.cakephp.org/1.3/') ?></li>
+                    <li style="white-space: nowrap"><?= $this->Html->link(__('The Book'), 'http://book.cakephp.org/1.3/') ?></li>
                 </ul>
             </div>
         </div>
