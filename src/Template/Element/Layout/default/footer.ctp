@@ -49,11 +49,11 @@
                     'https://www.openhub.net/p/cakephp',
                     ['class' => 'pull-right lastlogos', 'escape' => false]
                 ) ?>
-                <?php /*= $this->Html->link(
+                <?= $this->Html->link(
                     'Privacy Policy',
                     ['controller' => 'Pages', 'action' => 'display', 'privacy'],
                     ['class' => 'pull-right lastlogos']
-                ) */ ?>
+                ) ?>
             </div>
         </div>
     </footer>
