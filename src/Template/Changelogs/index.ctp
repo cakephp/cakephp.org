@@ -36,16 +36,16 @@ $this->assign('title', __('Development'));
     <li><?= __('Publish the post on the CakePHP blog/Bakery'); ?></li>
 </ul>
 
-<h2><?= __('Continuous Integration'); ?></h2>
+<h3><?= __('Continuous Integration'); ?></h3>
 <p>
     <?= __(
-        'CakePHP is {0} check the status of the {1} on CakePHP\'s Jenkins server.',
+        'CakePHP is {0} check the status of the {1} on Travis CI.',
         '<a href="https://en.wikipedia.org/wiki/Continuous_Integration">' . __('continuously integrated') . '</a>',
-        '<a href="http://ci.cakephp.org">' . __('various builds') . '</a>'
+        '<a href="https://travis-ci.org/cakephp/cakephp">' . __('various builds') . '</a>'
     ) ?>
 </p>
 
-<h2><?= __('Github Issues'); ?></h2>
+<h3><?= __('Github Issues'); ?></h3>
 <p>
     <?= __(
         'Found a bug? Suggest an improvement? Issue tracking for CakePHP can be found at {0}.',
@@ -53,7 +53,7 @@ $this->assign('title', __('Development'));
     ) ?>
 </p>
 
-<h2><?= __('General Mailing list'); ?></h2>
+<h3><?= __('General Mailing list'); ?></h3>
 <p>
     <?= implode("\n", array(
         __('Discuss a problem you\'re having, or learn from other CakePHP developers around the globe.'),
@@ -70,7 +70,7 @@ $this->assign('title', __('Development'));
     'cache' => array('key' => 'cache_google_group', 'time' => '+20 minutes')
 )) ?>
 
-<h2><?= __('Core Mailing list'); ?></h2>
+<h3><?= __('Core Mailing list'); ?></h3>
 <p>
     <?= implode("\n", array(
         __('Discuss new features or get involved with CakePHP\'s development.'),
@@ -87,7 +87,7 @@ $this->assign('title', __('Development'));
     'cache' => array('key' => 'cache_core_google_group', 'time' => '+20 minutes')
 )) ?>
 
-<h2><?= __('Contributing'); ?></h2>
+<h3><?= __('Contributing'); ?></h3>
 <p>
     <?= implode("\n", array(
         __('Contributing to CakePHP is easy.'),

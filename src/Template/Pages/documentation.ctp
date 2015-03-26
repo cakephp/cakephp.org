@@ -1,37 +1,36 @@
 <?php
 $this->extend('/Common/secondary');
-$this->assign('title', 'Documentation');
+$this->assign('title', __('Documentation'));
 ?>
 <div class="main dev">
-    <div class="container-fluid docs">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-            <p>There are two official sources of documentation for CakePHP, the book and the api. </p>
+    <div class="container-fluid docs special">
+        <div class="col-md-8 col-md-offset-2">
+            <p><?= __('There are two official sources of documentation for CakePHP, the Book and the API.') ?></p>
         </div>
     </div>
 </div>
 <div class="main">
-    <div class="gray narrowbox newred gray-pattern">
+    <div class="gray narrowbox newred gray-pattern special">
         <div class="container-fluid text-center">
-            <div class=" col-lg-2 col-md-2 col-lg-push-2 col-md-push-2">
+            <div class="col-xs-4 col-md-2 col-lg-push-2 col-md-push-2">
                 <h3>3.0</h3><br/>
-                <ul>
-                    <li><?= $this->Html->link('The API', 'http://api.cakephp.org/3.0/') ?></li>
-                    <li><?= $this->Html->link('The Book', 'http://book.cakephp.org/3.0/') ?></li>
+                <ul class="doc-list">
+                    <li><?= $this->Html->link(__('The API'), 'http://api.cakephp.org/3.0/') ?></li>
+                    <li><?= $this->Html->link(__('The Book'), 'http://book.cakephp.org/3.0/') ?></li>
                 </ul>
             </div>
-             <div class=" col-lg-2 col-md-2 col-lg-push-2 col-md-push-2">
+             <div class="col-xs-4 col-lg-2 col-md-2 col-lg-push-2 col-md-push-2">
                 <h3>2.0</h3><br/>
-                <ul>
-                    <li><?= $this->Html->link('The API', 'http://api.cakephp.org/2.0/') ?></li>
-                    <li><?= $this->Html->link('The Book', 'http://book.cakephp.org/2.0/') ?></li>
+                <ul class="doc-list">
+                    <li><?= $this->Html->link(__('The API'), 'http://api.cakephp.org/2.0/') ?></li>
+                    <li><?= $this->Html->link(__('The Book'), 'http://book.cakephp.org/2.0/') ?></li>
                 </ul>
             </div>
-             <div class=" col-lg-2 col-md-2 col-lg-push-2 col-md-push-2">
+             <div class="col-xs-4 col-lg-2 col-md-2 col-lg-push-2 col-md-push-2">
                 <h3>1.3</h3><br/>
-                <ul>
-                    <li><?= $this->Html->link('The API', 'http://api.cakephp.org/1.3/') ?></li>
-                    <li><?= $this->Html->link('The Book', 'http://book.cakephp.org/1.3/') ?></li>
+                <ul class="doc-list">
+                    <li><?= $this->Html->link(__('The API'), 'http://api.cakephp.org/1.3/') ?></li>
+                    <li><?= $this->Html->link(__('The Book'), 'http://book.cakephp.org/1.3/') ?></li>
                 </ul>
             </div>
         </div>
@@ -40,8 +39,15 @@ $this->assign('title', 'Documentation');
 <div class="main no-padding">
     <div class="container-fluid">
         <div class="col-md-8 col-lg-8 col-lg-push-2 col-md-push-2 text-left">
-            <h3>Contributing</h3>
-            <p>The source for the CakePHP book is hosted on <a href="https://github.com/cakephp/cakephp">GitHub</a>. If you'd like to help out improving the documentation, checkout the guide on <a href="https://github.com/cakephp/docs#contributing">contributing to the docs.</a></p>
+            <h3><?= __('Contributing'); ?></h3>
+            <p>
+                <?= __(
+                    'The source for the CakePHP book is hosted on {0}. If you\'d like to help out improving the documentation, checkout the guide on {1}contributing to the docs{2}.',
+                    '<a href="https://github.com/cakephp/cakephp">GitHub</a>',
+                    '<a href="https://github.com/cakephp/docs#contributing">',
+                    '</a>'
+                ); ?>
+            </p>
         </div>
     </div>
 </div>

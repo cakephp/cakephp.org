@@ -3,7 +3,7 @@
             <ul class="nav">
                 <a class="navbar-brand" href="/"><?= $this->Html->image('default/logo.png') ?> CakePHP</a>
                 <li class="dropdown pull-right">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">MENU</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?= __('MENU') ?></a>
                     <ul class="dropdown-menu">
                         <li>
                             <div class="yamm-content">
@@ -13,11 +13,11 @@
                                         <div class="col-lg-12 col-md-12 padding-none">
                                             <div class="col-lg-3 col-md-3">
                                                 <p>
-                                                    CakePHP makes building web applications simpler, faster and require less code.
+                                                    <?= __('CakePHP makes building web applications simpler, faster and require less code.') ?>
                                                     <br/><br/>
-                                                    CakePHP is a modern PHP 5.4+ framework with a flexible Database access layer
+                                                    <?= __('CakePHP is a modern PHP 5.4+ framework with a flexible Database access layer
                                                     and a powerful scaffolding system that makes building both small and complex
-                                                    systems a breeze.
+                                                    systems a breeze.') ?>
                                                     <br/><br/>
                                                 </p>
                                                 <div class="social-fix">
