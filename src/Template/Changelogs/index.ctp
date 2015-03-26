@@ -8,7 +8,7 @@ $this->assign('title', __('Development'));
 <h3><?= __('Github') ?></h3>
 <p>
     <?= __(
-        'CakePHP\'s code repositories are hosted at {0}',
+        'CakePHP\'s code repositories are hosted at {0}.',
         '<a href="http://github.com/cakephp/cakephp">github.com</a>'
     ) ?>
 </p>
@@ -92,7 +92,7 @@ $this->assign('title', __('Development'));
     <?= implode("\n", array(
         __('Contributing to CakePHP is easy.'),
         __(
-            'Checkout the {0} for how you can get started contributing to CakePHP',
+            'Checkout the {0} for how you can get started contributing to CakePHP.',
             '<a href="http://book.cakephp.org/2.0/en/contributing/code.html">' . __('guide on contributing') . '</a>'
         )
     )) ?>
