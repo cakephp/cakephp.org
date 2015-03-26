@@ -9,6 +9,37 @@ class NewsCell extends Cell
 {
     public function recent()
     {
+        $feed = $this->_feed();
+
+        $articles = [];
+        for ($i = 0; $i < 3; $i++) {
+            $articles[] = [
+                'name' => $feed->items[$i]->getTitle(),
+                'date' => $feed->items[$i]->getDate(),
+                'body' => current(explode('. ', $feed->items[$i]->getContent())) . '.</p>',
+                'link' => $feed->items[$i]->getUrl(),
+            ];
+        }
+        $this->set(compact('articles'));
+    }
+
+    public function index()
+    {
+        $feed = $this->_feed();
+
+        $articles = [];
+        foreach ($feed->items as $item) {
+            $articles[] = [
+                'name' => $item->getTitle(),
+                'date' => $item->getDate(),
+                'body' => $item->getContent(),
+                'link' => $item->getUrl(),
+            ];
+        }
+        $this->set(compact('articles'));
+    }
+
+    protected function _feed() {
         try {
             $reader = new Reader;
 
@@ -23,20 +54,9 @@ class NewsCell extends Cell
             );
 
             // Return a Feed object
-            $feed = $parser->execute();
+            return $parser->execute();
         } catch (PicoFeedException $e) {
             // Do Something...
         }
-
-        $articles = [];
-        for ($i = 0; $i < 3; $i++) {
-            $articles[] = [
-                'name' => $feed->items[$i]->getTitle(),
-                'date' => $feed->items[$i]->getDate(),
-                'body' => current(explode('. ', $feed->items[$i]->getContent())) . '.</p>',
-                'link' => $feed->items[$i]->getUrl(),
-            ];
-        }
-        $this->set(compact('articles'));
     }
 }

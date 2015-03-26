@@ -59,13 +59,13 @@ Router::scope('/', function ($routes) {
     /**
      * Custom routes
      */
-    $routes->connect('/search', ['controller' => 'pages', 'action' => 'display', 'search']);
-    $routes->connect('/development', ['controller' => 'pages', 'action' => 'display', 'development']);
-    $routes->connect('/documentation', ['controller' => 'pages', 'action' => 'display', 'documentation']);
-    $routes->connect('/privacy', ['controller' => 'pages', 'action' => 'display', 'privacy']);
-    $routes->connect('/logos', ['controller' => 'pages', 'action' => 'display', 'logos']);
+    $routes->connect('/search', ['controller' => 'Pages', 'action' => 'display', 'search']);
+    $routes->connect('/news', ['controller' => 'Pages', 'action' => 'display', 'news']);
+    $routes->connect('/documentation', ['controller' => 'Pages', 'action' => 'display', 'documentation']);
+    $routes->connect('/privacy', ['controller' => 'Pages', 'action' => 'display', 'privacy']);
+    $routes->connect('/logos', ['controller' => 'Pages', 'action' => 'display', 'logos']);
 
-    $servicesUrl = ['controller' => 'pages', 'action' => 'display', 'services'];
+    $servicesUrl = ['controller' => 'Pages', 'action' => 'display', 'services'];
 
     $routes->connect('/services', $servicesUrl);
     $routes->connect('/services/support', $servicesUrl);
@@ -73,10 +73,8 @@ Router::scope('/', function ($routes) {
     $routes->connect('/services/consultation', $servicesUrl);
     $routes->connect('/services/certification', $servicesUrl);
 
-    $routes->connect('/changelogs', ['controller' => 'changelogs', 'action' => 'index']);
-    $routes->connect('/changelogs/*', ['controller' => 'changelogs', 'action' => 'view']);
-
-    $routes->connect('/asset/*', ['plugin' => 'asset_compress', 'controller' => 'assets', 'action' => 'get']);
+    $routes->connect('/development', ['controller' => 'Changelogs', 'action' => 'index']);
+    $routes->connect('/development/*', ['controller' => 'Changelogs', 'action' => 'view']);
 
     /**
      * Connect catchall routes for all controllers.

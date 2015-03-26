@@ -118,6 +118,109 @@ return [
                 'name' => 'Bamma',
                 'url' => 'http://bamma.com'
             ],
-        ]
+        ],
+        'Logos' => [
+            [
+                'name' => 'BMW',
+                'image' => [
+                    'http://cdn.cakedc.com/v1/img/logos/bmw_i_default.png',
+                    'http://cdn.cakedc.com/v1/img/logos/bmw_i_color.png',
+                ],
+                'url' => 'http://www.bmw.com/',
+            ],
+            [
+                'name' => 'Blendtec',
+                'image' => [
+                    'http://cdn.cakedc.com/v1/img/logos/blendtec_default.png',
+                    'http://cdn.cakedc.com/v1/img/logos/blendtec_color.png',
+                ],
+                'url' => 'http://www.blendtec.com/',
+            ],
+            [
+                'name' => 'BILLABONG',
+                'image' => [
+                    'http://cdn.cakedc.com/v1/img/logos/billabong_default.png',
+                    'http://cdn.cakedc.com/v1/img/logos/billabong_color.png',
+                ],
+                'url' => 'http://www.billabong.com/',
+            ],
+            [
+                'name' => 'MIT',
+                'image' => [
+                    'http://cdn.cakedc.com/v1/img/logos/mit_default.png',
+                    'http://cdn.cakedc.com/v1/img/logos/mit_color.png',
+                ],
+                'url' => 'http://mit.edu/',
+            ],
+            [
+                'name' => 'Daily Express',
+                'image' => [
+                    'http://cdn.cakedc.com/v1/img/logos/express_default.png',
+                    'http://cdn.cakedc.com/v1/img/logos/express_color.png',
+                ],
+                'url' => 'http://www.express.co.uk/',
+            ],
+            [
+                'name' => 'Hyundai',
+                'image' => [
+                    'http://cdn.cakedc.com/v1/img/logos/hyundai_default.png',
+                    'http://cdn.cakedc.com/v1/img/logos/hyundai_color.png',
+                ],
+                'url' => 'http://www.hyundai.com/',
+                'width' => 100,
+            ],
+            [
+                'name' => 'TeamSpeak',
+                'image' => [
+                    'http://cdn.cakedc.com/v1/img/logos/teamspeak_default.png',
+                    'http://cdn.cakedc.com/v1/img/logos/teamspeak_color.png',
+                ],
+                'url' => 'http://www.teamspeak.com/',
+                'width' => 150,
+            ],
+            [
+                'name' => 'Calzedonia',
+                'image' => [
+                    'http://cdn.cakedc.com/v1/img/logos/calzedonia_default.png',
+                    'http://cdn.cakedc.com/v1/img/logos/calzedonia_color.png',
+                ],
+                'url' => 'http://www.calzedonia.it/',
+            ],
+            [
+                'name' => 'Sainsbury\'s',
+                'image' => [
+                    'http://cdn.cakedc.com/v1/img/logos/sainsburys_default.png',
+                    'http://cdn.cakedc.com/v1/img/logos/sainsburys_color.png',
+                ],
+                'url' => 'http://www.sainsburys.co.uk/',
+            ],
+            [
+                'name' => 'Newmans Own Foundation',
+                'image' => [
+                    'http://cdn.cakedc.com/v1/img/logos/nof_default.png',
+                    'http://cdn.cakedc.com/v1/img/logos/nof_color.png',
+                ],
+                'url' => 'http://newmansownfoundation.org/',
+                'width' => 200,
+            ],
+            [
+                'name' => 'The Oatmeal',
+                'image' => [
+                    'http://cdn.cakedc.com/v1/img/logos/oatmeal_default.png',
+                    'http://cdn.cakedc.com/v1/img/logos/oatmeal_color.png',
+                ],
+                'url' => 'http://theoatmeal.com/',
+                'width' => 75,
+            ],
+            [
+                'name' => 'Zumba',
+                'image' => [
+                    'http://cdn.cakedc.com/v1/img/logos/zumba_default.png',
+                    'http://cdn.cakedc.com/v1/img/logos/zumba_color.png',
+                ],
+                'url' => 'https://www.zumba.com/',
+                'width' => 150,
+            ],
+        ],
     ]
 ];
