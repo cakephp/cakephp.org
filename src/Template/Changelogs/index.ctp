@@ -45,7 +45,7 @@ $this->assign('title', __('Development'));
     ) ?>
 </p>
 
-<h3><?= __('Github Issues'); ?></h3>
+<h3><?= __('Issues'); ?></h3>
 <p>
     <?= __(
         'Found a bug? Suggest an improvement? Issue tracking for CakePHP can be found at {0}.',
