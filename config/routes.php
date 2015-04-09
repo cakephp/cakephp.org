@@ -73,6 +73,8 @@ Router::scope('/', function ($routes) {
     $routes->connect('/services/consultation', $servicesUrl);
     $routes->connect('/services/certification', $servicesUrl);
 
+    $routes->connect('/changelogs', ['controller' => 'Changelogs', 'action' => 'index']);
+    $routes->connect('/changelogs/*', ['controller' => 'Changelogs', 'action' => 'view']);
     $routes->connect('/development', ['controller' => 'Changelogs', 'action' => 'index']);
     $routes->connect('/development/*', ['controller' => 'Changelogs', 'action' => 'view']);
 
