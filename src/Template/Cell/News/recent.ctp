@@ -32,4 +32,4 @@
             */ ?>
         </div>
     </div>
-<?php $i++; $image = '&nbsp'; endforeach; ?>
+<?php $i++; endforeach; ?>
