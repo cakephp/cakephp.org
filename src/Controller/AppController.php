@@ -38,6 +38,5 @@ class AppController extends Controller
         'AssetCompress.AssetCompress',
         'Form',
         'Html',
-        'Session',
     ];
 }
