@@ -13,10 +13,13 @@ class NewsCell extends Cell
 
         $articles = [];
         for ($i = 0; $i < 3; $i++) {
+            $body = $feed->items[$i]->getContent();
+            // Find the first new line (the title and chop that garbage off.
+            $body = substr($body, strpos($body, "\n"));
             $articles[] = [
                 'name' => $feed->items[$i]->getTitle(),
                 'date' => $feed->items[$i]->getDate(),
-                'body' => current(explode('. ', $feed->items[$i]->getContent())) . '.</p>',
+                'body' => current(explode('. ', $body)) . '.</p>',
                 'link' => $feed->items[$i]->getUrl(),
             ];
         }
