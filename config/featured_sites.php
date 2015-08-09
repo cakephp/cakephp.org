@@ -16,6 +16,11 @@ return [
             //     'url' => 'https://websitefeedbackforms.com/'
             // ],
             [
+                'image' => 'dinnerbooking.png',
+                'name' => 'DinnerBooking',
+                'url' => 'http://dinnerbooking.com'
+            ],
+            [
                 'image' => 'tribehr.png',
                 'name' => 'TribeHR',
                 'url' => 'http://tribehr.com'
