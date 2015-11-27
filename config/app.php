@@ -37,6 +37,7 @@ return [
      */
     'App' => [
         'namespace' => 'App',
+        'version' => '3.1',
         'encoding' => 'UTF-8',
         'base' => false,
         'dir' => 'src',
