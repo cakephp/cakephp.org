@@ -1,18 +1,18 @@
 <?php
 use Cake\Core\Configure;
 
-$this->assign('title', 'CakePHP v3.0 - the rapid development php framework.');
+$this->assign('title', "CakePHP v$_version - the rapid development php framework.");
 $sites = Configure::read('Sites.JustBaked');
 ?>
     <div class="hero">
         <div class="container-fluid text-center main-head">
-            <?= $this->Html->image('default/hero.png') ?>
+            <?= $this->Html->image("default/hero-$_version.png") ?>
 
             <div class="clearfix"></div>
             <div class="button-holder">
                 <div class="polygon-button-shadow"></div>
                 <?= $this->Html->link(
-                    'Download v3.0',
+                    "Download v$_version",
                     'http://book.cakephp.org/3.0/en/installation.html',
                     ['class' => 'polygon-button']
                 ) ?>
