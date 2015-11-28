@@ -1,4 +1,9 @@
 <?php
+
+use Cake\Core\Configure;
+
+$version = Configure::version();
+
 return [
     /**
      * Debug Level:
@@ -37,7 +42,7 @@ return [
      */
     'App' => [
         'namespace' => 'App',
-        'version' => '3.1',
+        'version' => substr($version, 0, strrpos($version, '.')),
         'encoding' => 'UTF-8',
         'base' => false,
         'dir' => 'src',
