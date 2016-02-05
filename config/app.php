@@ -2,7 +2,9 @@
 
 use Cake\Core\Configure;
 
-$version = Configure::version();
+// Hard code for now. We can't update to 3.2.0 as our
+// servers only have PHP 5.4.
+$version = '3.2.0';
 
 return [
     /**
