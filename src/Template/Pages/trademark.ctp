@@ -38,11 +38,11 @@ $wallpapers = array(
             <p>
                 <?= __('If you are aware a breach or misuse of the CakePHP trademarks in any way, we would appreciate you bringing this to our attention. Please contact {0} so that we can investigate this further.', $emailLegal) ?>
             </p>
-            <h3><?= __('The Trademarks') ?></h3>
+            <h3 href="#trademarks"><?= __('The Trademarks') ?></h3>
             <p>
                 <?= __('Cake Software Foundation, Inc. owns the registered trademark CakePHP. Any mark starting with the letters CakePHP or Cake, is sufficiently similar to one or more of the trademarks that permission will be needed in order to use it. This policy encompasses all marks, in word and logo form, collectively referred to as "Trademarks".') ?>
             </p>
-            <h3><?= __('Permitted Use') ?></h3>
+            <h3 href="#permitted-use"><?= __('Permitted Use') ?></h3>
             <p>
                 <?= __('Certain usages of the Trademarks are fine and no specific permission from us is needed.') ?>
             </p>
@@ -67,7 +67,7 @@ $wallpapers = array(
             <p>
                 <?= __('We reserve the right to review all usage within the open source community, and to object to any usage that appears to overstep the bounds of discussion and good-faith non-commercial development. In any event, once a project has left the open source project phase or otherwise become a commercial project, this policy does not authorize any use of the Trademarks in connection to that project.') ?>
             </p>
-            <h3><?= __('Restricted Use That Requires a Trademark License') ?></h3>
+            <h3 href="#restricted-use"><?= __('Restricted Use That Requires a Trademark License') ?></h3>
             <p>
                 <?= __('Permission from us is necessary to use any of the Trademarks under any circumstances other than those specifically permitted above. These include:') ?>
             </p>
@@ -96,7 +96,7 @@ $wallpapers = array(
                 <li><?= __('On or in relation to a software product which constitutes a substantially modified version of a product supplied by the CakePHP project, that is to say with material changes to the code, or services relating to such a product.') ?></li>
                 <li><?= __('In a title or metatag of a web page whose sole intention or result is to influence search engine rankings or result listings, rather than for discussion, open source development or advocacy of the Trademarks.') ?></li>
             </ul>
-            <h3><?= __('Logo usage guidelines') ?></h3>
+            <h3 href="#logo-usage-guidelines"><?= __('Logo usage guidelines') ?></h3>
             <p>
                 <?= __(
                     'The logos linked below are licensed as {0}; please link to {1} as the attribution when using them (either as a hyperlink or simply the text).',
@@ -115,7 +115,7 @@ $wallpapers = array(
                 <li><?= __('You may use transparency and gradient/depth tools but should retain the "official" colors.') ?></li>
                 <li><?= __('Any scaling must retain the original proportions of the logo.') ?></li>
             </ul>
-            <h3><?= __('Where can I use it?'); ?></h3>
+            <h3 href="#where-can-i-use-it"><?= __('Where can I use it?'); ?></h3>
             <p>
                 <?= __('If you run, own or operate a personal blog, you may use the logo to discuss CakePHP, or place the logo to show your support and that you use the framework.'); ?>
             </p>
@@ -123,7 +123,7 @@ $wallpapers = array(
                 <?= __('If you intend to use the CakePHP logo to promote a service or product you must first obtain written permission from the Cake Software Foundation.'); ?>
                 <?= __('You may use the "powered by" logos to let the world know that your site or product is built with CakePHP.'); ?>
             </p>
-            <h3><?= __('Where can\'t I use it?'); ?></h3>
+            <h3 href="#where-cant-i-use-it"><?= __('Where can\'t I use it?'); ?></h3>
             <p>
                 <?= __('For the publication or promotion of commercial services related to CakePHP development, use of the logos is not permitted without permission from the Cake Software Foundation. For more information regarding the licensing options and capabilities, please contact {0}.', $emailLegal) ?>
             </p>
@@ -134,7 +134,7 @@ $wallpapers = array(
     <div class="gray narrowbox newred gray-pattern logos">
         <div class="container-fluid text-center">
             <div class="col-lg-8 col-md-8 col-lg-push-2 col-md-push-2">
-                <h3><?= __('Logos'); ?></h3>
+                <h3 href="#logos"><?= __('Logos'); ?></h3>
                 <div class="col-xs-6 col-sm-4 col-lg-3">
                     <?= $this->Html->image('default/cake-logo.png') ?>
                 </div>
@@ -153,7 +153,7 @@ $wallpapers = array(
 <div class="main no-padding">
     <div class="container-fluid">
         <div class="col-lg-8 col-md-8 col-lg-push-2 col-md-push-2 text-left logos">
-            <h3><?= __('Wallpapers'); ?></h3>
+            <h3 href="#wallpapers"><?= __('Wallpapers'); ?></h3>
             <p><?= __('These wallpapers are designed as 1024 pixels wide, and square. This makes them appropriate for devices that allow orientation switching while maintaining the design of the wallpaper within the bounds of your device. They\'re also great for desktop backgrounds, or any other place you want a giant sexy CakePHP wallpaper.'); ?></p>
         </div>
         </div>
