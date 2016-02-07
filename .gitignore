@@ -5,3 +5,5 @@
 .DS_Store
 fabfile.pyc
 /deploy/*
+/webroot/_css/*
+/webroot/_js/*
