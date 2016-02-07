@@ -103,14 +103,16 @@ $this->assign('title', __('Development'));
     <?php
     $sidebar = [];
     $previous = null;
-    foreach ($tags as $tag):
+    foreach ($tags as $tag) {
         preg_match('/^(?<series>\d+\.\d+).*/', $tag, $matches);
-        if (!$previous || version_compare($previous, $matches['series'], '>')):
-            $previous = $matches['series'];
-            $sidebar[] = '<li class="show-me click-me">' . __('{0} series', $matches['series']) . '</li>';
-        endif;
+        if ((!$previous || version_compare($previous, $matches['series'], '>'))) {
+            if (!empty($matches['series'])) {
+                $previous = $matches['series'];
+                $sidebar[] = '<li class="show-me click-me">' . __('{0} series', $matches['series']) . '</li>';
+            }
+        }
         $sidebar[] = '<li class="hide-me">' . $this->Html->link($tag, array('action' => 'view', $tag)) . '</li>';
-    endforeach;
+    }
     ?>
 
     <h3>Changelogs</h3>
