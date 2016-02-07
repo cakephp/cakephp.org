@@ -105,7 +105,7 @@ $wallpapers = array(
                 ) ?>
             </p>
             <p>
-                <?= __('If you intend on making money or promoting a commercial service by using these logos, you must first contact {0} for licensing information before using the logo or any associated assets.', $emailLegal) ?>
+                <?= __('If you intend on making money or promoting a commercial service by using these logos, you must first contact {0} for trademark licensing information before using the logo or any associated assets.', $emailLegal) ?>
             </p>
             <p>
                 <?= __('Our logos are presented in multiple colors and it is important that their visual integrity be maintained. It is therefore preferable that the logos only be used in their standard form but if you should feel the need to alter them in any way you should keep the following guidelines in mind. It should also be borne in mind that the more you wish to vary our logos from their standard form the smaller is the chance that we will be able to approve your proposed use.') ?>

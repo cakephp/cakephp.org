@@ -34,7 +34,10 @@
                 <?= $this->Html->link('Documentation', ['controller' => 'Pages', 'action' => 'display', 'documentation']) ?>
                 <?= $this->Html->link('Download', 'http://book.cakephp.org/3.0/en/installation.html') ?>
                 <div class="copyright">
-                    © 2005-2015 Cake Software Foundation, Inc.
+                    &copy;
+                    <?= __('Copyright 2005-{0} {1} All rights reserved.', date('Y'),
+                        'Cake Software Foundation, Inc.') ?>
+                    <?php //$this->Html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org', array('target' => '_blank', 'escape' => false, 'title' => 'Cake Software Foundation, Inc.'));?>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3">
