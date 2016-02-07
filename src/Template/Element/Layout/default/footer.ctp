@@ -36,8 +36,7 @@
                 <div class="copyright">
                     &copy;
                     <?= __('Copyright 2005-{0} {1} All rights reserved.', date('Y'),
-                        'Cake Software Foundation, Inc.') ?>
-                    <?php //$this->Html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org', array('target' => '_blank', 'escape' => false, 'title' => 'Cake Software Foundation, Inc.'));?>
+                        $this->Html->link('Cake Software Foundation, Inc.', 'http://cakefoundation.org', array('target' => '_blank', 'escape' => false, 'title' => 'Cake Software Foundation, Inc.')) ?>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3">
