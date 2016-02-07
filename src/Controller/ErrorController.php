@@ -9,6 +9,5 @@ class ErrorController extends CoreErrorController
         'AssetCompress.AssetCompress',
         'Form',
         'Html',
-        'Session',
     ];
 }
