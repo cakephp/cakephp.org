@@ -64,6 +64,7 @@ Router::scope('/', function ($routes) {
     $routes->connect('/documentation', ['controller' => 'Pages', 'action' => 'display', 'documentation']);
     $routes->connect('/privacy', ['controller' => 'Pages', 'action' => 'display', 'privacy']);
     $routes->connect('/assets', ['controller' => 'Pages', 'action' => 'display', 'assets']);
+    $routes->connect('/logos', ['controller' => 'Pages', 'action' => 'display', 'trademark']);
     $routes->connect('/trademark', ['controller' => 'Pages', 'action' => 'display', 'trademark']);
 
     $servicesUrl = ['controller' => 'Pages', 'action' => 'display', 'services'];
