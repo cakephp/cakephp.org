@@ -63,7 +63,7 @@ class ChangelogsTable extends Table
             return self::$_settings['repo'];
         }
         if (basename($repo) == $repo) {
-            $repo = TMP . $repo;
+            $repo = dirname(ROOT) . DS . $repo;
         }
         self::$_settings['repo'] = basename($repo);
         self::$_settings['path'] = dirname($repo) . DS;

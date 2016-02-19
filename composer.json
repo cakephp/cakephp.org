@@ -13,15 +13,15 @@
     ],
     "require": {
         "php": ">=5.4.16",
-        "cakephp/cakephp": "3.0.0",
+        "cakephp/cakephp": "3.1.10",
         "cakephp/csfnavbar": "3.0.x-dev",
-        "cakephp/migrations": "1.0.1",
+        "cakephp/migrations": "1.5.5",
         "cakephp/plugin-installer": "*",
-        "fguillot/picofeed": "0.1.2",
-        "josegonzalez/dotenv": "dev-master",
-        "markstory/asset_compress": "3.0.x-dev",
-        "mnsami/composer-custom-directory-installer": "1.0.*",
-        "mobiledetect/mobiledetectlib": "2.*",
+        "fguillot/picofeed": "0.1.17",
+        "josegonzalez/dotenv": "2.0.0",
+        "markstory/asset_compress": "3.0.1",
+        "mnsami/composer-custom-directory-installer": "1.1.0",
+        "mobiledetect/mobiledetectlib": "2.8.19",
         "predominant/deploy": "*",
         "tedivm/jshrink": "*",
         "bower-asset/anythingslider": "1.9.4",
@@ -29,13 +29,13 @@
         "bower-asset/bootstrap": "3.3.4",
         "bower-asset/google-code-prettify": "1.0.4",
         "bower-asset/modernizr": "dev-master",
-        "bower-asset/yamm3": "1.0.0"
+        "bower-asset/yamm3": "1.1.0"
     },
     "require-dev": {
-        "cakephp/bake": "1.0.1",
+        "cakephp/bake": "1.1.4",
         "cakephp/cakephp-codesniffer": "dev-master",
-        "cakephp/debug_kit": "3.0.1",
-        "phpunit/phpunit": "4.*",
+        "cakephp/debug_kit": "3.2.5",
+        "phpunit/phpunit": "5.2.1",
         "psy/psysh": "@stable"
     },
     "autoload": {

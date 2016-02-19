@@ -34,3 +34,7 @@
 *.mo binary
 *.pdf binary
 *.phar binary
+*.psd binary
+*.eot binary
+*.ttf binary
+*.woff binary

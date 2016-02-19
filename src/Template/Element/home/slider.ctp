@@ -18,20 +18,3 @@ use Cake\Core\Configure;
 
     </ul>
 </div>
-<?php
-$js = <<<TEXT
-var visible = \$(window).width() < 560 ? 1 : 3;
-\$('#carousel').jcarousel({
-    visible: visible,
-    scroll: visible,
-    reloadCallback: function (car) {
-        var vis = 3;
-        if (\$(window).width() < 560) {
-            vis = 1;
-        }
-        car.options.visible = vis;
-        car.options.scroll = vis;
-    }
-});
-TEXT;
-//$this->Js->buffer($js);

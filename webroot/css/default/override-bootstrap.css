@@ -822,6 +822,13 @@ footer a {
 footer a:hover {
   text-decoration: none;
 }
+footer .copyright a {
+  clear: none;
+  color: #000;
+  float: none;
+  font-size: 14px;
+  margin-right: 0;
+}
 footer p {
   color: #fff;
   font-family: "OpenSans", sans-serif;

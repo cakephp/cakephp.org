@@ -8,7 +8,7 @@ $this->assign('title', __('Development'));
 <h3><?= __('Github') ?></h3>
 <p>
     <?= __(
-        'CakePHP\'s code repositories are hosted at {0}',
+        'CakePHP\'s code repositories are hosted at {0}.',
         '<a href="http://github.com/cakephp/cakephp">github.com</a>'
     ) ?>
 </p>
@@ -45,7 +45,7 @@ $this->assign('title', __('Development'));
     ) ?>
 </p>
 
-<h3><?= __('Github Issues'); ?></h3>
+<h3><?= __('Issues'); ?></h3>
 <p>
     <?= __(
         'Found a bug? Suggest an improvement? Issue tracking for CakePHP can be found at {0}.',
@@ -92,7 +92,7 @@ $this->assign('title', __('Development'));
     <?= implode("\n", array(
         __('Contributing to CakePHP is easy.'),
         __(
-            'Checkout the {0} for how you can get started contributing to CakePHP',
+            'Checkout the {0} for how you can get started contributing to CakePHP.',
             '<a href="http://book.cakephp.org/2.0/en/contributing/code.html">' . __('guide on contributing') . '</a>'
         )
     )) ?>
@@ -103,14 +103,16 @@ $this->assign('title', __('Development'));
     <?php
     $sidebar = [];
     $previous = null;
-    foreach ($tags as $tag):
+    foreach ($tags as $tag) {
         preg_match('/^(?<series>\d+\.\d+).*/', $tag, $matches);
-        if (!$previous || version_compare($previous, $matches['series'], '>')):
-            $previous = $matches['series'];
-            $sidebar[] = '<li class="show-me click-me">' . __('{0} series', $matches['series']) . '</li>';
-        endif;
+        if ((!$previous || version_compare($previous, $matches['series'], '>'))) {
+            if (!empty($matches['series'])) {
+                $previous = $matches['series'];
+                $sidebar[] = '<li class="show-me click-me">' . __('{0} series', $matches['series']) . '</li>';
+            }
+        }
         $sidebar[] = '<li class="hide-me">' . $this->Html->link($tag, array('action' => 'view', $tag)) . '</li>';
-    endforeach;
+    }
     ?>
 
     <h3>Changelogs</h3>

@@ -5,4 +5,4 @@
 <?= $this->Html->link('Get Involved', 'http://community.cakephp.org/get-involved') ?>
 <?= $this->Html->link('Guidelines', 'http://community.cakephp.org/guidelines') ?>
 <?= $this->Html->link('CakeFest', 'http://cakefest.org/') ?>
-<?= $this->Html->link('Logos', ['controller' => 'Pages', 'action' => 'display', 'logos']) ?>
+<?= $this->Html->link('Trademark & Logos', ['controller' => 'Pages', 'action' => 'display', 'trademark']) ?>

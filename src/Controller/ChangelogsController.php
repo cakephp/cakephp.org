@@ -15,6 +15,18 @@ class ChangelogsController extends AppController
 {
 
     /**
+     * Initialize method
+     *
+     * @return void
+     */
+    public function initialize()
+    {
+        parent::initialize();
+
+        $this->loadComponent('Flash');
+    }
+
+    /**
      * Before Filter
      *
      * @param \Cake\Event\Event $event The event object.
@@ -22,13 +34,15 @@ class ChangelogsController extends AppController
      */
     public function beforeFilter(Event $event)
     {
+        parent::beforeFilter($event);
+
         $this->Changelogs->repository(Configure::read('Changelog.Repository'));
     }
 
     /**
      * Index Action
      *
-     * @return array List of tags
+     * @return void
      */
     public function index()
     {
@@ -40,14 +54,13 @@ class ChangelogsController extends AppController
      * View changelog
      *
      * @param string $tag Tag to view
-     * @return void
+     * @return void|\Cake\Network\Response Redirects on invalid tag
      */
     public function view($tag = null)
     {
         if (!$tag || !in_array($tag, $this->Changelogs->tags())) {
-            $this->Session->setFlash(__('Invalid tag for changelogs'));
-            $this->setAction('index');
-            return;
+            $this->Flash->error(__('Invalid tag for changelogs'));
+            return $this->redirect(['action' => 'index']);
         }
         $tags = $this->Changelogs->tags();
         $changes = $this->Changelogs->changes($tag);

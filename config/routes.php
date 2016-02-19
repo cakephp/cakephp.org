@@ -51,6 +51,7 @@ Router::scope('/', function ($routes) {
      */
     $routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
 
+    $routes->connect('/newsletter/signup', ['controller' => 'Pages', 'action' => 'display', 'newsletter_signup']);
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
      */
@@ -63,8 +64,9 @@ Router::scope('/', function ($routes) {
     $routes->connect('/news', ['controller' => 'Pages', 'action' => 'display', 'news']);
     $routes->connect('/documentation', ['controller' => 'Pages', 'action' => 'display', 'documentation']);
     $routes->connect('/privacy', ['controller' => 'Pages', 'action' => 'display', 'privacy']);
-    $routes->connect('/logos', ['controller' => 'Pages', 'action' => 'display', 'logos']);
-
+    $routes->connect('/assets', ['controller' => 'Pages', 'action' => 'display', 'assets']);
+    $routes->connect('/logos', ['controller' => 'Pages', 'action' => 'display', 'trademark']);
+    $routes->connect('/trademark', ['controller' => 'Pages', 'action' => 'display', 'trademark']);
     $servicesUrl = ['controller' => 'Pages', 'action' => 'display', 'services'];
 
     $routes->connect('/services', $servicesUrl);
@@ -73,6 +75,8 @@ Router::scope('/', function ($routes) {
     $routes->connect('/services/consultation', $servicesUrl);
     $routes->connect('/services/certification', $servicesUrl);
 
+    $routes->connect('/changelogs', ['controller' => 'Changelogs', 'action' => 'index']);
+    $routes->connect('/changelogs/*', ['controller' => 'Changelogs', 'action' => 'view']);
     $routes->connect('/development', ['controller' => 'Changelogs', 'action' => 'index']);
     $routes->connect('/development/*', ['controller' => 'Changelogs', 'action' => 'view']);
 

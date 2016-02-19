@@ -1,4 +1,11 @@
 <?php
+
+use Cake\Core\Configure;
+
+// Hard code for now. We can't update to 3.2.0 as our
+// servers only have PHP 5.4.
+$version = '3.2.0';
+
 return [
     /**
      * Debug Level:
@@ -37,6 +44,7 @@ return [
      */
     'App' => [
         'namespace' => 'App',
+        'version' => substr($version, 0, strrpos($version, '.')),
         'encoding' => 'UTF-8',
         'base' => false,
         'dir' => 'src',

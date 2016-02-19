@@ -13,16 +13,16 @@ $this->assign('title', __('Documentation'));
     <div class="gray narrowbox newred gray-pattern special">
         <div class="container-fluid text-center">
             <div class="col-xs-4 col-md-2 col-lg-push-2 col-md-push-2">
-                <h3>3.0</h3><br/>
+                <h3><?= $_version ?></h3><br/>
                 <ul class="doc-list">
-                    <li><?= $this->Html->link(__('The API'), 'http://api.cakephp.org/3.0/') ?></li>
+                    <li><?= $this->Html->link(__('The API'), "http://api.cakephp.org/$_version/") ?></li>
                     <li><?= $this->Html->link(__('The Book'), 'http://book.cakephp.org/3.0/') ?></li>
                 </ul>
             </div>
              <div class="col-xs-4 col-lg-2 col-md-2 col-lg-push-2 col-md-push-2">
-                <h3>2.0</h3><br/>
+                <h3>2.6</h3><br/>
                 <ul class="doc-list">
-                    <li><?= $this->Html->link(__('The API'), 'http://api.cakephp.org/2.0/') ?></li>
+                    <li><?= $this->Html->link(__('The API'), 'http://api.cakephp.org/2.6/') ?></li>
                     <li><?= $this->Html->link(__('The Book'), 'http://book.cakephp.org/2.0/') ?></li>
                 </ul>
             </div>
