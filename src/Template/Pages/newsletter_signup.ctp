@@ -74,7 +74,7 @@
                 </ul>
             </div>
             <p>
-                <?= $this->Html->link(__('Past Newsletters'), '/newsletter', ['title' => __('Past Newsletters'), 'id' => 'mc-past-responses']); ?>
+                <?= $this->Html->link(__('Past Newsletters'), ['controller' => 'Pages', 'action' => 'display', 'newsletter'], ['title' => __('Past Newsletters'), 'id' => 'mc-past-responses']); ?>
             </p>
 
             <div id="mce-responses" class="clear">
