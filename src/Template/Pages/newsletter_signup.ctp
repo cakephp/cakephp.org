@@ -74,9 +74,9 @@
                             for="mce-EMAILTYPE-1">text</label></li>
                 </ul>
             </div>
-            <p><a id="mc-past-responses"
-                  href="http://us9.campaign-archive2.com/home/?u=f380de581acd576e7d802552a&id=539d7fcbd1"
-                  title="Past Newsletters">Past Newsletters</a></p>
+            <p>
+                <?= $this->Html->link(__('Past Newsletters'), ['controller' => 'Pages', 'action' => 'display', 'newsletter'], ['title' => __('Past Newsletters'), 'id' => 'mc-past-responses']); ?>
+            </p>
 
             <div id="mce-responses" class="clear">
                 <div class="response" id="mce-error-response" style="display:none"></div>
