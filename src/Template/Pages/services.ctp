@@ -78,7 +78,8 @@ $this->assign('title', 'Services');
                     <?= __('Certification ensures you\'ll stand out from the crowd when it comes to job applications. It can also boost your employment value for existing employers, and be a great asset when it comes to salary review.') ?>
                 </p>
                 <p>
-                    <?= __('More information will be available shortly.') ?>
+                <p>
+                    <?= $this->Html->link(__('Click here to be certified for CakePHP 2.0'), 'http://certification.cakephp.org/'); ?></p>
                 </p>
             </div>
             <div class="col-lg-3 col-md-3 col-xs-3 col-lg-push-2 col-md-push-2 image-holder text-center">
