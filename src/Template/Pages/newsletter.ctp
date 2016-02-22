@@ -3,7 +3,7 @@ $this->extend('/Common/secondary');
 $this->assign('title', __('Newsletter'));
 ?>
 <div class="main dev">
-    <div class="container-fluid docs news">
+    <div class="container-fluid docs newsletter">
         <div class="col-md-2"></div>
         <div class="col-md-8">
             <h1><?= __('Newsletter Archive') ?></h1>
