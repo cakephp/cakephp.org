@@ -21,10 +21,10 @@ class NewsCell extends Cell
             // Find the first new line (the title and chop that garbage off.
             $body = substr($body, strpos($body, "\n"));
             $articles[] = [
-                'name' => $item[$i]->getTitle(),
-                'date' => $item[$i]->getDate(),
+                'name' => $item->getTitle(),
+                'date' => $item->getDate(),
                 'body' => current(explode('. ', $body)) . '.</p>',
-                'link' => $item[$i]->getUrl(),
+                'link' => $item->getUrl(),
             ];
         }
         $this->set(compact('articles'));
