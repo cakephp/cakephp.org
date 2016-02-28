@@ -12,6 +12,7 @@ class NewsCell extends Cell
 
         $articles = [];
         $items = $this->_feedItems();
+        $i = 0;
         foreach ($items as $item) {
             if ($i == 3) {
                 break;
