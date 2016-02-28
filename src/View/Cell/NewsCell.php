@@ -28,10 +28,10 @@ class NewsCell extends Cell
 
     public function index()
     {
-        $feed = $this->_feed();
+        $items = $this->_feedItems();
 
         $articles = [];
-        foreach ($feed->items as $item) {
+        foreach ($items as $item) {
             $articles[] = [
                 'name' => $item->getTitle(),
                 'date' => $item->getDate(),
@@ -42,12 +42,16 @@ class NewsCell extends Cell
         $this->set(compact('articles'));
     }
 
-    protected function _feed() {
+    protected function _feedItems() {
         try {
             $reader = new Reader;
 
             // Return a resource
             $resource = $reader->download('http://bakery.cakephp.org/articles/category/news.rss');
+
+            if (empty($resource)) {
+                return [];
+            }
 
             // Return the right parser instance according to the feed format
             $parser = $reader->getParser(
@@ -57,9 +61,10 @@ class NewsCell extends Cell
             );
 
             // Return a Feed object
-            return $parser->execute();
+            return $parser->execute()->items;
         } catch (PicoFeedException $e) {
             // Do Something...
+            return [];
         }
     }
 }
