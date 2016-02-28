@@ -9,18 +9,22 @@ class NewsCell extends Cell
 {
     public function recent()
     {
-        $feed = $this->_feed();
 
         $articles = [];
-        for ($i = 0; $i < 3; $i++) {
-            $body = $feed->items[$i]->getContent();
+        $items = $this->_feedItems();
+        foreach ($items as $item) {
+            if ($i == 3) {
+                break;
+            }
+            $i++;
+            $body = $item->getContent();
             // Find the first new line (the title and chop that garbage off.
             $body = substr($body, strpos($body, "\n"));
             $articles[] = [
-                'name' => $feed->items[$i]->getTitle(),
-                'date' => $feed->items[$i]->getDate(),
+                'name' => $item[$i]->getTitle(),
+                'date' => $item[$i]->getDate(),
                 'body' => current(explode('. ', $body)) . '.</p>',
-                'link' => $feed->items[$i]->getUrl(),
+                'link' => $item[$i]->getUrl(),
             ];
         }
         $this->set(compact('articles'));
@@ -28,9 +32,8 @@ class NewsCell extends Cell
 
     public function index()
     {
-        $items = $this->_feedItems();
-
         $articles = [];
+        $items = $this->_feedItems();
         foreach ($items as $item) {
             $articles[] = [
                 'name' => $item->getTitle(),
@@ -42,7 +45,8 @@ class NewsCell extends Cell
         $this->set(compact('articles'));
     }
 
-    protected function _feedItems() {
+    protected function _feedItems()
+    {
         try {
             $reader = new Reader;
 
