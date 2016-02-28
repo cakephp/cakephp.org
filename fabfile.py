@@ -11,6 +11,7 @@ environments = json.loads(environmentfile.read())
 timestr = ''
 deployconf = {}
 
+
 @task(default=True)
 def deploy(environment='3.0'):
     global deployconf, timestr
@@ -23,6 +24,7 @@ def deploy(environment='3.0'):
     composer(deployconf, timestr)
     asset_generate(deployconf, timestr)
     current_link(deployconf, timestr)
+
 
 def asset_generate(deployconf, timestr):
     run('{0}{1}/bin/cake AssetCompress.asset_compress build'.format(deployconf['site_dir'], timestr))
