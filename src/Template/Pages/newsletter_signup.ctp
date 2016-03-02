@@ -52,6 +52,8 @@
                             for="mce-group[19433]-19433-1">Events</label></li>
                     <li><input type="checkbox" value="4" name="group[19433][4]" id="mce-group[19433]-19433-2"><label
                             for="mce-group[19433]-19433-2">Security</label></li>
+                    <li><input type="checkbox" value="64" name="group[19433][64]" id="mce-group[19433]-19433-3"><label
+                            for="mce-group[19433]-19433-3">Freelancers</label></li>
                 </ul>
             </div>
             <div class="col-lg-4 col-md-4 mc-field-group input-group">
@@ -63,6 +65,8 @@
                             for="mce-group[19445]-19445-1">Eventos</label></li>
                     <li><input type="checkbox" value="32" name="group[19445][32]" id="mce-group[19445]-19445-2"><label
                             for="mce-group[19445]-19445-2">Seguridad</label></li>
+                    <li><input type="checkbox" value="128" name="group[19445][128]" id="mce-group[19445]-19445-3"><label
+                            for="mce-group[19445]-19445-3">Freelancers</label></li>
                 </ul>
             </div>
             <div class="col-lg-4 col-md-4 mc-field-group input-group">

@@ -52,6 +52,7 @@ Router::scope('/', function ($routes) {
     $routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
 
     $routes->connect('/newsletter', ['controller' => 'Pages', 'action' => 'display', 'newsletter']);
+    $routes->connect('/newsletter/freelancers', ['controller' => 'Pages', 'action' => 'display', 'newsletter_freelancers_signup']);
     $routes->connect('/newsletter/signup', ['controller' => 'Pages', 'action' => 'display', 'newsletter_signup']);
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
