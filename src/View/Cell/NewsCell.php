@@ -9,18 +9,23 @@ class NewsCell extends Cell
 {
     public function recent()
     {
-        $feed = $this->_feed();
 
         $articles = [];
-        for ($i = 0; $i < 3; $i++) {
-            $body = $feed->items[$i]->getContent();
+        $items = $this->_feedItems();
+        $i = 0;
+        foreach ($items as $item) {
+            if ($i == 3) {
+                break;
+            }
+            $i++;
+            $body = $item->getContent();
             // Find the first new line (the title and chop that garbage off.
             $body = substr($body, strpos($body, "\n"));
             $articles[] = [
-                'name' => $feed->items[$i]->getTitle(),
-                'date' => $feed->items[$i]->getDate(),
+                'name' => $item->getTitle(),
+                'date' => $item->getDate(),
                 'body' => current(explode('. ', $body)) . '.</p>',
-                'link' => $feed->items[$i]->getUrl(),
+                'link' => $item->getUrl(),
             ];
         }
         $this->set(compact('articles'));
@@ -28,10 +33,9 @@ class NewsCell extends Cell
 
     public function index()
     {
-        $feed = $this->_feed();
-
         $articles = [];
-        foreach ($feed->items as $item) {
+        $items = $this->_feedItems();
+        foreach ($items as $item) {
             $articles[] = [
                 'name' => $item->getTitle(),
                 'date' => $item->getDate(),
@@ -42,12 +46,17 @@ class NewsCell extends Cell
         $this->set(compact('articles'));
     }
 
-    protected function _feed() {
+    protected function _feedItems()
+    {
         try {
             $reader = new Reader;
 
             // Return a resource
             $resource = $reader->download('http://bakery.cakephp.org/articles/category/news.rss');
+
+            if (empty($resource)) {
+                return [];
+            }
 
             // Return the right parser instance according to the feed format
             $parser = $reader->getParser(
@@ -57,9 +66,10 @@ class NewsCell extends Cell
             );
 
             // Return a Feed object
-            return $parser->execute();
+            return $parser->execute()->items;
         } catch (PicoFeedException $e) {
             // Do Something...
+            return [];
         }
     }
 }
