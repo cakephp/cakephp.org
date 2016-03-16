@@ -1,4 +1,4 @@
-<?= $this->Html->link('Help & Support', 'http://webchat.freenode.net/?channels=cakephp&uio=MT1mYWxzZSY5PXRydWUmMTE9MjQ2b8') ?>
+<?= $this->Html->link('Help & Support', 'http://cakesf.herokuapp.com/') ?>
 <?= $this->Html->link('Issues', 'https://github.com/cakephp/cakephp/issues') ?>
 <?= $this->Html->link('The Bakery', 'http://bakery.cakephp.org/') ?>
 <?= $this->Html->link('Stack Overflow', 'http://stackoverflow.com/tags/cakephp') ?>
