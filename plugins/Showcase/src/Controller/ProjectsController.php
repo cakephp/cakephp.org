@@ -34,7 +34,7 @@ class ProjectsController extends AppController
     public function view($id = null)
     {
         $project = $this->Projects->get($id, [
-            'contain' => []
+            'contain' => ['ProjectImages']
         ]);
 
         $this->set('project', $project);
@@ -72,7 +72,7 @@ class ProjectsController extends AppController
     public function edit($id = null)
     {
         $project = $this->Projects->get($id, [
-            'contain' => []
+            'contain' => ['ProjectImages']
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $project = $this->Projects->patchEntity($project, $this->request->data);

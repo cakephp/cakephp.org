@@ -8,6 +8,9 @@ use Burzum\FileStorage\Event\LocalFileStorageListener;
 $listener = new LocalFileStorageListener();
 EventManager::instance()->on($listener);
 
+$listener = new ImageProcessingListener();
+EventManager::instance()->on($listener);
+
 StorageManager::config('Local', [
     'adapterOptions' => [ROOT . DS . 'files', true],
     'adapterClass' => '\Gaufrette\Adapter\Local',

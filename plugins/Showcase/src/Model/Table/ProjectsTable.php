@@ -1,6 +1,8 @@
 <?php
 namespace Showcase\Model\Table;
 
+use Cake\Event\Event;
+use Cake\ORM\Entity;
 use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
@@ -29,6 +31,16 @@ class ProjectsTable extends Table
         $this->primaryKey('id');
 
         $this->addBehavior('Timestamp');
+
+        $this->hasMany('ProjectImages', [
+            'joinType' => 'LEFT',
+            'className' => 'AppImages',
+            'foreignKey' => 'foreign_key',
+            'dependent' => true,
+            'conditions' => [
+                'ProjectImages.model' => 'ProjectImages'
+            ]
+        ]);
     }
 
     /**
@@ -62,5 +74,25 @@ class ProjectsTable extends Table
             ->notEmpty('is_showcase');
 
         return $validator;
+    }
+
+    /**
+     * beforeSave
+     *
+     * @param Event $event event
+     * @param Entity $entity entity
+     * @param array $options options
+     * @return bool
+     */
+    public function beforeSave(Event $event, Entity $entity, $options)
+    {
+        if (empty($entity['project_images'][0]['tmp_name'])) {
+            //we don't want to save the slider_images when no image was updated in the form
+            unset($entity['project_images']);
+        }
+        if (isset($entity['project_images'][0])) {
+            $entity['project_images'][0]['model'] = 'ProjectImages';
+        }
+        return true;
     }
 }
