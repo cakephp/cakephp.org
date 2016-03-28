@@ -1,5 +1,5 @@
-<?= $this->Html->link('Help & Support', 'http://cakesf.herokuapp.com/') ?>
-<?= $this->Html->link('IRC Channel', 'irc://irc.freenode.net/cakephp') ?>
+<?= $this->Html->link('Support via IRC', 'https://kiwiirc.com/client/irc.freenode.net#cakephp') ?>
+<?= $this->Html->link('Support via Slack', 'http://cakesf.herokuapp.com/') ?>
 <?= $this->Html->link('Issues', 'https://github.com/cakephp/cakephp/issues') ?>
 <?= $this->Html->link('The Bakery', 'http://bakery.cakephp.org/') ?>
 <?= $this->Html->link('Stack Overflow', 'http://stackoverflow.com/tags/cakephp') ?>
