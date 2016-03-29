@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d01d584d5e034c01c583fbe9ed3a0791",
-    "content-hash": "ecaef5d53e154764c2b608783869f235",
+    "hash": "ebfbfb19eac385c3df3a997f930bfbb8",
+    "content-hash": "d556bd8deb5d04fe5eb15047b3fee8e2",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -233,17 +233,69 @@
             "time": "2016-01-20 23:48:13"
         },
         {
-            "name": "cakephp/cakephp",
-            "version": "3.2.5",
+            "name": "cakedc/tags",
+            "version": "3.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "d6aa46749e14df117b1cf4edfe21952483f44e4d"
+                "url": "https://github.com/CakeDC/tags.git",
+                "reference": "614306a91d961b3e481b24be78006ca247db0fe2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/d6aa46749e14df117b1cf4edfe21952483f44e4d",
-                "reference": "d6aa46749e14df117b1cf4edfe21952483f44e4d",
+                "url": "https://api.github.com/repos/CakeDC/tags/zipball/614306a91d961b3e481b24be78006ca247db0fe2",
+                "reference": "614306a91d961b3e481b24be78006ca247db0fe2",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "~3.2",
+                "cakephp/plugin-installer": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "cakephp-plugin",
+            "extra": {
+                "installer-name": "Tags"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Tags\\": "src",
+                    "Tags\\Test\\Fixture\\": "tests\\Fixture"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cake Development Corporation",
+                    "email": "team@cakedc.com",
+                    "homepage": "http://cakedc.com"
+                }
+            ],
+            "description": "Tags plugin for CakePHP.",
+            "homepage": "http://github.com/CakeDC/tags",
+            "keywords": [
+                "cakephp",
+                "plugin",
+                "tags"
+            ],
+            "time": "2016-03-28 13:36:39"
+        },
+        {
+            "name": "cakephp/cakephp",
+            "version": "3.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cakephp/cakephp.git",
+                "reference": "1894529ac1e726c2a970e3dcf919b8878e463ff7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/1894529ac1e726c2a970e3dcf919b8878e463ff7",
+                "reference": "1894529ac1e726c2a970e3dcf919b8878e463ff7",
                 "shasum": ""
             },
             "require": {
@@ -302,7 +354,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-03-14 03:16:42"
+            "time": "2016-03-29 02:49:23"
         },
         {
             "name": "cakephp/chronos",
@@ -1477,6 +1529,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "cakedc/tags": 20,
         "psy/psysh": 0
     },
     "prefer-stable": true,

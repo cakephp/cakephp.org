@@ -11,7 +11,8 @@
         "cakephp/migrations": "~1.0",
         "cakephp/plugin-installer": "*",
         "burzum/file-storage": "~1.1.0",
-        "burzum/cakephp-imagine-plugin": "~2.0"
+        "burzum/cakephp-imagine-plugin": "~2.0",
+        "cakedc/tags": "3.0.x-dev"
     },
     "require-dev": {
         "psy/psysh": "@stable",
