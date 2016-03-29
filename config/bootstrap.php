@@ -183,8 +183,9 @@ Request::addDetector('tablet', function ($request) {
 Plugin::load('Migrations');
 Plugin::load('Burzum/Imagine');
 Plugin::load('Burzum/FileStorage');
-include('file_storage.php');
+include ('file_storage.php');
 Plugin::load('Showcase', ['routes' => true]);
+Plugin::load('Tags');
 
 // Only try to load DebugKit in development mode
 // Debug Kit should not be installed on a production system
