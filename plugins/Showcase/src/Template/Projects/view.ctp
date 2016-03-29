@@ -1,42 +1,61 @@
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
-    <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('Edit Project'), ['action' => 'edit', $project->id]) ?> </li>
-        <li><?= $this->Form->postLink(__('Delete Project'), ['action' => 'delete', $project->id], ['confirm' => __('Are you sure you want to delete # {0}?', $project->id)]) ?> </li>
-        <li><?= $this->Html->link(__('List Projects'), ['action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Project'), ['action' => 'add']) ?> </li>
-    </ul>
-</nav>
-<div class="projects view large-9 medium-8 columns content">
-    <h3><?= h($project->title) ?></h3>
-    <table class="vertical-table">
-        <tr>
-            <th><?= __('Title') ?></th>
-            <td><?= h($project->title) ?></td>
-        </tr>
-        <tr>
-            <th><?= __('Website') ?></th>
-            <td><?= h($project->website) ?></td>
-        </tr>
-        <tr>
-            <th><?= __('Id') ?></th>
-            <td><?= $this->Number->format($project->id) ?></td>
-        </tr>
-        <tr>
-            <th><?= __('Created') ?></th>
-            <td><?= h($project->created) ?></td>
-        </tr>
-        <tr>
-            <th><?= __('Modified') ?></th>
-            <td><?= h($project->modified) ?></td>
-        </tr>
-        <tr>
-            <th><?= __('Is Highlighted') ?></th>
-            <td><?= $project->is_highlighted ? __('Yes') : __('No'); ?></td>
-        </tr>
-        <tr>
-            <th><?= __('Is Showcase') ?></th>
-            <td><?= $project->is_showcase ? __('Yes') : __('No'); ?></td>
-        </tr>
-    </table>
+<div class="row">
+    <div class="col-sm-12">
+    	<?= $this->Html->link(__d('Showcase', 'Edit'), ['action' => 'edit', $project->id], [
+            'class' => 'btn btn-primary'
+    	]) ?>
+    	<?= $this->Form->postLink(__d('Showcase', 'Delete'), ['action' => 'delete', $project->id], [
+    		'class' => 'btn btn-danger',
+    		'confirm' => __d('Showcase', 'Are you sure you?')
+    	]) ?>
+        <?= $this->Html->link(__d('Showcase', 'List Projects'), ['action' => 'index'], [
+            'class' => 'btn btn-primary'
+        ]) ?>
+    </div>
+</div>
+
+<div class="row">
+	<h3><?= h($project->title) ?></h3>
+
+	<div class="well">
+		<div class="row">
+			<div class="col-sm-12 col-md-8 col-lg-6">
+				<?php if (count($project->project_images)): ?>
+					<div class="col-sm-8 col-md-6 col-lg-6">
+						<div class="row">
+							<?= $this->Image->display($project->project_images[0], null, [
+								'style' => 'width:100%;margin-bottom:15px'
+							]) ?>
+						</div>
+					</div>
+				<?php endif; ?>
+
+			    <table class="vertical-table table">
+			        <tr>
+			            <th><?= __('Title') ?></th>
+			            <td><?= h($project->title) ?></td>
+			        </tr>
+			        <tr>
+			            <th><?= __('Website') ?></th>
+			            <td><?= h($project->website) ?></td>
+			        </tr>
+			        <tr>
+			            <th><?= __('Is Highlighted') ?></th>
+			            <td><?= $this->Showcase->boolean($project->is_highlighted) ?></td>
+			        </tr>
+			        <tr>
+			            <th><?= __('Is Showcase') ?></th>
+			            <td><?= $this->Showcase->boolean($project->is_showcase) ?></td>
+			        </tr>
+			        <tr>
+			            <th><?= __('Created') ?></th>
+			            <td><?= h($project->created) ?></td>
+			        </tr>
+			        <tr>
+			            <th><?= __('Modified') ?></th>
+			            <td><?= h($project->modified) ?></td>
+			        </tr>
+			    </table>
+			</div>
+		</div>
+	</div>
 </div>

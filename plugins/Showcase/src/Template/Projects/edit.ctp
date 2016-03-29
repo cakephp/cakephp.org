@@ -1,7 +1,11 @@
 <div class="row">
     <div class="col-sm-12">
+		<?= $this->Html->link(__d('Showcase', 'View'), ['action' => 'view', $project->id], [
+			'class' => 'btn btn-primary'
+		]) ?>
+
         <?= $this->Form->postLink(
-            __('Delete'),
+            __d('Showcase', 'Delete'),
             ['action' => 'delete', $project->id],
             [
                 'confirm' => __('Are you sure you want to delete # {0}?', $project->id),
