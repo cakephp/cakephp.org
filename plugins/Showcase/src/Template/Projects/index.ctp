@@ -1,66 +1,38 @@
+<h1 class="text-center"><?= __d('Showcase', 'CakePHP Success Stories') ?></h1>
+<h2 class="text-center"><?= __d('Showcase', "Here's is how CakePHP has helped others companies to succeed.") ?></h2>
+
 <div class="row">
-    <div class="col-sm-12">
-        <?= $this->Html->link(__d('Showcase', 'New Project'), ['action' => 'add'], [
-            'class' => 'btn btn-primary'
-        ]) ?>
-    </div>
+	<div class="col-sm-12 text-center">
+		<?= $this->Image->display($highlighted->project_images[0]); ?>
+	</div>
+	<div class="col-sm-12">
+		<div class="row">
+			<div class="col-sm-6 text-right">
+				<p class="title"><?= $highlighted->title ?></p>
+				<p class="brief_description"><?= $highlighted->brief_description ?></p>
+			</div>
+
+			<div class="col-sm-6 description">
+				<?= $highlighted->description ?>
+			</div>
+		</div>
+	</div>
 </div>
 
 <div class="row">
-    <div class="col-sm-12 projects">
-        <h3><?= __d('Showcase', 'Projects') ?></h3>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th><?= $this->Paginator->sort('id') ?></th>
-                    <th><?= $this->Paginator->sort('title') ?></th>
-                    <th><?= $this->Paginator->sort('website') ?></th>
-                    <th><?= $this->Paginator->sort('is_highlighted') ?></th>
-                    <th><?= $this->Paginator->sort('is_showcase') ?></th>
-                    <th class="actions"></th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php foreach ($projects as $project): ?>
-                <tr>
-                    <td><?= $this->Number->format($project->id) ?></td>
-                    <td><?= h($project->title) ?></td>
-                    <td><?= h($project->website) ?></td>
-                    <td><?= $this->Showcase->boolean($project->is_highlighted) ?></td>
-                    <td><?= $this->Showcase->boolean($project->is_showcase) ?></td>
-                    <td class="actions text-right">
-                        <?= $this->Html->link(
-                            $this->Html->tag('i', '', ['class' => 'glyphicon glyphicon-eye-open']),
-                            ['action' => 'view', $project->id],
-                            ['escape' => false]
-                        ) ?>
+	<div class="s12">
+		<h3 class="text-center"><?= __d('Showcase', 'More Stories') ?></h3>
 
-                        <?= $this->Html->link(
-                            $this->Html->tag('i', '', ['class' => 'glyphicon glyphicon-pencil']),
-                            ['action' => 'edit', $project->id],
-                            ['escape' => false]
-                        ) ?>
-
-                        <?= $this->Form->postLink(
-                            $this->Html->tag('i', '', ['class' => 'glyphicon glyphicon-remove']),
-                            ['action' => 'delete', $project->id],
-                            [
-                                'confirm' => __('Are you sure you want to delete # {0}?', $project->id),
-                                'escape' => false
-                            ]
-                        ) ?>
-                    </td>
-                </tr>
-                <?php endforeach; ?>
-            </tbody>
-        </table>
-        <div class="paginator">
-            <ul class="pagination">
-                <?= $this->Paginator->prev('< ' . __('previous')) ?>
-                <?= $this->Paginator->numbers() ?>
-                <?= $this->Paginator->next(__('next') . ' >') ?>
-            </ul>
-            <p><?= $this->Paginator->counter() ?></p>
-        </div>
-    </div>
+		<?php foreach ($projects as $i => $project): ?>
+			<div class="row">
+				<div class="col-sm-4 <?= $i%2 == 0 ? 'pull-left' : 'pull-right'; ?>">
+					<?= $this->Image->display($project->project_images[0], null, ['class' => 'img-responsive']) ?>
+				</div>
+				<div class="col-sm-8 <?= $i%2 == 0 ? 'text-left' : 'text-right'; ?>">
+					<p class="title"><?= $project->title ?></p>
+					<?= $project->description ?>
+				</div>
+			</div>
+		<?php endforeach; ?>
+	</div>
 </div>

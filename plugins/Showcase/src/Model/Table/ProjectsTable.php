@@ -31,6 +31,7 @@ class ProjectsTable extends Table
         $this->primaryKey('id');
 
         $this->addBehavior('Timestamp');
+        $this->addBehavior('Muffin/Slug.Slug');
         $this->addBehavior('Muffin/Tags.Tag', [
         	'taggedCounter' => false
         ]);
@@ -97,5 +98,31 @@ class ProjectsTable extends Table
             $entity['project_images'][0]['model'] = 'ProjectImages';
         }
         return true;
+    }
+
+    /**
+     * @param Query $query
+     * @param array $options
+     * @return Query
+     */
+    public function findHighlighted($query, $options)
+    {
+    	return $query
+    		->contain('ProjectImages')
+    		->contain('Tags')
+    		->where(['is_highlighted' => true]);
+    }
+
+    /**
+     * @param Query $query
+     * @param array $options
+     * @return Query
+     */
+    public function findShowcase($query, $options)
+    {
+    	return $query
+    		->contain('ProjectImages')
+    		->contain('Tags')
+    		->where(['is_showcase' => true]);
     }
 }

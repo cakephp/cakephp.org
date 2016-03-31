@@ -11,7 +11,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active dropdown">
+                <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?= __('Documentation')?> <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="#"><?= __('Book')?></a></li>
@@ -35,7 +35,9 @@
                 </li>
                 <li><a href="#contact"><?= __('Forum')?></a></li>
                 <li><a href="#contact"><?= __('Marketplace')?></a></li>
-                <li><a href="#contact"><?= __('Showcase')?></a></li>
+                <li class="<?= $this->App->active('projects'); ?>">
+                	<a href="#contact"><?= __('Showcase')?></a>
+               	</li>
                 <li><a href="#contact"><?= __('Job Board')?></a></li>
             </ul>
         </div>

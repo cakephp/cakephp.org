@@ -6,6 +6,8 @@
             <div class="col-sm-12 col-md-8 col-lg-6 projects form">
                 <?php
                     echo $this->Form->input('title', ['class' => 'form-control']);
+                    echo $this->Form->input('description');
+                    echo $this->Form->input('brief_description', ['class' => 'form-control']);
                     echo $this->Form->input('website', ['class' => 'form-control']);
                     echo $this->Form->input('tags', [
                     	'class' => 'form-control taggable-select',
@@ -65,6 +67,8 @@
             }
         }
     };
+
+    CKEDITOR.replace('description');
 
     $(document).ready(function () {
     	$('.taggable-select').select2({tags:true});

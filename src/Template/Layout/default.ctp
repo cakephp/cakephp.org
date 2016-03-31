@@ -37,6 +37,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
+	<script src="//cdn.ckeditor.com/4.5.8/standard/ckeditor.js"></script>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
