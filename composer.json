@@ -12,7 +12,7 @@
         "cakephp/plugin-installer": "*",
         "burzum/file-storage": "~1.1.0",
         "burzum/cakephp-imagine-plugin": "~2.0",
-        "cakedc/tags": "3.0.x-dev"
+        "muffin/tags": "dev-master"
     },
     "require-dev": {
         "psy/psysh": "@stable",
