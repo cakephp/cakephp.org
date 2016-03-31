@@ -60,7 +60,11 @@ class ProjectsTable extends Table
             ->allowEmpty('id', 'create');
 
         $validator
-            ->requirePresence('title', 'create')
+            ->requirePresence('title')
+            ->notEmpty('title');
+
+        $validator
+            ->requirePresence('description')
             ->notEmpty('title');
 
         $validator
