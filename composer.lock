@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "484be6ea16055e9accf4f680931e8f20",
-    "content-hash": "7f58a7c345deb02d77c9b6b2e0dd06d7",
+    "hash": "c9491393666e08181187d10a311e767b",
+    "content-hash": "5a75f5e10f9ff1595623988eedc267a7",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -231,6 +231,40 @@
                 "upload"
             ],
             "time": "2016-01-20 23:48:13"
+        },
+        {
+            "name": "cakedc/showcase",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@git.cakedc.com:cakedc/showcase.git",
+                "reference": "6de441e544f60ddbaf965044988699ccd958c93f"
+            },
+            "require": {
+                "burzum/cakephp-imagine-plugin": "~2.0",
+                "burzum/file-storage": "~1.1.0",
+                "cakephp/cakephp": "~3.0",
+                "muffin/slug": "~1.0",
+                "muffin/tags": "dev-master",
+                "php": ">=5.4.16"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Showcase\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Showcase\\Test\\": "tests",
+                    "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+                }
+            },
+            "description": "Showcase plugin for CakePHP",
+            "time": "2016-03-31 19:30:53"
         },
         {
             "name": "cakephp/cakephp",
@@ -1590,9 +1624,9 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
-        "muffin/tags": 20,
+        "cakedc/showcase": 20,
         "psy/psysh": 0
     },
     "prefer-stable": true,

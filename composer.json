@@ -10,7 +10,7 @@
         "mobiledetect/mobiledetectlib": "2.*",
         "cakephp/migrations": "~1.0",
         "cakephp/plugin-installer": "*",
-        "cakephp/showcase": "*"
+        "cakedc/showcase": "dev-master"
     },
     "require-dev": {
         "psy/psysh": "@stable",
@@ -26,10 +26,18 @@
             "App\\": "src"
         }
     },
+    "config": {
+        "secure-http": false
+    },
+    "extra": {
+        "installer-paths": {
+			"plugins/Showcase": ["cakedc/showcase"]
+		}
+	},
     "repositories": [
 	    {
 	        "type": "vcs",
-	        "url": "http://git.cakedc.com/cakedc/showcase.git"
+	        "url": "git@git.cakedc.com:cakedc/showcase.git"
 	    }
     ],
     "autoload-dev": {
@@ -42,6 +50,6 @@
         "post-install-cmd": "App\\Console\\Installer::postInstall",
         "post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
