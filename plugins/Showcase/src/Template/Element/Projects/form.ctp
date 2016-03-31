@@ -7,6 +7,7 @@
                 <?php
                     echo $this->Form->input('title', ['class' => 'form-control']);
                     echo $this->Form->input('website', ['class' => 'form-control']);
+                    echo $this->Form->input('techonlogies', ['class' => 'form-control']);
                     echo $this->Form->input('is_highlighted');
                     echo $this->Form->input('is_showcase');
                     echo $this->Form->input('project_images.file', [
