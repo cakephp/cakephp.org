@@ -31,6 +31,9 @@ class ProjectsTable extends Table
         $this->primaryKey('id');
 
         $this->addBehavior('Timestamp');
+        $this->addBehavior('Muffin/Tags.Tag', [
+        	'taggedCounter' => false
+        ]);
 
         $this->hasMany('ProjectImages', [
             'joinType' => 'LEFT',

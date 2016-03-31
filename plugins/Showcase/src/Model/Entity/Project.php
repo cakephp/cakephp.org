@@ -30,4 +30,15 @@ class Project extends Entity
         '*' => true,
         'id' => false,
     ];
+
+    protected function _getTagsArray()
+    {
+    	if (empty($this->tags)) {
+    		return '';
+    	}
+
+    	return collection($this->tags)->map(function ($t) {
+    		return $t->label;
+    	})->toArray();
+    }
 }

@@ -1,6 +1,7 @@
 <?php
 namespace Showcase\Controller;
 
+use Cake\Event\Event;
 use Showcase\Controller\AppController;
 
 /**
@@ -10,6 +11,14 @@ use Showcase\Controller\AppController;
  */
 class ProjectsController extends AppController
 {
+
+	public function beforeFilter(Event $event)
+	{
+		if (in_array($this->request->action, ['edit', 'add'])) {
+			$this->loadModel('Muffin/Tags.Tags');
+			$this->set('tags', $this->Tags->find('list', ['keyField' => 'label']));
+		}
+	}
 
     /**
      * Index method
@@ -72,7 +81,7 @@ class ProjectsController extends AppController
     public function edit($id = null)
     {
         $project = $this->Projects->get($id, [
-            'contain' => ['ProjectImages']
+            'contain' => ['ProjectImages', 'Tags']
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $project = $this->Projects->patchEntity($project, $this->request->data);

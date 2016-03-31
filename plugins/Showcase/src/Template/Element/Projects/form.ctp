@@ -7,13 +7,19 @@
                 <?php
                     echo $this->Form->input('title', ['class' => 'form-control']);
                     echo $this->Form->input('website', ['class' => 'form-control']);
-                    echo $this->Form->input('techonlogies', ['class' => 'form-control']);
+                    echo $this->Form->input('tags', [
+                    	'class' => 'form-control taggable-select',
+                    	'multiple' => true,
+                    	'label' => 'Categories',
+                    	'value' => $project->tags_array
+                    ]);
+                    echo $this->Form->input('technologies', ['class' => 'form-control']);
                     echo $this->Form->input('is_highlighted');
                     echo $this->Form->input('is_showcase');
                     echo $this->Form->input('project_images.file', [
                         'type' => 'file',
                         'label' => __d('Showcase', 'Image'),
-                        'multiple' => true,
+                        'required' => false,
                         'id' => 'image-input'
                     ]);
                 ?>
@@ -59,4 +65,8 @@
             }
         }
     };
+
+    $(document).ready(function () {
+    	$('.taggable-select').select2({tags:true});
+    })
 </script>
