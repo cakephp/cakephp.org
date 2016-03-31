@@ -65,7 +65,8 @@ class ProjectsTable extends Table
 
         $validator
             ->requirePresence('website', 'create')
-            ->notEmpty('website');
+            ->notEmpty('website')
+            ->add('website', 'valid-url', ['rule' => 'url']);
 
         $validator
             ->boolean('is_highlighted')
@@ -90,6 +91,11 @@ class ProjectsTable extends Table
      */
     public function beforeSave(Event $event, Entity $entity, $options)
     {
+    	if ($entity->isNew() && empty($entity['project_images']['file'])) {
+    		$entity->errors('image', 'You should provide an image');
+    		return false;
+    	}
+
         if (empty($entity['project_images'][0]['tmp_name'])) {
             //we don't want to save the slider_images when no image was updated in the form
             unset($entity['project_images']);

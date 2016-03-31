@@ -24,6 +24,7 @@
                         'required' => false,
                         'id' => 'image-input'
                     ]);
+                    echo $this->Form->error('image');
                 ?>
                 <div class="row">
                     <div class="col-sm-12 col-md-8 col-lg-6" id="image-preview">

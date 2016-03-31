@@ -39,6 +39,10 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
 	<script src="//cdn.ckeditor.com/4.5.8/standard/ckeditor.js"></script>
 
+	<style>
+		.error-message {color:red;}
+	</style>
+
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
