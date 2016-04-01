@@ -84,12 +84,12 @@
             <div class="col-sm-12 col-md-9">
                 <div class="col-sm-3">
                     <ul class="footer-menu">
-                        <li class="menu-title menu-title-m"><i class="fa fa-menu-title fa-book"></i>Documentation</li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>CookBook</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Api</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Videos</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Privacy Policy</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Logos & Trademerks</a></li>
+                        <li class="menu-title menu-title-m"><i class="fa fa-menu-title fa-book"></i><?= __('Documentation')?></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('CookBook')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Api')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Videos')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Privacy Policy')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Logos & Trademerks')?></a></li>
 
                         <li class="menu-title mt30"><a href="#"><i class="fa fa-menu-title fa-briefcase"></i>Business Solutions</a></li>
                         <li class="menu-title mt30"><a href="#"><i class="fa fa-menu-title fa-desktop"></i>Showcase</a></li>
@@ -98,53 +98,52 @@
 
                 <div class="col-sm-3">
                     <ul class="footer-menu">
-                        <li class="menu-title"><i class="fa fa-menu-title fa-users"></i>Community</li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Get Involved</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Blog</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Newsletter</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Certification</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Calendar</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>My Cakephp</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Cakefest</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Cakesf</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Oss Bounty</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Forum</a></li>
+                        <li class="menu-title"><i class="fa fa-menu-title fa-users"></i><?= __('Community')?></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Get Involved')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Blog')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Newsletter')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Certification')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Calendar')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('My Cakephp')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Cakefest')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Oss Bounty')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Forum')?></a></li>
                     </ul>
                 </div>
 
                 <div class="col-sm-3">
                     <ul class="footer-menu">
-                        <li class="menu-title"><i class="fa fa-menu-title fa-comments-o"></i>Help & Support</li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Issues (Github)</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Youtube Channel</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Google Groups</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Stack Overflow</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Commercial</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Irc</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Quora</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Facebook</a></li>
+                        <li class="menu-title"><i class="fa fa-menu-title fa-comments-o"></i><?= __('Help & Support')?></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Issues (Github)')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Youtube Channel')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Google Groups')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Stack Overflow')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Commercial')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Irc')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Quora')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Facebook')?></a></li>
 
-                        <li class="menu-title mt30"><i class="fa fa-menu-title fa-calendar-o"></i>Calendar</li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Meetups</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Events</a></li>
+                        <li class="menu-title mt30"><i class="fa fa-menu-title fa-calendar-o"></i><?= __('Calendar')?></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Meetups')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Events')?></a></li>
                     </ul>
                 </div>
 
                 <div class="col-sm-3">
                     <ul class="footer-menu">
-                        <li class="menu-title"><i class="fa fa-menu-title fa-tags"></i>Marketplace</li>
-                        <li class="menu-sub">Service Providers</li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Cakedc</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Phpstorm</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Rackspace</a></li>
+                        <li class="menu-title"><i class="fa fa-menu-title fa-tags"></i><?= __('Marketplace')?></li>
+                        <li class="menu-sub"><?= __('Service Providers')?></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Cakedc')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Phpstorm')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Rackspace')?></a></li>
                         <li class="menu-sub">Jobs</li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Freelance App</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Cakephp Jobs</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Cakexperts</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Job Board</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Linkedin</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Freelancer</a></li>
-                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Upwork</a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Freelance App')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Cakephp Jobs')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Cakexperts')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Job Board')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Linkedin')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Freelancer')?></a></li>
+                        <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Upwork')?></a></li>
                     </ul>
                 </div>
 
@@ -154,7 +153,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 text-center mt30">
-                <p class="copyright">&copy; Copyright 2005-2016 Cake Software Foundation, Inc. All rights reserved.</p>
+                <p class="copyright">&copy; <?= __('Copyright 2005-2016 Cake Software Foundation, Inc. All rights reserved.')?></p>
             </div>
         </div>
     </div>

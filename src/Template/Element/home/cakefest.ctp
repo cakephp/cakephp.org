@@ -19,9 +19,9 @@
             </div>
 
             <div class="col-md-6 col-md-offset-1">
-                <p>Don't have a ticket yet? Only a limited amount are available, so purchase yours today! Not only is there a huge range of great talks and workshops being run, there are a whole range of prizes and giveaways provided by our gracious sponsors!</p>
+                <p><?= __('Don\'t have a ticket yet? Only a limited amount are available, so purchase yours today! Not only is there a huge range of great talks and workshops being run, there are a whole range of prizes and giveaways provided by our gracious sponsors!') ?></p>
                 <div class="text-center">
-                    <button type="button" class="btn btn-fest mt40">Buy Your Tickets</button>
+                    <button type="button" class="btn btn-fest mt40"><?= __('Buy Your Tickets')?></button>
                 </div>
             </div>
             <div class="col-md-3 col-md-offset-1">

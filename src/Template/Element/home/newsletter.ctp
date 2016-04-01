@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center">
-                <h3 class="title-white mb50">Sign up for our newsletter.</h3>
+                <h3 class="title-white mb50"><?=__('Sign up for our newsletter.')?></h3>
 
                 <form class="form" method="post" action="">
                     <div class="row col-p10">
@@ -14,7 +14,7 @@
                         </div>
                     </div>
                     <div class="mt20 clearfix">
-                        <button type="submit" class="btn btn-white">Send!</button>
+                        <button type="submit" class="btn btn-white"><?=__('Send!')?></button>
                     </div>
                 </form>
             </div>
