@@ -33,16 +33,8 @@ $cakeDescription = __('CakePHP - Build fast, grow solid.');
     <link rel="shortcut icon" href="images/favicon.png">
 
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic|Montserrat:400,700' rel='stylesheet'>
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="plugins/cake/stylesheet.css">
-    <link rel="stylesheet" href="plugins/elegant_font/html_css/style.css">
 
-
-    <link rel="stylesheet" href="plugins/rs-plugin/css/settings.css" media="screen">
-    <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <?= $this->AssetCompress->css('public', ['raw' => true]) ?>
 
 
     <?= $this->fetch('meta') ?>
@@ -57,20 +49,6 @@ $cakeDescription = __('CakePHP - Build fast, grow solid.');
 </section>
 <?= $this->element('footer')?>
 
-
-<script src="plugins/jquery/jquery-2.1.0.min.js"></script>
-<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-
-<script src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-<script src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-
-<script src="plugins/jquery.appear.js"></script>
-<script src="plugins/retina.min.js"></script>
-<script src="plugins/stellar.min.js"></script>
-<script src="plugins/sticky.min.js"></script>
-<script src="plugins/owl-carousel/owl.carousel.min.js"></script>
-<script src="plugins/nav/down.js"></script>
-
-<script src="js/script.js"></script>
+<?= $this->AssetCompress->script('public'); ?>
 </body>
 </html>
