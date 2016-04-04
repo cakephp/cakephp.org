@@ -70,7 +70,7 @@
 ); ?>
 <?= $this->Html->link(
     $this->Html->tag('i', '', ['class' => 'fa icon-social fa-stack-overflow']),
-    'http://stackoverflow.com/questions/tagged/cakephp',
+    'http://stackoverflow.com/tags/cakephp/info',
     [
         'target' => '_blank',
         'title' => 'Stack Overflow',
