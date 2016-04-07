@@ -34,7 +34,8 @@ $cakeDescription = __('CakePHP - Build fast, grow solid.');
 
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic|Montserrat:400,700' rel='stylesheet'>
 
-    <?= $this->AssetCompress->css('public', ['raw' => true]) ?>
+    <?= $this->AssetCompress->css('fonts', ['raw' => true]) ?>
+    <?= $this->AssetCompress->css('public') ?>
 
 
     <?= $this->fetch('meta') ?>
@@ -49,6 +50,8 @@ $cakeDescription = __('CakePHP - Build fast, grow solid.');
 </section>
 <?= $this->element('footer')?>
 
-<?= $this->AssetCompress->script('public', ['raw' => true]); ?>
+<?= $this->AssetCompress->script('public'); ?>
+<?= $this->AssetCompress->script('not_compiled', ['raw' => true]); ?>
 </body>
 </html>
+
