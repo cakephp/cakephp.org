@@ -59,11 +59,11 @@
     ]
 ); ?>
 <?= $this->Html->link(
-    $this->Html->tag('span', 'T', ['class' => 'glyph_range icon-social']),
-    'https://www.quora.com/topic/CakePHP',
+    $this->Html->tag('i', '', ['class' => 'fa fa-slack icon-social']),
+    'http://cakesf.herokuapp.com/',
     [
         'target' => '_blank',
-        'title' => 'Quora',
+        'title' => 'Slack',
         'data-toggle' => 'tooltip',
         'escape' => false
     ]
@@ -80,7 +80,7 @@
 ); ?>
 <?= $this->Html->link(
     '#IRC',
-    '#',
+    'https://kiwiirc.com/client/irc.freenode.net#cakephp',
     [
         'target' => '_blank',
         'title' => 'IRC',
