@@ -49,6 +49,6 @@ $cakeDescription = __('CakePHP - Build fast, grow solid.');
 </section>
 <?= $this->element('footer')?>
 
-<?= $this->AssetCompress->script('public'); ?>
+<?= $this->AssetCompress->script('public', ['raw' => true]); ?>
 </body>
 </html>
