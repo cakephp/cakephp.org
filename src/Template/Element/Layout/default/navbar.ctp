@@ -11,7 +11,7 @@
             </div>
             <div class="col-sm-9 col-md-9">
                 <nav class="navbar-right">
-                    <?= $this->element('menu/menu') ?>
+                    <?= $this->element('Layout/default/menu/menu') ?>
                 </nav>
             </div>
         </div>
@@ -33,12 +33,12 @@
                             class="fa toggle-modal icon_menu"></i></button>
                 </div>
                 <div id="wrap">
-                    <?= $this->element('menu/search') ?>
+                    <?= $this->element('Layout/default/menu/search') ?>
                 </div>
             </div>
         </div>
     </div>
 </header>
-<?= $this->element('menu/mobile_menu') ?>
-<?= $this->element('menu/top_bar') ?>
+<?= $this->element('Layout/default/menu/mobile_menu') ?>
+<?= $this->element('Layout/default/menu/top_bar') ?>
 

@@ -50,12 +50,12 @@ $cakeDescription = __('CakePHP - Build fast, grow solid.');
     <?= $this->fetch('script') ?>
 </head>
 <body>
-<?= $this->element('navbar')?>
+<?= $this->element('Layout/default/navbar')?>
 <?= $this->Flash->render() ?>
 <section class="clearfix">
     <?= $this->fetch('content') ?>
 </section>
-<?= $this->element('footer')?>
+<?= $this->element('Layout/default/footer')?>
 
 
 <script src="plugins/jquery/jquery-2.1.0.min.js"></script>
