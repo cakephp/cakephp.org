@@ -34,7 +34,7 @@ $cakeDescription = __('CakePHP - Build fast, grow solid.');
 
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic|Montserrat:400,700' rel='stylesheet'>
 
-    <?= $this->AssetCompress->css('fonts', ['raw' => true]) ?>
+    <?= $this->AssetCompress->css('fonts', ['raw' => true, 'pathPrefix' => null]) ?>
     <?= $this->AssetCompress->css('public') ?>
 
 
@@ -51,7 +51,7 @@ $cakeDescription = __('CakePHP - Build fast, grow solid.');
 <?= $this->element('Layout/default/footer')?>
 
 <?= $this->AssetCompress->script('public'); ?>
-<?= $this->AssetCompress->script('not_compiled', ['raw' => true]); ?>
+<?= $this->AssetCompress->script('not_compiled', ['raw' => true, 'pathPrefix' => null]); ?>
 <?php $address = env('SERVER_ADDR'); if ($address && !in_array($address, ['127.0.0.1', 'localhost'], true)): ?>
     <script type="text/javascript">
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
