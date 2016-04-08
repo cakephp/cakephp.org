@@ -26,7 +26,7 @@ class MenuHelper extends Helper
                 'url' => '#',
             ],
             'Newsletter' => [
-                'url' => '#',
+                'url' => ['controller' => 'Pages', 'action' => 'display', 'newsletter'],
             ],
             'Certification' => [
                 'url' => 'http://certification.cakephp.org/',
