@@ -56,6 +56,19 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/pages/*', ['controller' => 'Pages', 'action' => 'display']);
 
     /**
+     * Custom routes
+     */
+    $routes->connect('/newsletter', ['controller' => 'Pages', 'action' => 'display', 'newsletter']);
+    $routes->connect('/newsletter/freelancers', ['controller' => 'Pages', 'action' => 'display', 'newsletter_freelancers_signup']);
+    $routes->connect('/newsletter/signup', ['controller' => 'Pages', 'action' => 'display', 'newsletter_signup']);
+    $routes->connect('/search', ['controller' => 'Pages', 'action' => 'display', 'search']);
+    $routes->connect('/news', ['controller' => 'Pages', 'action' => 'display', 'news']);
+    $routes->connect('/documentation', ['controller' => 'Pages', 'action' => 'display', 'documentation']);
+    $routes->connect('/privacy', ['controller' => 'Pages', 'action' => 'display', 'privacy']);
+    $routes->connect('/assets', ['controller' => 'Pages', 'action' => 'display', 'assets']);
+    $routes->connect('/logos', ['controller' => 'Pages', 'action' => 'display', 'trademark']);
+    $routes->connect('/trademark', ['controller' => 'Pages', 'action' => 'display', 'trademark']);
+    /**
      * Connect catchall routes for all controllers.
      *
      * Using the argument `DashedRoute`, the `fallbacks` method is a shortcut for
