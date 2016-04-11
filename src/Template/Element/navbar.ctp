@@ -1,45 +1,43 @@
-<nav class="navbar navbar-inverse">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">CakePHP</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?= __('Documentation')?> <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#"><?= __('Book')?></a></li>
-                        <li><a href="#"><?= __('API')?></a></li>
-                        <li><a href="#"><?= __('Videos')?></a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?= __('Community')?><span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#"><?= __('Stackoverflow')?></a></li>
-                        <li><a href="#"><?= __('Issues')?></a></li>
-                        <li><a href="#"><?= __('Calendar')?></a></li>
-                        <li><a href="#"><?= __('Help & Support')?></a></li>
-                        <li role="separator" class="divider"></li>
-                        <li class="dropdown-header"><?= __('Social')?></li>
-                        <li><a href="#"><?= __('Facebook')?></a></li>
-                        <li><a href="#"><?= __('Google+')?></a></li>
-                        <li><a href="#"><?= __('Twitter')?></a></li>
-                    </ul>
-                </li>
-                <li><a href="#contact"><?= __('Forum')?></a></li>
-                <li><a href="#contact"><?= __('Marketplace')?></a></li>
-                <li class="<?= $this->App->active('projects'); ?>">
-                	<a href="#contact"><?= __('Showcase')?></a>
-               	</li>
-                <li><a href="#contact"><?= __('Job Board')?></a></li>
-            </ul>
+<header class="nav-down">
+    <div class="container-fluid hidden-xs hidden-sm">
+        <div class="row">
+            <div class="col-sm-3 col-md-3">
+                <?=
+                $this->Html->link(
+                    $this->Html->image('logo-cake.png', ['alt' => __('Home'), 'fullBase' => true]),
+                    '/',
+                    ['escape' => false, 'class' => 'logo-cake']
+                ); ?>
+            </div>
+            <div class="col-sm-9 col-md-9">
+                <nav class="navbar-right">
+                    <?= $this->element('menu/menu') ?>
+                </nav>
+            </div>
         </div>
     </div>
-</nav>
+    <div class="container-fluid hidden-md hidden-lg">
+        <div class="row">
+
+            <div class="col-sm-6 col-xs-6">
+                <?=
+                $this->Html->link(
+                    $this->Html->image('logo-cake.png', ['alt' => __('Home'), 'fullBase' => true]),
+                    '/',
+                    ['escape' => false, 'class' => 'logo-cake']
+                ); ?>
+            </div>
+            <div class="col-sm-6 col-xs-6">
+                <div class="navbar-right">
+                    <button class="btn-menu" data-toggle="modal" data-target="#menumodal"><i
+                            class="fa toggle-modal icon_menu"></i></button>
+                </div>
+                <div id="wrap">
+                    <?= $this->element('menu/search') ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<?= $this->element('menu/mobile_menu') ?>
+<?= $this->element('menu/top_bar') ?>

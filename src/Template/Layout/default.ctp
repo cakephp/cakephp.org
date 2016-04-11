@@ -13,30 +13,39 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = 'CakePHP: the rapid development php framework';
+$cakeDescription = __('CakePHP - Build fast, grow solid.');
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <?= $this->Html->charset() ?>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>
         <?= $cakeDescription ?>:
         <?= $this->fetch('title') ?>
     </title>
     <?= $this->Html->meta('icon') ?>
-    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css">
+    <meta charset="utf-8" >
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <title></title>
+    <link rel="shortcut icon" href="images/favicon.png">
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic|Montserrat:400,700' rel='stylesheet'>
+    <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/plugins/cake/stylesheet.css">
+    <link rel="stylesheet" href="/plugins/elegant_font/html_css/style.css">
+
+
+    <link rel="stylesheet" href="/plugins/rs-plugin/css/settings.css" media="screen">
+    <link rel="stylesheet" href="/plugins/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.css">
+
 	<script src="//cdn.ckeditor.com/4.5.8/standard/ckeditor.js"></script>
 
 	<style>
@@ -50,10 +59,27 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 <body>
 <?= $this->element('navbar')?>
 <?= $this->Flash->render() ?>
-<section class="container clearfix">
+<section class="clearfix">
     <?= $this->fetch('content') ?>
 </section>
-<footer>
-</footer>
+<?= $this->element('footer')?>
+
+<script src="/plugins/jquery/jquery-2.1.0.min.js"></script>
+<script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
+
+<script src="/plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+<script src="/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+<script src="/plugins/jquery.appear.js"></script>
+<script src="/plugins/retina.min.js"></script>
+<script src="/plugins/stellar.min.js"></script>
+<script src="/plugins/sticky.min.js"></script>
+<script src="/plugins/owl-carousel/owl.carousel.min.js"></script>
+<script src="/plugins/nav/down.js"></script>
+
+<script src="js/script.js"></script>
+
+<?= $this->fetch('bottomScript'); ?>
 </body>
 </html>
