@@ -4,3 +4,5 @@
 /logs/*
 /webroot/cache_css/*
 /webroot/cache_js/*
+/files/*
+/plugins/Showcase

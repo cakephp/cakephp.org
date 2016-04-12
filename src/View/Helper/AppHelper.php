@@ -42,4 +42,14 @@ class AppHelper extends Helper
 
         return $result;
     }
-}
+
+	/**
+	 * Checks the active and return active class
+	 *
+	 * @param string $controller
+	 * @return string
+	 */
+	public function active($controller)
+	{
+		return strtolower($this->request->controller) == strtolower($controller) ? 'active' : '';
+	}

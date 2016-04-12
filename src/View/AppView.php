@@ -38,5 +38,8 @@ class AppView extends View
     {
         $this->loadHelper('AssetCompress.AssetCompress');
         $this->loadHelper('Menu');
+        $this->loadHelper('Form', [
+            'templates' => 'bootstrap_form'
+        ]);
     }
 }

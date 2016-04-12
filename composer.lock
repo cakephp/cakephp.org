@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "56b99f5b085e22179d167c54525282e1",
-    "content-hash": "cda33ea7aa22c22ff07d00e2df422b16",
+    "hash": "c9491393666e08181187d10a311e767b",
+    "content-hash": "5a75f5e10f9ff1595623988eedc267a7",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -125,6 +125,89 @@
                 "localization"
             ],
             "time": "2014-08-24 00:00:00"
+        },
+        {
+            "name": "burzum/cakephp-imagine-plugin",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/burzum/cakephp-imagine-plugin.git",
+                "reference": "c88eaa490dcc60df0914536dbb5da32f78c45b1f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/burzum/cakephp-imagine-plugin/zipball/c88eaa490dcc60df0914536dbb5da32f78c45b1f",
+                "reference": "c88eaa490dcc60df0914536dbb5da32f78c45b1f",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "3.*",
+                "cakephp/plugin-installer": "*",
+                "imagine/imagine": "0.6.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Burzum\\Imagine\\": "src",
+                    "Burzum\\Imagine\\Test\\Fixture\\": "tests\\Fixture"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Krämer",
+                    "homepage": "http://florian-kraemer.net"
+                }
+            ],
+            "description": "Imagine Plugin for CakePHP",
+            "homepage": "https://github.com/burzum/cakephp-imagine-plugin",
+            "keywords": [
+                "cakephp",
+                "image",
+                "image-processing",
+                "media"
+            ],
+            "time": "2016-01-28 23:14:15"
+        },
+        {
+            "name": "cakedc/showcase",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@git.cakedc.com:cakedc/showcase.git",
+                "reference": "3661dc49a2a98945849a03f7c6142963db45dd29"
+            },
+            "require": {
+                "burzum/cakephp-imagine-plugin": "~2.0",
+                "cakephp/cakephp": "~3.0",
+                "josegonzalez/cakephp-upload": "~3.0",
+                "muffin/slug": "~1.0",
+                "muffin/tags": "dev-master",
+                "php": ">=5.4.16"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Showcase\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Showcase\\Test\\": "tests",
+                    "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+                }
+            },
+            "description": "Showcase plugin for CakePHP",
+            "time": "2016-04-06 21:05:19"
         },
         {
             "name": "cakephp/cakephp",
@@ -344,32 +427,39 @@
             "time": "2015-06-10 10:35:13"
         },
         {
-            "name": "league/climate",
-            "version": "3.2.1",
+            "name": "imagine/imagine",
+            "version": "v0.6.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/thephpleague/climate.git",
-                "reference": "b103fc8faa3780c802cc507d5f0ff534ecc94fb5"
+                "url": "https://github.com/avalanche123/Imagine.git",
+                "reference": "149041d2a1b517107bfe270ca2b1a17aa341715d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/climate/zipball/b103fc8faa3780c802cc507d5f0ff534ecc94fb5",
-                "reference": "b103fc8faa3780c802cc507d5f0ff534ecc94fb5",
+                "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/149041d2a1b517107bfe270ca2b1a17aa341715d",
+                "reference": "149041d2a1b517107bfe270ca2b1a17aa341715d",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0",
-                "seld/cli-prompt": "~1.0"
+                "php": ">=5.3.2"
             },
             "require-dev": {
-                "mikey179/vfsstream": "~1.4",
-                "mockery/mockery": "~0.9",
-                "phpunit/phpunit": "~4.6"
+                "sami/sami": "dev-master"
+            },
+            "suggest": {
+                "ext-gd": "to use the GD implementation",
+                "ext-gmagick": "to use the Gmagick implementation",
+                "ext-imagick": "to use the Imagick implementation"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.7-dev"
+                }
+            },
             "autoload": {
-                "psr-4": {
-                    "League\\CLImate\\": "src/"
+                "psr-0": {
+                    "Imagine": "lib/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -378,55 +468,52 @@
             ],
             "authors": [
                 {
-                    "name": "Joe Tannenbaum",
-                    "email": "hey@joe.codes",
-                    "homepage": "http://joe.codes/",
-                    "role": "Developer"
+                    "name": "Bulat Shakirzyanov",
+                    "email": "mallluhuct@gmail.com",
+                    "homepage": "http://avalanche123.com"
                 }
             ],
-            "description": "PHP's best friend for the terminal. CLImate allows you to easily output colored text, special formats, and more.",
+            "description": "Image processing for PHP 5.3",
+            "homepage": "http://imagine.readthedocs.org/",
             "keywords": [
-                "cli",
-                "colors",
-                "command",
-                "php",
-                "terminal"
+                "drawing",
+                "graphics",
+                "image manipulation",
+                "image processing"
             ],
-            "time": "2016-04-04 20:24:59"
+            "time": "2015-09-19 16:54:05"
         },
         {
-            "name": "markstory/asset_compress",
-            "version": "3.0.1",
+            "name": "josegonzalez/cakephp-upload",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/markstory/asset_compress.git",
-                "reference": "7e39db392f4c638ba9c20cb55b2b4a582b7e65a8"
+                "url": "https://github.com/josegonzalez/cakephp-upload.git",
+                "reference": "c2985689318a1b01bc117c2f55fd67ff9dafa2a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/markstory/asset_compress/zipball/7e39db392f4c638ba9c20cb55b2b4a582b7e65a8",
-                "reference": "7e39db392f4c638ba9c20cb55b2b4a582b7e65a8",
+                "url": "https://api.github.com/repos/josegonzalez/cakephp-upload/zipball/c2985689318a1b01bc117c2f55fd67ff9dafa2a2",
+                "reference": "c2985689318a1b01bc117c2f55fd67ff9dafa2a2",
                 "shasum": ""
             },
             "require": {
+                "cakephp/orm": "3.*",
+                "league/flysystem": "*",
+                "php": ">=5.5"
+            },
+            "require-dev": {
                 "cakephp/cakephp": "~3.0",
-                "markstory/mini-asset": "*"
-            },
-            "require-dev": {
                 "cakephp/cakephp-codesniffer": "dev-master",
-                "phpunit/phpunit": "4.1.*"
-            },
-            "suggest": {
-                "leafo/lessphp": "For using the LessPHP filter.",
-                "leafo/scssphp": "For using the ScssPHP filter.",
-                "linkorb/jsmin-php": "For using the JSMin filter.",
-                "natxet/CssMin": "For using the CssMin filter.",
-                "tedivm/jshrink": "For using the JShrink filter."
+                "league/flysystem-vfs": "*",
+                "phpunit/phpunit": "4.1.*",
+                "satooshi/php-coveralls": "dev-master"
             },
             "type": "cakephp-plugin",
             "autoload": {
                 "psr-4": {
-                    "AssetCompress\\": "src"
+                    "Josegonzalez\\Upload\\": "src",
+                    "Josegonzalez\\Upload\\Test\\Fixture\\": "tests\\Fixture"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -435,60 +522,70 @@
             ],
             "authors": [
                 {
-                    "name": "Mark Story",
-                    "homepage": "http://mark-story.com",
-                    "role": "Author"
+                    "name": "Jose Diaz-Gonzalez",
+                    "email": "cakephp+upload@josediazgonzalez.com"
                 }
             ],
-            "description": "An asset compression plugin for CakePHP. Provides file concatenation and a flexible filter system for preprocessing and minification.",
-            "homepage": "https://github.com/markstory/asset_compress",
+            "description": "CakePHP plugin to handle file uploading sans ridiculous automagic",
+            "homepage": "https://github.com/josegonzalez/cakephp-upload",
             "keywords": [
-                "assets",
+                "Behavior",
                 "cakephp",
-                "coffee-script",
-                "less",
-                "minifier",
-                "sass"
+                "files",
+                "orm",
+                "upload"
             ],
-            "time": "2015-08-31 02:19:30"
+            "time": "2016-03-26 21:42:22"
         },
         {
-            "name": "markstory/mini-asset",
-            "version": "1.1.1",
+            "name": "league/flysystem",
+            "version": "1.0.20",
             "source": {
                 "type": "git",
-                "url": "https://github.com/markstory/mini-asset.git",
-                "reference": "0db3762adc14d164d44cc14e372be15e861f04d6"
+                "url": "https://github.com/thephpleague/flysystem.git",
+                "reference": "e87a786e3ae12a25cf78a71bb07b4b384bfaa83a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/markstory/mini-asset/zipball/0db3762adc14d164d44cc14e372be15e861f04d6",
-                "reference": "0db3762adc14d164d44cc14e372be15e861f04d6",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/e87a786e3ae12a25cf78a71bb07b4b384bfaa83a",
+                "reference": "e87a786e3ae12a25cf78a71bb07b4b384bfaa83a",
                 "shasum": ""
             },
             "require": {
-                "league/climate": "~3.0"
+                "php": ">=5.4.0"
+            },
+            "conflict": {
+                "league/flysystem-sftp": "<1.0.6"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.1.*",
-                "squizlabs/php_codesniffer": "*",
-                "zendframework/zend-diactoros": "~1.0"
+                "ext-fileinfo": "*",
+                "mockery/mockery": "~0.9",
+                "phpspec/phpspec": "^2.2",
+                "phpunit/phpunit": "~4.8 || ~5.0"
             },
             "suggest": {
-                "leafo/scssphp": "For using the ScssPHP filter.",
-                "linkorb/jsmin-php": "For using the JSMin filter.",
-                "natxet/CssMin": "For using the CssMin filter.",
-                "oyejorge/less.php": "For using the LessDotPHP filter, see https://github.com/oyejorge/less.php",
-                "tedivm/jshrink": "For using the JShrink filter.",
-                "zendframework/diactoros": "The middleware layer relies on zendframework/diactoros."
+                "ext-fileinfo": "Required for MimeType",
+                "league/flysystem-aws-s3-v2": "Allows you to use S3 storage with AWS SDK v2",
+                "league/flysystem-aws-s3-v3": "Allows you to use S3 storage with AWS SDK v3",
+                "league/flysystem-azure": "Allows you to use Windows Azure Blob storage",
+                "league/flysystem-cached-adapter": "Flysystem adapter decorator for metadata caching",
+                "league/flysystem-copy": "Allows you to use Copy.com storage",
+                "league/flysystem-dropbox": "Allows you to use Dropbox storage",
+                "league/flysystem-eventable-filesystem": "Allows you to use EventableFilesystem",
+                "league/flysystem-rackspace": "Allows you to use Rackspace Cloud Files",
+                "league/flysystem-sftp": "Allows you to use SFTP server storage via phpseclib",
+                "league/flysystem-webdav": "Allows you to use WebDAV storage",
+                "league/flysystem-ziparchive": "Allows you to use ZipArchive adapter"
             },
-            "bin": [
-                "bin/mini_asset"
-            ],
-            "type": "cakephp-plugin",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
-                    "MiniAsset\\": "src"
+                    "League\\Flysystem\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -497,23 +594,31 @@
             ],
             "authors": [
                 {
-                    "name": "Mark Story",
-                    "homepage": "http://mark-story.com",
-                    "role": "Author"
+                    "name": "Frank de Jonge",
+                    "email": "info@frenky.net"
                 }
             ],
-            "description": "An asset compression library. Provides file concatenation and a flexible filter system for preprocessing and minification.",
-            "homepage": "https://github.com/markstory/mini-asset",
+            "description": "Filesystem abstraction: Many filesystems, one API.",
             "keywords": [
-                "assets",
-                "cakephp",
-                "coffee-script",
-                "less",
-                "minifier",
-                "psr7",
-                "sass"
+                "Cloud Files",
+                "WebDAV",
+                "abstraction",
+                "aws",
+                "cloud",
+                "copy.com",
+                "dropbox",
+                "file systems",
+                "files",
+                "filesystem",
+                "filesystems",
+                "ftp",
+                "rackspace",
+                "remote",
+                "s3",
+                "sftp",
+                "storage"
             ],
-            "time": "2016-03-31 03:24:43"
+            "time": "2016-03-14 21:54:11"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -568,6 +673,121 @@
                 "php mobile detect"
             ],
             "time": "2016-03-24 09:06:37"
+        },
+        {
+            "name": "muffin/slug",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/UseMuffin/Slug.git",
+                "reference": "678ef1420b9a2c927bf481c28c3d1ec3c4776c5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/UseMuffin/Slug/zipball/678ef1420b9a2c927bf481c28c3d1ec3c4776c5e",
+                "reference": "678ef1420b9a2c927bf481c28c3d1ec3c4776c5e",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/orm": "3.*"
+            },
+            "require-dev": {
+                "cakephp/cakephp": "~3.0",
+                "cocur/slugify": "^1.2",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Muffin\\Slug\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jad Bitar",
+                    "homepage": "http://jadb.io",
+                    "role": "Author"
+                },
+                {
+                    "name": "ADmad",
+                    "homepage": "https://github.com/ADmad",
+                    "role": "Author"
+                },
+                {
+                    "name": "Others",
+                    "homepage": "https://github.com/usemuffin/slug/graphs/contributors"
+                }
+            ],
+            "description": "Slugging support for CakePHP 3 ORM",
+            "homepage": "https://github.com/usemuffin/slug",
+            "keywords": [
+                "cakephp",
+                "muffin",
+                "orm",
+                "slug"
+            ],
+            "time": "2016-01-21 15:16:43"
+        },
+        {
+            "name": "muffin/tags",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/UseMuffin/Tags.git",
+                "reference": "1e8767faa6b01a5b554c2375b5b0a7f1f09dc6d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/UseMuffin/Tags/zipball/1e8767faa6b01a5b554c2375b5b0a7f1f09dc6d4",
+                "reference": "1e8767faa6b01a5b554c2375b5b0a7f1f09dc6d4",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/orm": "~3.0"
+            },
+            "require-dev": {
+                "cakephp/cakephp": "~3.0",
+                "muffin/slug": "~1.0",
+                "phpunit/phpunit": "~4.1"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Muffin\\Tags\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jad Bitar",
+                    "homepage": "http://jadb.io",
+                    "role": "Author"
+                },
+                {
+                    "name": "ADmad",
+                    "homepage": "https://github.com/ADmad",
+                    "role": "Author"
+                },
+                {
+                    "name": "Others",
+                    "homepage": "https://github.com/usemuffin/tags/graphs/contributors"
+                }
+            ],
+            "description": "Tags plugin for CakePHP 3.x",
+            "homepage": "https://github.com/usemuffin/tags",
+            "keywords": [
+                "cakephp",
+                "muffin",
+                "tags"
+            ],
+            "time": "2016-01-29 04:37:16"
         },
         {
             "name": "psr/log",
@@ -667,54 +887,6 @@
                 "phinx"
             ],
             "time": "2015-12-30 21:16:52"
-        },
-        {
-            "name": "seld/cli-prompt",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Seldaek/cli-prompt.git",
-                "reference": "b27db1514f7d7bb7a366ad95d4eb2b17140a0691"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/cli-prompt/zipball/b27db1514f7d7bb7a366ad95d4eb2b17140a0691",
-                "reference": "b27db1514f7d7bb7a366ad95d4eb2b17140a0691",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Seld\\CliPrompt\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jordi Boggiano",
-                    "email": "j.boggiano@seld.be"
-                }
-            ],
-            "description": "Allows you to prompt for user input on the command line, and optionally hide the characters they type",
-            "keywords": [
-                "cli",
-                "console",
-                "hidden",
-                "input",
-                "prompt"
-            ],
-            "time": "2016-01-09 17:55:27"
         },
         {
             "name": "symfony/config",
@@ -1448,8 +1620,9 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
+        "cakedc/showcase": 20,
         "psy/psysh": 0
     },
     "prefer-stable": true,

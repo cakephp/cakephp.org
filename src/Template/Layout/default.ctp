@@ -18,50 +18,57 @@ $cakeDescription = __('CakePHP - Build fast, grow solid.');
 <!DOCTYPE html>
 <html>
 <head>
-    <?= $this->Html->charset() ?>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<?= $this->Html->charset() ?>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>
-        <?= $cakeDescription ?>:
-        <?= $this->fetch('title') ?>
-    </title>
-    <?= $this->Html->meta('icon') ?>
-    <meta charset="utf-8" >
+	<title>
+		<?= $cakeDescription ?>:
+		<?= $this->fetch('title') ?>
+	</title>
+	<?= $this->Html->meta('icon') ?>
+	<meta charset="utf-8" >
 
-    <title></title>
-    <link rel="shortcut icon" href="images/favicon.png">
+	<title></title>
+	<link rel="shortcut icon" href="images/favicon.png">
 
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic|Montserrat:400,700' rel='stylesheet'>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic|Montserrat:400,700' rel='stylesheet'>
 
-    <?= $this->AssetCompress->css('fonts', ['raw' => true, 'pathPrefix' => null]) ?>
-    <?= $this->AssetCompress->css('public') ?>
+	<?= $this->AssetCompress->css('fonts', ['raw' => true, 'pathPrefix' => null]) ?>
+	<?= $this->AssetCompress->css('public') ?>
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.css">
 
-    <?= $this->fetch('meta') ?>
-    <?= $this->fetch('css') ?>
-    <?= $this->fetch('script') ?>
+	<script src="//cdn.ckeditor.com/4.5.8/standard/ckeditor.js"></script>
+
+	<style>
+		.error-message {color:red;}
+	</style>
+
+	<?= $this->fetch('meta') ?>
+	<?= $this->fetch('css') ?>
+	<?= $this->fetch('script') ?>
 </head>
 <body>
 <?= $this->element('Layout/default/navbar')?>
 <?= $this->Flash->render() ?>
 <section class="clearfix">
-    <?= $this->fetch('content') ?>
+	<?= $this->fetch('content') ?>
 </section>
 <?= $this->element('Layout/default/footer')?>
 
 <?= $this->AssetCompress->script('public'); ?>
 <?= $this->AssetCompress->script('not_compiled', ['raw' => true, 'pathPrefix' => null]); ?>
 <?php $address = env('SERVER_ADDR'); if ($address && !in_array($address, ['127.0.0.1', 'localhost'], true)): ?>
-    <script type="text/javascript">
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-        var pageTracker = _gat._getTracker("UA-743287-4");
-        pageTracker._initData();
-        pageTracker._trackPageview();
-    </script>
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-743287-4");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+	</script>
 <?php endif; ?>
 </body>
 </html>
