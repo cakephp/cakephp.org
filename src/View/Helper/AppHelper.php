@@ -1,6 +1,7 @@
 <?php
 namespace App\View\Helper;
 
+use Cake\I18n\Time;
 use Cake\View\Helper;
 use Cake\Utility\Hash;
 
@@ -52,5 +53,15 @@ class AppHelper extends Helper
 	public function active($controller)
 	{
 		return strtolower($this->request->controller) == strtolower($controller) ? 'active' : '';
+	}
+
+	/**
+	 * Get days left for cakefest
+	 *
+	 * @return int
+	 */
+	public function cakeFestDaysLeft()
+	{
+		return (new Time("2016-05-26"))->diff(new Time())->days;
 	}
 }
