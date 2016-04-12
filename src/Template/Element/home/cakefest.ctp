@@ -21,13 +21,22 @@
             <div class="col-md-6 col-md-offset-1">
                 <p><?= __('Don\'t have a ticket yet? Only a limited amount are available, so purchase yours today! Not only is there a huge range of great talks and workshops being run, there are a whole range of prizes and giveaways provided by our gracious sponsors!') ?></p>
                 <div class="text-center">
-                    <button type="button" class="btn btn-fest mt40"><?= __('Buy Your Tickets')?></button>
+                    <button type="button" class="btn btn-fest mt40">
+                    	<?= $this->Html->link(
+                    		__('Buy Your Tickets'),
+                    		'http://cakefest.org/tickets',
+                    		[
+                    			'style' => 'color:white;',
+                    			'target' => '_blank'
+                    		]
+                    	) ?>
+                    </button>
                 </div>
             </div>
             <div class="col-md-3 col-md-offset-1">
                 <div class="box-data">
                     <h6>Only</h6>
-                    <h6><span>55<span></h6>
+                    <h6><span><?= $this->App->cakeFestDaysLeft() ?><span></h6>
                     <h5>days left to</h5>
                     <h4>CakeFest 2016</h4>
                 </div>
