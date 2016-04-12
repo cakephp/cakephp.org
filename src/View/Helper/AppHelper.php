@@ -53,3 +53,4 @@ class AppHelper extends Helper
 	{
 		return strtolower($this->request->controller) == strtolower($controller) ? 'active' : '';
 	}
+}
