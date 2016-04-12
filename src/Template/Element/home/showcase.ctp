@@ -27,11 +27,11 @@
 
         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
             <i class="fa icon-carousel fa-angle-left"></i>
-            <span class="sr-only">Previous</span>
+            <span class="sr-only"><?= __("Previous") ?></span>
         </a>
         <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
             <i class="fa icon-carousel fa-angle-right"></i>
-            <span class="sr-only">Next</span>
+            <span class="sr-only"><?= __("Next") ?></span>
         </a>
     </div>
 </section>
@@ -40,8 +40,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h3>Companies using CakePHP</h3>
-                <button type="button" class="btn btn-red mt40">View the Showcase</button>
+                <h3><?= __("Companies using CakePHP") ?></h3>
+                <?= $this->Html->link(
+                	__("View the Showcase"),
+                	['plugin' => "showcase", 'controller' => 'projects', 'action' => 'index'],
+                	['class' => 'btn btn-red mt40']
+                ) ?>
             </div>
         </div>
     </div>
