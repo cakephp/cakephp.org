@@ -32,7 +32,7 @@
 		background:rgb(181,67,33);
 	}
 	hr {
-		display: block;
+		display: block;::selection
 		line-height: 25px;
 		margin: 30px 0;
 		position: relative;
@@ -125,7 +125,7 @@
 	::selection {
 		text-shadow:none;
 		color: #fff;
-		background:rgba(181,67,33,0.8);
+		background:#d33c44;
 	}
 
 
@@ -171,6 +171,14 @@
 		background-attachment: fixed;
 	}
 
+	.bg-img-2 {
+		position: relative;
+	 	-webkit-backface-visibility: visible !important;
+	 	background-repeat: no-repeat;
+	 	background-position: 50% 0; 
+		background-size: cover;
+	}
+
 	@media (min-width:768px) {
 		.bg-img.fixed,
 		.stellar { background-attachment: fixed; }
@@ -178,13 +186,15 @@
 
 	/* Background images path */
 	.bg01 { 
-		background-image:url('../images/slider/slide-1.jpg');
+		background-image:url('../images/slider/slide-1.jpg'); 
 		position: relative;
 	    background-repeat: no-repeat;
 	    background-position: center top;
 	    background-size: cover;
 	    background-attachment: fixed;
 	}
+
+	.bg02 { background-image:url('../images/bg/recipe.jpg'); }
 
 	.bg11 { 
 		background-image:url('../images/bg/cakefest.jpg'); 
@@ -195,12 +205,31 @@
 	    background-attachment: fixed;
 	}
 
+	.bg03 { 
+		background-image:url('../images/showcase/featured-2.jpg'); 
+		position: relative;
+	    background-repeat: no-repeat;
+	    background-position: center top;
+	    background-size: cover;
+	}
 
+	.bg04 { 
+		background-image:url('../images/showcase/featured-3.jpg'); 
+		position: relative;
+	    background-repeat: no-repeat;
+	    background-position: center top;
+	    background-size: cover;
+	}
 
-	.bg02 { background-image:url('../images/bg/recipe.jpg'); }
-	.bg03 { background-image:url('../images/demo/bg03.jpg'); }
-	.bg04 { background-image:url('../images/demo/bg04.jpg'); }
-	.bg05 { background-image:url('../images/demo/bg05.jpg'); }
+	.bg05 { 
+		background-image:url('../images/showcase/big-testimonial.jpg'); 
+		position: relative;
+	    background-repeat: no-repeat;
+	    background-position: center top;
+	    background-size: cover;
+	}
+	
+	
 	.bg06 { background-image:url('../images/demo/bg06.jpg'); }
 	.bg07 { background-image:url('../images/demo/bg07.jpg'); }
 	.bg08 { background-image:url('../images/demo/bg08.jpg'); }
@@ -266,7 +295,7 @@
 		display:block;
 		height:1px;
 		width:35px;
-		border-top:2px solid rgb(181,67,33);
+		border-top:2px solid #D33C44;
 		margin:6px 0 10px;
 	}
 	.br-bottom-center::after {
@@ -400,14 +429,26 @@
 	.pl10 {padding-left: 10px !important;}
 
 	.pt-90 {padding-top: 90px;}
+	.pt-50 {padding-top: 50px;}
 	.pt-100 {padding-top: 100px !important;}
 	.pt-120 {padding-top: 120px !important;}
+	.pt-140 {padding-top: 140px;}
+
+	.pb-40 {padding-bottom: 40px;}
+	.pb-50 {padding-bottom: 50px;}
+	.pb-80 {padding-bottom: 80px;}
+	.pb-120 {padding-bottom: 120px;}
 
 	.ptb-30 { padding-top: 30px; padding-bottom: 30px;}
+	.ptb-50 { padding-top: 50px; padding-bottom: 50px;}
 	.ptb-80 { padding-top: 80px; padding-bottom: 80px;}
 	.ptb-120 { padding-top: 120px; padding-bottom: 120px;}
 	.ptb-200 { padding-top: 200px; padding-bottom: 200px;}
 
+
+	.ptb-80-40 {padding-top: 80px; padding-bottom: 40px;}
+	.ptb-120-60 {padding-top: 120px; padding-bottom: 60px;}
+	.ptb-140-25 {padding-top: 140px; padding-bottom: 25px;}
 	.ptb-160-80 {padding-top: 160px; padding-bottom: 80px;}
 
 	.m0 { margin:0 !important; }
@@ -458,6 +499,8 @@
 
 	.pr30 { padding-right: 30px !important; }
 	.pl60 { padding-left: 60px !important;}
+
+	.pr13 {padding-right: 13px;}
 
 	.no-border { border:none !important; }
 
@@ -549,7 +592,7 @@
 	.menu > li > a:hover,
 	.menu > li > a:focus,
 	.menu > li:hover > a {
-		color:rgb(208, 208, 207);
+		color:#fff;
 		-webkit-transition: all .2s ease-out; transition: all .2s ease-out;
 	}
 
@@ -1491,14 +1534,14 @@
 
 	.page-breadcrumbs-wrapper {
 		position:relative;
-		top:-38px;
+		top:-31px;
 		margin-bottom:-38px;
 	}
 	.page-breadcrumbs {
 		width:auto;
 		border-top-left-radius:2px;
 		border-top-right-radius:2px;
-		background-color:#f5f5f5;
+		background-color:#fff;
 		padding:7px 17px;
 		font-size:11px;
 		font-weight:600;
@@ -1506,13 +1549,18 @@
 		text-transform: uppercase;
 	}
 	.page-breadcrumbs a {
-		color:#889;
+		color: #363637;
+	    padding: 14px;
+	    font-size: 14px;
+	    text-transform: capitalize;
+	    letter-spacing: 0.05em;
+	    font-weight: 400;
 	}
 	.page-breadcrumbs a:hover,
 	.page-breadcrumbs a:focus,
 	.page-breadcrumbs a:active,
 	.page-breadcrumbs a.active {
-		color:#99a;
+		color:#d33c44;
 	}
 	.page-breadcrumbs .separator {
 		margin:0 8px;
@@ -2415,7 +2463,7 @@
 		width:auto;
 		border-top-left-radius:2px;
 		border-top-right-radius:2px;
-		background-color:#f5f5f5;
+		background-color:#fff;
 		padding:9px 12px 6px;
 	}
 	.portfolio-filter.pf2 { 
@@ -2433,8 +2481,9 @@
 	}
 	.portfolio-filter li > a {
 		font-size:14px;
-		font-weight:600;
-		color:#889;
+		font-weight:400;
+		color:#363637;
+		letter-spacing: 0.05em;
 		text-transform: capitalize;
 		border:none;
 		background:none;
@@ -2445,7 +2494,7 @@
 	.portfolio-filter li a:focus,
 	.portfolio-filter li a:active,
 	.portfolio-filter li a.active {
-		color:rgb(181,67,33);
+		color:#D33C44;
 		-webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
 	}
 
@@ -4241,19 +4290,30 @@
 
 	.pagination > li > a {
 		border: none;
-		margin-right:7px;
-		padding:5px 12px;
-		color: rgb(181,67,33);
-		background-color: #f5f5f5;
-		border-radius: 3px;
+	    margin-right: 7px;
+	    padding: 5px 15px;
+	    color: #363637;
+	    background-color: #fff;
+	    border-radius: 3px;
+	    font-weight: 700;
+	    font-size: 20px;
+	    
+	    -moz-font-feature-settings:"tnum" 1, "lnum" 1, "kern" 1;
+		-ms-font-feature-settings:"tnum" 1, "lnum" 1, "kern" 1;
+		-o-font-feature-settings:"tnum" 1, "lnum" 1, "kern" 1;
+		-webkit-font-feature-settings:"tnum" 1, "lnum" 1, "kern" 1;
+		font-feature-settings:"tnum" 1, "lnum" 1, "kern" 1;
 	}
 
-	.pagination > li > a > .fa { font-size:10px; }
+	.pagination > li > a > .fa {
+		font-size: 16px;
+    	color: #363637;
+	}
 
 	.pagination > .active > a {
-		color:#fff;
-		background-color: rgb(181,67,33);
-		border-radius:2px;
+		    color: #D33C45;
+    background-color: transparent;
+    border-radius: 0;
 	}
 	/*.pagination li:first-child.disabled a { padding-left: 0 !important; }*/
 
@@ -4261,8 +4321,8 @@
 	.pagination li:last-child a { border-bottom-right-radius: 2px; border-top-right-radius: 2px; }
 
 	.pagination > li a:hover {
-		background-color: rgb(181,67,33);
-		color:#fff;
+		color: #D33C45;
+    	background-color: transparent;
 	}
 	.pagination .active a:hover { background-color: #556; }
 
@@ -5810,7 +5870,6 @@ blockquote {
 
 .back-book h2 {
     margin: 0;
-    font-size: 16px;
     color: #7A7B76;
     font-weight: 400;
     letter-spacing: 0.03em;
@@ -5837,7 +5896,7 @@ blockquote {
 
 .back-api  h2 {
     margin: 0;
-    font-size: 16px;
+    font-size: 15px;
     color: #7A7B76;
     font-weight: 400;
     letter-spacing: 0.03em;
@@ -6964,4 +7023,1227 @@ pre {
 .class-box-2 {
 	    margin-bottom: 15px;
 }
+
+
+/* ---------------------- VIDEOS ------------------------- */
+
+
+.title-videos h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #d33c44;
+    font-weight: 200;
+    letter-spacing: 0.01em;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+
+.title-videos h3 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 0.01em;
+    line-height: 40px;
+    margin-bottom: 0;
+}
+
+.t-videos h4 {
+	color: #363637;
+    letter-spacing: 0.01em;
+    font-weight: 300;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.t-videos p {
+    letter-spacing: 0.05em;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 40px;
+}
+
+
+.t-videos  {
+  	padding-right: 30px;
+    padding-left: 30px;
+}
+
+.back-light-gray {
+	background: #f7f7f5;
+}
+
+.back-white {
+	background: #fff;
+}
+
+.back-gray {
+	background: #EFEFEF;
+}
+
+.back-medium-gray {
+	background: #bdbdb5;
+}
+
+.back-dark {
+	background: #363637;
+}
+
+.submenu-videos {
+	    float: right;
+	    padding-right: 13px;
+}
+
+
+
+/* ---------------------- SHOWCASE ------------------------- */
+
+
+.title-showcase h1 {
+    text-align: center;
+    color: #d33c44;
+    font-size: 50px;
+    letter-spacing: 0.01em;
+    line-height: 55px;
+    margin-bottom: 15px;
+    font-weight: 200;
+}
+
+.title-showcase h3 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 35px;
+    letter-spacing: 0.01em;
+}
+
+.featured-case h3 {
+    text-align: right;
+    font-size: 50px;
+    font-weight: 200;
+    color: #d33c44;
+    letter-spacing: 0.01em;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+
+.featured-case h4 {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.01em;
+}
+
+.featured-case p {
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.featured-case span {
+    color: #d33c44;
+    font-weight: 700;
+}
+
+.featured-case-2 h3 {
+    font-size: 50px;
+    color: #bdbdb5;
+    font-weight: 200;
+    letter-spacing: 0.01em;
+    line-height: 50px;
+}
+
+.featured-case-2 p {
+	font-size: 14px;
+    color: white;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+
+.featured-case-2 span {
+	color: #bdbdb5;
+    font-weight: 700;
+}
+
+.featured-case-3 h3 {
+    font-size: 50px;
+    color: #f7f7f5;
+    font-weight: 200;
+    letter-spacing: 0.01em;
+    line-height: 50px;
+}
+
+.featured-case-3 p {
+	font-size: 14px;
+    color: #363637;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+
+.featured-case-3 span {
+	color: #f7f7f5;
+    font-weight: 700;
+}
+
+.big-testimonial blockquote {
+    color: #bdbdb5;
+}
+
+.big-testimonial h5 {
+    text-align: right;
+    color: #D33C44;
+    font-size: 15px;
+    margin: 0;
+    letter-spacing: 0.04em;
+    line-height: 30px;
+}
+
+.big-testimonial h6 {
+    text-align: right;
+    font-size: 15px;
+    letter-spacing: 0.04em;	
+}
+
+.title-more h3{
+	text-align: center;
+    color: #d33c44;
+    font-size: 50px;
+    letter-spacing: 0.01em;
+    line-height: 55px;
+    margin-bottom: 15px;
+    font-weight: 200;
+}
+
+.showcase-cases h4{
+    font-size: 35px;
+    color: #383838;
+    font-weight: 200;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.showcase-cases p{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    text-transform: initial;
+    text-align: left;
+}
+
+.showcase-cases span{
+	font-weight: 700;
+}
+
+.showcase-cases img{
+	margin-top: 9px;
+}
+
+.view-more h5 {
+    display: inline;
+    text-transform: uppercase;
+    color: #D33C44;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.fa-view-more {
+	display: inline;
+    font-size: 8px;
+    padding: 0 7px;
+    color: #D33C44;
+    vertical-align: 3px;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.view-more h5:hover  {
+	color: #bdbdb5;
+}
+
+.view-more a:hover .fa-view-more {
+	color: #bdbdb5;
+}
+
+.show-title {
+	background: #f7f7f5;
+	padding-top: 140px;
+}
+
+/* ---------------------- CALENDAR ------------------------- */
+
+
+.title-calendar h1 {
+    font-weight: 200;
+    font-size: 50px;
+    text-align: center;
+    color: #f7f7f5;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+}
+
+
+
+.icon-calendar {
+    font-size: 70px;
+    color: #f7f7f5;
+    padding-left: 10px;
+    vertical-align: -5px;
+}
+
+.check-calendar {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.check-calendar h3 {
+    font-size: 35px;
+    color: #bdbdb5;
+    text-align: center;
+    letter-spacing: 0.05em;
+    line-height: 27px;
+    font-weight: 300;
+}
+
+.check-calendar p{
+	font-size: 14px;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+}
+
+.check-calendar a {
+	color: #2f85ae;
+	-webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.check-calendar a:hover {
+	color: #bdbdb5;
+}
+
+
+/* ---------------------- CALENDAR PLUGIN ------------------------- */
+
+
+.fc {
+	direction: ltr;
+	text-align: left;
+	}
+	
+.fc table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+	
+html .fc,
+.fc table {
+	font-size: 1em;
+	}
+	
+.fc td,
+.fc th {
+	padding: 0;
+	vertical-align: top;
+}
+
+.fc-header-left, .fc-header-right, .fc-header-center {
+	padding: 0;
+	vertical-align: bottom !important;
+}
+
+.fc-header-title h2 {
+	    margin: 0 0 5px 0;
+}
+
+
+/* Header
+------------------------------------------------------------------------*/
+
+.fc-header td {
+	white-space: nowrap;
+	}
+
+.fc-header-left {
+	width: 25%;
+	text-align: left;
+	}
+	
+.fc-header-center {
+	text-align: center;
+	}
+	
+.fc-header-right {
+	width: 25%;
+	text-align: right;
+	}
+	
+.fc-header-title {
+	display: inline-block;
+	vertical-align: top;
+	}
+	
+.fc-header-title h2 {
+	margin-top: 0;
+	white-space: nowrap;
+	color: #bdbdb5;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+	}
+	
+.fc .fc-header-space {
+	padding-left: 10px;
+	}
+	
+.fc-header .fc-button {
+	margin-bottom: 1em;
+	vertical-align: bottom;
+	}
+	
+/* buttons edges butting together */
+
+.fc-header .fc-button {
+	margin-right: -1px;
+	}
+	
+.fc-header .fc-corner-right,  /* non-theme */
+.fc-header .ui-corner-right { /* theme */
+	margin-right: 0; /* back to normal */
+	}
+	
+/* button layering (for border precedence) */
+	
+.fc-header .fc-state-hover,
+.fc-header .ui-state-hover {
+	z-index: 2;
+	}
+	
+.fc-header .fc-state-down {
+	z-index: 3;
+	}
+
+.fc-header .fc-state-active,
+.fc-header .ui-state-active {
+	z-index: 4;
+	}
+	
+	
+	
+/* Content
+------------------------------------------------------------------------*/
+	
+.fc-content {
+	clear: both;
+	zoom: 1; /* for IE7, gives accurate coordinates for [un]freezeContentHeight */
+	}
+	
+.fc-view {
+	width: 100%;
+	overflow: hidden;
+	}
+	
+	
+
+/* Cell Styles
+------------------------------------------------------------------------*/
+
+.fc-widget-header,    /* <th>, usually */
+.fc-widget-content {  /* <td>, usually */
+	border: 1px solid #fff;
+	    background: #f7f7f5;
+	}
+	
+.fc-state-highlight { /* <td> today cell */ /* TODO: add .fc-today to <th> */
+	background: #fcfcfc;
+	}
+	
+.fc-cell-overlay { /* semi-transparent rectangle while dragging */
+	background: #bcccbc;
+	opacity: .3;
+	filter: alpha(opacity=30); /* for IE */
+	}
+	
+
+
+/* Buttons
+------------------------------------------------------------------------*/
+
+.fc-button {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    height: 1.9em;
+    line-height: 1.9em;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #bdbdb5;
+    padding: 0 15px;
+}
+
+
+.fc-text-arrow {
+	margin: 0 .1em;
+	font-size: 3em;
+	font-family: "Courier New", Courier, monospace;
+	vertical-align: baseline; /* for IE7 */
+	}
+
+
+	
+/*
+  button states
+  borrowed from twitter bootstrap (http://twitter.github.com/bootstrap/)
+*/
+
+.fc-state-default {
+	background-color: #fff;
+	}
+
+.fc-state-hover,
+.fc-state-down,
+.fc-state-active,
+.fc-state-disabled {
+	color: #333333;
+	}
+
+.fc-state-hover {
+	color: #333333;
+	text-decoration: none;
+	background-position: 0 -15px;
+	-webkit-transition: background-position 0.1s linear;
+	   -moz-transition: background-position 0.1s linear;
+	     -o-transition: background-position 0.1s linear;
+	        transition: background-position 0.1s linear;
+	}
+
+.fc-state-down,
+.fc-state-active {
+	background-image: none;
+	outline: 0;
+	color: #D33C44;
+	}
+
+.fc-state-disabled {
+	cursor: default;
+	background-image: none;
+	opacity: 0.55;
+	filter: alpha(opacity=65);
+	box-shadow: none;
+	}
+
+	
+
+/* Global Event Styles
+------------------------------------------------------------------------*/
+
+.fc-event-container > * {
+	z-index: 8;
+	}
+
+.fc-event-container > .ui-draggable-dragging,
+.fc-event-container > .ui-resizable-resizing {
+	z-index: 9;
+	}
+	 
+.fc-event {
+	border: none; /* default BORDER color */
+	background-color: transparent; /* default BACKGROUND color */
+	color: #363637;               /* default TEXT color */
+	font-size: .85em;
+	cursor: default;
+	padding:0 10px 10px;
+	line-height: 20px;
+	}
+
+a.fc-event {
+	text-decoration: none;
+	}
+	
+a.fc-event,
+.fc-event-draggable {
+	cursor: pointer;
+	}
+	
+.fc-rtl .fc-event {
+	text-align: right;
+	}
+
+.fc-event-inner {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	}
+	
+.fc-event-time,
+.fc-event-title {
+	padding: 0 1px;
+	}
+	
+.fc .ui-resizable-handle {
+	display: block;
+	position: absolute;
+	z-index: 99999;
+	overflow: hidden; /* hacky spaces (IE6/7) */
+	font-size: 300%;  /* */
+	line-height: 50%; /* */
+	}
+	
+	
+	
+/* Horizontal Events
+------------------------------------------------------------------------*/
+
+.fc-event-hori {
+	border-width: 1px 0;
+	margin-bottom: 1px;
+}
+
+.fc-ltr .fc-event-hori.fc-event-start,
+.fc-rtl .fc-event-hori.fc-event-end {
+	border-left-width: 1px;
+}
+
+.fc-ltr .fc-event-hori.fc-event-end,
+.fc-rtl .fc-event-hori.fc-event-start {
+	border-right-width: 1px;
+}
+	
+/* resizable */
+	
+.fc-event-hori .ui-resizable-e {
+	top: 0           !important; /* importants override pre jquery ui 1.7 styles */
+	right: -3px      !important;
+	width: 7px       !important;
+	height: 100%     !important;
+	cursor: e-resize;
+}
+	
+.fc-event-hori .ui-resizable-w {
+	top: 0           !important;
+	left: -3px       !important;
+	width: 7px       !important;
+	height: 100%     !important;
+	cursor: w-resize;
+}
+	
+.fc-event-hori .ui-resizable-handle {
+	_padding-bottom: 14px; /* IE6 had 0 height */
+}
+	
+
+table.fc-border-separate {
+	border-collapse: separate;
+}
+	
+.fc-border-separate th,
+.fc-border-separate td {
+	border-width: 2px 0 0 2px;
+}
+	
+.fc-border-separate th.fc-last,
+.fc-border-separate td.fc-last {
+	border-right-width: 1px;
+}
+	
+.fc-border-separate tr.fc-last th,
+.fc-border-separate tr.fc-last td {
+	border-bottom-width: 1px;
+}
+
+.fc-border-separate tr.fc-last th{
+	border-bottom-width: 1px;
+	background: #bdbdb5;
+    color: #f7f7f5;
+    text-transform: uppercase;
+}
+	
+	
+.fc-border-separate tbody tr.fc-first td,
+.fc-border-separate tbody tr.fc-first th {
+	border-top-width: 0;
+	}
+	
+	
+
+/* Month View, Basic Week View, Basic Day View
+------------------------------------------------------------------------*/
+
+.fc-grid th {
+	text-align: center;
+	}
+
+.fc .fc-week-number {
+	width: 22px;
+	text-align: center;
+	}
+
+.fc .fc-week-number div {
+	padding: 0 2px;
+	}
+	
+.fc-grid .fc-day-number {
+	float: right;
+	padding: 0 2px;
+	}
+	
+.fc-grid .fc-other-month .fc-day-number {
+	opacity: 0.3;
+	filter: alpha(opacity=30); /* for IE */
+	/* opacity with small font can sometimes look too faded
+	   might want to set the 'color' property instead
+	   making day-numbers bold also fixes the problem */
+	}
+	
+.fc-grid .fc-day-content {
+	clear: both;
+	padding: 2px 2px 1px; /* distance between events and day edges */
+	}
+	
+/* event styles */
+	
+.fc-grid .fc-event-time {
+	font-weight: bold;
+	}
+	
+/* right-to-left */
+	
+.fc-rtl .fc-grid .fc-day-number {
+	float: left;
+	}
+	
+.fc-rtl .fc-grid .fc-event-time {
+	float: right;
+	}
+	
+	
+
+/* Agenda Week View, Agenda Day View
+------------------------------------------------------------------------*/
+
+.fc-agenda table {
+	border-collapse: separate;
+	}
+	
+.fc-agenda-days th {
+	text-align: center;
+	}
+	
+.fc-agenda .fc-agenda-axis {
+	width: 50px;
+	padding: 0 4px;
+	vertical-align: middle;
+	text-align: right;
+	white-space: nowrap;
+	font-weight: normal;
+	}
+
+.fc-agenda .fc-week-number {
+	font-weight: bold;
+	}
+	
+.fc-agenda .fc-day-content {
+	padding: 2px 2px 1px;
+	}
+	
+/* make axis border take precedence */
+	
+.fc-agenda-days .fc-agenda-axis {
+	border-right-width: 1px;
+	}
+	
+.fc-agenda-days .fc-col0 {
+	border-left-width: 0;
+	}
+	
+/* all-day area */
+	
+.fc-agenda-allday th {
+	border-width: 0 1px;
+	}
+	
+.fc-agenda-allday .fc-day-content {
+	min-height: 34px; /* TODO: doesnt work well in quirksmode */
+	_height: 34px;
+	}
+	
+/* divider (between all-day and slots) */
+	
+.fc-agenda-divider-inner {
+	height: 2px;
+	overflow: hidden;
+	}
+	
+.fc-widget-header .fc-agenda-divider-inner {
+	background: #eee;
+	}
+	
+/* slot rows */
+	
+.fc-agenda-slots th {
+	border-width: 1px 1px 0;
+	}
+	
+.fc-agenda-slots td {
+	border-width: 1px 0 0;
+	background: none;
+	}
+	
+.fc-agenda-slots td div {
+	height: 20px;
+}
+
+
+
+.fc-agenda-slots tr.fc-slot0 th,
+.fc-agenda-slots tr.fc-slot0 td {
+	border-top-width: 0;
+	}
+
+.fc-agenda-slots tr.fc-minor th,
+.fc-agenda-slots tr.fc-minor td {
+	border-top-style: dotted;
+	}
+	
+.fc-agenda-slots tr.fc-minor th.ui-widget-header {
+	*border-top-style: solid; /* doesn't work with background in IE6/7 */
+	}
+	
+
+
+/* Vertical Events
+------------------------------------------------------------------------*/
+
+.fc-event-vert {
+	border-width: 0 1px;
+	}
+
+.fc-event-vert.fc-event-start {
+	border-top-width: 1px;
+	}
+
+.fc-event-vert.fc-event-end {
+	border-bottom-width: 1px;
+	}
+	
+.fc-event-vert .fc-event-time {
+	white-space: nowrap;
+	font-size: 10px;
+	}
+
+.fc-event-vert .fc-event-inner {
+	position: relative;
+	z-index: 2;
+	}
+	
+.fc-event-vert .fc-event-bg { /* makes the event lighter w/ a semi-transparent overlay  */
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	opacity: .25;
+	filter: alpha(opacity=25);
+	}
+	
+.fc .ui-draggable-dragging .fc-event-bg, /* TODO: something nicer like .fc-opacity */
+.fc-select-helper .fc-event-bg {
+	display: none\9; /* for IE6/7/8. nested opacity filters while dragging don't work */
+	}
+	
+/* resizable */
+	
+.fc-event-vert .ui-resizable-s {
+	bottom: 0        !important; /* importants override pre jquery ui 1.7 styles */
+	width: 100%      !important;
+	height: 8px      !important;
+	overflow: hidden !important;
+	line-height: 8px !important;
+	font-size: 11px  !important;
+	font-family: monospace;
+	text-align: center;
+	cursor: s-resize;
+	}
+	
+	
+/* ---------------------- CALENDAR MOBILE ------------------------- */
+
+.calendar-mobile-title {
+    padding-bottom: 30px;
+    background: white;
+}
+
+.calendar-mobile-title h3{
+    display: inline;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0 20px;
+    color: #bdbeb5;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.icon-calendar-mobile {
+    display: inline;
+    font-size: 36px;
+    color: #bdbeb5;
+    vertical-align: 1px;
+}
+
+.calendar-mobile h5{
+    background: #bcbdb5;
+    color: #f2f0f1;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    margin: 0;
+}
+
+.calendar-mobile {
+	background: #f7f7f5;
+}
+
+.calendar-mobile ul li {
+    list-style-position: inside;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+}
+
+.calendar-mobile ul {
+	padding: 40px 0 20px;
+	margin: 0;
+}
+
+.gray-stripe {
+	background: #bdbdb5;
+	padding-top: 140px;
+	padding-bottom: 25px;
+}
+
+.btn-calendar {
+	color: #363637;
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+
+.btn-calendar:hover {
+	color: #BCBDB5;
+}
+
+/* ---------------------- GET INVOLVED ------------------------- */
+
+
+.box-get {
+    background: #f7f7f5;
+    padding: 30px 20px 10px;
+    margin: 35px 0;
+}
+
+.icon-get {
+	font-size: 50px;
+    color: #D33C44;
+}
+
+.box-get h3 {
+	font-size: 35px;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.box-get h4 {
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;	
+}
+
+.box-get p {
+    margin: 20px 0;
+}
+
+.box-get ul li {
+	font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.box-get ul {
+	padding-left: 16px;
+}
+
+.get-involved h2 {
+    font-size: 50px;
+    color: #d33c44;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    font-weight: 200;
+}
+
+.get-involved p {
+	font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
+
+.get-social p {
+	margin-bottom: 0;
+	padding-top: 11px;
+}
+
+.get-social-icon {
+    font-size: 30px;
+    color: #bdbdb5;
+    line-height: 48px;
+    vertical-align: -7px;
+    padding-left: 10px;
+}
+
+
+
+.get-developer h4 a{
+    font-size: 24px;
+    color: #2f85ae;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    margin-bottom: 0;
+}
+
+.get-developer h4 a:hover{
+	color: #2a6496;
+}
+
+.get-developer h4 {
+    margin-bottom: 0;
+    line-height: 24px;
+}
+
+.get-conference img {
+	margin: 10px 0 30px;
+}
+
+
+.br-bottom-sidebar:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 23px;
+    border-top: 1px solid #363637;
+    margin: 5px 0 30px;
+}
+
+.br-bottom-sidebar-2:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 23px;
+    border-top: 1px solid #363637;
+    margin: 5px 0 20px;
+}
+
+.up-z-index {
+	position: relative;
+	z-index: 99;
+}
+
+.icon-education {
+    font-size: 60px;
+    padding-top: 10px;
+    color: #f7f7f5;
+}
+
+.box-featured-light-2 p {
+	margin: 0;
+    color: white;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    display: inline;
+}
+
+
+
+
+
+/* ---------------------- MENU GET INVOLVED ------------------------- */
+
+.navbar-form input, .form-inline input {
+	width:auto;
+}
+
+.sidebar-2 ul li {
+	list-style: none;
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+    list-style: none;
+}
+
+#sidebar-2.affix-top {
+    position: static;
+    list-style: none;
+    margin-top: 30px;
+}
+
+#sidebar-2.affix {
+    position: fixed;
+    top: 80px;
+    list-style: none;
+    margin-top: 30px;
+    z-index: 1;
+}
+
+#sidebar-2 a {
+	font-size: 18px;
+    font-weight: 400;
+    color: #D33C44;
+    letter-spacing: 0.04em;
+    line-height: 24px;
+    padding-left: 0;
+}
+
+#sub-sidebar-2 a {
+    font-size: 14px;
+    color: #363637;
+    letter-spacing: 0.04em;
+    line-height: 24px;
+}
+
+#sidebar-2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+/* ---------------------- CERTIFICATION ------------------------- */
+
+
+.certification h2 {
+	font-size: 35px;
+	font-weight: 200;
+	letter-spacing: 0.05em;
+	color: #d33c44;
+	line-height: 24px;
+}
+
+.certification h3 {
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+	color: #363637;
+	line-height: 24px;
+}
+
+.certification p {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+	line-height: 24px;
+}
+
+.panel-certification {
+    text-align: left;
+}
+
+.panel-certification a{
+	font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #363637;
+}
+
+.panel-certification a:hover{
+    color: gray;
+}
+
+.panel-certification .fa{
+    margin-right: 6px;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    font-size: 10px;
+    vertical-align: 1px;
+}
+
+.certification-body ul li {
+	text-align: left;
+    text-transform: initial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.certification-body ul{
+	background: #f7f7f5;
+    padding: 20px 55px;
+}
+
+.certification-body p {
+	text-transform: initial;
+	text-align: left;
+	padding-left: 15px;
+}
+
+
+
+.title-1 {
+	font-size: 50px;
+	font-weight: 200px;
+	letter-spacing: 0.01em;
+	line-height: 50px;
+	margin-bottom: 0 0 20px 0;
+	color: #D33C44;
+}
+
+.title-2 {
+	font-size: 35px;
+	font-weight: 200px;
+	letter-spacing: 0.01em;
+	line-height: 40px;
+}
+
+.title-3 {
+	font-size: 27px;
+	font-weight: 300px;
+	letter-spacing: 0.01em;
+	line-height: 40px;
+}
+
+
+
+
 

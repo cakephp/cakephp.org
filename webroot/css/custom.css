@@ -1,0 +1,11 @@
+.alert {
+	margin-top: 25px;
+}
+
+.back-red.view {
+	color: white;
+}
+
+.crud-actions a {
+	margin-right:5px;
+}

@@ -1,8 +1,10 @@
 @media (max-width: 767px) {
 /*CSS LIDO EM DISPOSITIVOS ATÉ 767 PX DE LARGURA*/
     .title-home h1 {
-    	font-size: 20px;
-    	margin-bottom: 5px;
+    	font-size: 22px;
+	    margin-bottom: 5px;
+	    font-weight: 300;
+	    line-height: 22px;
 	}
 
 	.logo-cake img {
@@ -16,7 +18,9 @@
 	}
 
 	.title-home h3 {
-		font-size: 35px;
+		font-size: 40px;
+	    font-weight: 200;
+	    letter-spacing: 0.01em;
 	}
 
 	.btn-fest {
@@ -29,6 +33,7 @@
 
 	.sub-fest {
 		font-size: 32px;
+		margin: 0;
 	}
 
 	.sub-expertise {
@@ -262,6 +267,118 @@
 		bottom: 0;
 	}
 
+	/* ---------------------- VIDEOS ------------------------- */
+
+	#videos-full {
+		margin-top: 60px !important;
+	}
+
+	.page-breadcrumbs-wrapper {
+		top: 0;
+	}
+
+	.pagination > li > a {
+		padding: 5px 10px;
+		font-size: 15px;
+	}
+
+	.pagination > li > a > .fa {
+		font-size: 12px;
+	}
+
+	.page-breadcrumbs a {
+		padding: 10px;
+	}
+
+	.title-videos h3 {
+	    font-size: 25px;
+	}
+
+	.title-videos h1 {
+	    font-size: 35px;
+	    margin-top: -30px;
+	}
+
+	.submenu-videos {
+		text-align: center;
+		float: none;
+		padding-right: 0;
+	}
+
+	.portfolio-filter li {
+		padding: 0 5px;
+	}
+
+
+	/* ---------------------- SHOWCASE ------------------------- */
+
+	.show-title {
+		padding-top: 120px;
+	}
+
+	.showcase-cases {
+		padding: 0;
+	}
+
+	.showcase-cases > div{
+		padding: 0;
+	}
+
+	.featured-case h3 {
+    	text-align: center;
+    	margin: 0;
+    	margin-top: 30px;
+	}
+
+	.featured-case h4 {
+		font-size: 20px;
+    	text-align: center;
+	}
+
+	.title-showcase h3 {
+		font-size: 25px;
+    	line-height: 40px;
+    	margin-bottom: 70px;
+	}
+
+	.showcase-cases h4 {
+		text-align: center;
+	}
+
+	.showcase-cases p, .featured-case p, .featured-case-2 p, .featured-case-2 h3, .featured-case-3 h3, .featured-case-3 p, .big-testimonial blockquote {
+		text-align: center;
+	}
+
+	.showcase-cases img {
+		margin-bottom: 20px;
+	}
+
+	/* ---------------------- CALENDAR ------------------------- */
+
+	.title-calendar h1 {
+		line-height: 55px;
+	}
+
+	.check-calendar h3 {
+		line-height: 30px;
+		margin-bottom: 10px;
+	}
+
+	.check-calendar {
+		padding-bottom: 30px;
+	}
+
+
+	/* ---------------------- GET INVOLVED ------------------------- */
+
+	.get-involved h2 {
+		line-height: 55px;
+	}
+
+	.gray-stripe {
+		padding-top: 120px;
+	}
+
 }
 
 
@@ -406,6 +523,16 @@
 	#slideout_inner {
 		bottom: 0;
 	}
+
+	/* ---------------------- SHOWCASE ------------------------- */
+
+	.featured-case h3 {
+		text-align: center;
+	}
+
+	.featured-case h4 {
+		text-align: center;
+	}
 	
 }
 
@@ -496,8 +623,6 @@
 		    padding: 5px 5px !important;
 	}
 
-	
-
 
 }
 
@@ -506,5 +631,6 @@
   .hero, .hero-2 {
   	background-attachment: fixed;
   }
+
   
 }

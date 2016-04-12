@@ -31,7 +31,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6 mb90">
+            <div class="col-md-6 mb90 pull-right">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="quote">
                         <?= $this->Html->image('/images/quote/david.png')?>
