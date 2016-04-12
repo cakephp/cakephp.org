@@ -8,7 +8,11 @@
                         building both small and complex systems a breeze.')?></p>
 
                     <div class="col-md-12 mb70">
-                        <button type="button" class="btn btn-red mt30"><?= __('Download CakePHP 3.2')?></button>
+						<?= $this->Html->link(
+							__('Download CakePHP {0}', $_version),
+							'http://book.cakephp.org/3.0/en/installation.html',
+							['class' => 'btn btn-red mt30']
+						) ?>
                     </div>
                 </div>
             </div>
