@@ -9,3 +9,18 @@
 .crud-actions a {
 	margin-right:5px;
 }
+
+.display_archive .campaign a {
+	font-size: 15px;
+	color: #363637;
+	letter-spacing: 0.04em;
+	margin-bottom: 120px;
+	font-weight: normal;
+}
+
+.display_archive .campaign {
+	font-weight: bold;
+	font-size: 15px;
+	height: 30px;
+	font-family: 'Raleway', sans-serif;
+}
