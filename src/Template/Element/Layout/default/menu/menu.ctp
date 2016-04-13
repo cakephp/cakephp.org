@@ -24,7 +24,7 @@
         <?=
         $this->Html->link(
             __('Showcase'),
-            '#',
+            ['plugin' => 'showcase', 'controller' => 'projects', 'action' => 'index'],
             ['escape' => false]
         );?>
     </li>
