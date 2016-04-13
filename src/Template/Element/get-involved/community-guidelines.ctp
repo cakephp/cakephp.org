@@ -1,8 +1,8 @@
 <div id="communityGuidelines" class="col-sm-12 get-developer pt-100">
-	<h2>Find Job or Developer</h2>
+	<h2><?= __('Find Job or Developer')?></h2>
 
-	<p>If you're looking for skilled CakePHP developers, or are a developer yourself and seeking a freelance project or
-		position at a company, there are many resources available:</p>
+	<p><?= __('If you\'re looking for skilled CakePHP developers, or are a developer yourself and seeking a freelance project or
+		position at a company, there are many resources available:')?></p>
 
 	<h4><a href="">LinkedIn</a></h4>
 

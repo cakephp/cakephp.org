@@ -2,8 +2,10 @@
 namespace App\View\Helper;
 
 use Cake\I18n\Time;
+use Cake\Core\Configure;
 use Cake\View\Helper;
 use Cake\Utility\Hash;
+use DateTime;
 
 class AppHelper extends Helper
 {
@@ -19,7 +21,7 @@ class AppHelper extends Helper
     {
         $result = '';
 
-        foreach ($items as $title => $options) {
+        foreach ($items as $key => $options) {
             $class = '';
             $icon = 'fa fa-menu fa-chevron-right';
             $url = $options;
@@ -29,8 +31,12 @@ class AppHelper extends Helper
                 $icon = Hash::get($options, 'icon', $icon);
                 $url = Hash::get($options, 'url', '#');
                 $class = Hash::get($options, 'class', '');
-                $linkOptions = array_merge($linkOptions, Hash::get($options, 'options', []));
-            }
+				$title = Hash::get($options, 'title', '');
+
+				$linkOptions = array_merge($linkOptions, Hash::get($options, 'options', []));
+            } else {
+				$title = $key;
+			}
 
             $link = $this->Html->link(
                 $this->Html->tag('i', '', ['class' => $icon]) . __($title),
@@ -62,6 +68,15 @@ class AppHelper extends Helper
 	 */
 	public function cakeFestDaysLeft()
 	{
-		return (new Time("2016-05-26"))->diff(new Time())->days;
+		$startDate = Configure::read('Site.cakefest.start_date');
+		return (new Time($startDate))->diff(new Time())->days;
+	}
+
+	public function cakeFestDates()
+	{
+		$startDate = new DateTime(Configure::read('Site.cakefest.start_date'));
+		$endDate = new DateTime(Configure::read('Site.cakefest.end_date'));
+		return __('{0} to {1}', $startDate->format('M d'), $endDate->format('M d'));
+
 	}
 }

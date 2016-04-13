@@ -1,3 +1,7 @@
+<?php
+use Cake\Core\Configure;
+
+?>
 <section class="hero-2 section-fest">
     <div class="container text-center">
         <div class="row">
@@ -14,8 +18,8 @@
     <div class="container">
         <div class="row col-p30 mt20">
             <div class="col-md-12 text-center">
-                <h3>CakeFest 2016 Amsterdam</h3>
-                <h5 class="sub-fest">May 26th to May 29th</h5>
+                <h3><?= Configure::read('Site.cakefest.title') . ' '  . Configure::read('Site.cakefest.location')?></h3>
+                <h5 class="sub-fest"><?= $this->App->cakeFestDates()?></h5>
             </div>
 
             <div class="col-md-6 col-md-offset-1">
@@ -38,10 +42,9 @@
                     <h6>Only</h6>
                     <h6><span><?= $this->App->cakeFestDaysLeft() ?><span></h6>
                     <h5>days left to</h5>
-                    <h4>CakeFest 2016</h4>
+                    <h4><?= Configure::read('Site.cakefest.title')?></h4>
                 </div>
             </div>
-
         </div>
     </div>
 </section>

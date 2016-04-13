@@ -132,9 +132,7 @@
 				<div class="col-md-4 col-md-offset-2">
 					<div class="box-services-c">
 						<span class="glyph_range icon-recipe i-recipe-size">L</span>
-
-						<h3 class="title-small">Secure</h3>
-
+						<h3 class="title-small"><?= __('Secure')?></h3>
 						<p><?= __('CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering
 							protection, SQL injection prevention, and XSS prevention, helping you keep your application
 							{0}.', $this->Html->tag('strong', __('safe & secure.')))?></p>
