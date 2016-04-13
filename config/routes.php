@@ -64,6 +64,7 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/search', ['controller' => 'Pages', 'action' => 'display', 'search']);
     $routes->connect('/news', ['controller' => 'Pages', 'action' => 'display', 'news']);
     $routes->connect('/documentation', ['controller' => 'Pages', 'action' => 'display', 'documentation']);
+    $routes->connect('/documentation/videos', ['controller' => 'Pages', 'action' => 'display', 'videos']);
     $routes->connect('/privacy', ['controller' => 'Pages', 'action' => 'display', 'privacy']);
     $routes->connect('/assets', ['controller' => 'Pages', 'action' => 'display', 'assets']);
     $routes->connect('/logos', ['controller' => 'Pages', 'action' => 'display', 'trademark']);

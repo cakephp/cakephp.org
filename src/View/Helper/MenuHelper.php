@@ -129,7 +129,7 @@ class MenuHelper extends Helper
             'Book' => 'http://book.cakephp.org/',
             'Api' => 'http://api.cakephp.org/',
             'Videos' => [
-                'url' => ['controller' => 'Pages', 'action' => 'display', 'videos']
+                'url' => ['controller' => 'documentation', 'action' => 'videos']
             ],
             'Privacy Policy' => [
                 'url' => ['controller' => 'Pages', 'action' => 'display', 'privacy']
