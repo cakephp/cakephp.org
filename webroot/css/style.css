@@ -1989,7 +1989,7 @@ iframe {
 
 .box-services-d .title-uppercased,
 .box-services-d .title-medium {
-	font-size:15px;
+	font-size:20px;
 	color:#dedee3;
 	margin-bottom:20px;
 	-webkit-transition:all 0.3s ease-out; transition:all 0.3s ease-out;
@@ -2016,9 +2016,6 @@ iframe {
 	color:#3085AE;
 }
 
-.vta-1 .link-read-more {
-	vertical-align: 1px;
-}
 
 
 /* Box services style 5 */
@@ -2028,23 +2025,13 @@ iframe {
 	color:#d2d2d9;
 }
 
-.box-services-e.dark { background-color: #363637; }
+.box-services-e.dark { background-color: #303236; }
 .box-services-e.orange { background-color: #d18b21; }
-.box-services-e.blue { background-color: #2f85ae; }
+.box-services-e.blue { background-color: #1375a3; }
 .box-services-e.yellow { background-color: #fcc813; }
-.box-services-e.green { background-color: #1e969f; }
+.box-services-e.green { background-color: #22aba6; }
 .box-services-e.transparent { background-color: transparent; }
-.box-services-e.gray { background-color: #bdbdb5; }
-
-.color-dark-cake {
-	color: #363637 !important;
-}
-
-.box-padding-d {
-	padding: 20px 30px 57px;
-}
-
-
+.box-services-e.gray { background-color: #f0f1f2; }
 
 .box-services-e .fa {
 	font-size: 100px;
@@ -2404,8 +2391,6 @@ iframe {
 	font-size: 55px;
 	color: #D33C44;
 	margin-bottom: 20px;
-	-webkit-font-feature-settings: "tnum" 1, "lnum" 1, "kern" 1;
-	font-feature-settings: "tnum" 1, "lnum" 1, "kern" 1;
 }
 .plan-title {
 	font-family: 'Raleway', sans-serif;
@@ -3864,7 +3849,7 @@ input[type="email"].big-dog::webkit-input-placeholder {
 	-webkit-transition:width 1s ease-out; transition:width 1s ease-out;
 }
 .progress-bar span {
-	padding: 6px 17px;
+	padding: 5px 17px;
 	background-color: #363637;
 }
 
