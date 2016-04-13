@@ -40,4 +40,3 @@
     </div>
 </header>
 <?= $this->element('Layout/default/menu/mobile_menu') ?>
-<?= $this->element('Layout/default/menu/top_bar') ?>

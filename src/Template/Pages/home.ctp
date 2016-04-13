@@ -1,3 +1,5 @@
+<?= $this->element('Layout/default/menu/top_bar') ?>
+
 <?= $this->element('home/cake')?>
 
 <?= $this->element('home/summary')?>

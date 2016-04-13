@@ -100,6 +100,11 @@ return [
 						'options' => ['target' => '_blank'],
 						'title' => 'Facebook'
 					],
+					'twitter' => [
+						'url' => 'https://twitter.com/cakephp',
+						'options' => ['target' => '_blank'],
+						'title' => 'Twitter'
+					],
 				],
 				'jobs' => [
 					'cakeJobs' => [
