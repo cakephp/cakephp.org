@@ -32,7 +32,7 @@ return [
 			'items' => [
 				'community' => [
 					'getInvolved' => [
-						'url' => ['controller' => 'Pages', 'action' => 'display', 'get-involved'],
+						'url' => ['plugin' => false, 'controller' => 'Pages', 'action' => 'display', 'get-involved'],
 						'title' => __('Get Involved')
 					],
 					'blog' => [
@@ -40,7 +40,7 @@ return [
 						'title' => __('Blog')
 					],
 					'newsletter' => [
-						'url' => ['controller' => 'Pages', 'action' => 'display', 'newsletter'],
+						'url' => ['plugin' => false, 'controller' => 'Pages', 'action' => 'display', 'newsletter'],
 						'title' => __('Newsletter')
 					],
 					'certification' => [
@@ -123,15 +123,15 @@ return [
 						'title' => __('Api')
 					],
 					'videos' => [
-						'url' => ['controller' => 'documentation', 'action' => 'videos'],
+						'url' => ['plugin' => false, 'controller' => 'documentation', 'action' => 'videos'],
 						'title' => __('Videos')
 					],
 					'privacy' => [
-						'url' => ['controller' => 'Pages', 'action' => 'display', 'privacy'],
+						'url' => ['plugin' => false, 'controller' => 'Pages', 'action' => 'display', 'privacy'],
 						'title' => __('Privacy Policy')
 					],
 					'logos' => [
-						'url' => ['controller' => 'Pages', 'action' => 'display', 'trademark'],
+						'url' => ['plugin' => false, 'controller' => 'Pages', 'action' => 'display', 'trademark'],
 						'title' => __('Logos & Trademarks')
 					],
 				],
