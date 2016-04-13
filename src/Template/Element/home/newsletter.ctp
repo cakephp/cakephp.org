@@ -64,14 +64,6 @@
 									for="mce-EMAILTYPE-1">text</label></li>
 						</ul>
 					</div>
-					<p>
-						<?= $this->Html->link(__('Past Newsletters'), [
-							'controller' => 'Pages',
-							'action' => 'display',
-							'newsletter'], [
-							'title' => __('Past Newsletters'), 'id' => 'mc-past-responses'
-						]); ?>
-					</p>
 
 					<div id="mce-responses" class="clear">
 						<div class="response" id="mce-error-response" style="display:none"></div>
@@ -91,6 +83,15 @@
 							   id="mc-embedded-subscribe"
 							   class="btn btn-white">
 					</div>
+					<p style="text-align:left">
+						<?= $this->Html->link(__('Past Newsletters'), [
+							'controller' => 'Pages',
+							'action' => 'display',
+							'newsletter'], [
+							'title' => __('Past Newsletters'), 'id' => 'mc-past-responses',
+							'style' => 'color:white;'
+						]); ?>
+					</p>
 				</form>
 			</div>
 
@@ -110,7 +111,7 @@
 			color: white;
 		}
 
-		.mc-field-group input[type="radio"]:checked:before {
+		.mc-field-group .mc-field-group input[type="radio"]:checked:before {
 			border: 2px solid white;
 		}
 	</style>
