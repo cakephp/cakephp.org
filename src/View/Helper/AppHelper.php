@@ -62,6 +62,16 @@ class AppHelper extends Helper
 	}
 
 	/**
+	 * Returns if cakefest still in future
+	 *
+	 * @return bool
+	 */
+	public function isCakeFestInFuture()
+	{
+		return $this->cakeFestDaysLeft() > 0;
+	}
+
+	/**
 	 * Get days left for cakefest
 	 *
 	 * @return int

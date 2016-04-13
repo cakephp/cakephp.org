@@ -8,6 +8,8 @@
 
 <?= $this->element('home/showcase')?>
 
+<?= $this->element('home/company_logos')?>
+
 <?= $this->element('home/quotes')?>
 
 <?= $this->element('home/share')?>
