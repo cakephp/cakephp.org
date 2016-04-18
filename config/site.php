@@ -36,8 +36,9 @@ return [
 						'title' => __('Get Involved')
 					],
 					'blog' => [
-						'url' => '#',
-						'title' => __('Blog')
+						'url' => 'http://bakery.cakephp.org/',
+						'title' => __('Blog'),
+						'options' => ['target' => '_blank']
 					],
 					'newsletter' => [
 						'url' => ['plugin' => false, 'controller' => 'Pages', 'action' => 'display', 'newsletter'],

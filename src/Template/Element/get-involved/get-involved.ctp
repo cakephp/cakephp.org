@@ -178,10 +178,10 @@ use Cake\Core\Configure;
 			file a patch against the {2}. The CookBook is a community managed
 			documentation source which can also be found on {3}.
 			Guidelines on contributing to the documentation can be reviewed here.',
-				$this->Html->link(__('API', 'http://api.cakephp.org/'), ['target' => '_blank']),
-				$this->Html->link(__('CookBook', 'http://book.cakephp.org/'), ['target' => '_blank']),
-				$this->Html->link(__('GitHub', 'https://github.com/cakephp/docs'), ['target' => '_blank']),
-				$this->Html->link(__('here'), 'http://book.cakephp.org/2.0/en/contributing/documentation.html')
+				$this->Html->link(__('API'), Configure::read('Site.menu.items.documentation.api.url'), ['target' => '_blank']),
+				$this->Html->link(__('CookBook'), Configure::read('Site.menu.items.documentation.book.url'), ['target' => '_blank']),
+				$this->Html->link(__('GitHub'), 'https://github.com/cakephp/docs', ['target' => '_blank']),
+				$this->Html->link(__('here'), 'http://book.cakephp.org/3.0/en/contributing/documentation.html')
 			)?></p>
 	</div>
 
@@ -193,8 +193,8 @@ use Cake\Core\Configure;
 			translating the {0} or the {1} content
 			into your language is another way to help support the community. Providing the official documentation and
 			support material in as many languages as possible helps lower the barrier to entry to using the framework.',
-				$this->Html->link(__('API', 'http://api.cakephp.org/'), ['target' => '_blank']),
-				$this->Html->link(__('CookBook', 'http://book.cakephp.org/'), ['target' => '_blank'])
+				$this->Html->link(__('API'), Configure::read('Site.menu.items.documentation.api.url'), ['target' => '_blank']),
+				$this->Html->link(__('CookBook'), Configure::read('Site.menu.items.documentation.book.url'), ['target' => '_blank'])
 			)?>
 		</p>
 	</div>
