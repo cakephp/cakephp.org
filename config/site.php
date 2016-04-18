@@ -32,7 +32,13 @@ return [
 			'items' => [
 				'community' => [
 					'getInvolved' => [
-						'url' => ['plugin' => false, 'controller' => 'Pages', 'action' => 'display', 'get-involved'],
+						'url' => [
+							'plugin' => false,
+							'controller' => 'Pages',
+							'action' => 'display',
+							'get-involved',
+							'prefix' => false
+						],
 						'title' => __('Get Involved')
 					],
 					'blog' => [
@@ -41,7 +47,13 @@ return [
 						'options' => ['target' => '_blank']
 					],
 					'newsletter' => [
-						'url' => ['plugin' => false, 'controller' => 'Pages', 'action' => 'display', 'newsletter'],
+						'url' => [
+							'plugin' => false,
+							'controller' => 'Pages',
+							'action' => 'display',
+							'newsletter',
+							'prefix' => false
+						],
 						'title' => __('Newsletter')
 					],
 					'certification' => [
@@ -129,15 +141,32 @@ return [
 						'title' => __('Api')
 					],
 					'videos' => [
-						'url' => ['plugin' => false, 'controller' => 'documentation', 'action' => 'videos'],
+						'url' => [
+							'plugin' => false,
+							'controller' => 'documentation',
+							'action' => 'videos',
+							'prefix' => false
+						],
 						'title' => __('Videos')
 					],
 					'privacy' => [
-						'url' => ['plugin' => false, 'controller' => 'Pages', 'action' => 'display', 'privacy'],
+						'url' => [
+							'plugin' => false,
+							'controller' => 'Pages',
+							'action' => 'display',
+							'privacy',
+							'prefix' => false
+						],
 						'title' => __('Privacy Policy')
 					],
 					'logos' => [
-						'url' => ['plugin' => false, 'controller' => 'Pages', 'action' => 'display', 'trademark'],
+						'url' => [
+							'plugin' => false,
+							'controller' => 'Pages',
+							'action' => 'display',
+							'trademark',
+							'prefix' => false
+						],
 						'title' => __('Logos & Trademarks')
 					],
 				],
