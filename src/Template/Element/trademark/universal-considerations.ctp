@@ -1,40 +1,25 @@
 <div id="universal-considerations" class="col-sm-12">
-	<h3>Universal considerations for all uses</h3>
+	<h3><?= __('Universal considerations for all uses') ?></h3>
 
-	<p>Whenever you use one of the Marks, you must always do so in a way that does not mislead anyone, either directly
-		or by omission, about exactly what they are getting and from whom. The law reflects this requirement in two
-		major ways described in more detail <a href="#" class="t-blue">below</a>: it prohibits creating a <a href="#"
-																											 class="t-blue">"likelihood
-			of confusion"</a> but allows for <a href="#" class="t-blue">"nominative use."</a> For example, you cannot
-		say you are distributing the &lt;&lt;~Mark&gt;&gt; software when you're distributing a modified version of it,
-		because people would be confused because they are not getting the same features and functionality they would get
-		if they downloaded the software directly from us. You also cannot use our logo on your website in a way that
-		suggests that your website is an official website or that we endorse your website. You can, though, say you like
-		the &lt;&lt;~Mark&gt;&gt; software, that you participate in the &lt;&lt;~Mark&gt;&gt; community, that you are
-		providing an unmodified version of the &lt;&lt;~Mark&gt;&gt; software, or that you wrote a book describing how
-		to use the &lt;&lt;~Mark&gt;&gt; software.</p>
+	<p><?= __('Whenever you use one of the Marks, you must always do so in a way that does not mislead anyone, either directly or by omission, about exactly what they are getting and from whom. The law reflects this requirement in two major ways described in more detail {0}: it prohibits creating a {1} but allows for {2}. For example, you cannot say you are distributing the &lt;&lt;~Mark&gt;&gt; software when you\'re distributing a modified version of it, because people would be confused because they are not getting the same features and functionality they would get if they downloaded the software directly from us. You also cannot use our logo on your website in a way that suggests that your website is an official website or that we endorse your website. You can, though, say you like the &lt;&lt;~Mark&gt;&gt; software, that you participate in the &lt;&lt;~Mark&gt;&gt; community, that you are providing an unmodified version of the &lt;&lt;~Mark&gt;&gt; software, or that you wrote a book describing how to use the &lt;&lt;~Mark&gt;&gt; software.',
+		$this->Html->link('below', '#', ['class' => 't-blue']),
+		$this->Html->link('"likelihood of confusion"', '#', ['class' => 't-blue']),
+		$this->Html->link('"nominative use"', '#', ['class' => 't-blue'])); ?></p>
 
-	<p>This fundamental requirement, that it is always clear to people what they are getting and from whom, is reflected
-		throughout this Policy. It should also serve as your guide if you are not sure about how you are using the
-		Marks.</p>
+	<p><?= __('This fundamental requirement, that it is always clear to people what they are getting and from whom, is reflected throughout this Policy. It should also serve as your guide if you are not sure about how you are using the
+		Marks.') ?></p>
 
-	<p>In addition:</p>
+	<p><?= __('In addition:') ?></p>
 
-	<p>You may not use the Marks in association with the use or distribution of software if you are also not in
-		compliance with the copyright license for the software.</p>
+	<p><?= __('You may not use the Marks in association with the use or distribution of software if you are also not in compliance with the copyright license for the software.') ?></p>
 
-	<p>You may not use or register, in whole or in part, the Marks as part of your own trademark, service mark, domain
-		name, company name, trade name, product name or service name.</p>
+	<p><?= __('You may not use or register, in whole or in part, the Marks as part of your own trademark, service mark, domain name, company name, trade name, product name or service name.') ?></p>
 
-	<p>Trademark law does not allow your use of names or trademarks that are too similar to ours. You therefore may not
-		use an obvious variation of any of our Marks or any phonetic equivalent, foreign language equivalent, takeoff,
-		or abbreviation for a similar or compatible product or service. We would consider the following too similar to
-		one of our Marks:</p>
+	<p><?= __('Trademark law does not allow your use of names or trademarks that are too similar to ours. You therefore may not use an obvious variation of any of our Marks or any phonetic equivalent, foreign language equivalent, takeoff, or abbreviation for a similar or compatible product or service. We would consider the following too similar to one of our Marks:') ?></p>
 
-	<p>&lt;&lt;Example for UBUNTU: "Any mark ending with the letters UBUNTU or BUNTU"&gt;&gt;</p>
+	<p><?= __('&lt;&lt;Example for UBUNTU: "Any mark ending with the letters UBUNTU or BUNTU"&gt;&gt;') ?></p>
 
-	<p>&lt;&lt;Example for ARCHLINUX: "Any mark beginning with the letters ARCH"&gt;&gt;</p>
+	<p><?= __('&lt;&lt;Example for ARCHLINUX: "Any mark beginning with the letters ARCH"&gt;&gt;') ?></p>
 
-	<p>You agree that you will not acquire any rights in the Marks and that any goodwill generated by your use of the
-		Marks inures solely to our benefit.</p>
+	<p><?= __('You agree that you will not acquire any rights in the Marks and that any goodwill generated by your use of the Marks inures solely to our benefit.') ?></p>
 </div>
