@@ -34,3 +34,19 @@
 .t-videos {
 	margin-bottom: 30px;
 }
+
+.page-content-trad li {
+	font-size: 12px;
+}
+
+.trademark ol {
+	counter-reset: item;
+	padding-left: 1.2em;
+}
+.trademark li {
+	display: block
+}
+.trademark li:before {
+	content: counters(item, ".") " ";
+	counter-increment: item
+}
