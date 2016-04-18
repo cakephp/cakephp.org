@@ -109,7 +109,7 @@ return [
 				],
 				'jobs' => [
 					'cakeJobs' => [
-						'url' =>'http://cakephpjobs.com/',
+						'url' => 'http://cakephpjobs.com/',
 						'options' => ['target' => '_blank'],
 						'title' => __('Cake Jobs')
 					],

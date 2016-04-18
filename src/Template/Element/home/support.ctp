@@ -44,7 +44,7 @@
                             <span class="glyph_range icon-expertise-2">P</span>
                         </div>
                         <div class="col-md-8 col-md-offset-1">
-                            <h4 class="title-expertise"><?= __('Support')?> <a href="#" class="link-read-more">Read More</a></h4>
+                            <h4 class="title-expertise"><?= __('Support')?> <?= $this->Html->link(__('Read more'), 'http://www.cakedc.com', ['class' => 'link-read-more'])?></h4>
                             <p class="mb0 "><?= __('Professional support for CakePHP is provided by our professional services partner, the Cake Development Corporation.')?></p>
                         </div>
                     </div>
