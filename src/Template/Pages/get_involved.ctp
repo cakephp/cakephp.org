@@ -2,7 +2,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 title-calendar ">
-				<h1>CakePHP <strong>Community Center</strong> <span class="glyph_range icon-getinvolved">c</span></h1>
+				<?= $this->Html->tag(
+					'h1', __(
+						'CakePHP {0} {1}',
+						$this->Html->tag('strong', __('Community Center')),
+						$this->Html->tag('span', 'c', ['class' => 'glyph_range icon-getinvolved'])
+					)
+				)?>
 			</div>
 		</div>
 	</div>

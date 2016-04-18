@@ -428,6 +428,8 @@ iframe {
 
 .pl10 {padding-left: 10px !important;}
 
+.pt-20 {padding-top: 20px;}
+.pt-30 {padding-top: 30px;}
 .pt-35 {padding-top: 35px;}
 .pt-60 {padding-top: 60px;}
 .pt-70 {padding-top: 70px;}
@@ -1989,7 +1991,7 @@ iframe {
 
 .box-services-d .title-uppercased,
 .box-services-d .title-medium {
-	font-size:20px;
+	font-size:15px;
 	color:#dedee3;
 	margin-bottom:20px;
 	-webkit-transition:all 0.3s ease-out; transition:all 0.3s ease-out;
@@ -2016,6 +2018,9 @@ iframe {
 	color:#3085AE;
 }
 
+.vta-1 .link-read-more {
+	vertical-align: 1px;
+}
 
 
 /* Box services style 5 */
@@ -2025,13 +2030,23 @@ iframe {
 	color:#d2d2d9;
 }
 
-.box-services-e.dark { background-color: #303236; }
+.box-services-e.dark { background-color: #363637; }
 .box-services-e.orange { background-color: #d18b21; }
-.box-services-e.blue { background-color: #1375a3; }
+.box-services-e.blue { background-color: #2f85ae; }
 .box-services-e.yellow { background-color: #fcc813; }
-.box-services-e.green { background-color: #22aba6; }
+.box-services-e.green { background-color: #1e969f; }
 .box-services-e.transparent { background-color: transparent; }
-.box-services-e.gray { background-color: #f0f1f2; }
+.box-services-e.gray { background-color: #bdbdb5; }
+
+.color-dark-cake {
+	color: #363637 !important;
+}
+
+.box-padding-d {
+	padding: 20px 30px 57px;
+}
+
+
 
 .box-services-e .fa {
 	font-size: 100px;
@@ -2391,6 +2406,8 @@ iframe {
 	font-size: 55px;
 	color: #D33C44;
 	margin-bottom: 20px;
+	-webkit-font-feature-settings: "tnum" 1, "lnum" 1, "kern" 1;
+	font-feature-settings: "tnum" 1, "lnum" 1, "kern" 1;
 }
 .plan-title {
 	font-family: 'Raleway', sans-serif;
@@ -3849,7 +3866,7 @@ input[type="email"].big-dog::webkit-input-placeholder {
 	-webkit-transition:width 1s ease-out; transition:width 1s ease-out;
 }
 .progress-bar span {
-	padding: 5px 17px;
+	padding: 6px 17px;
 	background-color: #363637;
 }
 
@@ -8694,33 +8711,191 @@ code {
 }
 
 
+/* ---------------------- PRIVACY ------------------------- */
 
 
+.t-privacy h3 {
+	font-size: 35px;
+	font-weight: 200;
+	letter-spacing: 0.01em;
+	line-height: 40px;
+	margin: 30px 0 15px;
+	color: #D33C44;
+}
+
+.t-privacy p {
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.01em;
+	font-weight: 400;
+}
+
+.icon-privacy {
+	font-size: 70px;
+	color: #f7f7f5;
+	padding-left: 10px;
+	vertical-align: -5px;
+}
+
+/* ---------------------- TRADEMARK ------------------------- */
+
+
+.t-trademark h3 {
+	font-size: 35px;
+	font-weight: 200;
+	letter-spacing: 0.05em;
+	line-height: 40px;
+	margin: 60px 0 15px;
+	color: #D33C44;
+}
+
+.t-trademark h4 {
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+}
+
+.t-trademark p {
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.05em;
+	font-weight: 400;
+}
+
+.logos-trade p {
+	text-align: center;
+	border-top: 2px solid #f1f1ed;
+	padding-top: 10px;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: 0.05em;
+	margin-bottom: 40px;
+}
+
+.use-soft-trade ul li {
+	list-style: none;
+}
+
+.use-soft-trade ul {
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+.t-circle-trade p {
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+
+.circle-trade-1 {
+	height: 100px;
+	width: 100px;
+	background: #d33c44;
+	border-radius: 50%;
+}
+
+.circle-trade-2 {
+	height: 100px;
+	width: 100px;
+	background: #404041;
+	border-radius: 50%;
+}
+
+.p-trad-sub {
+	padding-top: 20px;
+}
+
+.list-trad  ul{
+	padding-left: 35px;
+	margin-bottom: 30px;
+}
+
+.box-code-trad {
+	background-color: #ECECE9;
+	padding: 15px 25px;
+	margin: 0px 0 20px;
+}
+
+.box-code-trad pre{
+	margin: 0;
+}
+
+.flag-box img{
+	margin-top: 25px;
+}
+
+
+.flag-m {
+	margin: 10px 0 60px;
+}
+
+.page-content-trad li > a {
+	line-height: 23px;
+}
+
+.page-content-trad {
+	float: right;
+	width: 400px;
+	padding: 30px 20px;
+	margin: 90px 0 0 20px;
+}
+
+.back-box-1 {
+	background: #f7f7f5;
+}
+
+.back-box-2 {
+	background: #f1f1ed;
+}
+
+.box-mark {
+	margin-bottom: 40px;
+}
+
+.box-mark h4{
+	padding: 2px 20px;
+	line-height: 33px;
+	font-size: 14px;
+	letter-spacing: 0.05em;
+	font-weight: 400;
+	margin: 0;
+}
+
+
+.c-cake {
+	color: #D33C44;
+}
 
 .title-1 {
 	font-size: 50px;
-	font-weight: 200px;
+	font-weight: 200;
 	letter-spacing: 0.01em;
 	line-height: 50px;
 	margin-bottom: 0 0 20px 0;
-	color: #D33C44;
 }
 
 .title-2 {
 	font-size: 35px;
-	font-weight: 200px;
+	font-weight: 200;
 	letter-spacing: 0.01em;
 	line-height: 40px;
-
+	margin: 0 0 15px;
 }
 
 .title-3 {
 	font-size: 27px;
-	font-weight: 300px;
+	font-weight: 300;
 	letter-spacing: 0.01em;
 	line-height: 40px;
+	margin: 0 0 15px;
 }
 
+.p-cake p{
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.05em;
+	font-weight: 400;
+}
 
 
 
