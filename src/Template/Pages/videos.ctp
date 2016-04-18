@@ -24,7 +24,7 @@
 <div class="portfolio-filter-wrapper">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<!-- <div class="col-sm-12">
 				<div class="submenu-videos">
 					<nav class="portfolio-filter">
 						<ul>
@@ -36,7 +36,7 @@
 						</ul>
 					</nav>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </div>
