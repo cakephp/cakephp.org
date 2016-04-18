@@ -62,13 +62,25 @@ class AppHelper extends Helper
 	}
 
 	/**
+	 * Returns if cakefest is done
+	 *
+	 * @return bool
+	 */
+	public function isCakeFestDone()
+	{
+		$endDate = Configure::read('Site.cakefest.end_date');
+		return (new Time($endDate)) < (new Time());
+	}
+
+	/**
 	 * Returns if cakefest still in future
 	 *
 	 * @return bool
 	 */
 	public function isCakeFestInFuture()
 	{
-		return $this->cakeFestDaysLeft() > 0;
+		$startDate = Configure::read('Site.cakefest.start_date');
+		return (new Time($startDate)) > (new Time());
 	}
 
 	/**
