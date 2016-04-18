@@ -2,9 +2,9 @@
 	<h3><?= __('Universal considerations for all uses') ?></h3>
 
 	<p><?= __('Whenever you use one of the Marks, you must always do so in a way that does not mislead anyone, either directly or by omission, about exactly what they are getting and from whom. The law reflects this requirement in two major ways described in more detail {0}: it prohibits creating a {1} but allows for {2}. For example, you cannot say you are distributing the &lt;&lt;~Mark&gt;&gt; software when you\'re distributing a modified version of it, because people would be confused because they are not getting the same features and functionality they would get if they downloaded the software directly from us. You also cannot use our logo on your website in a way that suggests that your website is an official website or that we endorse your website. You can, though, say you like the &lt;&lt;~Mark&gt;&gt; software, that you participate in the &lt;&lt;~Mark&gt;&gt; community, that you are providing an unmodified version of the &lt;&lt;~Mark&gt;&gt; software, or that you wrote a book describing how to use the &lt;&lt;~Mark&gt;&gt; software.',
-		$this->Html->link('below', '#', ['class' => 't-blue']),
-		$this->Html->link('"likelihood of confusion"', '#', ['class' => 't-blue']),
-		$this->Html->link('"nominative use"', '#', ['class' => 't-blue'])); ?></p>
+		$this->Html->link(__('below'), '#', ['class' => 't-blue']),
+		$this->Html->link(__('"likelihood of confusion"'), '#', ['class' => 't-blue']),
+		$this->Html->link(__('"nominative use"'), '#', ['class' => 't-blue'])); ?></p>
 
 	<p><?= __('This fundamental requirement, that it is always clear to people what they are getting and from whom, is reflected throughout this Policy. It should also serve as your guide if you are not sure about how you are using the
 		Marks.') ?></p>
