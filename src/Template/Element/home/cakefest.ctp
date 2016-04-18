@@ -3,7 +3,7 @@ use Cake\Core\Configure;
 
 ?>
 
-<?php if ($this->App->isCakeFestInFuture()): ?>
+<?php if (!$this->App->isCakeFestDone()): ?>
 	<section class="hero-2 section-fest">
 	    <div class="container text-center">
 	        <div class="row">
@@ -40,12 +40,21 @@ use Cake\Core\Configure;
 	                </div>
 	            </div>
 	            <div class="col-md-3 col-md-offset-1">
-	                <div class="box-data">
-	                    <h6>Only</h6>
-	                    <h6><span><?= $this->App->cakeFestDaysLeft() ?><span></h6>
-	                    <h5>days left to</h5>
-	                    <h4><?= Configure::read('Site.cakefest.title')?></h4>
-	                </div>
+	            	<?php if ($this->App->isCakeFestInFuture()): ?>
+		                <div class="box-data">
+		                    <h6>Only</h6>
+		                    <h6><span><?= $this->App->cakeFestDaysLeft() ?><span></h6>
+		                    <h5>days left to</h5>
+		                    <h4><?= Configure::read('Site.cakefest.title')?></h4>
+		                </div>
+		            <?php else: ?>
+		                <div class="box-data">
+		                    <h6>RIGHT</h6>
+		                    <h6><span style="font-size:75px">NOW<span></h6>
+		                    <h5>HAPPENING</h5>
+		                    <h4><?= Configure::read('Site.cakefest.title')?></h4>
+		                </div>
+		        	<?php endif; ?>
 	            </div>
 	        </div>
 	    </div>
