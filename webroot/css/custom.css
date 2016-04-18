@@ -34,3 +34,30 @@
 .t-videos {
 	margin-bottom: 30px;
 }
+
+.back-red .form-control::-webkit-input-placeholder { color: white; }
+.back-red .form-control:-moz-placeholder { color: white; }
+.back-red .form-control::-moz-placeholder { color: white; }
+.back-red .form-control:-ms-input-placeholder { color: white; }
+
+.mc-field-group {
+	text-align: left;
+}
+
+.form .mc-field-group ul label {
+	display: inline;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+input#mc-embedded-subscribe {
+	background: white;
+	color: #D33C44;
+	padding: 15px 30px;
+    border-radius: 8px;
+    width: auto;
+}
+
+input[type="radio"]:checked:before {
+	background: #505050;
+}
