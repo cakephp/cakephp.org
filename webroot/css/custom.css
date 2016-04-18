@@ -61,3 +61,8 @@ input#mc-embedded-subscribe {
 input[type="radio"]:checked:before {
 	background: #505050;
 }
+
+.panel.more-cases {
+	text-transform: none;
+	text-align: left;
+}
