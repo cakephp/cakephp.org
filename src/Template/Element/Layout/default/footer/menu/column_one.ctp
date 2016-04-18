@@ -2,8 +2,9 @@
     'business' => [
         'class' => 'menu-title mt30',
         'icon' => 'fa fa-menu-title fa-briefcase',
-        'url' => '#',
-		'title' => __('Business Solutions')
+        'url' => 'http://www.cakedc.com',
+		'title' => __('Business Solutions'),
+		'target' => '_blank'
     ],
     'showcase' => [
         'class' => 'menu-title mt30',

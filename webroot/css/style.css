@@ -1,7 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
-@import url(https://fonts.googleapis.com/css?family=Raleway:300italic);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700italic,500italic,500,400italic,300italic,300,100italic,100,700);
-
 html,
 body {
 	width: 100%;
@@ -3724,7 +3720,7 @@ iframe {
 
 
 /* *********************	Elements	********************* */
-/* Forms, Buttons, Alerts, Progress Bars, Tabs, Accordions, 
+/* Forms, Buttons, Alerts, Progress Bars, Tabs, Accordions,
 	Popovers, Tolltips, Toggles etc */
 
 
@@ -4803,11 +4799,11 @@ h4.media-heading {
 
 /* *********************	Social Icons	********************* */
 
-/*  
+/*
 	pinterest, rss, facebook, twitter, flickr, dribble
 	behance, linkedin, vimeo, youtube, skype, tumblr,
-	forrst, digg, blogger, github, google-plus, lastfm, 
-	spotify, instagram, paypal, soundcloud. 
+	forrst, digg, blogger, github, google-plus, lastfm,
+	spotify, instagram, paypal, soundcloud.
 	*/
 
 .social-icon {
