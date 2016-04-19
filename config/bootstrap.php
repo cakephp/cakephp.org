@@ -35,7 +35,7 @@ require CORE_PATH . 'config' . DS . 'bootstrap.php';
 
 // You can remove this if you are confident you have intl installed.
 if (!extension_loaded('intl')) {
-    trigger_error('You must enable the intl extension to use CakePHP.', E_USER_ERROR);
+	trigger_error('You must enable the intl extension to use CakePHP.', E_USER_ERROR);
 }
 
 use Cake\Cache\Cache;
@@ -63,10 +63,10 @@ use Cake\Utility\Security;
  * that changes from configuration that does not. This makes deployment simpler.
  */
 try {
-    Configure::config('default', new PhpConfig());
-    Configure::load('app', 'default', false);
+	Configure::config('default', new PhpConfig());
+	Configure::load('app', 'default', false);
 } catch (\Exception $e) {
-    exit($e->getMessage() . "\n");
+	exit($e->getMessage() . "\n");
 }
 
 // Load an environment local configuration file.
@@ -78,8 +78,8 @@ try {
 // for a very very long time, as we don't want
 // to refresh the cache while users are doing requests.
 if (!Configure::read('debug')) {
-    Configure::write('Cache._cake_model_.duration', '+1 years');
-    Configure::write('Cache._cake_core_.duration', '+1 years');
+	Configure::write('Cache._cake_model_.duration', '+1 years');
+	Configure::write('Cache._cake_core_.duration', '+1 years');
 }
 
 /**
@@ -104,14 +104,14 @@ ini_set('intl.default_locale', Configure::read('App.defaultLocale'));
  */
 $isCli = PHP_SAPI === 'cli';
 if ($isCli) {
-    (new ConsoleErrorHandler(Configure::read('Error')))->register();
+	(new ConsoleErrorHandler(Configure::read('Error')))->register();
 } else {
-    (new ErrorHandler(Configure::read('Error')))->register();
+	(new ErrorHandler(Configure::read('Error')))->register();
 }
 
 // Include the CLI bootstrap overrides.
 if ($isCli) {
-    require __DIR__ . '/bootstrap_cli.php';
+	require __DIR__ . '/bootstrap_cli.php';
 }
 
 /**
@@ -121,16 +121,16 @@ if ($isCli) {
  * If you define fullBaseUrl in your config file you can remove this.
  */
 if (!Configure::read('App.fullBaseUrl')) {
-    $s = null;
-    if (env('HTTPS')) {
-        $s = 's';
-    }
+	$s = null;
+	if (env('HTTPS')) {
+		$s = 's';
+	}
 
-    $httpHost = env('HTTP_HOST');
-    if (isset($httpHost)) {
-        Configure::write('App.fullBaseUrl', 'http' . $s . '://' . $httpHost);
-    }
-    unset($httpHost, $s);
+	$httpHost = env('HTTP_HOST');
+	if (isset($httpHost)) {
+		Configure::write('App.fullBaseUrl', 'http' . $s . '://' . $httpHost);
+	}
+	unset($httpHost, $s);
 }
 
 Cache::config(Configure::consume('Cache'));
@@ -151,12 +151,12 @@ Security::salt(Configure::consume('Security.salt'));
  * Setup detectors for mobile and tablet.
  */
 Request::addDetector('mobile', function ($request) {
-    $detector = new \Detection\MobileDetect();
-    return $detector->isMobile();
+	$detector = new \Detection\MobileDetect();
+	return $detector->isMobile();
 });
 Request::addDetector('tablet', function ($request) {
-    $detector = new \Detection\MobileDetect();
-    return $detector->isTablet();
+	$detector = new \Detection\MobileDetect();
+	return $detector->isTablet();
 });
 
 /**
@@ -181,11 +181,13 @@ Request::addDetector('tablet', function ($request) {
  */
 
 Plugin::load('Migrations');
+Plugin::load('AssetCompress', ['bootstrap' => true]);
+Plugin::load('Showcase', ['routes' => true, 'bootstrap' => true]);
 
 // Only try to load DebugKit in development mode
 // Debug Kit should not be installed on a production system
 if (Configure::read('debug')) {
-    Plugin::load('DebugKit', ['bootstrap' => true]);
+	Plugin::load('DebugKit', ['bootstrap' => true]);
 }
 
 /**
@@ -202,11 +204,14 @@ DispatcherFactory::add('ControllerFactory');
  * Also enable immutable time objects in the ORM.
  */
 Type::build('time')
-    ->useImmutable()
-    ->useLocaleParser();
+	->useImmutable()
+	->useLocaleParser();
 Type::build('date')
-    ->useImmutable()
-    ->useLocaleParser();
+	->useImmutable()
+	->useLocaleParser();
 Type::build('datetime')
-    ->useImmutable()
-    ->useLocaleParser();
+	->useImmutable()
+	->useLocaleParser();
+
+Configure::load('site');
+

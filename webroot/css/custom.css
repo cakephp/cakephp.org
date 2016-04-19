@@ -1,0 +1,84 @@
+.alert {
+	margin-top: 25px;
+}
+
+.back-red.view {
+	color: white;
+}
+
+.crud-actions a {
+	margin-right:5px;
+}
+
+.display_archive .campaign a {
+	font-size: 15px;
+	color: #363637;
+	letter-spacing: 0.04em;
+	margin-bottom: 120px;
+	font-weight: normal;
+}
+
+.display_archive .campaign {
+	font-weight: bold;
+	font-size: 15px;
+	height: 30px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.t-videos h4 {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.t-videos {
+	margin-bottom: 30px;
+}
+
+.page-content-trad li {
+	font-size: 12px;
+}
+
+.trademark ol {
+	counter-reset: item;
+	padding-left: 1.2em;
+}
+.trademark li {
+	display: block
+}
+.trademark li:before {
+	content: counters(item, ".") " ";
+	counter-increment: item
+}
+
+.back-red .form-control::-webkit-input-placeholder { color: white; }
+.back-red .form-control:-moz-placeholder { color: white; }
+.back-red .form-control::-moz-placeholder { color: white; }
+.back-red .form-control:-ms-input-placeholder { color: white; }
+
+.mc-field-group {
+	text-align: left;
+}
+
+.form .mc-field-group ul label {
+	display: inline;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+input#mc-embedded-subscribe {
+	background: white;
+	color: #D33C44;
+	padding: 15px 30px;
+    border-radius: 8px;
+    width: auto;
+}
+
+input[type="radio"]:checked:before {
+	background: #505050;
+}
+
+.panel.more-cases {
+	text-transform: none;
+	text-align: left;
+}

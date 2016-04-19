@@ -15,6 +15,7 @@
 namespace App\Controller;
 
 use Cake\Controller\Controller;
+use Cake\Core\Configure;
 use Cake\Event\Event;
 
 /**
@@ -43,6 +44,8 @@ class AppController extends Controller
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
+        $this->loadComponent('Security');
+        $this->loadComponent('Csrf');
     }
 
     /**
@@ -58,5 +61,9 @@ class AppController extends Controller
         ) {
             $this->set('_serialize', true);
         }
+		$this->set([
+				'_version' => Configure::read('App.version'),
+			]);
     }
+
 }
