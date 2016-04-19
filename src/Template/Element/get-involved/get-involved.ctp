@@ -108,7 +108,7 @@ use Cake\Core\Configure;
 		<div class="br-bottom mb20"></div>
 		<p><?= __('Filing issues is a great way to start contributing to CakePHP. By finding and reporting issues in the code
 			you notify the maintainers of any issues and help get them resolved. Issues for all CakePHP projects are
-			located on {0}', $this->Html->link(__('GitHub'), Configure::read('Site.help.github.url')))?>
+			located on {0}', $this->Html->link(__('GitHub'), 'https://github.com/cakephp/cakephp/issues'))?>
 		</p>
 		<h4><?= __('Found a Bug?')?></h4>
 
@@ -116,7 +116,7 @@ use Cake\Core\Configure;
 		<ul>
 			<li><?= __('Search for a similar or {0}.', $this->Html->link(__('existing issues'), 'https://github.com/cakephp/cakephp/labels/Defect', ['target' => '_blank']))?>
 			</li>
-			<li><?= __('Create a {0} if you\'re sure it doesn\'t already exist OR update the existing issue.', $this->Html->link(__('new issue'), 'https://github.com/cakephp/cakephp/labels/Defect', ['target' => '_blank']))?>
+			<li><?= __('Create a {0} if you\'re sure it doesn\'t already exist OR update the existing issue.', $this->Html->link(__('new issue'), 'https://github.com/cakephp/cakephp/issues/new', ['target' => '_blank']))?>
 			</li>
 			<li><?= __('Add detailed instructions on how to reproduce the bug. This could be in the form of test cases or a code
 				snippet that demonstrates the issue. Not having a way to reproduce an issue, means its less likely to
@@ -128,7 +128,7 @@ use Cake\Core\Configure;
 		<p><?= __('All {0}
 			need to be triaged and have the correct tags, as well as having a milestone assigned to them. You can help
 			by looking at new issues and adding the correct tags. Additionally, confirming or asking for more
-			information on unclear issues doesn\'t take much time, and helps speed up the process.', $this->Html->link(__('new issues'), Configure::read('Site.help.github.url')))?></p>
+			information on unclear issues doesn\'t take much time, and helps speed up the process.', $this->Html->link(__('new issues'), 'https://github.com/cakephp/cakephp/issues'))?></p>
 
 		<p><?= __('Tags for issues usually contain which classes, methods, and other generic properties are involved. The tags
 			{0}, {1} and {2} move issues into related bins.', $this->Html->tag('i', __('Defect')),  $this->Html->tag('i', __('Enhancement')),  $this->Html->tag('i', __('RFC')))?></p>

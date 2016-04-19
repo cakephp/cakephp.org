@@ -94,7 +94,7 @@ use Cake\Core\Configure;
 			<?= $this->Html->tag(
 				'p',
 				__('{0}: Official community channel for the project',
-					$this->Html->link(__('Facebook'), Configure::read('Site.menu.items.help.google.url'), ['target' => '_blank'])
+					$this->Html->link(__('Google Groups'), Configure::read('Site.menu.items.help.google.url'), ['target' => '_blank'])
 				))
 			?>
 		</div>
