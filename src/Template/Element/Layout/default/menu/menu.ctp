@@ -17,7 +17,7 @@
         $this->Html->link(
             __('Business Solutions'),
             'http://www.cakedc.com',
-            ['escape' => false, 'target' => '_blank']
+            ['escape' => false]
         );?>
     </li>
     <li>
