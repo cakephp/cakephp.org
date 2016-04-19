@@ -1,7 +1,9 @@
 <div id="software" class="col-sm-12 use-soft-trade">
 	<h3><?= __('Use for software')?></h3>
 	<p>
-		<?= __('See {0}, above, which also apply.', $this->Html->link(__('Universal considerations for all uses', '#universal-considerations')))?>
+		<?= __('See {0}, above, which also apply.', $this->Html->link(__("Universal considerations for all uses"), '#universal-considerations', [
+            'class' => 't-blue'
+        ]))?>
 	</p>
 	<h4 id="sofware-users" class="p-trad-sub"><?= __('Uses we consider non-infringing')?></h4>
 
