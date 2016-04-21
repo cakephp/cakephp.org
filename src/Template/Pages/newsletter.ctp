@@ -1,5 +1,6 @@
 <?php
-$this->assign('title', __('Newsletter'));
+$this->assign('title', __('CakePHP Rapid Development PHP Framework | CakePHP latest news'));
+$this->assign('meta', $this->Html->meta('description', __('Latest CakePHP News.')));
 ?>
 <div class="section newsletter">
 	<div class="main dev">
