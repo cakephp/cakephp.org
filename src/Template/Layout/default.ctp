@@ -29,7 +29,6 @@ $cakeDescription = __($changeTitle == true ? $metaOptions['title'] : 'CakePHP - 
 	<?= $this->Html->meta('icon') ?>
 	<meta charset="utf-8" >
 
-	<title></title>
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic|Montserrat:400,700' rel='stylesheet'>
 	<?= $this->AssetCompress->css('public') ?>
 	<?= $this->AssetCompress->css('fonts', ['raw' => true, 'pathPrefix' => null]) ?>
@@ -38,6 +37,7 @@ $cakeDescription = __($changeTitle == true ? $metaOptions['title'] : 'CakePHP - 
 	<style>
 		.error-message {color:red;}
 	</style>
+	<?= $this->Html->meta('description', $metaOptions['description']) ?>
 
 	<?= $this->fetch('meta') ?>
 	<?= $this->fetch('css') ?>
