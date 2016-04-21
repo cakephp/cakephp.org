@@ -13,7 +13,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = __('CakePHP - Build fast, grow solid.');
+$cakeDescription = __($changeTitle == true ? $metaOptions['title'] : 'CakePHP - Build fast, grow solid.');
 ?>
 <!DOCTYPE html>
 <html>
