@@ -12,8 +12,6 @@
  * @since         0.10.0
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
-
-$cakeDescription = __('CakePHP - Build fast, grow solid.');
 ?>
 <!DOCTYPE html>
 <html>
@@ -23,7 +21,6 @@ $cakeDescription = __('CakePHP - Build fast, grow solid.');
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>
-		<?= $cakeDescription ?>:
 		<?= $this->fetch('title') ?>
 	</title>
 	<?= $this->Html->meta('icon') ?>
