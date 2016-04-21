@@ -13,7 +13,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = __($changeTitle == true ? $metaOptions['title'] : 'CakePHP - Build fast, grow solid.');
+$cakeDescription = __('CakePHP - Build fast, grow solid.');
 ?>
 <!DOCTYPE html>
 <html>
@@ -37,7 +37,6 @@ $cakeDescription = __($changeTitle == true ? $metaOptions['title'] : 'CakePHP - 
 	<style>
 		.error-message {color:red;}
 	</style>
-	<?= $this->Html->meta('description', $metaOptions['description']) ?>
 
 	<?= $this->fetch('meta') ?>
 	<?= $this->fetch('css') ?>
