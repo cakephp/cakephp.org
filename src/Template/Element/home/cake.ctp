@@ -1,7 +1,9 @@
 <?php
-	$this->assign('title', __('CakePHP Homepage | Rapid Development PHP Framework'));
-	$this->assign('meta', $this->Html->meta('description', __('CakePHP is an open-source web, rapid development framework that makes building web applications simpler, faster and require less code. It follows the model–view–controller (MVC) . Manual for beginners now available and links towards the last version.')));
-	$this->assign('socialMeta', $this->Meta->socialTags(['title' => __('CakePHP Homepage | Rapid Development PHP Framework'), 'description' => __('CakePHP is an open-source web, rapid development framework that makes building web applications simpler, faster and require less code. It follows the model–view–controller (MVC) . Manual for beginners now available and links towards the last version.')]));
+	$title = 'CakePHP Homepage | Rapid Development PHP Framework';
+	$description = 'CakePHP is an open-source web, rapid development framework that makes building web applications simpler, faster and require less code. It follows the model–view–controller (MVC) . Manual for beginners now available and links towards the last version.';
+	$this->assign('title', __($title));
+	$this->assign('meta', $this->Html->meta('description', __($description)));
+	$this->assign('socialMeta', $this->Meta->socialTags(['title' => __($title), 'description' => __($description)]));
 ?>
 <section class="hero">
     <div class="container-fluid text-center">
