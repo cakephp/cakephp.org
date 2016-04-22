@@ -181,7 +181,7 @@
             "source": {
                 "type": "git",
                 "url": "git@git.cakedc.com:cakedc/showcase.git",
-                "reference": "5ca1be89a6bdf873117f0e494c2a8fb88ee472dc"
+                "reference": "72687bdad390dfe3c7de1867b72243787873a5c2"
             },
             "require": {
                 "burzum/cakephp-imagine-plugin": "~2.0",
@@ -207,7 +207,7 @@
                 }
             },
             "description": "Showcase plugin for CakePHP",
-            "time": "2016-04-22 23:16:49"
+            "time": "2016-04-22 23:53:52"
         },
         {
             "name": "cakephp/cakephp",
