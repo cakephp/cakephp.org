@@ -1,5 +1,10 @@
 <?php
 use Cake\Core\Configure;
+$title = __('CakePHP Rapid Development PHP Framework | Get Involved');
+$description = __('Contribute and support the CakePHP Community.');
+$this->assign('title', $title);
+$this->assign('meta', $this->Html->meta('description', $description));
+$this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
 ?>
 <div id="getInvolved" class="col-sm-12 pt-35">
 	<h2><?= __('Get Involved!')?></h2>
