@@ -2,10 +2,12 @@
 /**
  * @todo New contact form needs to replace $emailLegal in the sections below
  */
-	$this->assign('title', __('CakePHP Rapid Development PHP Framework | Logos and trademarks'));
-	$this->assign('meta', $this->Html->meta('description', __('CakePHP Logos and Trademark policies.')));
+	$title = 'CakePHP Rapid Development PHP Framework | Logos and trademarks';
+	$description = 'CakePHP Logos and Trademark policies.';
+	$this->assign('title', __($title));
+	$this->assign('meta', $this->Html->meta('description', __($description)));
 	$emailLegal = $this->Html->tag('strong', 'legal [at] cakefoundation.org');
-	$this->assign('socialMeta', $this->Meta->socialTags(['title' => __('CakePHP Rapid Development PHP Framework | Logos and trademarks'), 'description' => __('CakePHP Logos and Trademark policies.')]));
+	$this->assign('socialMeta', $this->Meta->socialTags(['title' => __($title), 'description' => __($description)]));
 ?>
 
 <section class="dark-gray-stripe">

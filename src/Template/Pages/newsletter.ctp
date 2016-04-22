@@ -1,7 +1,9 @@
 <?php
-$this->assign('title', __('CakePHP Rapid Development PHP Framework | CakePHP latest news'));
-$this->assign('meta', $this->Html->meta('description', __('Latest CakePHP News.')));
-$this->assign('socialMeta', $this->Meta->socialTags(['title' => __('CakePHP Rapid Development PHP Framework | CakePHP latest news'), 'description' => __('Latest CakePHP News.')]));
+	$title = 'CakePHP Rapid Development PHP Framework | CakePHP latest news';
+	$description = 'Latest CakePHP News.';
+	$this->assign('title', __($title));
+	$this->assign('meta', $this->Html->meta('description', __($description)));
+	$this->assign('socialMeta', $this->Meta->socialTags(['title' => __($title), 'description' => __($description)]));
 ?>
 <div class="section newsletter">
 	<div class="main dev">
