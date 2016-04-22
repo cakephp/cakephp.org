@@ -1,5 +1,6 @@
 <?php
 $this->assign('title', __('Newsletter'));
+$this->assign('socialMeta', $this->Meta->socialTags(['title' => __('CakePHP Rapid Development PHP Framework | CakePHP latest news'), 'description' => __('Latest CakePHP News.')]));
 ?>
 <div class="section newsletter">
 	<div class="main dev">
