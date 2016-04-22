@@ -1,5 +1,6 @@
 <?php
-$this->assign('title', __('Privacy Policy for cakephp.org'));
+	$this->assign('title', __('CakePHP Rapid Development PHP Framework | Privacy policy'));
+	$this->assign('meta', $this->Html->meta('description', __('CakePHP Privacy Policy.')));
 	$this->assign('socialMeta', $this->Meta->socialTags(['title' => __('CakePHP Rapid Development PHP Framework | Privacy policy'), 'description' => __('CakePHP Privacy Policy.')]));
 ?>
 
@@ -48,7 +49,10 @@ $this->assign('title', __('Privacy Policy for cakephp.org'));
 					<?php echo __('These companies may use information (not including your name, address, email address, or telephone number) about your visits to this and other websites in order to provide advertisements about goods and services of interest to you.'); ?>
 					<?php echo sprintf(
 						__('If you would like more information about this practice and to know your choices about not having this information used by these companies, %s.'),
-						'<a href="http://www.google.com/privacy_ads.html">' . __('click here') . '</a>'); ?>
+						$this->Html->link(__('click here'), 'http://www.google.com/privacy_ads.html', [
+                            'target' => '_blank',
+                        ]));
+                    ?>
 				</p>
 				<div style="padding-left: 20px; padding-top:20px;"><?php echo $this->element('ads/728x90'); ?></div>
 			</div>

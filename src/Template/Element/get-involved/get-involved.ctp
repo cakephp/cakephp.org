@@ -137,7 +137,7 @@ use Cake\Core\Configure;
 		<p><?= __('If an issue cannot be easily reproduced, or is unclear, it will be set to hold. Issues on hold generally need
 			a way to be confirmed or require additional information. You can help by finding out ways to reproduce
 			issues, or prodding issue authors for more information. Issues that are on hold can be found {0}',
-				$this->Html->link(__('here'), 'https://github.com/cakephp/cakephp/labels/On%20hold')
+				$this->Html->link(__('here'), 'https://github.com/cakephp/cakephp/labels/On%20hold', ['target' => '_blank'])
 			)?></p>
 		<h4><?= __('Bug Issues for Maintenance Releases')?></h4>
 
@@ -161,7 +161,7 @@ use Cake\Core\Configure;
 
 		<p><?= __('CakePHP is {0}, so you can check the status of the {1} on the Jenkins server at any time.',
 			$this->Html->link(__('continuously integrated'), 'http://en.wikipedia.org/wiki/Continuous_integration', ['target' => '_blank']),
-			$this->Html->link(__('various builds'), 'http://ci.cakephp.org/', ['target' => '_blank'])
+			$this->Html->link(__('various builds'), 'http://ci.cakephp.org/')
 			)?>
 		</p>
 	</div>
@@ -178,8 +178,8 @@ use Cake\Core\Configure;
 			file a patch against the {2}. The CookBook is a community managed
 			documentation source which can also be found on {3}.
 			Guidelines on contributing to the documentation can be reviewed here.',
-				$this->Html->link(__('API'), Configure::read('Site.menu.items.documentation.api.url'), ['target' => '_blank']),
-				$this->Html->link(__('CookBook'), Configure::read('Site.menu.items.documentation.book.url'), ['target' => '_blank']),
+				$this->Html->link(__('API'), Configure::read('Site.menu.items.documentation.api.url')),
+				$this->Html->link(__('CookBook'), Configure::read('Site.menu.items.documentation.book.url')),
 				$this->Html->link(__('GitHub'), 'https://github.com/cakephp/docs', ['target' => '_blank']),
 				$this->Html->link(__('here'), 'http://book.cakephp.org/3.0/en/contributing/documentation.html')
 			)?></p>
@@ -193,8 +193,8 @@ use Cake\Core\Configure;
 			translating the {0} or the {1} content
 			into your language is another way to help support the community. Providing the official documentation and
 			support material in as many languages as possible helps lower the barrier to entry to using the framework.',
-				$this->Html->link(__('API'), Configure::read('Site.menu.items.documentation.api.url'), ['target' => '_blank']),
-				$this->Html->link(__('CookBook'), Configure::read('Site.menu.items.documentation.book.url'), ['target' => '_blank'])
+				$this->Html->link(__('API'), Configure::read('Site.menu.items.documentation.api.url')),
+				$this->Html->link(__('CookBook'), Configure::read('Site.menu.items.documentation.book.url'))
 			)?>
 		</p>
 	</div>
