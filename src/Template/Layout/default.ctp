@@ -12,8 +12,6 @@
  * @since         0.10.0
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
-
-$cakeDescription = __('CakePHP - Build fast, grow solid.');
 ?>
 <!DOCTYPE html>
 <html>
@@ -23,13 +21,11 @@ $cakeDescription = __('CakePHP - Build fast, grow solid.');
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>
-		<?= $cakeDescription ?>:
 		<?= $this->fetch('title') ?>
 	</title>
 	<?= $this->Html->meta('icon') ?>
 	<meta charset="utf-8" >
 
-	<title></title>
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic|Montserrat:400,700' rel='stylesheet'>
 	<?= $this->AssetCompress->css('public') ?>
 	<?= $this->AssetCompress->css('fonts', ['raw' => true, 'pathPrefix' => null]) ?>
