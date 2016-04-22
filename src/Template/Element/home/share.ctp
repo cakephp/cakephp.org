@@ -12,7 +12,7 @@
             </div>
             <div class="col-md-8 col-md-offset-2 text-center">
                 <p><?= __('If you\'re interested in contributing to CakePHP and supporting the community then we\'d love for you to join us, there are a variety of ways to get involved and help out.')?> </p>
-                <?= $this->Html->link(__('Learn more.'), 'http://community.cakephp.org/get-involved', [
+                <?= $this->Html->link(__('Learn more.'), 'pages/get-involved', [
                 	'class' => "btn btn-red mt40"
                 ]) ?>
             </div>
