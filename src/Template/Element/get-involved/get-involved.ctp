@@ -108,7 +108,7 @@ use Cake\Core\Configure;
 		<div class="br-bottom mb20"></div>
 		<p><?= __('Filing issues is a great way to start contributing to CakePHP. By finding and reporting issues in the code
 			you notify the maintainers of any issues and help get them resolved. Issues for all CakePHP projects are
-			located on {0}', $this->Html->link(__('GitHub'), Configure::read('Site.help.github.url')))?>
+			located on {0}', $this->Html->link(__('GitHub'), 'https://github.com/cakephp/cakephp/issues'))?>
 		</p>
 		<h4><?= __('Found a Bug?')?></h4>
 
@@ -116,7 +116,7 @@ use Cake\Core\Configure;
 		<ul>
 			<li><?= __('Search for a similar or {0}.', $this->Html->link(__('existing issues'), 'https://github.com/cakephp/cakephp/labels/Defect', ['target' => '_blank']))?>
 			</li>
-			<li><?= __('Create a {0} if you\'re sure it doesn\'t already exist OR update the existing issue.', $this->Html->link(__('new issue'), 'https://github.com/cakephp/cakephp/labels/Defect', ['target' => '_blank']))?>
+			<li><?= __('Create a {0} if you\'re sure it doesn\'t already exist OR update the existing issue.', $this->Html->link(__('new issue'), 'https://github.com/cakephp/cakephp/issues/new', ['target' => '_blank']))?>
 			</li>
 			<li><?= __('Add detailed instructions on how to reproduce the bug. This could be in the form of test cases or a code
 				snippet that demonstrates the issue. Not having a way to reproduce an issue, means its less likely to
@@ -128,7 +128,7 @@ use Cake\Core\Configure;
 		<p><?= __('All {0}
 			need to be triaged and have the correct tags, as well as having a milestone assigned to them. You can help
 			by looking at new issues and adding the correct tags. Additionally, confirming or asking for more
-			information on unclear issues doesn\'t take much time, and helps speed up the process.', $this->Html->link(__('new issues'), Configure::read('Site.help.github.url')))?></p>
+			information on unclear issues doesn\'t take much time, and helps speed up the process.', $this->Html->link(__('new issues'), 'https://github.com/cakephp/cakephp/issues'))?></p>
 
 		<p><?= __('Tags for issues usually contain which classes, methods, and other generic properties are involved. The tags
 			{0}, {1} and {2} move issues into related bins.', $this->Html->tag('i', __('Defect')),  $this->Html->tag('i', __('Enhancement')),  $this->Html->tag('i', __('RFC')))?></p>
@@ -137,7 +137,7 @@ use Cake\Core\Configure;
 		<p><?= __('If an issue cannot be easily reproduced, or is unclear, it will be set to hold. Issues on hold generally need
 			a way to be confirmed or require additional information. You can help by finding out ways to reproduce
 			issues, or prodding issue authors for more information. Issues that are on hold can be found {0}',
-				$this->Html->link(__('here'), 'https://github.com/cakephp/cakephp/labels/On%20hold')
+				$this->Html->link(__('here'), 'https://github.com/cakephp/cakephp/labels/On%20hold', ['target' => '_blank'])
 			)?></p>
 		<h4><?= __('Bug Issues for Maintenance Releases')?></h4>
 
@@ -161,7 +161,7 @@ use Cake\Core\Configure;
 
 		<p><?= __('CakePHP is {0}, so you can check the status of the {1} on the Jenkins server at any time.',
 			$this->Html->link(__('continuously integrated'), 'http://en.wikipedia.org/wiki/Continuous_integration', ['target' => '_blank']),
-			$this->Html->link(__('various builds'), 'http://ci.cakephp.org/', ['target' => '_blank'])
+			$this->Html->link(__('various builds'), 'http://ci.cakephp.org/')
 			)?>
 		</p>
 	</div>
@@ -178,8 +178,8 @@ use Cake\Core\Configure;
 			file a patch against the {2}. The CookBook is a community managed
 			documentation source which can also be found on {3}.
 			Guidelines on contributing to the documentation can be reviewed here.',
-				$this->Html->link(__('API'), Configure::read('Site.menu.items.documentation.api.url'), ['target' => '_blank']),
-				$this->Html->link(__('CookBook'), Configure::read('Site.menu.items.documentation.book.url'), ['target' => '_blank']),
+				$this->Html->link(__('API'), Configure::read('Site.menu.items.documentation.api.url')),
+				$this->Html->link(__('CookBook'), Configure::read('Site.menu.items.documentation.book.url')),
 				$this->Html->link(__('GitHub'), 'https://github.com/cakephp/docs', ['target' => '_blank']),
 				$this->Html->link(__('here'), 'http://book.cakephp.org/3.0/en/contributing/documentation.html')
 			)?></p>
@@ -193,8 +193,8 @@ use Cake\Core\Configure;
 			translating the {0} or the {1} content
 			into your language is another way to help support the community. Providing the official documentation and
 			support material in as many languages as possible helps lower the barrier to entry to using the framework.',
-				$this->Html->link(__('API'), Configure::read('Site.menu.items.documentation.api.url'), ['target' => '_blank']),
-				$this->Html->link(__('CookBook'), Configure::read('Site.menu.items.documentation.book.url'), ['target' => '_blank'])
+				$this->Html->link(__('API'), Configure::read('Site.menu.items.documentation.api.url')),
+				$this->Html->link(__('CookBook'), Configure::read('Site.menu.items.documentation.book.url'))
 			)?>
 		</p>
 	</div>

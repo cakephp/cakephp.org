@@ -43,8 +43,7 @@ return [
 					],
 					'blog' => [
 						'url' => 'http://bakery.cakephp.org/',
-						'title' => __('Blog'),
-						'options' => ['target' => '_blank']
+						'title' => __('Blog')
 					],
 					'newsletter' => [
 						'url' => [
@@ -58,12 +57,10 @@ return [
 					],
 					'certification' => [
 						'url' => 'http://certification.cakephp.org/',
-						'options' => ['target' => '_blank'],
 						'title' => __('Certification')
 					],
 					'myCakephp' => [
 						'url' => 'http://my.cakephp.org/login',
-						'options' => ['target' => '_blank'],
 						'title' => __('My CakePHP')
 					],
 					'cakefest' => [
@@ -95,7 +92,6 @@ return [
 					],
 					'commercial' => [
 						'url' => 'http://www.cakedc.com/',
-						'options' => ['target' => '_blank'],
 						'title' => __('Commercial')
 					],
 					'irc' => [
