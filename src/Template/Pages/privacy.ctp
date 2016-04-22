@@ -1,6 +1,7 @@
 <?php
 	$this->assign('title', __('CakePHP Rapid Development PHP Framework | Privacy policy'));
 	$this->assign('meta', $this->Html->meta('description', __('CakePHP Privacy Policy.')));
+	$this->assign('socialMeta', $this->Meta->socialTags(['title' => __('CakePHP Rapid Development PHP Framework | Privacy policy'), 'description' => __('CakePHP Privacy Policy.')]));
 ?>
 
 <section class="gray-stripe">
