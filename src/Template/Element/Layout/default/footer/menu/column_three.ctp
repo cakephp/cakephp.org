@@ -5,7 +5,7 @@
         'url' => '#'
     ],
 ];
-$menu = array_merge($this->Menu->helpAndSupportItems(), $calendarHeader, $this->Menu->calendarItems())
+$menu = array_merge($this->Menu->helpAndSupportItems())
 ?>
 
 <ul class="footer-menu">
