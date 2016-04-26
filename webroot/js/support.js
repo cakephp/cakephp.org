@@ -17,11 +17,14 @@
 
 	$('.type-select').on('change', function (e) {
 		$('.hidden-fields').hide();
+		$('.hidden-fields input').prop('required', false);
 
 		if ($(this).val() == 'call') {
 			$('.phone-field').show();
+			$('.phone-field input').prop('required', true);
 		} else if ($(this).val() == 'skype') {
 			$('.skype-field').show();
+			$('.skype-field input').prop('required', true);
 		}
 	});
 
