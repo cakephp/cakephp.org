@@ -34,7 +34,9 @@
 				$('.portfolio').append(createVideoElement(item));
 			});
 
-			callback();
+			if (callback) {
+				callback();
+			}
 		});
 	}
 

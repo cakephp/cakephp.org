@@ -2,6 +2,9 @@
 
 return [
 	'Site' => [
+		'contact' => [
+			'email' => 'contact@cakedc.com'
+		],
 		'quotes' => [
 			[
 				'image' => 'quote/janey.png',
