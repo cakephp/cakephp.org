@@ -30,5 +30,5 @@ def asset_generate(deployconf, timestr):
     run('{0}{1}/bin/cake AssetCompress.asset_compress build'.format(deployconf['site_dir'], timestr))
 
 def composer(deployconf, timestr):
-    run('cd {0}{1} && (curl -s https://getcomposer.org/installer | php && php composer.phar global require fxp/composer-asset-plugin:^1.1.4 && php composer.phar install --prefer-dist --no-dev --optimize-autoloader --ignore-platform-reqs)'.format(deployconf['site_dir'], timestr))
+    run('cd {0}{1} && (curl -s https://getcomposer.org/installer | php && php composer.phar global require fxp/composer-asset-plugin:^1.1.4 --no-plugins && php composer.phar install --prefer-dist --no-dev --optimize-autoloader --ignore-platform-reqs)'.format(deployconf['site_dir'], timestr))
 
