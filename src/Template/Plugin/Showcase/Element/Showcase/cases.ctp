@@ -26,7 +26,7 @@
 						<div id="viewmoreshowcase" class="panel-collapse collapse">
 							<div class="panel-body">
 								<?php foreach (array_slice($projects->toArray(), 3) as $index => $project): ?>
-									<?= $this->element('Showcase.Showcase/cases/case', ['index' => $index, 'project' => $project]) ?>
+									<?= $this->element('Showcase.Showcase/cases/case', ['index' => $index+1, 'project' => $project]) ?>
 								<?php endforeach; ?>
 							</div>
 						</div>
