@@ -90,7 +90,7 @@
         </div>
     </li>
     <li>
-        <div id="wrap">
+        <div id="wrap" class="hide">
             <?= $this->element('Layout/default/menu/search') ?>
         </div>
     </li>
