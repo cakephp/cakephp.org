@@ -211,3 +211,5 @@ DispatcherFactory::add('Routing');
 DispatcherFactory::add('ControllerFactory');
 
 Plugin::load('AssetCompress', ['bootstrap' => true]);
+
+Cake\I18n\I18n::locale(env('CAKE_LOCALE', 'en_US'));
