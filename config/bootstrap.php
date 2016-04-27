@@ -46,6 +46,7 @@ use Cake\Core\Configure\Engine\PhpConfig;
 use Cake\Core\Plugin;
 use Cake\Datasource\ConnectionManager;
 use Cake\Error\ErrorHandler;
+use Cake\I18n\I18n;
 use Cake\Log\Log;
 use Cake\Network\Email\Email;
 use Cake\Network\Request;
@@ -211,3 +212,5 @@ DispatcherFactory::add('Routing');
 DispatcherFactory::add('ControllerFactory');
 
 Plugin::load('AssetCompress', ['bootstrap' => true]);
+
+I18n::locale(env('CAKE_LOCALE', 'en_US'));
