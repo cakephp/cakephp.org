@@ -5,14 +5,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2016-04-27 06:45+0000\n"
+"POT-Creation-Date: 2016-04-26 08:37+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: Controller/ChangelogsController.php:62
 msgid "Invalid tag for changelogs"
@@ -22,7 +22,7 @@ msgstr ""
 #: Template/Element/Layout/default/links/main.ctp:4
 #: Template/Layout/error.ctp:39;64
 msgid "Development"
-msgstr ""
+msgstr "開発"
 
 #: Template/Changelogs/index.ctp:8
 msgid "Github"
@@ -263,24 +263,24 @@ msgstr ""
 
 #: Template/Element/Layout/default/links/main.ctp:2
 msgid "Forum"
-msgstr ""
+msgstr "フォーラム"
 
 #: Template/Element/Layout/default/links/main.ctp:3
 #: Template/Layout/error.ctp:38;63
 #: Template/Pages/news.ctp:3
 msgid "News"
-msgstr ""
+msgstr "ニュース"
 
 #: Template/Element/Layout/default/links/main.ctp:5
 #: Template/Layout/error.ctp:40;65
 #: Template/Pages/documentation.ctp:3
 msgid "Documentation"
-msgstr ""
+msgstr "ドキュメント"
 
 #: Template/Element/Layout/default/links/main.ctp:6
 #: Template/Pages/newsletter.ctp:3
 msgid "Newsletter"
-msgstr ""
+msgstr "メールマガジン"
 
 #: Template/Element/home/download.ctp:5
 msgid "other releases"
@@ -486,7 +486,7 @@ msgstr ""
 
 #: Template/Layout/error.ctp:66
 msgid "Download"
-msgstr ""
+msgstr "ダウンロード"
 
 #: Template/Layout/error.ctp:88
 msgid "Privacy Policy"
@@ -527,7 +527,7 @@ msgstr ""
 
 #: Template/Pages/home.ctp:4
 msgid "CakePHP v{0} - the rapid development php framework."
-msgstr ""
+msgstr "CakePHP v{0} - 高速開発PHPレームワーク"
 
 #: Template/Pages/home.ctp:26
 msgid "Benefits"
@@ -535,51 +535,51 @@ msgstr ""
 
 #: Template/Pages/home.ctp:31
 msgid "Build Quickly"
-msgstr ""
+msgstr "あっという間に構築"
 
 #: Template/Pages/home.ctp:33
 msgid "Use code generation and scaffolding features to rapidly build prototypes."
-msgstr ""
+msgstr "プロトタイプを素早く構築するためのコード生成と足場作り機能が使えます。"
 
 #: Template/Pages/home.ctp:38
 msgid "No Configuration"
-msgstr ""
+msgstr "設定不要"
 
 #: Template/Pages/home.ctp:40
 msgid "No complicated XML or YAML files. Just setup your database and you're ready to bake."
-msgstr ""
+msgstr "複雑なXMLやYAMLファイルはありません。データベースをセットアップしたたけで焼く準備が整います。"
 
 #: Template/Pages/home.ctp:45
 msgid "Friendly License"
-msgstr ""
+msgstr "扱いやすいライセンス"
 
 #: Template/Pages/home.ctp:47
 msgid "CakePHP is licensed under the MIT license which makes it perfect for use in commercial applications."
-msgstr ""
+msgstr "CakePHPは商用利用にぴったりなMITライセンスで使用許諾されています。"
 
 #: Template/Pages/home.ctp:53
 msgid "Batteries Included"
-msgstr ""
+msgstr "バッテリー同梱"
 
 #: Template/Pages/home.ctp:55
 msgid "The things you need are built-in. Translations, database access, caching, validation, authentication, and much more are all built into one of the original PHP MVC frameworks."
-msgstr ""
+msgstr "必要なものは組み込まれています。翻訳、データベースアクセス、キャッシュ、検証、認証、他にもたくさんのものが、オリジナルのPHP製MVCフレームワークにすべて内蔵されています。"
 
 #: Template/Pages/home.ctp:60
 msgid "Clean MVC Conventions"
-msgstr ""
+msgstr "綺麗なMVC規約"
 
 #: Template/Pages/home.ctp:62
 msgid "Instead of having to plan where things go, CakePHP comes with a set of conventions to guide you in developing your application."
-msgstr ""
+msgstr "どうしようかと計画を立てなくても、CakePHPにはアプリケーション開発の手引きをする規約一式が備わっています。"
 
 #: Template/Pages/home.ctp:67
 msgid "Secure"
-msgstr ""
+msgstr "安心安全"
 
 #: Template/Pages/home.ctp:69
 msgid "CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention, and XSS prevention, helping you keep your application safe & secure."
-msgstr ""
+msgstr "CakePHPにはアプリケーションの安心安全に保つ手助けになる入力検証、CSRF防止、フォーム偽造防止、SQLインジェクション対策、そしてXSS対策のための組み込みのツールが付いています。"
 
 #: Template/Pages/home.ctp:212
 msgid "Companies using CakePHP"

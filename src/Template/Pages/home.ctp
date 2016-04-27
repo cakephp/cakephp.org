@@ -1,7 +1,7 @@
 <?php
 use Cake\Core\Configure;
 
-$this->assign('title', "CakePHP v$_version - the rapid development php framework.");
+$this->assign('title', __("CakePHP v{0} - the rapid development php framework.", [$_version]));
 $sites = Configure::read('Sites.JustBaked');
 ?>
     <div class="hero">
