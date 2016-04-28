@@ -547,7 +547,7 @@ msgstr "設定不要"
 
 #: Template/Pages/home.ctp:40
 msgid "No complicated XML or YAML files. Just setup your database and you're ready to bake."
-msgstr "複雑なXMLやYAMLファイルはありません。データベースをセットアップしたたけで焼く準備が整います。"
+msgstr "複雑なXMLやYAMLファイルはありません。データベースをセットアップしただけで焼く準備が整います。"
 
 #: Template/Pages/home.ctp:45
 msgid "Friendly License"
@@ -579,7 +579,7 @@ msgstr "安心安全"
 
 #: Template/Pages/home.ctp:69
 msgid "CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention, and XSS prevention, helping you keep your application safe & secure."
-msgstr "CakePHPにはアプリケーションの安心安全に保つ手助けになる入力検証、CSRF防止、フォーム偽造防止、SQLインジェクション対策、そしてXSS対策のための組み込みのツールが付いています。"
+msgstr "CakePHPにはアプリケーションを安心安全に保つ手助けになる入力検証、CSRF防止、フォーム偽造防止、SQLインジェクション対策、そしてXSS対策のための組み込みのツールが付いています。"
 
 #: Template/Pages/home.ctp:212
 msgid "Companies using CakePHP"
