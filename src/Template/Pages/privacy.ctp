@@ -51,6 +51,7 @@
 						__('If you would like more information about this practice and to know your choices about not having this information used by these companies, %s.'),
 						$this->Html->link(__('click here'), 'http://www.google.com/privacy_ads.html', [
                             'target' => '_blank',
+							'class' => 't-blue'
                         ]));
                     ?>
 				</p>
