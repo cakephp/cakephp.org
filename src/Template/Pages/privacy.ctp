@@ -42,7 +42,6 @@
 				<h3><?php echo __('Cookies:'); ?></h3>
 				<p><?php echo __('We do use cookies to store information, such as your personal preferences when you visit our site.'); ?></p>
 
-				<br/>
 				<h3><?php echo __('Advertising:'); ?></h3>
 				<p>
 					<?php echo __('We use third-party advertising companies to serve ads when you visit our website.'); ?>
