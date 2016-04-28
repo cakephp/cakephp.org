@@ -33,14 +33,12 @@
 					<?php echo __('We never sell your personal information to third parties.'); ?>
 				</p>
 
-				<br/>
 				<h3><?php echo __('Log Files:'); ?></h3>
 				<p>
 					<?php echo __('As with most other websites, we collect and use the data contained in log files.'); ?>
 					<?php echo __('The information in the log files include your IP (internet protocol) address, your ISP (internet service provider, such as AOL or Shaw Cable), the browser you used to visit our site (such as Internet Explorer or Firefox), the time you visited our site and which pages you visited throughout our site.'); ?>
 				</p>
 
-				<br/>
 				<h3><?php echo __('Cookies:'); ?></h3>
 				<p><?php echo __('We do use cookies to store information, such as your personal preferences when you visit our site.'); ?></p>
 
