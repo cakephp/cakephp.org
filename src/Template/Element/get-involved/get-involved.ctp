@@ -59,7 +59,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 		<div class="br-bottom mb20"></div>
 		<p><?= __('As an open source project, backed by the {0} we don\'t have a massive budget to market and advertise the framework, so we depend
 			on people like you getting involved and helping support the community. There are many actions which can help
-			raise awareness, share experiences and educate your fellow developers about CakePHP.', $this->Html->link(__('Cake Software Foundation'), 'http://cakefoundation.org/', ['target' => '_blank']))?> </p>
+			raise awareness, share experiences and educate your fellow developers about CakePHP.', $this->Html->link(__('Cake Software Foundation, Inc.'), 'http://cakefoundation.org/', ['target' => '_blank']))?> </p>
 		<h4><?= __('Write and Talk About CakePHP')?></h4>
 		<p><?= __('Actively writing and talking about CakePHP helps spread the word about the framework.')?></p>
 		<ul>
@@ -182,11 +182,12 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 			is generated from the source code, so if you find an inaccuracy or issue with the API documentation, you can
 			file a patch against the {2}. The CookBook is a community managed
 			documentation source which can also be found on {3}.
-			Guidelines on contributing to the documentation can be reviewed here.',
+			Guidelines on contributing to the documentation can be reviewed {4}.',
 				$this->Html->link(__('API'), Configure::read('Site.menu.items.documentation.api.url')),
 				$this->Html->link(__('CookBook'), Configure::read('Site.menu.items.documentation.book.url')),
-				$this->Html->link(__('GitHub'), 'https://github.com/cakephp/docs', ['target' => '_blank']),
-				$this->Html->link(__('here'), 'http://book.cakephp.org/3.0/en/contributing/documentation.html')
+				$this->Html->link(__('source code'), 'https://github.com/cakephp/cakephp', ['target' => '_blank']),
+				$this->Html->link(__('GitHub'), 'https://github.com/cakephp/docs',  ['target' => '_blank']),
+				$this->Html->link(__('here', 'http://book.cakephp.org/2.0/en/contributing/documentation.html'))
 			)?></p>
 	</div>
 
