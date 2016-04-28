@@ -742,7 +742,9 @@ iframe {
 .vertical-menu-list > .title:after {
 	margin:5px auto;
 }
-
+ul.hide, li.hide, .hide {
+    display: none;
+}
 
 /* Megamenu widths */
 .megamenu.one_two {
