@@ -38,22 +38,7 @@
         ?>
         <div class="megamenu full">
             <div class="row">
-                <div class="col-4">
-                    <ul class="megamenu-list">
-                        <li class="menu-title">
-                            <?= $this->Html->link(
-                                $this->Html->tag('i', '', ['class' => 'fa fa-menu fa-tags']) . __('Marketplace'),
-                                '#',
-                                ['escape' => false]
-                            ) ?>
-                        </li>
-                        <li class="menu-sub hide"><?= __('Service Providers') ?></li>
-                        <?= $this->App->menuItems($this->Menu->serviceProvidersItems()); ?>
-                        <li class="menu-sub"><?= __('Jobs') ?></li>
-                        <?= $this->App->menuItems($this->Menu->jobsItems()); ?>
-                    </ul>
-                </div>
-                <div class="col-4">
+				<div class="col-6">
                     <ul class="megamenu-list">
                         <li class="menu-title">
                             <?=
@@ -66,7 +51,7 @@
                         <?= $this->App->menuItems($this->Menu->helpAndSupportItems()); ?>
                     </ul>
                 </div>
-                <div class="col-4">
+                <div class="col-6">
                     <ul class="megamenu-list">
                         <li class="menu-title">
                             <?= $this->Html->link(
