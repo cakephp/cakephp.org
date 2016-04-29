@@ -30,95 +30,95 @@ msgstr ""
 
 #: Template/Changelogs/index.ctp:10
 msgid "CakePHP's code repositories are hosted at {0}."
-msgstr ""
+msgstr "CakePHPのコードリポジトリは{0}で管理されています。"
 
 #: Template/Changelogs/index.ctp:16
 msgid "Security Issues"
-msgstr ""
+msgstr "セキュリティ上の不具合"
 
 #: Template/Changelogs/index.ctp:19
 msgid "Found a security exploit in CakePHP? Please don't message the mailing list, or open an issue on Github."
-msgstr ""
+msgstr "CakePHPにセキュリティ上の弱点を発見しましたか？　どうかメーリングリストに投稿したり、Github上で問題を公開したりしないでください。"
 
 #: Template/Changelogs/index.ctp:20
 msgid "Instead, please email {0}."
-msgstr ""
+msgstr "代わりに、どうぞ{0}までメールをお送りください。"
 
 #: Template/Changelogs/index.ctp:21
 msgid "Email sent to this address are forwarded to the maintainers of CakePHP."
-msgstr ""
+msgstr "このアドレスに送られたメールはCakePHPの保守管理者に転送されます。"
 
 #: Template/Changelogs/index.ctp:26
 msgid "When a security issue is reported, we first try to confirm the vulnerability."
-msgstr ""
+msgstr "セキュリティ上の不具合が報告されると、私たちはまずその脆弱性の確認を行います。"
 
 #: Template/Changelogs/index.ctp:27
 msgid "Once confirmed, we'll do the following:"
-msgstr ""
+msgstr "確認が取れた場合、私たちは以下の通りにします:"
 
 #: Template/Changelogs/index.ctp:31
 msgid "Send acknowledgement to the reporter, that we received and confirmed the issue."
-msgstr ""
+msgstr "不具合を受理し確認した旨、報告者の方に感謝のご連絡をします。"
 
 #: Template/Changelogs/index.ctp:32
 msgid "Work on a patch to fix the issue."
-msgstr ""
+msgstr "不具合を修正するためのパッチに取り組みます。"
 
 #: Template/Changelogs/index.ctp:33
 msgid "Write a post describing the vulnerability, possible exploits and provide instructions on how to apply the patch / upgrade."
-msgstr ""
+msgstr "脆弱性、可能性のある攻撃について記述した投稿を書き、パッチ／更新を適用する方法について説明します。"
 
 #: Template/Changelogs/index.ctp:34
 msgid "Apply the patch to all maintained and affected versions of CakePHP"
-msgstr ""
+msgstr "保守中で影響を受けるCakePHPのバージョンすべてにパッチを適用します。"
 
 #: Template/Changelogs/index.ctp:35
 msgid "Create new packaged releases for each affected version."
-msgstr ""
+msgstr "影響を受ける各バージョンについて新しくパッケージ化されたリリースを作成します。"
 
 #: Template/Changelogs/index.ctp:36
 msgid "Publish the post on the CakePHP blog/Bakery"
-msgstr ""
+msgstr "投稿をCakePHPブログ／Bakery上で公開します。"
 
 #: Template/Changelogs/index.ctp:39
 msgid "Continuous Integration"
-msgstr ""
+msgstr "継続的インテグレーション"
 
 #: Template/Changelogs/index.ctp:41
 msgid "CakePHP is {0} check the status of the {1} on Travis CI."
-msgstr ""
+msgstr "CakePHPはTravis CI上で{1}のステータスを確認する{0}が行われています。"
 
 #: Template/Changelogs/index.ctp:43
 msgid "continuously integrated"
-msgstr ""
+msgstr "継続的インテグレーション"
 
 #: Template/Changelogs/index.ctp:44
 msgid "various builds"
-msgstr ""
+msgstr "さまざまなビルド"
 
 #: Template/Changelogs/index.ctp:48
 msgid "Issues"
-msgstr ""
+msgstr "不具合"
 
 #: Template/Changelogs/index.ctp:50
 msgid "Found a bug? Suggest an improvement? Issue tracking for CakePHP can be found at {0}."
-msgstr ""
+msgstr "不具合を発見しましたか？　機能追加のご提案ですか？　CakePHPの課題管理システムは{0}にあります。"
 
 #: Template/Changelogs/index.ctp:56
 msgid "General Mailing list"
-msgstr ""
+msgstr "一般メーリングリスト"
 
 #: Template/Changelogs/index.ctp:59
 msgid "Discuss a problem you're having, or learn from other CakePHP developers around the globe."
-msgstr ""
+msgstr "抱えている問題を話し合ったり、世界中のCakePHP開発者から学んだりすることができます。"
 
 #: Template/Changelogs/index.ctp:60;77
 msgid "Join the :mailing-list."
-msgstr ""
+msgstr ":mailing-listに参加しましょう。"
 
 #: Template/Changelogs/index.ctp:61
 msgid "CakePHP mailing list"
-msgstr ""
+msgstr "CakePHPメーリングリスト"
 
 #: Template/Changelogs/index.ctp:68
 #: Template/Element/home/interact.ctp:19
@@ -127,15 +127,15 @@ msgstr ""
 
 #: Template/Changelogs/index.ctp:73
 msgid "Core Mailing list"
-msgstr ""
+msgstr "コアメーリングリスト"
 
 #: Template/Changelogs/index.ctp:76
 msgid "Discuss new features or get involved with CakePHP's development."
-msgstr ""
+msgstr "新しい仕様を話し合ったり、CakePHPの開発に関わったりすることができます。"
 
 #: Template/Changelogs/index.ctp:78
 msgid "Core mailing list"
-msgstr ""
+msgstr "コアメーリングリスト"
 
 #: Template/Changelogs/index.ctp:85
 msgid "Latest posts on the cakephp-core google group"
@@ -144,19 +144,19 @@ msgstr ""
 #: Template/Changelogs/index.ctp:90
 #: Template/Pages/documentation.ctp:42
 msgid "Contributing"
-msgstr ""
+msgstr "貢献"
 
 #: Template/Changelogs/index.ctp:93
 msgid "Contributing to CakePHP is easy."
-msgstr ""
+msgstr "CakePHPに貢献するのは簡単です。"
 
 #: Template/Changelogs/index.ctp:94
 msgid "Checkout the {0} for how you can get started contributing to CakePHP."
-msgstr ""
+msgstr "CakePHPへの貢献の始め方については{0}をご覧ください。"
 
 #: Template/Changelogs/index.ctp:96
 msgid "guide on contributing"
-msgstr ""
+msgstr "貢献の案内"
 
 #: Template/Changelogs/index.ctp:111
 #: Template/Changelogs/view.ctp:25
@@ -527,7 +527,7 @@ msgstr ""
 
 #: Template/Pages/home.ctp:4
 msgid "CakePHP v{0} - the rapid development php framework."
-msgstr "CakePHP v{0} - 高速開発PHPレームワーク"
+msgstr "CakePHP v{0} - 高速開発PHPフレームワーク"
 
 #: Template/Pages/home.ctp:26
 msgid "Benefits"
