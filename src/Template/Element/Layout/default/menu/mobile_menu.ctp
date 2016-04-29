@@ -62,14 +62,14 @@
                                 </div>
                                 <div id="communitymodal" class="panel-collapse collapse">
                                     <div class="panel-body sidebar-menu-body tarja-menu">
-                                        <ul>
+                                        <ul class="hide">
                                             <li class="menu-title"><i class="fa fa-menu-title fa-calendar-o"></i>Calendar
                                             </li>
                                             <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Meetups</a></li>
                                             <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Events</a></li>
                                         </ul>
                                         <ul>
-                                            <li class="menu-title"><i class="fa fa-menu-title fa-tags"></i>Marketplace
+                                            <li class="menu-title hide"><i class="fa fa-menu-title fa-tags"></i>Marketplace
                                             </li>
                                             <li class="menu-sub">Service Providers</li>
                                             <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Cakedc</a></li>

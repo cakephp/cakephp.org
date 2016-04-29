@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12 text-center mb50 t-support">
                 <h3><?= $this->Html->tag('span', __('Premium')) . __('Support')?></h3>
-                <h5><?= __('Give "The experts behind CakePHP" a call:')?></h5>
+                <h5><?= __('Give "The Experts Behind CakePHP" a call:')?></h5>
 
                 <div class="col-md-12">
                     <div class="btn-group" role="group" aria-label="...">

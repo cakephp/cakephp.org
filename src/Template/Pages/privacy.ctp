@@ -33,18 +33,15 @@
 					<?php echo __('We never sell your personal information to third parties.'); ?>
 				</p>
 
-				<br/>
 				<h3><?php echo __('Log Files:'); ?></h3>
 				<p>
 					<?php echo __('As with most other websites, we collect and use the data contained in log files.'); ?>
 					<?php echo __('The information in the log files include your IP (internet protocol) address, your ISP (internet service provider, such as AOL or Shaw Cable), the browser you used to visit our site (such as Internet Explorer or Firefox), the time you visited our site and which pages you visited throughout our site.'); ?>
 				</p>
 
-				<br/>
 				<h3><?php echo __('Cookies:'); ?></h3>
 				<p><?php echo __('We do use cookies to store information, such as your personal preferences when you visit our site.'); ?></p>
 
-				<br/>
 				<h3><?php echo __('Advertising:'); ?></h3>
 				<p>
 					<?php echo __('We use third-party advertising companies to serve ads when you visit our website.'); ?>
@@ -53,6 +50,7 @@
 						__('If you would like more information about this practice and to know your choices about not having this information used by these companies, %s.'),
 						$this->Html->link(__('click here'), 'http://www.google.com/privacy_ads.html', [
                             'target' => '_blank',
+							'class' => 't-blue'
                         ]));
                     ?>
 				</p>

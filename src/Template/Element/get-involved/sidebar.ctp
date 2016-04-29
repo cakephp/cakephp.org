@@ -8,6 +8,7 @@
 			<?= $this->Html->tag('li', $this->Html->link(__('Marketing and Evangelism'), '#marketing'))?>
 			<?= $this->Html->tag('li', $this->Html->link(__('Contributing Code'), '#contributing'))?>
 			<?= $this->Html->tag('li', $this->Html->link(__('Testing and Quality Assurance'), '#testing'))?>
+			<?= $this->Html->tag('li', $this->Html->link(__('Documentation'), '#documentation'))?>
 			<?= $this->Html->tag('li', $this->Html->link(__('Translation'), '#translation'))?>
 		</ul>
 	</li>

@@ -91,3 +91,32 @@ input[type="radio"]:checked:before {
 	text-align: center;
 	border-radius: 5px;
 }
+i.icon-get {
+	color: #d33c44;
+	font-size: 50px;
+}
+
+.get-involved a {
+	color: #2f85ae;
+}
+
+i.get-social-icon {
+	font-size: 30px;
+	color: #bdbdb5;
+	line-height: 48px;
+	vertical-align: -7px;
+	padding-left: 10px;
+}
+
+i.icon-irc-2 {
+	font-weight: 700;
+	font-size: 20px;
+	color: #bdbdb5;
+	font-style: normal;
+	padding-left: 5px;
+}
+
+i.icon-social {
+	color: #bdbdb5;
+	font-size: 25px;
+}

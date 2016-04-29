@@ -172,16 +172,17 @@ return [
 				'serviceProvider' => [
 					'cakedc' => [
 						'url' => 'http://www.cakedc.com/',
-						'title' => 'CakeDC'
+						'title' => 'CakeDC',
+						'options' => ['class' => 'hide']
 					],
 					'phpstorm' => [
 						'url' => 'https://www.jetbrains.com/phpstorm/',
-						'options' => ['target' => '_blank'],
+						'options' => ['target' => '_blank', 'class' => 'hide'],
 						'title' => 'PhpStorm'
 					],
 					'rackspace' => [
 						'url' => 'https://www.rackspace.com/',
-						'options' => ['target' => '_blank'],
+						'options' => ['target' => '_blank', 'class' => 'hide'],
 						'title' => 'Rackspace'
 					]
 				],

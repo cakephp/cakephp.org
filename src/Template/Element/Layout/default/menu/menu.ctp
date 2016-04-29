@@ -38,30 +38,7 @@
         ?>
         <div class="megamenu full">
             <div class="row">
-                <div class="col-3">
-                    <ul class="megamenu-list">
-                        <li class="menu-title">
-                            <?= $this->Html->tag('i', '', ['class' => 'fa fa-menu-title fa-calendar-o']) . __('Calendar') ?>
-                        </li>
-                        <?= $this->App->menuItems($this->Menu->calendarItems()); ?>
-                    </ul>
-                </div>
-                <div class="col-3">
-                    <ul class="megamenu-list">
-                        <li class="menu-title">
-                            <?= $this->Html->link(
-                                $this->Html->tag('i', '', ['class' => 'fa fa-menu fa-tags']) . __('Marketplace'),
-                                '#',
-                                ['escape' => false]
-                            ) ?>
-                        </li>
-                        <li class="menu-sub"><?= __('Service Providers') ?></li>
-                        <?= $this->App->menuItems($this->Menu->serviceProvidersItems()); ?>
-                        <li class="menu-sub"><?= __('Jobs') ?></li>
-                        <?= $this->App->menuItems($this->Menu->jobsItems()); ?>
-                    </ul>
-                </div>
-                <div class="col-3">
+				<div class="col-6">
                     <ul class="megamenu-list">
                         <li class="menu-title">
                             <?=
@@ -74,7 +51,7 @@
                         <?= $this->App->menuItems($this->Menu->helpAndSupportItems()); ?>
                     </ul>
                 </div>
-                <div class="col-3">
+                <div class="col-6">
                     <ul class="megamenu-list">
                         <li class="menu-title">
                             <?= $this->Html->link(
@@ -90,7 +67,7 @@
         </div>
     </li>
     <li>
-        <div id="wrap">
+        <div id="wrap" class="hide">
             <?= $this->element('Layout/default/menu/search') ?>
         </div>
     </li>
