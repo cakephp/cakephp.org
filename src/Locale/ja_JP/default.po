@@ -527,7 +527,7 @@ msgstr ""
 
 #: Template/Pages/home.ctp:4
 msgid "CakePHP v{0} - the rapid development php framework."
-msgstr "CakePHP v{0} - 高速開発PHPレームワーク"
+msgstr "CakePHP v{0} - 高速開発PHPフレームワーク"
 
 #: Template/Pages/home.ctp:26
 msgid "Benefits"
