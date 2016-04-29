@@ -171,11 +171,9 @@ body {
   z-index: 7900;
   padding: 20px 0 95px;
   /*Chrome,Safari*/
-  -webkit-clip-path: url(clip-scnd.svg#svgClip);
+  -webkit-clip-path: polygon(0 255px, 3000px 310px, 3000px 0, 0 0);
   /* Firefox*/
   clip-path: url(clip-scnd.svg#svgClip);
-  /* iOS support */
-  -webkit-mask: url(clip-scnd.svg#svgClip);
 }
 .hero .polygon-button,
 .hero .polygon-button-shadow {
@@ -471,11 +469,9 @@ body {
   position: relative;
   z-index: 1;
   /*Chrome,Safari*/
-  -webkit-clip-path: url(clip-sndred.svg#svgClip);
+  -webkit-clip-path: polygon(0 200px, 3000px 150px, 3000px 42px, 0 0);
   /* Firefox*/
   clip-path: url(clip-sndred.svg#svgClip);
-  /* iOS support */
-  -webkit-mask: url(clip-sndred.svg#svgClip);
 }
 .main .narrowbox.newred h1 {
   margin-top: 10px;
@@ -484,11 +480,9 @@ body {
 }
 .main .narrowbox.newred.logos {
   /*Chrome,Safari*/
-  -webkit-clip-path: url(clip-big.svg#svgClip);
+  -webkit-clip-path: polygon(0 450px, 3000px 600px, 3000px 42px, 0 100px);
   /* Firefox*/
   clip-path: url(clip-big.svg#svgClip);
-  /* iOS support */
-  -webkit-mask: url(clip-big.svg#svgClip);
 }
 .main .narrowbox.mirror {
   margin-top: -150px;
@@ -496,11 +490,9 @@ body {
   position: relative;
   z-index: 1;
   /*Chrome,Safari*/
-  -webkit-clip-path: url(clip-mirror.svg#svgClip);
+  -webkit-clip-path: polygon(0 413px, 961px 500px, 3000px 10px, 0 50px);
   /* Firefox*/
   clip-path: url(clip-mirror.svg#svgClip);
-  /* iOS support */
-  -webkit-mask: url(clip-mirror.svg#svgClip);
 }
 .main .news-left img {
   width: 100%;
