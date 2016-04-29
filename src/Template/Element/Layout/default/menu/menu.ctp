@@ -38,30 +38,22 @@
         ?>
         <div class="megamenu full">
             <div class="row">
-                <div class="col-3 hide">
+                <div class="col-4">
                     <ul class="megamenu-list">
                         <li class="menu-title">
-                            <?= $this->Html->tag('i', '', ['class' => 'fa fa-menu-title fa-calendar-o']) . __('Calendar') ?>
-                        </li>
-                        <?= $this->App->menuItems($this->Menu->calendarItems()); ?>
-                    </ul>
-                </div>
-                <div class="col-3">
-                    <ul class="megamenu-list">
-                        <li class="menu-title hide">
                             <?= $this->Html->link(
                                 $this->Html->tag('i', '', ['class' => 'fa fa-menu fa-tags']) . __('Marketplace'),
                                 '#',
-                                ['class' => 'hide-link', 'escape' => false]
+                                ['escape' => false]
                             ) ?>
                         </li>
-                        <li class="menu-sub"><?= __('Service Providers') ?></li>
+                        <li class="menu-sub hide"><?= __('Service Providers') ?></li>
                         <?= $this->App->menuItems($this->Menu->serviceProvidersItems()); ?>
                         <li class="menu-sub"><?= __('Jobs') ?></li>
                         <?= $this->App->menuItems($this->Menu->jobsItems()); ?>
                     </ul>
                 </div>
-                <div class="col-3">
+                <div class="col-4">
                     <ul class="megamenu-list">
                         <li class="menu-title">
                             <?=
@@ -74,7 +66,7 @@
                         <?= $this->App->menuItems($this->Menu->helpAndSupportItems()); ?>
                     </ul>
                 </div>
-                <div class="col-3">
+                <div class="col-4">
                     <ul class="megamenu-list">
                         <li class="menu-title">
                             <?= $this->Html->link(
