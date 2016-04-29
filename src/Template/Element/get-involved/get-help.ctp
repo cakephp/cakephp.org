@@ -55,7 +55,7 @@ use Cake\Core\Configure;
 			<?= $this->Html->tag(
 				'p',
 				__('{0}: Find news and articles on many topics regarding CakePHP',
-					$this->Html->link(__('The Bakery'), Configure::read('Site.menu.items.community.blog.url'))
+					$this->Html->link(__('Blog'), Configure::read('Site.menu.items.community.blog.url'))
 				))
 			?>
 		</div>
