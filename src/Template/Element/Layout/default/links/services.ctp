@@ -4,3 +4,6 @@
 <?= $this->Html->link('Support', ['controller' => 'Pages', 'action' => 'display', 'services', '#' => 'support']) ?>
 <?= $this->Html->link('Training', ['controller' => 'Pages', 'action' => 'display', 'services', '#' => 'training']) ?>
 <?= $this->Html->link('Development', 'http://www.cakedc.com/') ?>
+<h4 style="margin-top: 2em">Languages</h4>
+<?= $this->Html->link('English', ['_host' => 'cakephp.org'] + $this->request->params['pass']) ?>
+<?= $this->Html->link('Japanese', ['_host' => 'cakephp.jp'] + $this->request->params['pass']) ?>
