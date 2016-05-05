@@ -267,6 +267,14 @@
 		bottom: 0;
 	}
 
+	#slideout-2 {
+		bottom: 0;
+	}
+
+	#slideout_inner-2 {
+		bottom: 0;
+	}
+
 	/* ---------------------- VIDEOS ------------------------- */
 
 	#videos-full {
@@ -353,6 +361,42 @@
 		margin-bottom: 20px;
 	}
 
+	.icon-modal-show {
+		margin-bottom: 40px;
+    	margin-top: 20px;
+	}
+
+	.icon-modal-show span {
+		font-size: 140px;
+	}
+
+	.t-modal-show h4 {
+		text-align: center;
+	    font-size: 50px;
+	    margin-bottom: 20px;
+	}
+
+	.t-modal-show span {
+		text-align: center;
+	}
+
+	.t-modal-show p {
+		text-align: center;
+	}
+
+	.control-label-rapid {
+		padding-left: 15px;
+	}
+
+	.form-plugin-rapid {
+		margin-bottom: 0;
+	}
+
+	.icon-dc-modal span {
+		font-size: 40px;
+	}
+
+
 	/* ---------------------- CALENDAR ------------------------- */
 
 	.title-calendar h1 {
@@ -377,6 +421,150 @@
 
 	.gray-stripe {
 		padding-top: 120px;
+	}
+
+	.icon-getinvolved {
+		display: block;
+	    margin-top: 30px;
+	    font-size: 110px;
+	}
+
+	/* ---------------------- CERTIFICATION ------------------------- */
+
+	.certification h2 {
+		line-height: 45px;
+	}
+
+	.certification h3 {
+		line-height: 35px;
+	}
+
+	.box-certification {
+		margin-bottom: 60px;
+	}
+
+	/* ---------------------- MY PHP ------------------------- */
+
+	.icon-social-mycake {
+		margin-top: 110px;
+	}
+
+	.mycake-login h4 {
+		line-height: 40px;
+	}
+
+	.title-mycake span {
+		font-size: 80px;
+	    display: block;
+	    margin-top: 50px;
+	}
+
+	.mycake-username h4 {
+		margin-top: 60px;
+	}
+
+	.mycake-profile img {
+		width: 100%;
+	}
+
+	.mycake-edit h6 {
+	    margin-top: 60px;
+	}
+
+	.icon-privacy {
+	    display: block;
+    	margin-top: 25px;
+	}
+
+	.title-mycake h1 {
+		line-height: 50px;
+	}
+
+
+	/* ---------------------- TRADEMARKS ------------------------- */
+
+
+	.t-circle-trade {
+		margin-bottom: 60px;
+	}
+
+	/* ---------------------- ERROR ------------------------- */
+
+	.icon-error span {
+		font-size: 130px;
+	}
+
+	.notfound-padd {
+		padding-top: 170px;
+	    padding-bottom: 50px;
+	}
+
+	/* ---------------------- CART ------------------------- */
+
+	.title-cart {
+	    font-size: 14px;
+	    font-weight: 200;
+	    letter-spacing: 0.01em;
+	    line-height: 35px;
+	    vertical-align: 0px;
+	}
+
+	.shop-cart table .product img {
+		margin-right: 10px;
+	}
+
+
+	/* ---------------------- CONTACT ------------------------- */
+
+	.expertise-contact {
+		margin-bottom: 60px;
+	}
+
+
+	/* ---------------------- BARKERY ------------------------- */
+
+
+	.sub-bakery {
+		display: block;
+    	padding-top: 30px;
+	}
+
+	/* ---------------------- PLUGINS ------------------------- */
+
+	.pop-track-plugin {
+		margin-top: 40px;
+	}
+
+	.cake-pack-plugin {
+		margin-top: 40px;
+	}
+
+	.results-plugin {
+		padding: 25px 0;
+	}
+
+	.plugin-right {
+		text-align: right;
+	}
+
+	.breadcurmbs-plugin a{
+		padding: 0px;
+    	display: inline-block;
+	}
+
+
+
+
+	.title-2 {
+		font-size: 25px;
+		line-height: 30px;
+	}
+
+	.title-3 {
+		font-size: 35px;
+		font-weight: 200;
+		letter-spacing: 0.01em;
+		line-height: 35px;
 	}
 
 }
@@ -524,6 +712,14 @@
 		bottom: 0;
 	}
 
+	#slideout-2 {
+		bottom: 0;
+	}
+
+	#slideout_inner-2 {
+		bottom: 0;
+	}
+
 	/* ---------------------- SHOWCASE ------------------------- */
 
 	.featured-case h3 {
@@ -533,6 +729,90 @@
 	.featured-case h4 {
 		text-align: center;
 	}
+	
+	/* ---------------------- CALENDAR ------------------------- */
+
+	.title-calendar h1 {
+		line-height: 55px;
+	}
+	
+	/* ---------------------- GET INVOLVED ------------------------- */
+
+	.get-involved h2 {
+		line-height: 55px;
+	}
+
+	.icon-getinvolved {
+		display: block;
+	    font-size: 100px;
+	    margin-top: 30px;
+	}
+
+	/* ---------------------- MY CAKE ------------------------- */
+
+	.title-mycake h1 {
+		line-height: 50px;
+	}
+
+	
+	/* ---------------------- TRADEMARKS ------------------------- */
+
+
+
+	.t-circle-trade {
+		margin-bottom: 60px;
+	}
+
+	.box-mark {
+		margin-bottom: 180px;
+	}
+
+
+	/* ---------------------- CART ------------------------- */
+
+	.title-cart {
+	    font-size: 14px;
+	    font-weight: 200;
+	    letter-spacing: 0.01em;
+	    line-height: 35px;
+	    vertical-align: 0px;
+	}
+
+	.shop-cart table .product img {
+		margin-right: 10px;
+	}
+
+	/* ---------------------- CONTACT ------------------------- */
+
+	.expertise-contact {
+		margin-bottom: 50px;
+	}
+
+	/* ---------------------- PLUGINS ------------------------- */
+
+	.pop-track-plugin {
+		margin-top: 40px;
+	}
+
+	.cake-pack-plugin {
+		margin-top: 40px;
+	}
+	
+
+
+	.title-2 {
+		font-size: 25px;
+		line-height: 30px;
+	}
+
+	.title-3 {
+		font-size: 35px;
+		font-weight: 200;
+		letter-spacing: 0.01em;
+		line-height: 35px;
+	}
+
+
 	
 }
 
