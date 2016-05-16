@@ -28,6 +28,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 text-center mt30">
+				<span class="glyph_range icon-expertise buss-icon-8">u</span>
                 <p class="copyright">&copy; <?= __('Copyright 2005-2016 Cake Software Foundation, Inc. All rights reserved.')?></p>
             </div>
         </div>
