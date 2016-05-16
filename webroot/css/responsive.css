@@ -552,6 +552,17 @@
     	display: inline-block;
 	}
 
+	.title-plugin span {
+		font-size: 80px;
+	    display: block;
+	    margin-top: 50px;
+	}
+
+	/* ---------------------- BLOG RESULTS ------------------------- */
+
+	.t-blog-results h5 {
+		    margin-bottom: 0;
+	}
 
 
 
@@ -565,6 +576,90 @@
 		font-weight: 200;
 		letter-spacing: 0.01em;
 		line-height: 35px;
+	}
+
+	/* ---------------------- TEAM ------------------------- */
+
+	.modal-team {
+		    margin-bottom: 0;
+	}
+
+	.t-team h1 {
+		font-size: 40px;
+	}
+
+	.t-team h1 span {
+		font-size: 45px;
+		padding: 0 10px;
+	}
+
+	.t-team h3 {
+		font-size: 25px;
+	}
+
+	/* ---------------------- BUSINESS SOLUTIONS ------------------------- */
+
+	.title-business-dc h5 {
+		text-align: center;
+	}
+
+	.icon-business-dev {
+		font-size: 230px;
+		padding-bottom: 110px;
+	}
+
+	.buss-icon-1 {
+	    padding-top: 60px;
+	    display: block;
+	    padding-bottom: 80px;
+	    font-size: 140px;
+	}
+
+	.buss-icon-2 {
+	    margin-top: 19px;
+	    display: block;
+	    font-size: 140px;
+	    padding-bottom: 30px;
+	}
+
+	.buss-icon-3 {
+	    display: block;
+	    font-size: 110px;
+	    padding-bottom: 10px;
+	    padding-top: 70px;
+	}
+
+	.buss-icon-4 {
+	    padding-top: 70px;
+	}
+
+	.buss-icon-5 {
+	    padding-top: 70px;
+	    text-align: left;
+	    display: block;
+	    padding-bottom: 70px;
+	    font-size: 140px;
+	}
+
+	.buss-icon-6 {
+	    padding-top: 30px;
+	    font-size: 100px;
+	    text-align: left;
+	    display: block;
+	    padding-bottom: 60px;
+	}
+
+	.phone-busi {
+	    font-size: 20px;
+	}
+
+	.phone-icon-busi {
+		font-size: 20px;
+	}
+
+	.premium-contact-busi p {
+		display: block;
+    	margin-bottom: 30px;
 	}
 
 }
@@ -798,6 +893,11 @@
 		margin-top: 40px;
 	}
 	
+	.title-plugin span {
+		color: #bdbdb5;
+	    font-size: 90px;
+	    vertical-align: -39px;
+	}
 
 
 	.title-2 {
@@ -812,6 +912,11 @@
 		line-height: 35px;
 	}
 
+	/* ---------------------- BUSINESS SOLUTIONS ------------------------- */
+
+	.title-business-dc h5 {
+		    text-align: center;
+	}
 
 	
 }
@@ -903,6 +1008,14 @@
 		    padding: 5px 5px !important;
 	}
 
+	.th1-business h1 {
+	  	line-height: 45px;
+	}
+
+	.title-business-dc h5 {
+		    margin-top: 30px;
+	}
+
 
 }
 
@@ -910,6 +1023,10 @@
   /*CSS LIDO EM DISPOSITIVOS DE MAIS DE 1200 PX DE LARGURA*/
   .hero, .hero-2 {
   	background-attachment: fixed;
+  }
+
+  .th1-business h1 {
+  	line-height: 24px;
   }
 
   

@@ -35,8 +35,8 @@
                             <div class="panel">
                                 <div class="panel-heading p0">
                                     <h4 class="panel-title title-responsivo-menu">
-                                        <a data-toggle="collapse" href="#">
-                                            <i class="fa fa-caret-right upside-stop"></i><?= __('Business Solutions') ?>
+                                        <a data-toggle="collapse" href="/pages/business-solutions">
+                                            <i class="fa fa-caret-right upside-stop"></i>Business Solutions
                                         </a>
                                     </h4>
                                 </div>
