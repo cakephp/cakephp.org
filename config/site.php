@@ -34,6 +34,16 @@ return [
 		'menu' => [
 			'items' => [
 				'community' => [
+					'team' => [
+						'url' => [
+							'plugin' => false,
+							'controller' => 'Pages',
+							'action' => 'display',
+							'team',
+							'prefix' => false
+						],
+						'title' => __('Team')
+					],
 					'getInvolved' => [
 						'url' => [
 							'plugin' => false,

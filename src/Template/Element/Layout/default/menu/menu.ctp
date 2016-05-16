@@ -38,19 +38,6 @@
         ?>
         <div class="megamenu full">
             <div class="row">
-				<div class="col-6">
-                    <ul class="megamenu-list">
-                        <li class="menu-title">
-                            <?=
-                            $this->Html->link(
-                                $this->Html->tag('i', '', ['class' => 'fa fa-menu-title fa-comments-o']) . __('Help & Support'),
-                                '#',
-                                ['escape' => false]
-                            ) ?>
-                        </li>
-                        <?= $this->App->menuItems($this->Menu->helpAndSupportItems()); ?>
-                    </ul>
-                </div>
                 <div class="col-6">
                     <ul class="megamenu-list">
                         <li class="menu-title">
@@ -63,6 +50,19 @@
                         <?= $this->App->menuItems($this->Menu->communityItems()); ?>
                     </ul>
                 </div>
+				<div class="col-6">
+					<ul class="megamenu-list">
+						<li class="menu-title">
+							<?=
+							$this->Html->link(
+								$this->Html->tag('i', '', ['class' => 'fa fa-menu-title fa-comments-o']) . __('Help & Support'),
+								'#',
+								['escape' => false]
+							) ?>
+						</li>
+						<?= $this->App->menuItems($this->Menu->helpAndSupportItems()); ?>
+					</ul>
+				</div>
             </div>
         </div>
     </li>
