@@ -1,4 +1,4 @@
-<section id="socials" class="back-3">
+<section id="socials" class="back-3 up-z-index">
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-5  social text-center">
@@ -13,7 +13,7 @@
     </div>
 </section>
 
-<footer id="footer" class="footer-wrapper">
+<footer id="footer" class="footer-wrapper up-z-index">
     <div class="container">
         <div class="row col-p30">
             <div class="col-sm-12 col-md-3">
