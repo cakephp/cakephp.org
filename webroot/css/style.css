@@ -2851,6 +2851,16 @@ ul.hide, li.hide, .hide {
 		cursor:move;
 		cursor:url("../images/cursor_move.png") 40 40, move;
 	}
+    .center-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+    @media screen and (max-width: 768px) {
+        div.quote h5 {
+            padding-bottom: 10px;
+        }
+    }
 
 
 		
