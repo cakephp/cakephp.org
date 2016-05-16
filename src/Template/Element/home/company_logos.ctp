@@ -4,28 +4,28 @@
 			<div class="col-sm-12 p0">
 				<div class="owl-carousel owl-columns5 owl-p10">
 					<div class="owl-el">
-						<img src="/img/companies/logos/1.jpg" alt="">
+						<img class="center-image" src="/img/companies/logos/1.jpg" alt="">
 					</div>
 					<div class="owl-el">
-						<img src="/img/companies/logos/2.jpg" alt="">
+						<img class="center-image" src="/img/companies/logos/2.jpg" alt="">
 					</div>
 					<div class="owl-el">
-						<img src="/img/companies/logos/3.jpg" alt="">
+						<img class="center-image" src="/img/companies/logos/3.jpg" alt="">
 					</div>
 					<div class="owl-el">
-						<img src="/img/companies/logos/4.jpg" alt="">
+						<img class="center-image" src="/img/companies/logos/4.jpg" alt="">
 					</div>
 					<div class="owl-el">
-						<img src="/img/companies/logos/5.jpg" alt="">
+						<img class="center-image" src="/img/companies/logos/5.jpg" alt="">
 					</div>
 					<div class="owl-el">
-						<img src="/img/companies/logos/6.jpg" alt="">
+						<img class="center-image" src="/img/companies/logos/6.jpg" alt="">
 					</div>
 					<div class="owl-el">
-						<img src="/img/companies/logos/7.jpg" alt="">
+						<img class="center-image" src="/img/companies/logos/7.jpg" alt="">
 					</div>
 					<div class="owl-el">
-						<img src="/img/companies/logos/8.jpg" alt="">
+						<img class="center-image" src="/img/companies/logos/8.jpg" alt="">
 					</div>
 				</div>
 			</div>
