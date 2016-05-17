@@ -2777,8 +2777,20 @@
         }
     }
 
-
-		
+    @media screen and (max-width: 1200px) {
+        div#cakefest h2 {
+            line-height: 60px;
+        }
+        div.title-home h1 {
+            line-height: 30px;
+        }
+        html, body {
+            overflow-x: hidden;
+        }
+        body {
+            position: relative
+        }
+    }
 
 /* *********************	Blog	********************* */
 
@@ -10226,7 +10238,3 @@ code {
 .t-extral {
 	font-weight: 200;
 }
-
-
-
-
