@@ -1,7 +1,7 @@
 <?php
 use Cake\Core\Configure;
-$title = __('CakePHP Rapid Development PHP Framework | Team');
-$description = __('Team');
+$title = __('CakePHP | Rapid Development PHP Framework | Core team profiles');
+$description = __('Meet the CakePHP Core development team');
 $this->assign('title', $title);
 $this->assign('meta', $this->Html->meta('description', $description));
 $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
