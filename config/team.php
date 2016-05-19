@@ -10,7 +10,9 @@ return [
 			'github' => 'phpnut',
 			'mycake' => 'phpnut',
 			'role' => __('Co-Founder'),
-			'image-url' => 'team/larry_masters.jpg'
+			'image-url' => 'team/larry_masters.jpg',
+			'target' => 'team-larry',
+			'country' => 'United States'
 		],
 		[
 			'name' => 'Mark Story',
@@ -20,17 +22,21 @@ return [
 			'github' => 'markstory',
 			'mycake' => 'markstory',
 			'role' => __('Lead Developer'),
-			'image-url' => 'team/mark_story.jpg'
+			'image-url' => 'team/mark_story.jpg',
+			'target' => 'team-story',
+			'country' => 'Canada'
 		],
 		[
 			'name' => 'José Lorenzo Rodríguez',
-			'description' => __('Jose is a full-stack software developer that loves to solve difficult problems. He has been contributing to the CakePHP framework since 2009, and he often does talks about its amazing ORM. In his spare time, he teaches and practices mindfulness, ride his bike, or learns new programming languages.'),
+			'description' => __('José is a full-stack software developer that loves to solve difficult problems. He has been contributing to the CakePHP framework since 2009, and he often does talks about its amazing ORM. In his spare time, he teaches and practices mindfulness, ride his bike, or learns new programming languages.'),
 			'language' => __('English, Spanish, French and Danish'),
 			'twitter' => 'jose_zap',
 			'github' => 'lorenzo',
 			'mycake' => 'lorenzo',
 			'role' => __('ORM Developer'),
-			'image-url' => 'team/jose_lorenzo.jpg'
+			'image-url' => 'team/jose_lorenzo.jpg',
+			'target' => 'team-lorenzo',
+			'country' => 'Denmark'
 		],
 		[
 			'name' => 'Jose Diaz-Gonzalez',
@@ -40,7 +46,9 @@ return [
 			'github' => 'josegonzalez',
 			'mycake' => '',
 			'role' => __('Core Member'),
-			'image-url' => 'team/savant.jpg'
+			'image-url' => 'team/savant.jpg',
+			'target' => 'team-diaz',
+			'country' => 'United States'
 		],
 		[
 			'name' => 'Admad',
@@ -50,7 +58,9 @@ return [
 			'github' => 'ADmad',
 			'mycake' => 'ADmad',
 			'role' => __('Core Member'),
-			'image-url' => 'team/admad.jpg'
+			'image-url' => 'team/admad.jpg',
+			'target' => 'team-amad',
+			'country' => 'India'
 		],
 		[
 			'name' => 'Bryan Crowe',
@@ -60,7 +70,9 @@ return [
 			'github' => 'bcrowe',
 			'mycake' => 'beakman',
 			'role' => __('Core Member'),
-			'image-url' => 'team/bryan_crowe.jpg'
+			'image-url' => 'team/bryan_crowe.jpg',
+			'target' => 'team-bryan',
+			'country' => 'United States'
 		],
 		[
 			'name' => 'Florian Kramer',
@@ -74,7 +86,9 @@ return [
 			'github' => 'burzum',
 			'mycake' => 'burzum',
 			'role' => __('Core Member'),
-			'image-url' => 'team/florian_kramer.jpg'
+			'image-url' => 'team/florian_kramer.jpg',
+			'target' => 'team-florian',
+			'country' => 'Germany'
 		],
 		[
 			'name' => 'Mark Scherer',
@@ -88,7 +102,9 @@ return [
 			'github' => 'dereuromark',
 			'mycake' => 'dereuromark',
 			'role' => __('Core Member'),
-			'image-url' => 'team/mark_scherer.png'
+			'image-url' => 'team/mark_scherer.png',
+			'target' => 'team-mark',
+			'country' => 'Germany'
 		],
 		[
 			'name' => 'Christian Winther (Jippi)',
@@ -99,7 +115,9 @@ return [
 			'github' => 'jippi',
 			'mycake' => 'jippi',
 			'role' => __('Core Member'),
-			'image-url' => 'team/christian_winther.jpg'
+			'image-url' => 'team/christian_winther.jpg',
+			'target' => 'team-winther',
+			'country' => 'Denmark'
 		],
 		[
 			'name' => 'Walther Lalk (Dakota)',
@@ -112,7 +130,9 @@ return [
 			'github' => 'dakota',
 			'mycake' => 'dakota',
 			'role' => __('Core Member'),
-			'image-url' => 'team/walther_lalk.jpg'
+			'image-url' => 'team/walther_lalk.jpg',
+			'target' => 'team-lalk',
+			'country' => 'South Africa'
 		],
 		/*[
 			'name' => 'Juan Basso (jrbasso)',
@@ -135,7 +155,9 @@ return [
 			'github' => 'chinpei215',
 			'mycake' => 'chinpei215',
 			'role' => __('Core Member'),
-			'image-url' => 'team/chinpei215.png'
+			'image-url' => 'team/chinpei215.png',
+			'target' => 'team-kurita',
+			'country' => 'Japan'
 		],
 	]
 ];
