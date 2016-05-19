@@ -85,6 +85,7 @@
 	<div class="modal-dialog" role="document">
 		<div class="modal-content modal-showcase">
         	<?= $this->Form->create(null, ['url' => [
+        		'plugin' => false,
         		'controller' => 'contacts',
         		'action' => 'rapid'
         	], 'class' => 'support-form']); ?>
