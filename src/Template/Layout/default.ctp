@@ -31,6 +31,8 @@
 	<?= $this->AssetCompress->css('fonts', ['raw' => true, 'pathPrefix' => null]) ?>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.css">
 	<script src="//cdn.ckeditor.com/4.5.8/standard/ckeditor.js"></script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 	<style>
 		.error-message {color:red;}
 	</style>
