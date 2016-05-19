@@ -35,7 +35,7 @@
                 <p><?= __('Request a rapid response from us now, and we\'ll contact you within 24 hours:')?></p>
                 <p class="rapid-contact-feedback"></p>
                 <div class="text-center">
-					<?= $this->Html->link(__('Rapid Response'), 'javascript:;', [
+					<?= $this->Html->link(__('Rapid Response'), '#', [
 						'class' => 'btn btn-expertise mt20',
 						'data-toggle' => 'modal',
 						'data-target' => '#rapidresponse'
