@@ -14,7 +14,7 @@ $elementsByRow = 3;
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 text-center t-team">
-				<h1><span class="glyph_range">V</span><em>The</em><strong>Bakers</strong><span class="glyph_range">V</span></h1>
+				<h1><span class="glyph_range">V</span><?= __('{0} {1}', $this->Html->tag('em', __('The')), $this->Html->tag('strong', __('Bakers')))?><span class="glyph_range">V</span></h1>
 				<h3><?= __('Meet the team behind CakePHP')?></h3>
 			</div>
 			<div class="col-sm-12">
