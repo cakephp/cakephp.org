@@ -7,16 +7,16 @@ return [
 		],
 		'quotes' => [
 			[
-				'image' => 'quote/janey.png',
-				'text' => '“I see our relationship as a long term one and have no intentions of ever moving away from CakeDC. We love you guys!”',
-				'client' => 'Janey de Nordwal',
-				'company' => 'Six Dinners Later Ltd.'
-			],
-			[
 				'image' => 'quote/beth.png',
 				'text' => '“CakeDC really put in the hours to save our troubled project, putting in the talent and experience to meet some very tight deadlines.”',
 				'client' => 'Beth Jokhio',
 				'company' => 'Avesta Systems Inc.'
+			],
+			[
+				'image' => 'quote/megan.png',
+				'text' => '“We got a high ROI from converting our custom PHP app to CakePHP. We love the continually expanding suite of utilities, plugins, and development patterns at our disposal!”',
+				'client' => 'Megan Danz',
+				'company' => 'Harbor Compliance'
 			],
 			[
 				'image' => 'quote/david.png',
@@ -30,6 +30,7 @@ return [
 				'client' => 'Michael Lebieniec',
 				'company' => 'Code Creator LLC'
 			],
+
 		],
 		'menu' => [
 			'items' => [

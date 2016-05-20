@@ -70,6 +70,7 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/logos', ['controller' => 'Pages', 'action' => 'display', 'trademark']);
     $routes->connect('/trademark', ['controller' => 'Pages', 'action' => 'display', 'trademark']);
 	$routes->connect('/get-involved', ['controller' => 'Pages', 'action' => 'display', 'get-involved']);
+	$routes->connect('/team', ['controller' => 'Pages', 'action' => 'display', 'team']);
 	$routes->connect('/business-solutions', ['controller' => 'Pages', 'action' => 'display', 'business-solutions']);
 
 	/**

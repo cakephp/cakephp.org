@@ -38,4 +38,6 @@
 		</div>
 	</div>
 </section>
-<?= $this->element('business-solutions/newsletter') ?>
+<div class="up-z-index">
+	<?= $this->element('home/newsletter')?>
+</div>
