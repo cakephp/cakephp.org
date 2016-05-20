@@ -36,9 +36,9 @@
             ['escape' => false]
         );
         ?>
-        <div class="megamenu full">
+		<div class="megamenu full megamenu2 full2">
             <div class="row">
-                <div class="col-6">
+				<div class="col-6 pl30">
                     <ul class="megamenu-list">
                         <li class="menu-title">
                             <?= $this->Html->link(
@@ -50,7 +50,7 @@
                         <?= $this->App->menuItems($this->Menu->communityItems()); ?>
                     </ul>
                 </div>
-				<div class="col-6">
+				<div class="col-6 pl40">
 					<ul class="megamenu-list">
 						<li class="menu-title">
 							<?=
