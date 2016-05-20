@@ -66,14 +66,6 @@
 	font-weight: bold;
 }
 
-input#mc-embedded-subscribe {
-	background: white;
-	color: #D33C44;
-	padding: 15px 30px;
-    border-radius: 8px;
-    width: auto;
-}
-
 input[type="radio"]:checked:before {
 	background: #505050;
 }
