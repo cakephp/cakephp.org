@@ -60,7 +60,7 @@
                             <span class="glyph_range icon-expertise-2">Q</span>
                         </div>
                         <div class="col-md-8 col-md-offset-1">
-                            <h4 class="title-expertise"><?= __('Training')?><?= $this->Html->link(__('Read more'), 'http://training.cakephp.org/', ['class' => 'link-read-more'])?></h4>
+                            <h4 class="title-expertise"><?= __('Training')?><?= $this->Html->link(__('Read more'), 'http://www.cakedc.com/cakephp-training', ['class' => 'link-read-more'])?></h4>
                             <p class="mb0 "><?= __('Learn the insights and reasoning behind the CakePHP framework straight from the minds behind the framework: the developers at CakeDC')?></p>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
 				        	<div class="col-sm-8 t-modal-show">
 				        		<h4><strong><?= __('Rapid') ?></strong></h4>
 				        		<h4><?= __('Response') ?></h4>
-				        		<p><?= __('Request a rapid response from us now, and we\'ll contact you within <strong>24 hours!</strong>') ?></p>
+				        		<p><?= __('Request a rapid response from us now, and we\'ll contact you within {0}', $this->Html->tag('strong', __('24 hours!'))) ?></p>
 				        	</div>
 				        </div>
 				        <div class="col-md-12">
