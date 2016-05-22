@@ -1,6 +1,6 @@
 <?php
-$title = __('CakePHP Rapid Development PHP Framework | Rebranding');
-$description = __('CakePHP Rebranding');
+$title = __('CakePHP | Rapid Development PHP Framework | The brand');
+$description = __('CakePHP\'s evolution through the years explained');
 $this->assign('title', $title);
 $this->assign('meta', $this->Html->meta('description', $description));
 $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
