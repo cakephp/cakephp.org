@@ -104,7 +104,7 @@
 				        	<div class="col-sm-8 t-modal-show">
 				        		<h4><strong><?= __('Rapid') ?></strong></h4>
 				        		<h4><?= __('Response') ?></h4>
-				        		<p><?= __('Request a rapid response from us now, and we\'ll contact you within <strong>24 hours!</strong>') ?></p>
+				        		<p><?= __('Request a rapid response from us now, and we\'ll contact you within {0}', $this->Html->tag('strong', __('24 hours!'))) ?></p>
 				        	</div>
 				        </div>
 				        <div class="col-md-12">
