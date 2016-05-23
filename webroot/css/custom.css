@@ -241,3 +241,7 @@ i.icon-social {
 .mb110 {
 	margin-bottom: 110px !important;
 }
+
+.row.col-p30 [class*="col-"].business-solution {
+	padding: 0 20px;
+}
