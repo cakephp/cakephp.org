@@ -1,4 +1,4 @@
-<div class="col-sm-3">
+<div class="col-sm-3 business-solution">
     <?= $this->element('Layout/default/footer/menu/column_one') ?>
 </div>
 
