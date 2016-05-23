@@ -2,3 +2,7 @@
 /config/app.php
 /tmp/*
 /logs/*
+/webroot/cache_css/*
+/webroot/cache_js/*
+/files/*
+/plugins/Showcase
