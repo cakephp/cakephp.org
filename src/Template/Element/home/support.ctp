@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center mb50 t-support">
-                <h3><?= $this->Html->tag('span', __('Premium')) . __('Support')?></h3>
+                <h3><?= $this->Html->tag('span', __('Premium ')) . __('Support')?></h3>
                 <h5><?= __('Give "The Experts Behind CakePHP" a call:')?></h5>
 
                 <div class="col-md-12">
@@ -72,7 +72,7 @@
                         </div>
                         <div class="col-md-8 col-md-offset-1">
                             <h4 class="title-expertise"><?= __('Expert {0} Consultancy', $this->Html->tag('br'))?><?= $this->Html->link(__('Read more'), 'http://www.cakedc.com/cakephp-consultancy', ['class' => 'link-read-more'])?></h4>
-                            <p class="mb0"><?= __('We can help with the areas which need special attention and a trained eye, allowing you to rest assured that you\'ve got all bases covered.')?>s </p>
+                            <p class="mb0"><?= __('We can help with the areas which need special attention and a trained eye, allowing you to rest assured that you\'ve got all bases covered.')?></p>
                         </div>
                     </div>
                 </div>
