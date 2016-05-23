@@ -58,7 +58,6 @@
 
 	<?= $this->fetch('meta') ?>
 	<?= $this->fetch('css') ?>
-	<?= $this->fetch('script') ?>
 </head>
 <body>
 <?= $this->element('Layout/default/navbar')?>
@@ -70,6 +69,8 @@
 
 <?= $this->AssetCompress->script('public'); ?>
 <?= $this->AssetCompress->script('not_compiled', ['raw' => true, 'pathPrefix' => null]); ?>
+<?= $this->fetch('script') ?>
+
 <?php $address = env('SERVER_ADDR'); if ($address && !in_array($address, ['127.0.0.1', 'localhost'], true)): ?>
 	<script type="text/javascript">
 		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
