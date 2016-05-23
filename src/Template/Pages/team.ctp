@@ -52,9 +52,9 @@ $elementsByRow = 3;
 										</div>
 									</div>
 									<div class="row">
-										<?= $this->Form->hidden('country', ['class' => 'country', 'value'=> $member['country']]) ?>
+										<?= $this->Form->hidden('country', ['id' => $member['target'] . '-country', 'class' => 'country', 'value'=> $member['country']]) ?>
 										<div class="col-sm-12">
-											<div id="<?= $member['country'] ?>" class="img-responsive"></div>
+											<div id="<?= $member['target'] ?>-map" class="img-responsive"></div>
 										</div>
 									</div>
 								</div>
