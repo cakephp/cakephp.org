@@ -29,7 +29,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic|Montserrat:400,700' rel='stylesheet'>
 	<?= $this->AssetCompress->css('public') ?>
 	<?= $this->AssetCompress->css('fonts', ['raw' => true, 'pathPrefix' => null]) ?>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css">
 	<script src="//cdn.ckeditor.com/4.5.8/standard/ckeditor.js"></script>
 	<style>
 		.error-message {color:red;}
