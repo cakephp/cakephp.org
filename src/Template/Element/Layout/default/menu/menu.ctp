@@ -66,6 +66,18 @@
             </div>
         </div>
     </li>
+
+    <?php if ($this->request->session()->check('Auth.User')) : ?>
+        <li>
+            <?= $this->Html->link(
+                $this->Html->tag('i', '', ['class' => 'fa fa-logout']) . __('Logout'),
+                ['prefix' => false, 'plugin' => 'CakeDC/Users', 'controller' => 'Users', 'action' => 'logout'],
+                ['escape' => false]
+            );
+            ?>
+        </li>
+    <?php endif; ?>
+
     <li>
         <div id="wrap" class="hide">
             <?= $this->element('Layout/default/menu/search') ?>
