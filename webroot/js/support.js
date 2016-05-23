@@ -7,7 +7,7 @@
 		phoneInput.val(countryInfo.dialCode + phoneInput.val());
 
 		$.post('/contacts/rapid', $(this).serialize(), function (response) {
-			$('.rapid-contact-feedback').css('background', 'green').html('Your contact was send.');
+			$('.rapid-contact-feedback').css('background', 'green').html('Your contact was sent.');
 		}).fail(function () {
 			$('.rapid-contact-feedback').css('background', 'red').html('Please try again.');
 		}).always(function () {
