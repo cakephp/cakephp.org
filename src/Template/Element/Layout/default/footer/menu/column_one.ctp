@@ -1,6 +1,6 @@
 <?php $menu = [
     'business' => [
-        'class' => 'menu-title',
+        'class' => 'menu-title menu-title-m',
         'icon' => 'fa fa-menu-title fa-briefcase',
         'url' => '/pages/business-solutions',
 		'title' => __('Business Solutions')
@@ -13,6 +13,6 @@
     ]
 ];
 ?>
-<ul class="footer-menu">
+<ul class="footer-menu business-solution">
     <?= $this->App->menuItems($menu); ?>
 </ul>
