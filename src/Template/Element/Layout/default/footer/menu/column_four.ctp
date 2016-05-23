@@ -1,7 +1,14 @@
+<?php $calendarHeader = [
+	'Calendar' => [
+		'class' => 'menu-title mt30',
+		'icon' => 'fa fa-menu-title fa-calendar-o',
+		'url' => '#'
+	],
+];
+$menu = array_merge($this->Menu->helpAndSupportItems())
+?>
+
 <ul class="footer-menu">
-    <li class="menu-title"><i class="fa fa-menu-title fa-tags"></i><?= __('Marketplace')?></li>
-    <li class="menu-sub hide"><?= __('Service Providers')?>	</li>
-	<?= $this->App->menuItems($this->Menu->serviceProvidersItems()); ?>
-    <li class="menu-sub"><?= __('Jobs')?></li>
-    <?= $this->App->menuItems($this->Menu->jobsItems()); ?>
+	<li class="menu-title"><i class="fa fa-menu-title fa-comments-o"></i><?= __('Help & Support')?></li>
+	<?= $this->App->menuItems($menu); ?>
 </ul>

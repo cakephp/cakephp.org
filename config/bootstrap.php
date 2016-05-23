@@ -213,5 +213,10 @@ Type::build('datetime')
 	->useImmutable()
 	->useLocaleParser();
 
+/** Site info */
 Configure::load('site');
+
+/** Team info */
+Configure::load('team');
+
 

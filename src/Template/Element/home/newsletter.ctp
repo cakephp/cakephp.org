@@ -98,11 +98,11 @@
 							   value="">
 					</div>
 					<div class="me20 clearfix">
-						<input type="submit"
-							   value="Subscribe"
+						<button
+								type="submit"
 							   name="subscribe"
 							   id="mc-embedded-subscribe"
-							   class="btn mt40">
+							   class="btn btn-white"><?= __('Send!')?></button>
 					</div>
 				</form>
 			</div>

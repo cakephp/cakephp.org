@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center mb50 t-support">
-                <h3><?= $this->Html->tag('span', __('Premium')) . __('Support')?></h3>
+                <h3><?= $this->Html->tag('span', __('Premium ')) . __('Support')?></h3>
                 <h5><?= __('Give "The Experts Behind CakePHP" a call:')?></h5>
 
                 <div class="col-md-12">
@@ -35,7 +35,7 @@
                 <p><?= __('Request a rapid response from us now, and we\'ll contact you within 24 hours:')?></p>
                 <p class="rapid-contact-feedback"></p>
                 <div class="text-center">
-					<?= $this->Html->link(__('Rapid Response'), 'javascript:;', [
+					<?= $this->Html->link(__('Rapid Response'), '#', [
 						'class' => 'btn btn-expertise mt20',
 						'data-toggle' => 'modal',
 						'data-target' => '#rapidresponse'
@@ -60,7 +60,7 @@
                             <span class="glyph_range icon-expertise-2">Q</span>
                         </div>
                         <div class="col-md-8 col-md-offset-1">
-                            <h4 class="title-expertise"><?= __('Training')?><?= $this->Html->link(__('Read more'), 'http://training.cakephp.org/', ['class' => 'link-read-more'])?></h4>
+                            <h4 class="title-expertise"><?= __('Training')?><?= $this->Html->link(__('Read more'), 'http://www.cakedc.com/cakephp-training', ['class' => 'link-read-more'])?></h4>
                             <p class="mb0 "><?= __('Learn the insights and reasoning behind the CakePHP framework straight from the minds behind the framework: the developers at CakeDC')?></p>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                         </div>
                         <div class="col-md-8 col-md-offset-1">
                             <h4 class="title-expertise"><?= __('Expert {0} Consultancy', $this->Html->tag('br'))?><?= $this->Html->link(__('Read more'), 'http://www.cakedc.com/cakephp-consultancy', ['class' => 'link-read-more'])?></h4>
-                            <p class="mb0"><?= __('We can help with the areas which need special attention and a trained eye, allowing you to rest assured that you\'ve got all bases covered.')?>s </p>
+                            <p class="mb0"><?= __('We can help with the areas which need special attention and a trained eye, allowing you to rest assured that you\'ve got all bases covered.')?></p>
                         </div>
                     </div>
                 </div>
@@ -85,6 +85,7 @@
 	<div class="modal-dialog" role="document">
 		<div class="modal-content modal-showcase">
         	<?= $this->Form->create(null, ['url' => [
+        		'plugin' => false,
         		'controller' => 'contacts',
         		'action' => 'rapid'
         	], 'class' => 'support-form']); ?>
@@ -103,7 +104,7 @@
 				        	<div class="col-sm-8 t-modal-show">
 				        		<h4><strong><?= __('Rapid') ?></strong></h4>
 				        		<h4><?= __('Response') ?></h4>
-				        		<p><?= __('Request a rapid response from us now, and we\'ll contact you within <strong>24 hours!</strong>') ?></p>
+				        		<p><?= __('Request a rapid response from us now, and we\'ll contact you within {0}', $this->Html->tag('strong', __('24 hours!'))) ?></p>
 				        	</div>
 				        </div>
 				        <div class="col-md-12">

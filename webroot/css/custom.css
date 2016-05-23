@@ -66,14 +66,6 @@
 	font-weight: bold;
 }
 
-input#mc-embedded-subscribe {
-	background: white;
-	color: #D33C44;
-	padding: 15px 30px;
-    border-radius: 8px;
-    width: auto;
-}
-
 input[type="radio"]:checked:before {
 	background: #505050;
 }
@@ -119,4 +111,137 @@ i.icon-irc-2 {
 i.icon-social {
 	color: #bdbdb5;
 	font-size: 25px;
+}
+
+
+
+
+.stripe-rebra {
+	background: #D33C44;
+	padding-top: 140px;
+}
+
+.title-rebranding h1 {
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	line-height: 55px;
+	letter-spacing: 0.01em;
+	font-weight: 200;
+}
+
+.rebranding h3 {
+	font-size: 30px;
+	line-height: 24px;
+	letter-spacing: 0.05em;
+	font-weight: 200;
+	color: #d33c44;
+}
+
+.rebranding p {
+	line-height: 24px;
+	letter-spacing: 0.05em;
+}
+
+.first-logo-cake {
+	text-align: center;
+	margin-top: 110px;
+}
+
+.logo-cake-2015 {
+	text-align: center;
+	margin-top: 70px;
+}
+
+.rebra-logo-subtext {
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 500;
+	margin-top: 15px;
+}
+
+.rebranding-red h3 {
+	font-size: 30px;
+	line-height: 24px;
+	letter-spacing: 0.05em;
+	font-weight: 200;
+	color: white;
+}
+
+.rebranding-red p {
+	line-height: 24px;
+	letter-spacing: 0.05em;
+	color: white;
+}
+
+.rebra-detail {
+	position: absolute;
+	float: left;
+	top: 12px;
+	left: 0;
+}
+
+.cake-variations {
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+.ibaldo {
+	color: white;
+}
+
+.ibaldo:hover {
+	color: #D33C45;
+}
+
+
+
+
+
+.c-cake {
+	color: #D33C44;
+}
+
+.title-1 {
+	font-size: 50px;
+	font-weight: 200;
+	letter-spacing: 0.01em;
+	line-height: 50px;
+	margin: 0 0 20px 0;
+}
+
+.title-2 {
+	font-size: 35px;
+	font-weight: 200;
+	letter-spacing: 0.01em;
+	line-height: 40px;
+	margin: 0 0 15px;
+}
+
+.title-3 {
+	font-size: 27px;
+	font-weight: 300;
+	letter-spacing: 0.01em;
+	line-height: 40px;
+	margin: 0 0 15px;
+}
+
+.p-cake p{
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.05em;
+	font-weight: 400;
+}
+
+
+.t-extral {
+	font-weight: 200;
+}
+
+.mb110 {
+	margin-bottom: 110px !important;
+}
+
+.row.col-p30 [class*="col-"].business-solution {
+	padding: 0 20px;
 }
