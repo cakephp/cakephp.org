@@ -30,7 +30,7 @@
             <div class="col-sm-6 col-xs-6">
                 <div class="navbar-right">
                     <button class="btn-menu" data-toggle="modal" data-target="#menumodal"><i
-                            class="fa toggle-modal icon_menu"></i></button>
+                            class="toggle-modal icon_menu"></i></button>
                 </div>
                 <div id="wrap">
                     <?= $this->element('Layout/default/menu/search') ?>
