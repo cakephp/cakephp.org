@@ -29,13 +29,10 @@
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic|Montserrat:400,700' rel='stylesheet'>
 	<?= $this->AssetCompress->css('public') ?>
 	<?= $this->AssetCompress->css('fonts', ['raw' => true, 'pathPrefix' => null]) ?>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css">
 	<script src="//cdn.ckeditor.com/4.5.8/standard/ckeditor.js"></script>
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
-	<style>
-		.error-message {color:red;}
-	</style>
 	<?= $this->fetch('socialMeta') ?>
 	<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
@@ -60,7 +57,6 @@
 
 	<?= $this->fetch('meta') ?>
 	<?= $this->fetch('css') ?>
-	<?= $this->fetch('script') ?>
 </head>
 <body>
 <?= $this->element('Layout/default/navbar')?>
@@ -72,6 +68,8 @@
 
 <?= $this->AssetCompress->script('public'); ?>
 <?= $this->AssetCompress->script('not_compiled', ['raw' => true, 'pathPrefix' => null]); ?>
+<?= $this->fetch('script') ?>
+
 <?php $address = env('SERVER_ADDR'); if ($address && !in_array($address, ['127.0.0.1', 'localhost'], true)): ?>
 	<script type="text/javascript">
 		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

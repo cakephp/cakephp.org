@@ -256,3 +256,8 @@ input#mc-embedded-subscribe {
 input[type="radio"]:checked:before {
 	background: #505050;
 }
+
+.error-message {
+	color:red;
+}
+
