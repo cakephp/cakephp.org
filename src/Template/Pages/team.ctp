@@ -75,3 +75,7 @@ $elementsByRow = 3;
 <?= $this->element('home/share')?>
 
 <?= $this->element('home/newsletter')?>
+
+<?php $this->append('script'); ?>
+	<?= $this->Html->script('team-map_effect.js'); ?>
+<?php $this->end('script'); ?>

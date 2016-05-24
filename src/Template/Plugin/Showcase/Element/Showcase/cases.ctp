@@ -47,11 +47,7 @@
 	<script>
 		$(document).ready(function () {
 			$('.show-more-button').on('click', function () {
-				if ($('#viewmoreshowcase').is(':visible')) {
-					$(this).find('h5').html('<?= __('View more projects') ?>');
-				} else {
-					$(this).find('h5').html('<?= __('View less projects') ?>');
-				}
+				$(this).hide();
 			});
 		});
 	</script>
