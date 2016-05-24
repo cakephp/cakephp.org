@@ -28,8 +28,6 @@ class AddProjectsToShowcase extends AbstractMigration
     public function change()
     {
     	$this->execute('DELETE FROM projects');
-    	$this->execute('DELETE FROM tags_tags');
-    	$this->execute('DELETE FROM tags_tagged');
     	$this->execute('DELETE FROM uploaded_files');
     	$this->execute('ALTER TABLE projects AUTO_INCREMENT = 1');
 
