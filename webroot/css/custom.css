@@ -290,3 +290,7 @@ input[type="radio"]:checked:before {
 .megamenu-list > li.main-title > a:focus {
 	text-indent:0px;
 }
+
+.call a{
+	cursor: pointer;
+}
