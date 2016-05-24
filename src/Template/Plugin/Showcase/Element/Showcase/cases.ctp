@@ -10,29 +10,49 @@
 				<?php endforeach ?>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 col-sm-12 sm-box3">
-				<div class="panel-group" id="accordion">
-					<div class="panel more-cases">
-						<div id="viewmoreshowcase" class="panel-collapse collapse">
-							<div class="panel-body">
-								<?php foreach (array_slice($projects->toArray(), 3) as $index => $project): ?>
-									<?= $this->element('Showcase.Showcase/cases/case', ['index' => $index+1, 'project' => $project]) ?>
-								<?php endforeach; ?>
+
+		<?php if ($projects->count() > 3): ?>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-sm-12 sm-box3">
+					<div class="panel-group" id="accordion">
+						<div class="panel more-cases">
+							<div id="viewmoreshowcase" class="panel-collapse collapse">
+								<div class="panel-body">
+									<?php foreach (array_slice($projects->toArray(), 3) as $index => $project): ?>
+										<?= $this->element('Showcase.Showcase/cases/case', ['index' => $index+1, 'project' => $project]) ?>
+									<?php endforeach; ?>
+								</div>
 							</div>
-						</div>
-						<div class="panel-heading">
-							<h4 class="panel-title view-more text-center">
-							<a data-toggle="collapse" href="#viewmoreshowcase" data-parent="#accordion">
-								<i class="fa fa-view-more fa-chevron-down"></i>
-								<h5><?= __("View more projects") ?></h5>
-								<i class="fa fa-view-more fa-chevron-down"></i>
-							</a>
-							</h4>
+							<div class="panel-heading">
+								<h4 class="panel-title view-more text-center">
+								<a data-toggle="collapse"
+								   href="#viewmoreshowcase"
+								   data-parent="#accordion"
+								   class="show-more-button">
+									<i class="fa fa-view-more fa-chevron-down"></i>
+									<h5><?= __("View more projects") ?></h5>
+									<i class="fa fa-view-more fa-chevron-down"></i>
+								</a>
+								</h4>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		<?php endif; ?>
 	</div>
 </section>
+
+<?php $this->append('script'); ?>
+	<script>
+		$(document).ready(function () {
+			$('.show-more-button').on('click', function () {
+				if ($('#viewmoreshowcase').is(':visible')) {
+					$(this).find('h5').html('<?= __('View more projects') ?>');
+				} else {
+					$(this).find('h5').html('<?= __('View less projects') ?>');
+				}
+			});
+		});
+	</script>
+<?php $this->end('script'); ?>
