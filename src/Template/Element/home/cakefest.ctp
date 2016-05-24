@@ -40,22 +40,23 @@ use Cake\Core\Configure;
 	                </div>
 	            </div>
 	            <div class="col-md-3 col-md-offset-1">
-	            	<?php if ($this->App->isCakeFestInFuture()): ?>
-						<a href='http://cakefest.org/tickets'>
+					<a href='http://cakefest.org/tickets' title="<?= __('Get your ticket!')?>">
+						<?php if ($this->App->isCakeFestInFuture()): ?>
+							<div class="box-data">
+								<h6>Only</h6>
+								<h6><span><?= $this->App->cakeFestDaysLeft() ?><span></h6>
+								<h5>days left to</h5>
+								<h4><?= Configure::read('Site.cakefest.title')?></h4>
+							</div>
+						<?php else: ?>
 							<div class="box-data">
 								<h6>STREAMING</h6>
 								<h6><span style="font-size:75px">NOW<span></h6>
 								<h4><?= Configure::read('Site.cakefest.title')?></h4>
 							</div>
-						</a>
-		            <?php else: ?>
-		                <div class="box-data">
-		                    <h6>RIGHT</h6>
-		                    <h6><span style="font-size:75px">NOW<span></h6>
-		                    <h4><?= Configure::read('Site.cakefest.title')?></h4>
-		                </div>
-		        	<?php endif; ?>
-	            </div>
+						<?php endif; ?>
+					</a>
+				</div>
 	        </div>
 	    </div>
 	</section>

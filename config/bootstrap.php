@@ -217,7 +217,5 @@ Type::build('datetime')
 /** Site info */
 Configure::load('site');
 
-/** Team info */
-Configure::load('team');
 
 
