@@ -1,6 +1,6 @@
-<?php if ($highlight): ?>
+<?php if ($highlights): ?>
 	<?= $this->element('Showcase.Showcase/highlight_carousel', [
-		'givenHighlight' => $highlight,
+		'givenHighlight' => $highlights,
 		'imageVersion' => 'slider'
 	]) ?>
 <?php endif; ?>
