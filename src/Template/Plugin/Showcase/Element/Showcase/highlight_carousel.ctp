@@ -32,11 +32,18 @@
 		</div>
 		<?php endforeach; ?>
 	</div>
-	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	<a class="left carousel-control"
+	   href="#carousel-example-generic"
+	   role="button" data-slide="prev"
+	   <?= count($images) == 1 ? 'style="display:none;"' : '' ?>>
 		<i class="fa icon-carousel fa-angle-left"></i>
 		<span class="sr-only">Previous</span>
 	</a>
-	<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	<a class="right carousel-control"
+	   href="#carousel-example-generic"
+	   role="button"
+	   data-slide="next"
+	   <?= count($images) == 1 ? 'style="display:none;"' : '' ?>>
 		<i class="fa icon-carousel fa-angle-right"></i>
 		<span class="sr-only">Next</span>
 	</a>
