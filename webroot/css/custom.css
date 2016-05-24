@@ -242,6 +242,7 @@ i.icon-social {
 	margin-bottom: 110px !important;
 }
 
+<<<<<<< HEAD
 .form-control-mylogin::-webkit-input-placeholder {
 	color: #D33C44;
 	text-align: center;
@@ -264,4 +265,8 @@ i.icon-social {
 	color: #D33C44;
 	text-align: center;
 	font-size: 15px;
+}
+
+.row.col-p30 [class*="col-"].business-solution {
+	padding: 0 20px;
 }

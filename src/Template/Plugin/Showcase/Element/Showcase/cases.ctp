@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 title-more">
-				<h3><?= __("CakePHPMore Stories") ?></h3>
+				<h3><?= __("CakePHP More Stories") ?></h3>
 			</div>
 			<div class="col-md-8 col-md-offset-2 mt50">
 				<?php foreach (array_slice($projects->toArray(), 0, 3) as $index => $project): ?>

@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db67add9-553e-49df-9fe7-81cc84b9d2c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Template/Plugin/CakeDC/Users/Users/request_reset_password.ctp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/cakephp2016.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/Migrations/20160418180625_add_projects_to_showcase.php" afterPath="$PROJECT_DIR$/config/Migrations/20160418180625_add_projects_to_showcase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/bootstrap.php" afterPath="$PROJECT_DIR$/config/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.php" afterPath="$PROJECT_DIR$/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/AppController.php" afterPath="$PROJECT_DIR$/src/Controller/AppController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/PagesController.php" afterPath="$PROJECT_DIR$/src/Controller/PagesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Element/Layout/default/menu/menu.ctp" afterPath="$PROJECT_DIR$/src/Template/Element/Layout/default/menu/menu.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Element/Layout/default/footer.ctp" afterPath="$PROJECT_DIR$/src/Template/Element/Layout/default/footer.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Element/Layout/default/footer/menu.ctp" afterPath="$PROJECT_DIR$/src/Template/Element/Layout/default/footer/menu.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Element/Layout/default/footer/menu/column_one.ctp" afterPath="$PROJECT_DIR$/src/Template/Element/Layout/default/footer/menu/column_one.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Element/Layout/default/footer/menu/column_two.ctp" afterPath="$PROJECT_DIR$/src/Template/Element/Layout/default/footer/menu/column_two.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Element/home/cakefest.ctp" afterPath="$PROJECT_DIR$/src/Template/Element/home/cakefest.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Element/home/support.ctp" afterPath="$PROJECT_DIR$/src/Template/Element/home/support.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Plugin/Showcase/Element/Showcase/cases.ctp" afterPath="$PROJECT_DIR$/src/Template/Plugin/Showcase/Element/Showcase/cases.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/custom.css" afterPath="$PROJECT_DIR$/webroot/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/js/support.js" afterPath="$PROJECT_DIR$/webroot/js/support.js" />
     </list>
     <ignored path="cakephp2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/Template/Element/Layout/default/footer/menu.ctp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20160523091918_add_superadmin.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="20160523091918_add_superadmin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/Migrations/20160523091918_add_superadmin.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
@@ -79,6 +70,16 @@
               <folding>
                 <marker date="1463995963000" expanded="true" signature="796:1072" placeholder="INSERT INTO `users`... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webroot/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="557">
+              <caret line="271" column="0" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,7 +156,6 @@
         <option value="$PROJECT_DIR$/vendor/cakedc/showcase/src/Controller/ProjectsController.php" />
         <option value="$PROJECT_DIR$/src/Template/Plugin/Users/Users/login.ctp" />
         <option value="henriquemartins.com.br/sites/cake2/mycake-login.html" />
-        <option value="$PROJECT_DIR$/webroot/css/custom.css" />
         <option value="$PROJECT_DIR$/src/Template/Plugin/CakeDC/Users/Users/request_reset_password.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Plugin/CakeDC/Users/Users/login.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Plugin/CakeDC/Users/Users/change_password.ctp" />
@@ -164,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/Controller/AppController.php" />
         <option value="$PROJECT_DIR$/config/routes.php" />
         <option value="$PROJECT_DIR$/src/Template/Element/Layout/default/menu/menu.ctp" />
+        <option value="$PROJECT_DIR$/webroot/css/custom.css" />
       </list>
     </option>
   </component>
@@ -578,12 +579,12 @@
       <option name="presentableId" value="Default" />
       <updated>1457309740884</updated>
       <workItem from="1463989303165" duration="151000" />
-      <workItem from="1463989458831" duration="6344000" />
+      <workItem from="1463989458831" duration="6506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6495000" />
+    <option name="totallyTimeSpent" value="6657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="817" extended-state="6" />
@@ -853,14 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="262" column="21" selection-start-line="262" selection-start-column="21" selection-end-line="262" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/Layout/default.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28">
@@ -976,7 +969,7 @@
     <entry file="file://$PROJECT_DIR$/src/Template/Element/Layout/default/footer/menu.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1046,6 +1039,14 @@
           <folding>
             <marker date="1463995963000" expanded="true" signature="796:1072" placeholder="INSERT INTO `users`... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="271" column="0" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
