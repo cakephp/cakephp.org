@@ -5,7 +5,7 @@ $description = __('Meet the CakePHP Core development team');
 $this->assign('title', $title);
 $this->assign('meta', $this->Html->meta('description', $description));
 $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
-$team = Configure::read('Team');
+$team = Configure::read('Site.team');
 $i = 0;
 $elementsByRow = 3;
 ?>
@@ -18,12 +18,12 @@ $elementsByRow = 3;
 				<h3><?= __('Meet the team behind CakePHP')?></h3>
 			</div>
 			<div class="col-sm-12">
-				<?php foreach($team as $member):
+				<?php foreach($team as $key => $member):
 					$i++;?>
 					<div class="col-sm-6 col-md-4 padd-team">
 						<div class="portfolio-el view view-team text-center">
 							<?= $this->Html->image($member['image-url'], ['alt' => $member['name']])?>
-							<a class="mask" data-target="#<?= $member['target'] ?>" data-toggle="modal">
+							<a class="mask" data-target="#<?= $key ?>" data-toggle="modal">
 								<div class="t-team-read">
 									<h6><?= __('read more')?></h6>
 								</div>
@@ -38,7 +38,7 @@ $elementsByRow = 3;
 					<?php if ($i % $elementsByRow == 0):?>
 						<div class="clearfix hidden-xs hidden-sm"></div>
 					<?php endif;?>
-					<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" id="<?= $member['target'] ?>">
+					<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" id="<?= $key ?>">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
 								<div class="modal-header">
@@ -52,16 +52,16 @@ $elementsByRow = 3;
 										</div>
 									</div>
 									<div class="row">
-										<?= $this->Form->hidden('country', ['id' => $member['target'] . '-country', 'class' => 'country', 'value'=> $member['country']]) ?>
+										<?= $this->Form->hidden('country', ['id' => $key . '-country', 'class' => 'country', 'value'=> $member['country']]) ?>
 										<div class="col-sm-12">
-											<div id="<?= $member['target'] ?>-map" class="img-responsive"></div>
+											<div id="<?= $key ?>-map" class="img-responsive"></div>
 										</div>
 									</div>
 								</div>
 								<div class="modal-team">
-									<a href="http://twitter.com/<?= $member['twitter'] ?>" data-toggle="tooltip" title="Twitter"><i class="fa icon-social fa-twitter"></i></a>
-									<a href="https://github.com/<?= $member['github'] ?>" data-toggle="tooltip" title="Github"><i class="fa icon-social fa-github"></i></a>
-									<a href="http://my.cakephp.org/user/<?= $member['mycake'] ?>" data-toggle="tooltip" title="My CakePHP"><span class="glyph_range icon-social">a</span></a>
+									<a href="http://twitter.com/<?= $member['twitter'] ?>" target="_blank" data-toggle="tooltip" title="Twitter"><i class="fa icon-social fa-twitter"></i></a>
+									<a href="https://github.com/<?= $member['github'] ?>" target="_blank" data-toggle="tooltip" title="Github"><i class="fa icon-social fa-github"></i></a>
+									<a href="http://my.cakephp.org/user/<?= $member['mycake'] ?>" target="_blank" data-toggle="tooltip" title="My CakePHP"><span class="glyph_range icon-social">a</span></a>
 								</div>
 							</div>
 						</div>
