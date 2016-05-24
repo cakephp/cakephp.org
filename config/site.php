@@ -25,10 +25,10 @@ return [
 				'company' => 'Gallery Assistant'
 			],
 			[
-				'image' => 'quote/david.png',
-				'text' => '“Some of the smartest, fastest, and most talented developers I have ever worked with.”',
-				'client' => 'David Kullmann',
-				'company' => 'No Limits Labs LLC'
+				'image' => 'quote/dwayne.png',
+				'text' => '“Having inherited this CakePHP project, I didn’t chose CakePHP so much as choose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.”',
+				'client' => 'Dwayne Sander',
+				'company' => 'Alerrt'
 			],
 
 
