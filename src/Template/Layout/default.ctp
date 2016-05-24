@@ -33,9 +33,6 @@
 	<script src="//cdn.ckeditor.com/4.5.8/standard/ckeditor.js"></script>
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
-	<style>
-		.error-message {color:red;}
-	</style>
 	<?= $this->fetch('socialMeta') ?>
 	<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">

@@ -7,22 +7,16 @@ return [
 		],
 		'quotes' => [
 			[
-				'image' => 'quote/beth.png',
-				'text' => '“CakeDC really put in the hours to save our troubled project, putting in the talent and experience to meet some very tight deadlines.”',
-				'client' => 'Beth Jokhio',
-				'company' => 'Avesta Systems Inc.'
-			],
-			[
 				'image' => 'quote/megan.png',
 				'text' => '“We got a high ROI from converting our custom PHP app to CakePHP. We love the continually expanding suite of utilities, plugins, and development patterns at our disposal!”',
 				'client' => 'Megan Danz',
 				'company' => 'Harbor Compliance'
 			],
 			[
-				'image' => 'quote/david.png',
-				'text' => '“Some of the smartest, fastest, and most talented developers I have ever worked with.”',
-				'client' => 'David Kullmann',
-				'company' => 'No Limits Labs LLC'
+				'image' => 'quote/brad.png',
+				'text' => '“CakePhP was the most efficient way we could find to rapidly develop our intricate system.  We needed a platform that could handle our high volume of users without issues and CakePhP has certainly delivered.”',
+				'client' => 'Brad Lambden',
+				'company' => 'iWorkZone.'
 			],
 			[
 				'image' => 'quote/michael.png',
@@ -30,6 +24,13 @@ return [
 				'client' => 'Michael Lebieniec',
 				'company' => 'Code Creator LLC'
 			],
+			[
+				'image' => 'quote/david.png',
+				'text' => '“Some of the smartest, fastest, and most talented developers I have ever worked with.”',
+				'client' => 'David Kullmann',
+				'company' => 'No Limits Labs LLC'
+			],
+
 
 		],
 		'menu' => [
