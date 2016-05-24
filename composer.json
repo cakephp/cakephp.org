@@ -11,7 +11,8 @@
 		"cakephp/migrations": "~1.0",
 		"cakephp/plugin-installer": "*",
 		"markstory/asset_compress": "~3.0",
-		"cakedc/showcase": "dev-master"
+		"cakedc/showcase": "dev-master",
+		"cakedc/users": "dev-master"
 	},
 	"require-dev": {
 		"psy/psysh": "@stable",
