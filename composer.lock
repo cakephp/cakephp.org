@@ -181,7 +181,7 @@
             "source": {
                 "type": "git",
                 "url": "git@git.cakedc.com:cakedc/showcase.git",
-                "reference": "bac3b52ec48e55117cacce557a8d3924273d5acf"
+                "reference": "2e3f0f6e698b1c99804ea40c2032f7b34ac59c0f"
             },
             "require": {
                 "burzum/cakephp-imagine-plugin": "~2.0",
@@ -207,7 +207,7 @@
                 }
             },
             "description": "Showcase plugin for CakePHP",
-            "time": "2016-05-19 11:47:17"
+            "time": "2016-05-24 10:11:20"
         },
         {
             "name": "cakedc/users",
@@ -403,16 +403,16 @@
         },
         {
             "name": "cakephp/migrations",
-            "version": "1.5.8",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/migrations.git",
-                "reference": "113deb01d3791d4632f6505ab4517c78075d4189"
+                "reference": "0d96079a92e8a77858c8bf103feae3a93005f415"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/migrations/zipball/113deb01d3791d4632f6505ab4517c78075d4189",
-                "reference": "113deb01d3791d4632f6505ab4517c78075d4189",
+                "url": "https://api.github.com/repos/cakephp/migrations/zipball/0d96079a92e8a77858c8bf103feae3a93005f415",
+                "reference": "0d96079a92e8a77858c8bf103feae3a93005f415",
                 "shasum": ""
             },
             "require": {
@@ -449,7 +449,7 @@
                 "cakephp",
                 "migrations"
             ],
-            "time": "2016-05-06 21:13:07"
+            "time": "2016-05-23 20:34:05"
         },
         {
             "name": "cakephp/plugin-installer",
