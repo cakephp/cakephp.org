@@ -12,6 +12,22 @@ class AppHelper extends Helper
     public $helpers = ['Html'];
 
     /**
+     * Adds http to the begining if not there yet
+     *
+     * @param string $link
+     * @return string
+     */
+    public function externalLink($link)
+    {
+    	if (!preg_match('/^(http|https)/', $link)) {
+    		return 'http://'. $link;
+    	}
+
+    	return $link;
+    }
+
+
+    /**
      * Outputs the footer menu items
      *
      * @param array $items

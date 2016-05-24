@@ -7,29 +7,30 @@ return [
 		],
 		'quotes' => [
 			[
-				'image' => 'quote/beth.png',
-				'text' => '“CakeDC really put in the hours to save our troubled project, putting in the talent and experience to meet some very tight deadlines.”',
-				'client' => 'Beth Jokhio',
-				'company' => 'Avesta Systems Inc.'
-			],
-			[
 				'image' => 'quote/megan.png',
 				'text' => '“We got a high ROI from converting our custom PHP app to CakePHP. We love the continually expanding suite of utilities, plugins, and development patterns at our disposal!”',
 				'client' => 'Megan Danz',
 				'company' => 'Harbor Compliance'
 			],
 			[
-				'image' => 'quote/david.png',
-				'text' => '“Some of the smartest, fastest, and most talented developers I have ever worked with.”',
-				'client' => 'David Kullmann',
-				'company' => 'No Limits Labs LLC'
+				'image' => 'quote/brad.png',
+				'text' => '“CakePhP was the most efficient way we could find to rapidly develop our intricate system.  We needed a platform that could handle our high volume of users without issues and CakePhP has certainly delivered.”',
+				'client' => 'Brad Lambden',
+				'company' => 'iWorkZone'
 			],
 			[
-				'image' => 'quote/michael.png',
-				'text' => '“Our experience so far has been excellent working with you guys.”',
-				'client' => 'Michael Lebieniec',
-				'company' => 'Code Creator LLC'
+				'image' => 'quote/julian.png',
+				'text' => '“From the simplest micro kiosk app to my highly complex gallery management app CakePHP is the framework of choice. It allows modular development that makes sense and is architecturally solid and performant. Whatever you are building, CakePHP can help you get it done.”',
+				'client' => 'Julian Sander',
+				'company' => 'Gallery Assistant'
 			],
+			[
+				'image' => 'quote/dwayne.png',
+				'text' => '“Having inherited this CakePHP project, I didn’t chose CakePHP so much as choose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.”',
+				'client' => 'Dwayne Sander',
+				'company' => 'Alerrt'
+			],
+
 
 		],
 		'menu' => [
@@ -94,11 +95,6 @@ return [
 						'options' => ['target' => '_blank'],
 						'title' => __('Youtube Channel')
 					],
-					'google' => [
-						'url' => 'https://plus.google.com/communities/108328920558088369819',
-						'options' => ['target' => '_blank'],
-						'title' => __('Google Groups')
-					],
 					'stackOverflow' => [
 						'url' => 'http://stackoverflow.com/tags/cakephp',
 						'options' => ['target' => '_blank'],
@@ -128,6 +124,11 @@ return [
 						'options' => ['target' => '_blank'],
 						'title' => 'Twitter'
 					],
+					'discourse' => [
+						'url' => 'http://discourse.cakephp.org',
+						'title' => 'Discourse',
+						'options' => ['target' => '_blank'],
+					]
 				],
 				'jobs' => [
 					'cakeJobs' => [

@@ -72,3 +72,7 @@
 </section>
 
 <?= $this->element('home/newsletter') ?>
+
+<?php $this->append('script'); ?>
+	<?= $this->Html->script('youtube_videos.js') ?>
+<?php $this->end('script'); ?>
