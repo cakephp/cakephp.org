@@ -42,3 +42,5 @@
 		</div>
 	</div>
 </section>
+<?= $this->element('home/newsletter')?>
+

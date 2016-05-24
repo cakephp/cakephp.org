@@ -45,7 +45,7 @@
 	</div>
 </div>
 <div class="col-sm-12">
-	<p><?= __('2. Our logos (the "Logos"):')?></p>
+	<p><?= __('2.1 Our logos (the "Logos"):')?></p>
 
 	<div class="col-md-10 col-md-offset-1 logos-trade mb40">
 		<div class="col-sm-5">
@@ -79,6 +79,75 @@
 		<div class="col-sm-5 col-sm-offset-2">
 			<?= $this->Html->image('trademarks/logo-8.jpg')?>
 			<p><?= __('CakePHP Version Number<br>and Name Vertical Logo')?></p>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+
+	<p>2.2. CakePHP sister brands’ logos:</p>
+	<div class="col-md-10 col-md-offset-1 logos-trade mb40">
+		<div class="col-sm-5">
+			<?= $this->Html->image('trademarks/logo-develop.jpg')?>
+			<p>CakeDC Full Name Horizontal Signature</p>
+		</div>
+		<div class="col-sm-5 col-sm-offset-2">
+			<?= $this->Html->image('trademarks/logo-dc.jpg')?>
+			<p>CakeDC Initials Horizontal Signature</p>
+		</div>
+		<div class="col-sm-5">
+			<?= $this->Html->image('trademarks/logo-develop-2.jpg')?>
+			<p>CakeDC Full Name Vertical Signature</p>
+		</div>
+		<div class="col-sm-5 col-sm-offset-2">
+			<?= $this->Html->image('trademarks/logo-dc-2.jpg')?>
+			<p>CakeDC Initials Vertical Signature</p>
+		</div>
+		<div class="col-sm-5">
+			<?= $this->Html->image('trademarks/soft.jpg')?>
+			<p>CakeSF Full Name Horizontal Signature</p>
+		</div>
+		<div class="col-sm-5 col-sm-offset-2">
+			<?= $this->Html->image('trademarks/sf.jpg')?>
+			<p>CakeSF Initials Horizontal Signature</p>
+		</div>
+		<div class="col-sm-5">
+			<?= $this->Html->image('trademarks/soft-2.jpg')?>
+			<p>CakeSF Full Name Vertical Signature</p>
+		</div>
+		<div class="col-sm-5 col-sm-offset-2">
+			<?= $this->Html->image('trademarks/sf-2.jpg')?>
+			<p>CakeSF Initials Vertical Signature</p>
+		</div>
+		<div class="col-sm-5">
+			<?= $this->Html->image('trademarks/fest.jpg')?>
+			<p>CakeFest Horizontal Signature</p>
+		</div>
+		<div class="col-sm-5 col-sm-offset-2">
+			<?= $this->Html->image('trademarks/fest-2.jpg')?>
+			<p>CakeFest Vertical Signature</p>
+		</div>
+		<div class="col-sm-5">
+			<?= $this->Html->image('trademarks/talent.jpg')?>
+			<p>CakeTalent Horizontal Signature</p>
+		</div>
+		<div class="col-sm-5 col-sm-offset-2">
+			<?= $this->Html->image('trademarks/talent-2.jpg')?>
+			<p>CakeTalent Vertical Signature</p>
+		</div>
+		<div class="col-sm-5">
+			<?= $this->Html->image('trademarks/jobs.jpg')?>
+			<p>CakeJobs Horizontal Signature</p>
+		</div>
+		<div class="col-sm-5 col-sm-offset-2">
+			<?= $this->Html->image('trademarks/jobs-2.jpg')?>
+			<p>CakeJobs Vertical Signature</p>
+		</div>
+		<div class="col-sm-5">
+			<?= $this->Html->image('trademarks/uni.jpg')?>
+			<p>CakeUniversity Horizontal Signature</p>
+		</div>
+		<div class="col-sm-5 col-sm-offset-2">
+			<?= $this->Html->image('trademarks/uni-2.jpg')?>
+			<p>CakeUniversity Vertical Signature</p>
 		</div>
 	</div>
 	<div class="clearfix"></div>
