@@ -46,6 +46,12 @@ class AppController extends Controller
         $this->loadComponent('Flash');
         $this->loadComponent('Security');
         $this->loadComponent('Csrf');
+        $this->loadComponent('CakeDC/Users.UsersAuth');
+    }
+
+    public function beforeFilter(Event $event)
+    {
+        return parent::beforeFilter($event);
     }
 
     /**
