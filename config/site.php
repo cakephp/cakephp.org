@@ -95,11 +95,6 @@ return [
 						'options' => ['target' => '_blank'],
 						'title' => __('Youtube Channel')
 					],
-					'google' => [
-						'url' => 'https://plus.google.com/communities/108328920558088369819',
-						'options' => ['target' => '_blank'],
-						'title' => __('Google Groups')
-					],
 					'stackOverflow' => [
 						'url' => 'http://stackoverflow.com/tags/cakephp',
 						'options' => ['target' => '_blank'],
@@ -129,6 +124,11 @@ return [
 						'options' => ['target' => '_blank'],
 						'title' => 'Twitter'
 					],
+					'discourse' => [
+						'url' => 'http://discourse.cakephp.org',
+						'title' => 'Discourse',
+						'options' => ['target' => '_blank'],
+					]
 				],
 				'jobs' => [
 					'cakeJobs' => [

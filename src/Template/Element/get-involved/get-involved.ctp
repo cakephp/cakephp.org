@@ -69,7 +69,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 			</li>
 			<li><?= __('Use social platforms such as {0}, {1} or {2} to provide links to articles, posts, plugins, events, etc.',
 					$this->Html->link(__('Facebook'), Configure::read('Site.menu.items.help.facebook.url'), ['target' => '_blank']),
-					$this->Html->link(__('Google+'), Configure::read('Site.menu.items.help.google.url'), ['target' => '_blank']),
+					$this->Html->link(__('Discourse'), Configure::read('Site.menu.items.help.discourse.url'), ['target' => '_blank']),
 					$this->Html->link(__('Twitter'), Configure::read('Site.menu.items.help.twitter.url'), ['target' => '_blank'])
 				)?>
 			</li>
