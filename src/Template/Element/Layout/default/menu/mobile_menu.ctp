@@ -13,20 +13,20 @@
                                 <div class="panel-heading p0">
                                     <h4 class="panel-title title-responsivo-menu">
                                         <a data-toggle="collapse" href="#Documentationmodal">
-                                            <i class="fa fa-caret-down upside-down"></i>Documentation
+                                            <i class="fa fa-caret-down upside-down"></i><?= __('Documentation') ?>
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="Documentationmodal" class="panel-collapse collapse">
                                     <div class="panel-body sidebar-menu-body">
                                         <ul>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Book</a></li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Api</a></li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Videos</a></li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Pirvacy
-                                                    Policy</a></li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Logos &
-                                                    Trademarks</a></li>
+                                            <li><a href="http://book.cakephp.org/"><i class="fa fa-menu fa-chevron-right"></i><?= __('Book') ?></a></li>
+                                            <li><a href="http://api.cakephp.org/3.2/"><i class="fa fa-menu fa-chevron-right"></i><?= __('Api') ?></a></li>
+                                            <li><a href="/documentation/videos"><i class="fa fa-menu fa-chevron-right"></i><?= __('Videos') ?></a></li>
+                                            <li><a href="/pages/privacy"><i class="fa fa-menu fa-chevron-right"></i><?= __('Privacy
+                                                    Policy') ?></a></li>
+                                            <li><a href="/pages/trademark"><i class="fa fa-menu fa-chevron-right"></i><?= __('Logos &
+                                                    Trademarks') ?></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -35,8 +35,8 @@
                             <div class="panel">
                                 <div class="panel-heading p0">
                                     <h4 class="panel-title title-responsivo-menu">
-                                        <a data-toggle="collapse" href="/pages/business-solutions">
-                                            <i class="fa fa-caret-right upside-stop"></i>Business Solutions
+                                        <a href="/pages/business-solutions">
+                                            <i class="fa fa-caret-right upside-stop"></i><?= __('Business Solutions') ?>
                                         </a>
                                     </h4>
                                 </div>
@@ -45,8 +45,8 @@
                             <div class="panel">
                                 <div class="panel-heading p0">
                                     <h4 class="panel-title title-responsivo-menu">
-                                        <a data-toggle="collapse" href="#">
-                                            <i class="fa fa-caret-right upside-stop"></i>Showcase
+                                        <a href="/showcase">
+                                            <i class="fa fa-caret-right upside-stop"></i><?= __('Showcase') ?>
                                         </a>
                                     </h4>
                                 </div>
@@ -56,76 +56,71 @@
                                 <div class="panel-heading p0">
                                     <h4 class="panel-title title-responsivo-menu">
                                         <a data-toggle="collapse" href="#communitymodal">
-                                            <i class="fa fa-caret-down upside-down"></i>Community
+                                            <i class="fa fa-caret-down upside-down"></i><?= __('Community') ?>
                                         </a>
                                     </h4>
                                 </div>
                                 <div id="communitymodal" class="panel-collapse collapse">
                                     <div class="panel-body sidebar-menu-body tarja-menu">
                                         <ul class="hide">
-                                            <li class="menu-title"><i class="fa fa-menu-title fa-calendar-o"></i>Calendar
+                                            <li class="menu-title"><i class="fa fa-menu-title fa-calendar-o"></i><?= __('Calendar') ?>
                                             </li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Meetups</a></li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Events</a></li>
+                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Meetups') ?></a></li>
+                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Events') ?></a></li>
                                         </ul>
                                         <ul>
-                                            <li class="menu-title hide"><i class="fa fa-menu-title fa-tags"></i>Marketplace
+                                            <li class="menu-title hide"><i class="fa fa-menu-title fa-tags"></i><?= __('Marketplace') ?>
                                             </li>
-                                            <li class="menu-sub">Service Providers</li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Cakedc</a></li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Phpstorm</a></li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Rackspace</a>
+                                            <li class="menu-sub"><?= __('Service Providers') ?></li>
+                                            <li><a href="http://www.cakedc.com/"><i class="fa fa-menu fa-chevron-right"></i><?= __('Cakedc') ?></a></li>
+                                            <li><a href="https://www.jetbrains.com/phpstorm/"><i class="fa fa-menu fa-chevron-right"></i><?= __('Phpstorm') ?></a></li>
+                                            <li class="menu-sub"><?= __('Jobs') ?></li>
+                                            <li class="hide"><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Freelance App') ?></a>
                                             </li>
-                                            <li class="menu-sub">Jobs</li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Freelance App</a>
+                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Cakephp Jobs') ?></a>
                                             </li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Cakephp Jobs</a>
+                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Cakexperts') ?></a>
                                             </li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Cakexperts</a>
+                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Job Board') ?></a>
                                             </li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Job Board</a>
-                                            </li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Linkedin</a></li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Freelancer</a>
-                                            </li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Upwork</a></li>
+                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Linkedin') ?></a></li>
+                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Freelancer') ?></a></li>
                                         </ul>
                                         <ul>
-                                            <li class="menu-title"><i class="fa fa-menu-title fa-comments-o"></i>Help &
-                                                Support
+                                            <li class="menu-title"><i class="fa fa-menu-title fa-comments-o"></i><?= __('Help &
+                                                Support') ?>
                                             </li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Issues
-                                                    (Github)</a></li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Youtube
-                                                    Channel</a></li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Google Groups</a>
+                                            <li><a href="https://github.com/cakephp/cakephp/issues"><i class="fa fa-menu fa-chevron-right"></i><?= __('Issues
+                                                    (Github)') ?></a></li>
+                                            <li><a href="https://www.youtube.com/user/CakePHP"><i class="fa fa-menu fa-chevron-right"></i><?= __('Youtube
+                                                    Channel') ?></a></li>
+                                            <li><a href="https://plus.google.com/communities/108328920558088369819"><i class="fa fa-menu fa-chevron-right"></i><?= __('Google Groups') ?></a>
                                             </li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Stack
-                                                    Overflow</a></li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Commercial</a>
+                                            <li><a href="http://stackoverflow.com/tags/cakephp"><i class="fa fa-menu fa-chevron-right"></i><?= __('Stack
+                                                    Overflow') ?></a></li>
+                                            <li><a href="http://www.cakedc.com/"><i class="fa fa-menu fa-chevron-right"></i><?= __('Commercial') ?></a>
                                             </li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Irc</a></li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Quora</a></li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Facebook</a></li>
+                                            <li><a href="https://kiwiirc.com/client/irc.freenode.net#cakephp"><i class="fa fa-menu fa-chevron-right"></i><?= __('Irc') ?></a></li>
+                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Quora') ?></a></li>
+                                            <li><a href="https://www.facebook.com/CakePHP/"><i class="fa fa-menu fa-chevron-right"></i><?= __('Facebook') ?></a></li>
                                         </ul>
                                         <ul>
-                                            <li class="menu-title"><i class="fa fa-menu-title fa-users"></i>Community
+                                            <li class="menu-title"><i class="fa fa-menu-title fa-users"></i><?= __('Community') ?>
                                             </li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Get Involved</a>
+                                            <li><a href="/pages/get-involved"><i class="fa fa-menu fa-chevron-right"></i><?= __('Get Involved') ?></a>
                                             </li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Blog</a></li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Newsletter</a>
+                                            <li><a href="http://bakery.cakephp.org/"><i class="fa fa-menu fa-chevron-right"></i><?= __('Blog') ?></a></li>
+                                            <li><a href="/pages/newsletter"><i class="fa fa-menu fa-chevron-right"></i><?= __('Newsletter') ?></a>
                                             </li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Certification</a>
+                                            <li><a href="http://certification.cakephp.org/"><i class="fa fa-menu fa-chevron-right"></i><?= __('Certification') ?></a>
                                             </li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Calendar</a></li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>My Cakephp</a>
+                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Calendar') ?></a></li>
+                                            <li><a href="http://my.cakephp.org/login"><i class="fa fa-menu fa-chevron-right"></i><?= __('My Cakephp') ?></a>
                                             </li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Cakefest</a></li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Cakesf</a></li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Oss Bounty</a>
+                                            <li><a href="http://cakefest.org/"><i class="fa fa-menu fa-chevron-right"></i><?= __('Cakefest') ?></a></li>
+                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Oss Bounty') ?></a>
                                             </li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i>Forum</a></li>
+                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Forum') ?></a></li>
                                         </ul>
                                     </div>
                                 </div>
