@@ -40,7 +40,7 @@
             <div class="row">
 				<div class="col-6 pl30">
                     <ul class="megamenu-list">
-                        <li class="menu-title">
+                        <li class="menu-title main-title">
                             <?= $this->Html->link(
                                 $this->Html->tag('i', '', ['class' => 'fa fa-menu-title fa-users']) . __('Community'),
                                 '#',
@@ -52,7 +52,7 @@
                 </div>
 				<div class="col-6 pl40">
 					<ul class="megamenu-list">
-						<li class="menu-title">
+						<li class="menu-title main-title">
 							<?=
 							$this->Html->link(
 								$this->Html->tag('i', '', ['class' => 'fa fa-menu-title fa-comments-o']) . __('Help & Support'),
