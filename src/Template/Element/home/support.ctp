@@ -6,16 +6,20 @@
                 <h5><?= __('Give "The Experts Behind CakePHP" a call:')?></h5>
 
                 <div class="col-md-12">
-                    <div class="btn-group" role="group" aria-label="...">
+					<a href="tel:+17024255085">
+
+					<div class="btn-group" role="group" aria-label="...">
                         <button type="button" class="btn btn-default phone-support-i"><i class="fa fa-phone"></i></button>
                         <div class="btn-group" role="group">
-                            <button type="button" class="btn btn-default phone-support-number" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                +1 702 425 5085
-                            </button>
+								<button type="button" class="btn btn-default phone-support-number" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									+1 702 425 5085
+								</button>
                         </div>
                     </div>
+					</a>
                 </div>
                 <div class="col-md-12 mt20">
+					<a href="skype:CakeDC">
                     <div class="btn-group" role="group" aria-label="...">
                         <button type="button" class="btn btn-default phone-support-i"><i class="fa fa-skype"></i></button>
                         <div class="btn-group" role="group">
