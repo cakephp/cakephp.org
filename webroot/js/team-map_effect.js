@@ -13,8 +13,12 @@
         var chart = new google.visualization.GeoChart(document.getElementById(teamMember + '-map'));
         chart.draw(data, options);
     }
-    $("a").click(function() {
-        var teamMember = $(this).attr("data-target").split('#');
-        drawRegionsMap(teamMember[1]);
+    $(".view-team a").click(function() {
+    	var teamMember = $(this).attr("data-target");
+
+    	if (teamMember) {
+    		teamMember = teamMember.split('#');
+    		drawRegionsMap(teamMember[1]);
+    	}
     });
 })();
