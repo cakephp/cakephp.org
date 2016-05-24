@@ -16,13 +16,13 @@ return [
 				'image' => 'quote/brad.png',
 				'text' => '“CakePhP was the most efficient way we could find to rapidly develop our intricate system.  We needed a platform that could handle our high volume of users without issues and CakePhP has certainly delivered.”',
 				'client' => 'Brad Lambden',
-				'company' => 'iWorkZone.'
+				'company' => 'iWorkZone'
 			],
 			[
-				'image' => 'quote/michael.png',
-				'text' => '“Our experience so far has been excellent working with you guys.”',
-				'client' => 'Michael Lebieniec',
-				'company' => 'Code Creator LLC'
+				'image' => 'quote/julian.png',
+				'text' => '“From the simplest micro kiosk app to my highly complex gallery management app CakePHP is the framework of choice. It allows modular development that makes sense and is architecturally solid and performant. Whatever you are building, CakePHP can help you get it done.”',
+				'client' => 'Julian Sander',
+				'company' => 'Gallery Assistant'
 			],
 			[
 				'image' => 'quote/david.png',
