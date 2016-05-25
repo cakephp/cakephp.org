@@ -74,7 +74,7 @@
 	</div>
 </div>
 <div class="col-sm-12">
-	<p><?= __('2.1 Our logos (the "Logos"):')?></p>
+	<p><?= __('2. Our logos (the "Logos"):')?></p>
 
 	<div class="col-md-10 col-md-offset-1 logos-trade mb40">
 		<div class="col-sm-5">
@@ -112,7 +112,7 @@
 	</div>
 	<div class="clearfix"></div>
 
-	<p>2.2. CakePHP sister brands’ logos:</p>
+	<p>3. CakePHP sister brands’ logos:</p>
 	<div class="col-md-10 col-md-offset-1 logos-trade mb40">
 		<div class="col-sm-5">
 			<?= $this->Html->image('trademarks/logo-develop.jpg')?>
@@ -180,10 +180,131 @@
 		</div>
 	</div>
 	<div class="clearfix"></div>
+<div class="col-sm-12">
+	<p>
+		<strong><?= __('4. Community Flags')?></strong><br>
+		&lt;&lt;<?= __('Insert descriptive text here')?>&gt;&gt;
+	</p>
 
+	<p><?= __('4.1 Group Flag:')?></p>
 
-	<p><?= __('3. And the unique visual styling of our website and packaging (the "Trade Dress").')?>
-	<br><?= __('3.1. Brand colors.')?> </p>
+	<div class="col-md-12 p0 flag-m">
+		<div class="col-sm-4 flag-box">
+			<?= $this->Html->image('trademarks/flag-1.jpg', ['class' => 'img-responsive']) ?>
+		</div>
+		<div class="col-sm-8">
+			<p><?= __('Floating Flag Embed Code:')?></p>
+
+			<div class="box-code-trad">
+<pre><span class="k">&lt;div</span> <span class="g">style</span><span class="w">=</span><span class="nx">"position:fixed; bottom:80%; right:0; z-index:9999;"</span><span class="k">&gt;</span>
+   <span class="k">&lt;a</span> <span class="g">href</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/"</span><span class="k">&gt;</span>
+      <span class="k">&lt;img</span> <span class="g">src</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/images/flag/flg1.png"</span><span class="k">&gt;</span>
+   <span class="k">&lt;/a&gt;</span>
+<span class="k">&lt;/div&gt;</span>
+</pre>
+			</div>
+			<p><?= __('Image files:')?></p>
+			<?= $this->Html->link(__('DOWNLOAD PNG'), 'img/flags/We-bake-with-CakePHP.png', ['class' => 'btn btn-ok btn-b mb20', 'fullBase' => true])?>
+			<span class="mr20"></span>
+			<?= $this->Html->link(__('DOWNLOAD EPS'), 'img/flags/We-bake-with-CakePHP.eps', ['class' => 'btn btn-ok btn-b mb20', 'fullBase' => true])?>
+			<span class="mr20"></span>
+		</div>
+	</div>
+
+	<p><?= __('4.2 Application Flag:')?></p>
+
+	<div class="col-md-12 p0 flag-m">
+		<div class="col-sm-4 flag-box">
+			<?= $this->Html->image('trademarks/flag-2.jpg', ['class' => 'img-responsive']) ?>
+		</div>
+		<div class="col-sm-8">
+			<p><?= __('Floating Flag Embed Code:')?></p>
+			<div class="box-code-trad">
+<pre><span class="k">&lt;div</span> <span class="g">style</span><span class="w">=</span><span class="nx">"position:fixed; bottom:80%; right:0; z-index:9999;"</span><span
+		class="k">&gt;</span>
+   <span class="k">&lt;a</span> <span class="g">href</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/"</span><span
+		class="k">&gt;</span>
+      <span class="k">&lt;img</span> <span class="g">src</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/images/flag/flg2.png"</span><span
+		class="k">&gt;</span>
+   <span class="k">&lt;/a&gt;</span>
+<span class="k">&lt;/div&gt;</span>
+</pre>
+			</div>
+			<p><?= __('Image files:')?></p>
+			<?= $this->Html->link(__('DOWNLOAD PNG'), 'img/flags/Baked-with-CakePHP.png', ['class' => 'btn btn-ok btn-b mb20', 'fullBase' => true])?>
+			<span class="mr20"></span>
+			<?= $this->Html->link(__('DOWNLOAD EPS'), 'img/flags/Baked-with-CakePHP.eps', ['class' => 'btn btn-ok btn-b mb20', 'fullBase' => true])?>
+			<span class="mr20"></span>
+		</div>
+	</div>
+
+	<p><?= __('4.3 Developer Flag:')?></p>
+
+	<div class="col-md-12 p0 flag-m">
+		<div class="col-sm-4 flag-box">
+			<?= $this->Html->image('trademarks/flag-3.jpg', ['class' => 'img-responsive']) ?>
+		</div>
+		<div class="col-sm-8">
+			<p><?= __('Floating Flag Embed Code:')?></p>
+
+			<div class="box-code-trad">
+<pre><span class="k">&lt;div</span> <span class="g">style</span><span class="w">=</span><span class="nx">"position:fixed; bottom:80%; right:0; z-index:9999;"</span><span
+		class="k">&gt;</span>
+   <span class="k">&lt;a</span> <span class="g">href</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/"</span><span
+		class="k">&gt;</span>
+      <span class="k">&lt;img</span> <span class="g">src</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/images/flag/flg3.png"</span><span
+		class="k">&gt;</span>
+   <span class="k">&lt;/a&gt;</span>
+<span class="k">&lt;/div&gt;</span>
+</pre>
+			</div>
+			<p><?= __('Image files:')?></p>
+			<?= $this->Html->link(__('DOWNLOAD PNG'), 'img/flags/I-bake-with-CakePHP.png', ['class' => 'btn btn-ok btn-b mb20', 'fullBase' => true])?>
+			<span class="mr20"></span>
+			<?= $this->Html->link(__('DOWNLOAD EPS'), 'img/flags/I-bake-with-CakePHP.eps', ['class' => 'btn btn-ok btn-b mb20', 'fullBase' => true])?>
+			<span class="mr20"></span>
+		</div>
+	</div>
+
+	<p><?= __('4.4 Supporter Flag:')?></p>
+
+	<div class="col-md-12 p0 flag-m">
+		<div class="col-sm-4 flag-box">
+			<?= $this->Html->image('trademarks/flag-4.jpg', ['class' => 'img-responsive']) ?>
+		</div>
+		<div class="col-sm-8">
+			<p><?= __('Floating Flag Embed Code:')?></p>
+			<div class="box-code-trad">
+<pre><span class="k">&lt;div</span> <span class="g">style</span><span class="w">=</span><span class="nx">"position:fixed; bottom:80%; right:0; z-index:9999;"</span><span
+		class="k">&gt;</span>
+   <span class="k">&lt;a</span> <span class="g">href</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/"</span><span
+		class="k">&gt;</span>
+      <span class="k">&lt;img</span> <span class="g">src</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/images/flag/flg4.png"</span><span
+		class="k">&gt;</span>
+   <span class="k">&lt;/a&gt;</span>
+<span class="k">&lt;/div&gt;</span>
+</pre>
+			</div>
+			<p><?= __('Image files:')?></p>
+			<?= $this->Html->link(__('DOWNLOAD PNG'), 'img/flags/Bake-with-CakePHP.png', ['class' => 'btn btn-ok btn-b mb20', 'fullBase' => true])?>
+			<span class="mr20"></span>
+			<?= $this->Html->link(__('DOWNLOAD EPS'), 'img/flags/Bake-with-CakePHP.eps', ['class' => 'btn btn-ok btn-b mb20', 'fullBase' => true])?>
+			<span class="mr20"></span>
+		</div>
+	</div>
+</div>
+
+<div class="col-sm-12">
+	<p>
+		<?= __('4.5 Community Flags usage Guidelines:')?> <br>
+		<?= __('Respect a margin over a forth of the flag’s hight to ensure visual effectiveness. The side margins might be
+		disregarded while using the flag on the extreme left or right sides of a layout.')?>
+	</p>
+	<?= $this->Html->image('trademarks/flags-guidelines.jpg', ['class' => 'img-responsive']) ?>
+</div>
+
+	<p><?= __('5. And the unique visual styling of our website and packaging (the "Trade Dress").')?>
+	<br><?= __('5.1. Brand colors.')?> </p>
 
 	<div class="col-md-8 col-md-offset-2 p0 mb70 mt30">
 		<div class="col-sm-6 p0">
@@ -215,14 +336,12 @@
 			</div>
 		</div>
 	</div>
-
-
 	<div class="clearfix"></div>
-	<p><?= __('3.2. Brand stylistic shape: the ellipse used to design the Brandmark is also a brand asset itself, and it can be
+	<p><?= __('5.2. Brand stylistic shape: the ellipse used to design the Brandmark is also a brand asset itself, and it can be
 		used as a decorative corner on layout boxes and backgrounds.')?></p>
 	<?= $this->Html->image('trademarks/brand-stylistic.jpg', ['class' => 'img-responsive'])?>
 
-	<p><?= __('3.3. Iconography: icons and illustrations follow the Brandmark aesthetics: flat, clean and use negative space for
+	<p><?= __('5.3. Iconography: icons and illustrations follow the Brandmark aesthetics: flat, clean and use negative space for
 		lighting and shading. The images are designed using the official color palette. Conceptually, the ico nography
 		follows the baking universe.')?></p>
 	<?= $this->Html->image('trademarks/iconography.jpg', ['class' => 'img-responsive'])?>
