@@ -2,7 +2,7 @@
 /**
  * @todo New contact form needs to replace $emailLegal in the sections below
  */
-	$title = 'CakePHP Rapid Development PHP Framework | Logos and trademarks';
+	$title = 'CakePHP - Build fast, grow solid | Logos and Trademarks';
 	$description = 'CakePHP Logos and Trademark policies.';
 	$this->assign('title', __($title));
 	$this->assign('meta', $this->Html->meta('description', __($description)));
