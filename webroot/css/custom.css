@@ -285,6 +285,7 @@ input[type="radio"]:checked:before {
 	color:red;
 }
 
+<<<<<<< Updated upstream
 
 .megamenu-list > li.main-title > a:hover,
 .megamenu-list > li.main-title > a:focus {
@@ -309,4 +310,8 @@ input[type="radio"]:checked:before {
 
 .circle-trade-1.cakefest {
 	background-color: #1F97A0;
+}
+
+.navbar-right .btn-menu {
+	margin-top: 14px;
 }
