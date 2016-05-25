@@ -6,9 +6,6 @@
 
 	<p><?= __('1. Our word trademarks and service marks (the "Word Marks"):')?></p>
 
-	<p> &lt;&lt;<?= __('List below what you consider to be your word marks, including any umbrella name, like "Apache," as well
-		as individual project names')?>&gt;&gt; </p>
-
 	<div class="col-lg-8 col-lg-offset-2 col-md-12 p0 box-mark">
 		<div class="col-sm-12 p0 ">
 			<div class="col-sm-3 back-box-1 p0">
@@ -20,26 +17,56 @@
 		</div>
 		<div class="col-sm-12 p0">
 			<div class="col-sm-3 back-box-2 p0">
-				<h4>&lt;&lt;~Mark 1 &gt;&gt;</h4>
+				<h4>CakePHP</h4>
 			</div>
 			<div class="col-sm-9 back-box-2 p0">
-				<h4>&lt;&lt; e.g., software, application, script, plug-in, etc.&gt;&gt;</h4>
+				<h4>REMOVE</h4>
 			</div>
 		</div>
 		<div class="col-sm-12 p0">
 			<div class="col-sm-3 back-box-1 p0">
-				<h4>&lt;&lt;~Mark 2 &gt;&gt;</h4>
+				<h4>CakeDC</h4>
 			</div>
 			<div class="col-sm-9 back-box-1 p0">
-				<h4>&lt;&lt; e.g., software, application, script, plug-in, etc.&gt;&gt;</h4>
+				<h4>REMOVE</h4>
 			</div>
 		</div>
 		<div class="col-sm-12 p0">
 			<div class="col-sm-3 back-box-2 p0">
-				<h4>&lt;&lt;~Mark 3 &gt;&gt;</h4>
+				<h4>CakeSF</h4>
 			</div>
 			<div class="col-sm-9 back-box-2 p0">
-				<h4>&lt;&lt; e.g., software, application, script, plug-in, etc.&gt;&gt;</h4>
+				<h4>REMOVE</h4>
+			</div>
+		</div>
+		<div class="col-sm-12 p0">
+			<div class="col-sm-3 back-box-2 p0">
+				<h4>CakeFest</h4>
+			</div>
+			<div class="col-sm-9 back-box-2 p0">
+				<h4>REMOVE</h4>
+			</div>
+		</div>
+		<div class="col-sm-12 p0">
+			<div class="col-sm-3 back-box-2 p0">
+				<h4>CakeTalent</h4>
+			</div>
+			<div class="col-sm-9 back-box-2 p0">
+				<h4>REMOVE</h4>
+			</div>
+		</div>
+		<div class="col-sm-3 back-box-2 p0">
+				<h4>CakeJobs</h4>
+			</div>
+			<div class="col-sm-9 back-box-2 p0">
+				<h4>REMOVE</h4>
+			</div>
+		</div>
+		<div class="col-sm-3 back-box-2 p0">
+				<h4>CakeUniversity</h4>
+			</div>
+			<div class="col-sm-9 back-box-2 p0">
+				<h4>REMOVE</h4>
 			</div>
 		</div>
 	</div>
@@ -205,7 +232,7 @@
 
 	<p><?= __('The following trademarks are ones that are reserved exclusively to our use and are not covered by the Policy:')?></p>
 
-	<p>&lt;&lt;<?= __('List marks that you don\'t want others using without permission')?>&gt;&gt;</p>
+	<p>All Marks in Sections</p>
 
 	<p><?= __('Contact us as described in "{0}" below if you have questions or want to ask
 		permission to use any of these excluded trademarks.', $this->Html->link(__('Where to get further information'), '#general-information'))?> </p>

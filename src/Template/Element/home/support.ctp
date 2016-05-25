@@ -4,33 +4,7 @@
             <div class="col-md-12 text-center mb50 t-support">
                 <h3><?= $this->Html->tag('span', __('Premium ')) . __('Support')?></h3>
                 <h5><?= __('Give "The Experts Behind CakePHP" a call:')?></h5>
-
-                <div class="col-md-12">
-
-					<div class="btn-group call" role="group" aria-label="...">
-						<a href="tel:+17024255085" class="btn btn-default phone-support-i pull-left">
-							<i class="fa fa-phone"></i>
-						</a>
-						<div class="btn-group" role="group">
-							<a href="tel:+17024255085" class="btn btn-default phone-support-number">
-								+1 702 425 5085
-							</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-md-12 mt20">
-                    <div class="btn-group call" role="group" aria-label="...">
-						<a href="skype:CakeDC" class="btn btn-default phone-support-i pull-left">
-                        	<i class="fa fa-skype"></i>
-						</a>
-                        <div class="btn-group" role="group">
-							<a href="skype:CakeDC" class="btn btn-default phone-support-number">
-								CakeDC
-							</a>
-                        </div>
-                    </div>
-                </div>
+				<?= $this->element('home/contact_info')?>
             </div>
             <div class="col-md-5">
                 <h4 class="sub-expertise"><?= __('Meet CakeDC.')?></h4>
