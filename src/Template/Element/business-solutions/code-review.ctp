@@ -3,7 +3,7 @@
 		<h2><?= __('Code Review') ?></h2>
 		<p><?= __('The following are some of the main reasons to review the existing source code on a project:') ?></p>
 		<ul>
-			<li><?= __('Your want to ensure the code quality from an external contractor') ?></li>
+			<li><?= __('You want to ensure the code quality from an external contractor') ?></li>
 			<li><?= __('You feel your mission critical application could have scalability issues') ?></li>
 			<li><?= __('You are worried about potential security issues') ?></li>
 		</ul>

@@ -25,7 +25,9 @@ use Cake\Core\Configure;
 	            </div>
 
 	            <div class="col-md-6 col-md-offset-1">
-	                <p><?= __('Don\'t have a ticket yet? Only a limited amount are available, so purchase yours today! Not only is there a huge range of great talks and workshops being run, there are a whole range of prizes and giveaways provided by our gracious sponsors!') ?></p>
+	                <p><?= __('Don\'t have a ticket yet? Only a limited amount are available, so purchase yours today! From
+	                 a wide range of talks, interactive workshops to prizes, giveaways and fun social activities all planned
+	                 over 4 exciting days!') ?></p>
 	                <div class="text-center">
 	                    <button type="button" class="btn btn-fest mt40">
 	                    	<?= $this->Html->link(

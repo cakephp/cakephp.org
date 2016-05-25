@@ -6,7 +6,7 @@
 
 				<form class="form" method="post" action="//cakephp.us9.list-manage.com/subscribe/post?u=f380de581acd576e7d802552a&amp;id=539d7fcbd1">
 					<div class="row col-p10">
-						<div class="col-sm-4 col-sm-offset-1">
+						<div class="col-sm-5 col-sm-offset-1">
 							<div class="row">
 								<div class="col-sm-12">
 									<label class="mb10">
@@ -47,7 +47,7 @@
 
 						<div class="col-sm-5 col-sm-offset-1">
 							<div class="row">
-								<div class="col-lg-4 col-md-4 mc-field-group">
+								<div class="col-lg-4 col-md-4 mc-field-group mt10">
 									<strong>English Lists </strong>
 									<ul>
 										<li><input type="checkbox" value="1" name="group[19433][1]" id="mce-group[19433]-19433-0"><label
@@ -60,7 +60,7 @@
 												for="mce-group[19433]-19433-3">Freelancers</label></li>
 									</ul>
 								</div>
-								<div class="col-lg-4 col-md-4 mc-field-group">
+								<div class="col-lg-4 col-md-4 mc-field-group mt10">
 									<strong>Lista en Español </strong>
 									<ul>
 										<li><input type="checkbox" value="8" name="group[19445][8]" id="mce-group[19445]-19445-0"><label
@@ -73,7 +73,7 @@
 												for="mce-group[19445]-19445-3">Freelancers</label></li>
 									</ul>
 								</div>
-								<div class="col-lg-4 col-md-4 mc-field-group">
+								<div class="col-lg-4 col-md-4 mc-field-group mt10">
 									<strong>Email Format </strong>
 									<ul>
 										<li><input type="radio" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0"><label

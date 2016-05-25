@@ -37,7 +37,7 @@
 	</div>
 
 	<div class="col-sm-12 p0">
-		<h3>Course  Topics</h3>
+		<h3><?= __('Course  Topics')?></h3>
 		<div class="col-sm-6 business-list">
 			<ul>
 				<li><?= __('Setting up for development') ?></li>
