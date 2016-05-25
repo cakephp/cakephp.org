@@ -349,11 +349,11 @@
 	<p><?= __('This Policy encompasses all trademarks and service marks, whether Word Marks, Logos or Trade Dress, which are
 		collectively referred to as the “Marks.” Some Marks may not be registered, but registration does not equal
 		ownership of trademarks. This Policy covers our Marks whether they are registered or not.')?></p>
-	<h4 id="policy" class="p-trad-sub"><?= __('The trademarks we are not licensing in this Policy')?></h4>
+	<h4 id="policy" class="p-trad-sub"><?= __('The trademarks we are licensing in this Policy')?></h4>
 
-	<p><?= __('The following trademarks are ones that are reserved exclusively to our use and are not covered by the Policy:')?></p>
+	<p><?= __('The following trademarks are ones that covered by the Policy, all others are reserved exclusively to our use:')?></p>
 
-	<p>All Marks in Sections</p>
+	<p>Community flags as shown in Section 4</p>
 
 	<p><?= __('Contact us as described in "{0}" below if you have questions or want to ask
 		permission to use any of these excluded trademarks.', $this->Html->link(__('Where to get further information'), '#general-information'))?> </p>
