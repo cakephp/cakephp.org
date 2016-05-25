@@ -69,7 +69,7 @@
 
 	<p>
 		<strong><?= __('Always use a trademark as an adjective modifying a noun.')?></strong> <?= __('You can see the nouns we prefer under')?>
-		<a href="#" class="t-blue"><?= __('"Our trademarks."')?></a><br>
+		<a href="#our-guidelines" class="t-blue"><?= __('"Our trademarks."')?></a><br>
 		<?= __('Unacceptable: This is a &lt;&lt;~Mark&gt;&gt;. Anyone can install it.')?><br>
 		<?= __('Acceptable: This is a &lt;&lt;~Mark&gt;&gt; application. Anyone can install it.')?>
 	</p>

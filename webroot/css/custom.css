@@ -294,3 +294,19 @@ input[type="radio"]:checked:before {
 .call a{
 	cursor: pointer;
 }
+
+#sidebar-2.affix {
+	z-index: -1;
+}
+
+.circle-trade-1.cakedc {
+	background-color: #2F85AE;
+}
+
+.circle-trade-1.sf {
+	background-color: #D6B967;
+}
+
+.circle-trade-1.cakefest {
+	background-color: #1F97A0;
+}

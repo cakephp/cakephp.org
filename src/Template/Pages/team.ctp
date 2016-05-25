@@ -1,6 +1,6 @@
 <?php
 use Cake\Core\Configure;
-$title = __('CakePHP | Rapid Development PHP Framework | Core team profiles');
+$title = __('CakePHP - Build fast, grow solid | Core Team Profiles');
 $description = __('Meet the CakePHP Core development team');
 $this->assign('title', $title);
 $this->assign('meta', $this->Html->meta('description', $description));
