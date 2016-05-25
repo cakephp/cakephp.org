@@ -36,7 +36,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 
 		<div class="br-bottom mb20"></div>
 		<p><?= __('Helping others to learn CakePHP is another valuable way to contribute to the community. There are many ways
-			you can help others, these include:')?></p>
+			you can help others; These include:')?></p>
 		<ul>
 			<li><?= __('Coding Seminars')?></li>
 			<li><?= __('Live Workshops')?></li>
