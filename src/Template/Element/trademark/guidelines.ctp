@@ -8,66 +8,66 @@
 
 	<div class="col-lg-8 col-lg-offset-2 col-md-12 p0 box-mark">
 		<div class="col-sm-12 p0 ">
-			<div class="col-sm-3 back-box-1 p0">
+			<div class="col-sm-6 back-box-1 p0">
 				<h4><strong><?= __('Mark')?></strong></h4>
 			</div>
-			<div class="col-sm-9 back-box-1 p0">
+			<div class="col-sm-9 back-box-1 p0 hide">
 				<h4><strong><?= __('Common descriptive name for the goods or services')?></strong></h4>
 			</div>
 		</div>
 		<div class="col-sm-12 p0">
-			<div class="col-sm-3 back-box-2 p0">
+			<div class="col-sm-6 back-box-2 p0">
 				<h4>CakePHP</h4>
 			</div>
-			<div class="col-sm-9 back-box-2 p0">
+			<div class="col-sm-9 back-box-2 p0 hide">
 				<h4>REMOVE</h4>
 			</div>
 		</div>
 		<div class="col-sm-12 p0">
-			<div class="col-sm-3 back-box-1 p0">
+			<div class="col-sm-6 back-box-1 p0">
 				<h4>CakeDC</h4>
 			</div>
-			<div class="col-sm-9 back-box-1 p0">
+			<div class="col-sm-9 back-box-1 p0 hide">
 				<h4>REMOVE</h4>
 			</div>
 		</div>
 		<div class="col-sm-12 p0">
-			<div class="col-sm-3 back-box-2 p0">
+			<div class="col-sm-6 back-box-2 p0">
 				<h4>CakeSF</h4>
 			</div>
-			<div class="col-sm-9 back-box-2 p0">
+			<div class="col-sm-9 back-box-2 p0 hide">
 				<h4>REMOVE</h4>
 			</div>
 		</div>
 		<div class="col-sm-12 p0">
-			<div class="col-sm-3 back-box-2 p0">
+			<div class="col-sm-6 back-box-1 p0">
 				<h4>CakeFest</h4>
 			</div>
-			<div class="col-sm-9 back-box-2 p0">
+			<div class="col-sm-9 back-box-1 p0 hide">
 				<h4>REMOVE</h4>
 			</div>
 		</div>
 		<div class="col-sm-12 p0">
-			<div class="col-sm-3 back-box-2 p0">
+			<div class="col-sm-6 back-box-2 p0">
 				<h4>CakeTalent</h4>
 			</div>
-			<div class="col-sm-9 back-box-2 p0">
+			<div class="col-sm-9 back-box-2 p0 hide">
 				<h4>REMOVE</h4>
 			</div>
 		</div>
 		<div class="col-sm-12 p0">
-			<div class="col-sm-3 back-box-2 p0">
+			<div class="col-sm-6 back-box-1 p0">
 				<h4>CakeJobs</h4>
 			</div>
-			<div class="col-sm-9 back-box-2 p0">
+			<div class="col-sm-9 back-box-1 p0 hide">
 				<h4>REMOVE</h4>
 			</div>
 		</div>
 		<div class="col-sm-12 p0">
-			<div class="col-sm-3 back-box-2 p0">
+			<div class="col-sm-6 back-box-2 p0">
 				<h4>CakeUniversity</h4>
 			</div>
-			<div class="col-sm-9 back-box-2 p0">
+			<div class="col-sm-9 back-box-2 p0 hide">
 				<h4>REMOVE</h4>
 			</div>
 		</div>
