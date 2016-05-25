@@ -1,5 +1,5 @@
 <?php
-$title = __('CakePHP Rapid Development PHP Framework | Success story showcases');
+$title = __('CakePHP - Build fast, grow solid | Success Stories');
 $description = __(' CakePHP making building web applications simpler, faster and require less code. Success stories - how CakePHP has helped other companies to succeed.');
 $this->assign('title', $title);
 $this->assign('meta', $this->Html->meta('description', $description));
