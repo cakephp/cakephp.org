@@ -20,7 +20,9 @@ return [
 			],
 			[
 				'image' => 'quote/julian.png',
-				'text' => '“From the simplest micro kiosk app to my highly complex gallery management app CakePHP is the framework of choice. It allows modular development that makes sense and is architecturally solid and performant. Whatever you are building, CakePHP can help you get it done.”',
+				'text' => '“From the simplest micro kiosk app to my highly complex gallery management app, CakePHP is the
+							framework of choice. It allows modular development that makes sense, and it\'s architecturally solid and performant.
+							Whatever you are building, CakePHP can help you get it done.”',
 				'client' => 'Julian Sander',
 				'company' => 'Gallery Assistant'
 			],
@@ -253,7 +255,7 @@ return [
 			],
 			'savant' => [
 				'name' => 'Jose Diaz-Gonzalez (Savant)',
-				'description' => __('A developer based in New York, New York with an extremely active github account and an interest in Docker and Server Monitoring. I\'ve been doing this since around 2008 and sometimes he blogs.'),
+				'description' => __('A developer based in New York, New York with an extremely active github account and an interest in Docker and Server Monitoring. He\'s been doing this since around 2008 and sometimes he blogs.'),
 				'language' => __('English'),
 				'twitter' => 'savant',
 				'github' => 'josegonzalez',
