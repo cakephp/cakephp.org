@@ -118,7 +118,7 @@
                                             <li><a href="http://my.cakephp.org/login"><i class="fa fa-menu fa-chevron-right"></i><?= __('My Cakephp') ?></a>
                                             </li>
                                             <li><a href="http://cakefest.org/"><i class="fa fa-menu fa-chevron-right"></i><?= __('Cakefest') ?></a></li>
-                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Oss Bounty') ?></a>
+                                            <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('OSS Bounty') ?></a>
                                             </li>
                                             <li><a href="#"><i class="fa fa-menu fa-chevron-right"></i><?= __('Forum') ?></a></li>
                                         </ul>
