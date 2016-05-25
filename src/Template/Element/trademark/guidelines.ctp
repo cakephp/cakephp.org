@@ -207,6 +207,6 @@
 
 	<p>&lt;&lt;<?= __('List marks that you don\'t want others using without permission')?>&gt;&gt;</p>
 
-	<p><?= __('Contact us as described in "Where to get further information" below if you have questions or want to ask
-		permission to use any of these excluded trademarks.')?> </p>
+	<p><?= __('Contact us as described in "{0}" below if you have questions or want to ask
+		permission to use any of these excluded trademarks.', $this->Html->link(__('Where to get further information'), '#general-information'))?> </p>
 </div>
