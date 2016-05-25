@@ -55,14 +55,14 @@
 				<h4>REMOVE</h4>
 			</div>
 		</div>
-			<div class="col-sm-3 back-box-2 p0">
+		<div class="col-sm-3 back-box-2 p0">
 				<h4>CakeJobs</h4>
 			</div>
 			<div class="col-sm-9 back-box-2 p0">
 				<h4>REMOVE</h4>
 			</div>
 		</div>
-			<div class="col-sm-3 back-box-2 p0">
+		<div class="col-sm-3 back-box-2 p0">
 				<h4>CakeUniversity</h4>
 			</div>
 			<div class="col-sm-9 back-box-2 p0">
