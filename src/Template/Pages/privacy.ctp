@@ -1,5 +1,5 @@
 <?php
-	$title = 'CakePHP Rapid Development PHP Framework | Privacy policy';
+	$title = 'CakePHP - Build fast, grow solid | Privacy policy';
 	$description = 'CakePHP Privacy Policy.';
 	$this->assign('title', __($title));
 	$this->assign('meta', $this->Html->meta('description', __($description)));

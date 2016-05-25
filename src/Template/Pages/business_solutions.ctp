@@ -1,5 +1,5 @@
 <?php
-	$title = 'CakePHP Rapid Development PHP Framework | Business solutions';
+	$title = 'CakePHP - Build fast, grow solid  | Business Solutions';
 	$description = 'CakePHP Business solutions by CakeDC, the commercial entity behind the framework.';
 	$this->assign('title', __($title));
 	$this->assign('meta', $this->Html->meta('description', __($description)));
@@ -38,6 +38,6 @@
 		</div>
 	</div>
 </section>
-<div class="up-z-index">
+<div>
 	<?= $this->element('home/newsletter')?>
 </div>

@@ -1,6 +1,6 @@
 <?php $menu = [
     'business' => [
-        'class' => 'menu-title menu-title-m',
+        'class' => 'menu-title',
         'icon' => 'fa fa-menu-title fa-briefcase',
         'url' => '/pages/business-solutions',
 		'title' => __('Business Solutions')

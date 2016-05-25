@@ -1,5 +1,5 @@
 <?php
-	$title = 'CakePHP | Learn CakePHP from the experts | Video Training';
+	$title = 'CakePHP - Build fast, grow solid | Learn CakePHP from the experts | Video Training';
 	$description = 'CakePHP making building web applications simpler, faster and require less code. Manual, training and guides for beginners now available and links towards the last version.';
 	$this->assign('title', __($title));
 	$this->assign('meta', $this->Html->meta('description', __($description)));
