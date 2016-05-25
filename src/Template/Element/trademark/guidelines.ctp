@@ -356,5 +356,5 @@
 	<p>Community flags as shown in Section 4</p>
 
 	<p><?= __('Contact us as described in "{0}" below if you have questions or want to ask
-		permission to use any of these excluded trademarks.', $this->Html->link(__('Where to get further information'), '#general-information'))?> </p>
+		permission to use any of our reserved trademarks.', $this->Html->link(__('Where to get further information'), '#general-information'))?> </p>
 </div>
