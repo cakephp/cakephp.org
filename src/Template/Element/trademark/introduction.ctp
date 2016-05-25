@@ -1,6 +1,6 @@
 <h3 class="pt-30"><?= __('Introduction')?></h3>
 <p>
-	<?= __('This document, the "Policy," outlines the <<~ProjectName>> project\'s (the "Project") policy for the use of
+	<?= __('This document, the "Policy," outlines the CakePHP project\'s (the "Project") policy for the use of
 		our trademarks. While our software is available under a free and open source software license, the copyright
 		license does not include an implied right or license to use our trademark.')?>
 </p>
