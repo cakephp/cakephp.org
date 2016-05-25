@@ -7,7 +7,7 @@
 			<?= $this->Html->link(__('Trademarks subject to the guidelines'), '#guidelines')?>
 			<ol>
 				<li><?= $this->Html->link( __('Our trademarks'), '#our-guidelines')?></li>
-				<li><?= $this->Html->link(__('The trademarks we are not licensing in this Policy'), '#policy')?></li>
+				<li><?= $this->Html->link(__('The trademarks we are licensing in this Policy'), '#policy')?></li>
 			</ol>
 		</li>
 		<li><?= $this->Html->link(__('Universal considerations for all uses'), '#universal-considerations')?></li>
