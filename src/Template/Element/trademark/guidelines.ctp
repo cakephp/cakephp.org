@@ -336,6 +336,204 @@
 			</div>
 		</div>
 	</div>
+	
+	<br><?= __('5.1.1 Sister Brand Colors. - CakeDC')?> </p>
+	
+	<div class="col-md-8 col-md-offset-2 p0 mb70 mt30">
+		<div class="col-sm-6 p0">
+			<div class="col-sm-6 col-xs-5">
+				<div class="circle-trade-1"></div>
+			</div>
+			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
+				<p>PANTONE 1797 C</p>
+
+				<p>CMYK: 11, 91, 75, 2</p>
+
+				<p>RGB: 212, 61, 68 </p>
+
+				<div>HEX: #D33C43</div>
+			</div>
+		</div>
+		<div class="col-sm-6 p0">
+			<div class="col-sm-6 col-xs-5">
+				<div class="circle-trade-2"></div>
+			</div>
+			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
+				<p>PANTONE 446 C</p>
+
+				<p>CMYK: 0, 0, 0, 90 </p>
+
+				<p>RGB: 65, 64, 66 </p>
+
+				<div>HEX: #404041</div>
+			</div>
+		</div>
+	</div>
+	
+	<br><?= __('5.1.2 Sister Brand Colors. - CakeSF')?> </p>
+	
+	<div class="col-md-8 col-md-offset-2 p0 mb70 mt30">
+		<div class="col-sm-6 p0">
+			<div class="col-sm-6 col-xs-5">
+				<div class="circle-trade-1"></div>
+			</div>
+			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
+				<p>PANTONE 1797 C</p>
+
+				<p>CMYK: 11, 91, 75, 2</p>
+
+				<p>RGB: 212, 61, 68 </p>
+
+				<div>HEX: #D33C43</div>
+			</div>
+		</div>
+		<div class="col-sm-6 p0">
+			<div class="col-sm-6 col-xs-5">
+				<div class="circle-trade-2"></div>
+			</div>
+			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
+				<p>PANTONE 446 C</p>
+
+				<p>CMYK: 0, 0, 0, 90 </p>
+
+				<p>RGB: 65, 64, 66 </p>
+
+				<div>HEX: #404041</div>
+			</div>
+		</div>
+	</div>
+	
+	<br><?= __('5.1.3 Sister Brand Colors. - CakeFest')?> </p>
+
+	<div class="col-md-8 col-md-offset-2 p0 mb70 mt30">
+		<div class="col-sm-6 p0">
+			<div class="col-sm-6 col-xs-5">
+				<div class="circle-trade-1"></div>
+			</div>
+			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
+				<p>PANTONE 1797 C</p>
+
+				<p>CMYK: 11, 91, 75, 2</p>
+
+				<p>RGB: 212, 61, 68 </p>
+
+				<div>HEX: #D33C43</div>
+			</div>
+		</div>
+		<div class="col-sm-6 p0">
+			<div class="col-sm-6 col-xs-5">
+				<div class="circle-trade-2"></div>
+			</div>
+			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
+				<p>PANTONE 446 C</p>
+
+				<p>CMYK: 0, 0, 0, 90 </p>
+
+				<p>RGB: 65, 64, 66 </p>
+
+				<div>HEX: #404041</div>
+			</div>
+		</div>
+	</div>
+
+	<br><?= __('5.1.4 Sister Brand Colors. - CakeTalent')?> </p>
+	
+	<div class="col-md-8 col-md-offset-2 p0 mb70 mt30">
+		<div class="col-sm-6 p0">
+			<div class="col-sm-6 col-xs-5">
+				<div class="circle-trade-1"></div>
+			</div>
+			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
+				<p>PANTONE 1797 C</p>
+
+				<p>CMYK: 11, 91, 75, 2</p>
+
+				<p>RGB: 212, 61, 68 </p>
+
+				<div>HEX: #D33C43</div>
+			</div>
+		</div>
+		<div class="col-sm-6 p0">
+			<div class="col-sm-6 col-xs-5">
+				<div class="circle-trade-2"></div>
+			</div>
+			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
+				<p>PANTONE 446 C</p>
+
+				<p>CMYK: 0, 0, 0, 90 </p>
+
+				<p>RGB: 65, 64, 66 </p>
+
+				<div>HEX: #404041</div>
+			</div>
+		</div>
+	</div>
+
+	<br><?= __('5.1.5 Sister Brand Colors. - CakeJobs')?> </p>
+	
+	<div class="col-md-8 col-md-offset-2 p0 mb70 mt30">
+		<div class="col-sm-6 p0">
+			<div class="col-sm-6 col-xs-5">
+				<div class="circle-trade-1"></div>
+			</div>
+			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
+				<p>PANTONE 1797 C</p>
+
+				<p>CMYK: 11, 91, 75, 2</p>
+
+				<p>RGB: 212, 61, 68 </p>
+
+				<div>HEX: #D33C43</div>
+			</div>
+		</div>
+		<div class="col-sm-6 p0">
+			<div class="col-sm-6 col-xs-5">
+				<div class="circle-trade-2"></div>
+			</div>
+			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
+				<p>PANTONE 446 C</p>
+
+				<p>CMYK: 0, 0, 0, 90 </p>
+
+				<p>RGB: 65, 64, 66 </p>
+
+				<div>HEX: #404041</div>
+			</div>
+		</div>
+	</div>
+
+	<br><?= __('5.1.6 Sister Brand Colors. - CakeUniversity')?> </p>
+	
+	<div class="col-md-8 col-md-offset-2 p0 mb70 mt30">
+		<div class="col-sm-6 p0">
+			<div class="col-sm-6 col-xs-5">
+				<div class="circle-trade-1"></div>
+			</div>
+			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
+				<p>PANTONE 1797 C</p>
+
+				<p>CMYK: 11, 91, 75, 2</p>
+
+				<p>RGB: 212, 61, 68 </p>
+
+				<div>HEX: #D33C43</div>
+			</div>
+		</div>
+		<div class="col-sm-6 p0">
+			<div class="col-sm-6 col-xs-5">
+				<div class="circle-trade-2"></div>
+			</div>
+			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
+				<p>PANTONE 446 C</p>
+
+				<p>CMYK: 0, 0, 0, 90 </p>
+
+				<p>RGB: 65, 64, 66 </p>
+
+				<div>HEX: #404041</div>
+			</div>
+		</div>
+	</div>
 	<div class="clearfix"></div>
 	<p><?= __('5.2. Brand stylistic shape: the ellipse used to design the Brandmark is also a brand asset itself, and it can be
 		used as a decorative corner on layout boxes and backgrounds.')?></p>
