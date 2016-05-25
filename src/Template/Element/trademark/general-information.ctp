@@ -6,11 +6,12 @@
 		accompanied by a symbol indicating whether the mark is a registered trademark ("®") or an unregistered trademark
 		("™"). See our {0} for the correct symbol to use.', $this->Html->link(__('Trademark List'), '#our-guidelines'))?></p>
 
-	<p><?= __('Also, if you are using our Marks in a way described in the sections "Uses for which we are granting a license,"
+	<p><?= __('Also, if you are using our Marks in a way described in the sections {0},
 		please put following notice at the foot of the page where you have used the Mark (or, if in a book, on the
 		credits page), on any packaging or labeling, and on advertising or marketing materials: "&lt;&lt;~Mark&gt;&gt;
 		is trademark of &lt;&lt;~MarkOwner&gt;&gt;&lt;&lt;", registered in the United States and other countries" if
-		correct>>. Used with permission from the &lt;&lt;~MarkOwner&gt;&gt;."')?> </p>
+		correct>>. Used with permission from the &lt;&lt;~MarkOwner&gt;&gt;."',
+			$this->Html->link(__('Uses for which we are granting a license'), '#license'))?> </p>
 	<h4 id="abuse" class="p-trad-sub"><?= __('What to do when you see abuse')?></h4>
 
 	<p><?= __('If you are aware of any confusing use or misuse of the Marks in any way, we would appreciate you bringing this to
