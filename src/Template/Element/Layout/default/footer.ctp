@@ -16,13 +16,13 @@
 <footer id="footer" class="footer-wrapper">
 	<div class="container">
 		<div class="row col-p30">
-			<div class="col-sm-12 col-md-3">
+			<div class="col-sm-12 col-md-3 hide">
 				<div class="footer-widget t-footer">
 					<?= $this->element('Layout/default/footer/login_form') ?>
 				</div>
 			</div>
 
-			<div class="col-sm-12 col-md-9">
+			<div class="col-sm-12">
 				<?= $this->element('Layout/default/footer/menu') ?>
 			</div>
 		</div>
