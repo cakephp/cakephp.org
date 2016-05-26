@@ -294,10 +294,6 @@ input[type="radio"]:checked:before {
 	cursor: pointer;
 }
 
-#sidebar-2.affix {
-	z-index: -1;
-}
-
 .circle-trade-1.cakedc {
 	background-color: #2F85AE;
 }
@@ -323,4 +319,8 @@ input[type="radio"]:checked:before {
 }
 .navbar-right .btn-menu {
 	margin-top: 14px;
+}
+
+#socials, .footer-wrapper {
+	z-index: 2;
 }

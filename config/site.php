@@ -109,7 +109,7 @@ return [
 				'help' => [
 					'discourse' => [
 						'url' => 'http://discourse.cakephp.org',
-						'title' => __('Forum (Discourse)'),
+						'title' => __('Forum'),
 						'options' => ['target' => '_blank'],
 					],
 					'stackOverflow' => [
