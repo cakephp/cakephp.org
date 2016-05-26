@@ -64,7 +64,7 @@
 			<ol>
 				<li><?= $this->Html->link(__('Trademark marking and legends'), '#legends')?></li>
 				<li><?= $this->Html->link(__('What to do when you see abuse'), '#abuse')?></li>
-				<li><?= $this->Html->link(__('Where to get further information'), '#general-information')?></li>
+				<li><?= $this->Html->link(__('Where to get further information'), '#general-information', ['class' => 't-blue'])?></li>
 			</ol>
 		</li>
 		<li>
