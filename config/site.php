@@ -70,7 +70,7 @@ return [
 					],
 					'blog' => [
 						'url' => 'http://bakery.cakephp.org/',
-						'title' => __('Bakery (CakePHP News)')
+						'title' => __('Bakery')
 					],
 					'newsletter' => [
 						'url' => [
@@ -130,7 +130,7 @@ return [
 					],
 					'commercial' => [
 						'url' => 'http://www.cakedc.com/',
-						'title' => __('Commercial (Paid Support)')
+						'title' => __('Paid Support')
 					],
 				],
 				'jobs' => [
