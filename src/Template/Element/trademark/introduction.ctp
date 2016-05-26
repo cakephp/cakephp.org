@@ -22,5 +22,5 @@
 		are not described in this Policy, please see "{0}" below for contact information.
 		Any use that does not comply with this Policy or for which we have not separately provided written permission is
 		not a use that we have approved, so you must decide for yourself whether the use is nevertheless lawful.',
-		$this->Html->link(__('Where to get further information'), '#general-information'))?>
+		$this->Html->link(__('Where to get further information'), '#general-information', ['class' => 't-blue']))?>
 </p>

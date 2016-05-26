@@ -337,7 +337,7 @@
 		</div>
 	</div>
 
-	<div class="col-md-12"><p><?= __('5.1.1 Sister Brand Colors. - CakeDC')?> </p></div>
+	<div class="col-md-12 mt30"><p><?= __('5.1.1 Sister Brand Colors. - CakeDC')?> </p></div>
 	<div class="col-md-8 col-md-offset-2 p0 mb30 mt30">
 		<div class="col-sm-6 p0">
 			<div class="col-sm-6 col-xs-5">
@@ -368,7 +368,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-md-12"><p><?= __('5.1.2 Sister Brand Colors. - CakeSF')?></p></div>
+	<div class="col-md-12 mt30"><p><?= __('5.1.2 Sister Brand Colors. - CakeSF')?></p></div>
 	<div class="col-md-8 col-md-offset-2 p0 mb30 mt30">
 		<div class="col-sm-6 p0">
 			<div class="col-sm-6 col-xs-5">
@@ -399,7 +399,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-md-12"><p><?= __('5.1.3 Sister Brand Colors. - CakeFest')?></p></div>
+	<div class="col-md-12 mt30"><p><?= __('5.1.3 Sister Brand Colors. - CakeFest')?></p></div>
 	<div class="col-md-8 col-md-offset-2 p0 mb30 mt30">
 		<div class="col-sm-6 p0">
 			<div class="col-sm-6 col-xs-5">
@@ -430,7 +430,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-md-12"><p><?= __('5.1.4 Sister Brand Colors. - CakeTalent')?></p></div>
+	<div class="col-md-12 mt30"><p><?= __('5.1.4 Sister Brand Colors. - CakeTalent')?></p></div>
 	<div class="col-md-8 col-md-offset-2 p0 mb30 mt30">
 
 		<div class="col-sm-6 p0">
@@ -462,7 +462,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-md-12"><p><?= __('5.1.5 Sister Brand Colors. - CakeJobs')?></p></div>
+	<div class="col-md-12 mt30"><p><?= __('5.1.5 Sister Brand Colors. - CakeJobs')?></p></div>
 	<div class="col-md-8 col-md-offset-2 p0 mb30 mt30">
 		<div class="col-sm-6 p0">
 			<div class="col-sm-6 col-xs-5">
@@ -493,7 +493,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-md-12"><p><?= __('5.1.6 Sister Brand Colors. - CakeUniversity')?> </p></div>
+	<div class="col-md-12 mt30"><p><?= __('5.1.6 Sister Brand Colors. - CakeUniversity')?> </p></div>
 	<div class="col-md-8 col-md-offset-2 p0 mb70 mt30">
 		<div class="col-sm-6 p0">
 			<div class="col-sm-6 col-xs-5">
@@ -544,5 +544,5 @@
 	<p>Community flags as shown in Section 4</p>
 
 	<p><?= __('Contact us as described in "{0}" below if you have questions or want to ask
-		permission to use any of our reserved trademarks.', $this->Html->link(__('Where to get further information'), '#general-information'))?> </p>
+		permission to use any of our reserved trademarks.', $this->Html->link(__('Where to get further information'), '#general-information', ['class' => 't-blue']))?> </p>
 </div>
