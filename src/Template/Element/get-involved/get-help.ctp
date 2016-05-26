@@ -42,7 +42,7 @@ use Cake\Core\Configure;
 			<?= $this->Html->tag(
 				'p',
 				__('{0}: Report issues, help fix bugs or implement features',
-					$this->Html->link(__('Issues'), Configure::read('Site.menu.items.help.issues.url'), ['target' => '_blank'])
+					$this->Html->link(__('Issues'), Configure::read('Site.menu.items.community.issues.url'), ['target' => '_blank'])
 				))
 			?>
 		</div>
@@ -81,7 +81,7 @@ use Cake\Core\Configure;
 			<?= $this->Html->tag(
 				'p',
 				__('{0}: Official announcements from the CakePHP community',
-					$this->Html->link(__('Facebook'), Configure::read('Site.menu.items.help.facebook.url'), ['target' => '_blank'])
+					$this->Html->link(__('Facebook'), Configure::read('Site.menu.items.community.facebook.url'), ['target' => '_blank'])
 				))
 			?>
 		</div>
@@ -107,7 +107,7 @@ use Cake\Core\Configure;
 			<?= $this->Html->tag(
 				'p',
 				__('{0}: Tutorials and screencasts related to development and events',
-					$this->Html->link(__('YouTube'), Configure::read('Site.menu.items.help.youtube.url'), ['target' => '_blank'])
+					$this->Html->link(__('YouTube'), Configure::read('Site.menu.items.community.youtube.url'), ['target' => '_blank'])
 				))
 			?>
 		</div>
@@ -120,7 +120,7 @@ use Cake\Core\Configure;
 			<?= $this->Html->tag(
 				'p',
 				__('{0}: Get the latest updates from around the world',
-					$this->Html->link(__('Twitter'), Configure::read('Site.menu.items.help.twitter.url'), ['target' => '_blank'])
+					$this->Html->link(__('Twitter'), Configure::read('Site.menu.items.community.twitter.url'), ['target' => '_blank'])
 				))
 			?>
 		</div>
