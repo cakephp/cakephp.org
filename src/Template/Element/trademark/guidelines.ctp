@@ -435,7 +435,7 @@
 
 		<div class="col-sm-6 p0">
 			<div class="col-sm-6 col-xs-5">
-				<div class="circle-trade-1"></div>
+				<div class="circle-trade-1 talent"></div>
 			</div>
 			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
 				<p>PANTONE 1797 C</p>
@@ -466,7 +466,7 @@
 	<div class="col-md-8 col-md-offset-2 p0 mb30 mt30">
 		<div class="col-sm-6 p0">
 			<div class="col-sm-6 col-xs-5">
-				<div class="circle-trade-1"></div>
+				<div class="circle-trade-1 jobs"></div>
 			</div>
 			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
 				<p>PANTONE 1797 C</p>
@@ -497,7 +497,7 @@
 	<div class="col-md-8 col-md-offset-2 p0 mb70 mt30">
 		<div class="col-sm-6 p0">
 			<div class="col-sm-6 col-xs-5">
-				<div class="circle-trade-1"></div>
+				<div class="circle-trade-1 university"></div>
 			</div>
 			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
 				<p>PANTONE 1797 C</p>
