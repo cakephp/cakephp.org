@@ -312,6 +312,17 @@ input[type="radio"]:checked:before {
 	background-color: #1F97A0;
 }
 
+.circle-trade-1.talent {
+	background-color: #34bdd7;
+}
+
+.circle-trade-1.jobs {
+	background-color: #f8c530;
+}
+
+.circle-trade-1.university {
+	background-color: #31bbac;
+}
 .navbar-right .btn-menu {
 	margin-top: 14px;
 }
