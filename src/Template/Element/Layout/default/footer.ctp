@@ -1,4 +1,4 @@
-<section id="socials" class="back-3">
+<section id="socials" class="back-3 footer-wrapper">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-5  social text-center">
