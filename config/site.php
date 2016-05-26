@@ -250,7 +250,6 @@ return [
 				'mycake' => 'lorenzo',
 				'role' => __('ORM Developer'),
 				'image-url' => 'team/jose_lorenzo.jpg',
-				'target' => 'team-lorenzo',
 				'country' => 'Denmark'
 			],
 			'savant' => [
@@ -299,7 +298,6 @@ return [
 				'mycake' => 'burzum',
 				'role' => __('Core Member'),
 				'image-url' => 'team/florian_kramer.jpg',
-				'target' => 'team-florian',
 				'country' => 'Germany'
 			],
 			'mark_s' => [
@@ -315,7 +313,6 @@ return [
 				'mycake' => 'dereuromark',
 				'role' => __('Core Member'),
 				'image-url' => 'team/mark_scherer.png',
-				'target' => 'team-mark',
 				'country' => 'Germany'
 			],
 			'jippi' => [
@@ -328,7 +325,6 @@ return [
 				'mycake' => 'jippi',
 				'role' => __('Core Member'),
 				'image-url' => 'team/christian_winther.jpg',
-				'target' => 'team-winther',
 				'country' => 'Denmark'
 			],
 			'dakota' => [
@@ -343,7 +339,6 @@ return [
 				'mycake' => 'dakota',
 				'role' => __('Core Member'),
 				'image-url' => 'team/walther_lalk.jpg',
-				'target' => 'team-lalk',
 				'country' => 'South Africa'
 			],
 			'jrbasso' => [
@@ -358,7 +353,6 @@ return [
 				'role' => __('Core Member'),
 				'image-url' => 'team/juan_basso.jpg',
 				'country' => 'United States',
-				'target' => 'team-juan-basso',
 			],
 			'chinpei215' => [
 				'name' => 'Kurita Takashi',
@@ -370,9 +364,19 @@ return [
 				'mycake' => 'chinpei215',
 				'role' => __('Core Member'),
 				'image-url' => 'team/chinpei215.png',
-				'target' => 'team-kurita',
 				'country' => 'Japan'
 			],
+			'megan' => [
+				'name' => 'Megan Lalk',
+				'description' => __('Kurita is a PHP programmer living in Tokyo. Currently he works in web application security. Joined CakePHP
+								core team in February 2016 and has been working closely with the team on security fixes.'),
+				'language' => __('English'),
+				'twitter' => 'megan_kleyweg',
+				'mycake' => 'Megslalk',
+				'role' => __('CakePHP Community Manager'),
+				'image-url' => 'team/megan.jpg',
+				'country' => 'South Africa'
+			]
 		]
 
 	],
