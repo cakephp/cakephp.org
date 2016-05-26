@@ -30,7 +30,7 @@
 			<div class="col-md-12 text-center mt30">
 				<a href="http://cakefoundation.org" target="_blank"><span class="glyph_range icon-expertise buss-icon-8">u</span></a>
 				<p class="copyright">&copy; <?= __('Copyright 2005-2016 Cake Software Foundation, Inc. All rights reserved. {0}.',
-							$this->Html->link(__('Designs by Ibaldo'), ['controller' => 'pages', 'action' => 'display', 'rebranding'], ['class' => 'ibaldo']))?></p>
+							$this->Html->link(__('Designs by Ibaldo'), ['prefix' => false, 'plugin' => false, 'controller' => 'pages', 'action' => 'display', 'rebranding'], ['class' => 'ibaldo']))?></p>
 			</div>
 		</div>
 	</div>
