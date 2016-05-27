@@ -14,8 +14,7 @@
 		Therefore, you may retain the Word Marks and the Logos we have placed on the software, to identify your
 		redistribution -- whether that redistribution is made by optical media, memory stick or download of unmodified
 		source and executable code. This kind of use only applied if you are redistributing an official distribution
-		from this Project that has not been changed in any way. You can find files for the Logos and approved designs
-		for packaging on our &lt;&lt;Brand Standards&gt;&gt; page.')?>
+		from this Project that has not been changed in any way.')?>
 	</p>
 
 	<p>
@@ -23,12 +22,8 @@
 			code')?></strong><br>
 		<?= __('You may use the Word Marks, but not the Logos, to truthfully describe the origin of the software that you are
 		providing, that is, that the code you are distributing is a modification of our software. You may say, for
-		example, that "this software is derived from the source code for &lt;&lt;~Mark&gt;&gt; software."')?>
+		example, that "this software is derived from the source code for  CakePHP Framework."')?>
 	</p>
-
-	<p>&lt;&lt;<?= __('Example #1: This source code is distributed with an "--enable-official-branding" flag. By default, this
-		software will compile without official branding. As long as you do not modify the code or enable this flag
-		before compiling, any use of the <<~Mark>> in the compiled code is noninfringing.')?>&gt;&gt;</p>
 
 	<p><?= __('Of course, you can place your own trademarks or logos on versions of the software to which you have made
 		substantive modifications, because by modifying the software, you have become the origin of that exact version.
@@ -40,17 +35,17 @@
 			derivation')?></strong><br>
 		<?= __('You may use the Word Marks, but not the Logos, to truthfully describe the relationship between your software and
 		ours. Our Mark should be used after a verb or preposition that describes the relationship between your software
-		and ours. So you may say, for example, "Bob\'s software for the <<~Mark>> platform" but may not say "Bob\'s &lt;&lt;~Mark&gt;&gt;
+		and ours. So you may say, for example, "Bob\'s software for the CakePHP Framework " but may not say "Bob\'s CakePHP
 		software." Some other examples that may work for you are:')?>
 	</p>
 	<ul>
-		<li><?= __('[Your software] works with {0} software', '&lt;&lt;~Mark&gt;&gt;')?></li>
-		<li><?= __('[Your software] uses {0} software', '&lt;&lt;~Mark&gt;&gt;')?></li>
-		<li><?= __('[Your software] is compatible with {0} software', '&lt;&lt;~Mark&gt;&gt;')?></li>
-		<li><?= __('[Your software] is powered by {0} software', '&lt;&lt;~Mark&gt;&gt;')?></li>
-		<li><?= __('[Your software] runs on {0} software', '&lt;&lt;~Mark&gt;&gt;')?></li>
-		<li><?= __('[Your software] for use with {0} software', '&lt;&lt;~Mark&gt;&gt;')?></li>
-		<li><?= __('[Your software] for {0} software', '&lt;&lt;~Mark&gt;&gt;')?></li>
+		<li><?= __('[Your software] works with CakePHP Framework')?></li>
+		<li><?= __('[Your software] uses CakePHP Framework')?></li>
+		<li><?= __('[Your software] is compatible with CakePHP Framework')?></li>
+		<li><?= __('[Your software] is powered by CakePHP Framework')?></li>
+		<li><?= __('[Your software] runs on CakePHP Framework')?></li>
+		<li><?= __('[Your software] for use with CakePHP Framework')?></li>
+		<li><?= __('[Your software] for CakePHP Framework')?></li>
 	</ul>
 	<p>
 		<strong id="affiliation-uses" class="pt-20"><?= __('Use of trademarks to show community affiliation')?></strong><br>

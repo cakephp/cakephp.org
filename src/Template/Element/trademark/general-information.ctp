@@ -19,5 +19,5 @@
 	<h4 id="general-information" class="p-trad-sub"><?= __('Where to get further information')?></h4>
 
 	<p><?= __('If you have any questions about this Policy, would like to speak with us about the use of our Marks in ways not
-		described in the Policy, or see any abuse of our Marks, please &lt;&lt;insert contact information.&gt;&gt;')?></p>
+		described in the Policy, or see any abuse of our Marks, please contact {0}', '<strong>legal [at] cakefoundation.org</strong>')?></p>
 </div>
