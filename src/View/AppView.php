@@ -36,5 +36,11 @@ class AppView extends View
      */
     public function initialize()
     {
+        $this->loadHelper('AssetCompress.AssetCompress');
+        $this->loadHelper('Menu');
+        $this->loadHelper('Showcase.Showcase');
+        $this->loadHelper('Form', [
+            'templates' => 'bootstrap_form'
+        ]);
     }
 }

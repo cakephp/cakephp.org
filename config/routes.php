@@ -56,6 +56,24 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/pages/*', ['controller' => 'Pages', 'action' => 'display']);
 
     /**
+     * Custom routes
+     */
+    $routes->connect('/newsletter', ['controller' => 'Pages', 'action' => 'display', 'newsletter']);
+    $routes->connect('/newsletter/freelancers', ['controller' => 'Pages', 'action' => 'display', 'newsletter_freelancers_signup']);
+    $routes->connect('/newsletter/signup', ['controller' => 'Pages', 'action' => 'display', 'newsletter_signup']);
+    $routes->connect('/search', ['controller' => 'Pages', 'action' => 'display', 'search']);
+    $routes->connect('/news', ['controller' => 'Pages', 'action' => 'display', 'news']);
+    $routes->connect('/documentation', ['controller' => 'Pages', 'action' => 'display', 'documentation']);
+    $routes->connect('/documentation/videos', ['controller' => 'Pages', 'action' => 'display', 'videos']);
+    $routes->connect('/privacy', ['controller' => 'Pages', 'action' => 'display', 'privacy']);
+    $routes->connect('/assets', ['controller' => 'Pages', 'action' => 'display', 'assets']);
+    $routes->connect('/logos', ['controller' => 'Pages', 'action' => 'display', 'trademark']);
+    $routes->connect('/trademark', ['controller' => 'Pages', 'action' => 'display', 'trademark']);
+	$routes->connect('/get-involved', ['controller' => 'Pages', 'action' => 'display', 'get-involved']);
+	$routes->connect('/team', ['controller' => 'Pages', 'action' => 'display', 'team']);
+	$routes->connect('/business-solutions', ['controller' => 'Pages', 'action' => 'display', 'business-solutions']);
+
+	/**
      * Connect catchall routes for all controllers.
      *
      * Using the argument `DashedRoute`, the `fallbacks` method is a shortcut for
@@ -73,7 +91,7 @@ Router::scope('/', function (RouteBuilder $routes) {
      */
     $routes->fallbacks('DashedRoute');
 });
-
+Router::connect('/admin', ['plugin' => 'CakeDC/Users', 'controller' => 'Users', 'action' => 'login']);
 /**
  * Load all plugin routes.  See the Plugin documentation on
  * how to customize the loading of plugin routes.
