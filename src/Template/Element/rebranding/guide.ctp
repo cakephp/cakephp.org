@@ -17,11 +17,11 @@
 				</div>
 				<div class="col-sm-7">
 					<h3><?= __('A brand for everyone')?></h3>
-					<p><?= __('CakePHP has always been free and open source. We attribute the framework&nbsp;success&nbsp;due
-					the participation&nbsp;of&nbsp;the community of developers that embraced our idea and constantly contributed to
-					it\'s growth and development. Thinking about our community, we created a system of&nbsp;signatures to be
-					used by CakePHP developers, applications, individual and group supporters. Those are the CakePHP Flags,
-					and we invite you to raise our flags with us:')?></p>
+					<p><?= __('CakePHP has always been free and open source. We attribute the framework success due to
+					the participation of the community of developers that embraced our ideas and constantly contributed
+					to our growth and development. Thinking about our community, we created a system of signatures to be
+					used by CakePHP developers, applications, individual and group supporters. These are the CakePHP
+					Community Flags. We invite you to use the flags to show support')?></p>
 				</div>
 				<div class="clearfix"></div>
 
