@@ -1,9 +1,10 @@
 <?php
-	$title = 'CakePHP - Build fast, grow solid | Learn CakePHP from the experts | Video Training';
-	$description = 'CakePHP making building web applications simpler, faster and require less code. Manual, training and guides for beginners now available and links towards the last version.';
-	$this->assign('title', __($title));
-	$this->assign('meta', $this->Html->meta('description', __($description)));
-	$this->assign('socialMeta', $this->Meta->socialTags(['title' => __($title), 'description' => __($description)]));
+	$title = __('CakePHP - Build fast, grow solid | Learn CakePHP from the experts | Video Training');
+	$description = __('CakePHP making building web applications simpler, faster and require less code. Manual, training
+	and guides for beginners now available and links towards the last version.');
+	$this->assign('title', $title);
+	$this->assign('meta', $this->Html->meta('description', $description));
+	$this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
 ?>
 <section id="videos-full" class="p0 m0">
 	<div class="container-fluid p0 m0">
