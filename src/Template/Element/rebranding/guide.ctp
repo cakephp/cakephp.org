@@ -5,8 +5,9 @@
 
 				<div class="col-sm-7 mb80">
 					<h3><?= __('A vision for growth')?></h3>
-					<p><?= __('To help spread the values that brought us here, a new phrase was created. The phrase was turned
- 						into our identity tagline, and it summarizes our main concept, what we believe, and what we work for.')?></p>
+					<p><?= __('To help foster the values that brought us here, we clarified our key messaging. We wanted to
+					focus on what we believe CakePHP enables our community to do best and what we as project maintainers believe,
+					and work for.')?></p>
 				</div>
 				<div class="clearfix"></div>
 				<div class="col-sm-12 mb80">
