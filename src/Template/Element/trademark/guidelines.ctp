@@ -197,8 +197,10 @@
 	<?= $this->Html->image('trademarks/flags-guidelines.jpg', ['class' => 'img-responsive']) ?>
 </div>
 
+<div class="col-sm-12 mt30">
 	<p><?= __('5. And the unique visual styling of our website and packaging (the "Trade Dress").')?>
 	<br><?= __('5.1. Brand colors.')?> </p>
+</div>
 
 	<div class="col-md-8 col-md-offset-2 p0 mb30 mt30">
 		<div class="col-sm-6 p0">
@@ -332,13 +334,13 @@
 				<div class="circle-trade-1 talent"></div>
 			</div>
 			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
-				<p>PANTONE 1797 C</p>
+				<p>PANTONE 631 C</p>
 
-				<p>CMYK: 11, 91, 75, 2</p>
+				<p>CMYK:  65, 0, 12, 2</p>
 
-				<p>RGB: 212, 61, 68 </p>
+				<p>RGB: 52, 189, 215 </p>
 
-				<div>HEX: #D33C43</div>
+				<div>HEX: #34bdd7</div>
 			</div>
 		</div>
 		<div class="col-sm-6 p0">
@@ -363,13 +365,13 @@
 				<div class="circle-trade-1 jobs"></div>
 			</div>
 			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
-				<p>PANTONE 1797 C</p>
+				<p>PANTONE 123 C</p>
 
-				<p>CMYK: 11, 91, 75, 2</p>
+				<p>CMYK:  0, 20, 90, 2</p>
 
-				<p>RGB: 212, 61, 68 </p>
+				<p>RGB: 248, 197, 48  </p>
 
-				<div>HEX: #D33C43</div>
+				<div>HEX: #f8c530</div>
 			</div>
 		</div>
 		<div class="col-sm-6 p0">
@@ -377,11 +379,11 @@
 				<div class="circle-trade-2"></div>
 			</div>
 			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
-				<p>PANTONE 446 C</p>
+				<p>PANTONE 7465 C</p>
 
-				<p>CMYK: 0, 0, 0, 90 </p>
+				<p>CMYK: 70, 0, 40, 0 </p>
 
-				<p>RGB: 65, 64, 66 </p>
+				<p>RGB: 49, 187, 172 </p>
 
 				<div>HEX: #404041</div>
 			</div>
@@ -394,13 +396,13 @@
 				<div class="circle-trade-1 university"></div>
 			</div>
 			<div class="col-sm-6 col-xs-7 t-circle-trade p0">
-				<p>PANTONE 1797 C</p>
+				<p>PANTONE 7465 C</p>
 
-				<p>CMYK: 11, 91, 75, 2</p>
+				<p>CMYK: 70, 0, 40, 0</p>
 
-				<p>RGB: 212, 61, 68 </p>
+				<p>RGB: 49, 187, 172 </p>
 
-				<div>HEX: #D33C43</div>
+				<div>HEX: #31bbac</div>
 			</div>
 		</div>
 		<div class="col-sm-6 p0">
