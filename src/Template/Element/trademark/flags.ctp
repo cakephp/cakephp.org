@@ -1,5 +1,5 @@
-<p><?= __('1. Group Flag:')?></p>
-
+<p><?= __('1. Group Flag: The Group Flag is used to show plural form of usage. Example, you are a company or group of
+developers wanting to let others know you use CakePHP.')?><br/>
 <div class="col-md-12 p0 flag-m">
 	<div class="col-sm-4 flag-box">
 		<?= $this->Html->image('trademarks/flag-1.jpg', ['class' => 'img-responsive']) ?>
@@ -25,8 +25,7 @@
 	</div>
 </div>
 
-<p><?= __('2. Application Flag:')?></p>
-
+<p><?= __('2. Application Flag: The Application Flag is used to show that your have built an application that is using CakePHP.')?></p>
 <div class="col-md-12 p0 flag-m">
 	<div class="col-sm-4 flag-box">
 		<?= $this->Html->image('trademarks/flag-2.jpg', ['class' => 'img-responsive']) ?>
@@ -51,8 +50,8 @@
 	</div>
 </div>
 
-<p><?= __('3. Developer Flag:')?></p>
-
+<p><?= __('3. Developer Flag: The Developer Flag is used by individuals to show their support for the project and that
+ they are using CakePHP.')?></p>
 <div class="col-md-12 p0 flag-m">
 	<div class="col-sm-4 flag-box">
 		<?= $this->Html->image('trademarks/flag-3.jpg', ['class' => 'img-responsive']) ?>
@@ -78,8 +77,7 @@
 	</div>
 </div>
 
-<p><?= __('4. Supporter Flag:')?></p>
-
+<p><?= __('4. Supporter Flag: The Supporter Flag is used to spread the word about CakePHP and tell them to use CakePHP.')?></p>
 <div class="col-md-12 p0 flag-m">
 	<div class="col-sm-4 flag-box">
 		<?= $this->Html->image('trademarks/flag-4.jpg', ['class' => 'img-responsive']) ?>

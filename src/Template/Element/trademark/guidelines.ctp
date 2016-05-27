@@ -183,7 +183,8 @@
 <div class="col-sm-12">
 	<p>
 		<strong><?= __('4. Community Flags')?></strong><br>
-		&lt;&lt;<?= __('Insert descriptive text here')?>&gt;&gt;
+		<?= __('These have been corrected to show your support for the CakePHP project. The terms of this Policy applies
+		to the usage of these logos')?>
 	</p>
 	<?= $this->element('trademark/flags')?>
 </div>
