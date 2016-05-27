@@ -4,7 +4,7 @@
 			<div class="col-md-10 col-md-offset-1">
 
 				<div class="col-sm-7 mb80">
-					<h3><?= __('A motto to guide us')?></h3>
+					<h3><?= __('A vision for growth')?></h3>
 					<p><?= __('To help spread the values that brought us here, a new phrase was created. The phrase was turned
  						into our identity tagline, and it summarizes our main concept, what we believe, and what we work for.')?></p>
 				</div>
