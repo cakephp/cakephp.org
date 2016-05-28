@@ -61,7 +61,7 @@
 		<?= __('Acceptable: {0}', 'CakePHP CAKEPHP')?>
 	</p>
 
-	<p>
+	<p class="hide">
 		<strong><?= __('Don\'t pluralize a trademark.')?></strong><br>
 		<?= __('Unacceptable: I {0} my computer today!', '&lt;&lt;~Markified&gt;&gt;')?><br>
 		<?= __('Acceptable: I installed {0} software on my computer today!', '&lt;&lt;~Mark&gt;&gt;')?>
