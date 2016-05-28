@@ -54,7 +54,7 @@
 		<?= __('Acceptable: {0}', 'CakePHP, CAKEPHP')?>
 	</p>
 
-	<p>
+	<p class="hide">
 		<strong><?= __('Always use trademarks in their exact form with the correct spelling, neither abbreviated, hyphenated, or
 			combined with any other word or words.')?></strong><br>
 		<?= __('Unacceptable: {0}', 'Cake PHP, cake php, PHPCake, phpcake')?> <br>
