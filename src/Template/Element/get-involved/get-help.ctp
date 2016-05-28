@@ -88,19 +88,6 @@ use Cake\Core\Configure;
 	</div>
 	<div class="col-sm-12 p0">
 		<div class="col-sm-1 p0">
-			<i class="fa get-social-icon fa-google-plus"></i>
-		</div>
-		<div class="col-sm-11 p0">
-			<?= $this->Html->tag(
-				'p',
-				__('{0}: Official community channel for the project',
-					$this->Html->link(__('Google Groups'), Configure::read('Site.menu.items.help.google.url'), ['target' => '_blank'])
-				))
-			?>
-		</div>
-	</div>
-	<div class="col-sm-12 p0">
-		<div class="col-sm-1 p0">
 			<i class="fa get-social-icon fa-youtube-play"></i>
 		</div>
 		<div class="col-sm-11 p0">
