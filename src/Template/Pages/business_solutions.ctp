@@ -1,9 +1,9 @@
 <?php
-	$title = 'CakePHP - Build fast, grow solid  | Business Solutions';
-	$description = 'CakePHP Business solutions by CakeDC, the commercial entity behind the framework.';
-	$this->assign('title', __($title));
-	$this->assign('meta', $this->Html->meta('description', __($description)));
-	$this->assign('socialMeta', $this->Meta->socialTags(['title' => __($title), 'description' => __($description)]));
+	$title = __('CakePHP - Build fast, grow solid  | Business Solutions');
+	$description = __('CakePHP Business solutions by CakeDC, the commercial entity behind the framework.');
+	$this->assign('title', $title);
+	$this->assign('meta', $this->Html->meta('description', $description));
+	$this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
 ?>
 <section  class="gray-stripe business-blue-back">
 	<div class="container">

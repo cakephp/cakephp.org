@@ -369,10 +369,10 @@ return [
 			],
 			'megan' => [
 				'name' => 'Megan Lalk',
-				'description' => __('Kurita is a PHP programmer living in Tokyo. Currently he works in web application security. Joined CakePHP
-								core team in February 2016 and has been working closely with the team on security fixes.'),
+				'description' => __('Besides marketing, social media and community management, Megan is around to assist in
+					general queries, community assistance and CakeFest planning.'),
 				'language' => __('English'),
-				'twitter' => 'megan_kleyweg',
+				'twitter' => 'meganKleyweg',
 				'mycake' => 'Megslalk',
 				'role' => __('CakePHP Community Manager'),
 				'image-url' => 'team/megan.jpg',

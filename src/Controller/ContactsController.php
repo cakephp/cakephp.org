@@ -6,30 +6,36 @@ use Cake\Mailer\Email;
 
 class ContactsController extends AppController
 {
-	public function rapid()
-	{
-		$this->autoRender = false;
+    public function beforeFilter($event)
+    {
+        $this->Auth->allow();
+        return parent::beforeFilter($event);
+    }
 
-		$contact = $this->Contacts->createRapidContact($this->request->data);
+    public function rapid()
+    {
+        $this->autoRender = false;
 
-		if ($this->Contacts->save($contact)) {
-			$this->sendEmail($contact);
-			return;
-		}
+        $contact = $this->Contacts->createRapidContact($this->request->data);
 
-		$this->response->statusCode(422);
-	}
+        if ($this->Contacts->save($contact)) {
+            $this->sendEmail($contact);
+            return;
+        }
 
-	private function sendEmail($contact)
-	{
-		$email = new Email('default');
+        $this->response->statusCode(422);
+    }
 
-		$email
-			->emailFormat('text')
-			->replyTo($contact->email, $contact->name)
-			->from([Configure::read('Site.contact.email') => 'CakeDC Website'])
-			->to(Configure::read('Site.contact.email'))
-			->subject($contact->subject)
-			->send($contact->body);
-	}
+    private function sendEmail($contact)
+    {
+        $email = new Email('default');
+
+        $email
+            ->emailFormat('text')
+            ->replyTo($contact->email, $contact->name)
+            ->from([Configure::read('Site.contact.email') => 'CakeDC Website'])
+            ->to(Configure::read('Site.contact.email'))
+            ->subject($contact->subject)
+            ->send($contact->body);
+    }
 }

@@ -186,7 +186,6 @@ iframe {
 
 /* Background images path */
 .bg01 {
-	background-image:url('../images/slider/slide-1.jpg');
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -194,10 +193,7 @@ iframe {
 	background-attachment: fixed;
 }
 
-.bg02 { background-image:url('../images/bg/recipe.jpg'); }
-
 .bg11 {
-	background-image:url('../images/bg/cakefest.jpg');
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -206,7 +202,6 @@ iframe {
 }
 
 .bg03 {
-	background-image:url('../images/showcase/featured-2.jpg');
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -214,7 +209,6 @@ iframe {
 }
 
 .bg04 {
-	background-image:url('../images/showcase/featured-3.jpg');
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: center top;

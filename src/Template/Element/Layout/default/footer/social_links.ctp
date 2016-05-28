@@ -19,16 +19,6 @@
     ]
 ); ?>
 <?= $this->Html->link(
-    $this->Html->tag('i', '', ['class' => 'fa icon-social fa-google-plus']),
-    'https://plus.google.com/communities/108328920558088369819',
-    [
-        'target' => '_blank',
-        'title' => 'Google+',
-        'data-toggle' => 'tooltip',
-        'escape' => false
-    ]
-); ?>
-<?= $this->Html->link(
     $this->Html->tag('i', '', ['class' => 'fa icon-social fa-youtube-play']),
     'https://www.youtube.com/user/CakePHP',
     [
