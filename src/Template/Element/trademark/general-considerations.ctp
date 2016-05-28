@@ -50,18 +50,18 @@
 	<p>
 		<strong id="proper-text" class="pt-20"><?= __('Use of trademarks in text')?><br>
 		<?= __('Always distinguish trademarks from surrounding text with at least initial capital letters or in all capital letters.')?></strong><br>
-		<?= __('Unacceptable: {0}', '&lt;&lt;~mark&gt;&gt;') ?><br>
-		<?= __('Acceptable: {0}', '&lt;&lt;~Mark, ~MARK&gt;&gt;')?>
+		<?= __('Unacceptable: {0}', 'cakephp, Cakephp. cakePHP')?> <br>
+		<?= __('Acceptable: {0}', 'CakePHP, CAKEPHP')?>
 	</p>
 
-	<p>
+	<p class="hide">
 		<strong><?= __('Always use trademarks in their exact form with the correct spelling, neither abbreviated, hyphenated, or
 			combined with any other word or words.')?></strong><br>
-		<?= __('Unacceptable: {0}', '&lt;&lt;~Mark misspelled or wrong case&gt;&gt;')?> <br>
-		<?= __('Acceptable: {0}', '&lt;&lt;~Mark&gt;&gt;')?>
+		<?= __('Unacceptable: {0}', 'Cake PHP, cake php, PHPCake, phpcake')?> <br>
+		<?= __('Acceptable: {0}', 'CakePHP CAKEPHP')?>
 	</p>
 
-	<p>
+	<p class="hide">
 		<strong><?= __('Don\'t pluralize a trademark.')?></strong><br>
 		<?= __('Unacceptable: I {0} my computer today!', '&lt;&lt;~Markified&gt;&gt;')?><br>
 		<?= __('Acceptable: I installed {0} software on my computer today!', '&lt;&lt;~Mark&gt;&gt;')?>
@@ -70,27 +70,27 @@
 	<p>
 		<strong><?= __('Always use a trademark as an adjective modifying a noun.')?></strong> <?= __('You can see the nouns we prefer under')?>
 		<a href="#our-guidelines" class="t-blue"><?= __('"Our trademarks."')?></a><br>
-		<?= __('Unacceptable: This is a &lt;&lt;~Mark&gt;&gt;. Anyone can install it.')?><br>
-		<?= __('Acceptable: This is a &lt;&lt;~Mark&gt;&gt; application. Anyone can install it.')?>
+		<?= __('Unacceptable: This is a CakePHP. Anyone can install it')?><br>
+		<?= __('Acceptable: This is a CakePHP application. Anyone can install it.')?>
 	</p>
 
 	<p>
 		<strong><?= __('Don\'t use a trademark as a verb. Trademarks are products or services, never actions.')?></strong><br>
-		<?= __('Unacceptable: I &lt;&lt;~Markified&gt;&gt; my computer today!')?><br>
-		<?= __('Acceptable: I installed &lt;&lt;~Mark&gt;&gt; software on my computer today!')?>
+		<?= __('Unacceptable: I CakePHPified my computer today!')?><br>
+		<?= __('Acceptable: I installed CakePHP framework on my computer today!')?>
 	</p>
 
 	<p>
 		<strong><?= __('Don\'t use a trademark as a possessive. Instead, the following noun should be used in possessive form or
 			the sentence reworded so there is no possessive.')?></strong><br>
-		<?= __('Unacceptable: &lt;&lt;~Mark\'s&gt;&gt; desktop interface is very clean.')?><br>
-		<?= __('Acceptable: The &lt;&lt;~Mark&gt;&gt; desktop\'s interface is very clean.')?>
+		<?= __('Unacceptable: CakePHP’s install interface is very clean.')?><br>
+		<?= __('Acceptable: The CakePHP install interface is very clean.')?>
 	</p>
 
 	<p>
 		<strong><?= __('Don\'t translate a trademark into another language.')?></strong><br>
-		<?= __('Unacceptable: Quiero instalar &lt;&lt;~Mark&gt;&gt; en mi sistema.')?><br>
-		<?= __('Acceptable: Quiero instalar &lt;&lt;~Mark translated into Spanish&gt;&gt; en mi sistema.')?>
+		<?= __('Unacceptable: Quiero instalar TartaPHP en mi sistema.')?><br>
+		<?= __('Acceptable:  Quiero instalar CakePHP en mi sistema.')?>
 	</p>
 
 	<p>

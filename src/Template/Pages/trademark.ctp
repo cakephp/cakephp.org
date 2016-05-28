@@ -2,12 +2,12 @@
 /**
  * @todo New contact form needs to replace $emailLegal in the sections below
  */
-	$title = 'CakePHP - Build fast, grow solid | Logos and Trademarks';
-	$description = 'CakePHP Logos and Trademark policies.';
-	$this->assign('title', __($title));
-	$this->assign('meta', $this->Html->meta('description', __($description)));
+	$title = __('CakePHP - Build fast, grow solid | Logos and Trademarks');
+	$description = __('CakePHP Logos and Trademark policies.');
+	$this->assign('title', $title);
+	$this->assign('meta', $this->Html->meta('description', $description));
 	$emailLegal = $this->Html->tag('strong', 'legal [at] cakefoundation.org');
-	$this->assign('socialMeta', $this->Meta->socialTags(['title' => __($title), 'description' => __($description)]));
+	$this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
 ?>
 
 <section class="dark-gray-stripe">
@@ -32,9 +32,10 @@
 				<?= $this->element('trademark/guidelines') ?>
 				<?= $this->element('trademark/universal-considerations') ?>
 
-
-				<?= $this->element('trademark/software') ?>
-				<?= $this->element('trademark/non-software') ?>
+				<div class="hide">
+					<?= $this->element('trademark/software') ?>
+					<?= $this->element('trademark/non-software') ?>
+				</div>
 
 				<?= $this->element('trademark/general-information') ?>
 				<?= $this->element('trademark/general-considerations') ?>

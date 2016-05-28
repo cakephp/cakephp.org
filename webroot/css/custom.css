@@ -285,19 +285,13 @@ input[type="radio"]:checked:before {
 	color:red;
 }
 
-<<<<<<< Updated upstream
-
 .megamenu-list > li.main-title > a:hover,
 .megamenu-list > li.main-title > a:focus {
-	text-indent:0px;
+	text-indent:0;
 }
 
-.call a{
+.call a {
 	cursor: pointer;
-}
-
-#sidebar-2.affix {
-	z-index: -1;
 }
 
 .circle-trade-1.cakedc {
@@ -325,4 +319,8 @@ input[type="radio"]:checked:before {
 }
 .navbar-right .btn-menu {
 	margin-top: 14px;
+}
+
+#socials, .footer-wrapper {
+	z-index: 2;
 }

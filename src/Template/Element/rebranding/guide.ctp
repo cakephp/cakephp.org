@@ -4,9 +4,10 @@
 			<div class="col-md-10 col-md-offset-1">
 
 				<div class="col-sm-7 mb80">
-					<h3><?= __('A motto to guide us')?></h3>
-					<p><?= __('To help spread the values that brought us here, a new phrase was created. The phrase was turned
- 						into our identity tagline, and it summarizes our main concept, what we believe, and what we work for.')?></p>
+					<h3><?= __('A vision for growth')?></h3>
+					<p><?= __('To help foster the values that brought us here, we clarified our key messaging. We wanted to
+					focus on what we believe CakePHP enables our community to do best and what we as project maintainers believe,
+					and work for.')?></p>
 				</div>
 				<div class="clearfix"></div>
 				<div class="col-sm-12 mb80">
@@ -16,11 +17,11 @@
 				</div>
 				<div class="col-sm-7">
 					<h3><?= __('A brand for everyone')?></h3>
-					<p><?= __('CakePHP has always been free and open source. We attribute the framework&nbsp;success&nbsp;due
-					the participation&nbsp;of&nbsp;the community of developers that embraced our idea and constantly contributed to
-					it\'s growth and development. Thinking about our community, we created a system of&nbsp;signatures to be
-					used by CakePHP developers, applications, individual and group supporters. Those are the CakePHP Flags,
-					and we invite you to raise our flags with us:')?></p>
+					<p><?= __('CakePHP has always been free and open source. We attribute the framework success due to
+					the participation of the community of developers that embraced our ideas and constantly contributed
+					to our growth and development. Thinking about our community, we created a system of signatures to be
+					used by CakePHP developers, applications, individual and group supporters. These are the CakePHP
+					Community Flags. We invite you to use the flags to show support')?></p>
 				</div>
 				<div class="clearfix"></div>
 

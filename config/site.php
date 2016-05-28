@@ -48,6 +48,16 @@ return [
 						],
 						'title' => __('Team')
 					],
+					'issues' => [
+						'url' => 'https://github.com/cakephp/cakephp/issues',
+						'options' => ['target' => '_blank'],
+						'title' => __('Issues (Github)')
+					],
+					'youtube' => [
+						'url' => 'https://www.youtube.com/user/CakePHP',
+						'options' => ['target' => '_blank'],
+						'title' => __('Youtube Channel')
+					],
 					'getInvolved' => [
 						'url' => [
 							'plugin' => false,
@@ -60,7 +70,7 @@ return [
 					],
 					'blog' => [
 						'url' => 'http://bakery.cakephp.org/',
-						'title' => __('Blog')
+						'title' => __('Bakery')
 					],
 					'newsletter' => [
 						'url' => [
@@ -85,37 +95,6 @@ return [
 						'options' => ['target' => '_blank'],
 						'title' => __('CakeFest')
 					],
-				],
-				'help' => [
-					'issues' => [
-						'url' => 'https://github.com/cakephp/cakephp/issues',
-						'options' => ['target' => '_blank'],
-						'title' => __('Issues (Github)')
-					],
-					'youtube' => [
-						'url' => 'https://www.youtube.com/user/CakePHP',
-						'options' => ['target' => '_blank'],
-						'title' => __('Youtube Channel')
-					],
-					'stackOverflow' => [
-						'url' => 'http://stackoverflow.com/tags/cakephp',
-						'options' => ['target' => '_blank'],
-						'title' => __('Stack Overflow')
-					],
-					'commercial' => [
-						'url' => 'http://www.cakedc.com/',
-						'title' => __('Commercial')
-					],
-					'irc' => [
-						'url' => 'https://kiwiirc.com/client/irc.freenode.net#cakephp',
-						'options' => ['target' => '_blank'],
-						'title' => __('Irc')
-					],
-					'slack' => [
-						'url' => 'http://cakesf.herokuapp.com/',
-						'options' => ['target' => '_blank'],
-						'title' => 'Slack'
-					],
 					'facebook' => [
 						'url' => 'https://www.facebook.com/CakePHP/',
 						'options' => ['target' => '_blank'],
@@ -126,11 +105,33 @@ return [
 						'options' => ['target' => '_blank'],
 						'title' => 'Twitter'
 					],
+				],
+				'help' => [
 					'discourse' => [
 						'url' => 'http://discourse.cakephp.org',
-						'title' => 'Discourse',
+						'title' => __('Forum'),
 						'options' => ['target' => '_blank'],
-					]
+					],
+					'stackOverflow' => [
+						'url' => 'http://stackoverflow.com/tags/cakephp',
+						'options' => ['target' => '_blank'],
+						'title' => __('Stack Overflow')
+					],
+
+					'irc' => [
+						'url' => 'https://kiwiirc.com/client/irc.freenode.net#cakephp',
+						'options' => ['target' => '_blank'],
+						'title' => __('Irc')
+					],
+					'slack' => [
+						'url' => 'http://cakesf.herokuapp.com/',
+						'options' => ['target' => '_blank'],
+						'title' => 'Slack'
+					],
+					'commercial' => [
+						'url' => 'http://www.cakedc.com/',
+						'title' => __('Paid Support')
+					],
 				],
 				'jobs' => [
 					'cakeJobs' => [
@@ -368,10 +369,10 @@ return [
 			],
 			'megan' => [
 				'name' => 'Megan Lalk',
-				'description' => __('Kurita is a PHP programmer living in Tokyo. Currently he works in web application security. Joined CakePHP
-								core team in February 2016 and has been working closely with the team on security fixes.'),
+				'description' => __('Besides marketing, social media and community management, Megan is around to assist in
+					general queries, community assistance and CakeFest planning.'),
 				'language' => __('English'),
-				'twitter' => 'megan_kleyweg',
+				'twitter' => 'meganKleyweg',
 				'mycake' => 'Megslalk',
 				'role' => __('CakePHP Community Manager'),
 				'image-url' => 'team/megan.jpg',
