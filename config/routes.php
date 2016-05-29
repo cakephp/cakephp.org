@@ -72,6 +72,7 @@ Router::scope('/', function (RouteBuilder $routes) {
 	$routes->connect('/team', ['controller' => 'Pages', 'action' => 'display', 'team']);
 	$routes->connect('/business-solutions', ['controller' => 'Pages', 'action' => 'display', 'business-solutions']);
 
+	$routes->redirect('/pages/documentation', 'http://book.cakephp.org/');
     $routes->redirect('/documentation', 'http://book.cakephp.org/');
     $routes->redirect('/development', ['controller' => 'Pages', 'action' => 'display', 'business-solutions']);
 
