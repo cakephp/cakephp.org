@@ -35,14 +35,12 @@
 
 				<div class="col-md-3 col-sm-3 col-xs-12 git-frame">
 					<iframe
-						src="https://ghbtns.com/github-btn.html?user=cakephp&amp;repo=cakephp&amp;type=star&amp;count=true&amp;size=small"
-						frameborder="0" scrolling="0" width="120px" height="30px"></iframe>
+						src="https://ghbtns.com/github-btn.html?user=cakephp&amp;repo=cakephp&amp;type=star&amp;count=true&amp;size=small"></iframe>
 				</div>
 
 				<div class="col-md-3 col-sm-3 col-xs-12 git-frame">
 					<iframe
-						src="https://ghbtns.com/github-btn.html?user=cakephp&amp;repo=cakephp&amp;type=fork&amp;count=true&amp;size=small"
-						frameborder="0" scrolling="0" width="120px" height="30px"></iframe>
+						src="https://ghbtns.com/github-btn.html?user=cakephp&amp;repo=cakephp&amp;type=fork&amp;count=true&amp;size=small"></iframe>
 				</div>
 
 				<div class="col-md-3 col-sm-3 col-xs-12">
@@ -90,7 +88,7 @@
 						<h3 class="title-small"><?= __('No Configuration')?></h3>
 
 						<p><?= __('No complicated XML or YAML files. Just setup your database and you\'re {0}.', $this->Html->tag('strong', __('ready to
-								bake')))?></strong></p>
+								bake')))?></p>
 					</div>
 				</div>
 
