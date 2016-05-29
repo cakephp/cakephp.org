@@ -4,7 +4,7 @@
 			<div class="col-md-offset-2 col-md-8">
 				<div class="box-services-c cake-introdution">
 					<p><?= __('CakePHP makes building web applications simpler, faster, while requiring less code. A modern
-					 PHP 5.4+ framework offering a flexible database access layer and a powerful scaffolding system that makes
+					 PHP 5.5+ framework offering a flexible database access layer and a powerful scaffolding system that makes
 					 building both small and complex systems simpler, easier and, of course, tastier. Build fast, grow solid
 					 with CakePHP.')?></p>
 
