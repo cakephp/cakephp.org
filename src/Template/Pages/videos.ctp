@@ -10,7 +10,7 @@
 	<div class="container-fluid p0 m0">
 		<div class="col-md-12 p0 m0">
 			<div class="embed-responsive embed-responsive-16by9">
-				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tkOpGEb1MNw" frameborder="0" allowfullscreen></iframe>
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tkOpGEb1MNw" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>
