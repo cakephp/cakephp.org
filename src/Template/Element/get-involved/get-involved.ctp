@@ -1,6 +1,6 @@
 <?php
 use Cake\Core\Configure;
-$title = __('CakePHP Rapid Development PHP Framework | Get Involved');
+$title = __('CakePHP - Build fast, grow solid | Get Involved');
 $description = __('Contribute and support the CakePHP Community.');
 $this->assign('title', $title);
 $this->assign('meta', $this->Html->meta('description', $description));
