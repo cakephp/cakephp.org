@@ -77,10 +77,4 @@
             ?>
         </li>
     <?php endif; ?>
-
-    <li>
-        <div id="wrap" class="hide">
-            <?= $this->element('Layout/default/menu/search') ?>
-        </div>
-    </li>
 </ul>
