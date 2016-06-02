@@ -12,7 +12,7 @@
 		"cakephp/plugin-installer": "*",
 		"markstory/asset_compress": "~3.0",
 		"cakedc/showcase": "dev-master",
-		"cakedc/users": "dev-master"
+		"cakedc/users": "@stable"
 	},
 	"require-dev": {
 		"psy/psysh": "@stable",

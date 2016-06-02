@@ -10,13 +10,15 @@ return [
 				'image' => 'quote/megan.png',
 				'text' => '“We got a high ROI from converting our custom PHP app to CakePHP. We love the continually expanding suite of utilities, plugins, and development patterns at our disposal!”',
 				'client' => 'Megan Danz',
-				'company' => 'Harbor Compliance'
+				'company' => 'Harbor Compliance',
+				'url' => 'https://www.harborcompliance.com/'
 			],
 			[
 				'image' => 'quote/brad.png',
-				'text' => '“CakePhP was the most efficient way we could find to rapidly develop our intricate system.  We needed a platform that could handle our high volume of users without issues and CakePhP has certainly delivered.”',
+				'text' => '“CakePHP was the most efficient way we could find to rapidly develop our intricate system.  We needed a platform that could handle our high volume of users without issues and CakePhP has certainly delivered.”',
 				'client' => 'Brad Lambden',
-				'company' => 'iWorkZone'
+				'company' => 'iWorkZone',
+				'url' => 'https://iworkzone.com/'
 			],
 			[
 				'image' => 'quote/julian.png',
@@ -30,7 +32,8 @@ return [
 				'image' => 'quote/dwayne.png',
 				'text' => '“Having inherited this CakePHP project, I didn’t chose CakePHP so much as choose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.”',
 				'client' => 'Dwayne Sander',
-				'company' => 'Alerrt'
+				'company' => 'Alerrt',
+				'url' => 'http://alerrt.org/'
 			],
 
 

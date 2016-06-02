@@ -63,7 +63,6 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/newsletter/signup', ['controller' => 'Pages', 'action' => 'display', 'newsletter_signup']);
     $routes->connect('/search', ['controller' => 'Pages', 'action' => 'display', 'search']);
     $routes->connect('/news', ['controller' => 'Pages', 'action' => 'display', 'news']);
-    $routes->connect('/documentation', ['controller' => 'Pages', 'action' => 'display', 'documentation']);
     $routes->connect('/documentation/videos', ['controller' => 'Pages', 'action' => 'display', 'videos']);
     $routes->connect('/privacy', ['controller' => 'Pages', 'action' => 'display', 'privacy']);
     $routes->connect('/assets', ['controller' => 'Pages', 'action' => 'display', 'assets']);
@@ -72,6 +71,10 @@ Router::scope('/', function (RouteBuilder $routes) {
 	$routes->connect('/get-involved', ['controller' => 'Pages', 'action' => 'display', 'get-involved']);
 	$routes->connect('/team', ['controller' => 'Pages', 'action' => 'display', 'team']);
 	$routes->connect('/business-solutions', ['controller' => 'Pages', 'action' => 'display', 'business-solutions']);
+
+	$routes->redirect('/pages/documentation', 'http://book.cakephp.org/');
+    $routes->redirect('/documentation', 'http://book.cakephp.org/');
+    $routes->redirect('/development', ['controller' => 'Pages', 'action' => 'display', 'business-solutions']);
 
 	/**
      * Connect catchall routes for all controllers.

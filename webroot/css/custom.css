@@ -1,3 +1,7 @@
+body {
+	-webkit-overflow-scrolling: touch !important;
+}
+
 .alert {
 	margin-top: 25px;
 }

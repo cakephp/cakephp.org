@@ -186,7 +186,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 				$this->Html->link(__('CookBook'), Configure::read('Site.menu.items.documentation.book.url')),
 				$this->Html->link(__('source code'), 'https://github.com/cakephp/cakephp', ['target' => '_blank']),
 				$this->Html->link(__('GitHub'), 'https://github.com/cakephp/docs',  ['target' => '_blank']),
-				$this->Html->link(__('here'), 'http://book.cakephp.org/2.0/en/contributing/documentation.html')
+				$this->Html->link(__('here'), 'http://book.cakephp.org/3.0/en/contributing/documentation.html')
 			)?></p>
 	</div>
 
