@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "845de46ed2b66d897c424e3856761ac7",
-    "content-hash": "d21b19d482f2bcb3611b8c1752e2faa0",
+    "hash": "518d2d16f0821b57622ff2e4c47381d4",
+    "content-hash": "487683de90c29892741c04a038856155",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -211,16 +211,16 @@
         },
         {
             "name": "cakedc/users",
-            "version": "dev-master",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CakeDC/users.git",
-                "reference": "56271098e45a4f14451236088dd93e8568a41d23"
+                "reference": "5565ac3046ad94886271eeecf63898e711f45d9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CakeDC/users/zipball/56271098e45a4f14451236088dd93e8568a41d23",
-                "reference": "56271098e45a4f14451236088dd93e8568a41d23",
+                "url": "https://api.github.com/repos/CakeDC/users/zipball/5565ac3046ad94886271eeecf63898e711f45d9c",
+                "reference": "5565ac3046ad94886271eeecf63898e711f45d9c",
                 "shasum": ""
             },
             "require": {
@@ -272,20 +272,20 @@
                 "cakephp",
                 "oauth2"
             ],
-            "time": "2016-04-27 14:32:28"
+            "time": "2016-04-18 14:55:46"
         },
         {
             "name": "cakephp/cakephp",
-            "version": "3.2.9",
+            "version": "3.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "b98b14de4fea83f20023143ab7712fcfda23da8e"
+                "reference": "f8f48386f77f3638c4686d9f7ec6ee3b5ac52a68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/b98b14de4fea83f20023143ab7712fcfda23da8e",
-                "reference": "b98b14de4fea83f20023143ab7712fcfda23da8e",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/f8f48386f77f3638c4686d9f7ec6ee3b5ac52a68",
+                "reference": "f8f48386f77f3638c4686d9f7ec6ee3b5ac52a68",
                 "shasum": ""
             },
             "require": {
@@ -344,7 +344,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-05-17 02:15:10"
+            "time": "2016-05-26 08:22:04"
         },
         {
             "name": "cakephp/chronos",
@@ -1493,16 +1493,16 @@
         },
         {
             "name": "cakephp/debug_kit",
-            "version": "3.2.8",
+            "version": "3.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/debug_kit.git",
-                "reference": "12e27bf2a3dc1814e765db8762c056e565c08d8a"
+                "reference": "5c351136576b05a386eb2bbb02267529123edf7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/12e27bf2a3dc1814e765db8762c056e565c08d8a",
-                "reference": "12e27bf2a3dc1814e765db8762c056e565c08d8a",
+                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/5c351136576b05a386eb2bbb02267529123edf7b",
+                "reference": "5c351136576b05a386eb2bbb02267529123edf7b",
                 "shasum": ""
             },
             "require": {
@@ -1545,7 +1545,7 @@
                 "debug",
                 "kit"
             ],
-            "time": "2016-04-16 02:05:51"
+            "time": "2016-05-28 15:47:46"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1908,7 +1908,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "cakedc/showcase": 20,
-        "cakedc/users": 20,
+        "cakedc/users": 0,
         "psy/psysh": 0
     },
     "prefer-stable": true,

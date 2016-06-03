@@ -4,7 +4,7 @@
 			<div class="col-md-offset-2 col-md-8">
 				<div class="box-services-c cake-introdution">
 					<p><?= __('CakePHP makes building web applications simpler, faster, while requiring less code. A modern
-					 PHP 5.4+ framework offering a flexible database access layer and a powerful scaffolding system that makes
+					 PHP 5.5+ framework offering a flexible database access layer and a powerful scaffolding system that makes
 					 building both small and complex systems simpler, easier and, of course, tastier. Build fast, grow solid
 					 with CakePHP.')?></p>
 
@@ -35,14 +35,12 @@
 
 				<div class="col-md-3 col-sm-3 col-xs-12 git-frame">
 					<iframe
-						src="https://ghbtns.com/github-btn.html?user=cakephp&amp;repo=cakephp&amp;type=star&amp;count=true&amp;size=small"
-						frameborder="0" scrolling="0" width="120px" height="30px"></iframe>
+						src="https://ghbtns.com/github-btn.html?user=cakephp&amp;repo=cakephp&amp;type=star&amp;count=true&amp;size=small"></iframe>
 				</div>
 
 				<div class="col-md-3 col-sm-3 col-xs-12 git-frame">
 					<iframe
-						src="https://ghbtns.com/github-btn.html?user=cakephp&amp;repo=cakephp&amp;type=fork&amp;count=true&amp;size=small"
-						frameborder="0" scrolling="0" width="120px" height="30px"></iframe>
+						src="https://ghbtns.com/github-btn.html?user=cakephp&amp;repo=cakephp&amp;type=fork&amp;count=true&amp;size=small"></iframe>
 				</div>
 
 				<div class="col-md-3 col-sm-3 col-xs-12">
@@ -90,7 +88,7 @@
 						<h3 class="title-small"><?= __('No Configuration')?></h3>
 
 						<p><?= __('No complicated XML or YAML files. Just setup your database and you\'re {0}.', $this->Html->tag('strong', __('ready to
-								bake')))?></strong></p>
+								bake')))?></p>
 					</div>
 				</div>
 
