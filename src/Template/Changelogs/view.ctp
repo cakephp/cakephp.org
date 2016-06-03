@@ -1,8 +1,7 @@
 <?php
-use Cake\Utility\String;
 
-$title = __('CakePHP - Build fast, grow solid | Privacy policy');
-$description = __('CakePHP Privacy Policy.');
+$title = __('CakePHP - Build fast, grow solid | Changelogs');
+$description = __('CakePHP Changelogs.');
 $this->assign('title', $title);
 $this->assign('meta', $this->Html->meta('description', $description));
 $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
@@ -25,7 +24,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 <section class="ptb-80">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 t-privacy">
+            <div class="col-md-8 col-md-offset-1 t-privacy">
 
 <?php
 
