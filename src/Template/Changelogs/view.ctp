@@ -25,7 +25,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 <section class="ptb-80">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2 t-privacy">
+            <div class="col-md-8 t-privacy">
 
 <?php
 
@@ -39,6 +39,7 @@ endforeach;
 
 <h3><?= __('Version {0}', $tag) ?></h3>
 <?= $this->Html->nestedList($items, [], ['style' => 'list-style: inherit']) ?>
-                <?= $this->Html->link(__('Back'), ['controller' => 'Changelogs', 'action' => 'index']) ?>
+<?= $this->Html->link(__('Back'), ['controller' => 'Changelogs', 'action' => 'index']) ?>
 </div>
+            <?= $this->element('changelogs'); ?>
             </div></div></section>
