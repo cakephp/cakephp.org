@@ -352,3 +352,7 @@ ul.changelogs {
 		margin-top: 240px !important;
 	}
 }
+
+.send-button {
+    padding-top: 40px;
+}
