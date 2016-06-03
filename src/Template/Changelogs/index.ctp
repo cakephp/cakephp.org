@@ -74,29 +74,6 @@ use Cake\Utility\String;
     ) ?>
 </p>
 
-<h3><?= __('General Mailing list'); ?></h3>
-<p>
-    <?= implode("\n", array(
-        __('Discuss a problem you\'re having, or learn from other CakePHP developers around the globe.'),
-        String::insert(__('Join the :mailing-list.'), array(
-            'mailing-list' => '<a href="http://groups.google.com/group/cake-php">' . __('CakePHP mailing list') . '</a>'
-        ))
-    )) ?>
-</p>
-
-
-<h3><?= __('Core Mailing list'); ?></h3>
-<p>
-    <?= implode("\n", array(
-        __('Discuss new features or get involved with CakePHP\'s development.'),
-        String::insert(__('Join the :mailing-list.'), array(
-            'mailing-list' => '<a href="http://groups.google.com/group/cakephp-core">' . __('Core mailing list') . '</a>'
-        ))
-    )) ?>
-</p>
-
-
-
 <h3><?= __('Contributing'); ?></h3>
 <p>
     <?= implode("\n", array(
