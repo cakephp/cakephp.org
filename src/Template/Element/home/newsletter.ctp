@@ -1,4 +1,4 @@
-<section class="ptb-80 back-red">
+<section class="ptb-80 back-red footer-wrapper">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 text-center">
@@ -97,7 +97,7 @@
 							   tabindex="-1"
 							   value="">
 					</div>
-					<div class="me20 clearfix">
+					<div class="me20 send-button clearfix">
 						<button
 								type="submit"
 							   name="subscribe"

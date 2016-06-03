@@ -50,7 +50,7 @@
                         <?= $this->App->menuItems($this->Menu->communityItems()); ?>
                     </ul>
                 </div>
-				<div class="col-6 pl40">
+				<div class="col-6 pl50">
 					<ul class="megamenu-list">
 						<li class="menu-title main-title">
 							<?=

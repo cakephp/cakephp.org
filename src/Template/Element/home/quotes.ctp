@@ -1,5 +1,7 @@
 <?php
 use Cake\Core\Configure;
+use Cake\Utility\Hash;
+
 $quotes = Configure::read('Site.quotes');
 ?>
 <section id="quote" class="pt-90">
@@ -16,7 +18,7 @@ $quotes = Configure::read('Site.quotes');
                         <?= $this->Html->image($quote['image'])?>
                         <?= $this->Html->tag('blockquote', $quote['text'])?>
                         <?= $this->Html->tag('h5', $quote['client'])?>
-                        <?= $this->Html->tag('h6', $quote['company'])?>
+                        <?= $this->Html->tag('h6', !empty($quote['url']) ? $this->Html->link($quote['company'], $quote['url']) : $quote['company']) ?>
                     </div>
                 </div>
             </div>

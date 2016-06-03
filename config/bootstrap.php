@@ -216,6 +216,4 @@ Type::build('datetime')
 
 /** Site info */
 Configure::load('site');
-
-
-
+Configure::load('changelog');
