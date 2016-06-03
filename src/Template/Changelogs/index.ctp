@@ -1,9 +1,31 @@
 <?php
 use Cake\Utility\String;
 
-$this->assign('title', __('Development'));
+	$title = __('CakePHP - Build fast, grow solid | Privacy policy');
+	$description = __('CakePHP Privacy Policy.');
+	$this->assign('title', $title);
+	$this->assign('meta', $this->Html->meta('description', $description));
+	$this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
 ?>
 
+<section class="gray-stripe">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 title-calendar">
+                <?= $this->Html->tag(
+                    'h1', __(
+                        'CakePHP {0}',
+                        $this->Html->tag('strong', __('Changelogs'))
+                    )
+                )?>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="ptb-80">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 t-privacy">
 <h3><?= __('Github') ?></h3>
 <p>
     <?= __(
@@ -94,13 +116,30 @@ $this->assign('title', __('Development'));
         if ((!$previous || version_compare($previous, $matches['series'], '>'))) {
             if (!empty($matches['series'])) {
                 $previous = $matches['series'];
-                $sidebar[] = '<li class="show-me click-me">' . __('{0} series', $matches['series']) . '</li>';
+                $sidebar[] = '<li class="show-me click-me">' . __('{0} series ', $matches['series']) . '<i class="fa fa-menu fa-chevron-right"></i></li>';
             }
         }
         $sidebar[] = '<li class="hide-me">' . $this->Html->link($tag, array('action' => 'view', $tag)) . '</li>';
     }
     ?>
-
     <h3>Changelogs</h3>
-    <ul><?= implode('', $sidebar); ?></ul>
+    <ul class="changelogs"><?= implode('', $sidebar); ?></ul>
 
+</div>
+        </div>
+    </div>
+    </section>
+
+<?= $this->Html->scriptBlock("
+$(document).ready(function (jQuery) {
+        $('.hide-me').hide();
+        $('.click-me').click(function () {
+            $('.hide-me').hide();
+            $('.fa-chevron-down').removeClass('fa-chevron-down').addClass('fa-chevron-right');
+            $('.click-me').removeClass('clicked');
+            $(this).addClass('clicked');
+            $(this).nextUntil('li.click-me').fadeToggle(500);
+            $(this).find('.fa-chevron-right').removeClass('fa-chevron-right').addClass('fa-chevron-down');
+        });
+    });
+", ['block' => true]);

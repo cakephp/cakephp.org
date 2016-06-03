@@ -4,6 +4,7 @@ namespace App\Model\Table;
 use Cake\Cache\Cache;
 use Cake\Core\Configure;
 use Cake\ORM\Table;
+use Cake\Utility\Hash;
 
 /**
  * Changelogs table
@@ -79,10 +80,10 @@ class ChangelogsTable extends Table
         extract(self::$_settings);
 
         // Check the cache first
-        $cached = Cache::read('changelog_tags', $cacheEngine);
-        if ($cached !== false) {
-            return $cached;
-        }
+//        $cached = Cache::read('changelog_tags', $cacheEngine);
+//        if ($cached !== false) {
+//            return $cached;
+//        }
 
         $gitdir = escapeshellcmd($this->_gitDirectory($path, $repo));
         $git = escapeshellcmd($git);
@@ -126,7 +127,7 @@ class ChangelogsTable extends Table
             return $title;
         }
 
-        return version_compare($fromMatches['iteration'], $toMatches['iteration']);
+        return version_compare(Hash::get($fromMatches, 'iteration'), Hash::get($toMatches, 'iteration'));
     }
 
     /**

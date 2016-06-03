@@ -1,5 +1,33 @@
 <?php
-$this->assign('title', 'Development');
+use Cake\Utility\String;
+
+$title = __('CakePHP - Build fast, grow solid | Privacy policy');
+$description = __('CakePHP Privacy Policy.');
+$this->assign('title', $title);
+$this->assign('meta', $this->Html->meta('description', $description));
+$this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
+?>
+
+<section class="gray-stripe">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 title-calendar">
+                <?= $this->Html->tag(
+                    'h1', __(
+                        'CakePHP {0}',
+                        $this->Html->tag('strong', __('Changelogs'))
+                    )
+                )?>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="ptb-80">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 t-privacy">
+
+<?php
 
 $items = [];
 foreach ($changes as $hash => $change):
@@ -11,19 +39,6 @@ endforeach;
 
 <h3><?= __('Version {0}', $tag) ?></h3>
 <?= $this->Html->nestedList($items, [], ['style' => 'list-style: inherit']) ?>
-
-    <?php
-    $sidebar = [];
-    $previous = null;
-    foreach ($tags as $tag):
-        preg_match('/^(?<series>\d+\.\d+).*/', $tag, $matches);
-        if (!$previous || version_compare($previous, $matches['series'], '>')):
-            $previous = $matches['series'];
-            $sidebar[] = '<li class="show-me click-me">' . __('{0} series', $matches['series']) . '</li>';
-        endif;
-        $sidebar[] = '<li class="hide-me">' . $this->Html->link($tag, array('action' => 'view', $tag)) . '</li>';
-    endforeach;
-    ?>
-
-    <h3>Changelogs</h3>
-    <ul><?= implode('', $sidebar); ?></ul>
+                <?= $this->Html->link(__('Back'), ['controller' => 'Changelogs', 'action' => 'index']) ?>
+</div>
+            </div></div></section>
