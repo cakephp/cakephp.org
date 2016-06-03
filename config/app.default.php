@@ -92,7 +92,10 @@ return [
             'path' => CACHE,
             'url' => env('CACHE_DEFAULT_URL', null),
         ],
-
+        'changelog' => [
+            'className' => 'File',
+            'path' => CACHE,
+        ],
         /**
          * Configure the cache used for general framework caching.
          * Translation cache files are stored with this configuration.
