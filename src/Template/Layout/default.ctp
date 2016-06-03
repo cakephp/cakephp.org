@@ -23,7 +23,7 @@
 	<title>
 		<?= $this->fetch('title') ?>
 	</title>
-	<?= $this->Html->meta('icon') ?>
+	<?= $this->Html->meta('icon', ['type' => 'icon']) ?>
 	<meta charset="utf-8" >
 
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic%7CMontserrat:400,700' rel='stylesheet'>
