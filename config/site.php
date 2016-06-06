@@ -36,7 +36,6 @@ return [
 				'url' => 'http://alerrt.org/'
 			],
 
-
 		],
 		'menu' => [
 			'items' => [
