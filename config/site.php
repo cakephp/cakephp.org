@@ -123,7 +123,7 @@ return [
 					'irc' => [
 						'url' => 'https://kiwiirc.com/client/irc.freenode.net#cakephp',
 						'options' => ['target' => '_blank'],
-						'title' => __('IRC')
+						'title' => 'IRC'
 					],
 					'slack' => [
 						'url' => 'http://cakesf.herokuapp.com/',
