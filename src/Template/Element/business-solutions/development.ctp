@@ -26,7 +26,7 @@
 			<span class="glyph_range icon-sub-business buss-icon-1">t</span>
 		</div>
 		<div class="col-sm-9 p0">
-			<p><?= __('We provide 3 managed environments to support our') ?> <?= $this->Html->link(__('git workflow'), '#', ['class' => 't-blue']) ?> <?= __('and ensure development, quality assurance and acceptance testing activities are isolated and visible to the client at all times. Deployment is automated, providing insight about the unit test coverage, code quality metrics and build status. Full automation and milestone based iterations provide a stable and predictable release cycle, reducing the overall time to market for the project and helping the Project Owners to successfully deliver their features as expected.') ?></p>
+			<p><?= __('We provide 3 managed environments to support our') ?> <?= $this->Html->link(__('git workflow'), 'http://www.cakedc.com/git-workflow', ['class' => 't-blue']) ?> <?= __('and ensure development, quality assurance and acceptance testing activities are isolated and visible to the client at all times. Deployment is automated, providing insight about the unit test coverage, code quality metrics and build status. Full automation and milestone based iterations provide a stable and predictable release cycle, reducing the overall time to market for the project and helping the Project Owners to successfully deliver their features as expected.') ?></p>
 		</div>
 	</div>
 	<div class="col-md-12 p0">
