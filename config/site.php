@@ -155,7 +155,7 @@ return [
 					],
 					'api' => [
 						'url' => 'http://api.cakephp.org/',
-						'title' => __('Api')
+						'title' => __('API')
 					],
 					'videos' => [
 						'url' => [
