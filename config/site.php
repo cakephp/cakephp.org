@@ -145,7 +145,7 @@ return [
 					'linkedin' => [
 						'url' => 'https://www.linkedin.com/groups/4623165',
 						'options' => ['target' => '_blank'],
-						'title' => 'Linkedin'
+						'title' => 'LinkedIn'
 					],
 				],
 				'documentation' => [
