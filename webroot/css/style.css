@@ -1410,6 +1410,11 @@ iframe {
 	z-index:9;
 }
 
+/* Homepage Slider */
+#carousel-example-generic .carousel-inner>.item>img,
+#carousel-example-generic .carousel-inner>.item>a>img {
+	width: 100%;
+}
 
 
 /* Slider Titles */
