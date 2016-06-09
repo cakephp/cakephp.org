@@ -36,7 +36,6 @@ return [
 				'url' => 'http://alerrt.org/'
 			],
 
-
 		],
 		'menu' => [
 			'items' => [
@@ -120,11 +119,10 @@ return [
 						'options' => ['target' => '_blank'],
 						'title' => __('Stack Overflow')
 					],
-
 					'irc' => [
 						'url' => 'https://kiwiirc.com/client/irc.freenode.net#cakephp',
 						'options' => ['target' => '_blank'],
-						'title' => __('Irc')
+						'title' => 'IRC'
 					],
 					'slack' => [
 						'url' => 'http://cakesf.herokuapp.com/',
@@ -145,7 +143,7 @@ return [
 					'linkedin' => [
 						'url' => 'https://www.linkedin.com/groups/4623165',
 						'options' => ['target' => '_blank'],
-						'title' => 'Linkedin'
+						'title' => 'LinkedIn'
 					],
 				],
 				'documentation' => [
@@ -155,7 +153,7 @@ return [
 					],
 					'api' => [
 						'url' => 'http://api.cakephp.org/',
-						'title' => __('Api')
+						'title' => __('API')
 					],
 					'videos' => [
 						'url' => [
