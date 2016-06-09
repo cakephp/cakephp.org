@@ -175,7 +175,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 			documentation source which can also be found on {3}.
 			Guidelines on contributing to the documentation can be reviewed {4}.',
 				$this->Html->link(__('API'), Configure::read('Site.menu.items.documentation.api.url')),
-				$this->Html->link(__('CookBook'), Configure::read('Site.menu.items.documentation.book.url')),
+				$this->Html->link(__('Cookbook'), Configure::read('Site.menu.items.documentation.book.url')),
 				$this->Html->link(__('source code'), 'https://github.com/cakephp/cakephp', ['target' => '_blank']),
 				$this->Html->link(__('GitHub'), 'https://github.com/cakephp/docs',  ['target' => '_blank']),
 				$this->Html->link(__('here'), 'http://book.cakephp.org/3.0/en/contributing/documentation.html')
