@@ -3,7 +3,7 @@ use Cake\Core\Configure;
 ?>
 
 <div id="communityGuidelines" class="col-sm-12 get-developer pt-100">
-	<h2><?= __('Find Job or Developer')?></h2>
+	<h2><?= __('Find Jobs or Developers')?></h2>
 	<p><?= __('If you\'re looking for skilled CakePHP developers, or are a developer yourself and seeking a freelance project or
 		position at a company, there are many resources available:')?></p>
 
