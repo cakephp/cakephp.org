@@ -1016,18 +1016,26 @@
 		    margin-top: 30px;
 	}
 
+	.social-footer a {
+		padding: 10px 12px;
+	}
+
 
 }
 
 @media (min-width: 1200px) {
   /*CSS LIDO EM DISPOSITIVOS DE MAIS DE 1200 PX DE LARGURA*/
-  .hero, .hero-2 {
-  	background-attachment: fixed;
-  }
+	.hero, .hero-2 {
+		background-attachment: fixed;
+	}
 
-  .th1-business h1 {
-  	line-height: 24px;
-  }
+	.th1-business h1 {
+		line-height: 24px;
+	}
+
+	.social-footer a {
+		padding: 10px 18px;
+	}
 
   
 }
