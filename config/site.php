@@ -115,11 +115,6 @@ return [
 						'title' => __('Forum'),
 						'options' => ['target' => '_blank'],
 					],
-					'quora' => [
-						'url' => 'https://www.quora.com/topic/CakePHP',
-						'options' => ['target' => '_blank'],
-						'title' => __('Quora')
-					],
 					'stackOverflow' => [
 						'url' => 'http://stackoverflow.com/tags/cakephp',
 						'options' => ['target' => '_blank'],
@@ -144,11 +139,6 @@ return [
 						'options' => ['target' => '_blank'],
 						'title' => __('Google+')
 					],
-					'googlegroup' => [
-						'url' => 'https://groups.google.com/forum/#!forum/cake-php',
-						'options' => ['target' => '_blank'],
-						'title' => __('Google Group')
-					]
 				],
 				'jobs' => [
 					'cakeJobs' => [

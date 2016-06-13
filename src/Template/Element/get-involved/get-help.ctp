@@ -75,19 +75,6 @@ use Cake\Core\Configure;
 	</div>
 	<div class="col-sm-12 p0">
 		<div class="col-sm-1 p0">
-			<span class="glyph_range get-social-icon">T</span>
-		</div>
-		<div class="col-sm-11 p0">
-			<?= $this->Html->tag(
-				'p',
-				__('{0}: Discuss various aspects of the framework in collaboration with others',
-					$this->Html->link(__('Quora'), Configure::read('Site.menu.items.help.quora.url'), ['target' => '_blank'])
-				))
-			?>
-		</div>
-	</div>
-	<div class="col-sm-12 p0">
-		<div class="col-sm-1 p0">
 			<i class="fa get-social-icon fa-facebook"></i>
 		</div>
 		<div class="col-sm-11 p0">
@@ -134,19 +121,6 @@ use Cake\Core\Configure;
 				'p',
 				__('{0}: Get the latest updates from around the world',
 					$this->Html->link(__('Twitter'), Configure::read('Site.menu.items.community.twitter.url'), ['target' => '_blank'])
-				))
-			?>
-		</div>
-	</div>
-	<div class="col-sm-12 p0">
-		<div class="col-sm-1 p0">
-			<i class="fa get-social-icon fa-users"></i>
-		</div>
-		<div class="col-sm-11 p0">
-			<?= $this->Html->tag(
-				'p',
-				__('{0}: Official discussion group for the project',
-					$this->Html->link(__('Google Group'), Configure::read('Site.menu.items.help.googlegroup.url'), ['target' => '_blank'])
 				))
 			?>
 		</div>
