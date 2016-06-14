@@ -15,7 +15,7 @@ return [
 			],
 			[
 				'image' => 'quote/brad.png',
-				'text' => '“CakePHP was the most efficient way we could find to rapidly develop our intricate system.  We needed a platform that could handle our high volume of users without issues and CakePhP has certainly delivered.”',
+				'text' => '“CakePHP was the most efficient way we could find to rapidly develop our intricate system.  We needed a platform that could handle our high volume of users without issues and CakePHP has certainly delivered.”',
 				'client' => 'Brad Lambden',
 				'company' => 'iWorkZone',
 				'url' => 'https://iworkzone.com/'
