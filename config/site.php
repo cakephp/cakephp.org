@@ -74,6 +74,10 @@ return [
 						'url' => 'http://bakery.cakephp.org/',
 						'title' => __('Bakery')
 					],
+					'awesomeList' => [
+						'url' => 'https://github.com/FriendsOfCake/awesome-cakephp',
+						'title' => __('Featured Resources')
+					],
 					'newsletter' => [
 						'url' => [
 							'plugin' => false,
