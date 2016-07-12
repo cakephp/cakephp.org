@@ -76,6 +76,12 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->redirect('/documentation', 'http://book.cakephp.org/');
     $routes->redirect('/development', ['controller' => 'Pages', 'action' => 'display', 'business-solutions']);
 
+	$routes->connect('/showcase', ['controller' => 'Projects', 'action' => 'index']);
+	$routes->prefix('admin', function ($routes) {
+		$routes->connect('/', ['controller' => 'Projects', 'action' => 'index']);
+		$routes->fallbacks('DashedRoute');
+	});
+
 	/**
      * Connect catchall routes for all controllers.
      *

@@ -1,6 +1,6 @@
 <?php if (isset($highlights[0])): ?>
 <section>
-	<?= $this->element('Showcase.Showcase/highlight_carousel', ['givenHighlight' => $highlights[0]]) ?>
+	<?= $this->element('Showcase/highlight_carousel', ['givenHighlight' => $highlights[0]]) ?>
 </section>
 
 <section class="pb-80 back-white featured-case">

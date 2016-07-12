@@ -1,5 +1,5 @@
 <?php if ($highlights): ?>
-	<?= $this->element('Showcase.Showcase/highlight_carousel', [
+	<?= $this->element('Showcase/highlight_carousel', [
 		'givenHighlight' => $highlights,
 		'imageVersion' => 'slider'
 	]) ?>
