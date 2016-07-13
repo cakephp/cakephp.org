@@ -5,6 +5,7 @@
 	$this->assign('meta', $this->Html->meta('description', $description));
 	$this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
 ?>
+<?= $this->element('adwords/business_solution')?>
 <section  class="gray-stripe business-blue-back">
 	<div class="container">
 		<div class="row">
