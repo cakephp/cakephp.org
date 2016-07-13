@@ -1,3 +1,4 @@
+<?= $this->element('adwords/rapid-response-click')?>
 <section id="expertise" class="pt-90 mt0 back-2">
     <div class="container">
         <div class="row">
@@ -189,7 +190,8 @@
 				</div>
 				<div class="col-xs-6">
 					<?= $this->Form->submit('Send', [
-						'class' => 'btn btn-primary btn-modal-show'
+						'class' => 'btn btn-primary btn-modal-show',
+						'onclick' => "goog_report_conversion ()",
 					]) ?>
 				</div>
 			</div>
