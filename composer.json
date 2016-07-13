@@ -13,9 +13,9 @@
 		"markstory/asset_compress": "~3.0",
 		"cakedc/users": "@stable",
 		"burzum/cakephp-imagine-plugin": "~2.0",
-        "muffin/tags": "dev-master",
-        "muffin/slug": "~1.0",
-        "josegonzalez/cakephp-upload": "~3.0"
+		"muffin/tags": "dev-master",
+		"muffin/slug": "~1.0",
+		"josegonzalez/cakephp-upload": "~3.0"
 	},
 	"require-dev": {
 		"psy/psysh": "@stable",
