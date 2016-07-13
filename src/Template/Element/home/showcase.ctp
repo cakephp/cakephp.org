@@ -9,7 +9,7 @@
                 <h3><?= __("Companies using CakePHP") ?></h3>
                 <?= $this->Html->link(
                 	__("View the Showcase"),
-                	['plugin' => "showcase", 'controller' => 'projects', 'action' => 'index'],
+                	['controller' => 'projects', 'action' => 'index'],
                 	['class' => 'btn btn-red mt40']
                 ) ?>
             </div>
