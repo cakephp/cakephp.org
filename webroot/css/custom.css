@@ -352,3 +352,7 @@ ul.changelogs {
 		margin-top: 240px !important;
 	}
 }
+
+.carousel-inner>.item>img.img-responsive, .carousel-inner>.item>a>img.img-responsive {
+	width: 100%;
+}
