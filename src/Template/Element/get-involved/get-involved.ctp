@@ -9,15 +9,13 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 <div id="getInvolved" class="col-sm-12 pt-35">
 	<h2><?= __('Get Involved!')?></h2>
 
-	<p><?= __('If you\'re interested in contributing to CakePHP and supporting the community, then we\'d love for you to join us!.
-		There are a variety of ways to get involved and help out.')?></p>
+	<p><?= __('If you\'re interested in contributing to CakePHP and supporting the community then we\'d love for you to join us, there are a variety of ways to get involved and help out.')?></p>
 
 	<div id="userSupport" class="box-get">
 		<i class="fa fa-users icon-get"></i>
 		<h3><?= __('User Support')?></h3>
 		<div class="br-bottom mb20"></div>
-		<p><?= __('One of the greatest ways to contribute to CakePHP is by directly supporting the developer community. You
-				may just have the answer to some of the questions that are being asked. Here are some of the ways that you can get started:')?></p>
+		<p><?= __('One of the greatest ways to contribute to CakePHP is by directly supporting the developer community. There\'s no need to be a genius or guru to get involved, you may just have the answer to some of the questions being asked. Here are some ways you can get started:')?></p>
 		<ul>
 			<li><?= __('Join the #cakephp IRC channel and talk to developers who need help. *')?></li>
 			<li><?= __('Answer questions on platforms such as {0}.', $this->Html->link('StackOverflow', Configure::read('Site.menu.items.help.stackOverflow.url'), ['target' => '_blank']))?>
@@ -36,7 +34,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 
 		<div class="br-bottom mb20"></div>
 		<p><?= __('Helping others to learn CakePHP is another valuable way to contribute to the community. There are many ways
-			you can help others; These include:')?></p>
+			you can help others, these include:')?></p>
 		<ul>
 			<li><?= __('Coding Seminars')?></li>
 			<li><?= __('Live Workshops')?></li>
@@ -148,7 +146,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 		<p><?= __('Existing releases usually have a few issues open against them. These issues generally need patches and test
 			cases created for them, so they can be resolved. Preparing patches for open {0}
 			is a great way to get involved with CakePHP, and is one of the first steps to becoming a core contributor.',
-				$this->Html->link(__('open unresolved issues'), 'https://github.com/cakephp/cakephp/issues?q=is%3Aopen',  ['target' => '_blank'])
+				$this->Html->link(__('unresolved issues'), 'https://github.com/cakephp/cakephp/issues?q=is%3Aopen',  ['target' => '_blank'])
 			)?>
 		</p>
 		<h4><?= __('Features and Enhancements for Future Releases')?></h4>
