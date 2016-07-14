@@ -32,9 +32,6 @@
                     <button class="btn-menu" data-toggle="modal" data-target="#menumodal"><i
                             class="toggle-modal icon_menu"></i></button>
                 </div>
-                <div id="wrap">
-                    <?= $this->element('Layout/default/menu/search') ?>
-                </div>
             </div>
         </div>
     </div>

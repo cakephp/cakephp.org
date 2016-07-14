@@ -8,7 +8,7 @@
     'showcase' => [
         'class' => 'menu-title mt30',
         'icon' => 'fa fa-menu-title fa-desktop',
-        'url' => ['plugin' => 'showcase', 'controller' => 'projects'],
+        'url' => ['controller' => 'projects'],
 		'title' => __('Showcase')
     ]
 ];
