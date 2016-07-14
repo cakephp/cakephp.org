@@ -1,21 +1,6 @@
 <?php
 use Cake\Core\Configure;
 ?>
-
-<div id="communityGuidelines" class="col-sm-12 get-developer pt-100">
-	<h2><?= __('Find Jobs or Developers')?></h2>
-	<p><?= __('If you\'re looking for skilled CakePHP developers, or are a developer yourself and seeking a freelance project or
-		position at a company, there are many resources available:')?></p>
-
-	<h4><?= $this->Html->link(__('LinkedIn'), Configure::read('Site.menu.items.jobs.linkedin.url'), ['target' => '_blank'])?></h4>
-	<p><?= __('Official career group for CakePHP related opportunities')?></p>
-
-	<h4><?= $this->Html->link(__('CakePHPJobs'), Configure::read('Site.menu.items.jobs.cakeJobs.url'), ['target' => '_blank'])?></h4>
-	<p><?= __('CakePHP related job postings')?></p>
-
-	<h4><?= $this->Html->link(__('CakeDC'), Configure::read('Site.menu.items.serviceProvider.cakedc.url'))?></h4>
-	<p><?= __('Development and consultancy from the experts')?></p>
-</div>
 <div id="comunityguidelinesside" class="col-sm-12 get-developer pt-100">
 	<h2><?= __('Community Guidelines') ?></h2>
 	<p><?= __('The following is a list of recommendations to help keep the CakePHP community strong, active and healthy, as well as a place where everyone feels welcome. These are by no means rules or laws, but instead suggestions and best practices.') ?></p>
