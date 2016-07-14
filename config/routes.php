@@ -78,6 +78,12 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/changelogs/*', ['controller' => 'Changelogs', 'action' => 'view']);
     $routes->redirect('/development', ['controller' => 'Pages', 'action' => 'display', 'business-solutions']);
 
+	$routes->connect('/showcase', ['controller' => 'Projects', 'action' => 'index']);
+	$routes->prefix('admin', function ($routes) {
+		$routes->connect('/', ['controller' => 'Projects', 'action' => 'index']);
+		$routes->fallbacks('DashedRoute');
+	});
+
 	/**
      * Connect catchall routes for all controllers.
      *

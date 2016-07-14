@@ -13,6 +13,7 @@
 		</ul>
 	</li>
 	<?= $this->Html->tag('li', $this->Html->link(__('Get Help'), '#getHelp'), ['class' => 'br-bottom-sidebar mt30'])?>
-	<?= $this->Html->tag('li', $this->Html->link(__('Community Guidelines'), '#communityGuidelines'), ['class' => 'br-bottom-sidebar'])?>
-	<?= $this->Html->tag('li', $this->Html->link(__('Cakefest'), '#cakefest'), ['class' => 'br-bottom-sidebar'])?>
+	<?= $this->Html->tag('li', $this->Html->link(__('Find Job or Developer'), '#findjobdeveloper'), ['class' => 'br-bottom-sidebar'])?>
+	<?= $this->Html->tag('li', $this->Html->link(__('Community Guidelines'), '#comunityguidelinesside'), ['class' => 'br-bottom-sidebar'])?>
+	<?= $this->Html->tag('li', $this->Html->link(__('CakeFest'), '#cakefest'), ['class' => 'br-bottom-sidebar'])?>
 </ul>

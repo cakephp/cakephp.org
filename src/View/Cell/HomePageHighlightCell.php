@@ -26,7 +26,7 @@ class HomePageHighlightCell extends Cell
      */
     public function display()
     {
-    	$highlights = $this->loadModel('Showcase.Projects')->getHighlights();
+    	$highlights = $this->loadModel('Projects')->getHighlights();
     	$this->set('highlights', $highlights);
     }
 }
