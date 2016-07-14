@@ -57,7 +57,7 @@
 		the Project, provided that the use is non-commercial and the use is clearly decorative, as contrasted with a use
 		that appears to be the branding for a website or application.')?></p>
 </div>
-<div class="col-sm-12">
+<div class="col-sm-12 hide">
 	<h4 id="license" class="p-trad-sub"><?= __('Uses for which we are granting a license')?></h4>
 	<p>
 		<strong id="software-license" class="pt-20"><?= __('Distribution of modified software')?></strong><br>

@@ -1,4 +1,4 @@
-<section class="ptb-80 back-red">
+<section class="ptb-80 back-red footer-wrapper">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 text-center">

@@ -24,7 +24,7 @@
         <?=
         $this->Html->link(
             __('Showcase'),
-            ['plugin' => 'showcase', 'controller' => 'projects', 'action' => 'index'],
+            ['controller' => 'projects', 'action' => 'index'],
             ['escape' => false]
         );?>
     </li>
@@ -77,10 +77,4 @@
             ?>
         </li>
     <?php endif; ?>
-
-    <li>
-        <div id="wrap" class="hide">
-            <?= $this->element('Layout/default/menu/search') ?>
-        </div>
-    </li>
 </ul>

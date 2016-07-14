@@ -1,3 +1,7 @@
+body {
+	-webkit-overflow-scrolling:  touch !important;
+}
+
 .alert {
 	margin-top: 25px;
 }
@@ -323,4 +327,32 @@ input[type="radio"]:checked:before {
 
 #socials, .footer-wrapper {
 	z-index: 2;
+}
+
+.fa-menu {
+	padding-right: 5px;
+	font-size: 9px !important;
+}
+
+ul li.hide-me {
+	display: none;
+	padding-left: 25px;
+}
+
+ul li.click-me {
+	cursor: pointer;
+}
+
+ul.changelogs {
+	list-style: none;
+}
+
+@media (min-width:992px) {
+	.premium-contact-busi .info {
+		margin-top: 240px !important;
+	}
+}
+
+.carousel-inner>.item>img.img-responsive, .carousel-inner>.item>a>img.img-responsive {
+	width: 100%;
 }

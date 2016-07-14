@@ -11,8 +11,11 @@
 		"cakephp/migrations": "~1.0",
 		"cakephp/plugin-installer": "*",
 		"markstory/asset_compress": "~3.0",
-		"cakedc/showcase": "dev-master",
-		"cakedc/users": "dev-master"
+		"cakedc/users": "@stable",
+		"burzum/cakephp-imagine-plugin": "~2.0",
+		"muffin/tags": "dev-master",
+		"muffin/slug": "~1.0",
+		"josegonzalez/cakephp-upload": "~3.0"
 	},
 	"require-dev": {
 		"psy/psysh": "@stable",

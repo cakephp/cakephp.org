@@ -182,8 +182,11 @@ Request::addDetector('tablet', function ($request) {
 
 Plugin::load('Migrations');
 Plugin::load('AssetCompress', ['bootstrap' => true]);
-Plugin::load('Showcase', ['routes' => true, 'bootstrap' => true]);
 Plugin::load('CakeDC/Users', ['routes' => true, 'bootstrap' => true]);
+Plugin::load('Burzum/Imagine');
+Plugin::load('Josegonzalez/Upload');
+Plugin::load('Muffin/Slug');
+Plugin::load('Muffin/Tags');
 
 // Only try to load DebugKit in development mode
 // Debug Kit should not be installed on a production system
@@ -216,6 +219,4 @@ Type::build('datetime')
 
 /** Site info */
 Configure::load('site');
-
-
-
+Configure::load('changelog');

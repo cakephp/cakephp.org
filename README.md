@@ -1,26 +1,38 @@
-# CakePHP Application Skeleton
+# CakePHP Official Website - cakephp.org
 
-[![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
-[![License](https://img.shields.io/packagist/l/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
+This is the repository for the official [CakePHP Website](http://cakephp.org).
 
-A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.x.
+## Requirements
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+The `master` branch has the following requirements:
+
+* PHP 5.5.2 or greater.
 
 ## Installation
 
-1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
-
-If Composer is installed globally, run
-```bash
-composer create-project --prefer-dist cakephp/app [app_name]
+* Clone the repository
+```sh
+git clone git@github.com:cakephp/cakephp.org.git
 ```
 
-You should now be able to visit the path to where you installed the app and see
-the setup traffic lights.
+* [Download composer](https://getcomposer.org/download/) and install dependencies
+```php
+php composer.phar install
+```
 
-## Configuration
+* Copy `config/app.default.php` to `config/app.php` and configure the database
 
-Read and edit `config/app.php` and setup the 'Datasources' and any other
-configuration relevant for your application.
+* Run migrations:
+```ssh
+bin/cake migrations migrate -p CakeDC/Users
+bin/cake migrations migrate -p Muffin/Tags
+bin/cake migrations migrate
+```
+
+## Reporting Issues
+
+If you see an issue in the [CakePHP Website](http://cakephp.org) or something to improve please open an issue on [GitHub](https://github.com/cakephp/cakephp.org/issues).
+
+## Contributing
+
+If you'd like to contribute to the CakePHP Website, you can [fork](https://help.github.com/articles/fork-a-repo) the project, add features, and send [pull requests](https://help.github.com/articles/using-pull-requests) or open [issues](https://github.com/cakephp/cakephp.org/issues).

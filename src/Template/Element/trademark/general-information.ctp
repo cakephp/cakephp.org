@@ -8,9 +8,9 @@
 
 	<p><?= __('Also, if you are using our Marks in a way described in the sections {0},
 		please put following notice at the foot of the page where you have used the Mark (or, if in a book, on the
-		credits page), on any packaging or labeling, and on advertising or marketing materials: "&lt;&lt;~Mark&gt;&gt;
-		is trademark of &lt;&lt;~MarkOwner&gt;&gt;&lt;&lt;", registered in the United States and other countries" if
-		correct>>. Used with permission from the &lt;&lt;~MarkOwner&gt;&gt;."',
+		credits page), on any packaging or labeling, and on advertising or marketing materials: CakePHP and related Marks
+		are trademarks of Cake Software Foundation, Inc. and Cake Development Corporation, registered in the United States and other countries.
+		Used with permission from Cake Software Foundation, Inc.',
 			$this->Html->link(__('Uses for which we are granting a license'), '#license'))?> </p>
 	<h4 id="abuse" class="p-trad-sub"><?= __('What to do when you see abuse')?></h4>
 

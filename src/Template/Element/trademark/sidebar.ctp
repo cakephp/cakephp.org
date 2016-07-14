@@ -11,7 +11,7 @@
 			</ol>
 		</li>
 		<li><?= $this->Html->link(__('Universal considerations for all uses'), '#universal-considerations')?></li>
-		<li>
+		<li class="hide">
 			<?= $this->Html->link(__('Use for software'), '#software')?>
 			<ol>
 				<li>
@@ -26,7 +26,7 @@
 						<li><?= $this->Html->link(__('Use of trademarks to show community affiliation'), '#affiliation-uses')?></li>
 					</ol>
 				</li>
-				<li>
+				<li class="hide">
 					<?= $this->Html->link(__('Uses for which we are granting a license'), '#license')?>
 					<ol>
 						<li><?= $this->Html->link(__('Distribution of modified software'), '#shotware-license')?></li>
@@ -37,7 +37,7 @@
 						us'), '#permission')?></li>
 			</ol>
 		</li>
-		<li>
+		<li class="hide">
 			<?= $this->Html->link(__('Use for non-software goods and services'), '#non-software')?>
 			<ol>
 				<li>

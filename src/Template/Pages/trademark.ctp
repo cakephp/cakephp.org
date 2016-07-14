@@ -32,9 +32,10 @@
 				<?= $this->element('trademark/guidelines') ?>
 				<?= $this->element('trademark/universal-considerations') ?>
 
-
-				<?= $this->element('trademark/software') ?>
-				<?= $this->element('trademark/non-software') ?>
+				<div class="hide">
+					<?= $this->element('trademark/software') ?>
+					<?= $this->element('trademark/non-software') ?>
+				</div>
 
 				<?= $this->element('trademark/general-information') ?>
 				<?= $this->element('trademark/general-considerations') ?>
