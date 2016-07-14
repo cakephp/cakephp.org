@@ -80,10 +80,10 @@ class ChangelogsTable extends Table
         extract(self::$_settings);
 
         // Check the cache first
-//        $cached = Cache::read('changelog_tags', $cacheEngine);
-//        if ($cached !== false) {
-//            return $cached;
-//        }
+        $cached = Cache::read('changelog_tags', $cacheEngine);
+        if ($cached !== false) {
+            return $cached;
+        }
 
         $gitdir = escapeshellcmd($this->_gitDirectory($path, $repo));
         $git = escapeshellcmd($git);

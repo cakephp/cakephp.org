@@ -355,4 +355,9 @@ ul.changelogs {
 
 .carousel-inner>.item>img.img-responsive, .carousel-inner>.item>a>img.img-responsive {
 	width: 100%;
+
+}
+
+.send-button {
+    padding-top: 40px;
 }
