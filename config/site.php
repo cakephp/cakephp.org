@@ -137,6 +137,11 @@ return [
 						'url' => 'http://www.cakedc.com/',
 						'title' => __('Paid Support')
 					],
+					'googleplus' => [
+						'url' => 'https://plus.google.com/communities/108328920558088369819',
+						'options' => ['target' => '_blank'],
+						'title' => __('Google+')
+					],
 				],
 				'jobs' => [
 					'cakeJobs' => [
@@ -148,6 +153,21 @@ return [
 						'url' => 'https://www.linkedin.com/groups/4623165',
 						'options' => ['target' => '_blank'],
 						'title' => 'LinkedIn'
+					],
+					'freelancer' => [
+						'url' => 'https://www.freelancer.com/find/CakePHP',
+						'options' => ['target' => '_blank'],
+						'title' => 'Freelancer'
+					],
+					'odesk' => [
+						'url' => 'https://www.upwork.com/o/jobs/browse/skill/cakephp/',
+						'options' => ['target' => '_blank'],
+						'title' => 'oDesk'
+					],
+					'cakexperts' => [
+						'url' => 'http://cakexperts.com/',
+						'options' => ['target' => '_blank'],
+						'title' => 'CakeXperts'
 					],
 				],
 				'documentation' => [
