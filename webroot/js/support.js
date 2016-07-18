@@ -2,7 +2,8 @@
 	$('.support-form').on('submit', function (e) {
 		e.preventDefault();
 		var phoneInput = $('#intl-phone-number'),
-			countryInfo = phoneInput.intlTelInput("getSelectedCountryData");
+			countryInfo = phoneInput.intlTelInput("getSelectedCountryData"),
+			__this = this;
 
 		phoneInput.val(countryInfo.dialCode + phoneInput.val());
 
@@ -11,7 +12,7 @@
 		}).fail(function () {
 			$('.rapid-contact-feedback').css('background', 'red').html('Please try again.');
 		}).always(function () {
-			$('#rapidresponse').modal('toggle');
+			$(__this).parents('.modal').modal('toggle');
 		});
 	});
 
