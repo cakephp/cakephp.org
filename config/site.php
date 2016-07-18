@@ -15,7 +15,7 @@ return [
 			],
 			[
 				'image' => 'quote/brad.png',
-				'text' => '“CakePHP was the most efficient way we could find to rapidly develop our intricate system.  We needed a platform that could handle our high volume of users without issues and CakePhP has certainly delivered.”',
+				'text' => '“CakePHP was the most efficient way we could find to rapidly develop our intricate system.  We needed a platform that could handle our high volume of users without issues and CakePHP has certainly delivered.”',
 				'client' => 'Brad Lambden',
 				'company' => 'iWorkZone',
 				'url' => 'https://iworkzone.com/'
@@ -35,7 +35,6 @@ return [
 				'company' => 'Alerrt',
 				'url' => 'http://alerrt.org/'
 			],
-
 
 		],
 		'menu' => [
@@ -74,6 +73,10 @@ return [
 					'blog' => [
 						'url' => 'http://bakery.cakephp.org/',
 						'title' => __('Bakery')
+					],
+					'awesomeList' => [
+						'url' => 'https://github.com/FriendsOfCake/awesome-cakephp',
+						'title' => __('Featured Resources')
 					],
 					'newsletter' => [
 						'url' => [
@@ -120,11 +123,10 @@ return [
 						'options' => ['target' => '_blank'],
 						'title' => __('Stack Overflow')
 					],
-
 					'irc' => [
 						'url' => 'https://kiwiirc.com/client/irc.freenode.net#cakephp',
 						'options' => ['target' => '_blank'],
-						'title' => __('Irc')
+						'title' => 'IRC'
 					],
 					'slack' => [
 						'url' => 'http://cakesf.herokuapp.com/',
@@ -134,6 +136,11 @@ return [
 					'commercial' => [
 						'url' => 'http://www.cakedc.com/',
 						'title' => __('Paid Support')
+					],
+					'googleplus' => [
+						'url' => 'https://plus.google.com/communities/108328920558088369819',
+						'options' => ['target' => '_blank'],
+						'title' => __('Google+')
 					],
 				],
 				'jobs' => [
@@ -145,7 +152,22 @@ return [
 					'linkedin' => [
 						'url' => 'https://www.linkedin.com/groups/4623165',
 						'options' => ['target' => '_blank'],
-						'title' => 'Linkedin'
+						'title' => 'LinkedIn'
+					],
+					'freelancer' => [
+						'url' => 'https://www.freelancer.com/find/CakePHP',
+						'options' => ['target' => '_blank'],
+						'title' => 'Freelancer'
+					],
+					'odesk' => [
+						'url' => 'https://www.upwork.com/o/jobs/browse/skill/cakephp/',
+						'options' => ['target' => '_blank'],
+						'title' => 'oDesk'
+					],
+					'cakexperts' => [
+						'url' => 'http://cakexperts.com/',
+						'options' => ['target' => '_blank'],
+						'title' => 'CakeXperts'
 					],
 				],
 				'documentation' => [
@@ -155,7 +177,7 @@ return [
 					],
 					'api' => [
 						'url' => 'http://api.cakephp.org/',
-						'title' => __('Api')
+						'title' => __('API')
 					],
 					'videos' => [
 						'url' => [

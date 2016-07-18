@@ -23,7 +23,7 @@
 	<title>
 		<?= $this->fetch('title') ?>
 	</title>
-	<?= $this->Html->meta('icon') ?>
+	<?= $this->Html->meta('icon', ['type' => 'icon']) ?>
 	<meta charset="utf-8" >
 
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic%7CMontserrat:400,700' rel='stylesheet'>
@@ -41,8 +41,7 @@
 	<link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
 	<link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
-	<link rel="icon" type="image/png" href="/favicons/favicon.png">
-	<link rel="icon" type="image/png" href="/favicons/android-chrome-192x192.png" sizes="192x192">
+
 	<link rel="manifest" href="/favicons/manifest.json">
 	<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg">
 	<meta name="apple-mobile-web-app-title" content="CakePHP">
@@ -53,6 +52,7 @@
 
 	<?= $this->fetch('meta') ?>
 	<?= $this->fetch('css') ?>
+	<link rel="icon" type="image/png" href="/favicons/favicon.png">
 </head>
 <body>
 <?= $this->element('Layout/default/navbar')?>

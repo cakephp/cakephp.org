@@ -1,3 +1,4 @@
+<?= $this->element('adwords/find-out-more-click')?>
 <div id="development-busi" class="col-sm-12">
 	<div class="col-sm-6 p0">
 		<h2><?= __('Custom Development') ?></h2>
@@ -7,6 +8,17 @@
 		<span class="glyph_range icon-business-dev">l</span>
 	</div>
 	<div class="clearfix"></div>
+
+    <div class="text-center col-sm-6">
+		<?= $this->Html->link(__('Find out more'), '#', [
+			'class' => 'btn btn-expertise mt20',
+			'data-toggle' => 'modal',
+			'data-target' => '#findoutmore'
+		])?>
+
+		<p class="rapid-contact-feedback"></p>
+	</div>
+
 	<div class="col-sm-12 p0">
 		<h3><?= __('Why Choose CakeDC') ?></h3>
 		<h4><?= __('On-Demand Management') ?></h4>
@@ -26,7 +38,7 @@
 			<span class="glyph_range icon-sub-business buss-icon-1">t</span>
 		</div>
 		<div class="col-sm-9 p0">
-			<p><?= __('We provide 3 managed environments to support our') ?> <?= $this->Html->link(__('git workflow'), '#', ['class' => 't-blue']) ?> <?= __('and ensure development, quality assurance and acceptance testing activities are isolated and visible to the client at all times. Deployment is automated, providing insight about the unit test coverage, code quality metrics and build status. Full automation and milestone based iterations provide a stable and predictable release cycle, reducing the overall time to market for the project and helping the Project Owners to successfully deliver their features as expected.') ?></p>
+			<p><?= __('We provide 3 managed environments to support our') ?> <?= $this->Html->link(__('git workflow'), 'http://www.cakedc.com/git-workflow', ['class' => 't-blue']) ?> <?= __('and ensure development, quality assurance and acceptance testing activities are isolated and visible to the client at all times. Deployment is automated, providing insight about the unit test coverage, code quality metrics and build status. Full automation and milestone based iterations provide a stable and predictable release cycle, reducing the overall time to market for the project and helping the Project Owners to successfully deliver their features as expected.') ?></p>
 		</div>
 	</div>
 	<div class="col-md-12 p0">
@@ -67,3 +79,10 @@
 
 	</div>
 </div>
+
+<?= $this->element('rapid_response', [
+	'modalId' => 'findoutmore',
+	'firstTitle' => __('Find out'),
+	'secondTitle' => __('More'),
+	'description' => __('Looking to learn more about what CakeDC has to offer? Share your details with us below, and we\'ll contact you within {0}', $this->Html->tag('strong', __('24 hours!')))
+]) ?>

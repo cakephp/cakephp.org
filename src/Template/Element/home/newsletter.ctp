@@ -97,7 +97,7 @@
 							   tabindex="-1"
 							   value="">
 					</div>
-					<div class="me20 clearfix">
+					<div class="me20 send-button clearfix">
 						<button
 								type="submit"
 							   name="subscribe"
