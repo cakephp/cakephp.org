@@ -7,7 +7,7 @@
 		the CakePHP Framework when you\'re distributing a modified version of it, because people would be confused
 		because they are not getting the same features and functionality they would get if they downloaded the software directly
 		from us. You also cannot use our logo on your website in a way that suggests that your website is an official website or
-		that we endorse your website. You can, though, say you like CakePhp Framework, that you participate in
+		that we endorse your website. You can, though, say you like the CakePHP Framework, that you participate in
 		 the CakePHP community, that you are providing an unmodified version of the CakePHP Framework,
 		 or that you wrote a book describing how to use the CakePHP Framework.',
 		$this->Html->link(__('below'), '#considerations-about', ['class' => 't-blue']),

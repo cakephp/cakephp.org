@@ -29,6 +29,7 @@
 				<div class="row blog-list get-involved">
 					<?= $this->element('get-involved/get-involved') ?>
 					<?= $this->element('get-involved/get-help') ?>
+					<?= $this->element('get-involved/find-job-developer') ?>
 					<?= $this->element('get-involved/community-guidelines') ?>
 					<?= $this->element('get-involved/cakefest') ?>
 				</div>
@@ -36,3 +37,5 @@
 		</div>
 	</div>
 </section>
+
+<?= $this->element('home/newsletter')?>

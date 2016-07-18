@@ -55,7 +55,7 @@ use Cake\Core\Configure;
 			<?= $this->Html->tag(
 				'p',
 				__('{0}: Find news and articles on many topics regarding CakePHP',
-					$this->Html->link(__('Blog'), Configure::read('Site.menu.items.community.blog.url'))
+					$this->Html->link(__('The Bakery'), Configure::read('Site.menu.items.community.blog.url'))
 				))
 			?>
 		</div>
@@ -82,6 +82,19 @@ use Cake\Core\Configure;
 				'p',
 				__('{0}: Official announcements from the CakePHP community',
 					$this->Html->link(__('Facebook'), Configure::read('Site.menu.items.community.facebook.url'), ['target' => '_blank'])
+				))
+			?>
+		</div>
+	</div>
+	<div class="col-sm-12 p0">
+		<div class="col-sm-1 p0">
+			<i class="fa get-social-icon fa-google-plus"></i>
+		</div>
+		<div class="col-sm-11 p0">
+			<?= $this->Html->tag(
+				'p',
+				__('{0}: Official community channel for the project',
+					$this->Html->link(__('Google+'), Configure::read('Site.menu.items.help.googleplus.url'), ['target' => '_blank'])
 				))
 			?>
 		</div>

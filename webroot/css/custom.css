@@ -355,4 +355,28 @@ ul.changelogs {
 
 .carousel-inner>.item>img.img-responsive, .carousel-inner>.item>a>img.img-responsive {
 	width: 100%;
+
+}
+
+.send-button {
+    padding-top: 40px;
+}
+
+#development-busi .btn-expertise {
+	color: white;
+}
+
+.business-solution-t .t-modal-show h4 {
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 35px;
+    font-weight: 200;
+    line-height: 24px;
+}
+
+.business-solution-t p.rapid-contact-feedback {
+	margin-top: 15px;
+	color: white;
 }
