@@ -3,12 +3,14 @@ namespace App\Controller;
 
 use Cake\Core\Configure;
 use Cake\Mailer\Email;
+use Cake\Event\Event;
 
 class ContactsController extends AppController
 {
-    public function beforeFilter($event)
+    public function beforeFilter(Event $event)
     {
         $this->Auth->allow();
+
         return parent::beforeFilter($event);
     }
 
