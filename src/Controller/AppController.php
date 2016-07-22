@@ -17,6 +17,7 @@ namespace App\Controller;
 use Cake\Controller\Controller;
 use Cake\Core\Configure;
 use Cake\Event\Event;
+use Cake\I18n\I18n;
 
 /**
  * Application Controller
@@ -29,47 +30,73 @@ use Cake\Event\Event;
 class AppController extends Controller
 {
 
-    /**
-     * Initialization hook method.
-     *
-     * Use this method to add common initialization code like loading components.
-     *
-     * e.g. `$this->loadComponent('Security');`
-     *
-     * @return void
-     */
-    public function initialize()
-    {
-        parent::initialize();
+	protected $availableLanguages = [
+		'en' => 'en',
+		'ja_JP' => 'jp',
+		'fr_FR' => 'fr'
+	];
 
-        $this->loadComponent('RequestHandler');
-        $this->loadComponent('Flash');
-        $this->loadComponent('Security');
-        $this->loadComponent('Csrf');
-        $this->loadComponent('CakeDC/Users.UsersAuth');
-    }
+	/**
+	 * Initialization hook method.
+	 *
+	 * Use this method to add common initialization code like loading components.
+	 *
+	 * e.g. `$this->loadComponent('Security');`
+	 *
+	 * @return void
+	 */
+	public function initialize()
+	{
+		parent::initialize();
 
-    public function beforeFilter(Event $event)
-    {
-        return parent::beforeFilter($event);
-    }
+		$this->loadComponent('RequestHandler');
+		$this->loadComponent('Flash');
+		$this->loadComponent('Security');
+		$this->loadComponent('Csrf');
+		$this->loadComponent('CakeDC/Users.UsersAuth');
+	}
 
-    /**
-     * Before render callback.
-     *
-     * @param \Cake\Event\Event $event The beforeRender event.
-     * @return void
-     */
-    public function beforeRender(Event $event)
-    {
-        if (!array_key_exists('_serialize', $this->viewVars) &&
-            in_array($this->response->type(), ['application/json', 'application/xml'])
-        ) {
-            $this->set('_serialize', true);
-        }
+	public function beforeFilter(Event $event)
+	{
+		$this->setLocale();
+		return parent::beforeFilter($event);
+	}
+
+	/**
+	 * Before render callback.
+	 *
+	 * @param \Cake\Event\Event $event The beforeRender event.
+	 * @return void
+	 */
+	public function beforeRender(Event $event)
+	{
+		if (!array_key_exists('_serialize', $this->viewVars) &&
+			in_array($this->response->type(), ['application/json', 'application/xml'])
+		) {
+			$this->set('_serialize', true);
+		}
 		$this->set([
 				'_version' => Configure::read('App.version'),
 			]);
-    }
+	}
+
+	/**
+	 * Sets the current locale based on url param and available languages
+	 *
+	 * @return void
+	 */
+	protected function setLocale()
+	{
+		$selectedLanguage = 'en';
+		$lang = $this->request->param('language');
+
+		if ($lang && isset($this->availableLanguages[$lang])) {
+			I18n::locale($lang);
+			$selectedLanguage = $this->availableLanguages[$lang];
+		}
+
+		$this->set('selectedLanguage', $selectedLanguage);
+		$this->set('availableLanguages', $this->availableLanguages);
+	}
 
 }
