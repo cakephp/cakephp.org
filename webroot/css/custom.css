@@ -380,3 +380,16 @@ ul.changelogs {
 	margin-top: 15px;
 	color: white;
 }
+
+.menu {
+	width: auto;
+}
+
+ul.nav.navbar-nav {
+	padding: 15px;
+}
+
+ul.nav.navbar-nav i {
+	vertical-align: middle;
+	margin-left: 5px;
+}

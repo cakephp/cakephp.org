@@ -16,7 +16,7 @@
         <?=
         $this->Html->link(
             __('Business Solutions'),
-            '/pages/business-solutions',
+            ['controller' => 'pages', 'action' => 'display', 'business-solutions'],
             ['escape' => false]
         );?>
     </li>
@@ -77,4 +77,38 @@
             ?>
         </li>
     <?php endif; ?>
+</ul>
+
+<ul class="nav navbar-nav">
+	<li class="dropdown">
+		<?= $this->Html->link(
+			$selectedLanguage . $this->Html->tag('i', '', ['class' => 'fa fa-menu-en fa-chevron-down']),
+			'#',
+			[
+				'class' => 'dropdown-toggle',
+				'data-hover' => 'dropdown',
+				'data-toggle' => 'dropdown',
+				'role' => 'button',
+				'aria-haspopup' => 'true',
+				'aria-expanded' => 'false',
+				'escape' => false
+			]
+		) ?>
+		<ul class="dropdown-menu">
+			<li></li>
+
+			<?php foreach($availableLanguages as $lang => $alias): ?>
+				<?php if ($alias === $selectedLanguage) continue; ?>
+				<?php $pass = $this->request->param('pass') ?>
+				<li>
+					<?= $this->Html->link($alias, [
+						'language' => $lang,
+						'controller' => $this->request->param('controller'),
+						'action' => $this->request->param('action'),
+						isset($pass[0]) ? $pass[0] : null
+					]) ?>
+				</li>
+			<?php endforeach; ?>
+		</ul>
+	</li>
 </ul>
