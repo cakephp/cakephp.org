@@ -96,7 +96,7 @@ Router::scope('/', function (RouteBuilder $routes) {
      */
     $routes->fallbacks('DashedRoute');
 });
-Router::connect('/admin', ['plugin' => 'CakeDC/Users', 'controller' => 'Users', 'action' => 'login']);
+Router::connect('/admin/login', ['plugin' => 'CakeDC/Users', 'controller' => 'Users', 'action' => 'login']);
 /**
  * Load all plugin routes.  See the Plugin documentation on
  * how to customize the loading of plugin routes.
