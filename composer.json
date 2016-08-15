@@ -39,12 +39,6 @@
 			"plugins/Showcase": ["cakedc/showcase"]
 		}
 	},
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "git@git.cakedc.com:cakedc/showcase.git"
-		}
-	],
 	"autoload-dev": {
 		"psr-4": {
 			"App\\Test\\": "tests",
