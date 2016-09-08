@@ -67,9 +67,8 @@ class AppController extends Controller
         ) {
             $this->set('_serialize', true);
         }
-		$this->set([
-				'_version' => Configure::read('App.version'),
-			]);
+        $this->set([
+            '_version' => Configure::read('App.version'),
+        ]);
     }
-
 }

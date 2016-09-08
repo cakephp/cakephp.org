@@ -22,6 +22,7 @@ class ContactsController extends AppController
 
         if ($this->Contacts->save($contact)) {
             $this->sendEmail($contact);
+
             return;
         }
 
