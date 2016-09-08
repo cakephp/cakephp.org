@@ -92,6 +92,10 @@ return [
 						'url' => 'http://certification.cakephp.org/',
 						'title' => __('Certification')
 					],
+					'jobs' => [
+						'url' => 'http://cakephpjobs.com',
+						'title' => __('Jobs')
+					],
 					'myCakephp' => [
 						'url' => 'http://my.cakephp.org/login',
 						'title' => __('My CakePHP')
