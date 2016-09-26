@@ -1,7 +1,7 @@
 <?php
 // Hard code for now. We can't update to 3.2.0 as our
 // servers only have PHP 5.4.
-$version = '3.2.0';
+$version = '3.3.0';
 
 return [
     /**
@@ -45,8 +45,8 @@ return [
         'defaultLocale' => env('APP_DEFAULT_LOCALE', 'en_US'),
         'base' => false,
         'dir' => 'src',
-		'version' => substr($version, 0, strrpos($version, '.')),
-		'webroot' => 'webroot',
+        'version' => substr($version, 0, strrpos($version, '.')),
+        'webroot' => 'webroot',
         'wwwRoot' => WWW_ROOT,
         // 'baseUrl' => env('SCRIPT_NAME'),
         'fullBaseUrl' => false,
