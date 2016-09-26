@@ -42,8 +42,6 @@ use Cake\Routing\Router;
  */
 Router::defaultRouteClass('DashedRoute');
 
-Router::connect('/admin', ['plugin' => 'CakeDC/Users', 'controller' => 'Users', 'action' => 'login']);
-
 Router::addUrlFilter(function ($params, $request) {
 	if (isset($request->params['language']) && !isset($params['language'])) {
 		$params['language'] = $request->params['language'];
@@ -90,7 +88,7 @@ $basicRoutes = function (RouteBuilder $routes) {
 
 	$routes->connect('/showcase', ['controller' => 'Projects', 'action' => 'index']);
 	$routes->prefix('admin', function ($routes) {
-		$routes->connect('/', ['controller' => 'Projects', 'action' => 'index']);
+		$routes->connect('/', ['controller' => 'Dashboards', 'action' => 'index']);
 		$routes->fallbacks('DashedRoute');
 	});
 

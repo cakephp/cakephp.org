@@ -182,6 +182,7 @@ Request::addDetector('tablet', function ($request) {
 
 Plugin::load('Migrations');
 Plugin::load('AssetCompress', ['bootstrap' => true]);
+Configure::write('Users.config', ['users']);
 Plugin::load('CakeDC/Users', ['routes' => true, 'bootstrap' => true]);
 Plugin::load('Burzum/Imagine');
 Plugin::load('Josegonzalez/Upload');
