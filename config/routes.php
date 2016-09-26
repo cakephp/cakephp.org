@@ -42,14 +42,12 @@ use Cake\Routing\Router;
  */
 Router::defaultRouteClass('DashedRoute');
 
-Router::connect('/admin', ['plugin' => 'CakeDC/Users', 'controller' => 'Users', 'action' => 'login']);
-
 Router::addUrlFilter(function ($params, $request) {
-	if (isset($request->params['language']) && !isset($params['language'])) {
-		$params['language'] = $request->params['language'];
-	}
+    if (isset($request->params['language']) && !isset($params['language'])) {
+        $params['language'] = $request->params['language'];
+    }
 
-	return $params;
+    return $params;
 });
 
 $basicRoutes = function (RouteBuilder $routes) {
@@ -78,23 +76,23 @@ $basicRoutes = function (RouteBuilder $routes) {
     $routes->connect('/assets', ['controller' => 'Pages', 'action' => 'display', 'assets']);
     $routes->connect('/logos', ['controller' => 'Pages', 'action' => 'display', 'trademark']);
     $routes->connect('/trademark', ['controller' => 'Pages', 'action' => 'display', 'trademark']);
-	$routes->connect('/get-involved', ['controller' => 'Pages', 'action' => 'display', 'get-involved']);
-	$routes->connect('/team', ['controller' => 'Pages', 'action' => 'display', 'team']);
-	$routes->connect('/business-solutions', ['controller' => 'Pages', 'action' => 'display', 'business-solutions']);
+    $routes->connect('/get-involved', ['controller' => 'Pages', 'action' => 'display', 'get-involved']);
+    $routes->connect('/team', ['controller' => 'Pages', 'action' => 'display', 'team']);
+    $routes->connect('/business-solutions', ['controller' => 'Pages', 'action' => 'display', 'business-solutions']);
 
-	$routes->redirect('/pages/documentation', 'http://book.cakephp.org/');
+    $routes->redirect('/pages/documentation', 'http://book.cakephp.org/');
     $routes->redirect('/documentation', 'http://book.cakephp.org/');
     $routes->connect('/changelogs', ['controller' => 'Changelogs', 'action' => 'index']);
     $routes->connect('/changelogs/*', ['controller' => 'Changelogs', 'action' => 'view']);
     $routes->redirect('/development', ['controller' => 'Pages', 'action' => 'display', 'business-solutions']);
 
-	$routes->connect('/showcase', ['controller' => 'Projects', 'action' => 'index']);
-	$routes->prefix('admin', function ($routes) {
-		$routes->connect('/', ['controller' => 'Projects', 'action' => 'index']);
-		$routes->fallbacks('DashedRoute');
-	});
+    $routes->connect('/showcase', ['controller' => 'Projects', 'action' => 'index']);
+    $routes->prefix('admin', function ($routes) {
+        $routes->connect('/', ['controller' => 'Dashboards', 'action' => 'index']);
+        $routes->fallbacks('DashedRoute');
+    });
 
-	/**
+    /**
      * Connect catchall routes for all controllers.
      *
      * Using the argument `DashedRoute`, the `fallbacks` method is a shortcut for
@@ -114,9 +112,9 @@ $basicRoutes = function (RouteBuilder $routes) {
 };
 
 $realRoutes = function ($routes) use ($basicRoutes) {
-	$routes->scope('/', $basicRoutes);
+    $routes->scope('/', $basicRoutes);
 
-	return $routes;
+    return $routes;
 };
 
 Router::scope('/jp', ['language' => 'ja_JP'], $realRoutes);
