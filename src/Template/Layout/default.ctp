@@ -57,6 +57,7 @@
 <body>
 <?= $this->element('Layout/default/navbar')?>
 <?= $this->Flash->render() ?>
+<?= $this->Flash->render('auth') ?>
 <section class="clearfix">
 	<?= $this->fetch('content') ?>
 </section>

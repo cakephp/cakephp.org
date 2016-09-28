@@ -380,3 +380,29 @@ ul.changelogs {
 	margin-top: 15px;
 	color: white;
 }
+
+.menu {
+	width: auto;
+}
+
+ul.nav.navbar-nav {
+	padding: 15px;
+}
+
+ul.nav.navbar-nav i {
+	vertical-align: middle;
+	margin-left: 5px;
+}
+
+.navbar-right .nav>li>a, .navbar-right .nav>li>a:hover, .navbar-right .nav>li>a:focus, .navbar-right .dropdown-menu {
+	background-color: #d33c44;
+	color: white;
+}
+
+.navbar-right .dropdown-menu > li > a {
+	color: white;
+}
+
+.navbar-right .dropdown-menu > li > a:hover {
+	background-color: #e23e47;
+}
