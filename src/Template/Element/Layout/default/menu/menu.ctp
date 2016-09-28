@@ -79,7 +79,7 @@
     <?php endif; ?>
 </ul>
 
-<ul class="nav navbar-nav">
+<ul class="nav navbar-nav hide">
 	<li class="dropdown">
 		<?= $this->Html->link(
 			$selectedLanguage . $this->Html->tag('i', '', ['class' => 'fa fa-menu-en fa-chevron-down']),
