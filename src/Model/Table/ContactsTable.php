@@ -82,13 +82,13 @@ class ContactsTable extends Table
      */
     public function createRapidContact($data)
     {
-    	$contact = $this->newEntity();
-    	$contact->set('name', $data['name']);
-    	$contact->set('email', $data['email']);
-    	$contact->set('subject', $this->extractRapidSubject($data));
-    	$contact->set('body', $this->extractRapidBody($data));
+        $contact = $this->newEntity();
+        $contact->set('name', $data['name']);
+        $contact->set('email', $data['email']);
+        $contact->set('subject', $this->extractRapidSubject($data));
+        $contact->set('body', $this->extractRapidBody($data));
 
-    	return $contact;
+        return $contact;
     }
 
     /**
@@ -99,24 +99,24 @@ class ContactsTable extends Table
      */
     private function extractRapidBody($data)
     {
-    	$intro = 'Hi, my name is ' . $data['name'] . '. Please ';
-    	$body = '';
+        $intro = 'Hi, my name is ' . $data['name'] . '. Please ';
+        $body = '';
 
-    	switch ($data['type']) {
-	    	case 'email':
-				$body = 'email me at ' . $data['email'];
-				break;
-			case 'call':
-				$body = 'call me on ' . $data['phone'];
-				break;
-			case 'skype':
-				$body = 'skype me at ' . $data['skype'];
-				break;
-			default:
-				throw new \InvalidArgumentException();
-    	}
+        switch ($data['type']) {
+            case 'email':
+                $body = 'email me at ' . $data['email'];
+                break;
+            case 'call':
+                $body = 'call me on ' . $data['phone'];
+                break;
+            case 'skype':
+                $body = 'skype me at ' . $data['skype'];
+                break;
+            default:
+                throw new \InvalidArgumentException();
+        }
 
-		return $intro . $body . '. Thanks.';
+        return $intro . $body . '. Thanks.';
     }
 
     /**
@@ -127,32 +127,32 @@ class ContactsTable extends Table
      */
     private function extractRapidSubject($data)
     {
-    	$subject = '';
-    	switch ($data['subject']) {
-    		case 'other':
-				$subject = 'Rapid Response';
-				break;
-			case 'dev':
-				$subject = 'Rapid Response: Development';
-				break;
-			case 'consultancy':
-				$subject = 'Rapid Response: Consultancy';
-				break;
-			case 'review':
-				$subject = 'Rapid Response: Code Review';
-				break;
-			case 'migration':
-				$subject = 'Rapid Response: Migration';
-				break;
-			case 'training':
-				$subject = 'Rapid Response: Training';
-				break;
-			default:
-				throw new \InvalidArgumentException();
-		}
+        $subject = '';
+        switch ($data['subject']) {
+            case 'other':
+                $subject = 'Rapid Response';
+                break;
+            case 'dev':
+                $subject = 'Rapid Response: Development';
+                break;
+            case 'consultancy':
+                $subject = 'Rapid Response: Consultancy';
+                break;
+            case 'review':
+                $subject = 'Rapid Response: Code Review';
+                break;
+            case 'migration':
+                $subject = 'Rapid Response: Migration';
+                break;
+            case 'training':
+                $subject = 'Rapid Response: Training';
+                break;
+            default:
+                throw new \InvalidArgumentException();
+        }
 
-		$subject .= " ({$data['name']} / {$data['email']})";
+        $subject .= " ({$data['name']} / {$data['email']})";
 
-		return $subject;
+        return $subject;
     }
 }

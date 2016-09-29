@@ -60,6 +60,7 @@ class ChangelogsController extends AppController
     {
         if (!$tag || !in_array($tag, $this->Changelogs->tags())) {
             $this->Flash->error(__('Invalid tag for changelogs'));
+
             return $this->redirect(['action' => 'index']);
         }
         $tags = $this->Changelogs->tags();

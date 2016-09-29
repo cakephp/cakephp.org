@@ -5,20 +5,20 @@ use Josegonzalez\Upload\File\Transformer\DefaultTransformer;
 
 class GenerateDifferentVersionsTransformer extends DefaultTransformer
 {
-	public function transform()
-	{
-		$result = parent::transform();
+    public function transform()
+    {
+        $result = parent::transform();
 
-		$slider = new SliderVersion($this->data);
-		$highlight = new HighlightVersion($this->data);
-		$small = new SmallVersion($this->data);
+        $slider = new SliderVersion($this->data);
+        $highlight = new HighlightVersion($this->data);
+        $small = new SmallVersion($this->data);
 
-		$result = parent::transform();
+        $result = parent::transform();
 
-		foreach ([$slider, $highlight, $small] as $version) {
-			$result = array_merge($result, $version->generate());
-		}
+        foreach ([$slider, $highlight, $small] as $version) {
+            $result = array_merge($result, $version->generate());
+        }
 
-		return $result;
-	}
+        return $result;
+    }
 }

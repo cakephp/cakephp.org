@@ -17,6 +17,7 @@ class ProjectsController extends AppController
             $this->loadModel('Muffin/Tags.Tags');
             $this->set('tags', $this->Tags->find('list', ['keyField' => 'label']));
         }
+
         return parent::beforeFilter($event);
     }
 
@@ -65,6 +66,7 @@ class ProjectsController extends AppController
             $project = $this->Projects->patchEntity($project, $this->request->data, $this->patchOptions);
             if ($this->Projects->save($project)) {
                 $this->Flash->success(__('The project has been saved.'));
+
                 return $this->redirect(['action' => 'index']);
             } else {
                 $this->Flash->error(__('The project could not be saved. Please, try again.'));
@@ -113,6 +115,7 @@ class ProjectsController extends AppController
 
             if ($this->Projects->save($project)) {
                 $this->Flash->success(__('The project has been saved.'));
+
                 return $this->redirect(['action' => 'index']);
             } else {
                 $this->Flash->error(__('The project could not be saved. Please, try again.'));
@@ -138,6 +141,7 @@ class ProjectsController extends AppController
         } else {
             $this->Flash->error(__('The project could not be deleted. Please, try again.'));
         }
+
         return $this->redirect(['action' => 'index']);
     }
 }
