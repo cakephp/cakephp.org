@@ -2,7 +2,7 @@
     'business' => [
         'class' => 'menu-title',
         'icon' => 'fa fa-menu-title fa-briefcase',
-        'url' => '/pages/business-solutions',
+        'url' => ['controller' => 'pages', 'action' => 'display', 'business-solutions'],
 		'title' => __('Business Solutions')
     ],
     'showcase' => [
