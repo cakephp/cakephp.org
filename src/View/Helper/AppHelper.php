@@ -1,36 +1,44 @@
 <?php
 namespace App\View\Helper;
 
-use Cake\I18n\Time;
 use Cake\Core\Configure;
-use Cake\View\Helper;
+use Cake\I18n\Time;
 use Cake\Utility\Hash;
+use Cake\View\Helper;
 use DateTime;
 
 class AppHelper extends Helper
 {
-    public $helpers = ['Html'];
+
+    /**
+     * Helpers
+     *
+     * @var array
+     */
+    public $helpers = [
+        'Html'
+    ];
 
     /**
      * Adds http to the begining if not there yet
      *
-     * @param string $link
+     * @param string $link URL / Link.
      * @return string
      */
     public function externalLink($link)
     {
-    	if (!preg_match('/^(http|https)/', $link)) {
-    		return 'http://'. $link;
-    	}
+        if (!preg_match('/^(http|https)/', $link)) {
+            return 'http://' . $link;
+        }
 
-    	return $link;
+        return $link;
     }
 
 
     /**
      * Outputs the footer menu items
      *
-     * @param array $items
+     * @param array $items Items to process.
      * @return string
      */
     public function menuItems($items)
@@ -47,12 +55,12 @@ class AppHelper extends Helper
                 $icon = Hash::get($options, 'icon', $icon);
                 $url = Hash::get($options, 'url', '#');
                 $class = Hash::get($options, 'class', '');
-				$title = Hash::get($options, 'title', '');
+                $title = Hash::get($options, 'title', '');
 
-				$linkOptions = array_merge($linkOptions, Hash::get($options, 'options', []));
+                $linkOptions = array_merge($linkOptions, Hash::get($options, 'options', []));
             } else {
-				$title = $key;
-			}
+                $title = $key;
+            }
 
             $link = $this->Html->link(
                 $this->Html->tag('i', '', ['class' => $icon]) . __($title),
@@ -66,55 +74,63 @@ class AppHelper extends Helper
         return $result;
     }
 
-	/**
-	 * Checks the active and return active class
-	 *
-	 * @param string $controller
-	 * @return string
-	 */
-	public function active($controller)
-	{
-		return strtolower($this->request->controller) == strtolower($controller) ? 'active' : '';
-	}
+    /**
+     * Checks the active and return active class
+     *
+     * @param string $controller Controller instance.
+     * @return string
+     */
+    public function active($controller)
+    {
+        return strtolower($this->request->controller) == strtolower($controller) ? 'active' : '';
+    }
 
-	/**
-	 * Returns if cakefest is done
-	 *
-	 * @return bool
-	 */
-	public function isCakeFestDone()
-	{
-		$endDate = Configure::read('Site.cakefest.end_date');
-		return (new Time($endDate)) < (new Time());
-	}
+    /**
+     * Returns if cakefest is done
+     *
+     * @return bool
+     */
+    public function isCakeFestDone()
+    {
+        $endDate = Configure::read('Site.cakefest.end_date');
 
-	/**
-	 * Returns if cakefest still in future
-	 *
-	 * @return bool
-	 */
-	public function isCakeFestInFuture()
-	{
-		$startDate = Configure::read('Site.cakefest.start_date');
-		return (new Time($startDate)) > (new Time());
-	}
+        return (new Time($endDate)) < (new Time());
+    }
 
-	/**
-	 * Get days left for cakefest
-	 *
-	 * @return int
-	 */
-	public function cakeFestDaysLeft()
-	{
-		$startDate = Configure::read('Site.cakefest.start_date');
-		return (new Time($startDate))->diff(new Time())->days;
-	}
+    /**
+     * Returns if cakefest still in future
+     *
+     * @return bool
+     */
+    public function isCakeFestInFuture()
+    {
+        $startDate = Configure::read('Site.cakefest.start_date');
 
-	public function cakeFestDates()
-	{
-		$startDate = new DateTime(Configure::read('Site.cakefest.start_date'));
-		$endDate = new DateTime(Configure::read('Site.cakefest.end_date'));
-		return __('{0} to {1}', $startDate->format('M d'), $endDate->format('M d'));
+        return (new Time($startDate)) > (new Time());
+    }
 
-	}
+    /**
+     * Get days left for cakefest
+     *
+     * @return int
+     */
+    public function cakeFestDaysLeft()
+    {
+        $startDate = Configure::read('Site.cakefest.start_date');
+
+        return (new Time($startDate))->diff(new Time())->days;
+    }
+
+    /**
+     * CakeFestDates
+     *
+     * @return string
+     */
+    public function cakeFestDates()
+    {
+        $startDate = new DateTime(Configure::read('Site.cakefest.start_date'));
+        $endDate = new DateTime(Configure::read('Site.cakefest.end_date'));
+
+        return __('{0} to {1}', $startDate->format('M d'), $endDate->format('M d'));
+    }
 }

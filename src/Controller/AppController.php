@@ -33,7 +33,6 @@ class AppController extends Controller
 	protected $availableLanguages = [
 		'en' => 'en',
 		'ja_JP' => 'jp',
-		'fr_FR' => 'fr'
 	];
 
 	/**
@@ -63,24 +62,6 @@ class AppController extends Controller
 	}
 
 	/**
-	 * Before render callback.
-	 *
-	 * @param \Cake\Event\Event $event The beforeRender event.
-	 * @return void
-	 */
-	public function beforeRender(Event $event)
-	{
-		if (!array_key_exists('_serialize', $this->viewVars) &&
-			in_array($this->response->type(), ['application/json', 'application/xml'])
-		) {
-			$this->set('_serialize', true);
-		}
-		$this->set([
-				'_version' => Configure::read('App.version'),
-			]);
-	}
-
-	/**
 	 * Sets the current locale based on url param and available languages
 	 *
 	 * @return void
@@ -99,4 +80,21 @@ class AppController extends Controller
 		$this->set('availableLanguages', $this->availableLanguages);
 	}
 
+    /**
+     * Before render callback.
+     *
+     * @param \Cake\Event\Event $event The beforeRender event.
+     * @return void
+     */
+    public function beforeRender(Event $event)
+    {
+        if (!array_key_exists('_serialize', $this->viewVars) &&
+            in_array($this->response->type(), ['application/json', 'application/xml'])
+        ) {
+            $this->set('_serialize', true);
+        }
+        $this->set([
+            '_version' => Configure::read('App.version'),
+        ]);
+    }
 }
