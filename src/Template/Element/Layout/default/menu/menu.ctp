@@ -79,10 +79,10 @@
     <?php endif; ?>
 </ul>
 
-<ul class="nav navbar-nav">
+<ul class="nav navbar-nav language menu">
 	<li class="dropdown">
 		<?= $this->Html->link(
-			$selectedLanguage . $this->Html->tag('i', '', ['class' => 'fa fa-menu-en fa-chevron-down']),
+			$this->Html->tag('i', '', ['class' => 'fa fa-menu fa-menu-en fa-chevron-down']) . $selectedLanguage,
 			'#',
 			[
 				'class' => 'dropdown-toggle',
@@ -94,7 +94,7 @@
 				'escape' => false
 			]
 		) ?>
-		<ul class="dropdown-menu">
+		<ul class="submenu language">
 			<li></li>
 
 			<?php foreach($availableLanguages as $lang => $alias): ?>
