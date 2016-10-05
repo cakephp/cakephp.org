@@ -29,9 +29,11 @@
                             <div class="panel">
                                 <div class="panel-heading p0">
                                     <h4 class="panel-title title-responsivo-menu">
-                                        <a href="/pages/business-solutions">
-                                            <i class="fa fa-caret-right upside-stop"></i><?= __('Business Solutions') ?>
-                                        </a>
+                                        <?= $this->Html->link(
+                                            '<i class="fa fa-caret-right upside-stop"></i>' . h(__('Business Solutions')),
+                                            ['controller' => 'pages', 'action' => 'display', 'business-solutions'],
+                                            ['escape' => false]
+                                        ) ?>
                                     </h4>
                                 </div>
                             </div>
@@ -39,9 +41,11 @@
                             <div class="panel">
                                 <div class="panel-heading p0">
                                     <h4 class="panel-title title-responsivo-menu">
-                                        <a href="/showcase">
-                                            <i class="fa fa-caret-right upside-stop"></i><?= __('Showcase') ?>
-                                        </a>
+                                        <?= $this->Html->link(
+                                            '<i class="fa fa-caret-right upside-stop"></i>' . h(__('Showcase')),
+                                            ['controller' => 'projects', 'action' => 'index'],
+                                            ['escape' => false]
+                                        ) ?>
                                     </h4>
                                 </div>
                             </div>

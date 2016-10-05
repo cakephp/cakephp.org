@@ -33,12 +33,12 @@ class Project extends Entity
 
     protected function _getTagsArray()
     {
-    	if (empty($this->tags)) {
-    		return '';
-    	}
+        if (empty($this->tags)) {
+            return '';
+        }
 
-    	return collection($this->tags)->map(function ($t) {
-    		return $t->label;
-    	})->toArray();
+        return collection($this->tags)->map(function ($t) {
+            return $t->label;
+        })->toArray();
     }
 }
