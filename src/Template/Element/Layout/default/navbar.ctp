@@ -4,8 +4,8 @@
             <div class="col-sm-3 col-md-3">
                 <?=
                 $this->Html->link(
-                    $this->Html->image('logo-cake.png', ['alt' => __('Home'), 'fullBase' => true]),
-                    ['controller' => 'pages', 'action' => 'display', 'home'],
+                    $this->Html->image('logo-cake.png', ['alt' => __('Home')]),
+                    '/',
                     ['escape' => false, 'class' => 'logo-cake']
                 ); ?>
             </div>
@@ -22,8 +22,8 @@
             <div class="col-sm-6 col-xs-6">
                 <?=
                 $this->Html->link(
-                    $this->Html->image('logo-cake.png', ['alt' => __('Home'), 'fullBase' => true]),
-                    ['controller' => 'pages', 'action' => 'display', 'home'],
+                    $this->Html->image('logo-cake.png', ['alt' => __('Home')]),
+                    '/',
                     ['escape' => false, 'class' => 'logo-cake']
                 ); ?>
             </div>
