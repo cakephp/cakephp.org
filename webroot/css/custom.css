@@ -406,3 +406,13 @@ ul.nav.navbar-nav i {
 .navbar-right .dropdown-menu > li > a:hover {
 	background-color: #e23e47;
 }
+
+
+
+li.language ul.submenu {
+	top: 76px;
+}
+
+li.language a {
+	text-transform: none;
+}

@@ -94,6 +94,7 @@ class ChangelogsTable extends Table
         }
         $tags = array_reverse($tags);
         Cache::write('changelog_tags', $tags);
+
         return $tags;
     }
 
@@ -162,6 +163,7 @@ class ChangelogsTable extends Table
             $changes[$matches[1]] = $matches[2];
         }
         Cache::write('commits_' . $tag, $changes, $cacheEngine);
+
         return $changes;
     }
 
@@ -180,6 +182,7 @@ class ChangelogsTable extends Table
         if (preg_match('/^.*\.git$/', $repo)) {
             return $gitdir;
         }
+
         return $gitdir . DS . '.git';
     }
 }

@@ -10,20 +10,21 @@ use Cake\Event\Event;
  */
 class ProjectsController extends AppController
 {
-	public function beforeFilter(Event $event)
-	{
-		$this->Auth->allow();
-		return parent::beforeFilter($event);
-	}
+    public function beforeFilter(Event $event)
+    {
+        $this->Auth->allow();
 
-	public function index()
-	{
-		$this->set('highlights', $this->Projects->getHighlights('highlights'));
-		$this->set('projects', $this->Projects->find('showcase'));
-	}
+        return parent::beforeFilter($event);
+    }
 
-	public function view($slug)
-	{
-		$this->set('project', $this->Projects->where(['slug' => $slug])->firstOrFail());
-	}
+    public function index()
+    {
+        $this->set('highlights', $this->Projects->getHighlights('highlights'));
+        $this->set('projects', $this->Projects->find('showcase'));
+    }
+
+    public function view($slug)
+    {
+        $this->set('project', $this->Projects->where(['slug' => $slug])->firstOrFail());
+    }
 }

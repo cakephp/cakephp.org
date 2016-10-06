@@ -16,7 +16,7 @@ msgstr ""
 
 #: Controller/ChangelogsController.php:62
 msgid "Invalid tag for changelogs"
-msgstr ""
+msgstr "Tag invalide pour les changelogs"
 
 #: Template/Changelogs/index.ctp:3
 #: Template/Changelogs/view.ctp:3
@@ -26,7 +26,7 @@ msgstr ""
 #: Template/Changelogs/index.ctp:4
 #: Template/Changelogs/view.ctp:4
 msgid "CakePHP Changelogs."
-msgstr ""
+msgstr "Changelogs de CakePHP."
 
 #: Template/Changelogs/index.ctp:15
 #: Template/Changelogs/view.ctp:15
@@ -44,98 +44,98 @@ msgstr ""
 
 #: Template/Changelogs/index.ctp:30
 msgid "CakePHP's code repositories are hosted at {0}."
-msgstr "CakePHPのコードリポジトリは{0}で管理されています。"
+msgstr "Les dépôts de code de CakePHP sont hébérgés sur {0}."
 
 #: Template/Changelogs/index.ctp:36
 msgid "Security Issues"
-msgstr "セキュリティ上の問題"
+msgstr "Issues de Sécurité"
 
 #: Template/Changelogs/index.ctp:39
 msgid "Found a security exploit in CakePHP? Please don't message the mailing list, or open an issue on Github."
-msgstr "CakePHPにセキュリティ上の弱点を発見しましたか？　どうかメーリングリストに投稿したり、Github上で問題を公開したりしないでください。"
+msgstr "Vous avez trouvé une faille de sécurité dans CakePHP? Merci de ne pas envoyer de message à la mailing liste, ou n'ouvrez pas d'issue sur Github."
 
 #: Template/Changelogs/index.ctp:40
 msgid "Instead, please email {0}."
-msgstr "代わりに、どうぞ{0}までメールをお送りください。"
+msgstr "À la place, merci de nous envoyer un email à {0}."
 
 #: Template/Changelogs/index.ctp:41
 msgid "Email sent to this address are forwarded to the maintainers of CakePHP."
-msgstr "このアドレスに送られたメールはCakePHPの保守管理者に転送されます。"
+msgstr "Les emails envoyés à cette adresse sont transférés aux mainteneurs de CakePHP."
 
 #: Template/Changelogs/index.ctp:46
 msgid "When a security issue is reported, we first try to confirm the vulnerability."
-msgstr "セキュリティ上の問題が報告されると、私たちはまずその脆弱性の確認を行います。"
+msgstr "Quand une issue de sécurité est reportée, nous essayons d'abord de confirmer la vulnérabilité."
 
 #: Template/Changelogs/index.ctp:47
 msgid "Once confirmed, we'll do the following:"
-msgstr "確認が取れた場合、私たちは以下の通りにします:"
+msgstr "Une fois confirmée, nous ferons ce qui suit:"
 
 #: Template/Changelogs/index.ctp:51
 msgid "Send acknowledgement to the reporter, that we received and confirmed the issue."
-msgstr "問題を受理し確認した旨、報告者の方に感謝のご連絡をします。"
+msgstr "Envoyer une reconnaissance au rapporteur que nous avons reçu et confirmé l'issue."
 
 #: Template/Changelogs/index.ctp:52
 msgid "Work on a patch to fix the issue."
-msgstr "問題を修正するためのパッチに取り組みます。"
+msgstr "Travailler sur un patch pour régler l'issue."
 
 #: Template/Changelogs/index.ctp:53
 msgid "Write a post describing the vulnerability, possible exploits and provide instructions on how to apply the patch / upgrade."
-msgstr "脆弱性、可能性のある攻撃について記述した投稿を書き、パッチ／更新を適用する方法について説明します。"
+msgstr ""
 
 #: Template/Changelogs/index.ctp:54
 msgid "Apply the patch to all maintained and affected versions of CakePHP"
-msgstr "保守中で影響を受けるCakePHPのバージョンすべてにパッチを適用します。"
+msgstr ""
 
 #: Template/Changelogs/index.ctp:55
 msgid "Create new packaged releases for each affected version."
-msgstr "影響を受ける各バージョンについて新しくパッケージ化されたリリースを作成します。"
+msgstr ""
 
 #: Template/Changelogs/index.ctp:56
 msgid "Publish the post on the CakePHP blog/Bakery"
-msgstr "投稿をCakePHPブログ／Bakery上で公開します。"
+msgstr ""
 
 #: Template/Changelogs/index.ctp:59
 msgid "Continuous Integration"
-msgstr "継続的インテグレーション"
+msgstr ""
 
 #: Template/Changelogs/index.ctp:61
 msgid "CakePHP is {0} check the status of the {1} on Travis CI."
-msgstr "CakePHPはTravis CI上で{1}のステータスを確認する{0}が行われています。"
+msgstr ""
 
 #: Template/Changelogs/index.ctp:63
 #: Template/Element/get-involved/get-involved.ctp:159
 msgid "continuously integrated"
-msgstr "継続的インテグレーション"
+msgstr ""
 
 #: Template/Changelogs/index.ctp:64
 #: Template/Element/get-involved/get-involved.ctp:160
 msgid "various builds"
-msgstr "さまざまなビルド"
+msgstr ""
 
 #: Template/Changelogs/index.ctp:68
 #: Template/Element/get-involved/get-help.ctp:45
 msgid "Issues"
-msgstr "問題"
+msgstr ""
 
 #: Template/Changelogs/index.ctp:70
 msgid "Found a bug? Suggest an improvement? Issue tracking for CakePHP can be found at {0}."
-msgstr "不具合を発見しましたか？　機能追加のご提案ですか？　CakePHPの課題管理システムは{0}にあります。"
+msgstr ""
 
 #: Template/Changelogs/index.ctp:76
 msgid "Contributing"
-msgstr "貢献"
+msgstr ""
 
 #: Template/Changelogs/index.ctp:79
 msgid "Contributing to CakePHP is easy."
-msgstr "CakePHPに貢献するのは簡単です。"
+msgstr ""
 
 #: Template/Changelogs/index.ctp:80
 msgid "Checkout the {0} for how you can get started contributing to CakePHP."
-msgstr "CakePHPへの貢献の始め方については{0}をご覧ください。"
+msgstr ""
 
 #: Template/Changelogs/index.ctp:82
 msgid "guide on contributing"
-msgstr "貢献の案内"
+msgstr ""
 
 #: Template/Changelogs/view.ctp:39
 msgid "Version {0}"
@@ -224,26 +224,26 @@ msgstr ""
 #: Template/Element/Layout/default/footer/menu/column_four.ctp:12
 #: Template/Element/Layout/default/menu/menu.ctp:58
 msgid "Help & Support"
-msgstr "ヘルプとサポート"
+msgstr ""
 
 #: Template/Element/Layout/default/footer/menu/column_one.ctp:6
 #: Template/Element/Layout/default/menu/menu.ctp:18
 #: Template/Element/Layout/default/menu/mobile_menu.ctp:33
 #: Template/Pages/business_solutions.ctp:12
 msgid "Business Solutions"
-msgstr "ビジネスソリューション"
+msgstr ""
 
 #: Template/Element/Layout/default/footer/menu/column_one.ctp:12
 #: Template/Element/Layout/default/menu/menu.ctp:26
 #: Template/Element/Layout/default/menu/mobile_menu.ctp:43
 msgid "Showcase"
-msgstr "ショーケース"
+msgstr ""
 
 #: Template/Element/Layout/default/footer/menu/column_three.ctp:2
 #: Template/Element/Layout/default/menu/menu.ctp:34;45
 #: Template/Element/Layout/default/menu/mobile_menu.ctp:53;66
 msgid "Community"
-msgstr "コミュニティ"
+msgstr ""
 
 #: Template/Element/Layout/default/footer/menu/column_two.ctp:2
 #: Template/Element/Layout/default/menu/menu.ctp:6
@@ -251,7 +251,7 @@ msgstr "コミュニティ"
 #: Template/Element/get-involved/get-involved.ctp:168
 #: Template/Element/get-involved/sidebar.ctp:11
 msgid "Documentation"
-msgstr "ドキュメント"
+msgstr ""
 
 #: Template/Element/Layout/default/menu/menu.ctp:73
 msgid "Logout"
@@ -665,7 +665,7 @@ msgstr ""
 
 #: Template/Element/get-involved/cakefest.ctp:2
 msgid "The Annual CakePHP Conference"
-msgstr "年次CakePHP会議"
+msgstr ""
 
 #: Template/Element/get-involved/cakefest.ctp:3
 #: Template/Element/get-involved/sidebar.ctp:17
@@ -674,35 +674,35 @@ msgstr ""
 
 #: Template/Element/get-involved/cakefest.ctp:4
 msgid "Every year we hold a conference dedicated to CakePHP, hosting live workshops and inviting a variety of great\n\t\tspeakers, to give you the very best in presentations and talks on the latest from the community:"
-msgstr "毎年、私たちはCakePHPに打ち込む会議を開催しており、ワークショップを主催し、コミュニティから最新の発表や談話を提供するために多くの素晴らしい話者を招待しています。"
+msgstr ""
 
 #: Template/Element/get-involved/cakefest.ctp:7
 msgid "The workshops are a great way to learn CakePHP, and get up-to-date with the latest versions and innovations,\n\t\t\tdirectly from the core developers of the framework!"
-msgstr "ワークショップはCakePHPを学ぶための素晴らしい方法で、直近のバージョンや技術に関する最新情報をフレームワークのコア開発者から直接得ることができます！"
+msgstr ""
 
 #: Template/Element/get-involved/cakefest.ctp:10
 msgid "The conference days are packed with presentations, discussions and talks on CakePHP and related\n\t\t\ttechnologies, an ideal moment to learn more from the community."
-msgstr "会議の日程にはCakePHPや関連技術についての発表、議論および談話が詰め込まれており、コミュニティから多くを学ぶ理想的な時間になります。"
+msgstr ""
 
 #: Template/Element/get-involved/cakefest.ctp:13
 msgid "It's a great opportunity to network, meet friends old and new, and have some fun with the core members of\n\t\t\tthe project. Plus, there's cake!"
-msgstr "ネットワークを作る、旧知のまたは新しい友達に会う、そしてプロジェクトのコアメンバーと楽しむ素晴らしい機会です。そして、ケーキが出ます！"
+msgstr ""
 
 #: Template/Element/get-involved/cakefest.ctp:17
 msgid "More information on the conference and ticket sales can be found on the {0}"
-msgstr "会議およびチケット販売に関する詳しい情報は{0}にあります。"
+msgstr ""
 
 #: Template/Element/get-involved/cakefest.ctp:18
 msgid "CakeFest website"
-msgstr "CakeFestウェブサイト"
+msgstr ""
 
 #: Template/Element/get-involved/community-guidelines.ctp:6
 msgid "Find Jobs or Developers"
-msgstr "仕事や開発者を探す"
+msgstr ""
 
 #: Template/Element/get-involved/community-guidelines.ctp:7
 msgid "If you're looking for skilled CakePHP developers, or are a developer yourself and seeking a freelance project or\n\t\tposition at a company, there are many resources available:"
-msgstr "もし熟練のCakePHP開発者を探しているか、あるいは開発者自身でフリーランスのプロジェクトまたは職場を探しているのであれば、たくさんのリソースがあります。"
+msgstr ""
 
 #: Template/Element/get-involved/community-guidelines.ctp:10
 msgid "LinkedIn"
@@ -710,7 +710,7 @@ msgstr ""
 
 #: Template/Element/get-involved/community-guidelines.ctp:11
 msgid "Official career group for CakePHP related opportunities"
-msgstr "CakePHP関連の雇用機会のための公式キャリアグループです"
+msgstr ""
 
 #: Template/Element/get-involved/community-guidelines.ctp:13
 msgid "CakePHPJobs"
@@ -718,7 +718,7 @@ msgstr ""
 
 #: Template/Element/get-involved/community-guidelines.ctp:14
 msgid "CakePHP related job postings"
-msgstr "CakePHP関連の求人です"
+msgstr ""
 
 #: Template/Element/get-involved/community-guidelines.ctp:16
 msgid "CakeDC"
@@ -726,32 +726,32 @@ msgstr ""
 
 #: Template/Element/get-involved/community-guidelines.ctp:17
 msgid "Development and consultancy from the experts"
-msgstr "専門家による開発とコンサルティングです"
+msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:6
 #: Template/Element/get-involved/sidebar.ctp:15
 msgid "Get Help"
-msgstr "助けを求める"
+msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:8
 msgid "Looking for help but don't know where to find it? Here are all the locations you can find community driven\n\t\tsupport and sources of information:"
-msgstr "助けを求めながらもそれがどこで見つかるか分からないのですか？ ここにコミュニティ手動の支援や情報源を見つけるすべての場所を挙げています。"
+msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:18
 msgid "{0}: Join our CakePHP Slack Channel"
-msgstr "{0}: CakePHPのSlackチャンネルに参加しましょう"
+msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:31
 msgid "{0}: Join us in the #cakephp IRC channel"
-msgstr "{0}: #cakephpのIRCチャンネルに参加しましょう"
+msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:44
 msgid "{0}: Report issues, help fix bugs or implement features"
-msgstr "{0}: 問題を報告して、不具合修正と機能実装を助けましょう"
+msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:57
 msgid "{0}: Find news and articles on many topics regarding CakePHP"
-msgstr "{0}: CakePHPに関わる多くの話題のニュースや記事を探しましょう"
+msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:58
 msgid "Blog"
@@ -759,7 +759,7 @@ msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:70
 msgid "{0}: Get your issues resolved by the open source community"
-msgstr "{0}: オープンソースのコミュニティで問題を解決しましょう"
+msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:71
 msgid "StackOverflow"
@@ -767,7 +767,7 @@ msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:83
 msgid "{0}: Official announcements from the CakePHP community"
-msgstr "{0}: CakePHPコミュニティからの公式発表です"
+msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:84
 #: Template/Element/get-involved/get-involved.ctp:70
@@ -776,7 +776,7 @@ msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:96
 msgid "{0}: Tutorials and screencasts related to development and events"
-msgstr "{0}: 開発やイベントに関わるチュートリアルとスクリーンショットです"
+msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:97
 msgid "YouTube"
@@ -784,7 +784,7 @@ msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:109
 msgid "{0}: Get the latest updates from around the world"
-msgstr "{0}: 世界各国からの最新情報を得ましょう"
+msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:110
 #: Template/Element/get-involved/get-involved.ctp:72
@@ -793,7 +793,7 @@ msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:123
 msgid "{0}: Official Subreddit of CakePHP"
-msgstr "{0}: CakePHPの公式サブレディットです"
+msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:124
 msgid "CakePHP on Reddit"
@@ -809,106 +809,106 @@ msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:10
 msgid "Get Involved!"
-msgstr "参加しましょう！"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:12
 msgid "If you're interested in contributing to CakePHP and supporting the community, then we'd love for you to join us!.\n\t\tThere are a variety of ways to get involved and help out."
-msgstr "もしもCakePHPへの貢献に興味があってコミュニティを支援したいのなら、私たちはあなたの参加を待ち望んでいます！ 参加し支援するためのさまざまな方法があります。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:17
 #: Template/Element/get-involved/sidebar.ctp:6
 msgid "User Support"
-msgstr "ユーザー支援"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:19
 msgid "One of the greatest ways to contribute to CakePHP is by directly supporting the developer community. You\n\t\t\t\tmay just have the answer to some of the questions that are being asked. Here are some of the ways that you can get started:"
-msgstr "CakePHPに貢献する素晴らしい方法のひとつは、開発者のコミュニティを直接支援することです。あなたは求められているいくつかの質問に対する答えを知っているかもしれません。始めるにはいくつかの方法があります。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:22
 msgid "Join the #cakephp IRC channel, or Slack group and talk to developers who need help. *"
-msgstr "#cakephpのIRCチャンネルかSlackグループに参加して、助けを必要としている開発者たちと話す。*"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:23
 msgid "Answer questions on platforms such as {0}."
-msgstr "{0}のようなプラットフォームで質問に答える。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:25
 msgid "Comment on posts asking for help with a specific problem."
-msgstr "固有の問題への助けを求める投稿にコメントする。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:28
 msgid "* For those who don't have an IRC client we have a web-based client available {0}."
-msgstr "* IRCクライアントを持っていない方のために私たちは{0}にウェブ上のクライアントを持っています。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:28;136;181
 msgid "here"
-msgstr "こちら"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:35
 #: Template/Element/get-involved/sidebar.ctp:7
 msgid "Education and Training"
-msgstr "教育とトレーニング"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:38
 msgid "Helping others to learn CakePHP is another valuable way to contribute to the community. There are many ways\n\t\t\tyou can help others; These include:"
-msgstr "CakePHPを勉強している他の人たちを手伝うこともまたコミュニティに貢献するための価値ある方法です。他の人たちを助けるたくさんの方法があります。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:41
 msgid "Coding Seminars"
-msgstr "コーディングセミナー"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:42
 msgid "Live Workshops"
-msgstr "ワークショップ"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:43
 msgid "Hackathons"
-msgstr "ハッカーソン"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:44
 msgid "Training Courses"
-msgstr "トレーニング講座"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:45
 msgid "Tutorials"
-msgstr "チュートリアル"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:50
 msgid "Additionally, we offer professional training for CakePHP, as well as the opportunity to\n\t\t\tbecome an officially certified CakePHP developer through the developer certification program."
-msgstr "加えて、私たちは開発者認定プログラムを通して、公式に認定されたCakePHP開発者になる機会だけでなくCakePHPのプロフェッショナルトレーニングも提供します。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:56
 #: Template/Element/get-involved/sidebar.ctp:8
 msgid "Marketing and Evangelism"
-msgstr "販促と普及活動"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:59
 msgid "As an open source project, backed by the {0} we don't have a massive budget to market and advertise the framework, so we depend\n\t\t\ton people like you getting involved and helping support the community. There are many actions which can help\n\t\t\traise awareness, share experiences and educate your fellow developers about CakePHP."
-msgstr "{0}によるオープンソースプロジェクトですので、私たちは販促し宣伝するための大きな予算を持っていませんから、あなたのようなコミュニティに参加し支援してくれる人たちを頼りにしています。CakePHPについて認知度向上を助け、経験を分かちあい、開発者仲間に教えるたくさんの活動があります。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:61
 msgid "Cake Software Foundation, Inc."
-msgstr "Cakeソフトウェア財団"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:62
 msgid "Write and Talk About CakePHP"
-msgstr "CakePHPについて書き話す"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:63
 msgid "Actively writing and talking about CakePHP helps spread the word about the framework."
-msgstr "CakePHPについて書いたり話したりする活動はフレームワークの評判を広める助けになります。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:65
 msgid "Write an article or blog post about a certain feature or development experience."
-msgstr "何かの機能や開発の経験について記事やブログを書く。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:66
 msgid "Comment on articles or posts and provide ideas and arguments which invite further conversation and\n\t\t\t\tfeedback."
-msgstr "記事や投稿にコメントして更なる会話やフィードバックに繫がるアイデアや論評をする。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:69
 msgid "Use social platforms such as {0}, {1} or {2} to provide links to articles, posts, plugins, events, etc."
-msgstr "{0}、{1}、あるいは{2}のような、記事、投稿、プラグイン、イベント、などなどへのリンクを提供するソーシャルプラットフォームを利用する。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:71
 msgid "Discourse"
@@ -916,40 +916,40 @@ msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:76
 msgid "Help Your Local Community"
-msgstr "地域のコミュニティを助ける"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:78
 msgid "We depend on people who know and understand their local community. This not only refers to the difference in\n\t\t\tthe language, but also the local customs and cultural differences. You can help us by connecting with your\n\t\t\tlocal community and supporting CakePHP. A few actions you can undertake include:"
-msgstr "私たちは地域のコミュニティを知り理解する方々を頼っています。これは言語の違いだけではなく、風習や文化の違いについても言えます。あなたの地域のコミュニティに関り、CakePHPを支援することは私たちの助けになります。いくつかの活動が挙げられます。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:82
 msgid "Starting or joining a local user group"
-msgstr "地域のユーザーグループを作るまたは参加する"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:83
 msgid "Organizing events or meet-ups"
-msgstr "イベントや会合を企画する"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:84
 msgid "Distributing information and awareness"
-msgstr "情報を配信し認知度を高める"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:91
 #: Template/Element/get-involved/sidebar.ctp:9
 msgid "Contributing Code"
-msgstr "コードへの貢献"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:94
 msgid "If you want to contribute code for a bug fix then coordinate your approach in the comments of the issue, either\n\t\t\tby linking to a gist/pastebin or by linking to the commit(s) for the fix."
-msgstr "もしも不具合修正のためにコードに貢献したいのであれば、gistやpastebinにリンクするか、あるいは修正コミットにリンクするかして、問題のコメント中に修正案をまとめてください。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:96
 msgid "Contributing via a Pull Request"
-msgstr "プルリクエストによる貢献"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:98
 msgid "Contributing via commits on a {0} fork is the preferred way of submitting fixes. If your fix is more than\n\t\t\ta single commit, you should put the fix on an appropriately named branch. This makes integration of the fix\n\t\t\teasier."
-msgstr "{0}フォークの上のコミット経由の貢献は修正を送信するための望ましい方法です。もしあなたの修正が単一コミット以上であれば、ふさわしい名前のブランチ上にその修正を置くべきです。これは修正の統合を簡単にします。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:100;111;180
 msgid "GitHub"
@@ -958,115 +958,115 @@ msgstr ""
 #: Template/Element/get-involved/get-involved.ctp:106
 #: Template/Element/get-involved/sidebar.ctp:10
 msgid "Testing and Quality Assurance"
-msgstr "テストと品質保証"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:109
 msgid "Filing issues is a great way to start contributing to CakePHP. By finding and reporting issues in the code\n\t\t\tyou notify the maintainers of any issues and help get them resolved. Issues for all CakePHP projects are\n\t\t\tlocated on {0}"
-msgstr "問題を塞ぐことはCakePHPへの貢献を始めるためのひとつの方法です。コード中の問題を探して報告することで、管理者に気付かせ問題を解決する手助けになります。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:113
 msgid "Found a Bug?"
-msgstr "不具合を発見しましたか？"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:115
 msgid "Sometimes there are problems in CakePHP. If you think you've come across one you can:"
-msgstr "時にはCakePHPに問題があることもあります。これに遭遇したと思う場合は次のようにしてください。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:117
 msgid "Search for a similar or {0}."
-msgstr "類似のあるいは{0}を探してください。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:117
 msgid "existing issues"
-msgstr "既存の問題"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:119
 msgid "Create a {0} if you're sure it doesn't already exist OR update the existing issue."
-msgstr "存在していないことが確かであれば{0}を作成してください。もしくは既存の問題報告を更新してください。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:119
 msgid "new issue"
-msgstr "新しい問題"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:121
 msgid "Add detailed instructions on how to reproduce the bug. This could be in the form of test cases or a code\n\t\t\t\tsnippet that demonstrates the issue. Not having a way to reproduce an issue, means its less likely to\n\t\t\t\tget fixed."
-msgstr "不具合を再現するための手順を記述してください。これはテストケースの形式でも、問題を明示するコードの断片でもかまいません。問題を再現する方法がない場合、修正を得にくくなります。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:126
 msgid "Issues That Need Additional Information"
-msgstr "追加の情報が必要な問題"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:128
 msgid "{0} often need to be confirmed or need more\n\t\t\tinformation. Asking for additional information on unclear issues doesn't take much time, and helps speed up the process."
-msgstr "{0}はしばしば裏付けや、より多くの情報を必要としてします。不明確な問題について詳しい情報を求めることは、時間を省き、プロセスの速度向上を助けます。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:129
 msgid "New issues"
-msgstr "新しい問題"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:131
 msgid "Confirm or Invalidate Existing Issues That Need a Way to Reproduce"
-msgstr "再建方法を必要とする既存の問題の確認または否定"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:133
 msgid "If an issue cannot be easily reproduced, or is unclear, it will be set to hold. Issues on hold generally need\n\t\t\ta way to be confirmed or require additional information. You can help by finding out ways to reproduce\n\t\t\tissues, or prodding issue authors for more information. Issues that are on hold can be found {0}"
-msgstr "もしもある問題が簡単に再現できない、または不明確であれば、保留とされます。保留された問題は一般的に確認する方法を必要としているか、あるいは追加の情報を求めています。問題の再現方法を見つけるか、問題報告者に詳しい情報を促すことで手伝いができます。保留されている問題は{0}で見つかります。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:138
 msgid "Bug Issues for Maintenance Releases"
-msgstr "メンテナンスリリース向けの不具合"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:140
 msgid "Existing releases usually have a few issues open against them. These issues generally need patches and test\n\t\t\tcases created for them, so they can be resolved. Preparing patches for open {0}\n\t\t\tis a great way to get involved with CakePHP, and is one of the first steps to becoming a core contributor."
-msgstr "既存のリリースには通常それらに対して報告されたいくつかの問題があります。これらの問題は一般的にその解決のために作られたパッチとテストケースを必要としています。{0}のためにパッチを準備することはCakePHPに参加するためのすばらしい方法のひとつで、そしてコア貢献者になるための第一歩です。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:143
 msgid "open unresolved issues"
-msgstr "未解決の問題"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:146
 msgid "Features and Enhancements for Future Releases"
-msgstr "将来のリリースのための機能向上"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:148
 msgid "We are currently working on the {0}. There are still a number of\n\t\t\tincomplete tasks and {1}. If an issue has been moved into a specific milestone, it is planned for inclusion in that\n\t\t\trelease. Issues are moved into milestones based on community feedback and the core team's plans. If you\n\t\t\tplan on contributing a feature, please also include relevant test cases for the feature. We want to keep\n\t\t\tCakePHP as bug free as possible, and test cases have proven to help immensely. If you submit features\n\t\t\twithout test cases, and no documentation it is highly unlikely it will be merged in."
-msgstr "私たちは現在{0}上で作業しています。いくつかの未完了の課題や{1}がまだあります。もし問題が特定のマイルストーンに移された場合は、それは当該のリリースに含まれることが計画されています。各問題は、コミュニティのフィードバックとコアチームの計画に基づいたマイルストーンに移動されます。もしある機能への貢献を計画しているのであれば、その機能に関連するテストケースも含めてください。私たちはCakePHPをできるだけ不具合のないようにしたいので、テストケースはその証明に大いに役立ちます。もしもテストケースなしで機能を送り、そしてドキュメントもない場合、マージされる可能性はほとんどありません。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:154
 msgid "3.x releases"
-msgstr "3.xリリース"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:155
 msgid "unresolved defects"
-msgstr "未解決の不具合"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:158
 msgid "CakePHP is {0}, so you can check the status of the {1} on the Jenkins server at any time."
-msgstr "CakePHPは{0}で、Jenkinsサーバー上で{1}のステータスをいつでも確認できます。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:171
 msgid "Documentation is another excellent way to start getting involved with CakePHP. We have two primary forms of\n\t\t\tdocumentation, the {0} and the {1}. The API\n\t\t\tis generated from the source code, so if you find an inaccuracy or issue with the API documentation, you can\n\t\t\tfile a patch against the {2}. The Cookbook is a community managed\n\t\t\tdocumentation source which can also be found on {3}.\n\t\t\tGuidelines on contributing to the documentation can be reviewed {4}."
-msgstr "ドキュメントはCakePHPへの参加を始めるためのまた別の素晴らしい方法です。私たちはふたつの主要なドキュメントの形式、{0}と{1}を持っています。APIはソースコードから生成されるので、もしAPIドキュメントに不正確さや問題を発見したら、{2}に対するパッチを作ってください。Cookbookはコミュニティが管理するドキュメントのソースで、{3}上で見つけることができます。ドキュメントに貢献するための手引きは{4}にあります。"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:179
 msgid "source code"
-msgstr "ソースコード"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:187
 msgid "Translations"
-msgstr "翻訳"
+msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:189
 msgid "We have developers from countries all over the world who use CakePHP. If you're a non-english speaker,\n\t\t\ttranslating the the {0} content\n\t\t\tinto your language is another way to help support the community. Providing the official documentation and\n\t\t\tsupport material in as many languages as possible helps lower the barrier to entry to using the framework."
-msgstr "私たちはCakePHPを使っている世界中の開発者を持っています。もしもあなたが非英語話者であれば、{0}の内容をあなたの言語に翻訳することはコミュニティを助けるまた別の方法です。できるだけ多くの言語で公式のドキュメントや支援材料を提供することは、フレームワークを使用し始めるための敷居を低くする助けになります。"
+msgstr ""
 
 #: Template/Element/get-involved/sidebar.ctp:3
 msgid "Get Involved"
-msgstr "参加しましょう"
+msgstr ""
 
 #: Template/Element/get-involved/sidebar.ctp:12
 msgid "Translation"
-msgstr "翻訳"
+msgstr ""
 
 #: Template/Element/get-involved/sidebar.ctp:16
 msgid "Community Guidelines"
@@ -1078,7 +1078,7 @@ msgstr ""
 
 #: Template/Element/home/cake.ctp:6
 msgid "Faster. Stronger. Tastier."
-msgstr "より速く、より強く、より美味しく"
+msgstr ""
 
 #: Template/Element/home/cakefest.ctp:28
 msgid "Don't have a ticket yet? Only a limited amount are available, so purchase yours today! From\n\t                 a wide range of talks, interactive workshops to prizes, giveaways and fun social activities all planned\n\t                 over 4 exciting days!"
@@ -1094,7 +1094,7 @@ msgstr ""
 
 #: Template/Element/home/newsletter.ctp:5
 msgid "Sign up for our newsletter."
-msgstr "メールマガジンを購読しましょう。"
+msgstr ""
 
 #: Template/Element/home/newsletter.ctp:105
 msgid "Send!"
@@ -1102,31 +1102,31 @@ msgstr ""
 
 #: Template/Element/home/quotes.ctp:11
 msgid "Hear what others have to say."
-msgstr "他の人たちの声を聞いてください。"
+msgstr ""
 
 #: Template/Element/home/quotes.ctp:12
 msgid "This is how CakePHP has helped others to succeed."
-msgstr "CakePHPは他の人たちをこのようにお手伝いしています。"
+msgstr ""
 
 #: Template/Element/home/share.ctp:10
 msgid "Sharing the cake."
-msgstr "Cakeを分けあう"
+msgstr ""
 
 #: Template/Element/home/share.ctp:11
 msgid "Get involved and support the community."
-msgstr "コミュニティーに参加し支援しましょう。"
+msgstr ""
 
 #: Template/Element/home/share.ctp:14
 msgid "If you're interested in contributing to CakePHP and supporting the community then we'd love for you to join us, there are a variety of ways to get involved and help out."
-msgstr "もしもCakePHPへの貢献に興味があってコミュニティを支援したいのなら、私たちはあなたの参加を待ち望んでいます。参加し支援するためのさまざまな方法があります。"
+msgstr ""
 
 #: Template/Element/home/share.ctp:15
 msgid "Learn more."
-msgstr "もっと知る"
+msgstr ""
 
 #: Template/Element/home/showcase.ctp:9
 msgid "Companies using CakePHP"
-msgstr "CakePHPを使っている企業"
+msgstr ""
 
 #: Template/Element/home/showcase.ctp:11
 msgid "View the Showcase"
@@ -1134,7 +1134,7 @@ msgstr ""
 
 #: Template/Element/home/summary.ctp:6
 msgid "CakePHP makes building web applications simpler, faster, while requiring less code. A modern\n\t\t\t\t\t PHP 5.5+ framework offering a flexible database access layer and a powerful scaffolding system that makes\n\t\t\t\t\t building both small and complex systems simpler, easier and, of course, tastier. Build fast, grow solid\n\t\t\t\t\t with CakePHP."
-msgstr "CakePHPはウェブアプリケーションをより簡単に、より速く、より少ないコードで構築できるようにします。小さなシステムも複雑なシステムも、いずれもより簡単に、より容易に、そしてもちろん美味しく作れるようにする、柔軟なデータベースアクセス層と強力な足場作りシステムを備えた、PHP5.5以降対象のモダンなフレームワークです。CakePHPで素早く構築し堅実に成長を。"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:13
 msgid "Download CakePHP {0}"
@@ -1142,83 +1142,83 @@ msgstr ""
 
 #: Template/Element/home/summary.ctp:68
 msgid "A recipe to succeed."
-msgstr "うまくいくためのレシピ"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:69
 msgid "Prototype faster, Validate faster, Grow consistently."
-msgstr "より速く試作し、より速く検証し、着実に成長させる。"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:77
 msgid "Build Quickly"
-msgstr "あっという間に構築"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:79
 msgid "Use code generation and scaffolding features to {0}."
-msgstr "{0}ためのコード生成と足場作りの機能が使えます。"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:79
 msgid "rapidly build prototypes"
-msgstr "プロトタイプを素早く構築する"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:88
 msgid "No Configuration"
-msgstr "設定不要"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:90
 msgid "No complicated XML or YAML files. Just setup your database and you're {0}."
-msgstr "複雑なXMLやYAMLファイルはありません。データベースをセットアップしただけで{0}。"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:90
 msgid "ready to\n\t\t\t\t\t\t\t\tbake"
-msgstr "焼く準備が整います"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:99
 msgid "Friendly License"
-msgstr "扱いやすいライセンス"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:101
 msgid "CakePHP is licensed under the MIT license which makes it perfect for use in {0}."
-msgstr "CakePHPは{0}にぴったりなMITライセンスで使用許諾されています。"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:101
 msgid "Commercial applications"
-msgstr "商用アプリケーション"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:110
 msgid "Batteries Included"
-msgstr "バッテリー同梱"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:112
 msgid "{0}. Translations, database access, caching,\n\t\t\t\t\t\t\tvalidation, authentication, and much more are all built into one of the original PHP MVC\n\t\t\t\t\t\t\tframeworks."
-msgstr "{0}。翻訳、データベースアクセス、キャッシュ、検証、認証、他にもたくさんのものが、オリジナルのPHP製MVCフレームワークにすべて内蔵されています。"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:114
 msgid "The things you need are built-in"
-msgstr "必要なものは組み込まれています"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:122
 msgid "Clean MVC Conventions"
-msgstr "綺麗なMVC規約"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:125
 msgid "Instead of having to plan where things go, CakePHP comes with a {0} to guide you in developing your application"
-msgstr "どうしようかと計画を立てなくても、CakePHPにはアプリケーション開発の手引きをする{0}が備わっています。"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:125
 msgid "set of\n\t\t\t\t\t\t\t\tconventions"
-msgstr "規約の一式"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:134
 msgid "Secure"
-msgstr "安全"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:135
 msgid "CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering\n\t\t\t\t\t\t\tprotection, SQL injection prevention, and XSS prevention, helping you keep your application\n\t\t\t\t\t\t\t{0}."
-msgstr "CakePHPにはアプリケーションを{0}に保つ手助けになる入力検証、CSRF防止、フォーム偽造防止、SQLインジェクション対策、そしてXSS対策のための組み込みのツールが付いています。"
+msgstr ""
 
 #: Template/Element/home/summary.ctp:137
 msgid "safe & secure."
-msgstr "安心安全"
+msgstr ""
 
 #: Template/Element/home/support.ctp:5
 msgid "Premium "
@@ -2282,11 +2282,11 @@ msgstr ""
 
 #: Template/Pages/get_involved.ctp:8
 msgid "Community Center"
-msgstr "コミュニティセンター"
+msgstr ""
 
 #: Template/Pages/home.ctp:2
 msgid "CakePHP - Build fast, grow solid | PHP Framework | Home"
-msgstr "CakePHP - Build fast, grow solid | PHPフレームワーク"
+msgstr ""
 
 #: Template/Pages/home.ctp:3
 msgid "CakePHP is an open-source web, rapid development framework that makes building web applications simpler,\n faster and require less code. It follows the model–view–controller (MVC) . Manual for beginners now available and links\n  towards the last version."
@@ -2536,7 +2536,3 @@ msgstr ""
 #: View/Helper/AppHelper.php:117
 msgid "{0} to {1}"
 msgstr ""
-
-msgid "Team"
-msgstr "チーム"
-

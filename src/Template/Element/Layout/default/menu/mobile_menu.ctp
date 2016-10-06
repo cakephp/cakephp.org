@@ -29,9 +29,11 @@
                             <div class="panel">
                                 <div class="panel-heading p0">
                                     <h4 class="panel-title title-responsivo-menu">
-                                        <a href="/pages/business-solutions">
-                                            <i class="fa fa-caret-right upside-stop"></i><?= __('Business Solutions') ?>
-                                        </a>
+                                        <?= $this->Html->link(
+                                            '<i class="fa fa-caret-right upside-stop"></i>' . h(__('Business Solutions')),
+                                            ['controller' => 'pages', 'action' => 'display', 'business-solutions'],
+                                            ['escape' => false]
+                                        ) ?>
                                     </h4>
                                 </div>
                             </div>
@@ -39,12 +41,26 @@
                             <div class="panel">
                                 <div class="panel-heading p0">
                                     <h4 class="panel-title title-responsivo-menu">
-                                        <a href="/showcase">
-                                            <i class="fa fa-caret-right upside-stop"></i><?= __('Showcase') ?>
-                                        </a>
+                                        <?= $this->Html->link(
+                                            '<i class="fa fa-caret-right upside-stop"></i>' . h(__('Showcase')),
+                                            ['controller' => 'projects', 'action' => 'index'],
+                                            ['escape' => false]
+                                        ) ?>
                                     </h4>
                                 </div>
                             </div>
+
+							<div class="panel">
+								<div class="panel-heading p0">
+									<h4 class="panel-title title-responsivo-menu">
+										<?= $this->Html->link(
+											'<i class="fa fa-caret-right upside-stop"></i>' . h(__('Team')),
+											['controller' => 'pages', 'action' => 'display', 'team'],
+											['escape' => false]
+										) ?>
+									</h4>
+								</div>
+							</div>
 
                             <div class="panel">
                                 <div class="panel-heading p0">
@@ -70,6 +86,35 @@
                                     </div>
                                 </div>
                             </div>
+
+							<div class="panel">
+								<div class="panel-heading p0">
+									<h4 class="panel-title title-responsivo-menu">
+										<a data-toggle="collapse" href="#language-modal">
+											<i class="fa fa-caret-down upside-down"></i><?= __('Language: {0}', $selectedLanguage) ?>
+										</a>
+									</h4>
+								</div>
+								<div id="language-modal" class="panel-collapse collapse">
+									<div class="panel-body sidebar-menu-body tarja-menu">
+										<ul class="">
+											<li></li>
+											<?php foreach($availableLanguages as $lang => $alias): ?>
+												<?php if ($alias === $selectedLanguage) continue; ?>
+												<?php $pass = $this->request->param('pass') ?>
+												<li>
+													<?= $this->Html->link($alias, [
+															'language' => $lang,
+															'controller' => $this->request->param('controller'),
+															'action' => $this->request->param('action'),
+															isset($pass[0]) ? $pass[0] : null
+														]) ?>
+												</li>
+											<?php endforeach; ?>
+										</ul>
+									</div>
+								</div>
+							</div>
 
                         </div>
                     </div>
