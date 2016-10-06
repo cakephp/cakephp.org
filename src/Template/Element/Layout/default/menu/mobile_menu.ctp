@@ -50,6 +50,18 @@
                                 </div>
                             </div>
 
+							<div class="panel">
+								<div class="panel-heading p0">
+									<h4 class="panel-title title-responsivo-menu">
+										<?= $this->Html->link(
+											'<i class="fa fa-caret-right upside-stop"></i>' . h(__('Team')),
+											['controller' => 'pages', 'action' => 'display', 'team'],
+											['escape' => false]
+										) ?>
+									</h4>
+								</div>
+							</div>
+
                             <div class="panel">
                                 <div class="panel-heading p0">
                                     <h4 class="panel-title title-responsivo-menu">
