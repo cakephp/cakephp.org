@@ -33,6 +33,7 @@ class PagesController extends AppController
     {
         $this->Auth->allow();
         $this->response->cache('-1 minute', '+1 days');
+
         return parent::beforeFilter($event);
     }
 
