@@ -40,16 +40,6 @@ return [
 		'menu' => [
 			'items' => [
 				'community' => [
-					'team' => [
-						'url' => [
-							'plugin' => false,
-							'controller' => 'Pages',
-							'action' => 'display',
-							'team',
-							'prefix' => false
-						],
-						'title' => __('Team')
-					],
 					'issues' => [
 						'url' => 'https://github.com/cakephp/cakephp/issues',
 						'options' => ['target' => '_blank'],
@@ -246,7 +236,7 @@ return [
 		],
 		'team' => [
 			'larry' => [
-				'name' => 'Larry Master',
+				'name' => 'Larry Masters',
 				'description' => __('Larry Masters the Co-Founder of the CakePHP project, first released in May 2005, and has contributed as a lead developer and advisor ever since. He has been involved in Open Source development for many years, dating back to his first contributions made to The Exchange Project, now called osCommerce. Prior to developing the CakePHP framework and starting Cake Software Foundation, Inc. he was a core developer of PostNuke, now continued as Zikula. He has 30 plus years experience in software development, system administration, and database design. His passion for excellence is shown in the code he writes and time dedicated to the CakePHP framework development over the past 11 years.'),
 				'language' => __('English, US English, Broken English, Klingon'),
 				'twitter' => 'phpnut',
