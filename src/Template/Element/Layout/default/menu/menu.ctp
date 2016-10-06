@@ -31,6 +31,14 @@
     <li>
         <?=
         $this->Html->link(
+            __('Team'),
+            ['plugin' => false, 'controller' => 'Pages', 'action' => 'display', 'team', 'prefix' => false],
+            ['escape' => false]
+        );?>
+    </li>
+    <li>
+        <?=
+        $this->Html->link(
             $this->Html->tag('i', '', ['class' => 'fa fa-menu fa-chevron-down']) . __('Community'),
             '#',
             ['escape' => false]
