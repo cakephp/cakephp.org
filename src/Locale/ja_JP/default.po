@@ -2537,3 +2537,6 @@ msgstr ""
 msgid "{0} to {1}"
 msgstr ""
 
+msgid "Team"
+msgstr "チーム"
+
