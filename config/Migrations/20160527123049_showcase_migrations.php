@@ -40,8 +40,8 @@ class ShowcaseMigrations extends AbstractMigration
     		->addColumn('description', 'text', ['null' => false, 'default' => null])
             ->addColumn('is_highlighted', 'boolean', ['default' => false])
             ->addColumn('is_showcase', 'boolean', ['default' => false])
-            ->addColumn('created', 'timestamp')
-            ->addColumn('modified', 'timestamp')
+            ->addColumn('created', 'timestamp', ['default' => null, 'null' => true])
+            ->addColumn('modified', 'timestamp', ['default' => null, 'null' => true])
             ->create();
 
         $this->table('uploaded_files')
@@ -49,8 +49,8 @@ class ShowcaseMigrations extends AbstractMigration
     		->addColumn('dir', 'string', ['limit' => 255, 'null' => false, 'default' => null])
     		->addColumn('size', 'string', ['limit' => 255, 'null' => false, 'default' => null])
     		->addColumn('type', 'string', ['limit' => 255, 'null' => false, 'default' => null])
-    		->addColumn('created', 'timestamp')
-    		->addColumn('modified', 'timestamp')
+    		->addColumn('created', 'timestamp', ['default' => null, 'null' => true])
+    		->addColumn('modified', 'timestamp', ['default' => null, 'null' => true])
     		->create();
 
     	$this->table('uploaded_files')

@@ -407,14 +407,12 @@ ul.nav.navbar-nav i {
 	background-color: #e23e47;
 }
 
-.dropdown > a {
-	font-weight: 500;
+
+
+li.language ul.submenu {
+	top: 76px;
 }
 
-ul.submenu.language {
-	top: 60px;
-}
-
-ul.language.menu li.dropdown a{
+li.language a {
 	text-transform: none;
 }

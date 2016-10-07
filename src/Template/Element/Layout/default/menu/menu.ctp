@@ -85,36 +85,24 @@
             ?>
         </li>
     <?php endif; ?>
-</ul>
-
-<ul class="nav navbar-nav language menu">
-	<li class="dropdown">
+	<li class="language">
 		<?= $this->Html->link(
 			$this->Html->tag('i', '', ['class' => 'fa fa-menu fa-menu-en fa-chevron-down']) . $selectedLanguage,
 			'#',
-			[
-				'class' => 'dropdown-toggle',
-				'data-hover' => 'dropdown',
-				'data-toggle' => 'dropdown',
-				'role' => 'button',
-				'aria-haspopup' => 'true',
-				'aria-expanded' => 'false',
-				'escape' => false
-			]
+			['escape' => false]
 		) ?>
-		<ul class="submenu language">
+		<ul class="submenu">
 			<li></li>
-
 			<?php foreach($availableLanguages as $lang => $alias): ?>
 				<?php if ($alias === $selectedLanguage) continue; ?>
 				<?php $pass = $this->request->param('pass') ?>
 				<li>
 					<?= $this->Html->link($alias, [
-						'language' => $lang,
-						'controller' => $this->request->param('controller'),
-						'action' => $this->request->param('action'),
-						isset($pass[0]) ? $pass[0] : null
-					]) ?>
+							'language' => $lang,
+							'controller' => $this->request->param('controller'),
+							'action' => $this->request->param('action'),
+							isset($pass[0]) ? $pass[0] : null
+						]) ?>
 				</li>
 			<?php endforeach; ?>
 		</ul>
