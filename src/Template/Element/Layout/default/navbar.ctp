@@ -5,7 +5,7 @@
                 <?=
                 $this->Html->link(
                     $this->Html->image('logo-cake.png', ['alt' => __('Home')]),
-                    '/',
+					['controller' => 'pages', 'action' => 'display', 'home'],
                     ['escape' => false, 'class' => 'logo-cake']
                 ); ?>
             </div>
@@ -23,7 +23,7 @@
                 <?=
                 $this->Html->link(
                     $this->Html->image('logo-cake.png', ['alt' => __('Home')]),
-                    '/',
+					['controller' => 'pages', 'action' => 'display', 'home'],
                     ['escape' => false, 'class' => 'logo-cake']
                 ); ?>
             </div>
