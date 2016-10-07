@@ -392,7 +392,17 @@ return [
 				'role' => __('CakePHP Community Manager'),
 				'image-url' => 'team/megan.jpg',
 				'country' => 'South Africa'
-			]
+			],
+			'rchavik' => [
+				'name' => 'Rachman Chavik (rchavik)',
+				'description' => __('Cakephp and Croogo core team member, surfer wannabe. Oh, I am Super Awesome too.'),
+				'language' => __('English'),
+				'twitter' => 'rchavik',
+				'mycake' => 'rchavik',
+				'role' => __('Core Member'),
+				'image-url' => 'team/rchavik.jpg',
+				'country' => 'Indonesia'
+			],
 		]
 
 	],
