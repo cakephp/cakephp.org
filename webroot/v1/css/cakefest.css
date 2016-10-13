@@ -1,0 +1,83 @@
+.logo {
+margin-bottom: 10px;
+}
+.tagline {
+width: 70%;
+margin-top: 90px;
+}
+.tagline span {
+color: #333;
+}
+.published {
+font-weight: bold;
+}
+.sponsor {
+text-align: center;
+}
+.cakephp-love {
+position: relative;
+margin-bottom: 2em;
+}
+img.right {
+margin-left: 1em;
+}
+table.ticket-info td, table.ticket-info th {
+padding: 9px 10px;
+text-align: left;
+}
+.countdown-container {
+margin-bottom: 1.5em;
+padding: 5px 15px 15px 15px;
+background-color: #333;
+border-radius: 7px;
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+color: #CCC;
+}
+.countdown-container .countdown {
+display: block;
+width: 265px;
+padding: 62px 0 32px 0;
+background-color: #000;
+text-align: center;
+}
+.countdown-container .countdown p {
+display: inline-block;
+font-family: monospace;
+font-size: 90px;
+}
+.alert-box.error h3 {
+color: #FCC;
+}
+ul.breadcrumbs {
+margin-left: 0;
+}
+ul.breadcrumbs li {
+list-style: none;
+}
+#lifestream {
+font-size: 85%;
+}
+#lifestream li {
+list-style: none;
+margin-bottom: 5px;
+padding-left: 25px;
+background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAABGdBTUEAALGPC/xhBQAAADBQTFRFAAAA/f38RtD+5fX7+P39g9Ly7/v91/H5/v7+////mOXrwu/zRcXyXcz1r+vwM8z/LZKJ8gAAAAF0Uk5TAEDm2GYAAAB8SURBVAjXY2C9CwYBDKHby4GgOpTh9u6U7HfvXu9luP1k/5N3794BGS/+/4Axfna07AMyVv7///9f1h6G0yDGf6m9EAZU5OfM5ld7GM6t/P95RturNwznlugDpayAjGXrgYq8gIxV8/SBImsY7q7b1jmjbd9dBt4zYHABAAG7YAbUnzIdAAAAAElFTkSuQmCC) top left no-repeat;
+}
+.talks .time {
+font-size: 90%;
+white-space: nowrap;
+}
+.talks .stream1, .talks .stream2 {
+width: 45%;
+}
+.talks .stream1, .talks .stream2, .talks .keynote {
+border: solid #ccc 1px;
+}
+.talks .keynote {
+background: #fd9;
+}
+.talks .break {
+background: #ccc;
+}
+

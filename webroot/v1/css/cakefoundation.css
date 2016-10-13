@@ -1,0 +1,181 @@
+/*!
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2011 Fontspring
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      exljbris
+ * License URL: http://www.fontspring.com/fflicense/exljbris
+ */
+@font-face {
+font-family: 'MuseoSlab500';
+src: url('./res/Museo_Slab_500-webfont.eot');
+src: url('./res/Museo_Slab_500-webfont.eot?#iefix') format('embedded-opentype'),
+url('./res/Museo_Slab_500-webfont.woff') format('woff'),
+url('./res/Museo_Slab_500-webfont.ttf') format('truetype'),
+url('./res/Museo_Slab_500-webfont.svg#MuseoSlab500') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+html {
+height: 100%;
+}
+body {
+height: 100%;
+background: #acd;
+font-family: Helvetica, Arial;
+font-size: 14px;
+color: #333;
+overflow-y: scroll;
+}
+body.module {
+overflow-y: auto;
+}
+a {
+color: #417282;
+}
+a:hover {
+color: #003D4C;
+text-decoration: underline;
+}
+h1, h2, h3, h4, h5 {
+margin-bottom: 20px;
+text-shadow: 0 1px 1px #fff;
+font-family: MuseoSlab500, Helvetica, Arial;
+font-weight: normal;
+}
+h2, h3, h4, h5 {
+padding-top: 10px;
+}
+h1 {
+font-size: 3.0rem;
+color: #39c;
+}
+h2 {
+font-size: 2.8rem;
+color: #39c;
+}
+h3, h4 {
+font-size: 2.1rem;
+color: #3bb;
+}
+ul {
+list-style: square;
+margin-left: 25px;
+}
+#cakephp-global-navigation {
+box-shadow: 0 0 5px #222;
+}
+.masthead {
+background: #eee;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ3JSIgc3RvcC1jb2xvcj0iI2Y2ZjZmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZGVkZWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed));
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
+}
+.logo {
+float: left;
+width: 120px;
+margin-top: -2px;
+margin-right: 20px;
+}
+.tagline {
+float: left;
+display: inline;
+margin-bottom: 0;
+padding-top: 14px;
+text-shadow: 0 2px 1px #fff;
+font-size: 62px;
+color: #39c;
+}
+.detail {
+float: left;
+display: inline;
+padding-top: 0;
+padding-bottom: 20px;
+text-shadow: 0 1px 1px #fff;
+font-size: 22px;
+color: #3bb;
+}
+#content {
+margin-top: -28px;
+padding-top: 32px;
+padding-bottom: 20px;
+background-color: #fff;
+border-top: 2px solid #cce;
+border-bottom: 2px solid #9ab;
+box-shadow: 0 -5px 30px #ddd, 0 80px 120px #9bc;
+}
+#side {
+width: 270px;
+margin-left: 20px;
+padding: 10px 20px 15px 20px;
+background: #eee;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ3JSIgc3RvcC1jb2xvcj0iI2Y2ZjZmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZGVkZWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #ffffff 0%, #eeeeee 47%, #eeeeee 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#eeeeee), color-stop(100%,#eeeeee));
+background: -webkit-linear-gradient(top,  #ffffff 0%,#eeeeee 47%,#eeeeee 100%);
+background: -o-linear-gradient(top,  #ffffff 0%,#eeeeee 47%,#eeeeee 100%);
+background: -ms-linear-gradient(top,  #ffffff 0%,#eeeeee 47%,#eeeeee 100%);
+background: linear-gradient(to bottom,  #ffffff 0%,#eeeeee 47%,#eeeeee 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 );
+border: 2px solid #cde;
+border-radius: 20px;
+text-shadow: 0 1px 1px #fff;
+}
+#side img {
+margin: 20px 0 30px 40px;
+}
+.mastend {
+height: 220px;
+padding-top: 20px;
+}
+.mastend .footer-nav {
+list-style: none;
+float: left;
+width: 160px;
+margin: 0 0 24px 0;
+padding: 0;
+color: #fff;
+}
+.mastend .footer-nav H5 {
+color: #369;
+}
+.mastend .footer-nav A {
+text-shadow: 0 -1px 1px #369;
+font-size: 14px;
+font-weight: bold;
+color: #fff;
+}
+.paynow {
+background-color: green !important;
+border-color: green !important;
+}
+.paynow a {
+text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.28);
+font-family: "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
+color: #fff;
+}
+#contact-form label {
+padding-top: 12px;
+font-weight: bold;
+color: #999;
+}
+#contact-form input, #contact-form textarea {
+margin-top: 2px;
+border: 1px solid #aaa;
+}
+
