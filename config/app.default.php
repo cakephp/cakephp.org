@@ -96,6 +96,11 @@ return [
             'className' => 'File',
             'path' => CACHE,
         ],
+        'newsletter' => [
+            'className' => 'File',
+            'path' => CACHE,
+            'duration' => '+1 hour'
+        ],
         /**
          * Configure the cache used for general framework caching.
          * Translation cache files are stored with this configuration.
