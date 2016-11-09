@@ -1,6 +1,7 @@
 <?php
 namespace App\View\Helper;
 
+use Cake\Cache\Cache;
 use Cake\Core\Configure;
 use Cake\I18n\Time;
 use Cake\Utility\Hash;
@@ -132,5 +133,17 @@ class AppHelper extends Helper
         $endDate = new DateTime(Configure::read('Site.cakefest.end_date'));
 
         return __('{0} to {1}', $startDate->format('M d'), $endDate->format('M d'));
+    }
+
+    /**
+     * Newsletter archive
+     * @return mixed
+     */
+    public function newsletterArchive()
+    {
+        return Cache::remember('newsletterArchive', function() {
+            return file_get_contents('http://us9.campaign-archive1.com/generate-js/?u=f380de581acd576e7d802552a&fid=13717&show=10');
+        }, 'newsletter');
+
     }
 }

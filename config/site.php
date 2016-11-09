@@ -403,6 +403,19 @@ return [
 				'image-url' => 'team/rchavik.jpg',
 				'country' => 'Indonesia'
 			],
+			'thinkingmedia' => [
+				'name' => 'Mathew Foscarini (thinkingmedia)',
+				'description' => __('Mathew is a programmer and 3D artist that enjoys contributing to open source projects. Joined CakePHP
+				core team in October 2016 and has been working on database improvements. He has a programming blog at {0}, and
+				is the creator of {1}', 'http://www.thinkingmedia.ca/', 'http://ahtag.com/'),
+				'language' => __('English'),
+				'twitter' => 'thinkingmedia',
+				'github' => 'thinkingmedia',
+				'mycake' => 'thinkingmedia',
+				'role' => __('Core Member'),
+				'image-url' => 'team/thinkingmedia.jpg',
+				'country' => 'Canada'
+			],
 		]
 
 	],
