@@ -4,7 +4,7 @@
             <div class="col-sm-3 col-md-3">
                 <?=
                 $this->Html->link(
-                    $this->Html->image('logo-cake.png', ['alt' => __('Home')]),
+                    $this->Html->image('logo-cake-christmas.png', ['alt' => __('Home')]),
 					['controller' => 'pages', 'action' => 'display', 'home'],
                     ['escape' => false, 'class' => 'logo-cake']
                 ); ?>
@@ -22,7 +22,7 @@
             <div class="col-sm-6 col-xs-6">
                 <?=
                 $this->Html->link(
-                    $this->Html->image('logo-cake.png', ['alt' => __('Home')]),
+                    $this->Html->image('logo-cake-christmas.png', ['alt' => __('Home')]),
 					['controller' => 'pages', 'action' => 'display', 'home'],
                     ['escape' => false, 'class' => 'logo-cake']
                 ); ?>
