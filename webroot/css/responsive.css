@@ -8,8 +8,10 @@
 	}
 
 	.logo-cake img {
-		margin-top: 20px;
-    	margin-bottom: 14px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 210px;
+        min-width: 210px !important;
 	}
 
 	.navbar-right {
@@ -771,11 +773,12 @@
 		padding: 10px 20px;
 	}
 
-	.logo-cake img {
-	    margin-top: 15px;
-	    margin-bottom: 14px;
-	}
-
+    .logo-cake img {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 210px;
+        min-width: 210px !important;
+    }
 	#sub {
 	    margin-top: 60px;
 	}
@@ -798,7 +801,7 @@
 	#cookbook {
 		padding-top: 50px;
 	}
-	
+
 	#slideout {
 		bottom: 0;
 	}
@@ -824,13 +827,13 @@
 	.featured-case h4 {
 		text-align: center;
 	}
-	
+
 	/* ---------------------- CALENDAR ------------------------- */
 
 	.title-calendar h1 {
 		line-height: 55px;
 	}
-	
+
 	/* ---------------------- GET INVOLVED ------------------------- */
 
 	.get-involved h2 {
@@ -849,7 +852,7 @@
 		line-height: 50px;
 	}
 
-	
+
 	/* ---------------------- TRADEMARKS ------------------------- */
 
 
@@ -892,7 +895,7 @@
 	.cake-pack-plugin {
 		margin-top: 40px;
 	}
-	
+
 	.title-plugin span {
 		color: #bdbdb5;
 	    font-size: 90px;
@@ -918,7 +921,7 @@
 		    text-align: center;
 	}
 
-	
+
 }
 
 
@@ -1037,5 +1040,5 @@
 		padding: 10px 18px;
 	}
 
-  
+
 }
