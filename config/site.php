@@ -416,7 +416,7 @@ return [
 				'image-url' => 'team/thinkingmedia.jpg',
 				'country' => 'Canada'
 			],
-		]
-
+		],
+		'writers_form_enabled' => true,
 	],
 ];
