@@ -8,14 +8,20 @@ use Cake\Core\Configure;
 $this->assign('title', __('CakePHP - Build fast, grow solid | PHP Framework | Become a Tech Writer'));
 $this->append('meta', $this->Html->meta('description', __('CakePHP is always on the look-out for basic/simple tutorials, from set-up all the way to more advanced topics - all with the goal to make CakePHP more accessible!')));
 $this->append('meta', $this->Html->meta('keywords', __('CakePHP, CakePHP Framework, CakePHP Tech writer')));
+
+$flash = $this->Flash->render()
 ?>
 <section>
     <div class="container-fluid">
         <div class="row writers-hero">
             <div class="col-md-10 col-md-offset-1">
-                <h1><?= $this->Html->image('writers-hero.svg', ['alt' => __('GET PAID TO WRITE ABOUT CAKEPHP')]) ?></h1>
-                <h2><?= __('In-depth tutorials, simple tutorials and more.') ?></h2>
-                <p><?= __('Sponsored by:') ?><?= $this->Html->image('writers-cakedc-logo.svg', ['url' => 'http://www.cakedc.com/']) ?></p>
+                <?php if (!$flash):?>
+                    <h1><?= $this->Html->image('writers-hero.svg', ['alt' => __('GET PAID TO WRITE ABOUT CAKEPHP')]) ?></h1>
+                    <h2><?= __('In-depth tutorials, simple tutorials and more.') ?></h2>
+                    <p><?= __('Sponsored by:') ?><?= $this->Html->image('writers-cakedc-logo.svg', ['url' => 'http://www.cakedc.com/']) ?></p>
+                <?php else:?>
+                    <?= $flash?>
+                <?php endif;?>
             </div>
         </div>
     </div>
@@ -63,8 +69,7 @@ $this->append('meta', $this->Html->meta('keywords', __('CakePHP, CakePHP Framewo
             </div>
         </div>
         <?php if (Configure::read('Site.writers_form_enabled')): ?>
-            <?php if ($flash = $this->Flash->render()): ?>
-                <?= $flash ?>
+            <?php if ($flash): ?>
             <?php else: ?>
                 <?= $this->Form->create($writer) ?>
                     <div class="row">
