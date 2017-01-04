@@ -3,7 +3,8 @@
 return [
 	'Site' => [
 		'contact' => [
-			'email' => 'contact@cakedc.com'
+			'email' => 'contact@cakedc.com',
+			'marketing_email' => 'marketing@cakedc.com',
 		],
 		'quotes' => [
 			[
