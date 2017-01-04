@@ -198,6 +198,15 @@ return [
 						],
 						'title' => __('Logos & Trademarks')
 					],
+					'writers' => [
+						'url' => [
+							'plugin' => false,
+							'controller' => 'Writers',
+							'action' => 'index',
+							'prefix' => false
+						],
+						'title' => __('Writers')
+					],
 				],
 				'serviceProvider' => [
 					'cakedc' => [
