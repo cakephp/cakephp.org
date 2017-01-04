@@ -198,6 +198,15 @@ return [
 						],
 						'title' => __('Logos & Trademarks')
 					],
+					'writers' => [
+						'url' => [
+							'plugin' => false,
+							'controller' => 'Writers',
+							'action' => 'index',
+							'prefix' => false
+						],
+						'title' => __('Writers')
+					],
 				],
 				'serviceProvider' => [
 					'cakedc' => [
@@ -416,7 +425,7 @@ return [
 				'image-url' => 'team/thinkingmedia.jpg',
 				'country' => 'Canada'
 			],
-		]
-
+		],
+		'writers_form_enabled' => true,
 	],
 ];

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="101.113px" height="131.572px" viewBox="-23.395 -9.206 101.113 131.572"
+	 enable-background="new -23.395 -9.206 101.113 131.572" xml:space="preserve">
+<g id="Layer_3">
+</g>
+<g id="Layer_1_1_">
+	<g>
+		
+			<radialGradient id="SVGID_1_" cx="-191.5522" cy="-3735.9805" r="29.8447" gradientTransform="matrix(1 0 0 -0.1937 202.5 -607.0758)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0.2902" style="stop-color:#DDDDD4"/>
+			<stop  offset="1" style="stop-color:#DDDDD4;stop-opacity:0"/>
+		</radialGradient>
+		<ellipse opacity="0.8" fill="url(#SVGID_1_)" enable-background="new    " cx="10.948" cy="116.583" rx="29.836" ry="5.783"/>
+		<g>
+			
+				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="466.4292" y1="-140.4663" x2="466.4292" y2="-56.2041" gradientTransform="matrix(0.7071 0.7071 0.7071 -0.7071 -233.1151 -357.9911)">
+				<stop  offset="0" style="stop-color:#F7F6F3"/>
+				<stop  offset="1" style="stop-color:#DDDDD4"/>
+			</linearGradient>
+			<polygon fill="url(#SVGID_2_)" points="15.104,88.874 -20.358,53.412 39.222,-6.169 74.685,29.292 			"/>
+			<circle fill="#FFFFFF" cx="27.164" cy="41.35" r="15.164"/>
+			<path fill="#FFFFFF" d="M6.061,79.832L6.061,79.832c4.995-4.993,13.091-4.996,18.087,0l-9.042,9.042L6.061,79.832z"/>
+			<path fill="#FFFFFF" d="M65.642,38.333L65.642,38.333c-4.993-4.995-4.995-13.089-0.002-18.084l9.044,9.045L65.642,38.333z"/>
+			<path fill="#FFFFFF" d="M-11.317,62.453L-11.317,62.453c4.993-4.992,4.996-13.093,0.001-18.087l-9.043,9.043L-11.317,62.453z"/>
+			<path fill="#FFFFFF" d="M30.181,2.871L30.181,2.871c4.992,4.994,13.09,4.995,18.085,0.002L39.222-6.17L30.181,2.871z"/>
+			
+				<rect x="2.087" y="-0.779" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 17.1291 89.7967)" fill="none" stroke="#DDDDD4" stroke-width="4.292" stroke-miterlimit="10" width="50.15" height="84.26"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_2">
+</g>
+</svg>
