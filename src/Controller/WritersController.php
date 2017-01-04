@@ -38,8 +38,8 @@ class WritersController extends AppController
                 $email
                     ->emailFormat('text')
                     ->replyTo($writer->email, $writer->name)
-                    ->from([Configure::read('Site.contact.community_email') => __('CakePHP Website')])
-                    ->to(Configure::read('Site.contact.community_email'))
+                    ->from([Configure::read('Site.contact.marketing_email') => __('CakePHP Website')])
+                    ->to(Configure::read('Site.contact.marketing_email'))
                     ->subject(__('Writers Form'))
                     ->set(compact('writer'))
                     ->template('writers_form')

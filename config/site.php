@@ -4,7 +4,7 @@ return [
 	'Site' => [
 		'contact' => [
 			'email' => 'contact@cakedc.com',
-			'community_email' => 'community@cakephp.org',
+			'marketing_email' => 'marketing@cakedc.com',
 		],
 		'quotes' => [
 			[
