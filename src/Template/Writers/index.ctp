@@ -32,13 +32,13 @@ $this->append('meta', $this->Html->meta('keywords', __('CakePHP, CakePHP Framewo
                 <p><?= __('Are you a keen CakePHP community member and have an insatiable talent for explaining concepts, constructs and the intricacies of the CakePHP framework?') ?></p>
                 <p><?= __('Our community is always on the look-out for basic/simple tutorials, from set-up all the way to more advanced topics - all with the goal to make CakePHP more accessible!') ?></p>
                 <p><?= __('Are you perhaps a tad intrigued? - you don’t need to be a technical writer, you just need to know your CakePHP stuff -and, of course, be able to explain it! We will work with you  on the final editing and article completion.') ?></p>
-                <p><?= __('And on top of becoming known as one of our tutorial writers within the CakePHP Community - as a bonus, CakeDC is sponsoring you to write! <strong>Earn up to $75 per article!</strong>') ?></p>
+                <p><?= __('And on top of becoming known as one of our tutorial writers within the CakePHP Community - as a bonus, CakeDC is sponsoring you to write! <strong>Earn up to $50 per article!</strong>') ?></p>
             </div>
             <div class="col-md-2">
                 <div class="up-to">
                     <h3><?= __('Make') ?></h3>
                     <h3><?= __('up to') ?></h3>
-                    <h3><span>$</span>75</h3>
+                    <h3><span>$</span>50</h3>
                     <?= $this->Html->image('bill.svg') ?>
                 </div>
             </div>
@@ -138,7 +138,7 @@ $this->append('meta', $this->Html->meta('keywords', __('CakePHP, CakePHP Framewo
                                 <h4><?= __('IN-DEPTH<br>TUTORIALS') ?></h4>
                             </div>
                             <div class="pay-box-bottom pd-1">
-                                <p><?= __('1,500+ Words') ?><br><span><?= __('$75') ?></span></p>
+                                <p><?= __('1,500+ Words') ?><br><span><?= __('$50') ?></span></p>
                                 <?= $this->Html->image('writers-pay-1.svg') ?>
                             </div>
                         </div>
@@ -149,13 +149,13 @@ $this->append('meta', $this->Html->meta('keywords', __('CakePHP, CakePHP Framewo
                                 <h4><?= __('SIMPLE<br>TUTORIALS') ?></h4>
                             </div>
                             <div class="pay-box-bottom pd-2">
-                                <p><?= __('800+ Words') ?><br><span><?= __('$50') ?></span></p>
+                                <p><?= __('800+ Words') ?><br><span><?= __('$25') ?></span></p>
                                 <?= $this->Html->image('writers-pay-2.svg') ?>
                             </div>
                         </div>
                     </div>
                 </div>
-                <p><?= __('Most tutorials are paid out at $75. Short tutorials with only a few commands or a few paragraphs of explanation are paid out at $50.') ?></p>
+                <p><?= __('Most tutorials are paid out at $50. Short tutorials with only a few commands or a few paragraphs of explanation are paid out at $25.') ?></p>
             </div>
         </div>
 </section>
