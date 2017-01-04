@@ -416,3 +416,14 @@ li.language ul.submenu {
 li.language a {
 	text-transform: none;
 }
+
+.menu > li > a {
+	padding: 25px 20px;
+}
+
+@media (max-width:1200px) {
+	.menu > li > a {
+		padding: 25px 10px;
+	}
+}
+
