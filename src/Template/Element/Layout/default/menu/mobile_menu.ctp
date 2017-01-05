@@ -119,7 +119,7 @@
                                 <div class="panel-heading p0">
                                     <h4 class="panel-title title-responsivo-menu donate-background">
                                         <?= $this->Html->link(
-                                            '<i class="fa fa-caret-right upside-stop"></i>' . h(__('Donate')),
+                                            '<i class="fa fa-caret-right upside-stop"></i>' . h(__('DONATE')),
                                             'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WXKS8CBVMNFZC',
                                             ['escape' => false]
                                         ) ?>
