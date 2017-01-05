@@ -38,7 +38,7 @@
                                 </div>
                             </div>
 
-<!--                            <div class="panel">
+                           <div class="panel">
                                 <div class="panel-heading p0">
                                     <h4 class="panel-title title-responsivo-menu">
                                         <?/*= $this->Html->link(
@@ -48,7 +48,7 @@
                                         ) */?>
                                     </h4>
                                 </div>
-                            </div>-->
+                            </div>
 
 							<div class="panel">
 								<div class="panel-heading p0">
