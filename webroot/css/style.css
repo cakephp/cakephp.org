@@ -5970,11 +5970,12 @@ blockquote {
 }
 
 .logo-cake img {
-    margin-top: 24px;
-    margin-bottom: 20px;
-    width: 230px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 256px;
+	min-width: 256px;
+	margin-left: -15px;
 }
-
 #footer input {
 	padding: 5px;
 }
@@ -10320,7 +10321,3 @@ code {
 .t-extral {
 	font-weight: 300;
 }
-
-
-
-
