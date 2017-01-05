@@ -230,10 +230,10 @@ return [
 			]
 		],
 		'cakefest' => [
-			'start_date' => '2016-05-26',
-			'end_date' => '2016-05-29',
-			'location' => __('Amsterdam'),
-			'title' => 'Cakefest 2016'
+			'start_date' => '2017-06-08',
+			'end_date' => '2017-06-11',
+			'location' => __('New York City'),
+			'title' => 'Cakefest 2017'
 		],
 		'team' => [
 			'larry' => [
