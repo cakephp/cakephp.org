@@ -25,7 +25,7 @@
         $this->Html->link(
             __('Get Paid to Write'),
             ['plugin' => false, 'controller' => 'Writers', 'action' => 'index', 'prefix' => false],
-            ['escape' => false, 'class' => 'new-tag']
+            ['escape' => false, 'class' => 'new-tag hide']
         );?>
     </li>
     <li>
@@ -118,7 +118,7 @@
         <?=
         $this->Html->link(
             __('Donate'),
-            'http://cakefoundation.org/donate',
+            'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WXKS8CBVMNFZC',
             ['escape' => false, 'class' => 'donate']
         );?>
     </li>

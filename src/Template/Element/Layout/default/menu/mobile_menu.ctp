@@ -38,17 +38,17 @@
                                 </div>
                             </div>
 
-                            <div class="panel">
+<!--                            <div class="panel">
                                 <div class="panel-heading p0">
                                     <h4 class="panel-title title-responsivo-menu">
-                                        <?= $this->Html->link(
+                                        <?/*= $this->Html->link(
                                             '<i class="fa fa-caret-right upside-stop"></i>' . h(__('Get Paid To Write')),
                                             ['plugin' => false, 'controller' => 'Writers', 'action' => 'index', 'prefix' => false],
-                                            ['escape' => false, 'class' => 'new-tag']
-                                        ) ?>
+                                            ['escape' => false, 'class' => 'new-tag ']
+                                        ) */?>
                                     </h4>
                                 </div>
-                            </div>
+                            </div>-->
 
 							<div class="panel">
 								<div class="panel-heading p0">
@@ -120,7 +120,7 @@
                                     <h4 class="panel-title title-responsivo-menu donate-background">
                                         <?= $this->Html->link(
                                             '<i class="fa fa-caret-right upside-stop"></i>' . h(__('Donate')),
-                                            ['http://cakefoundation.org/donate'],
+                                            'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WXKS8CBVMNFZC',
                                             ['escape' => false]
                                         ) ?>
                                     </h4>
