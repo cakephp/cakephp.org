@@ -33,7 +33,7 @@
         $this->Html->link(
             __('Showcase'),
             ['controller' => 'projects', 'action' => 'index'],
-            ['escape' => false]
+            ['escape' => false, 'class' => 'hide']
         );?>
     </li>
     <li>

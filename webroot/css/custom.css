@@ -450,3 +450,7 @@ li.language a {
 	background-image: url("../img/donate.svg");
 	background-size: 70% auto;
 }
+
+.donate-background {
+	background-color: #363637;
+}
