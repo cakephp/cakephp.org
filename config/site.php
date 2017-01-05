@@ -3,7 +3,8 @@
 return [
 	'Site' => [
 		'contact' => [
-			'email' => 'contact@cakedc.com'
+			'email' => 'contact@cakedc.com',
+			'marketing_email' => 'marketing@cakedc.com',
 		],
 		'quotes' => [
 			[
@@ -416,7 +417,7 @@ return [
 				'image-url' => 'team/thinkingmedia.jpg',
 				'country' => 'Canada'
 			],
-		]
-
+		],
+		'writers_form_enabled' => true,
 	],
 ];
