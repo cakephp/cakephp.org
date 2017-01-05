@@ -118,7 +118,7 @@
         <?=
         $this->Html->link(
             __('Donate'),
-            ['http://cakefoundation.org/donate'],
+            'http://cakefoundation.org/donate',
             ['escape' => false, 'class' => 'donate']
         );?>
     </li>
