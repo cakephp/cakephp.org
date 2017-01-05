@@ -15,14 +15,6 @@
     <li>
         <?=
         $this->Html->link(
-            __('Get Paid to Write'),
-            ['plugin' => false, 'controller' => 'Writers', 'action' => 'index', 'prefix' => false],
-            ['escape' => false]
-        );?>
-    </li>
-    <li>
-        <?=
-        $this->Html->link(
             __('Business Solutions'),
             ['controller' => 'pages', 'action' => 'display', 'business-solutions'],
             ['escape' => false]
