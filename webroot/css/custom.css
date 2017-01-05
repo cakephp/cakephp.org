@@ -427,12 +427,24 @@ li.language a {
 	}
 }
 
+.panel-title .new-tag::after {
+	position: absolute;
+	content: url(../img/new-tag.svg);
+	right: -29px;
+	height: 24px;
+	top: -6px;
+}
+
 .new-tag::after {
 	content: url("../img/new-tag.svg");
 	height: 24px;
 	position: absolute;
 	right: 4px;
 	top: 15px;
+}
+
+.new-tag {
+	position: relative;
 }
 
 .donate {
@@ -454,3 +466,4 @@ li.language a {
 .donate-background {
 	background-color: #363637;
 }
+

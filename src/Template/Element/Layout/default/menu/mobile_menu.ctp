@@ -44,7 +44,7 @@
                                         <?= $this->Html->link(
                                             '<i class="fa fa-caret-right upside-stop"></i>' . h(__('Get Paid To Write')),
                                             ['plugin' => false, 'controller' => 'Writers', 'action' => 'index', 'prefix' => false],
-                                            ['escape' => false]
+                                            ['escape' => false, 'class' => 'new-tag']
                                         ) ?>
                                     </h4>
                                 </div>
