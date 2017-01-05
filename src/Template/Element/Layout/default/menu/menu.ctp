@@ -15,17 +15,17 @@
     <li>
         <?=
         $this->Html->link(
-            __('Get Paid to Write'),
-            ['plugin' => false, 'controller' => 'Writers', 'action' => 'index', 'prefix' => false],
+            __('Business Solutions'),
+            ['controller' => 'pages', 'action' => 'display', 'business-solutions'],
             ['escape' => false]
         );?>
     </li>
     <li>
         <?=
         $this->Html->link(
-            __('Business Solutions'),
-            ['controller' => 'pages', 'action' => 'display', 'business-solutions'],
-            ['escape' => false]
+            __('Get Paid to Write'),
+            ['plugin' => false, 'controller' => 'Writers', 'action' => 'index', 'prefix' => false],
+            ['escape' => false, 'class' => 'new-tag']
         );?>
     </li>
     <li>
@@ -82,17 +82,6 @@
             </div>
         </div>
     </li>
-
-    <?php if ($this->request->session()->check('Auth.User')) : ?>
-        <li>
-            <?= $this->Html->link(
-                $this->Html->tag('i', '', ['class' => 'fa fa-logout']) . __('Logout'),
-                ['prefix' => false, 'plugin' => 'CakeDC/Users', 'controller' => 'Users', 'action' => 'logout'],
-                ['escape' => false]
-            );
-            ?>
-        </li>
-    <?php endif; ?>
 	<li class="language">
 		<?= $this->Html->link(
 			$this->Html->tag('i', '', ['class' => 'fa fa-menu fa-menu-en fa-chevron-down']) . $selectedLanguage,
@@ -115,4 +104,22 @@
 			<?php endforeach; ?>
 		</ul>
 	</li>
+    <?php if ($this->request->session()->check('Auth.User')) : ?>
+        <li>
+            <?= $this->Html->link(
+                $this->Html->tag('i', '', ['class' => 'fa fa-logout']) . __('Logout'),
+                ['prefix' => false, 'plugin' => 'CakeDC/Users', 'controller' => 'Users', 'action' => 'logout'],
+                ['escape' => false]
+            );
+            ?>
+        </li>
+    <?php endif; ?>
+    <li>
+        <?=
+        $this->Html->link(
+            __('Donate'),
+            ['http://cakefoundation.org/donate'],
+            ['escape' => false, 'class' => 'donate']
+        );?>
+    </li>
 </ul>

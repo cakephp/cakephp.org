@@ -418,7 +418,7 @@ li.language a {
 }
 
 .menu > li > a {
-	padding: 25px 20px;
+	padding: 25px 15px;
 }
 
 @media (max-width:1200px) {
@@ -427,3 +427,26 @@ li.language a {
 	}
 }
 
+.new-tag::after {
+	content: url("../img/new-tag.svg");
+	height: 24px;
+	position: absolute;
+	right: 4px;
+	top: 15px;
+}
+
+.donate {
+	background-color: #363637;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 300% auto;
+	color: #fff;
+	font-size: 11px !important;
+	font-weight: 800 !important;
+	margin-left: 10px;
+}
+
+.donate:hover {
+	background-image: url("../img/donate.svg");
+	background-size: 70% auto;
+}
