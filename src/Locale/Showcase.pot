@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2016-06-09 13:50+0000\n"
+"POT-Creation-Date: 2017-01-09 12:44+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -14,50 +14,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Template/Plugin/Showcase/Admin/Projects/add.ctp:4
-#: Template/Plugin/Showcase/Admin/Projects/edit.ctp:17
-#: Template/Plugin/Showcase/Admin/Projects/view.ctp:11
-msgid "List Projects"
-msgstr ""
-
-#: Template/Plugin/Showcase/Admin/Projects/add.ctp:12
-msgid "Add Project"
-msgstr ""
-
-#: Template/Plugin/Showcase/Admin/Projects/edit.ctp:4
-msgid "View"
-msgstr ""
-
-#: Template/Plugin/Showcase/Admin/Projects/edit.ctp:9
-#: Template/Plugin/Showcase/Admin/Projects/view.ctp:7
-msgid "Delete"
-msgstr ""
-
-#: Template/Plugin/Showcase/Admin/Projects/edit.ctp:25
-msgid "Edit Project"
-msgstr ""
-
-#: Template/Plugin/Showcase/Admin/Projects/index.ctp:4
-msgid "New Project"
-msgstr ""
-
-#: Template/Plugin/Showcase/Admin/Projects/index.ctp:12
+#: Template/Admin/Dashboards/index.ctp:4
+#: Template/Admin/Projects/index.ctp:12
 msgid "Projects"
 msgstr ""
 
-#: Template/Plugin/Showcase/Admin/Projects/view.ctp:4
+#: Template/Admin/Projects/add.ctp:4
+#: Template/Admin/Projects/edit.ctp:17
+#: Template/Admin/Projects/view.ctp:11
+msgid "List Projects"
+msgstr ""
+
+#: Template/Admin/Projects/add.ctp:12
+msgid "Add Project"
+msgstr ""
+
+#: Template/Admin/Projects/edit.ctp:4
+msgid "View"
+msgstr ""
+
+#: Template/Admin/Projects/edit.ctp:9
+#: Template/Admin/Projects/view.ctp:7
+msgid "Delete"
+msgstr ""
+
+#: Template/Admin/Projects/edit.ctp:25
+msgid "Edit Project"
+msgstr ""
+
+#: Template/Admin/Projects/index.ctp:4
+msgid "New Project"
+msgstr ""
+
+#: Template/Admin/Projects/view.ctp:4
 msgid "Edit"
 msgstr ""
 
-#: Template/Plugin/Showcase/Admin/Projects/view.ctp:9
+#: Template/Admin/Projects/view.ctp:9
 msgid "Are you sure you?"
 msgstr ""
 
-#: Template/Plugin/Showcase/Element/Projects/form.ctp:26
+#: Template/Element/Projects/form.ctp:26
 msgid "Perspective Image"
 msgstr ""
 
-#: Template/Plugin/Showcase/Element/Projects/form.ctp:44
+#: Template/Element/Projects/form.ctp:44
 msgid "Screen Monitor Images"
 msgstr ""
 
