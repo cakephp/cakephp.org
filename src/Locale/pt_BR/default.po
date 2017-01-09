@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2017-01-09 10:45-0200\n"
-"PO-Revision-Date: 2017-01-09 11:29-0200\n"
+"PO-Revision-Date: 2017-01-09 14:59-0200\n"
 "Last-Translator: \n"
 "Language-Team: EMAIL@ADDRESS\n"
 "Language: pt_BR\n"
@@ -881,7 +881,7 @@ msgstr ""
 #: Template/Element/business-solutions/professional-training.ctp:12
 #: Template/Element/home/support.ctp:44
 msgid "Training"
-msgstr ""
+msgstr "Treinamento"
 
 #: Template/Element/business-solutions/professional-training.ctp:13
 msgid ""
@@ -1277,7 +1277,7 @@ msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:10
 msgid "Get Involved!"
-msgstr ""
+msgstr "Envolva-se!"
 
 #: Template/Element/get-involved/get-involved.ctp:12
 #: Template/Element/home/share.ctp:14
@@ -1286,6 +1286,9 @@ msgid ""
 "then we'd love for you to join us, there are a variety of ways to get "
 "involved and help out."
 msgstr ""
+"Se você estiver interessado em contribuir com o CakePHP e apoiar a "
+"comunidade, nós adoraríamos que você se juntasse a nós, há uma variedade de "
+"maneiras de se envolver e ajudar."
 
 #: Template/Element/get-involved/get-involved.ctp:16
 #: Template/Element/get-involved/sidebar.ctp:6
@@ -1669,39 +1672,39 @@ msgstr ""
 
 #: Template/Element/home/newsletter.ctp:5
 msgid "Sign up for our newsletter."
-msgstr ""
+msgstr "Assine nossa newsletter."
 
 #: Template/Element/home/newsletter.ctp:105
 msgid "Send!"
-msgstr ""
+msgstr "Enviar!"
 
 #: Template/Element/home/quotes.ctp:11
 msgid "Hear what others have to say."
-msgstr ""
+msgstr "Ouça o que os outros tem a dizer."
 
 #: Template/Element/home/quotes.ctp:12
 msgid "This is how CakePHP has helped others to succeed."
-msgstr ""
+msgstr "É assim que o CakePHP os auxiliou a alcançar o sucesso."
 
 #: Template/Element/home/share.ctp:10
 msgid "Sharing the cake."
-msgstr ""
+msgstr "Dividindo o bolo."
 
 #: Template/Element/home/share.ctp:11
 msgid "Get involved and support the community."
-msgstr ""
+msgstr "Envolva-se e ajude a comunidade de desenvolvedores."
 
 #: Template/Element/home/share.ctp:16
 msgid "Learn more."
-msgstr ""
+msgstr "Aprenda mais."
 
 #: Template/Element/home/showcase.ctp:9
 msgid "Companies using CakePHP"
-msgstr ""
+msgstr "Companias usando o CakePHP"
 
 #: Template/Element/home/showcase.ctp:11
 msgid "View the Showcase"
-msgstr ""
+msgstr "Veja nosso mostruário"
 
 #: Template/Element/home/summary.ctp:6
 msgid ""
@@ -1748,7 +1751,7 @@ msgstr "construir protótipos rapidamente"
 
 #: Template/Element/home/summary.ctp:88
 msgid "No Configuration"
-msgstr "Sem configuração"
+msgstr "Sem Configuração"
 
 #: Template/Element/home/summary.ctp:90
 msgid ""
@@ -1782,7 +1785,7 @@ msgstr "aplicações comerciais"
 
 #: Template/Element/home/summary.ctp:110
 msgid "Batteries Included"
-msgstr "Pilhas incluídas"
+msgstr "Pilhas Inclusas"
 
 #: Template/Element/home/summary.ctp:112
 msgid ""
@@ -1802,7 +1805,7 @@ msgstr "Os ingredientes que você precisa, estão incluídos"
 
 #: Template/Element/home/summary.ctp:122
 msgid "Clean MVC Conventions"
-msgstr "Convenções MVC claras"
+msgstr "Convenções MVC Transparentes"
 
 #: Template/Element/home/summary.ctp:125
 msgid ""
