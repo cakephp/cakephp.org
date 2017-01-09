@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2017-01-09 18:17+0000\n"
+"POT-Creation-Date: 2017-01-09 19:36+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -609,138 +609,138 @@ msgid "We offer an array of development services, each covered by years of exper
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:49
-#: Template/Element/business-solutions/professional-training.ctp:50
-msgid "Setting up for development"
+msgid "CakePHP Development"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:50
-#: Template/Element/business-solutions/professional-training.ctp:51
-msgid "CakePHP 2 project file structure"
+msgid "Plugin Development"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:51
-#: Template/Element/business-solutions/professional-training.ctp:52
-msgid "Framework configuration"
+msgid "Mobile & Tablet Sites"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:52
-#: Template/Element/business-solutions/professional-training.ctp:53
-msgid "CakePHP 2 conventions"
+msgid "JavaScript, Ajax & Node.js"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:53
-#: Template/Element/business-solutions/professional-training.ctp:54
-msgid "Baking your first project"
+msgid "Single Page Applications"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:54
-#: Template/Element/business-solutions/professional-training.ctp:55
-msgid "Understanding scaffolding"
+msgid "API Development"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:55
-#: Template/Element/business-solutions/professional-training.ctp:56
-msgid "Using models"
+msgid "Web Services"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:56
-#: Template/Element/business-solutions/professional-training.ctp:57
-msgid "Model properties"
+msgid "Internationalization (i18n)"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:57
-#: Template/Element/business-solutions/professional-training.ctp:58
-msgid "Model associations"
+msgid "Imports & Migrations"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:58
-#: Template/Element/business-solutions/professional-training.ctp:59
-msgid "Model validation"
+msgid "Third-Party Integrations"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:59
-#: Template/Element/business-solutions/professional-training.ctp:60
-msgid "Retrieving data"
+msgid "Project Management"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:60
-#: Template/Element/business-solutions/professional-training.ctp:61
-msgid "Saving your data"
+msgid "Issue & Bug Tracking"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:65
-#: Template/Element/business-solutions/professional-training.ctp:66
-msgid "Creating controllers"
+#: Template/Element/business-solutions/development.ctp:61
+msgid "Backups & Version Control"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:66
-#: Template/Element/business-solutions/professional-training.ctp:67
-msgid "Implementing callbacks"
+#: Template/Element/business-solutions/development.ctp:62
+msgid "Database Modeling"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:67
-#: Template/Element/business-solutions/professional-training.ctp:68
-msgid "Request and Response objects"
+#: Template/Element/business-solutions/development.ctp:63
+msgid "UML/ER/Flow Diagrams"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:68
-#: Template/Element/business-solutions/professional-training.ctp:69
-msgid "Components (Session, Security)"
+msgid "In-Depth Code Review"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:69
-#: Template/Element/business-solutions/professional-training.ctp:70
-msgid "Building views"
+msgid "Wire-Frames & Mock-ups"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:70
-#: Template/Element/business-solutions/professional-training.ctp:71
-msgid "Page layouts"
+msgid "Responsive Web Design"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:71
-#: Template/Element/business-solutions/professional-training.ctp:72
-msgid "Handling elements"
+msgid "Payment Gateways"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:72
-#: Template/Element/business-solutions/professional-training.ctp:73
-msgid "View blocks"
+msgid "PCI Compliance"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:73
-#: Template/Element/business-solutions/professional-training.ctp:74
-msgid "Helpers (Html, Form)"
+msgid "Technical Specifications"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:74
-#: Template/Element/business-solutions/professional-training.ctp:75
-msgid "Using plugins"
+msgid "Functional Analysis"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:75
-#: Template/Element/business-solutions/professional-training.ctp:76
-msgid "Debugging code"
+msgid "Performance & Scalability"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:76
-#: Template/Element/business-solutions/professional-training.ctp:77
-msgid "Unit testing"
+msgid "Security & Integrity Checks"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:85
+#: Template/Element/business-solutions/development.ctp:77
+msgid "Domain Level Analysis"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:78
+msgid "Source Code Refactoring"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:79
+msgid "Technical Documentation"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:80
+msgid "Web Standards Compliance"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:81
+msgid "Usability Testing (UI & UX)"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:82
+msgid "A/B Testing & Smoke Tests"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:91
 msgid "Find out"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:86
+#: Template/Element/business-solutions/development.ctp:92
 msgid "More"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:87
+#: Template/Element/business-solutions/development.ctp:93
 msgid "Looking to learn more about what CakeDC has to offer? Share your details with us below, and we'll contact you within {0}"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:87
+#: Template/Element/business-solutions/development.ctp:93
 #: Template/Element/home/support.ctp:69
 msgid "24 hours!"
 msgstr ""
@@ -819,6 +819,102 @@ msgstr ""
 
 #: Template/Element/business-solutions/professional-training.ctp:47
 msgid "Course  Topics"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:50
+msgid "Setting up for development"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:51
+msgid "CakePHP 2 project file structure"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:52
+msgid "Framework configuration"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:53
+msgid "CakePHP 2 conventions"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:54
+msgid "Baking your first project"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:55
+msgid "Understanding scaffolding"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:56
+msgid "Using models"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:57
+msgid "Model properties"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:58
+msgid "Model associations"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:59
+msgid "Model validation"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:60
+msgid "Retrieving data"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:61
+msgid "Saving your data"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:66
+msgid "Creating controllers"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:67
+msgid "Implementing callbacks"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:68
+msgid "Request and Response objects"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:69
+msgid "Components (Session, Security)"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:70
+msgid "Building views"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:71
+msgid "Page layouts"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:72
+msgid "Handling elements"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:73
+msgid "View blocks"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:74
+msgid "Helpers (Html, Form)"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:75
+msgid "Using plugins"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:76
+msgid "Debugging code"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:77
+msgid "Unit testing"
 msgstr ""
 
 #: Template/Element/business-solutions/sidebar.ctp:6
