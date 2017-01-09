@@ -46,34 +46,40 @@
 		<p><?= __('We offer an array of development services, each covered by years of experience and our collective talent.') ?></p>
 		<div class="col-sm-6 business-list">
 			<ul>
-				<li><?= __('Setting up for development') ?></li>
-				<li><?= __('CakePHP 2 project file structure') ?></li>
-				<li><?= __('Framework configuration') ?></li>
-				<li><?= __('CakePHP 2 conventions') ?></li>
-				<li><?= __('Baking your first project') ?></li>
-				<li><?= __('Understanding scaffolding') ?></li>
-				<li><?= __('Using models') ?></li>
-				<li><?= __('Model properties') ?></li>
-				<li><?= __('Model associations') ?></li>
-				<li><?= __('Model validation') ?></li>
-				<li><?= __('Retrieving data') ?></li>
-				<li><?= __('Saving your data') ?></li>
+                <li><?= __('CakePHP Development') ?></li>
+                <li><?= __('Plugin Development') ?></li>
+                <li><?= __('Mobile & Tablet Sites') ?></li>
+                <li><?= __('JavaScript, Ajax & Node.js') ?></li>
+                <li><?= __('Single Page Applications') ?></li>
+                <li><?= __('API Development') ?></li>
+                <li><?= __('Web Services') ?></li>
+                <li><?= __('Internationalization (i18n)') ?></li>
+                <li><?= __('Imports & Migrations') ?></li>
+                <li><?= __('Third-Party Integrations') ?></li>
+                <li><?= __('Project Management') ?></li>
+                <li><?= __('Issue & Bug Tracking') ?></li>
+                <li><?= __('Backups & Version Control') ?></li>
+                <li><?= __('Database Modeling') ?></li>
+                <li><?= __('UML/ER/Flow Diagrams') ?></li>
 			</ul>
 		</div>
 		<div class="col-sm-6 business-list">
 			<ul>
-				<li><?= __('Creating controllers') ?></li>
-				<li><?= __('Implementing callbacks') ?></li>
-				<li><?= __('Request and Response objects') ?></li>
-				<li><?= __('Components (Session, Security)') ?></li>
-				<li><?= __('Building views') ?></li>
-				<li><?= __('Page layouts') ?></li>
-				<li><?= __('Handling elements') ?></li>
-				<li><?= __('View blocks') ?></li>
-				<li><?= __('Helpers (Html, Form)') ?></li>
-				<li><?= __('Using plugins') ?></li>
-				<li><?= __('Debugging code') ?></li>
-				<li><?= __('Unit testing') ?></li>
+                <li><?= __('In-Depth Code Review') ?></li>
+                <li><?= __('Wire-Frames & Mock-ups') ?></li>
+                <li><?= __('Responsive Web Design') ?></li>
+                <li><?= __('Payment Gateways') ?></li>
+                <li><?= __('PCI Compliance') ?></li>
+                <li><?= __('Technical Specifications') ?></li>
+                <li><?= __('Functional Analysis') ?></li>
+                <li><?= __('Performance & Scalability') ?></li>
+                <li><?= __('Security & Integrity Checks') ?></li>
+                <li><?= __('Domain Level Analysis') ?></li>
+                <li><?= __('Source Code Refactoring') ?></li>
+                <li><?= __('Technical Documentation') ?></li>
+                <li><?= __('Web Standards Compliance') ?></li>
+                <li><?= __('Usability Testing (UI & UX)') ?></li>
+                <li><?= __('A/B Testing & Smoke Tests') ?></li>
 			</ul>
 		</div>
 
