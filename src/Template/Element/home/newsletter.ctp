@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<h3 class="title-white mb50"><?=__('Sign up for our newsletter.')?></h3>
+				<h3 class="title-white mb50"><?= __('Sign up for our newsletter.') ?></h3>
 
 				<form class="form" method="post" action="//cakephp.us9.list-manage.com/subscribe/post?u=f380de581acd576e7d802552a&amp;id=539d7fcbd1">
 					<div class="row col-p10">
@@ -15,7 +15,7 @@
 											   name="FNAME"
 											   class="form-control"
 											   id="mce-FNAME"
-											   placeholder="First Name"
+											   placeholder="<?= __('First Name') ?>"
 											   required>
 									</label>
 								</div>
@@ -25,8 +25,8 @@
 					                		   value=""
 					                		   name="LNAME"
 					                		   class="form-control"
-					                		   placeholder="Last Name"
 					                		   id="mce-LNAME"
+                                               placeholder="<?= __('Last Name') ?>"
 					                		   required>
 					                </label>
 
@@ -38,7 +38,7 @@
 											   name="EMAIL"
 											   class="form-control"
 											   id="mce-EMAIL"
-											   placeholder="Email"
+                                               placeholder="<?= __('Email') ?>"
 											   required>
 									</label>
 								</div>
@@ -74,7 +74,7 @@
 									</ul>
 								</div>
 								<div class="col-lg-4 col-md-4 mc-field-group mt10">
-									<strong>Email Format </strong>
+									<strong><?= __('Email Format') ?></strong>
 									<ul>
 										<li><input type="radio" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0"><label
 												for="mce-EMAILTYPE-0">html</label></li>
@@ -90,6 +90,7 @@
 						<div class="response" id="mce-error-response" style="display:none"></div>
 						<div class="response" id="mce-success-response" style="display:none"></div>
 					</div>
+
 					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 					<div style="position: absolute; left: -5000px;" aria-hidden="true">
 						<input type="text"
@@ -102,7 +103,7 @@
 								type="submit"
 							   name="subscribe"
 							   id="mc-embedded-subscribe"
-							   class="btn btn-white"><?= __('Send!')?></button>
+							   class="btn btn-white"><?= __('Send!') ?></button>
 					</div>
 				</form>
 			</div>
