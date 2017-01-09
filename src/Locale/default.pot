@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2017-01-09 12:43+0000\n"
+"POT-Creation-Date: 2017-01-09 18:17+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -245,6 +245,7 @@ msgid "Name"
 msgstr ""
 
 #: Template/Element/rapid_response.ctp:42
+#: Template/Element/home/newsletter.ctp:41
 #: Template/Email/text/writers_form.ctp:8
 #: Template/Writers/index.ctp:79
 msgid "Email"
@@ -1343,7 +1344,22 @@ msgstr ""
 msgid "Sign up for our newsletter."
 msgstr ""
 
-#: Template/Element/home/newsletter.ctp:105
+#: Template/Element/home/newsletter.ctp:18
+#: Template/Pages/newsletter_signup.ctp:61
+msgid "First Name"
+msgstr ""
+
+#: Template/Element/home/newsletter.ctp:29
+#: Template/Pages/newsletter_signup.ctp:65
+msgid "Last Name"
+msgstr ""
+
+#: Template/Element/home/newsletter.ctp:93
+#: Template/Pages/newsletter_signup.ctp:112
+msgid "Email Format"
+msgstr ""
+
+#: Template/Element/home/newsletter.ctp:126
 msgid "Send!"
 msgstr ""
 
@@ -2522,15 +2538,39 @@ msgstr ""
 msgid "CakePHP is an open-source web, rapid development framework that makes building web applications simpler,\n faster and require less code. It follows the model–view–controller (MVC) . Manual for beginners now available and links\n  towards the last version."
 msgstr ""
 
-#: Template/Pages/newsletter.ctp:13
+#: Template/Pages/newsletter.ctp:3
+msgid "CakePHP - Build fast, grow solid | CakePHP latest news"
+msgstr ""
+
+#: Template/Pages/newsletter.ctp:4
+msgid "Latest CakePHP News."
+msgstr ""
+
+#: Template/Pages/newsletter.ctp:15
 msgid "Newsletter Archive"
 msgstr ""
 
-#: Template/Pages/newsletter_signup.ctp:1
-msgid "CakePHP - Build fast, grow solid | Newsletter Signup"
+#: Template/Pages/newsletter_signup.ctp:3
+msgid "CakePHP - Build fast, grow solid | Newsletter Sign Up"
 msgstr ""
 
-#: Template/Pages/newsletter_signup.ctp:82
+#: Template/Pages/newsletter_signup.ctp:4
+msgid "Newsletter Sign Up Form"
+msgstr ""
+
+#: Template/Pages/newsletter_signup.ctp:41
+msgid "Subscribe to our Newsletters"
+msgstr ""
+
+#: Template/Pages/newsletter_signup.ctp:51
+msgid "are required fields"
+msgstr ""
+
+#: Template/Pages/newsletter_signup.ctp:56
+msgid "Email Address"
+msgstr ""
+
+#: Template/Pages/newsletter_signup.ctp:138
 msgid "Past Newsletters"
 msgstr ""
 
