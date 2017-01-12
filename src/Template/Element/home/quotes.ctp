@@ -16,7 +16,7 @@ $quotes = Configure::read('Site.quotes');
                 <div class="col-md-10 col-md-offset-1">
                     <div class="quote">
                         <?= $this->Html->image($quote['image'])?>
-                        <?= $this->Html->tag('blockquote', $quote['text'])?>
+                        <?= $this->Html->tag('blockquote', __($quote['text']))?>
                         <?= $this->Html->tag('h5', $quote['client'])?>
                         <?= $this->Html->tag('h6', !empty($quote['url']) ? $this->Html->link($quote['company'], $quote['url']) : $quote['company']) ?>
                     </div>
