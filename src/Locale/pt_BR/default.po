@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2017-01-12 16:16-0200\n"
-"PO-Revision-Date: 2017-01-12 16:26-0200\n"
+"PO-Revision-Date: 2017-01-12 17:43-0200\n"
 "Last-Translator: \n"
 "Language-Team: EMAIL@ADDRESS\n"
 "Language: pt_BR\n"
@@ -1815,9 +1815,8 @@ msgid ""
 msgstr ""
 
 #: Template/Element/get-involved/sidebar.ctp:3 site.php:60
-#, fuzzy
 msgid "Get Involved"
-msgstr "Envolva-se!"
+msgstr "Participe"
 
 #: Template/Element/get-involved/sidebar.ctp:12
 msgid "Translation"
@@ -4117,6 +4116,16 @@ msgid ""
 "the code he writes and time dedicated to the CakePHP framework development "
 "over the past 11 years."
 msgstr ""
+"Larry Masters é o co-fundador do projeto CakePHP, lançado em maio de 2005, "
+"contribuiu como desenvolvedor líder e consultor desde então. Tem estado "
+"envolvido com iniciativas open-source a muitos anos. Voltando às suas "
+"primeiras contribuições feitas para o The Exchange Project, agora conhecido "
+"como osCommerce. Antes de desenvolver o framework CakePHP e começar a Cake "
+"Software Foundation, Inc, era um membro do PostNuke, agora conhecido como "
+"Zikula.  Tem 30 anos de experiência no desenvolvimento de software, "
+"administração de sistemas e design de banco de dados. Sua paixão pela "
+"excelência é evidente no código que escreve e no tempo dedicado ao "
+"desenvolvimento do framework CakePHP nos últimos 11 anos."
 
 #: site.php:240
 msgid "English, US English, Broken English, Klingon"
@@ -4124,7 +4133,7 @@ msgstr ""
 
 #: site.php:244
 msgid "Co-Founder"
-msgstr ""
+msgstr "Co-Fundador"
 
 #: site.php:250
 msgid ""
@@ -4132,6 +4141,9 @@ msgid ""
 "late 2009. He is also a developer at FreshBooks. CakePHP Developer, Dad, MtG "
 "nerd, and moonlight Illustrator."
 msgstr ""
+"Mark é um membro do núcleo de desenvolvimento do CakePHP, operando como "
+"desenvolvedor líder desde 2009. Também é desenvolvedor na FreshBooks, pai, "
+"apaixonado por Magic e ilustrador nas horas vagas."
 
 #: site.php:251;273;284;295;337;351;388;398;410
 msgid "English"
@@ -4139,7 +4151,7 @@ msgstr ""
 
 #: site.php:255
 msgid "Lead Developer"
-msgstr ""
+msgstr "Desenvolvedor Líder"
 
 #: site.php:261
 msgid ""
@@ -4148,6 +4160,11 @@ msgid ""
 "he often does talks about its amazing ORM. In his spare time, he teaches and "
 "practices mindfulness, ride his bike, or learns new programming languages."
 msgstr ""
+"José é um desenvolvedor de software full-stack que ama resolver problemas "
+"complexos. Tem contribuído com o framework CakePHP desde 2009 e "
+"frequentemente realiza palestras sobre seu ORM incrível. No seu tempo livre "
+"ensina e pratica meditação, anda de bicicleta ou aprende novas linguagens de "
+"programação."
 
 #: site.php:262
 msgid "English, Spanish, French and Danish"
@@ -4155,7 +4172,7 @@ msgstr ""
 
 #: site.php:266
 msgid "ORM Developer"
-msgstr ""
+msgstr "Desenvovedor do ORM"
 
 #: site.php:272
 msgid ""
@@ -4163,10 +4180,13 @@ msgid ""
 "account and an interest in Docker and Server Monitoring. He's been doing "
 "this since around 2008 and sometimes he blogs."
 msgstr ""
+"Um desenvolvedor situado em Nova Iorque, extremamente ativo no GitHub e "
+"interessado em monitoramento de servidores e no Docker. Engajado desde 2008, "
+"de vez em quando ele posta em seu blog."
 
 #: site.php:277;288;299;314;329;341;355;368;380;401;414
 msgid "Core Member"
-msgstr ""
+msgstr "Núcleo de desenvolvimento"
 
 #: site.php:283
 msgid ""
@@ -4174,12 +4194,17 @@ msgid ""
 "deepest darkest corners of the internet. He's also involved in maintaining "
 "lot of popular CakePHP community plugins."
 msgstr ""
+"Um programador de dia e de noite, você geralmente vai encontrá-lo "
+"espreitando nos cantos mais profundos e escuros da internet. Ele também está "
+"envolvido na manutenção de muitos plugins populares da comunidade CakePHP."
 
 #: site.php:294
 msgid ""
 "Bryan Crowe is an open source developer living in New York, NY. He is "
 "involved in the CakePHP framework."
 msgstr ""
+"Bryan Crowe é um desenvolvedor entusiasta do open-source, vivendo em Nova "
+"Iorque."
 
 #: site.php:305
 msgid ""
@@ -4193,6 +4218,12 @@ msgid ""
 "working as lead developer for PSA Publishers\n"
 "\t\t\t\t\t\t\tLtd"
 msgstr ""
+"Um desenvolvedor de software por profissão e não apenas porque é um "
+"trabalho. Florian tanto faz parte do time do CakePHP, bem como trabalhou com "
+"a CakeDC em si, desenvolvendo com e para o CakePHP desde 2007. Florian vê a "
+"programação como uma verdadeira profissão e não apenas um emprego, ele gosta "
+"de trabalhar em projetos open-source e tem interesse em Unity3D e C# também. "
+"Ele está trabalhando como desenvolvedor líder para a PSA Publishers Ltd."
 
 #: site.php:310;325
 msgid "English, German"
@@ -4210,6 +4241,15 @@ msgid ""
 "\t\t\t\t\tOn his blog dereuromark.de he sometimes blogs about web and "
 "CakePHP related topics."
 msgstr ""
+"Mark tem sido um entusiasta de software para web e contribuinte open-source "
+"por muitos anos.\n"
+"\t\t\t\t\tEle é um desenvolvedor de software alemão morando em Berlim, que "
+"começou a usar o CakePHP nos tempos de 1.2.\n"
+"\t\t\t\t\tComo um dos principais desenvolvedores do CakePHP, ele é um grande "
+"fã de desenvolvimento rápido e tem sido muito feliz usando o CakePHP em suas "
+"aplicações até agora.\n"
+"\t\t\t\t\tEm seu blog dereuromark.de ele as vezes escreve sobre tópicos "
+"relacionados à web e ao CakePHP."
 
 #: site.php:335
 msgid ""
@@ -4217,6 +4257,9 @@ msgid ""
 "lover of technology\n"
 "\t\t\t \t\t\t\t\tand servers - author of FriendsOfCake/crud"
 msgstr ""
+"CTO na @bownty, membro do núcleo de desenvolvimento do @CakePHP, consultor "
+"de tecnologia da @getlinkfire - amante de tecnologia e servidores - autor do "
+"FriendsOfCake/crud"
 
 #: site.php:347
 msgid ""
@@ -4228,6 +4271,13 @@ msgid ""
 "find him either spending time with his family,\n"
 "\t\t\t\t\t\t\t\tor at Scouts, where he is an adult leader/Scouter."
 msgstr ""
+"Walther é um engenheiro/desenvolvedor de software trabalhando principalmente "
+"com PHP (utilizando CakePHP como seu framework preferido).\n"
+"\t\t\t\t\t\t\t\tTambém é um membro do núcleo de desenvolvimento, bem como da "
+"equipe de desenvolvimento do Croogo e do grupo Friends of Cake.\n"
+"\t\t\t\t\t\t\t\tQuando ele não está se desenvolvendo ou atrás da tela do seu "
+"PC, você pode encontrá-lo passando um tempo com sua família, ou como líder "
+"de escoteiros."
 
 #: site.php:361
 msgid ""
@@ -4237,6 +4287,10 @@ msgid ""
 "contribute in open source projects and participate\n"
 "\t\t\t\t\t\t\tfrom meetups and conferences."
 msgstr ""
+"Arquiteto e engenheiro que ama desempenho de software. Busca encontrar o "
+"equilíbrio entre desempenho e código de fácil manutenção. Diretor na Zumba, "
+"incentiva toda a sua equipe a contribuir para projetos open-source e a "
+"participar de conferências."
 
 #: site.php:364
 msgid "English, Portuguese"
@@ -4249,6 +4303,9 @@ msgid ""
 "\t\t\t\t\t\t\t\tcore team in February 2016 and has been working closely with "
 "the team on security fixes."
 msgstr ""
+"Kurita é um programador PHP de Tóquio. Atualmente ele trabalha em segurança "
+"de aplicativos web. Juntou-se ao núcleo de desenvolvimento do CakePHP em "
+"fevereiro de 2016 e tem trabalhado com a equipe em correções de segurança."
 
 #: site.php:376
 msgid "Japanese"
@@ -4260,16 +4317,21 @@ msgid ""
 "assist in\n"
 "\t\t\t\t\tgeneral queries, community assistance and CakeFest planning."
 msgstr ""
+"Além de marketing, social media e gestão da comunidade, Megan está por perto "
+"para auxiliar, em geral, consultas, assistência comunitária e planejamento "
+"da CakeFest."
 
 #: site.php:391
 msgid "CakePHP Community Manager"
-msgstr ""
+msgstr "Gerente da comunidade"
 
 #: site.php:397
 msgid ""
 "Cakephp and Croogo core team member, surfer wannabe. Oh, I am Super Awesome "
 "too."
 msgstr ""
+"Membro do núcleo de desenvolvimento do Croogo e do CakePHP, surfista "
+"wannabe. Ah, super incrível também."
 
 #: site.php:407
 msgid ""
@@ -4279,6 +4341,10 @@ msgid ""
 "improvements. He has a programming blog at {0}, and\n"
 "\t\t\t\tis the creator of {1}"
 msgstr ""
+"Mathew é um programador e artista 3D que gosta de contribuir para projetos "
+"open-source. Juntou-se ao núcleo de desenvolvimento do CakePHP em outubro de "
+"2016 e tem trabalhado na melhoria do banco de dados. Ele tem um blog de "
+"programação no {0} e é o criador de {1}"
 
 #~ msgid "New CakePHP 3.2 Red Velvet."
 #~ msgstr "Novo CakePHP 3.2 Red Velvet."
