@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2017-01-12 12:07-0200\n"
-"PO-Revision-Date: 2017-01-12 12:31-0200\n"
+"PO-Revision-Date: 2017-01-12 13:05-0200\n"
 "Last-Translator: \n"
 "Language-Team: EMAIL@ADDRESS\n"
 "Language: pt_BR\n"
@@ -1446,8 +1446,8 @@ msgid ""
 "involved and help out."
 msgstr ""
 "Se você estiver interessado em contribuir com o CakePHP e apoiar a "
-"comunidade, nós adoraríamos que você se juntasse a nós, há uma variedade de "
-"maneiras de se envolver e ajudar."
+"comunidade de desenvolvedores, nós adoraríamos que você se juntasse a nós, "
+"existem muitas maneiras de se envolver e ajudar."
 
 #: Template/Element/get-involved/get-involved.ctp:16
 #: Template/Element/get-involved/sidebar.ctp:6
@@ -1855,7 +1855,7 @@ msgstr "Enviar!"
 
 #: Template/Element/home/quotes.ctp:11
 msgid "Hear what others have to say."
-msgstr "Ouça o que os outros tem a dizer."
+msgstr "Ouça o que outros tem a dizer."
 
 #: Template/Element/home/quotes.ctp:12
 msgid "This is how CakePHP has helped others to succeed."
@@ -1871,7 +1871,7 @@ msgstr "Envolva-se e ajude a comunidade de desenvolvedores."
 
 #: Template/Element/home/share.ctp:16
 msgid "Learn more."
-msgstr "Aprenda mais."
+msgstr "Conte-me mais sobre isso."
 
 #: Template/Element/home/showcase.ctp:9
 msgid "Companies using CakePHP"
@@ -1891,14 +1891,12 @@ msgid ""
 "course, tastier. Build fast, grow solid\n"
 "\t\t\t\t\t with CakePHP."
 msgstr ""
-"O CakePHP torna a construção de aplicações web mais simples, mais rápida e "
-"ainda requer menos código. Um moderno\n"
-"\t\t\t\t\t framework baseado no PHP 5.5+ que oferece uma camada flexível de "
-"acesso a bancos de dados e um sistema\n"
-"\t\t\t\t\t de scaffolding poderoso que simplifica a construção de sistemas, "
-"tanto pequenos quanto complexos, e,\n"
-"\t\t\t\t\t naturalmente, torna a experiência mais saborosa. Construa rápido, "
-"seja sólido com o CakePHP."
+"O CakePHP simplifica e agiliza a construção de aplicações web, tanto "
+"pequenas quanto complexas, diminuindo a quantidade de código a ser escrito. "
+"Um moderno framework baseado no PHP 5.5+ que oferece uma camada flexível de "
+"acesso a bancos de dados e um sistema de scaffolding poderoso, e, "
+"naturalmente, torna a experiência mais saborosa. Construa rápido, seja "
+"consistente com o CakePHP."
 
 #: Template/Element/home/summary.ctp:13
 msgid "Download CakePHP {0}"
@@ -1910,7 +1908,7 @@ msgstr "Receita para o sucesso."
 
 #: Template/Element/home/summary.ctp:69
 msgid "Prototype faster, Validate faster, Grow consistently."
-msgstr "Prototipe e valide mais rapidamente, cresça de forma consistente."
+msgstr "Prototipe e valide rapidamente, cresça de forma consistente."
 
 #: Template/Element/home/summary.ctp:77
 msgid "Build Quickly"
@@ -1926,7 +1924,7 @@ msgstr "construir protótipos rapidamente"
 
 #: Template/Element/home/summary.ctp:88
 msgid "No Configuration"
-msgstr "Sem Configuração"
+msgstr "Configuração Simplificada"
 
 #: Template/Element/home/summary.ctp:90
 msgid ""
@@ -4034,7 +4032,7 @@ msgstr ""
 
 #: site.php:50
 msgid "Youtube Channel"
-msgstr ""
+msgstr "Canal no Youtube"
 
 #: site.php:64
 msgid "Bakery"
