@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2017-01-09 19:36+0000\n"
+"POT-Creation-Date: 2017-01-12 14:07+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -280,6 +280,7 @@ msgid "Home"
 msgstr ""
 
 #: Template/Element/Layout/default/footer/login_form.ctp:4
+#: site.php:86
 msgid "My CakePHP"
 msgstr ""
 
@@ -392,6 +393,7 @@ msgstr ""
 
 #: Template/Element/Layout/default/menu/top_bar.ctp:17
 #: Template/Element/get-involved/get-involved.ctp:175
+#: site.php:169
 msgid "API"
 msgstr ""
 
@@ -806,6 +808,7 @@ msgstr ""
 #: Template/Element/business-solutions/professional-training.ctp:40
 #: Template/Element/get-involved/sidebar.ctp:18
 #: Template/Element/rebranding/cake_variations.ctp:12
+#: site.php:91
 msgid "CakeFest"
 msgstr ""
 
@@ -1118,6 +1121,7 @@ msgid "{0}: Official community channel for the project"
 msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:97
+#: site.php:132
 msgid "Google+"
 msgstr ""
 
@@ -1409,6 +1413,7 @@ msgid "We have developers from countries all over the world who use CakePHP. If 
 msgstr ""
 
 #: Template/Element/get-involved/sidebar.ctp:3
+#: site.php:60
 msgid "Get Involved"
 msgstr ""
 
@@ -2329,6 +2334,7 @@ msgstr ""
 
 #: Template/Element/trademark/non-software.ctp:30
 #: Template/Element/trademark/sidebar.ctp:48
+#: site.php:225
 msgid "Events"
 msgstr ""
 
@@ -2679,6 +2685,7 @@ msgid "CakePHP Privacy Policy."
 msgstr ""
 
 #: Template/Pages/privacy.ctp:16
+#: site.php:188
 msgid "Privacy Policy"
 msgstr ""
 
@@ -2992,5 +2999,185 @@ msgstr ""
 
 #: View/Helper/AppHelper.php:135
 msgid "{0} to {1}"
+msgstr ""
+
+#: site.php:12
+msgid "“We got a high ROI from converting our custom PHP app to CakePHP. We love the continually expanding suite of utilities, plugins, and development patterns at our disposal!”"
+msgstr ""
+
+#: site.php:19
+msgid "“CakePHP was the most efficient way we could find to rapidly develop our intricate system.  We needed a platform that could handle our high volume of users without issues and CakePHP has certainly delivered.”"
+msgstr ""
+
+#: site.php:26
+msgid "“From the simplest micro kiosk app to my highly complex gallery management app, CakePHP is the framework of choice. It allows modular development that makes sense, and it's architecturally solid and performant. Whatever you are building, CakePHP can help you get it done.”"
+msgstr ""
+
+#: site.php:32
+msgid "“Having inherited this CakePHP project, I didn’t chose CakePHP so much as choose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.”"
+msgstr ""
+
+#: site.php:45
+msgid "Issues (Github)"
+msgstr ""
+
+#: site.php:50
+msgid "Youtube Channel"
+msgstr ""
+
+#: site.php:64
+msgid "Bakery"
+msgstr ""
+
+#: site.php:68
+msgid "Featured Resources"
+msgstr ""
+
+#: site.php:78
+msgid "Newsletter"
+msgstr ""
+
+#: site.php:82
+msgid "Certification"
+msgstr ""
+
+#: site.php:107
+msgid "Forum"
+msgstr ""
+
+#: site.php:113
+msgid "Stack Overflow"
+msgstr ""
+
+#: site.php:127
+msgid "Paid Support"
+msgstr ""
+
+#: site.php:139
+msgid "Cake Jobs"
+msgstr ""
+
+#: site.php:165
+msgid "Book"
+msgstr ""
+
+#: site.php:178
+msgid "Videos"
+msgstr ""
+
+#: site.php:198
+msgid "Logos & Trademarks"
+msgstr ""
+
+#: site.php:221
+msgid "Meetups"
+msgstr ""
+
+#: site.php:233
+msgid "Amsterdam"
+msgstr ""
+
+#: site.php:239
+msgid "Larry Masters the Co-Founder of the CakePHP project, first released in May 2005, and has contributed as a lead developer and advisor ever since. He has been involved in Open Source development for many years, dating back to his first contributions made to The Exchange Project, now called osCommerce. Prior to developing the CakePHP framework and starting Cake Software Foundation, Inc. he was a core developer of PostNuke, now continued as Zikula. He has 30 plus years experience in software development, system administration, and database design. His passion for excellence is shown in the code he writes and time dedicated to the CakePHP framework development over the past 11 years."
+msgstr ""
+
+#: site.php:240
+msgid "English, US English, Broken English, Klingon"
+msgstr ""
+
+#: site.php:244
+msgid "Co-Founder"
+msgstr ""
+
+#: site.php:250
+msgid "Mark is a core member of the CakePHP team, serving as a lead developer since late 2009. He is also a developer at FreshBooks. CakePHP Developer, Dad, MtG nerd, and moonlight Illustrator."
+msgstr ""
+
+#: site.php:251;273;284;295;337;351;388;398;410
+msgid "English"
+msgstr ""
+
+#: site.php:255
+msgid "Lead Developer"
+msgstr ""
+
+#: site.php:261
+msgid "José is a full-stack software developer that loves to solve difficult problems. He has been contributing to the CakePHP framework since 2009, and he often does talks about its amazing ORM. In his spare time, he teaches and practices mindfulness, ride his bike, or learns new programming languages."
+msgstr ""
+
+#: site.php:262
+msgid "English, Spanish, French and Danish"
+msgstr ""
+
+#: site.php:266
+msgid "ORM Developer"
+msgstr ""
+
+#: site.php:272
+msgid "A developer based in New York, New York with an extremely active github account and an interest in Docker and Server Monitoring. He's been doing this since around 2008 and sometimes he blogs."
+msgstr ""
+
+#: site.php:277;288;299;314;329;341;355;368;380;401;414
+msgid "Core Member"
+msgstr ""
+
+#: site.php:283
+msgid "A programmer by day and night, you will generally find him lurking in the deepest darkest corners of the internet. He's also involved in maintaining lot of popular CakePHP community plugins."
+msgstr ""
+
+#: site.php:294
+msgid "Bryan Crowe is an open source developer living in New York, NY. He is involved in the CakePHP framework."
+msgstr ""
+
+#: site.php:305
+msgid "A software developer by profession and not just because it’s a job. Florian is a core CakePHP team\n\t\t\t\t\t\t\tdeveloper as well as having worked with CakeDC itself, doing CakePHP development since 2007. Florian sees\n\t\t\t\t\t\t\tprogramming as a true profession and not just a job for him, he likes to work on open source projects after\n\t\t\t\t\t\t\twork hours and has an interest in Unity3D and c# as well. He’s working as lead developer for PSA Publishers\n\t\t\t\t\t\t\tLtd"
+msgstr ""
+
+#: site.php:310;325
+msgid "English, German"
+msgstr ""
+
+#: site.php:320
+msgid "Mark has been a web-software enthusiast and Open Source Contributor for many years.\n\t\t\t\t\tHe is a German Software Developer living in Berlin who started to use CakePHP in the 1.2 days.\n\t\t\t\t\tAs one of the core developers of CakePHP he is a huge fan of rapid development - and has been using\n\t\t\t\t\tCakePHP a lot for this in his applications so far.\n\t\t\t\t\tOn his blog dereuromark.de he sometimes blogs about web and CakePHP related topics."
+msgstr ""
+
+#: site.php:335
+msgid "CTO at @bownty, @CakePHP core developer, tech advisor at @getlinkfire - lover of technology\n\t\t\t \t\t\t\t\tand servers - author of FriendsOfCake/crud"
+msgstr ""
+
+#: site.php:347
+msgid "Walther is a software engineer/developer primarily working in PHP (Using CakePHP as his framework of choice).\n\t\t\t\t\t\t\t\tAlso a core member of the team, as well as the Croogo and Friends of Cake development team.\n\t\t\t\t\t\t\t\tWhen he is not developing or behind his PC screen, you can find him either spending time with his family,\n\t\t\t\t\t\t\t\tor at Scouts, where he is an adult leader/Scouter."
+msgstr ""
+
+#: site.php:361
+msgid "An architect and engineer that loves software performance. Finds the balance between maintainable code and\n\t\t\t\t\t\t\tperformance. Director at Zumba incentivize the whole team to contribute in open source projects and participate\n\t\t\t\t\t\t\tfrom meetups and conferences."
+msgstr ""
+
+#: site.php:364
+msgid "English, Portuguese"
+msgstr ""
+
+#: site.php:374
+msgid "Kurita is a PHP programmer living in Tokyo. Currently he works in web application security. Joined CakePHP\n\t\t\t\t\t\t\t\tcore team in February 2016 and has been working closely with the team on security fixes."
+msgstr ""
+
+#: site.php:376
+msgid "Japanese"
+msgstr ""
+
+#: site.php:386
+msgid "Besides marketing, social media and community management, Megan is around to assist in\n\t\t\t\t\tgeneral queries, community assistance and CakeFest planning."
+msgstr ""
+
+#: site.php:391
+msgid "CakePHP Community Manager"
+msgstr ""
+
+#: site.php:397
+msgid "Cakephp and Croogo core team member, surfer wannabe. Oh, I am Super Awesome too."
+msgstr ""
+
+#: site.php:407
+msgid "Mathew is a programmer and 3D artist that enjoys contributing to open source projects. Joined CakePHP\n\t\t\t\tcore team in October 2016 and has been working on database improvements. He has a programming blog at {0}, and\n\t\t\t\tis the creator of {1}"
 msgstr ""
 
