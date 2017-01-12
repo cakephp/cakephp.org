@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2017-01-12 12:07-0200\n"
-"PO-Revision-Date: 2017-01-12 13:05-0200\n"
+"POT-Creation-Date: 2017-01-12 16:16-0200\n"
+"PO-Revision-Date: 2017-01-12 16:26-0200\n"
 "Last-Translator: \n"
 "Language-Team: EMAIL@ADDRESS\n"
 "Language: pt_BR\n"
@@ -271,12 +271,12 @@ msgstr ""
 msgid "{0} series "
 msgstr ""
 
-#: Template/Element/rapid_response.ctp:29
+#: Template/Element/rapid_response.ctp:29;35
 #: Template/Email/text/writers_form.ctp:7 Template/Writers/index.ctp:78
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
-#: Template/Element/rapid_response.ctp:42
+#: Template/Element/rapid_response.ctp:42;48
 #: Template/Element/home/newsletter.ctp:41
 #: Template/Email/text/writers_form.ctp:8 Template/Writers/index.ctp:79
 msgid "Email"
@@ -284,11 +284,23 @@ msgstr ""
 
 #: Template/Element/rapid_response.ctp:55
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
+
+#: Template/Element/rapid_response.ctp:63
+msgid "Email me"
+msgstr "Envie um email"
+
+#: Template/Element/rapid_response.ctp:64
+msgid "Call me"
+msgstr "Faça uma ligação"
+
+#: Template/Element/rapid_response.ctp:65
+msgid "Skype me"
+msgstr "Me procure no Skype"
 
 #: Template/Element/rapid_response.ctp:75
 msgid "Phone"
-msgstr ""
+msgstr "Telefone"
 
 #: Template/Element/rapid_response.ctp:87
 msgid "Skype"
@@ -296,16 +308,22 @@ msgstr ""
 
 #: Template/Element/rapid_response.ctp:98
 msgid "Subject"
-msgstr ""
+msgstr "Assunto"
+
+#: Template/Element/rapid_response.ctp:128
+msgid "Send"
+msgstr "Enviar"
 
 #: Template/Element/Layout/default/footer.ctp:32
 msgid ""
 "Copyright 2005-2016 Cake Software Foundation, Inc. All rights reserved. {0}."
 msgstr ""
+"Copyright 2005-2016 Cake Software Foundation, Inc. Todos os direitos "
+"reservados. {0}."
 
 #: Template/Element/Layout/default/footer.ctp:33
 msgid "Designs by Ibaldo"
-msgstr ""
+msgstr "Designs por Ibaldo"
 
 #: Template/Element/Layout/default/navbar.ctp:7;25
 msgid "Home"
@@ -367,7 +385,7 @@ msgstr "Ofertas Comerciais"
 #: Template/Element/Layout/default/footer/menu/column_one.ctp:12
 #: Template/Element/Layout/default/menu/menu.ctp:34
 msgid "Showcase"
-msgstr ""
+msgstr "Galeria"
 
 #: Template/Element/Layout/default/footer/menu/column_three.ctp:2
 #: Template/Element/Layout/default/menu/menu.ctp:50;61
@@ -385,7 +403,7 @@ msgstr "Documentação"
 
 #: Template/Element/Layout/default/menu/menu.ctp:26
 msgid "Get Paid to Write"
-msgstr ""
+msgstr "Seja Autor Remunerado"
 
 #: Template/Element/Layout/default/menu/menu.ctp:42
 #: Template/Element/Layout/default/menu/mobile_menu.ctp:57
@@ -509,7 +527,7 @@ msgstr "Análise Inteligente"
 #: Template/Element/business-solutions/code-review.ctp:27
 msgid "Get a full featured CakePHP code review document containing:"
 msgstr ""
-"Receba um documento completo de revisão de código do CakePHP, incluindo:"
+"Receba documentos completos de revisão de código do CakePHP, incluindo:"
 
 #: Template/Element/business-solutions/code-review.ctp:29
 msgid "Code quality review"
@@ -549,8 +567,8 @@ msgid ""
 "mind, and actively help you reduce technical debt and extend the longevity "
 "of your code base."
 msgstr ""
-"Confie nos especialistas por trás do framework CakePHP. Deixe-nos fornecer "
-"soluções inteligentes, ajudá-lo ativamente a reduzir déficits técnicos e a "
+"Confie nos especialistas por trás do framework CakePHP. Permita-nos fornecer "
+"soluções inteligentes, auxiliar ativamente a reduzir déficits técnicos e a "
 "estender a longevidade do seu código."
 
 #: Template/Element/business-solutions/consultancy.ctp:3
@@ -633,10 +651,10 @@ msgid ""
 "applications, we provide the highest quality CakePHP development available."
 msgstr ""
 "Como a entidade comercial por trás do framework, e criada por Larry Masters, "
-"fundador do CakePHP, sabemos sobre a fundação do seu projeto como ninguém. "
-"De startups e redes sociais, aplicações de nível empresarial a e-commerces, "
-"nós fornecemos a mais alta qualidade no que tange desenvolvimento com o "
-"framework CakePHP."
+"fundador do CakePHP, conheçemos a fundação do seu projeto como ninguém. Nós "
+"fornecemos a mais alta qualidade no que tange desenvolvimento com o "
+"framework CakePHP, de startups e redes sociais, aplicações de nível "
+"empresarial a e-commerces."
 
 #: Template/Element/business-solutions/development.ctp:13
 msgid "Find out more"
@@ -893,8 +911,8 @@ msgid ""
 "Looking to learn more about what CakeDC has to offer? Share your details "
 "with us below, and we'll contact you within {0}"
 msgstr ""
-"Quer  saber o quê mais a CakeDC tem a oferecer? Nos envie mais detalhes "
-"abaixo e nós entraremos em contato em até {0}"
+"Quer saber o que a CakeDC tem a oferecer? Envie mais detalhes e nós "
+"entraremos em contato em até {0}"
 
 #: Template/Element/business-solutions/development.ctp:93
 #: Template/Element/home/support.ctp:69
@@ -1019,8 +1037,8 @@ msgid ""
 "for more information."
 msgstr ""
 "Além disso, se você preferir ter uma sessão de treinamento sob medida para "
-"você ou sua equipe, nós ofertamos sessões específicos como parte dos nossos "
-"serviços de consultoria, {0} nos para obter mais informações."
+"você ou sua equipe, nós ofertamos sessões personalizadas como parte dos "
+"nossos serviços de consultoria, {0} nos para obter mais informações."
 
 #: Template/Element/business-solutions/professional-training.ctp:43
 msgid "contact"
@@ -1428,7 +1446,7 @@ msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:3
 msgid "CakePHP - Build fast, grow solid | Get Involved"
-msgstr ""
+msgstr "CakePHP - Build fast, grow solid | Participe"
 
 #: Template/Element/get-involved/get-involved.ctp:4
 msgid "Contribute and support the CakePHP Community."
@@ -1436,7 +1454,7 @@ msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:10
 msgid "Get Involved!"
-msgstr "Envolva-se!"
+msgstr "Participe!"
 
 #: Template/Element/get-involved/get-involved.ctp:12
 #: Template/Element/home/share.ctp:14

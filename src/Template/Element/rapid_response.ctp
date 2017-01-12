@@ -32,7 +32,7 @@
 										'label' => false,
 										'div' => false,
 										'class' => 'form-control form-plugin-rapid',
-										'placeholder' => 'Name',
+										'placeholder' => __('Name'),
 										'required' => true
 									]) ?>
 								</div>
@@ -45,7 +45,7 @@
 										'label' => false,
 										'div' => false,
 										'class' => 'form-control form-plugin-rapid',
-										'placeholder' => 'Email',
+										'placeholder' => __('Email'),
 										'required' => true
 									]) ?>
 								</div>
@@ -60,9 +60,9 @@
 										'class' => 'form-plugin-rapid type-select',
 										'type' => 'select',
 										'options' => [
-											'email' => 'Email me',
-											'call' => 'Call me',
-											'skype' => 'Skype me'
+											'email' => __('Email me'),
+											'call' => __('Call me'),
+											'skype' => __('Skype me')
 										],
 										'templates' => [
 											'inputContainer' => '{{content}}'
@@ -125,7 +125,7 @@
 					<span class="glyph_range">O</span>
 				</div>
 				<div class="col-xs-6">
-					<?= $this->Form->submit('Send', [
+					<?= $this->Form->submit(__('Send'), [
 						'class' => 'btn btn-primary btn-modal-show',
 						'onclick' => "goog_report_conversion ()",
 					]) ?>

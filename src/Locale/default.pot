@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2017-01-12 14:07+0000\n"
+"POT-Creation-Date: 2017-01-12 18:15+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -238,13 +238,13 @@ msgstr ""
 msgid "{0} series "
 msgstr ""
 
-#: Template/Element/rapid_response.ctp:29
+#: Template/Element/rapid_response.ctp:29;35
 #: Template/Email/text/writers_form.ctp:7
 #: Template/Writers/index.ctp:78
 msgid "Name"
 msgstr ""
 
-#: Template/Element/rapid_response.ctp:42
+#: Template/Element/rapid_response.ctp:42;48
 #: Template/Element/home/newsletter.ctp:41
 #: Template/Email/text/writers_form.ctp:8
 #: Template/Writers/index.ctp:79
@@ -253,6 +253,18 @@ msgstr ""
 
 #: Template/Element/rapid_response.ctp:55
 msgid "Type"
+msgstr ""
+
+#: Template/Element/rapid_response.ctp:63
+msgid "Email me"
+msgstr ""
+
+#: Template/Element/rapid_response.ctp:64
+msgid "Call me"
+msgstr ""
+
+#: Template/Element/rapid_response.ctp:65
+msgid "Skype me"
 msgstr ""
 
 #: Template/Element/rapid_response.ctp:75
@@ -265,6 +277,10 @@ msgstr ""
 
 #: Template/Element/rapid_response.ctp:98
 msgid "Subject"
+msgstr ""
+
+#: Template/Element/rapid_response.ctp:128
+msgid "Send"
 msgstr ""
 
 #: Template/Element/Layout/default/footer.ctp:32
