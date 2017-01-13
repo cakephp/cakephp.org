@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2017-01-12 16:16-0200\n"
-"PO-Revision-Date: 2017-01-12 17:43-0200\n"
+"PO-Revision-Date: 2017-01-13 18:55-0200\n"
 "Last-Translator: \n"
 "Language-Team: EMAIL@ADDRESS\n"
 "Language: pt_BR\n"
@@ -3485,19 +3485,19 @@ msgstr ""
 
 #: Template/Email/text/writers_form.ctp:10 Template/Writers/index.ctp:88
 msgid "Proposed article titles"
-msgstr ""
+msgstr "Títulos de artigos propostos"
 
 #: Template/Email/text/writers_form.ctp:11 Template/Writers/index.ctp:96
 msgid "Writing sample"
-msgstr ""
+msgstr "Exemplo de escrita"
 
 #: Template/Email/text/writers_form.ctp:12 Template/Writers/index.ctp:103
 msgid "Extra information"
-msgstr ""
+msgstr "Informações complementares"
 
 #: Template/Error/error400.ctp:44
 msgid "Sorry, There’s no Cake Here..."
-msgstr ""
+msgstr "POXA! Não tem bolo aqui..."
 
 #: Template/Error/error400.ctp:45
 msgid ""
@@ -3531,7 +3531,7 @@ msgstr ""
 
 #: Template/Pages/get_involved.ctp:8
 msgid "Community Center"
-msgstr ""
+msgstr "Centro da Comunidade"
 
 #: Template/Pages/home.ctp:2
 msgid "CakePHP - Build fast, grow solid | PHP Framework | Home"
@@ -3810,7 +3810,7 @@ msgstr ""
 
 #: Template/Writers/index.ctp:8
 msgid "CakePHP - Build fast, grow solid | PHP Framework | Become a Tech Writer"
-msgstr ""
+msgstr "CakePHP - Build fast, grow solid | Seja Autor Remunerado"
 
 #: Template/Writers/index.ctp:9
 msgid ""
@@ -3818,32 +3818,38 @@ msgid ""
 "all the way to more advanced topics - all with the goal to make CakePHP more "
 "accessible!"
 msgstr ""
+"O CakePHP está sempre a procura de tutoriais técnicos, sejam sobre assuntos "
+"simples ou abordagens de tópicos avançados, com o objetivo de tornar o "
+"CakePHP mais acessível."
 
 #: Template/Writers/index.ctp:10
 msgid "CakePHP, CakePHP Framework, CakePHP Tech writer"
 msgstr ""
+"CakePHP, CakePHP Framework, CakePHP Autor, Tutoriais, Pago, Remunerado, PHP"
 
 #: Template/Writers/index.ctp:19
 msgid "GET PAID TO WRITE ABOUT CAKEPHP"
-msgstr ""
+msgstr "SEJA PAGO PARA ESCREVER SOBRE O CAKEPHP"
 
 #: Template/Writers/index.ctp:20
 msgid "In-depth tutorials, simple tutorials and more."
-msgstr ""
+msgstr "Tutoriais complexos, simples e muito mais."
 
 #: Template/Writers/index.ctp:21
 msgid "Sponsored by:"
-msgstr ""
+msgstr "Patrocinado por:"
 
 #: Template/Writers/index.ctp:33
 msgid "CakePHP wants to publish <br />your tech tutorial!"
-msgstr ""
+msgstr "O CakePHP quer publicar<br>seu tutorial técnico!"
 
 #: Template/Writers/index.ctp:38
 msgid ""
 "Are you a keen CakePHP community member and have an insatiable talent for "
 "explaining concepts, constructs and the intricacies of the CakePHP framework?"
 msgstr ""
+"Você é um membro afiado e ativo da Comunidade CakePHP e tem um talento "
+"insaciável para explicar conceitos, práticas e segredos do framework CakePHP?"
 
 #: Template/Writers/index.ctp:39
 msgid ""
@@ -3851,6 +3857,9 @@ msgid ""
 "up all the way to more advanced topics - all with the goal to make CakePHP "
 "more accessible!"
 msgstr ""
+"Nossa comunidade está sempre a procura de tutoriais técnicos, sejam sobre "
+"assuntos simples ou abordagens de tópicos avançados, com o objetivo de "
+"tornar o CakePHP mais acessível."
 
 #: Template/Writers/index.ctp:40
 msgid ""
@@ -3858,6 +3867,10 @@ msgid ""
 "you just need to know your CakePHP stuff -and, of course, be able to explain "
 "it! We will work with you  on the final editing and article completion."
 msgstr ""
+"Talvez você esteja um pouco desconfiado? -Você não precisa ser um escritor "
+"técnico, você só precisa conhecer conteúdo sobre o CakePHP - e, claro, ser "
+"capaz de explicá-lo! Nós trabalharemos com você para a conclusão final de "
+"edição e artigo."
 
 #: Template/Writers/index.ctp:41
 msgid ""
@@ -3865,54 +3878,59 @@ msgid ""
 "CakePHP Community - as a bonus, CakeDC is sponsoring you to write! "
 "<strong>Earn up to $50 per article!</strong>"
 msgstr ""
+"E acima de tornar-se conhecido como um dos nossos autores na Comunidade "
+"CakePHP - como um bônus, a CakeDC está patrocinando essa iniciativa! "
+"<strong>Ganhe até US $50 por artigo!</strong>"
 
 #: Template/Writers/index.ctp:45
 msgid "Make"
-msgstr ""
+msgstr "Ganhe"
 
 #: Template/Writers/index.ctp:46
 msgid "up to"
-msgstr ""
+msgstr "até"
 
 #: Template/Writers/index.ctp:53
 msgid "Unsure if you fit the bill?<br>We are looking for the following:"
 msgstr ""
+"Não tem certeza se você se encaixa no perfil?<br>Estamos procurando o "
+"seguinte:"
 
 #: Template/Writers/index.ctp:56
 msgid "Technical<br>expertise and<br>best practices"
-msgstr ""
+msgstr "Conhecimento<br>técnico e<br>boas práticas"
 
 #: Template/Writers/index.ctp:60
 msgid "Correct and<br>comprehensive<br>commands"
-msgstr ""
+msgstr "Comandos<br>corretos e<br>compreensivos"
 
 #: Template/Writers/index.ctp:64
 msgid "Clear and concise<br>explanations"
-msgstr ""
+msgstr "Explicações claras<br>e concisas"
 
 #: Template/Writers/index.ctp:68
 msgid "Friendly and<br>informative<br>writing style"
-msgstr ""
+msgstr "Estilo de escrita<br>amigável e<br>informativo"
 
 #: Template/Writers/index.ctp:77
 msgid "Author Details"
-msgstr ""
+msgstr "Sobre o Autor"
 
 #: Template/Writers/index.ctp:78;79;88;96
 msgid "(Required)"
-msgstr ""
+msgstr "(Obrigatório)"
 
 #: Template/Writers/index.ctp:80
 msgid "MyCakePHP Community username"
-msgstr ""
+msgstr "Nome de usuário do MyCakePHP"
 
 #: Template/Writers/index.ctp:80
 msgid "(Optional)"
-msgstr ""
+msgstr "(Opcional)"
 
 #: Template/Writers/index.ctp:85
 msgid "Submit a writing sample to see if you qualify!"
-msgstr ""
+msgstr "Envie uma amostra para ver se você se qualifica!"
 
 #: Template/Writers/index.ctp:89
 msgid ""
@@ -3921,12 +3939,18 @@ msgid ""
 "related to CakePHP, and fall within the framework specific elements (such as "
 "Cake Bake)."
 msgstr ""
+"Por favor envie de 1-3 títulos de artigo propostos dos tópicos que você "
+"estaria confortável a cobrir e está interessado em escrever sobre. Tópicos "
+"devem ser relacionados ao CakePHP e estar dentro os elementos específicos do "
+"framework (como o bake via cmd)."
 
 #: Template/Writers/index.ctp:92
 msgid ""
 "Only original content can be considered, Unfortunately content already "
 "posted elsewhere cannot be used."
 msgstr ""
+"Somente conteúdo original pode ser considerado, infelizmente o conteúdo já "
+"postado em outro lugar não pode ser usado."
 
 #: Template/Writers/index.ctp:97
 msgid ""
@@ -3934,6 +3958,9 @@ msgid ""
 "as well as the first two steps to your tutorial. At this time, we are only "
 "accepting English tutorials."
 msgstr ""
+"Aqui é onde você pode compartilhar sua amostra de escrita com a gente - uma "
+"breve introdução, bem como os dois primeiros passos para o seu tutorial. "
+"Neste momento, só aceitamos tutoriais em inglês."
 
 #: Template/Writers/index.ctp:104
 msgid ""
@@ -3941,36 +3968,41 @@ msgid ""
 "StackOverflow or Twitter handles, we would love to get to know you better "
 "before assessing your application!"
 msgstr ""
+"Você tem seu próprio blog? Conte para a gente! Além disso, compartilhe "
+"conosco suas contas no GIthub, StackOverflow ou Twitter, gostaríamos muito "
+"de te conhecer melhor antes de avaliar sua submissão!"
 
 #: Template/Writers/index.ctp:111
 msgid "Submit!"
-msgstr ""
+msgstr "Enviar!"
 
 #: Template/Writers/index.ctp:123
 msgid "Thanks for sending us so many writing samples!"
-msgstr ""
+msgstr "Obrigado por nos enviar seus exemplos!"
 
 #: Template/Writers/index.ctp:124
 msgid ""
 "This form has been temporarily disabled while we review the backlog of "
 "submissions. <br>Please check back soon!"
 msgstr ""
+"Este formulário foi temporariamente desativado enquanto revemos o backlog de "
+"submissões.<br>Por favor, volte em breve!"
 
 #: Template/Writers/index.ctp:130
 msgid "Notify me!"
-msgstr ""
+msgstr "Notifique-me!"
 
 #: Template/Writers/index.ctp:138
 msgid "Get paid with PayPal"
-msgstr ""
+msgstr "Seja pago com o PayPal"
 
 #: Template/Writers/index.ctp:143
 msgid "IN-DEPTH<br>TUTORIALS"
-msgstr ""
+msgstr "TUTORIAIS<br>APROFUNDADOS"
 
 #: Template/Writers/index.ctp:146
 msgid "1,500+ Words"
-msgstr ""
+msgstr "1.500 ou + palavras"
 
 #: Template/Writers/index.ctp:146
 msgid "$50"
@@ -3978,11 +4010,11 @@ msgstr ""
 
 #: Template/Writers/index.ctp:154
 msgid "SIMPLE<br>TUTORIALS"
-msgstr ""
+msgstr "TUTORIAIS<br>SIMPLES"
 
 #: Template/Writers/index.ctp:157
 msgid "800+ Words"
-msgstr ""
+msgstr "800 ou + palavras"
 
 #: Template/Writers/index.ctp:157
 msgid "$25"
@@ -3993,10 +4025,12 @@ msgid ""
 "Most tutorials are paid out at $50. Short tutorials with only a few commands "
 "or a few paragraphs of explanation are paid out at $25."
 msgstr ""
+"A maioria dos tutoriais são pagos a US $50. Pequenos tutoriais com apenas "
+"alguns comandos ou alguns parágrafos de explicação são pagos a US $25."
 
 #: View/Helper/AppHelper.php:135
 msgid "{0} to {1}"
-msgstr ""
+msgstr "{0} a {1}"
 
 #: site.php:12
 msgid ""
@@ -4057,7 +4091,7 @@ msgstr ""
 
 #: site.php:68
 msgid "Featured Resources"
-msgstr ""
+msgstr "Recursos em Destaque"
 
 #: site.php:78
 msgid "Newsletter"
@@ -4065,11 +4099,11 @@ msgstr ""
 
 #: site.php:82
 msgid "Certification"
-msgstr ""
+msgstr "Certificação"
 
 #: site.php:107
 msgid "Forum"
-msgstr ""
+msgstr "Fórum"
 
 #: site.php:113
 msgid "Stack Overflow"
@@ -4077,7 +4111,7 @@ msgstr ""
 
 #: site.php:127
 msgid "Paid Support"
-msgstr ""
+msgstr "Suporte Pago"
 
 #: site.php:139
 msgid "Cake Jobs"
@@ -4093,7 +4127,7 @@ msgstr ""
 
 #: site.php:198
 msgid "Logos & Trademarks"
-msgstr ""
+msgstr "Logos & Marcas Registradas"
 
 #: site.php:221
 msgid "Meetups"
