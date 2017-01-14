@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2017-01-12 16:16-0200\n"
-"PO-Revision-Date: 2017-01-13 18:55-0200\n"
+"PO-Revision-Date: 2017-01-14 16:14-0200\n"
 "Last-Translator: \n"
 "Language-Team: EMAIL@ADDRESS\n"
 "Language: pt_BR\n"
@@ -1158,7 +1158,7 @@ msgstr "Contato"
 
 #: Template/Element/get-involved/cakefest.ctp:2
 msgid "The Annual CakePHP Conference"
-msgstr ""
+msgstr "A Conferência Anual do CakePHP"
 
 #: Template/Element/get-involved/cakefest.ctp:3
 msgid "Cakefest"
@@ -1171,6 +1171,10 @@ msgid ""
 "\t\tspeakers, to give you the very best in presentations and talks on the "
 "latest from the community:"
 msgstr ""
+"Todos os anos realizamos uma conferência dedicada ao CakePHP, realizando "
+"workshops ao vivo e convidando uma variedade de grandes palestrantes, para "
+"lhe proporcionar o melhor em apresentações e palestras sobre as últimas "
+"novidades da comunidade:"
 
 #: Template/Element/get-involved/cakefest.ctp:7
 msgid ""
@@ -1178,6 +1182,9 @@ msgid ""
 "latest versions and innovations,\n"
 "\t\t\tdirectly from the core developers of the framework!"
 msgstr ""
+"As oficinas são uma ótima maneira de aprender mais e ficar atualizado sobre "
+"as últimas versões e inovações do CakePHP, diretamente dos principais "
+"desenvolvedores do framework!"
 
 #: Template/Element/get-involved/cakefest.ctp:10
 msgid ""
@@ -1185,6 +1192,9 @@ msgid ""
 "CakePHP and related\n"
 "\t\t\ttechnologies, an ideal moment to learn more from the community."
 msgstr ""
+"Os dias da conferência são repletos de apresentações, discussões e palestras "
+"sobre CakePHP e tecnologias relacionadas, um momento ideal para aprender "
+"mais com a comunidade."
 
 #: Template/Element/get-involved/cakefest.ctp:13
 msgid ""
@@ -1192,20 +1202,25 @@ msgid ""
 "fun with the core members of\n"
 "\t\t\tthe project. Plus, there's cake!"
 msgstr ""
+"É uma ótima oportunidade para estreitar sua rede de relacionamentos, "
+"encontrar amigos antigos e novos e se divertir com os membros do projeto. "
+"Além disso, há bolo!"
 
 #: Template/Element/get-involved/cakefest.ctp:17
 msgid ""
 "More information on the conference and ticket sales can be found on the {0}"
 msgstr ""
+"Mais informações sobre a conferência e venda de tickets podem ser "
+"encontradas no {0}"
 
 #: Template/Element/get-involved/cakefest.ctp:18
 msgid "CakeFest website"
-msgstr ""
+msgstr "website da CakeFest"
 
 #: Template/Element/get-involved/community-guidelines.ctp:5
 #: Template/Element/get-involved/sidebar.ctp:17
 msgid "Community Guidelines"
-msgstr ""
+msgstr "Guia de Conduta"
 
 #: Template/Element/get-involved/community-guidelines.ctp:6
 msgid ""
@@ -1214,6 +1229,10 @@ msgid ""
 "feels welcome. These are by no means rules or laws, but instead suggestions "
 "and best practices."
 msgstr ""
+"A seguir você será apresentado a uma lista de recomendações para ajudar a "
+"manter a comunidade CakePHP forte, ativa e saudável, bem como um lugar onde "
+"todos se sintam bem-vindos. Estes não são de forma alguma regras ou leis, "
+"mas sim sugestões e melhores práticas."
 
 #: Template/Element/get-involved/community-guidelines.ctp:8
 msgid ""
@@ -1223,6 +1242,11 @@ msgid ""
 "friendly and helpful, and always show the respect for others in the same way "
 "you'd expect from them."
 msgstr ""
+"Lembre-se que quando você fala sobre o CakePHP você está representando uma "
+"comunidade global de pessoas, a maioria das quais são apaixonadas por seu "
+"envolvimento, e dedicam seu tempo livre e boa vontade para ajudar o "
+"framework. Seja amistoso e útil, e mostre sempre o respeito com os outros na "
+"mesma maneira que você esperaria deles."
 
 #: Template/Element/get-involved/community-guidelines.ctp:9
 msgid ""
@@ -1232,6 +1256,12 @@ msgid ""
 "links, and be polite. If they're acting inappropriately or using abusive "
 "language then contact an admin of that channel to have them removed."
 msgstr ""
+"Nunca insultar, provocar ou ridicularizar um usuário, grupo de usuários ou "
+"comunidade, com base em opinião pessoal ou parcialidade em relação a eles. "
+"Se você não concordar com a sua opinião ou argumento, basta indicar sua "
+"razão, fornecer exemplos ou links, e ser educado. Se eles estão agindo "
+"inadequadamente ou usando linguagem abusiva, em seguida, entre em contato "
+"com um administrador desse canal para removê-los."
 
 #: Template/Element/get-involved/community-guidelines.ctp:10
 msgid ""
@@ -1240,6 +1270,11 @@ msgid ""
 "features of the framework, always aim to do so with relevant and technical "
 "arguments, with a positive attitude, and in a humble and respectful manner."
 msgstr ""
+"Nunca degradar, menosprezar, insultar ou danificar o nome ou a reputação de "
+"outro projeto em favor do CakePHP. Se você quiser comparar ou promover "
+"características do framework, sempre procure fazê-lo com argumentos "
+"relevantes e técnicos, com uma atitude positiva, e de uma maneira humilde e "
+"respeitosa."
 
 #: Template/Element/get-involved/community-guidelines.ctp:11
 msgid ""
@@ -1247,6 +1282,9 @@ msgid ""
 "service or product, or to spam other users with content unrelated to CakePHP "
 "or the community."
 msgstr ""
+"Nunca use os canais da comunidade para anunciar um serviço ou produto "
+"comercial ou para enviar spam a outros usuários com conteúdo não relacionado "
+"ao CakePHP ou à comunidade."
 
 #: Template/Element/get-involved/community-guidelines.ctp:12
 msgid ""
@@ -1255,6 +1293,10 @@ msgid ""
 "from somewhere. If you don't have the time, the patience or the know-how to "
 "answer, always refer the user to the CakePHP Community Center at {0}"
 msgstr ""
+"Ao lidar com um usuário pedindo ajuda, se possível, tente resolver seu "
+"problema ou preocupação, não importa quão trivial possa parecer. Todos nós "
+"partimos de algum lugar. Se você não tiver o tempo, a paciência ou o know-"
+"how para responder, direcione o usuário para a página da comunidade em {0}."
 
 #: Template/Element/get-involved/community-guidelines.ctp:13
 msgid ""
@@ -1265,6 +1307,12 @@ msgid ""
 "concept. And remember, always check your facts before jumping to conclusions "
 "or defending a false argument."
 msgstr ""
+"Ao falar sobre uma característica técnica do CakePHP, tente sempre fazer uma "
+"referência clara à versão do framework em que ela se tornou disponível. Além "
+"disso, se possível, tente fornecer documentação e exemplos, sempre que "
+"possível, para ajudar o leitor ou ouvinte a entender melhor o conceito. E "
+"lembre-se, sempre verifique seus fatos antes de tirar conclusões ou defender "
+"um argumento falso."
 
 #: Template/Element/get-involved/community-guidelines.ctp:14
 msgid ""
@@ -1274,6 +1322,11 @@ msgid ""
 "developers in learning to do things \"the right way\" by default, without "
 "hitting too many bumps along the way."
 msgstr ""
+"Ao escrever código de exemplo, sempre tente aplicar as convenções do CakePHP "
+"e padrões de codificação corretamente e verifique se o exemplo fornecido não "
+"aciona um erro ou dá um resultado incorreto. Isso promove boas práticas e "
+"ajuda os desenvolvedores a aprender a fazer as coisas \"no caminho certo\" "
+"por padrão, sem ter muitas colisões ao longo do caminho."
 
 #: Template/Element/get-involved/community-guidelines.ctp:15
 msgid ""
@@ -1281,6 +1334,9 @@ msgid ""
 "available from the logo usage guide: {0}. Following those standards ensures "
 "that the visual identity of the framework is never misrepresented or abused."
 msgstr ""
+"O uso do logo e da marca CakePHP devem seguir as instruções disponíveis a "
+"partir do guia de utilização: http://cakephp.org/logos . Seguir essas normas "
+"garante que a identidade visual da estrutura nunca será deturpada ou abusada."
 
 #: Template/Element/get-involved/community-guidelines.ctp:16
 msgid ""
@@ -1290,6 +1346,12 @@ msgid ""
 "Cakephp, cake-php or just Cake would be incorrect uses. Maintaining a common "
 "spelling and format for the name helps keep brand coherent and consistent."
 msgstr ""
+"Tente usar o nome CakePHP corretamente. O nome deve ser escrito \"CakePHP\", "
+"tudo como uma palavra, com \"C\" e \"PHP\" em maiúsculo. Isso ajuda a manter "
+"consistentes os links e referências ao framework. Por exemplo, CAKEPHP, "
+"Cakephp, cake-php ou apenas Cake seriam usos incorretos. Manter uma "
+"ortografia comum e o nome formatado, ajuda a manter a marca coerente e "
+"consistente."
 
 #: Template/Element/get-involved/community-guidelines.ctp:17
 msgid ""
@@ -1301,11 +1363,17 @@ msgid ""
 "the usage try to use other references, such as \"the framework\" or \"the "
 "project\"."
 msgstr ""
+"Ao fazer uma referência ao CakePHP em um contexto de marketing ou "
+"promocional, ajude se o nome estiver destacado ou interativo. Considere o "
+"uso das tags HTML &lt;strong&gt; ou &lt;b&gt; , formatação em negrito para "
+"documentos, ou tornar o nome um link para http://cakephp.org . Não use o "
+"nome em excesso em qualquer corpo de texto. Para igualar o uso tente usar "
+"outras referências, como \"o framework\" ou \"o projeto\"."
 
 #: Template/Element/get-involved/find-job-developer.ctp:6
 #: Template/Element/get-involved/sidebar.ctp:16
 msgid "Find Job or Developer"
-msgstr ""
+msgstr "Oportunidades"
 
 #: Template/Element/get-involved/find-job-developer.ctp:7
 msgid ""
@@ -1313,6 +1381,9 @@ msgid ""
 "yourself and seeking a freelance project or\n"
 "\t\tposition at a company, there are many resources available:"
 msgstr ""
+"Se você está procurando por desenvolvedores CakePHP habilidosos, ou for um "
+"desenvolvedor e está buscando uma posição em uma empresa ou projeto "
+"freelance, há muitas possibilidades de busca:"
 
 #: Template/Element/get-involved/find-job-developer.ctp:10
 msgid "LinkedIn"
@@ -1320,7 +1391,7 @@ msgstr ""
 
 #: Template/Element/get-involved/find-job-developer.ctp:11
 msgid "Official career group for CakePHP related opportunities"
-msgstr ""
+msgstr "Grupo oficial no Linkedin."
 
 #: Template/Element/get-involved/find-job-developer.ctp:13
 msgid "Freelancer"
@@ -1328,7 +1399,7 @@ msgstr ""
 
 #: Template/Element/get-involved/find-job-developer.ctp:14
 msgid "Jobs available for freelance developers"
-msgstr ""
+msgstr "Vagas de emprego disponíveis para desenvolvedores freelance"
 
 #: Template/Element/get-involved/find-job-developer.ctp:16
 msgid "oDesk"
@@ -1337,6 +1408,8 @@ msgstr ""
 #: Template/Element/get-involved/find-job-developer.ctp:17
 msgid "Contractors who specialize in CakePHP"
 msgstr ""
+"Prestadores de serviços que requisitam profissionais com conhecimento sobre "
+"o CakePHP"
 
 #: Template/Element/get-involved/find-job-developer.ctp:19
 msgid "CakePHPJobs"
@@ -1344,7 +1417,7 @@ msgstr ""
 
 #: Template/Element/get-involved/find-job-developer.ctp:20
 msgid "CakePHP related job postings"
-msgstr ""
+msgstr "Ofertas de trabalho relacionadas ao CakePHP"
 
 #: Template/Element/get-involved/find-job-developer.ctp:22
 msgid "CakeXperts"
@@ -1352,7 +1425,7 @@ msgstr ""
 
 #: Template/Element/get-involved/find-job-developer.ctp:23
 msgid "Where developers and employers connect"
-msgstr ""
+msgstr "Onde desenvolvedores e empregadores se conectam."
 
 #: Template/Element/get-involved/find-job-developer.ctp:25
 msgid "CakeDC"
@@ -1360,12 +1433,12 @@ msgstr ""
 
 #: Template/Element/get-involved/find-job-developer.ctp:26
 msgid "Development and consultancy from the experts"
-msgstr ""
+msgstr "Desenvolvimento e consultoria dos especialistas"
 
 #: Template/Element/get-involved/get-help.ctp:6
 #: Template/Element/get-involved/sidebar.ctp:15
 msgid "Get Help"
-msgstr ""
+msgstr "Obtendo Ajuda"
 
 #: Template/Element/get-involved/get-help.ctp:8
 msgid ""
@@ -1373,22 +1446,24 @@ msgid ""
 "you can find community driven\n"
 "\t\tsupport and sources of information:"
 msgstr ""
+"Procurando ajuda, mas não sabe onde encontrá-la? Aqui estão todos os locais "
+"onde você pode encontrar suporte e fontes de informações:"
 
 #: Template/Element/get-involved/get-help.ctp:18
 msgid "{0}: Join our CakePHP Slack Channel"
-msgstr ""
+msgstr "{0}: Entre no canal #CakePHP no Slack"
 
 #: Template/Element/get-involved/get-help.ctp:31
 msgid "{0}: Join us in the #cakephp IRC channel"
-msgstr ""
+msgstr "{0}: Entre no canal #CakePHP no IRC"
 
 #: Template/Element/get-involved/get-help.ctp:44
 msgid "{0}: Report issues, help fix bugs or implement features"
-msgstr ""
+msgstr "{0}: Reporte problemas, ajude a corrigir bugs ou implementar recursos"
 
 #: Template/Element/get-involved/get-help.ctp:57
 msgid "{0}: Find news and articles on many topics regarding CakePHP"
-msgstr ""
+msgstr "{0}: Encontre notícias e artigos sobre o CakePHP"
 
 #: Template/Element/get-involved/get-help.ctp:58
 msgid "The Bakery"
@@ -1396,7 +1471,7 @@ msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:70
 msgid "{0}: Get your issues resolved by the open source community"
-msgstr ""
+msgstr "{0}: Tenha suas issues resolvidas pela comunidade open-source"
 
 #: Template/Element/get-involved/get-help.ctp:71
 msgid "StackOverflow"
@@ -1404,7 +1479,7 @@ msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:83
 msgid "{0}: Official announcements from the CakePHP community"
-msgstr ""
+msgstr "{0}: Anúncios oficiais do CakePHP"
 
 #: Template/Element/get-involved/get-help.ctp:84
 #: Template/Element/get-involved/get-involved.ctp:68
@@ -1413,7 +1488,7 @@ msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:96
 msgid "{0}: Official community channel for the project"
-msgstr ""
+msgstr "{0}: Canal oficial do CakePHP no G+"
 
 #: Template/Element/get-involved/get-help.ctp:97 site.php:132
 msgid "Google+"
@@ -1421,7 +1496,7 @@ msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:109
 msgid "{0}: Tutorials and screencasts related to development and events"
-msgstr ""
+msgstr "{0}: Tutoriais e screencasts relacionados a desenvolvimento e eventos"
 
 #: Template/Element/get-involved/get-help.ctp:110
 msgid "YouTube"
@@ -1429,7 +1504,7 @@ msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:122
 msgid "{0}: Get the latest updates from around the world"
-msgstr ""
+msgstr "{0}: Receba as últimas atualizações relacionadas ao CakePHP no Twitter"
 
 #: Template/Element/get-involved/get-help.ctp:123
 #: Template/Element/get-involved/get-involved.ctp:70
@@ -1438,11 +1513,11 @@ msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:136
 msgid "{0}: Official Subreddit of CakePHP"
-msgstr ""
+msgstr "{0}: Subreddit oficial do CakePHP"
 
 #: Template/Element/get-involved/get-help.ctp:137
 msgid "CakePHP on Reddit"
-msgstr ""
+msgstr "Reddit"
 
 #: Template/Element/get-involved/get-involved.ctp:3
 msgid "CakePHP - Build fast, grow solid | Get Involved"
@@ -1450,7 +1525,7 @@ msgstr "CakePHP - Build fast, grow solid | Participe"
 
 #: Template/Element/get-involved/get-involved.ctp:4
 msgid "Contribute and support the CakePHP Community."
-msgstr ""
+msgstr "Envolva-se e ajude a comunidade de desenvolvedores do CakePHP."
 
 #: Template/Element/get-involved/get-involved.ctp:10
 msgid "Get Involved!"
@@ -1470,7 +1545,7 @@ msgstr ""
 #: Template/Element/get-involved/get-involved.ctp:16
 #: Template/Element/get-involved/sidebar.ctp:6
 msgid "User Support"
-msgstr ""
+msgstr "Suporte ao Usuário"
 
 #: Template/Element/get-involved/get-involved.ctp:18
 msgid ""
@@ -1479,35 +1554,43 @@ msgid ""
 "involved, you may just have the answer to some of the questions being asked. "
 "Here are some ways you can get started:"
 msgstr ""
+"Uma das melhores maneiras de contribuir com o CakePHP é apoiar diretamente a "
+"comunidade de desenvolvedores. Não precisa ser um gênio ou um guru para se "
+"enturmar, talvez você seja o único a ter a resposta a algumas das perguntas "
+"que serão feitas. Aqui estão algumas maneiras que você pode começar:"
 
 #: Template/Element/get-involved/get-involved.ctp:20
 msgid ""
 "Join the #cakephp IRC channel, or Slack group and talk to developers who "
 "need help. *"
 msgstr ""
+"Junte-se ao canal #CakePHP no IRC, ou no Slack e ajude desenvolvedores que "
+"precisam de ajuda."
 
 #: Template/Element/get-involved/get-involved.ctp:21
 msgid "Answer questions on platforms such as {0}."
-msgstr ""
+msgstr "Responda perguntas em plataformas como o {0}."
 
 #: Template/Element/get-involved/get-involved.ctp:23
 msgid "Comment on posts asking for help with a specific problem."
-msgstr ""
+msgstr "Comente em publicações no fórum para solucionar problemas específicos."
 
 #: Template/Element/get-involved/get-involved.ctp:26
 msgid ""
 "* For those who don't have an IRC client we have a web-based client "
 "available {0}."
 msgstr ""
+"* Para aqueles que não têm um cliente de IRC temos um cliente web disponível "
+"{0}."
 
 #: Template/Element/get-involved/get-involved.ctp:26;134;179
 msgid "here"
-msgstr ""
+msgstr "aqui"
 
 #: Template/Element/get-involved/get-involved.ctp:33
 #: Template/Element/get-involved/sidebar.ctp:7
 msgid "Education and Training"
-msgstr ""
+msgstr "Formação e Treinamento"
 
 #: Template/Element/get-involved/get-involved.ctp:36
 msgid ""
@@ -1515,26 +1598,28 @@ msgid ""
 "community. There are many ways\n"
 "\t\t\tyou can help others, these include:"
 msgstr ""
+"Ajudar outras pessoas a aprender sobre o CakePHP é outra maneira valiosa de "
+"contribuir para a comunidade. Há muitas maneiras de ajudar, incluindo:"
 
 #: Template/Element/get-involved/get-involved.ctp:39
 msgid "Coding Seminars"
-msgstr ""
+msgstr "Seminários de programação"
 
 #: Template/Element/get-involved/get-involved.ctp:40
 msgid "Live Workshops"
-msgstr ""
+msgstr "Workshops ao vivo"
 
 #: Template/Element/get-involved/get-involved.ctp:41
 msgid "Hackathons"
-msgstr ""
+msgstr "Hackathons"
 
 #: Template/Element/get-involved/get-involved.ctp:42
 msgid "Training Courses"
-msgstr ""
+msgstr "Cursos de aperfeiçoamento"
 
 #: Template/Element/get-involved/get-involved.ctp:43
 msgid "Tutorials"
-msgstr ""
+msgstr "Tutoriais"
 
 #: Template/Element/get-involved/get-involved.ctp:48
 msgid ""
@@ -1543,11 +1628,14 @@ msgid ""
 "\t\t\tbecome an officially certified CakePHP developer through the developer "
 "certification program."
 msgstr ""
+"Além disso, oferecemos treinamento profissional e a oportunidade de tornar-"
+"se um desenvolvedor CakePHP oficialmente certificado através do programa de "
+"certificação de desenvolvedores."
 
 #: Template/Element/get-involved/get-involved.ctp:54
 #: Template/Element/get-involved/sidebar.ctp:8
 msgid "Marketing and Evangelism"
-msgstr ""
+msgstr "Marketing e Evangelismo"
 
 #: Template/Element/get-involved/get-involved.ctp:57
 msgid ""
@@ -1558,6 +1646,11 @@ msgid ""
 "\t\t\traise awareness, share experiences and educate your fellow developers "
 "about CakePHP."
 msgstr ""
+"Como um projeto open-source, apoiado pela {0} não temos um orçamento enorme "
+"para divulgar o framework, por isso, dependemos de pessoas, como você, se "
+"envolverem e apoiarem a comunidade. Há muitas ações que podem ajudar a "
+"aumentar a conscientização, compartilhar experiências e educar os seus "
+"colegas desenvolvedores sobre os benefícios do CakePHP."
 
 #: Template/Element/get-involved/get-involved.ctp:59
 msgid "Cake Software Foundation, Inc."
@@ -1565,19 +1658,21 @@ msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:60
 msgid "Write and Talk About CakePHP"
-msgstr ""
+msgstr "Escreva e Fale Sobre o CakePHP"
 
 #: Template/Element/get-involved/get-involved.ctp:61
 msgid ""
 "Actively writing and talking about CakePHP helps spread the word about the "
 "framework."
-msgstr ""
+msgstr "Falar e escrever sobre o CakePHP ajuda a divulgar o framework."
 
 #: Template/Element/get-involved/get-involved.ctp:63
 msgid ""
 "Write an article or blog post about a certain feature or development "
 "experience."
 msgstr ""
+"Escrever um artigo sobre um determinado recurso ou relatar sua experiência "
+"quanto a desenvolvimento."
 
 #: Template/Element/get-involved/get-involved.ctp:64
 msgid ""
@@ -1585,12 +1680,16 @@ msgid ""
 "further conversation and\n"
 "\t\t\t\tfeedback."
 msgstr ""
+"Comentar artigos ou mensagens e fornecer ideias e argumentos que possam "
+"gerar interação e feedback."
 
 #: Template/Element/get-involved/get-involved.ctp:67
 msgid ""
 "Use social platforms such as {0}, {1} or {2} to provide links to articles, "
 "posts, plugins, events, etc."
 msgstr ""
+"Use as plataformas sociais, como {0}, {1} ou {2} para fornecer links para "
+"artigos, posts, plugins, eventos, etc."
 
 #: Template/Element/get-involved/get-involved.ctp:69
 msgid "Discourse"
@@ -1598,7 +1697,7 @@ msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:74
 msgid "Help Your Local Community"
-msgstr ""
+msgstr "Auxilie sua comunidade local"
 
 #: Template/Element/get-involved/get-involved.ctp:76
 msgid ""
@@ -1609,23 +1708,28 @@ msgid ""
 "\t\t\tlocal community and supporting CakePHP. A few actions you can "
 "undertake include:"
 msgstr ""
+"Dependemos de pessoas que conhecem e compreendem a sua comunidade local. "
+"Isso não só se refere à diferença entre idiomas, mas também aos costumes "
+"locais e as diferenças culturais. Você pode nos ajudar conectando-se com sua "
+"comunidade local e apoiando o CakePHP. Algumas ações que você pode realizar "
+"incluem:"
 
 #: Template/Element/get-involved/get-involved.ctp:80
 msgid "Starting or joining a local user group"
-msgstr ""
+msgstr "Começar ou ingressar em um grupo de usuários local"
 
 #: Template/Element/get-involved/get-involved.ctp:81
 msgid "Organizing events or meet-ups"
-msgstr ""
+msgstr "Organizar eventos ou meet-ups"
 
 #: Template/Element/get-involved/get-involved.ctp:82
 msgid "Distributing information and awareness"
-msgstr ""
+msgstr "Compartilhar informação e conhecimento"
 
 #: Template/Element/get-involved/get-involved.ctp:89
 #: Template/Element/get-involved/sidebar.ctp:9
 msgid "Contributing Code"
-msgstr ""
+msgstr "Contribuindo com Código"
 
 #: Template/Element/get-involved/get-involved.ctp:92
 msgid ""
@@ -1634,10 +1738,13 @@ msgid ""
 "\t\t\tby linking to a gist/pastebin or by linking to the commit(s) for the "
 "fix."
 msgstr ""
+"Se você quer contribuir com código para uma correção de bug, então coordene "
+"sua abordagem através dos comentários na issue, vinculando a um gist/"
+"pastebin ou referenciando o commit(s) da correção."
 
 #: Template/Element/get-involved/get-involved.ctp:94
 msgid "Contributing via a Pull Request"
-msgstr ""
+msgstr "Contribuindo através de Pull Requests"
 
 #: Template/Element/get-involved/get-involved.ctp:96
 msgid ""
@@ -1647,6 +1754,10 @@ msgid ""
 "branch. This makes integration of the fix\n"
 "\t\t\teasier."
 msgstr ""
+"Contribuir através de commits num fork do {0} é a melhor maneira de submeter "
+"correções. Se a sua correção é maior do que um único commit, você deve criar "
+"um branch nomeado de forma apropriada e relacionada a essa mesma correção. "
+"Isso facilita a integração."
 
 #: Template/Element/get-involved/get-involved.ctp:98;109;178
 msgid "GitHub"
@@ -1655,7 +1766,7 @@ msgstr ""
 #: Template/Element/get-involved/get-involved.ctp:104
 #: Template/Element/get-involved/sidebar.ctp:10
 msgid "Testing and Quality Assurance"
-msgstr ""
+msgstr "Testes e QA"
 
 #: Template/Element/get-involved/get-involved.ctp:107
 msgid ""
@@ -1665,34 +1776,40 @@ msgid ""
 "Issues for all CakePHP projects are\n"
 "\t\t\tlocated on {0}"
 msgstr ""
+"Preencher issues é uma forma excelente de ajudar. Ao encontrar e reportar "
+"issues, você notifica os desenvolvedores do framework e os ajuda a resolver "
+"qualquer tipo de problema. A lista de issues dos projetos relacionados ao "
+"CakePHP está armazenada no {0}"
 
 #: Template/Element/get-involved/get-involved.ctp:111
 msgid "Found a Bug?"
-msgstr ""
+msgstr "Encontrou um Bug?"
 
 #: Template/Element/get-involved/get-involved.ctp:113
 msgid ""
 "Sometimes there are problems in CakePHP. If you think you've come across one "
 "you can:"
 msgstr ""
+"Às vezes há problemas no CakePHP. Se você acha que encontrou um, você pode:"
 
 #: Template/Element/get-involved/get-involved.ctp:115
 msgid "Search for a similar or {0}."
-msgstr ""
+msgstr "Buscar uma ocorrência similar ou {0},"
 
 #: Template/Element/get-involved/get-involved.ctp:115
 msgid "existing issues"
-msgstr ""
+msgstr "issues existentes"
 
 #: Template/Element/get-involved/get-involved.ctp:117
 msgid ""
 "Create a {0} if you're sure it doesn't already exist OR update the existing "
 "issue."
 msgstr ""
+"Criar uma {0} se você tem certeza de que não existe um problema semelhante."
 
 #: Template/Element/get-involved/get-involved.ctp:117
 msgid "new issue"
-msgstr ""
+msgstr "nova issue"
 
 #: Template/Element/get-involved/get-involved.ctp:119
 msgid ""
@@ -1702,10 +1819,14 @@ msgid ""
 "an issue, means its less likely to\n"
 "\t\t\t\tget fixed."
 msgstr ""
+"Adicione instruções detalhadas sobre como reproduzir o bug. Isso pode ser na "
+"forma de casos de teste ou um trecho de código que demonstra o problema. Não "
+"ter uma maneira de reproduzir um problema, significa que é menos provável "
+"que seja corrigido."
 
 #: Template/Element/get-involved/get-involved.ctp:124
 msgid "Issues That Need Additional Information"
-msgstr ""
+msgstr "Issues que precisam de informações adicionais"
 
 #: Template/Element/get-involved/get-involved.ctp:126
 msgid ""
@@ -1713,14 +1834,19 @@ msgid ""
 "\t\t\tinformation. Asking for additional information on unclear issues "
 "doesn't take much time, and helps speed up the process."
 msgstr ""
+"{0} muitas vezes precisam ser confirmadas ou precisam de mais informações. "
+"Pedir informações adicionais sobre issues pouco claras não leva muito tempo "
+"e ajuda a acelerar o processo."
 
 #: Template/Element/get-involved/get-involved.ctp:127
 msgid "New issues"
-msgstr ""
+msgstr "Novas issues"
 
 #: Template/Element/get-involved/get-involved.ctp:129
 msgid "Confirm or Invalidate Existing Issues That Need a Way to Reproduce"
 msgstr ""
+"Confirmar ou invalidar issues existentes que necessitam de alguma forma de "
+"reprodução"
 
 #: Template/Element/get-involved/get-involved.ctp:131
 msgid ""
@@ -1731,10 +1857,15 @@ msgid ""
 "\t\t\tissues, or prodding issue authors for more information. Issues that "
 "are on hold can be found {0}"
 msgstr ""
+"Se um problema não puder ser facilmente reproduzido ou não estiver claro, "
+"ele será marcado como \"on hold\". Issues marcadas como on hold, geralmente "
+"precisam de uma forma de ser confirmadas. Você pode ajudar descobrindo "
+"formas de reproduzir problemas ou incentivar autores de submissões a  obter "
+"mais informações. Questões que estão on hold podem ser encontradas {0}"
 
 #: Template/Element/get-involved/get-involved.ctp:136
 msgid "Bug Issues for Maintenance Releases"
-msgstr ""
+msgstr "Problemas de Bugs referentes a releases de manutenção"
 
 #: Template/Element/get-involved/get-involved.ctp:138
 msgid ""
@@ -1745,14 +1876,19 @@ msgid ""
 "\t\t\tis a great way to get involved with CakePHP, and is one of the first "
 "steps to becoming a core contributor."
 msgstr ""
+"Versões existentes geralmente têm algumas issues abertas relacionadas a "
+"elas. Esses problemas geralmente precisam de patches e casos de teste "
+"criados para eles. Preparar patches para {0} é uma ótima maneira de se "
+"envolver com o CakePHP, e é um dos primeiros passos para se tornar um "
+"contribuinte do núcleo de desenvolvimento."
 
 #: Template/Element/get-involved/get-involved.ctp:141
 msgid "unresolved issues"
-msgstr ""
+msgstr "issues sem solução"
 
 #: Template/Element/get-involved/get-involved.ctp:144
 msgid "Features and Enhancements for Future Releases"
-msgstr ""
+msgstr "Recursos e aprimoramentos para lançamentos futuros"
 
 #: Template/Element/get-involved/get-involved.ctp:146
 msgid ""
@@ -1768,20 +1904,31 @@ msgid ""
 "\t\t\twithout test cases, and no documentation it is highly unlikely it will "
 "be merged in."
 msgstr ""
+"Estamos atualmente trabalhando nas versões {0} . Há ainda uma série de "
+"tarefas incompletas e {1} . Se um problema tiver sido movido para um "
+"milestone específico, está planejado para ser incluído nessa mesma versão "
+"indicada. As issues são movidas para milestones com base no feedback da "
+"comunidade e nos planos da equipe de desenvolvimento. Se você planeja "
+"contribuir com um feature, inclua também casos de teste relevantes. Queremos "
+"manter o CakePHP livre de erros, e os casos de teste provaram ser "
+"imensamente úteis. Se você enviar features sem casos de teste e nenhuma "
+"documentação é altamente improvável que ele seja aceito."
 
 #: Template/Element/get-involved/get-involved.ctp:152
 msgid "3.x releases"
-msgstr ""
+msgstr "versões 3.x"
 
 #: Template/Element/get-involved/get-involved.ctp:153
 msgid "unresolved defects"
-msgstr ""
+msgstr "defeitos não resolvidos"
 
 #: Template/Element/get-involved/get-involved.ctp:156
 msgid ""
 "CakePHP is {0}, so you can check the status of the {1} on the Jenkins server "
 "at any time."
 msgstr ""
+"O CakePHP é {0}, então você pode checar o status de várias {1} no servidor "
+"Jenkins a qualquer momento."
 
 #: Template/Element/get-involved/get-involved.ctp:169
 msgid ""
@@ -1794,14 +1941,22 @@ msgid ""
 "\t\t\tdocumentation source which can also be found on {3}.\n"
 "\t\t\tGuidelines on contributing to the documentation can be reviewed {4}."
 msgstr ""
+"Documentação é outra excelente maneira de começar a se envolver com o "
+"CakePHP. Temos duas formas primárias de documentação, a {0} e o {1}. A API é "
+"gerada a partir do código-fonte, então se você encontrar uma imprecisão ou "
+"problema com a documentação da API, você deve enviar um patch relacionado ao "
+"{2}. O Cookbook é uma fonte de documentação gerenciada pela comunidade que "
+"também pode ser encontrada no {3}.\n"
+"\t\t\tOrientações sobre contribuições para a documentação podem ser vistas "
+"{4}."
 
 #: Template/Element/get-involved/get-involved.ctp:177
 msgid "source code"
-msgstr ""
+msgstr "código-fonte"
 
 #: Template/Element/get-involved/get-involved.ctp:185
 msgid "Translations"
-msgstr ""
+msgstr "Traduções"
 
 #: Template/Element/get-involved/get-involved.ctp:187
 msgid ""
@@ -1813,6 +1968,11 @@ msgid ""
 "\t\t\tsupport material in as many languages as possible helps lower the "
 "barrier to entry to using the framework."
 msgstr ""
+"Temos desenvolvedores de muitos países que usam o CakePHP. Traduzir o "
+"conteúdo do {0} para a sua língua é outra maneira de apoiar a comunidade. "
+"Fornecer o material de suporte e documentação oficial em muitos idiomas, "
+"torna possível diminuir a barreira de entrada que impede novos "
+"desenvolvedores de utilizarem o framework."
 
 #: Template/Element/get-involved/sidebar.ctp:3 site.php:60
 msgid "Get Involved"
@@ -1838,14 +1998,18 @@ msgid ""
 "giveaways and fun social activities all planned\n"
 "\t                 over 4 exciting days!"
 msgstr ""
+"Ainda não tem um ticket? Apenas uma quantidade limitada está disponível, "
+"então adquira seu hoje! Uma vasta gama de palestras, workshops interativos, "
+"prêmios, brindes e atividades sociais divertidas estão planejadas ao longo "
+"de 4 dias emocionantes!"
 
 #: Template/Element/home/cakefest.ctp:34
 msgid "Buy Your Tickets"
-msgstr ""
+msgstr "Compre Seus Tickets"
 
 #: Template/Element/home/cakefest.ctp:45
 msgid "Get your ticket!"
-msgstr ""
+msgstr "Participe!"
 
 #: Template/Element/home/newsletter.ctp:5
 msgid "Sign up for our newsletter."
@@ -3545,6 +3709,9 @@ msgid ""
 "Manual for beginners now available and links\n"
 "  towards the last version."
 msgstr ""
+"CakePHP é um projeto open-source para web, framework de desenvolvimento "
+"rápido que simplifica e agiliza o desenvolvimento de aplicações web. Segue o "
+"padrão MVC."
 
 #: Template/Pages/newsletter.ctp:3
 #, fuzzy
@@ -3553,11 +3720,11 @@ msgstr "CakePHP - Construa rápido, cresça com segurança | Changelogs"
 
 #: Template/Pages/newsletter.ctp:4
 msgid "Latest CakePHP News."
-msgstr ""
+msgstr "Últimas notícias do CakePHP."
 
 #: Template/Pages/newsletter.ctp:15
 msgid "Newsletter Archive"
-msgstr ""
+msgstr "Arquivo de Newsletters"
 
 #: Template/Pages/newsletter_signup.ctp:3
 #, fuzzy
@@ -3566,7 +3733,7 @@ msgstr "CakePHP - Construa rápido, cresça com segurança | Changelogs"
 
 #: Template/Pages/newsletter_signup.ctp:4
 msgid "Newsletter Sign Up Form"
-msgstr ""
+msgstr "Formulário de Inscrição das Newsletters"
 
 #: Template/Pages/newsletter_signup.ctp:41
 #, fuzzy
@@ -3575,15 +3742,15 @@ msgstr "Assine nossa newsletter."
 
 #: Template/Pages/newsletter_signup.ctp:51
 msgid "are required fields"
-msgstr ""
+msgstr "são campos obrigatórios"
 
 #: Template/Pages/newsletter_signup.ctp:56
 msgid "Email Address"
-msgstr ""
+msgstr "Endereço de Email"
 
 #: Template/Pages/newsletter_signup.ctp:138
 msgid "Past Newsletters"
-msgstr ""
+msgstr "Newsletters antigas"
 
 #: Template/Pages/privacy.ctp:2
 msgid "CakePHP - Build fast, grow solid | Privacy policy"
