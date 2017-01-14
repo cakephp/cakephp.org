@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2017-01-12 16:16-0200\n"
-"PO-Revision-Date: 2017-01-14 16:14-0200\n"
+"PO-Revision-Date: 2017-01-14 20:02-0200\n"
 "Last-Translator: \n"
 "Language-Team: EMAIL@ADDRESS\n"
 "Language: pt_BR\n"
@@ -2514,39 +2514,40 @@ msgid ""
 "5. And the unique visual styling of our website and packaging (the \"Trade "
 "Dress\")."
 msgstr ""
+"5. E o estilo visual único do nosso website e embalagens (o \"Trade Dress\")."
 
 #: Template/Element/trademark/brand-colors.ctp:3
 msgid "5.1. Brand colors."
-msgstr ""
+msgstr "5.1. Cores da marca."
 
 #: Template/Element/trademark/brand-colors.ctp:37
 msgid "5.1.1 Sister Brand Colors. - CakeDC"
-msgstr ""
+msgstr "5.1.1 Cores da marca irmã. - CakeDC"
 
 #: Template/Element/trademark/brand-colors.ctp:68
 msgid "5.1.2 Sister Brand Colors. - CakeSF"
-msgstr ""
+msgstr "5.1.2 Cores da marca irmã. - CakeSF"
 
 #: Template/Element/trademark/brand-colors.ctp:99
 msgid "5.1.3 Sister Brand Colors. - CakeFest"
-msgstr ""
+msgstr "5.1.3 Cores da marca irmã. - CakeFest"
 
 #: Template/Element/trademark/brand-colors.ctp:130
 msgid "5.1.4 Sister Brand Colors. - CakeTalent"
-msgstr ""
+msgstr "5.1.4 Cores da marca irmã. - CakeTalent"
 
 #: Template/Element/trademark/brand-colors.ctp:162
 msgid "5.1.5 Sister Brand Colors. - CakeJobs"
-msgstr ""
+msgstr "5.1.5 Cores da marca irmã. - CakeJobs"
 
 #: Template/Element/trademark/brand-colors.ctp:193
 msgid "5.1.6 Sister Brand Colors. - CakeUniversity"
-msgstr ""
+msgstr "5.1.6 Cores da marca irmã. - CakeUniversity"
 
 #: Template/Element/trademark/commitment.ctp:2
 #: Template/Element/trademark/sidebar.ctp:5
 msgid "Our commitment to open source principles"
-msgstr ""
+msgstr "Nosso compromisso com os princípios de código aberto"
 
 #: Template/Element/trademark/commitment.ctp:3
 msgid ""
@@ -2562,6 +2563,15 @@ msgid ""
 "they are meant to preserve and 2) our\n"
 "\t\tcommunity members' desire to be full participants in the Project. "
 msgstr ""
+"Queremos incentivar e facilitar o uso de nossas marcas registradas pela "
+"comunidade, mas fazê-lo de uma forma que ainda garanta que as marcas são "
+"significativas como fonte e indicador de qualidade para o nosso software e "
+"os bens e serviços associados e continuar a encarnar a alta reputação do "
+"software e da comunidade associada a ele. Esta Política, portanto, procura "
+"estabelecer um equilíbrio adequado entre: 1) nossa necessidade de assegurar "
+"que nossas marcas permaneçam como indicadores confiáveis ​d​as qualidades que "
+"elas devem preservar e 2) o desejo de nossos membros da comunidade de "
+"participar plenamente no Projeto."
 
 #: Template/Element/trademark/flags.ctp:1
 msgid ""
@@ -2569,14 +2579,17 @@ msgid ""
 "you are a company or group of\n"
 "developers wanting to let others know you use CakePHP."
 msgstr ""
+"1. Bandeira de Grupo: A Bandeira de Grupo é usada para denotar uso "
+"pluralizado. Por exemplo, você é uma empresa ou grupo de desenvolvedores que "
+"deseja que os outros saibam que você usa o CakePHP."
 
 #: Template/Element/trademark/flags.ctp:8;34;60;86
 msgid "Floating Flag Embed Code:"
-msgstr ""
+msgstr "Código de Incorporação:"
 
 #: Template/Element/trademark/flags.ctp:18;43;70;95
 msgid "Image files:"
-msgstr ""
+msgstr "Arquivos de imagem:"
 
 #: Template/Element/trademark/flags.ctp:19;44;71;96
 msgid "DOWNLOAD PNG"
@@ -2595,6 +2608,8 @@ msgid ""
 "2. Application Flag: The Application Flag is used to show that your have "
 "built an application that is using CakePHP."
 msgstr ""
+"2. Bandeira de Aplicação: A Bandeira de Aplicação é usada para mostrar que "
+"uma aplicação foi construída usando o CakePHP."
 
 #: Template/Element/trademark/flags.ctp:53
 msgid ""
@@ -2602,27 +2617,32 @@ msgid ""
 "support for the project and that\n"
 " they are using CakePHP."
 msgstr ""
+"3. Bandeira de Desenvolvedor: A Bandeira de Desenvolvedor é usada por "
+"indivíduos que desejam demonstrar seu suporte ao projeto e que eles estão "
+"usando o CakePHP."
 
 #: Template/Element/trademark/flags.ctp:80
 msgid ""
 "4. Supporter Flag: The Supporter Flag is used to spread the word about "
 "CakePHP and tell them to use CakePHP."
 msgstr ""
+"4. Bandeira de Apoiador: A Bandeira de Apoiador é usada para fomentar o "
+"CakePHP e recomendar o uso do mesmo."
 
 #: Template/Element/trademark/general-considerations.ctp:2
 #: Template/Element/trademark/sidebar.ctp:71
 msgid "General considerations about trademarks and their use"
-msgstr ""
+msgstr "Considerações gerais sobre marcas comerciais e às suas utilizações"
 
 #: Template/Element/trademark/general-considerations.ctp:3
 #: Template/Element/trademark/sidebar.ctp:74
 msgid "What trademark law is about"
-msgstr ""
+msgstr "Do direito das marcas"
 
 #: Template/Element/trademark/general-considerations.ctp:6
 #: Template/Element/trademark/sidebar.ctp:76
 msgid "What is a trademark?"
-msgstr ""
+msgstr "O que é uma marca?"
 
 #: Template/Element/trademark/general-considerations.ctp:7
 msgid ""
@@ -2638,6 +2658,15 @@ msgid ""
 "this Policy, the terms \"trademark\" and\n"
 "\t\t\"mark\" refer to both trademarks, service marks and trade dress."
 msgstr ""
+"Uma marca comercial é uma palavra, frase, símbolo ou design, ou uma "
+"combinação de palavras, frases, símbolos ou desenhos, que identifica e "
+"distingue a fonte dos bens de uma das partes das de outros. Uma marca de "
+"serviço é a mesma que uma marca registrada, exceto que ela identifica e "
+"distingue a fonte de um serviço em vez de um produto. \"Trade Dress\" ou "
+"\"get up\" refere-se à aparência da embalagem, que neste contexto pode "
+"incluir o layout, cores, imagens e escolhas de design em uma página da web. "
+"Ao longo desta Política, o termo \"Marca\" fere-se tanto a marcas "
+"comerciais, marcas de serviço e vestuário."
 
 #: Template/Element/trademark/general-considerations.ctp:15
 msgid ""
@@ -2646,11 +2675,15 @@ msgid ""
 "\t\tfor example, in a file, folder, directory, or path name. Use in this way "
 "is not a trademark infringement."
 msgstr ""
+"No entanto, o uso de uma palavra é \"não como uma marca registrada\" quando "
+"ele é usado funcionalmente como parte do programa de software, por exemplo, "
+"em um arquivo, pasta, diretório ou nome de caminho. O uso desta maneira não "
+"é uma violação de marca registrada."
 
 #: Template/Element/trademark/general-considerations.ctp:19
 #: Template/Element/trademark/sidebar.ctp:77
 msgid "What is \"likelihood of confusion\"?"
-msgstr ""
+msgstr "O que é \"risco de confusão\"?"
 
 #: Template/Element/trademark/general-considerations.ctp:20
 msgid ""
@@ -2671,11 +2704,25 @@ msgid ""
 "\t\tThe third party has likely misled consumers about the source of its "
 "training and is a trademark infringer."
 msgstr ""
+"Existe violação de marca registrada se o uso de uma marca registrada criou "
+"um \"risco de confusão\". Isso significa usar uma marca comercial de uma "
+"forma que provavelmente irá confundir ou enganar o público consumidor "
+"relevante sobre a fonte de um produto ou serviço usando a marca em questão. "
+"Por exemplo, se a extensão de software \"Foo\" remove todos os espaços "
+"duplos após os períodos, mas outra pessoa mais tarde cria o software \"Foo\" "
+"que adiciona um terceiro espaço após os períodos, os consumidores ficariam "
+"confusos entre os dois eo recém-chegado provavelmente será um infrator de "
+"marca registrada . Como outro exemplo, se uma empresa fabrica software "
+"\"Foobar\" e um terceiro oferece treinamento chamado \"Certificação Foobar"
+"\", é provável que uma pessoa acredite, erroneamente, que a certificação "
+"está sendo oferecida pelos fabricantes do software Foobar. O terceiro "
+"provavelmente induziu os consumidores em erro sobre a fonte de sua formação "
+"e é um infrator de marca registrada."
 
 #: Template/Element/trademark/general-considerations.ctp:31
 #: Template/Element/trademark/sidebar.ctp:78
 msgid "What is \"nominative\" use?"
-msgstr ""
+msgstr "O que é uso \"nominativo\"?"
 
 #: Template/Element/trademark/general-considerations.ctp:32
 msgid ""
@@ -2689,24 +2736,38 @@ msgid ""
 "cars. Here is what you should consider\n"
 "\t\twhen deciding whether your use of a trademark is a nominative fair use:"
 msgstr ""
+"O chamado \"uso nominativo\" (ou \"uso justo nominativo\"), que é o nome da "
+"doutrina sob a lei de marcas registradas dos Estados Unidos, permite o uso "
+"da marca registrada de outra pessoa onde é necessário para a compreensão. As "
+"leis de marcas registradas de outros países também têm disposições "
+"semelhantes. Por exemplo, uma oficina de reparação de automóveis que se "
+"especializa em uma determinada marca de automóvel, VW, por exemplo, deve ser "
+"permitido dizer que eles reparam carros VW. Aqui está o que você deve "
+"considerar quando decidir se o uso de uma marca é um uso justo nominativo:"
 
 #: Template/Element/trademark/general-considerations.ctp:39
 msgid ""
 "Whether you can identify the product or service in question without using "
 "the trademark"
 msgstr ""
+"Se você pode identificar o produto ou serviço em questão sem usar a marca "
+"registrada;"
 
 #: Template/Element/trademark/general-considerations.ctp:40
 msgid ""
 "Whether you are avoiding a likelihood of confusion in the way that you have "
 "used the trademark; and"
 msgstr ""
+"Se você está evitando um risco de confusão na forma como você usou a marca "
+"registrada;"
 
 #: Template/Element/trademark/general-considerations.ctp:41
 msgid ""
 "Whether you have used only as much as is necessary to identify the product "
 "or service."
 msgstr ""
+"Se você usou apenas o máximo necessário para identificar o produto ou "
+"serviço."
 
 #: Template/Element/trademark/general-considerations.ctp:43
 msgid ""
@@ -2715,11 +2776,15 @@ msgid ""
 "\t\tunder the nominative fair use doctrine, that she is offering \"Maude's "
 "Certification for Foobar software.\" "
 msgstr ""
+"Com o nosso exemplo de \"Certificação Foobar\" acima, a pessoa que oferece a "
+"certificação teria permissão para dizer, de acordo com a doutrina de uso "
+"justo nominativo, que ela está oferecendo o \"Certificado de Maude para o "
+"software Foobar\"."
 
 #: Template/Element/trademark/general-considerations.ctp:45
 #: Template/Element/trademark/sidebar.ctp:82
 msgid "Proper trademark use"
-msgstr ""
+msgstr "Uso adequado da marca"
 
 #: Template/Element/trademark/general-considerations.ctp:47
 msgid ""
@@ -2727,25 +2792,30 @@ msgid ""
 "follow them for our Marks as well as\n"
 "\t\tanyone else's. "
 msgstr ""
+"Essas regras são válidas para todas as marcas registradas, não apenas para "
+"nós, então você deve segui-las para nossas Marcas, assim como para qualquer "
+"outra pessoa."
 
 #: Template/Element/trademark/general-considerations.ctp:51
 #: Template/Element/trademark/sidebar.ctp:84
 msgid "Use of trademarks in text"
-msgstr ""
+msgstr "Uso de marcas registradas no texto"
 
 #: Template/Element/trademark/general-considerations.ctp:52
 msgid ""
 "Always distinguish trademarks from surrounding text with at least initial "
 "capital letters or in all capital letters."
 msgstr ""
+"Sempre distinguir marcas do texto com suas extremidades com letras "
+"maiúsculas, pelo menos iniciais ou em letras maiúsculas."
 
 #: Template/Element/trademark/general-considerations.ctp:53;60
 msgid "Unacceptable: {0}"
-msgstr ""
+msgstr "Inaceitável: {0}"
 
 #: Template/Element/trademark/general-considerations.ctp:54;61
 msgid "Acceptable: {0}"
-msgstr ""
+msgstr "Aceitável: {0}"
 
 #: Template/Element/trademark/general-considerations.ctp:58
 msgid ""
@@ -2769,36 +2839,39 @@ msgstr ""
 #: Template/Element/trademark/general-considerations.ctp:71
 msgid "Always use a trademark as an adjective modifying a noun."
 msgstr ""
+"Sempre use uma marca registrada como um adjetivo que modifica um substantivo."
 
 #: Template/Element/trademark/general-considerations.ctp:71
 msgid "You can see the nouns we prefer under"
-msgstr ""
+msgstr "Você pode ver os substantivos preferidos em"
 
 #: Template/Element/trademark/general-considerations.ctp:72
 msgid "\"Our trademarks.\""
-msgstr ""
+msgstr "\"Nossas Marcas.\""
 
 #: Template/Element/trademark/general-considerations.ctp:73
 msgid "Unacceptable: This is a CakePHP. Anyone can install it"
-msgstr ""
+msgstr "Inaceitável: Este é um CakePHP. Qualquer pessoa pode instalá-lo"
 
 #: Template/Element/trademark/general-considerations.ctp:74
 msgid "Acceptable: This is a CakePHP application. Anyone can install it."
-msgstr ""
+msgstr "Aceitável: Esta é uma aplicação CakePHP. Qualquer um pode instalá-lo."
 
 #: Template/Element/trademark/general-considerations.ctp:78
 msgid ""
 "Don't use a trademark as a verb. Trademarks are products or services, never "
 "actions."
 msgstr ""
+"Não use uma marca registrada como um verbo. As marcas registradas são "
+"produtos ou serviços, nunca ações."
 
 #: Template/Element/trademark/general-considerations.ctp:79
 msgid "Unacceptable: I CakePHPified my computer today!"
-msgstr ""
+msgstr "Inaceitável: Eu CakePHPifiquei meu computador hoje!"
 
 #: Template/Element/trademark/general-considerations.ctp:80
 msgid "Acceptable: I installed CakePHP framework on my computer today!"
-msgstr ""
+msgstr "Aceitável: Eu instalei a estrutura do CakePHP no meu computador hoje!"
 
 #: Template/Element/trademark/general-considerations.ctp:84
 msgid ""
@@ -2806,31 +2879,34 @@ msgid ""
 "used in possessive form or\n"
 "\t\t\tthe sentence reworded so there is no possessive."
 msgstr ""
+"Não use uma marca registrada como possessiva. Em vez disso, o substantivo "
+"seguinte deve ser usado em forma possessiva ou a sentença reformulada para "
+"que não haja possessivo."
 
 #: Template/Element/trademark/general-considerations.ctp:86
 msgid "Unacceptable: CakePHP’s install interface is very clean."
-msgstr ""
+msgstr "Inaceitável: Interface de instalação do CakePHP é muito limpa."
 
 #: Template/Element/trademark/general-considerations.ctp:87
 msgid "Acceptable: The CakePHP install interface is very clean."
-msgstr ""
+msgstr "Aceitável: A interface de instalação do CakePHP está muito limpa."
 
 #: Template/Element/trademark/general-considerations.ctp:91
 msgid "Don't translate a trademark into another language."
-msgstr ""
+msgstr "Não traduza uma marca para outro idioma."
 
 #: Template/Element/trademark/general-considerations.ctp:92
 msgid "Unacceptable: Quiero instalar TartaPHP en mi sistema."
-msgstr ""
+msgstr "Inaceitável: Quiero instalar TartaPHP en mi sistema."
 
 #: Template/Element/trademark/general-considerations.ctp:93
 msgid "Acceptable:  Quiero instalar CakePHP en mi sistema."
-msgstr ""
+msgstr "Aceitável: Quiero instalar CakePHP en mi sistema."
 
 #: Template/Element/trademark/general-considerations.ctp:97
 #: Template/Element/trademark/sidebar.ctp:85
 msgid "Use of Logos"
-msgstr ""
+msgstr "Uso de Logos"
 
 #: Template/Element/trademark/general-considerations.ctp:98
 msgid ""
@@ -2839,6 +2915,10 @@ msgid ""
 "\t\tcolors, change the proportions, distort it, add elements, or combine it "
 "with other logos."
 msgstr ""
+"Você não pode alterar qualquer Logo a não ser para escalá-lo. Isso significa "
+"que você não pode adicionar elementos decorativos, alterar as cores, alterar "
+"as proporções, distorcê-lo, adicionar elementos ou combiná-lo com outros "
+"logos."
 
 #: Template/Element/trademark/general-considerations.ctp:102
 msgid ""
@@ -2846,6 +2926,9 @@ msgid ""
 "the logo is color, you may reproduce\n"
 "\t\tthe logo in a manner that produces a black-and-white image."
 msgstr ""
+"No entanto, quando o contexto exige o uso de gráficos em preto-e-branco e o "
+"logo é colorido, você pode reproduzir o logo de uma maneira que produza uma "
+"imagem em preto e branco."
 
 #: Template/Element/trademark/general-considerations.ctp:105
 msgid ""
@@ -2853,16 +2936,19 @@ msgid ""
 "{0},\n"
 "\t\tused under a Creative Commons Attribution 3.0 Unported license: {1}"
 msgstr ""
+"Essas diretrizes são baseadas nas Regras de Marca Registrada modelo, "
+"disponível em {0},\n"
+"Usada sob uma Creative Commons Attribution 3.0 Unported: {1}"
 
 #: Template/Element/trademark/general-information.ctp:2
 #: Template/Element/trademark/sidebar.ctp:63
 msgid "General Information"
-msgstr ""
+msgstr "Informações Gerais"
 
 #: Template/Element/trademark/general-information.ctp:3
 #: Template/Element/trademark/sidebar.ctp:65
 msgid "Trademark marking and legends"
-msgstr ""
+msgstr "Marcação de marcas e legendas"
 
 #: Template/Element/trademark/general-information.ctp:5
 msgid ""
@@ -2872,10 +2958,14 @@ msgid ""
 "trademark (\"®\") or an unregistered trademark\n"
 "\t\t(\"™\"). See our {0} for the correct symbol to use."
 msgstr ""
+"A primeira menção ou a menção mais proeminente de uma Marca em uma página da "
+"Web, documento, embalagem ou documentação deve ser acompanhada por um "
+"símbolo indicando se a marca é uma marca registrada (\"®\") ou uma marca não "
+"registrada (\"™\"). Veja nossa {0} para o símbolo correto para usar."
 
 #: Template/Element/trademark/general-information.ctp:8
 msgid "Trademark List"
-msgstr ""
+msgstr "lista de Marcas"
 
 #: Template/Element/trademark/general-information.ctp:11
 msgid ""
@@ -2888,18 +2978,25 @@ msgid ""
 "Corporation, registered in the United States and other countries.\n"
 "\t\tUsed with permission from Cake Software Foundation, Inc."
 msgstr ""
+"Além disso, se você estiver usando nossas Marcas da forma descrita nas "
+"seções de {0}, por favor coloque o seguinte aviso ao pé da página onde você "
+"usou a Marca (ou, na página de créditos), e no seu material de publicidade e "
+"marketin: A Cake Software Foundation, Inc. e Cake Development Corporation, "
+"registradas nos Estados Unidos e em outros países, são marcas registradas da "
+"Cake Software Foundation, Inc. e da Cake Development Corporation. Usado com "
+"permissão da Cake Software Foundation, Inc."
 
 #: Template/Element/trademark/general-information.ctp:16
 #: Template/Element/trademark/non-software.ctp:33
 #: Template/Element/trademark/sidebar.ctp:30;52
 #: Template/Element/trademark/software.ctp:61
 msgid "Uses for which we are granting a license"
-msgstr ""
+msgstr "utilizações para as quais liberamos a concessão de uma licença"
 
 #: Template/Element/trademark/general-information.ctp:17
 #: Template/Element/trademark/sidebar.ctp:66
 msgid "What to do when you see abuse"
-msgstr ""
+msgstr "O que fazer quando você ver algum abuso de uso"
 
 #: Template/Element/trademark/general-information.ctp:19
 msgid ""
@@ -2908,13 +3005,16 @@ msgid ""
 "\t\tour attention. Please contact us as described below so that we can "
 "investigate it further."
 msgstr ""
+"Se você estiver ciente de qualquer uso confuso ou uso indevido das Marcas de "
+"qualquer forma, gostaríamos que você nos atentasse quanto a isso. Entre em "
+"contato conosco como descrito abaixo para que possamos investigar mais."
 
 #: Template/Element/trademark/general-information.ctp:21
 #: Template/Element/trademark/guidelines.ctp:222
 #: Template/Element/trademark/introduction.ctp:25
 #: Template/Element/trademark/sidebar.ctp:67
 msgid "Where to get further information"
-msgstr ""
+msgstr "Onde obter mais informações"
 
 #: Template/Element/trademark/general-information.ctp:23
 msgid ""
@@ -2923,28 +3023,33 @@ msgid ""
 "\t\tdescribed in the Policy, or see any abuse of our Marks, please contact "
 "{0}"
 msgstr ""
+"Se você tiver alguma dúvida sobre esta Política, gostaria de falar com a "
+"gente sobre o uso de nossas marcas de maneiras não descritas na Política, ou "
+"notar qualquer abuso das nossas marcas, entre em contato: legal [at] "
+"cakefoundation.org"
 
 #: Template/Element/trademark/guidelines.ctp:2
 #: Template/Element/trademark/sidebar.ctp:7
 msgid "Trademarks subject to the guidelines"
-msgstr ""
+msgstr "Marcas sujeitas às diretrizes"
 
 #: Template/Element/trademark/guidelines.ctp:3
 #: Template/Element/trademark/sidebar.ctp:9
 msgid "Our trademarks"
-msgstr ""
+msgstr "Nossas marcas registradas"
 
 #: Template/Element/trademark/guidelines.ctp:5
 msgid "This Policy covers:"
-msgstr ""
+msgstr "Esta Política abrange:"
 
 #: Template/Element/trademark/guidelines.ctp:7
 msgid "1. Our word trademarks and service marks (the \"Word Marks\"):"
 msgstr ""
+"1. Nossas marcas comerciais e marcas de serviço (as \"Marcas de Palavra\"):"
 
 #: Template/Element/trademark/guidelines.ctp:12
 msgid "Mark"
-msgstr ""
+msgstr "Marca"
 
 #: Template/Element/trademark/guidelines.ctp:15
 msgid "Common descriptive name for the goods or services"
@@ -2952,111 +3057,111 @@ msgstr ""
 
 #: Template/Element/trademark/guidelines.ctp:77
 msgid "2. Our logos (the \"Logos\"):"
-msgstr ""
+msgstr "2. Nossos logos (os \"Logos\"):"
 
 #: Template/Element/trademark/guidelines.ctp:82
 msgid "CakePHP Horizontal Logo"
-msgstr ""
+msgstr "CakePHP Logo Horizontal"
 
 #: Template/Element/trademark/guidelines.ctp:86
 msgid "CakePHP Vertical Logo"
-msgstr ""
+msgstr "CakePHP Logo Vertical"
 
 #: Template/Element/trademark/guidelines.ctp:90
 msgid "CakePHP Vertical Tagline Logo"
-msgstr ""
+msgstr "CakePHP Logo Vertical com Slogan"
 
 #: Template/Element/trademark/guidelines.ctp:94
 msgid "CakePHP Horizontal Tagline Logo"
-msgstr ""
+msgstr "CakePHP Logo Horizontal com Slogan"
 
 #: Template/Element/trademark/guidelines.ctp:98
 msgid "CakePHP Version Number <br> Horizontal Logo"
-msgstr ""
+msgstr "CakePHP Logo Horizontal <br> Número da Versão"
 
 #: Template/Element/trademark/guidelines.ctp:102
 msgid "CakePHP Version Number<br>Vertical Logo"
-msgstr ""
+msgstr "CakePHP Logo Vertical <br> Número da Versão"
 
 #: Template/Element/trademark/guidelines.ctp:106
 msgid "CakePHP Version Number<br>and Name Horizontal Logo"
-msgstr ""
+msgstr "CakePHP Logo Horizontal <br> Número da Versão e Nome"
 
 #: Template/Element/trademark/guidelines.ctp:110
 msgid "CakePHP Version Number<br>and Name Vertical Logo"
-msgstr ""
+msgstr "CakePHP Logo Vertical <br> Número da Versão e Nome"
 
 #: Template/Element/trademark/guidelines.ctp:115
 msgid "3. CakePHP sister brands’ logos:"
-msgstr ""
+msgstr "3. Logos das marcas irmãs do CakePHP:"
 
 #: Template/Element/trademark/guidelines.ctp:119
 msgid "CakeDC Full Name Horizontal Signature"
-msgstr ""
+msgstr "CakeDC Nome Completo Assinatura Horizontal"
 
 #: Template/Element/trademark/guidelines.ctp:123
 msgid "CakeDC Initials Horizontal Signature"
-msgstr ""
+msgstr "CakeDC Iniciais Assinatura Horizontal"
 
 #: Template/Element/trademark/guidelines.ctp:127
 msgid "CakeDC Full Name Vertical Signature"
-msgstr ""
+msgstr "CakeDC Nome Completo Assinatura Vertical"
 
 #: Template/Element/trademark/guidelines.ctp:131
 msgid "CakeDC Initials Vertical Signature"
-msgstr ""
+msgstr "CakeDC Iniciais Assinatura Vertical"
 
 #: Template/Element/trademark/guidelines.ctp:135
 msgid "CakeSF Full Name Horizontal Signature"
-msgstr ""
+msgstr "CakeSF Nome Completo Assinatura Horizontal"
 
 #: Template/Element/trademark/guidelines.ctp:139
 msgid "CakeSF Initials Horizontal Signature"
-msgstr ""
+msgstr "CakeSF Iniciais Assinatura Horizontal"
 
 #: Template/Element/trademark/guidelines.ctp:143
 msgid "CakeSF Full Name Vertical Signature"
-msgstr ""
+msgstr "CakeSF Nome Completo Assinatura Vertical"
 
 #: Template/Element/trademark/guidelines.ctp:147
 msgid "CakeSF Initials Vertical Signature"
-msgstr ""
+msgstr "CakeSF Iniciais Assinatura Vertical"
 
 #: Template/Element/trademark/guidelines.ctp:151
 msgid "CakeFest Horizontal Signature"
-msgstr ""
+msgstr "CakeFest Assinatura Horizontal"
 
 #: Template/Element/trademark/guidelines.ctp:155
 msgid "CakeFest Vertical Signature"
-msgstr ""
+msgstr "CakeFest Assinatura Vertical"
 
 #: Template/Element/trademark/guidelines.ctp:159
 msgid "CakeTalent Horizontal Signature"
-msgstr ""
+msgstr "CakeTalent Assinatura Horizontal"
 
 #: Template/Element/trademark/guidelines.ctp:163
 msgid "CakeTalent Vertical Signature"
-msgstr ""
+msgstr "CakeTalent Assinatura Vertical"
 
 #: Template/Element/trademark/guidelines.ctp:167
 msgid "CakeJobs Horizontal Signature"
-msgstr ""
+msgstr "CakeJobs Assinatura Horizontal"
 
 #: Template/Element/trademark/guidelines.ctp:171
 msgid "CakeJobs Vertical Signature"
-msgstr ""
+msgstr "CakeJobs Assinatura Vertical"
 
 #: Template/Element/trademark/guidelines.ctp:175
 msgid "CakeUniversity Horizontal Signature"
-msgstr ""
+msgstr "CakeUniversity Assinatura Horizontal"
 
 #: Template/Element/trademark/guidelines.ctp:179
 msgid "CakeUniversity Vertical Signature"
-msgstr ""
+msgstr "CakeUniversity Assinatura Vertical"
 
 #: Template/Element/trademark/guidelines.ctp:185
 msgid "4. Community Flags"
-msgstr ""
+msgstr "4. Flags comunitárias"
 
 #: Template/Element/trademark/guidelines.ctp:186
 msgid ""
@@ -3064,10 +3169,12 @@ msgid ""
 "terms of this Policy applies\n"
 "\t\t\tto the usage of these logos."
 msgstr ""
+"Estas flags foram designadas para mostrar seu apoio ao projeto CakePHP. Os "
+"termos desta Política aplicam-se à utilização destes logos."
 
 #: Template/Element/trademark/guidelines.ctp:194
 msgid "5. Community Flags usage Guidelines:"
-msgstr ""
+msgstr "5. Diretrizes de Uso das Flags Comunitárias:"
 
 #: Template/Element/trademark/guidelines.ctp:195
 msgid ""
@@ -3076,6 +3183,9 @@ msgid ""
 "\t\t\tdisregarded while using the flag on the extreme left or right sides of "
 "a layout."
 msgstr ""
+"Respeite uma margem maior que 1/4 da altura da bandeira para garantir a "
+"eficácia visual. As margens laterais podem ser desconsideradas ao usar a "
+"bandeira no lado esquerdo ou direito de um layout."
 
 #: Template/Element/trademark/guidelines.ctp:203
 msgid ""
@@ -3083,6 +3193,9 @@ msgid ""
 "a brand asset itself, and it can be\n"
 "\t\tused as a decorative corner on layout boxes and backgrounds."
 msgstr ""
+"5.2. Forma estilística da marca: a elipse usada para projetar o Brandmark é "
+"também um ativo da marca em si, e pode ser usada como um canto decorativo em "
+"caixas e fundos de layout."
 
 #: Template/Element/trademark/guidelines.ctp:207
 msgid ""
@@ -3092,6 +3205,10 @@ msgid ""
 "palette. Conceptually, the ico nography\n"
 "\t\tfollows the baking universe."
 msgstr ""
+"5.3. Iconografia: ícones e ilustrações seguem a estética da Brandmark: "
+"plana, limpa e usa espaço negativo para iluminação e sombreamento. As "
+"imagens são projetadas usando a paleta de cores oficial. Conceitualmente, a "
+"iconografia segue a referência de \"cozinhar um bolo\"."
 
 #: Template/Element/trademark/guidelines.ctp:212
 msgid ""
@@ -3102,21 +3219,28 @@ msgid ""
 "\t\townership of trademarks. This Policy covers our Marks whether they are "
 "registered or not."
 msgstr ""
+"Esta Política abrange todas as marcas registradas e marcas de serviço, sejam "
+"Marcas de Palavras, Logos ou Trade Dress, que são coletivamente referidas "
+"como \"Marcas\". Algumas Marcas não podem ser registradas, mas o registro "
+"não é igual a propriedade de marcas registradas. Esta Política abrange as "
+"nossas Marcas, quer estejam registadas ou não."
 
 #: Template/Element/trademark/guidelines.ctp:215
 #: Template/Element/trademark/sidebar.ctp:10
 msgid "The trademarks we are licensing in this Policy"
-msgstr ""
+msgstr "As marcas comerciais que estamos licenciando nesta Política"
 
 #: Template/Element/trademark/guidelines.ctp:217
 msgid ""
 "The following trademarks are ones that covered by the Policy, all others are "
 "reserved exclusively to our use:"
 msgstr ""
+"As seguintes marcas registradas são aquelas cobertas pela Política, todas as "
+"outras são reservadas exclusivamente ao nosso uso:"
 
 #: Template/Element/trademark/guidelines.ctp:219
 msgid "Community flags as shown in Section 4"
-msgstr ""
+msgstr "Como indicado na seção 4"
 
 #: Template/Element/trademark/guidelines.ctp:221
 msgid ""
@@ -3124,11 +3248,14 @@ msgid ""
 "ask\n"
 "\t\tpermission to use any of our reserved trademarks."
 msgstr ""
+"Contacte-nos conforme descrito em \"{0}\" abaixo se você tiver dúvidas ou "
+"quiser pedir permissão para utilizar qualquer uma das nossas marcas "
+"reservadas."
 
 #: Template/Element/trademark/introduction.ctp:1
 #: Template/Element/trademark/sidebar.ctp:4
 msgid "Introduction"
-msgstr ""
+msgstr "Introdução"
 
 #: Template/Element/trademark/introduction.ctp:3
 msgid ""
@@ -3139,6 +3266,11 @@ msgid ""
 "\t\tlicense does not include an implied right or license to use our "
 "trademark."
 msgstr ""
+"Este documento, que será referenciado como \"Política\", descreve a política "
+"do projeto CakePHP (o \"Projeto\") para o uso de nossas marcas registradas. "
+"Enquanto o nosso software está disponível sob uma licença de software livre "
+"e de código aberto, a licença de direitos autorais não inclui um direito "
+"implícito ou licença para usar nossa marca registrada."
 
 #: Template/Element/trademark/introduction.ctp:8
 msgid ""
@@ -3152,6 +3284,13 @@ msgid ""
 "circumstances under which you may use our\n"
 "\t\ttrademarks."
 msgstr ""
+"O papel das marcas é fornecer garantia sobre a qualidade dos produtos ou "
+"serviços com os quais a marca está associada, mas porque uma licença de "
+"código aberto permite a sua modificação irrestrita do software protegido por "
+"direitos autorais, não podemos ter certeza de que suas modificações no "
+"software não serão enganosas se distribuído com o mesmo nome. Em vez disso, "
+"esta Política descreve as circunstâncias em que você pode usar nossas marcas "
+"registradas."
 
 #: Template/Element/trademark/introduction.ctp:15
 msgid ""
@@ -3162,6 +3301,11 @@ msgid ""
 "\t\tclarity for you to understand whether we will consider your use licensed "
 "or non-infringing."
 msgstr ""
+"Nessa Política não estamos tentando limitar o uso legal de nossas marcas "
+"registradas, mas descrevemos para você o que consideramos os parâmetros de "
+"uso legítimo. Direito de marca pode ser ambíguo, por isso esperamos fornecer "
+"suficiente clareza para você entender se vamos considerar o seu uso "
+"licenciado ou não-infrator."
 
 #: Template/Element/trademark/introduction.ctp:20
 msgid ""
@@ -3176,6 +3320,14 @@ msgid ""
 "\t\tnot a use that we have approved, so you must decide for yourself whether "
 "the use is nevertheless lawful."
 msgstr ""
+"As seções a seguir descrevem quais marcas são cobertas nesta Política, bem "
+"como os usos das marcas registradas que são permitidos sem permissão "
+"adicional de nossa parte. Se você quiser usar nossas marcas comerciais de "
+"maneiras que não são descritas nesta Política, consulte \"{0} \" abaixo para "
+"obter informações de contato. Qualquer utilização que não cumpra esta "
+"Política ou para a qual não tenha fornecido separadamente permissão por "
+"escrito não é um uso que aprovamos, pelo que deve decidir por si mesmo se o "
+"uso é, no entanto, lícito."
 
 #: Template/Element/trademark/non-software.ctp:2
 #: Template/Element/trademark/sidebar.ctp:41
@@ -3192,7 +3344,7 @@ msgstr ""
 #: Template/Element/trademark/software.ctp:4
 #: Template/Element/trademark/universal-considerations.ctp:2
 msgid "Universal considerations for all uses"
-msgstr ""
+msgstr "Considerações universais para todos os usos"
 
 #: Template/Element/trademark/non-software.ctp:10
 #: Template/Element/trademark/sidebar.ctp:18
@@ -3340,7 +3492,7 @@ msgstr ""
 
 #: Template/Element/trademark/sidebar.ctp:2
 msgid "Contents"
-msgstr ""
+msgstr "Conteúdo"
 
 #: Template/Element/trademark/sidebar.ctp:15
 #: Template/Element/trademark/software.ctp:2
@@ -3585,18 +3737,32 @@ msgid ""
 "the CakePHP Framework,\n"
 "\t\t or that you wrote a book describing how to use the CakePHP Framework."
 msgstr ""
+"Sempre que você usar uma das Marcas, você deve sempre fazê-lo de uma maneira "
+"que não engane ninguém, diretamente ou por omissão, sobre exatamente o que "
+"eles estão recebendo e de quem. A lei reflete esta exigência de duas "
+"maneiras principais descritas em mais detalhes {0}: que proíbe a criação de "
+"um {1} permite a {2} . Por exemplo, você não pode dizer que está "
+"distribuindo o Framework CakePHP quando distribui uma versão modificada "
+"dele, porque as pessoas ficariam confusas por não estarem recebendo os "
+"mesmos recursos e funcionalidades que obteriam se baixassem o software "
+"diretamente de nós. Você também não pode usar nosso logo em seu site de uma "
+"forma que sugere que seu site é um site oficial ou que endossamos seu site. "
+"Você pode, no entanto, dizer que gosta do Framework CakePHP, que participa "
+"da comunidade CakePHP, que está fornecendo uma versão não modificada do "
+"Framework CakePHP ou que escreveu um livro descrevendo como usar o Framework "
+"CakePHP."
 
 #: Template/Element/trademark/universal-considerations.ctp:13
 msgid "below"
-msgstr ""
+msgstr "abaixo"
 
 #: Template/Element/trademark/universal-considerations.ctp:14
 msgid "\"likelihood of confusion\""
-msgstr ""
+msgstr "\"risco de confusão\""
 
 #: Template/Element/trademark/universal-considerations.ctp:15
 msgid "\"nominative use\""
-msgstr ""
+msgstr "\"utilização nominativa\""
 
 #: Template/Element/trademark/universal-considerations.ctp:17
 msgid ""
@@ -3605,10 +3771,14 @@ msgid ""
 "also serve as your guide if you are not sure about how you are using the\n"
 "\t\tMarks."
 msgstr ""
+"Esta exigência fundamental, para que seja smpre claro para as pessoas o que "
+"eles estão recebendo e de quem, é refletida ao longo desta Política. Ele "
+"também deve servir como seu guia se você não tem certeza sobre como você "
+"está usando as Marcas."
 
 #: Template/Element/trademark/universal-considerations.ctp:20
 msgid "In addition:"
-msgstr ""
+msgstr "Em adição:"
 
 #: Template/Element/trademark/universal-considerations.ctp:22
 msgid ""
@@ -3616,6 +3786,9 @@ msgid ""
 "software if you are also not in compliance with the copyright license for "
 "the software."
 msgstr ""
+"Você não pode usar as Marcas em associação com o uso ou distribuição de "
+"software se você também não estiver em conformidade com a licença de "
+"direitos autorais do software."
 
 #: Template/Element/trademark/universal-considerations.ctp:24
 msgid ""
@@ -3623,6 +3796,9 @@ msgid ""
 "own trademark, service mark, domain name, company name, trade name, product "
 "name or service name."
 msgstr ""
+"Você não pode usar ou registrar, no todo ou em parte, as Marcas como parte "
+"de sua própria marca registrada, marca de serviço, nome de domínio, nome da "
+"empresa, nome comercial, nome do produto ou nome do serviço."
 
 #: Template/Element/trademark/universal-considerations.ctp:26
 msgid ""
@@ -3632,20 +3808,29 @@ msgid ""
 "or abbreviation for a similar or compatible product or service. We would "
 "consider the following too similar to one of our Marks:"
 msgstr ""
+"A lei de marcas registradas não permite o uso de nomes ou marcas que sejam "
+"muito semelhantes às nossas. Portanto, você não pode usar uma variação óbvia "
+"de nenhuma de nossas Marcas ou qualquer equivalente fonético, equivalente em "
+"idioma estrangeiro, decolagem ou abreviação de um produto ou serviço similar "
+"ou compatível. Consideraríamos o seguinte muito semelhante a uma de nossas "
+"Marcas:"
 
 #: Template/Element/trademark/universal-considerations.ctp:28
 msgid "Any mark ending with the letters Cake."
-msgstr ""
+msgstr "Qualquer marca terminando com as letras Cake."
 
 #: Template/Element/trademark/universal-considerations.ctp:30
 msgid "Any mark beginning with the letters Cake."
-msgstr ""
+msgstr "Qualquer marca começando com as letras Cake."
 
 #: Template/Element/trademark/universal-considerations.ctp:32
 msgid ""
 "You agree that you will not acquire any rights in the Marks and that any "
 "goodwill generated by your use of the Marks inures solely to our benefit."
 msgstr ""
+"Você concorda que não adquirirá quaisquer direitos sobre as Marcas e que "
+"qualquer ágio gerado pelo seu uso das Marcas será exclusivamente para nosso "
+"benefício."
 
 #: Template/Email/text/writers_form.ctp:10 Template/Writers/index.ctp:88
 msgid "Proposed article titles"
@@ -3928,7 +4113,7 @@ msgstr ""
 
 #: Template/Pages/trademark.ctp:17
 msgid "CakePHP Trademark and Logo Policy"
-msgstr ""
+msgstr "Política de Uso da Marca CakePHP"
 
 #: Template/Pages/videos.ctp:2
 msgid ""
@@ -3957,23 +4142,23 @@ msgstr "Carregar Mais"
 
 #: Template/Plugin/CakeDC/Users/Users/change_password.ctp:29
 msgid "Enter a new password"
-msgstr ""
+msgstr "Indique uma nova senha"
 
 #: Template/Plugin/CakeDC/Users/Users/change_password.ctp:33
 msgid "New password"
-msgstr ""
+msgstr "Nova senha"
 
 #: Template/Plugin/CakeDC/Users/Users/change_password.ctp:34
 msgid "Confirm new password"
-msgstr ""
+msgstr "Confirmar nova senha"
 
 #: Template/Plugin/CakeDC/Users/Users/request_reset_password.ctp:29
 msgid "Request a new password"
-msgstr ""
+msgstr "Solicitar uma nova senha"
 
 #: Template/Plugin/CakeDC/Users/Users/request_reset_password.ctp:32
 msgid "Username or email"
-msgstr ""
+msgstr "Nome de usuário ou email"
 
 #: Template/Writers/index.ctp:8
 msgid "CakePHP - Build fast, grow solid | PHP Framework | Become a Tech Writer"
