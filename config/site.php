@@ -39,25 +39,20 @@ return [
 		'menu' => [
 			'items' => [
 				'community' => [
+                    'getInvolved' => [
+                        'url' => [
+                            'plugin' => false,
+                            'controller' => 'Pages',
+                            'action' => 'display',
+                            'get-involved',
+                            'prefix' => false
+                        ],
+                        'title' => __('Get Involved')
+                    ],
 					'issues' => [
 						'url' => 'https://github.com/cakephp/cakephp/issues',
 						'options' => ['target' => '_blank'],
 						'title' => __('Issues (Github)')
-					],
-					'youtube' => [
-						'url' => 'https://www.youtube.com/user/CakePHP',
-						'options' => ['target' => '_blank'],
-						'title' => __('Youtube Channel')
-					],
-					'getInvolved' => [
-						'url' => [
-							'plugin' => false,
-							'controller' => 'Pages',
-							'action' => 'display',
-							'get-involved',
-							'prefix' => false
-						],
-						'title' => __('Get Involved')
 					],
 					'blog' => [
 						'url' => 'http://bakery.cakephp.org/',
@@ -67,16 +62,10 @@ return [
 						'url' => 'https://github.com/FriendsOfCake/awesome-cakephp',
 						'title' => __('Featured Resources')
 					],
-					'newsletter' => [
-						'url' => [
-							'plugin' => false,
-							'controller' => 'Pages',
-							'action' => 'display',
-							'newsletter',
-							'prefix' => false
-						],
-						'title' => __('Newsletter')
-					],
+                    'training' => [
+                        'url' => 'http://training.cakephp.org/',
+                        'title' => __('Training')
+                    ],
 					'certification' => [
 						'url' => 'http://certification.cakephp.org/',
 						'title' => __('Certification')
@@ -90,6 +79,21 @@ return [
 						'options' => ['target' => '_blank'],
 						'title' => __('CakeFest')
 					],
+                    'newsletter' => [
+                        'url' => [
+                            'plugin' => false,
+                            'controller' => 'Pages',
+                            'action' => 'display',
+                            'newsletter',
+                            'prefix' => false
+                        ],
+                        'title' => __('Newsletter')
+                    ],
+                    'youtube' => [
+                        'url' => 'https://www.youtube.com/user/CakePHP',
+                        'options' => ['target' => '_blank'],
+                        'title' => __('Youtube')
+                    ],
 					'facebook' => [
 						'url' => 'https://www.facebook.com/CakePHP/',
 						'options' => ['target' => '_blank'],
