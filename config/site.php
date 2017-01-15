@@ -89,6 +89,11 @@ return [
                         ],
                         'title' => __('Newsletter')
                     ],
+                    'linkedin' => [
+                        'url' => 'https://www.linkedin.com/groups/4623165',
+                        'options' => ['target' => '_blank'],
+                        'title' => __('Linkedin')
+                    ],
                     'youtube' => [
                         'url' => 'https://www.youtube.com/user/CakePHP',
                         'options' => ['target' => '_blank'],
