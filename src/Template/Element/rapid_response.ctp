@@ -1,11 +1,11 @@
 <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" id="<?= $modalId ?>">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content modal-showcase">
-        	<?= $this->Form->create(null, ['url' => [
-        		'plugin' => false,
-        		'controller' => 'contacts',
-        		'action' => 'rapid'
-        	], 'class' => 'support-form']); ?>
+			<?= $this->Form->create(null, ['url' => [
+				'plugin' => false,
+				'controller' => 'contacts',
+				'action' => 'rapid'
+			], 'class' => 'support-form']); ?>
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
@@ -13,19 +13,19 @@
 				</div>
 
 				<div class="modal-body">
-				    <div class="row">
-				        <div class="col-md-12">
-				        	<div class="col-sm-4 icon-modal-show">
-				        		<span class="glyph_range">P</span>
-				        	</div>
-				        	<div class="col-sm-8 t-modal-show">
-				        		<h4><strong><?= $firstTitle ?></strong></h4>
-				        		<h4><?= $secondTitle ?></h4>
-				        		<p><?= $description ?></p>
-				        	</div>
-				        </div>
-				        <div class="col-md-12">
-			        		<div class="form-group">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="col-sm-4 icon-modal-show">
+								<span class="glyph_range">P</span>
+							</div>
+							<div class="col-sm-8 t-modal-show">
+								<h4><strong><?= $firstTitle ?></strong></h4>
+								<h4><?= $secondTitle ?></h4>
+								<p><?= $description ?></p>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
 								<label class="col-sm-2 control-label-rapid"><?= __('Name') ?></label>
 								<div class="col-sm-10">
 									<?= $this->Form->input('name', [
@@ -116,8 +116,8 @@
 									]) ?>
 								</div>
 							</div>
-				        </div>
-				    </div>
+						</div>
+					</div>
 			</div>
 
 			<div class="modal-footer back-modal-footer-show">

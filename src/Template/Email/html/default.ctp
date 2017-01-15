@@ -7,16 +7,16 @@
  * For full copyright and license information, please see the LICENSE.txt
  * Redistributions of files must retain the above copyright notice.
  *
- * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- * @link          http://cakephp.org CakePHP(tm) Project
- * @since         0.10.0
- * @license       http://www.opensource.org/licenses/mit-license.php MIT License
+ * @copyright	 Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
+ * @link		  http://cakephp.org CakePHP(tm) Project
+ * @since		 0.10.0
+ * @license	   http://www.opensource.org/licenses/mit-license.php MIT License
  */
 ?>
 <?php
 $content = explode("\n", $content);
 
 foreach ($content as $line):
-    echo '<p> ' . $line . "</p>\n";
+	echo '<p> ' . $line . "</p>\n";
 endforeach;
 ?>
