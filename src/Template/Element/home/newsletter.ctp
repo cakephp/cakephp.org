@@ -20,15 +20,15 @@
 									</label>
 								</div>
 								<div class="col-sm-12">
-									<label for="mce-LNAME">
-										<input type="text"
-											   value=""
-											   name="LNAME"
-											   class="form-control"
-											   id="mce-LNAME"
-											   placeholder="<?= __('Last Name') ?>"
-											   required>
-									</label>
+					                <label for="mce-LNAME">
+					                	<input type="text"
+					                		   value=""
+					                		   name="LNAME"
+					                		   class="form-control"
+					                		   id="mce-LNAME"
+                                               placeholder="<?= __('Last Name') ?>"
+					                		   required>
+					                </label>
 
 								</div>
 								<div class="col-sm-12">
@@ -38,7 +38,7 @@
 											   name="EMAIL"
 											   class="form-control"
 											   id="mce-EMAIL"
-											   placeholder="<?= __('Email') ?>"
+                                               placeholder="<?= __('Email') ?>"
 											   required>
 									</label>
 								</div>
@@ -51,55 +51,55 @@
 									<strong>English Lists</strong>
 									<ul>
 										<li>
-											<input type="checkbox" value="1" name="group[19433][1]" id="mce-group[19433]-19433-0">
-											<label for="mce-group[19433]-19433-0">Newsletter</label>
-										</li>
+                                            <input type="checkbox" value="1" name="group[19433][1]" id="mce-group[19433]-19433-0">
+                                            <label for="mce-group[19433]-19433-0">Newsletter</label>
+                                        </li>
 										<li>
-											<input type="checkbox" value="2" name="group[19433][2]" id="mce-group[19433]-19433-1">
-											<label for="mce-group[19433]-19433-1">Events</label>
-										</li>
+                                            <input type="checkbox" value="2" name="group[19433][2]" id="mce-group[19433]-19433-1">
+                                            <label for="mce-group[19433]-19433-1">Events</label>
+                                        </li>
 										<li>
-											<input type="checkbox" value="4" name="group[19433][4]" id="mce-group[19433]-19433-2">
-											<label for="mce-group[19433]-19433-2">Security</label>
-										</li>
+                                            <input type="checkbox" value="4" name="group[19433][4]" id="mce-group[19433]-19433-2">
+                                            <label for="mce-group[19433]-19433-2">Security</label>
+                                        </li>
 										<li>
-											<input type="checkbox" value="64" name="group[19433][64]" id="mce-group[19433]-19433-3">
-											<label for="mce-group[19433]-19433-3">Freelancers</label>
-										</li>
+                                            <input type="checkbox" value="64" name="group[19433][64]" id="mce-group[19433]-19433-3">
+                                            <label for="mce-group[19433]-19433-3">Freelancers</label>
+                                        </li>
 									</ul>
 								</div>
 								<div class="col-lg-4 col-md-4 mc-field-group mt10">
 									<strong>Lista en Español</strong>
-									<ul>
-										<li>
-											<input type="checkbox" value="8" name="group[19445][8]" id="mce-group[19445]-19445-0">
-											<label for="mce-group[19445]-19445-0">Boletín de Noticias</label>
-										</li>
-										<li>
-											<input type="checkbox" value="16" name="group[19445][16]" id="mce-group[19445]-19445-1">
-											<label for="mce-group[19445]-19445-1">Eventos</label>
-										</li>
-										<li>
-											<input type="checkbox" value="32" name="group[19445][32]" id="mce-group[19445]-19445-2">
-											<label for="mce-group[19445]-19445-2">Seguridad</label>
-										</li>
-										<li>
-											<input type="checkbox" value="128" name="group[19445][128]" id="mce-group[19445]-19445-3">
-											<label for="mce-group[19445]-19445-3">Freelancers</label>
-										</li>
-									</ul>
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox" value="8" name="group[19445][8]" id="mce-group[19445]-19445-0">
+                                            <label for="mce-group[19445]-19445-0">Boletín de Noticias</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" value="16" name="group[19445][16]" id="mce-group[19445]-19445-1">
+                                            <label for="mce-group[19445]-19445-1">Eventos</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" value="32" name="group[19445][32]" id="mce-group[19445]-19445-2">
+                                            <label for="mce-group[19445]-19445-2">Seguridad</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" value="128" name="group[19445][128]" id="mce-group[19445]-19445-3">
+                                            <label for="mce-group[19445]-19445-3">Freelancers</label>
+                                        </li>
+                                    </ul>
 								</div>
 								<div class="col-lg-4 col-md-4 mc-field-group mt10">
 									<strong><?= __('Email Format') ?></strong>
 									<ul>
 										<li>
-											<input type="radio" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0">
-											<label for="mce-EMAILTYPE-0">html</label>
-										</li>
+                                            <input type="radio" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0">
+                                            <label for="mce-EMAILTYPE-0">html</label>
+                                        </li>
 										<li>
-											<input type="radio" value="text" name="EMAILTYPE" id="mce-EMAILTYPE-1">
-											<label for="mce-EMAILTYPE-1">text</label>
-										</li>
+                                            <input type="radio" value="text" name="EMAILTYPE" id="mce-EMAILTYPE-1">
+                                            <label for="mce-EMAILTYPE-1">text</label>
+                                        </li>
 									</ul>
 								</div>
 							</div>

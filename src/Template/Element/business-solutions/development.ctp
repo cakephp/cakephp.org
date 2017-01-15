@@ -9,7 +9,7 @@
 	</div>
 	<div class="clearfix"></div>
 
-	<div class="text-center col-sm-6">
+    <div class="text-center col-sm-6">
 		<?= $this->Html->link(__('Find out more'), '#', [
 			'class' => 'btn btn-expertise mt20',
 			'data-toggle' => 'modal',
@@ -46,40 +46,40 @@
 		<p><?= __('We offer an array of development services, each covered by years of experience and our collective talent.') ?></p>
 		<div class="col-sm-6 business-list">
 			<ul>
-				<li><?= __('CakePHP Development') ?></li>
-				<li><?= __('Plugin Development') ?></li>
-				<li><?= __('Mobile & Tablet Sites') ?></li>
-				<li><?= __('JavaScript, Ajax & Node.js') ?></li>
-				<li><?= __('Single Page Applications') ?></li>
-				<li><?= __('API Development') ?></li>
-				<li><?= __('Web Services') ?></li>
-				<li><?= __('Internationalization (i18n)') ?></li>
-				<li><?= __('Imports & Migrations') ?></li>
-				<li><?= __('Third-Party Integrations') ?></li>
-				<li><?= __('Project Management') ?></li>
-				<li><?= __('Issue & Bug Tracking') ?></li>
-				<li><?= __('Backups & Version Control') ?></li>
-				<li><?= __('Database Modeling') ?></li>
-				<li><?= __('UML/ER/Flow Diagrams') ?></li>
+                <li><?= __('CakePHP Development') ?></li>
+                <li><?= __('Plugin Development') ?></li>
+                <li><?= __('Mobile & Tablet Sites') ?></li>
+                <li><?= __('JavaScript, Ajax & Node.js') ?></li>
+                <li><?= __('Single Page Applications') ?></li>
+                <li><?= __('API Development') ?></li>
+                <li><?= __('Web Services') ?></li>
+                <li><?= __('Internationalization (i18n)') ?></li>
+                <li><?= __('Imports & Migrations') ?></li>
+                <li><?= __('Third-Party Integrations') ?></li>
+                <li><?= __('Project Management') ?></li>
+                <li><?= __('Issue & Bug Tracking') ?></li>
+                <li><?= __('Backups & Version Control') ?></li>
+                <li><?= __('Database Modeling') ?></li>
+                <li><?= __('UML/ER/Flow Diagrams') ?></li>
 			</ul>
 		</div>
 		<div class="col-sm-6 business-list">
 			<ul>
-				<li><?= __('In-Depth Code Review') ?></li>
-				<li><?= __('Wire-Frames & Mock-ups') ?></li>
-				<li><?= __('Responsive Web Design') ?></li>
-				<li><?= __('Payment Gateways') ?></li>
-				<li><?= __('PCI Compliance') ?></li>
-				<li><?= __('Technical Specifications') ?></li>
-				<li><?= __('Functional Analysis') ?></li>
-				<li><?= __('Performance & Scalability') ?></li>
-				<li><?= __('Security & Integrity Checks') ?></li>
-				<li><?= __('Domain Level Analysis') ?></li>
-				<li><?= __('Source Code Refactoring') ?></li>
-				<li><?= __('Technical Documentation') ?></li>
-				<li><?= __('Web Standards Compliance') ?></li>
-				<li><?= __('Usability Testing (UI & UX)') ?></li>
-				<li><?= __('A/B Testing & Smoke Tests') ?></li>
+                <li><?= __('In-Depth Code Review') ?></li>
+                <li><?= __('Wire-Frames & Mock-ups') ?></li>
+                <li><?= __('Responsive Web Design') ?></li>
+                <li><?= __('Payment Gateways') ?></li>
+                <li><?= __('PCI Compliance') ?></li>
+                <li><?= __('Technical Specifications') ?></li>
+                <li><?= __('Functional Analysis') ?></li>
+                <li><?= __('Performance & Scalability') ?></li>
+                <li><?= __('Security & Integrity Checks') ?></li>
+                <li><?= __('Domain Level Analysis') ?></li>
+                <li><?= __('Source Code Refactoring') ?></li>
+                <li><?= __('Technical Documentation') ?></li>
+                <li><?= __('Web Standards Compliance') ?></li>
+                <li><?= __('Usability Testing (UI & UX)') ?></li>
+                <li><?= __('A/B Testing & Smoke Tests') ?></li>
 			</ul>
 		</div>
 

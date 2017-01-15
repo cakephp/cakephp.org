@@ -10,7 +10,7 @@ developers wanting to let others know you use CakePHP.')?><br/>
 		<div class="box-code-trad">
 <pre><span class="k">&lt;div</span> <span class="g">style</span><span class="w">=</span><span class="nx">"position:fixed; top:20%; right:0; z-index:9999;"</span><span class="k">&gt;</span>
    <span class="k">&lt;a</span> <span class="g">href</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/"</span><span class="k">&gt;</span>
-	  <span class="k">&lt;img</span> <span class="g">src</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/img/flags/We-bake-with-CakePHP.png"</span> <span class="g">width</span><span class="w">=</span><span class="nx">"100px;"</span><span class="k">&gt;</span>
+      <span class="k">&lt;img</span> <span class="g">src</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/img/flags/We-bake-with-CakePHP.png"</span> <span class="g">width</span><span class="w">=</span><span class="nx">"100px;"</span><span class="k">&gt;</span>
    <span class="k">&lt;/a&gt;</span>
 <span class="k">&lt;/div&gt;</span>
 </pre>
@@ -35,7 +35,7 @@ developers wanting to let others know you use CakePHP.')?><br/>
 		<div class="box-code-trad">
 <pre><span class="k">&lt;div</span> <span class="g">style</span><span class="w">=</span><span class="nx">"position:fixed; top:20%; right:0; z-index:9999;"</span><span class="k">&gt;</span>
    <span class="k">&lt;a</span> <span class="g">href</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/"</span><span class="k">&gt;</span>
-	  <span class="k">&lt;img</span> <span class="g">src</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/img/flags/Baked-with-CakePHP.png"</span> <span class="g">width</span><span class="w">=</span><span class="nx">"100px;"</span><span class="k">&gt;</span>
+      <span class="k">&lt;img</span> <span class="g">src</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/img/flags/Baked-with-CakePHP.png"</span> <span class="g">width</span><span class="w">=</span><span class="nx">"100px;"</span><span class="k">&gt;</span>
    <span class="k">&lt;/a&gt;</span>
 <span class="k">&lt;/div&gt;</span>
 </pre>
@@ -62,7 +62,7 @@ developers wanting to let others know you use CakePHP.')?><br/>
 		<div class="box-code-trad">
 <pre><span class="k">&lt;div</span> <span class="g">style</span><span class="w">=</span><span class="nx">"position:fixed; top:20%; right:0; z-index:9999;"</span><span class="k">&gt;</span>
    <span class="k">&lt;a</span> <span class="g">href</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/"</span><span class="k">&gt;</span>
-	  <span class="k">&lt;img</span> <span class="g">src</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/img/flags/I-bake-with-CakePHP.png"</span> <span class="g">width</span><span class="w">=</span><span class="nx">"100px;"</span><span class="k">&gt;</span>
+      <span class="k">&lt;img</span> <span class="g">src</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/img/flags/I-bake-with-CakePHP.png"</span> <span class="g">width</span><span class="w">=</span><span class="nx">"100px;"</span><span class="k">&gt;</span>
    <span class="k">&lt;/a&gt;</span>
 <span class="k">&lt;/div&gt;</span>
 </pre>
@@ -87,7 +87,7 @@ developers wanting to let others know you use CakePHP.')?><br/>
 		<div class="box-code-trad">
 <pre><span class="k">&lt;div</span> <span class="g">style</span><span class="w">=</span><span class="nx">"position:fixed; top:20%; right:0; z-index:9999;"</span><span class="k">&gt;</span>
    <span class="k">&lt;a</span> <span class="g">href</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/"</span><span class="k">&gt;</span>
-	  <span class="k">&lt;img</span> <span class="g">src</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/img/flags/Bake-with-CakePHP.png"</span> <span class="g">width</span><span class="w">=</span><span class="nx">"100px;"</span><span class="k">&gt;</span>
+      <span class="k">&lt;img</span> <span class="g">src</span><span class="w">=</span><span class="nx">"http://www.cakephp.org/img/flags/Bake-with-CakePHP.png"</span> <span class="g">width</span><span class="w">=</span><span class="nx">"100px;"</span><span class="k">&gt;</span>
    <span class="k">&lt;/a&gt;</span>
 <span class="k">&lt;/div&gt;</span>
 </pre>

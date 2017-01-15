@@ -342,7 +342,7 @@ msgid "Get Paid To Write"
 msgstr ""
 
 #: Template/Element/Layout/default/menu/mobile_menu.ctp:76
-msgid "Help &\n												Support"
+msgid "Help &\n                                                Support"
 msgstr ""
 
 #: Template/Element/Layout/default/menu/mobile_menu.ctp:94
@@ -1297,7 +1297,7 @@ msgid "Faster. Stronger. Tastier."
 msgstr ""
 
 #: Template/Element/home/cakefest.ctp:28
-msgid "Don't have a ticket yet? Only a limited amount are available, so purchase yours today! From\n\t				 a wide range of talks, interactive workshops to prizes, giveaways and fun social activities all planned\n\t				 over 4 exciting days!"
+msgid "Don't have a ticket yet? Only a limited amount are available, so purchase yours today! From\n\t                 a wide range of talks, interactive workshops to prizes, giveaways and fun social activities all planned\n\t                 over 4 exciting days!"
 msgstr ""
 
 #: Template/Element/home/cakefest.ctp:34

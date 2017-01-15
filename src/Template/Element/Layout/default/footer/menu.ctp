@@ -1,13 +1,13 @@
 <div class="col-sm-6 col-md-3 business-solution">
-	<?= $this->element('Layout/default/footer/menu/column_one') ?>
+    <?= $this->element('Layout/default/footer/menu/column_one') ?>
 </div>
 
 <div class="col-sm-6 col-md-3">
-	<?= $this->element('Layout/default/footer/menu/column_two') ?>
+    <?= $this->element('Layout/default/footer/menu/column_two') ?>
 </div>
 
 <div class="col-sm-6 col-md-3">
-	<?= $this->element('Layout/default/footer/menu/column_three') ?>
+    <?= $this->element('Layout/default/footer/menu/column_three') ?>
 </div>
 
 <div class="col-sm-6 col-md-3">

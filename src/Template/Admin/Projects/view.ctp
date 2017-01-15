@@ -1,17 +1,17 @@
 <div class="container ptb-120">
 	<div class="row">
-		<div class="col-sm-12 crud-actions">
-			<?= $this->Html->link(__d('Showcase', 'Edit'), ['action' => 'edit', $project->id], [
-				'class' => 'btn-sm btn-primary'
-			]) ?>
-			<?= $this->Form->postLink(__d('Showcase', 'Delete'), ['action' => 'delete', $project->id], [
-				'class' => 'btn-sm btn-danger',
-				'confirm' => __d('Showcase', 'Are you sure you?')
-			]) ?>
-			<?= $this->Html->link(__d('Showcase', 'List Projects'), ['action' => 'index'], [
-				'class' => 'btn-sm btn-primary'
-			]) ?>
-		</div>
+	    <div class="col-sm-12 crud-actions">
+	    	<?= $this->Html->link(__d('Showcase', 'Edit'), ['action' => 'edit', $project->id], [
+	            'class' => 'btn-sm btn-primary'
+	    	]) ?>
+	    	<?= $this->Form->postLink(__d('Showcase', 'Delete'), ['action' => 'delete', $project->id], [
+	    		'class' => 'btn-sm btn-danger',
+	    		'confirm' => __d('Showcase', 'Are you sure you?')
+	    	]) ?>
+	        <?= $this->Html->link(__d('Showcase', 'List Projects'), ['action' => 'index'], [
+	            'class' => 'btn-sm btn-primary'
+	        ]) ?>
+	    </div>
 	</div>
 
 	<div class="row">
@@ -31,32 +31,32 @@
 							</div>
 						<?php endif; ?>
 
-						<table class="vertical-table table">
-							<tr>
-								<th><?= __('Title') ?></th>
-								<td><?= h($project->title) ?></td>
-							</tr>
-							<tr>
-								<th><?= __('Website') ?></th>
-								<td><?= h($project->website) ?></td>
-							</tr>
-							<tr>
-								<th><?= __('Is Highlighted') ?></th>
-								<td><?= $this->Showcase->boolean($project->is_highlighted) ?></td>
-							</tr>
-							<tr>
-								<th><?= __('Is Showcase') ?></th>
-								<td><?= $this->Showcase->boolean($project->is_showcase) ?></td>
-							</tr>
-							<tr>
-								<th><?= __('Created') ?></th>
-								<td><?= h($project->created) ?></td>
-							</tr>
-							<tr>
-								<th><?= __('Modified') ?></th>
-								<td><?= h($project->modified) ?></td>
-							</tr>
-						</table>
+					    <table class="vertical-table table">
+					        <tr>
+					            <th><?= __('Title') ?></th>
+					            <td><?= h($project->title) ?></td>
+					        </tr>
+					        <tr>
+					            <th><?= __('Website') ?></th>
+					            <td><?= h($project->website) ?></td>
+					        </tr>
+					        <tr>
+					            <th><?= __('Is Highlighted') ?></th>
+					            <td><?= $this->Showcase->boolean($project->is_highlighted) ?></td>
+					        </tr>
+					        <tr>
+					            <th><?= __('Is Showcase') ?></th>
+					            <td><?= $this->Showcase->boolean($project->is_showcase) ?></td>
+					        </tr>
+					        <tr>
+					            <th><?= __('Created') ?></th>
+					            <td><?= h($project->created) ?></td>
+					        </tr>
+					        <tr>
+					            <th><?= __('Modified') ?></th>
+					            <td><?= h($project->modified) ?></td>
+					        </tr>
+					    </table>
 					</div>
 				</div>
 			</div>
