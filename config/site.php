@@ -39,16 +39,16 @@ return [
 		'menu' => [
 			'items' => [
 				'community' => [
-                    'getInvolved' => [
-                        'url' => [
-                            'plugin' => false,
-                            'controller' => 'Pages',
-                            'action' => 'display',
-                            'get-involved',
-                            'prefix' => false
-                        ],
-                        'title' => __('Get Involved')
-                    ],
+					'getInvolved' => [
+						'url' => [
+							'plugin' => false,
+							'controller' => 'Pages',
+							'action' => 'display',
+							'get-involved',
+							'prefix' => false
+						],
+						'title' => __('Get Involved')
+					],
 					'issues' => [
 						'url' => 'https://github.com/cakephp/cakephp/issues',
 						'options' => ['target' => '_blank'],
@@ -62,10 +62,10 @@ return [
 						'url' => 'https://github.com/FriendsOfCake/awesome-cakephp',
 						'title' => __('Featured Resources')
 					],
-                    'training' => [
-                        'url' => 'http://training.cakephp.org/',
-                        'title' => __('Training')
-                    ],
+					'training' => [
+						'url' => 'http://training.cakephp.org/',
+						'title' => __('Training')
+					],
 					'certification' => [
 						'url' => 'http://certification.cakephp.org/',
 						'title' => __('Certification')
@@ -79,26 +79,26 @@ return [
 						'options' => ['target' => '_blank'],
 						'title' => __('CakeFest')
 					],
-                    'newsletter' => [
-                        'url' => [
-                            'plugin' => false,
-                            'controller' => 'Pages',
-                            'action' => 'display',
-                            'newsletter',
-                            'prefix' => false
-                        ],
-                        'title' => __('Newsletter')
-                    ],
-                    'linkedin' => [
-                        'url' => 'https://www.linkedin.com/groups/4623165',
-                        'options' => ['target' => '_blank'],
-                        'title' => __('Linkedin')
-                    ],
-                    'youtube' => [
-                        'url' => 'https://www.youtube.com/user/CakePHP',
-                        'options' => ['target' => '_blank'],
-                        'title' => __('Youtube')
-                    ],
+					'newsletter' => [
+						'url' => [
+							'plugin' => false,
+							'controller' => 'Pages',
+							'action' => 'display',
+							'newsletter',
+							'prefix' => false
+						],
+						'title' => __('Newsletter')
+					],
+					'linkedin' => [
+						'url' => 'https://www.linkedin.com/groups/4623165',
+						'options' => ['target' => '_blank'],
+						'title' => __('Linkedin')
+					],
+					'youtube' => [
+						'url' => 'https://www.youtube.com/user/CakePHP',
+						'options' => ['target' => '_blank'],
+						'title' => __('Youtube')
+					],
 					'facebook' => [
 						'url' => 'https://www.facebook.com/CakePHP/',
 						'options' => ['target' => '_blank'],
