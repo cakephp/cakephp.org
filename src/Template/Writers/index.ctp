@@ -69,10 +69,8 @@ $flash = $this->Flash->render()
             </div>
         </div>
         <?php if (Configure::read('Site.writers_form_enabled')): ?>
-            <?php if ($flash): ?>
-            <?php else: ?>
+            <?php if (!$flash || strpos($flash, 'alert-success') === false): ?>
                 <?= $this->Form->create($writer) ?>
-                <?php $this->Html->script('https://www.google.com/recaptcha/api.js?hl=en', ['block' => true]); ?>
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 writers-form">
                             <h3><?= __('Author Details') ?></h3>
@@ -108,6 +106,8 @@ $flash = $this->Flash->render()
                             </div>
                             <div class="form-group">
                                 <div class="g-recaptcha" data-sitekey="<?= Configure::read('ReCaptcha.site_key') ?>"></div>
+                                <?php $this->Html->script('https://www.google.com/recaptcha/api.js', ['block' => true]); ?>
+                                <?php $this->Form->unlockField('g-recaptcha-response'); ?>
                             </div>
                         </div>
                         <div class="row">
