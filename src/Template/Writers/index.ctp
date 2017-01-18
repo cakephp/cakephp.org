@@ -72,6 +72,7 @@ $flash = $this->Flash->render()
             <?php if ($flash): ?>
             <?php else: ?>
                 <?= $this->Form->create($writer) ?>
+                <?php $this->Html->script('https://www.google.com/recaptcha/api.js?hl=en', ['block' => true]); ?>
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 writers-form">
                             <h3><?= __('Author Details') ?></h3>
@@ -104,6 +105,9 @@ $flash = $this->Flash->render()
                                     <?= __('Do you have your own blog? Let us know! - also, share with us your GIthub, StackOverflow or Twitter handles, we would love to get to know you better before assessing your application!') ?>
                                 </label>
                                 <?= $this->Form->textarea('extra_information', ['rows' => 5, 'class' => 'form-control', 'id' => 'extra_information']) ?>
+                            </div>
+                            <div class="form-group">
+                                <div class="g-recaptcha" data-sitekey="<?= Configure::read('ReCaptcha.site_key') ?>"></div>
                             </div>
                         </div>
                         <div class="row">
