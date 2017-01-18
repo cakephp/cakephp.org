@@ -5,10 +5,6 @@
 .writers-hero {
     padding-top: 140px;
     background: #f7f6f3;
-    background: -moz-linear-gradient(left,  #ffffff 0%, #f4f4f2 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  #ffffff 0%,#f4f4f2 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  #ffffff 0%,#f4f4f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f4f2',GradientType=1 ); /* IE6-9 */
 }
 
 .writers-hero h1 img {
