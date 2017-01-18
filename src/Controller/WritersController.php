@@ -4,6 +4,7 @@ namespace App\Controller;
 use Cake\Core\Configure;
 use Cake\Event\Event;
 use Cake\Mailer\Email;
+use ReCaptcha\ReCaptcha;
 
 /**
  * Writers Controller
@@ -30,6 +31,14 @@ class WritersController extends AppController
         $writer = $this->Writers->newEntity();
 
         if (Configure::read('Site.writers_form_enabled') && $this->request->is('post')) {
+            $recaptcha = new ReCaptcha(Configure::read('ReCaptcha.secret_key'));
+            $resp = $recaptcha->verify($this->request->data('g-recaptcha-response'), $this->request->clientIp());
+            if (!$resp->isSuccess()) {
+                $this->Flash->error(__('Please check your Recaptcha Box.'));
+
+                return null;
+            }
+
             $writer = $this->Writers->newEntity($this->request->data);
             $writer->client_ip = $this->request->clientIp();
             if ($this->Writers->save($writer)) {
