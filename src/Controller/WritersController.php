@@ -4,6 +4,7 @@ namespace App\Controller;
 use Cake\Core\Configure;
 use Cake\Event\Event;
 use Cake\Mailer\Email;
+use ReCaptcha\ReCaptcha;
 
 /**
  * Writers Controller
@@ -30,24 +31,30 @@ class WritersController extends AppController
         $writer = $this->Writers->newEntity();
 
         if (Configure::read('Site.writers_form_enabled') && $this->request->is('post')) {
-            $writer = $this->Writers->newEntity($this->request->data);
-            $writer->client_ip = $this->request->clientIp();
-            if ($this->Writers->save($writer)) {
+            $recaptcha = new ReCaptcha(Configure::read('ReCaptcha.secret_key'));
+            $resp = $recaptcha->verify($this->request->data('g-recaptcha-response'), $this->request->clientIp());
+            if ($resp->isSuccess()) {
+                $writer = $this->Writers->newEntity($this->request->data);
+                $writer->client_ip = $this->request->clientIp();
+                if ($this->Writers->save($writer)) {
 
-                $email = new Email('default');
-                $email
-                    ->emailFormat('text')
-                    ->replyTo($writer->email, $writer->name)
-                    ->from([Configure::read('Site.contact.marketing_email') => __('CakePHP Website')])
-                    ->to(Configure::read('Site.contact.marketing_email'))
-                    ->subject(__('Writers Form'))
-                    ->set(compact('writer'))
-                    ->template('writers_form')
-                    ->send();
+                    $email = new Email('default');
+                    $email
+                        ->emailFormat('text')
+                        ->replyTo($writer->email, $writer->name)
+                        ->from([Configure::read('Site.contact.marketing_email') => __('CakePHP Website')])
+                        ->to(Configure::read('Site.contact.marketing_email'))
+                        ->subject(__('Writers Form'))
+                        ->set(compact('writer'))
+                        ->template('writers_form')
+                        ->send();
 
-                $this->Flash->success(__('Thanks for your submission! We will review and get back to you shortly!'));
+                    $this->Flash->success(__('Thanks for your submission! We will review and get back to you shortly!'));
 
-                return $this->redirect(['action' => 'index']);
+                    return $this->redirect(['action' => 'index']);
+                }
+            } else {
+                $this->Flash->error(__('Please check your Recaptcha Box.'));
             }
         }
 
