@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2017-01-12 18:15+0000\n"
+"POT-Creation-Date: 2017-01-09 18:09+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -13,38 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-
-#: Controller/ChangelogsController.php:62
-msgid "Invalid tag for changelogs"
-msgstr ""
-
-#: Controller/WritersController.php:41
-msgid "CakePHP Website"
-msgstr ""
-
-#: Controller/WritersController.php:43
-msgid "Writers Form"
-msgstr ""
-
-#: Controller/WritersController.php:48
-msgid "Thanks for your submission! We will review and get back to you shortly!"
-msgstr ""
-
-#: Controller/Admin/ProjectsController.php:68;117
-msgid "The project has been saved."
-msgstr ""
-
-#: Controller/Admin/ProjectsController.php:72;121
-msgid "The project could not be saved. Please, try again."
-msgstr ""
-
-#: Controller/Admin/ProjectsController.php:140
-msgid "The project has been deleted."
-msgstr ""
-
-#: Controller/Admin/ProjectsController.php:142
-msgid "The project could not be deleted. Please, try again."
-msgstr ""
 
 #: Template/Admin/Dashboards/index.ctp:14
 msgid "Welcome to your Dashboard"
@@ -238,13 +206,13 @@ msgstr ""
 msgid "{0} series "
 msgstr ""
 
-#: Template/Element/rapid_response.ctp:29;35
+#: Template/Element/rapid_response.ctp:29
 #: Template/Email/text/writers_form.ctp:7
 #: Template/Writers/index.ctp:78
 msgid "Name"
 msgstr ""
 
-#: Template/Element/rapid_response.ctp:42;48
+#: Template/Element/rapid_response.ctp:42
 #: Template/Element/home/newsletter.ctp:41
 #: Template/Email/text/writers_form.ctp:8
 #: Template/Writers/index.ctp:79
@@ -253,18 +221,6 @@ msgstr ""
 
 #: Template/Element/rapid_response.ctp:55
 msgid "Type"
-msgstr ""
-
-#: Template/Element/rapid_response.ctp:63
-msgid "Email me"
-msgstr ""
-
-#: Template/Element/rapid_response.ctp:64
-msgid "Call me"
-msgstr ""
-
-#: Template/Element/rapid_response.ctp:65
-msgid "Skype me"
 msgstr ""
 
 #: Template/Element/rapid_response.ctp:75
@@ -277,10 +233,6 @@ msgstr ""
 
 #: Template/Element/rapid_response.ctp:98
 msgid "Subject"
-msgstr ""
-
-#: Template/Element/rapid_response.ctp:128
-msgid "Send"
 msgstr ""
 
 #: Template/Element/Layout/default/footer.ctp:32
@@ -296,7 +248,6 @@ msgid "Home"
 msgstr ""
 
 #: Template/Element/Layout/default/footer/login_form.ctp:4
-#: site.php:86
 msgid "My CakePHP"
 msgstr ""
 
@@ -409,7 +360,6 @@ msgstr ""
 
 #: Template/Element/Layout/default/menu/top_bar.ctp:17
 #: Template/Element/get-involved/get-involved.ctp:175
-#: site.php:169
 msgid "API"
 msgstr ""
 
@@ -627,138 +577,138 @@ msgid "We offer an array of development services, each covered by years of exper
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:49
-msgid "CakePHP Development"
+#: Template/Element/business-solutions/professional-training.ctp:50
+msgid "Setting up for development"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:50
-msgid "Plugin Development"
+#: Template/Element/business-solutions/professional-training.ctp:51
+msgid "CakePHP 2 project file structure"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:51
-msgid "Mobile & Tablet Sites"
+#: Template/Element/business-solutions/professional-training.ctp:52
+msgid "Framework configuration"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:52
-msgid "JavaScript, Ajax & Node.js"
+#: Template/Element/business-solutions/professional-training.ctp:53
+msgid "CakePHP 2 conventions"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:53
-msgid "Single Page Applications"
+#: Template/Element/business-solutions/professional-training.ctp:54
+msgid "Baking your first project"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:54
-msgid "API Development"
+#: Template/Element/business-solutions/professional-training.ctp:55
+msgid "Understanding scaffolding"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:55
-msgid "Web Services"
+#: Template/Element/business-solutions/professional-training.ctp:56
+msgid "Using models"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:56
-msgid "Internationalization (i18n)"
+#: Template/Element/business-solutions/professional-training.ctp:57
+msgid "Model properties"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:57
-msgid "Imports & Migrations"
+#: Template/Element/business-solutions/professional-training.ctp:58
+msgid "Model associations"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:58
-msgid "Third-Party Integrations"
+#: Template/Element/business-solutions/professional-training.ctp:59
+msgid "Model validation"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:59
-msgid "Project Management"
+#: Template/Element/business-solutions/professional-training.ctp:60
+msgid "Retrieving data"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:60
-msgid "Issue & Bug Tracking"
+#: Template/Element/business-solutions/professional-training.ctp:61
+msgid "Saving your data"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:61
-msgid "Backups & Version Control"
+#: Template/Element/business-solutions/development.ctp:65
+#: Template/Element/business-solutions/professional-training.ctp:66
+msgid "Creating controllers"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:62
-msgid "Database Modeling"
+#: Template/Element/business-solutions/development.ctp:66
+#: Template/Element/business-solutions/professional-training.ctp:67
+msgid "Implementing callbacks"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:63
-msgid "UML/ER/Flow Diagrams"
+#: Template/Element/business-solutions/development.ctp:67
+#: Template/Element/business-solutions/professional-training.ctp:68
+msgid "Request and Response objects"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:68
-msgid "In-Depth Code Review"
+#: Template/Element/business-solutions/professional-training.ctp:69
+msgid "Components (Session, Security)"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:69
-msgid "Wire-Frames & Mock-ups"
+#: Template/Element/business-solutions/professional-training.ctp:70
+msgid "Building views"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:70
-msgid "Responsive Web Design"
+#: Template/Element/business-solutions/professional-training.ctp:71
+msgid "Page layouts"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:71
-msgid "Payment Gateways"
+#: Template/Element/business-solutions/professional-training.ctp:72
+msgid "Handling elements"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:72
-msgid "PCI Compliance"
+#: Template/Element/business-solutions/professional-training.ctp:73
+msgid "View blocks"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:73
-msgid "Technical Specifications"
+#: Template/Element/business-solutions/professional-training.ctp:74
+msgid "Helpers (Html, Form)"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:74
-msgid "Functional Analysis"
+#: Template/Element/business-solutions/professional-training.ctp:75
+msgid "Using plugins"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:75
-msgid "Performance & Scalability"
+#: Template/Element/business-solutions/professional-training.ctp:76
+msgid "Debugging code"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:76
-msgid "Security & Integrity Checks"
+#: Template/Element/business-solutions/professional-training.ctp:77
+msgid "Unit testing"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:77
-msgid "Domain Level Analysis"
-msgstr ""
-
-#: Template/Element/business-solutions/development.ctp:78
-msgid "Source Code Refactoring"
-msgstr ""
-
-#: Template/Element/business-solutions/development.ctp:79
-msgid "Technical Documentation"
-msgstr ""
-
-#: Template/Element/business-solutions/development.ctp:80
-msgid "Web Standards Compliance"
-msgstr ""
-
-#: Template/Element/business-solutions/development.ctp:81
-msgid "Usability Testing (UI & UX)"
-msgstr ""
-
-#: Template/Element/business-solutions/development.ctp:82
-msgid "A/B Testing & Smoke Tests"
-msgstr ""
-
-#: Template/Element/business-solutions/development.ctp:91
+#: Template/Element/business-solutions/development.ctp:85
 msgid "Find out"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:92
+#: Template/Element/business-solutions/development.ctp:86
 msgid "More"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:93
+#: Template/Element/business-solutions/development.ctp:87
 msgid "Looking to learn more about what CakeDC has to offer? Share your details with us below, and we'll contact you within {0}"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:93
+#: Template/Element/business-solutions/development.ctp:87
 #: Template/Element/home/support.ctp:69
 msgid "24 hours!"
 msgstr ""
@@ -824,7 +774,6 @@ msgstr ""
 #: Template/Element/business-solutions/professional-training.ctp:40
 #: Template/Element/get-involved/sidebar.ctp:18
 #: Template/Element/rebranding/cake_variations.ctp:12
-#: site.php:91
 msgid "CakeFest"
 msgstr ""
 
@@ -838,102 +787,6 @@ msgstr ""
 
 #: Template/Element/business-solutions/professional-training.ctp:47
 msgid "Course  Topics"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:50
-msgid "Setting up for development"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:51
-msgid "CakePHP 2 project file structure"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:52
-msgid "Framework configuration"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:53
-msgid "CakePHP 2 conventions"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:54
-msgid "Baking your first project"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:55
-msgid "Understanding scaffolding"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:56
-msgid "Using models"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:57
-msgid "Model properties"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:58
-msgid "Model associations"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:59
-msgid "Model validation"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:60
-msgid "Retrieving data"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:61
-msgid "Saving your data"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:66
-msgid "Creating controllers"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:67
-msgid "Implementing callbacks"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:68
-msgid "Request and Response objects"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:69
-msgid "Components (Session, Security)"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:70
-msgid "Building views"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:71
-msgid "Page layouts"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:72
-msgid "Handling elements"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:73
-msgid "View blocks"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:74
-msgid "Helpers (Html, Form)"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:75
-msgid "Using plugins"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:76
-msgid "Debugging code"
-msgstr ""
-
-#: Template/Element/business-solutions/professional-training.ctp:77
-msgid "Unit testing"
 msgstr ""
 
 #: Template/Element/business-solutions/sidebar.ctp:6
@@ -1137,7 +990,6 @@ msgid "{0}: Official community channel for the project"
 msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:97
-#: site.php:132
 msgid "Google+"
 msgstr ""
 
@@ -1429,7 +1281,6 @@ msgid "We have developers from countries all over the world who use CakePHP. If 
 msgstr ""
 
 #: Template/Element/get-involved/sidebar.ctp:3
-#: site.php:60
 msgid "Get Involved"
 msgstr ""
 
@@ -2350,7 +2201,6 @@ msgstr ""
 
 #: Template/Element/trademark/non-software.ctp:30
 #: Template/Element/trademark/sidebar.ctp:48
-#: site.php:225
 msgid "Events"
 msgstr ""
 
@@ -2701,7 +2551,6 @@ msgid "CakePHP Privacy Policy."
 msgstr ""
 
 #: Template/Pages/privacy.ctp:16
-#: site.php:188
 msgid "Privacy Policy"
 msgstr ""
 
@@ -3011,189 +2860,5 @@ msgstr ""
 
 #: Template/Writers/index.ctp:163
 msgid "Most tutorials are paid out at $50. Short tutorials with only a few commands or a few paragraphs of explanation are paid out at $25."
-msgstr ""
-
-#: View/Helper/AppHelper.php:135
-msgid "{0} to {1}"
-msgstr ""
-
-#: site.php:12
-msgid "“We got a high ROI from converting our custom PHP app to CakePHP. We love the continually expanding suite of utilities, plugins, and development patterns at our disposal!”"
-msgstr ""
-
-#: site.php:19
-msgid "“CakePHP was the most efficient way we could find to rapidly develop our intricate system.  We needed a platform that could handle our high volume of users without issues and CakePHP has certainly delivered.”"
-msgstr ""
-
-#: site.php:26
-msgid "“From the simplest micro kiosk app to my highly complex gallery management app, CakePHP is the framework of choice. It allows modular development that makes sense, and it's architecturally solid and performant. Whatever you are building, CakePHP can help you get it done.”"
-msgstr ""
-
-#: site.php:32
-msgid "“Having inherited this CakePHP project, I didn’t chose CakePHP so much as choose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.”"
-msgstr ""
-
-#: site.php:45
-msgid "Issues (Github)"
-msgstr ""
-
-#: site.php:50
-msgid "Youtube Channel"
-msgstr ""
-
-#: site.php:64
-msgid "Bakery"
-msgstr ""
-
-#: site.php:68
-msgid "Featured Resources"
-msgstr ""
-
-#: site.php:78
-msgid "Newsletter"
-msgstr ""
-
-#: site.php:82
-msgid "Certification"
-msgstr ""
-
-#: site.php:107
-msgid "Forum"
-msgstr ""
-
-#: site.php:113
-msgid "Stack Overflow"
-msgstr ""
-
-#: site.php:127
-msgid "Paid Support"
-msgstr ""
-
-#: site.php:139
-msgid "Cake Jobs"
-msgstr ""
-
-#: site.php:165
-msgid "Book"
-msgstr ""
-
-#: site.php:178
-msgid "Videos"
-msgstr ""
-
-#: site.php:198
-msgid "Logos & Trademarks"
-msgstr ""
-
-#: site.php:221
-msgid "Meetups"
-msgstr ""
-
-#: site.php:233
-msgid "Amsterdam"
-msgstr ""
-
-#: site.php:239
-msgid "Larry Masters the Co-Founder of the CakePHP project, first released in May 2005, and has contributed as a lead developer and advisor ever since. He has been involved in Open Source development for many years, dating back to his first contributions made to The Exchange Project, now called osCommerce. Prior to developing the CakePHP framework and starting Cake Software Foundation, Inc. he was a core developer of PostNuke, now continued as Zikula. He has 30 plus years experience in software development, system administration, and database design. His passion for excellence is shown in the code he writes and time dedicated to the CakePHP framework development over the past 11 years."
-msgstr ""
-
-#: site.php:240
-msgid "English, US English, Broken English, Klingon"
-msgstr ""
-
-#: site.php:244
-msgid "Co-Founder"
-msgstr ""
-
-#: site.php:250
-msgid "Mark is a core member of the CakePHP team, serving as a lead developer since late 2009. He is also a developer at FreshBooks. CakePHP Developer, Dad, MtG nerd, and moonlight Illustrator."
-msgstr ""
-
-#: site.php:251;273;284;295;337;351;388;398;410
-msgid "English"
-msgstr ""
-
-#: site.php:255
-msgid "Lead Developer"
-msgstr ""
-
-#: site.php:261
-msgid "José is a full-stack software developer that loves to solve difficult problems. He has been contributing to the CakePHP framework since 2009, and he often does talks about its amazing ORM. In his spare time, he teaches and practices mindfulness, ride his bike, or learns new programming languages."
-msgstr ""
-
-#: site.php:262
-msgid "English, Spanish, French and Danish"
-msgstr ""
-
-#: site.php:266
-msgid "ORM Developer"
-msgstr ""
-
-#: site.php:272
-msgid "A developer based in New York, New York with an extremely active github account and an interest in Docker and Server Monitoring. He's been doing this since around 2008 and sometimes he blogs."
-msgstr ""
-
-#: site.php:277;288;299;314;329;341;355;368;380;401;414
-msgid "Core Member"
-msgstr ""
-
-#: site.php:283
-msgid "A programmer by day and night, you will generally find him lurking in the deepest darkest corners of the internet. He's also involved in maintaining lot of popular CakePHP community plugins."
-msgstr ""
-
-#: site.php:294
-msgid "Bryan Crowe is an open source developer living in New York, NY. He is involved in the CakePHP framework."
-msgstr ""
-
-#: site.php:305
-msgid "A software developer by profession and not just because it’s a job. Florian is a core CakePHP team\n\t\t\t\t\t\t\tdeveloper as well as having worked with CakeDC itself, doing CakePHP development since 2007. Florian sees\n\t\t\t\t\t\t\tprogramming as a true profession and not just a job for him, he likes to work on open source projects after\n\t\t\t\t\t\t\twork hours and has an interest in Unity3D and c# as well. He’s working as lead developer for PSA Publishers\n\t\t\t\t\t\t\tLtd"
-msgstr ""
-
-#: site.php:310;325
-msgid "English, German"
-msgstr ""
-
-#: site.php:320
-msgid "Mark has been a web-software enthusiast and Open Source Contributor for many years.\n\t\t\t\t\tHe is a German Software Developer living in Berlin who started to use CakePHP in the 1.2 days.\n\t\t\t\t\tAs one of the core developers of CakePHP he is a huge fan of rapid development - and has been using\n\t\t\t\t\tCakePHP a lot for this in his applications so far.\n\t\t\t\t\tOn his blog dereuromark.de he sometimes blogs about web and CakePHP related topics."
-msgstr ""
-
-#: site.php:335
-msgid "CTO at @bownty, @CakePHP core developer, tech advisor at @getlinkfire - lover of technology\n\t\t\t \t\t\t\t\tand servers - author of FriendsOfCake/crud"
-msgstr ""
-
-#: site.php:347
-msgid "Walther is a software engineer/developer primarily working in PHP (Using CakePHP as his framework of choice).\n\t\t\t\t\t\t\t\tAlso a core member of the team, as well as the Croogo and Friends of Cake development team.\n\t\t\t\t\t\t\t\tWhen he is not developing or behind his PC screen, you can find him either spending time with his family,\n\t\t\t\t\t\t\t\tor at Scouts, where he is an adult leader/Scouter."
-msgstr ""
-
-#: site.php:361
-msgid "An architect and engineer that loves software performance. Finds the balance between maintainable code and\n\t\t\t\t\t\t\tperformance. Director at Zumba incentivize the whole team to contribute in open source projects and participate\n\t\t\t\t\t\t\tfrom meetups and conferences."
-msgstr ""
-
-#: site.php:364
-msgid "English, Portuguese"
-msgstr ""
-
-#: site.php:374
-msgid "Kurita is a PHP programmer living in Tokyo. Currently he works in web application security. Joined CakePHP\n\t\t\t\t\t\t\t\tcore team in February 2016 and has been working closely with the team on security fixes."
-msgstr ""
-
-#: site.php:376
-msgid "Japanese"
-msgstr ""
-
-#: site.php:386
-msgid "Besides marketing, social media and community management, Megan is around to assist in\n\t\t\t\t\tgeneral queries, community assistance and CakeFest planning."
-msgstr ""
-
-#: site.php:391
-msgid "CakePHP Community Manager"
-msgstr ""
-
-#: site.php:397
-msgid "Cakephp and Croogo core team member, surfer wannabe. Oh, I am Super Awesome too."
-msgstr ""
-
-#: site.php:407
-msgid "Mathew is a programmer and 3D artist that enjoys contributing to open source projects. Joined CakePHP\n\t\t\t\tcore team in October 2016 and has been working on database improvements. He has a programming blog at {0}, and\n\t\t\t\tis the creator of {1}"
 msgstr ""
 

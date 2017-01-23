@@ -12,19 +12,19 @@ $this->append('meta', $this->Html->meta('keywords', __('CakePHP, CakePHP Framewo
 $flash = $this->Flash->render()
 ?>
 <section>
-    <div class="container-fluid">
-        <div class="row writers-hero">
-            <div class="col-md-10 col-md-offset-1">
-                <?php if (!$flash):?>
-                    <h1><?= $this->Html->image('writers-hero.svg', ['alt' => __('GET PAID TO WRITE ABOUT CAKEPHP')]) ?></h1>
-                    <h2><?= __('In-depth tutorials, simple tutorials and more.') ?></h2>
-                    <p><?= __('Sponsored by:') ?><?= $this->Html->image('writers-cakedc-logo.svg', ['url' => 'http://www.cakedc.com/']) ?></p>
-                <?php else:?>
-                    <?= $flash?>
-                <?php endif;?>
-            </div>
-        </div>
-    </div>
+	<div class="container-fluid">
+		<div class="row writers-hero">
+			<div class="col-md-10 col-md-offset-1">
+				<?php if (!$flash):?>
+					<h1><?= $this->Html->image('writers-hero.svg', ['alt' => __('GET PAID TO WRITE ABOUT CAKEPHP')]) ?></h1>
+					<h2><?= __('In-depth tutorials, simple tutorials and more.') ?></h2>
+					<p><?= __('Sponsored by:') ?><?= $this->Html->image('writers-cakedc-logo.svg', ['url' => 'http://www.cakedc.com/']) ?></p>
+				<?php else:?>
+					<?= $flash?>
+				<?php endif;?>
+			</div>
+		</div>
+	</div>
 </section>
 <section>
     <div class="container writers-body">

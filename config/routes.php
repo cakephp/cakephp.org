@@ -119,6 +119,7 @@ $realRoutes = function ($routes) use ($basicRoutes) {
 
 Router::scope('/jp', ['language' => 'ja_JP'], $realRoutes);
 Router::scope('/fr', ['language' => 'fr_FR'], $realRoutes);
+Router::scope('/pt', ['language' => 'pt_BR'], $realRoutes);
 Router::scope('/', ['language' => 'en'], $realRoutes);
 Router::scope('/', $realRoutes);
 /**
