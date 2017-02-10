@@ -1,0 +1,4719 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2017-01-12 16:16-0200\n"
+"PO-Revision-Date: 2017-01-15 14:23-0200\n"
+"Last-Translator: \n"
+"Language-Team: EMAIL@ADDRESS\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: Controller/ChangelogsController.php:62
+msgid "Invalid tag for changelogs"
+msgstr ""
+
+#: Controller/WritersController.php:41
+msgid "CakePHP Website"
+msgstr ""
+
+#: Controller/WritersController.php:43
+msgid "Writers Form"
+msgstr ""
+
+#: Controller/WritersController.php:48
+msgid "Thanks for your submission! We will review and get back to you shortly!"
+msgstr ""
+
+#: Controller/Admin/ProjectsController.php:68;117
+msgid "The project has been saved."
+msgstr ""
+
+#: Controller/Admin/ProjectsController.php:72;121
+msgid "The project could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ProjectsController.php:140
+msgid "The project has been deleted."
+msgstr ""
+
+#: Controller/Admin/ProjectsController.php:142
+msgid "The project could not be deleted. Please, try again."
+msgstr ""
+
+#: Template/Admin/Dashboards/index.ctp:14
+msgid "Welcome to your Dashboard"
+msgstr ""
+
+#: Template/Admin/Projects/edit.ctp:12 Template/Admin/Projects/index.ctp:49
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: Template/Admin/Projects/index.ctp:60
+msgid "previous"
+msgstr ""
+
+#: Template/Admin/Projects/index.ctp:62
+msgid "next"
+msgstr ""
+
+#: Template/Admin/Projects/view.ctp:36
+msgid "Title"
+msgstr ""
+
+#: Template/Admin/Projects/view.ctp:40
+msgid "Website"
+msgstr ""
+
+#: Template/Admin/Projects/view.ctp:44
+msgid "Is Highlighted"
+msgstr ""
+
+#: Template/Admin/Projects/view.ctp:48
+msgid "Is Showcase"
+msgstr ""
+
+#: Template/Admin/Projects/view.ctp:52
+msgid "Created"
+msgstr ""
+
+#: Template/Admin/Projects/view.ctp:56
+msgid "Modified"
+msgstr ""
+
+#: Template/Changelogs/index.ctp:3 Template/Changelogs/view.ctp:3
+msgid "CakePHP - Build fast, grow solid | Changelogs"
+msgstr ""
+
+#: Template/Changelogs/index.ctp:4 Template/Changelogs/view.ctp:4
+msgid "CakePHP Changelogs."
+msgstr ""
+
+#: Template/Changelogs/index.ctp:15 Template/Changelogs/view.ctp:15
+msgid "CakePHP {0}"
+msgstr ""
+
+#: Template/Changelogs/index.ctp:17 Template/Changelogs/view.ctp:17
+msgid "Changelogs"
+msgstr ""
+
+#: Template/Changelogs/index.ctp:28
+msgid "Github"
+msgstr ""
+
+#: Template/Changelogs/index.ctp:30
+msgid "CakePHP's code repositories are hosted at {0}."
+msgstr "Os repositórios de código do CakePHP estão hospedados no {0}."
+
+#: Template/Changelogs/index.ctp:36
+msgid "Security Issues"
+msgstr "Problemas de Segurança"
+
+#: Template/Changelogs/index.ctp:39
+msgid ""
+"Found a security exploit in CakePHP? Please don't message the mailing list, "
+"or open an issue on Github."
+msgstr ""
+"Encontrou um exploit de segurança no CakePHP? Por favor, não exponha na lista "
+"de emails, ou abra uma issue no Github."
+
+#: Template/Changelogs/index.ctp:40
+msgid "Instead, please email {0}."
+msgstr "Em vez disso, por favor, envie uma mensagem para {0}."
+
+#: Template/Changelogs/index.ctp:41
+msgid "Email sent to this address are forwarded to the maintainers of CakePHP."
+msgstr ""
+"Mensagens enviadas para este endereço de e-mail são encaminhadas para os "
+"mantenedores do CakePHP."
+
+#: Template/Changelogs/index.ctp:46
+msgid ""
+"When a security issue is reported, we first try to confirm the vulnerability."
+msgstr ""
+"Quando é relatado um problema de segurança, primeiro tentamos confirmar a "
+"vulnerabilidade."
+
+#: Template/Changelogs/index.ctp:47
+msgid "Once confirmed, we'll do the following:"
+msgstr "Uma vez confirmado, vamos fazer o seguinte:"
+
+#: Template/Changelogs/index.ctp:51
+msgid ""
+"Send acknowledgement to the reporter, that we received and confirmed the "
+"issue."
+msgstr ""
+"Enviar a confirmação para o reportador, que recebemos e confirmamos a questão."
+
+#: Template/Changelogs/index.ctp:52
+msgid "Work on a patch to fix the issue."
+msgstr "Trabalhar em um patch para corrigir o problema."
+
+#: Template/Changelogs/index.ctp:53
+msgid ""
+"Write a post describing the vulnerability, possible exploits and provide "
+"instructions on how to apply the patch / upgrade."
+msgstr ""
+"Escrever um post descrevendo a vulnerabilidade, possíveis exploits e fornecer "
+"instruções sobre como aplicar o patch / atualização."
+
+#: Template/Changelogs/index.ctp:54
+msgid "Apply the patch to all maintained and affected versions of CakePHP"
+msgstr "Aplicar o patch a todas as versões afetadas e mantidas do CakePHP."
+
+#: Template/Changelogs/index.ctp:55
+msgid "Create new packaged releases for each affected version."
+msgstr "Criar novos lançamentos para cada versão afetada."
+
+#: Template/Changelogs/index.ctp:56
+msgid "Publish the post on the CakePHP blog/Bakery"
+msgstr "Publicar o post na Bakery do CakePHP."
+
+#: Template/Changelogs/index.ctp:59
+msgid "Continuous Integration"
+msgstr "Integração contínua"
+
+#: Template/Changelogs/index.ctp:61
+msgid "CakePHP is {0} check the status of the {1} on Travis CI."
+msgstr "O CakePHP é {0} checando o status das {1} no Travis CI."
+
+#: Template/Changelogs/index.ctp:63
+#: Template/Element/get-involved/get-involved.ctp:157
+msgid "continuously integrated"
+msgstr "continuamente integrado"
+
+#: Template/Changelogs/index.ctp:64
+#: Template/Element/get-involved/get-involved.ctp:158
+msgid "various builds"
+msgstr "várias compilações"
+
+#: Template/Changelogs/index.ctp:68
+#: Template/Element/get-involved/get-help.ctp:45
+msgid "Issues"
+msgstr ""
+
+#: Template/Changelogs/index.ctp:70
+msgid ""
+"Found a bug? Suggest an improvement? Issue tracking for CakePHP can be found "
+"at {0}."
+msgstr ""
+"Encontrou um bug? Quer sugerir uma melhoria? O rastreamento de issues do "
+"CakePHP pode ser encontrado em {0}."
+
+#: Template/Changelogs/index.ctp:76
+msgid "Contributing"
+msgstr "Contribuindo"
+
+#: Template/Changelogs/index.ctp:79
+msgid "Contributing to CakePHP is easy."
+msgstr "Contribuir com o CakePHP é fácil."
+
+#: Template/Changelogs/index.ctp:80
+msgid "Checkout the {0} for how you can get started contributing to CakePHP."
+msgstr ""
+"Verifique o {0} para se informar como você pode começar a contribuir com o "
+"CakePHP."
+
+#: Template/Changelogs/index.ctp:82
+msgid "guide on contributing"
+msgstr "guia de contribuição"
+
+#: Template/Changelogs/view.ctp:39
+msgid "Version {0}"
+msgstr "Versão {0}"
+
+#: Template/Changelogs/view.ctp:41
+msgid "Back"
+msgstr "Voltar"
+
+#: Template/Common/secondary.ctp:9
+msgid "CakePHP makes building web applications"
+msgstr "CakePHP faz a criação de aplicativos web"
+
+#: Template/Common/secondary.ctp:11
+msgid "simpler, faster and require less code."
+msgstr "mais simples, mais rápida e requer menos código."
+
+#: Template/Element/assets.ctp:19
+msgid "Logos"
+msgstr ""
+
+#: Template/Element/assets.ctp:38
+msgid "Wallpapers"
+msgstr ""
+
+#: Template/Element/assets.ctp:39
+msgid ""
+"These wallpapers are designed as 1024 pixels wide, and square. This makes "
+"them appropriate for devices that allow orientation switching while "
+"maintaining the design of the wallpaper within the bounds of your device. "
+"They're also great for desktop backgrounds, or any other place you want a "
+"giant sexy CakePHP wallpaper."
+msgstr ""
+
+#: Template/Element/changelogs.ctp:10
+msgid "{0} series "
+msgstr ""
+
+#: Template/Element/rapid_response.ctp:29;35
+#: Template/Email/text/writers_form.ctp:7 Template/Writers/index.ctp:78
+msgid "Name"
+msgstr "Nome"
+
+#: Template/Element/rapid_response.ctp:42;48
+#: Template/Element/home/newsletter.ctp:41
+#: Template/Email/text/writers_form.ctp:8 Template/Writers/index.ctp:79
+msgid "Email"
+msgstr ""
+
+#: Template/Element/rapid_response.ctp:55
+msgid "Type"
+msgstr "Tipo"
+
+#: Template/Element/rapid_response.ctp:63
+msgid "Email me"
+msgstr "Envie um email"
+
+#: Template/Element/rapid_response.ctp:64
+msgid "Call me"
+msgstr "Faça uma ligação"
+
+#: Template/Element/rapid_response.ctp:65
+msgid "Skype me"
+msgstr "Me procure no Skype"
+
+#: Template/Element/rapid_response.ctp:75
+msgid "Phone"
+msgstr "Telefone"
+
+#: Template/Element/rapid_response.ctp:87
+msgid "Skype"
+msgstr ""
+
+#: Template/Element/rapid_response.ctp:98
+msgid "Subject"
+msgstr "Assunto"
+
+#: Template/Element/rapid_response.ctp:128
+msgid "Send"
+msgstr "Enviar"
+
+#: Template/Element/Layout/default/footer.ctp:32
+msgid ""
+"Copyright 2005-2016 Cake Software Foundation, Inc. All rights reserved. {0}."
+msgstr ""
+"Copyright 2005-2016 Cake Software Foundation, Inc. Todos os direitos "
+"reservados. {0}."
+
+#: Template/Element/Layout/default/footer.ctp:33
+msgid "Designs by Ibaldo"
+msgstr "Designs por Ibaldo"
+
+#: Template/Element/Layout/default/navbar.ctp:7;25
+msgid "Home"
+msgstr ""
+
+#: Template/Element/Layout/default/footer/login_form.ctp:4 site.php:86
+msgid "My CakePHP"
+msgstr "My CakePHP"
+
+#: Template/Element/Layout/default/footer/login_form.ctp:7
+#: Template/Email/text/writers_form.ctp:9
+#: Template/Plugin/CakeDC/Users/Users/login.ctp:32
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: Template/Element/Layout/default/footer/login_form.ctp:11
+#: Template/Plugin/CakeDC/Users/Users/login.ctp:33
+msgid "Password"
+msgstr "Senha"
+
+#: Template/Element/Layout/default/footer/login_form.ctp:17
+#: Template/Plugin/CakeDC/Users/Users/login.ctp:29
+msgid "Login"
+msgstr "Entrar"
+
+#: Template/Element/Layout/default/footer/login_form.ctp:21
+msgid "Remember me"
+msgstr "Lembrar-me"
+
+#: Template/Element/Layout/default/footer/login_form.ctp:23
+#: Template/Plugin/CakeDC/Users/Users/login.ctp:51
+msgid "Forgot your password?"
+msgstr "Esqueceu sua senha?"
+
+#: Template/Element/Layout/default/footer/login_form.ctp:24
+msgid "New user?"
+msgstr "Novo usuário"
+
+#: Template/Element/Layout/default/footer/login_form.ctp:24
+msgid "Register!"
+msgstr "Registrar"
+
+#: Template/Element/Layout/default/footer/social_interactions.ctp:15
+msgid "Follow"
+msgstr "Seguir"
+
+#: Template/Element/Layout/default/footer/menu/column_four.ctp:12
+#: Template/Element/Layout/default/menu/menu.ctp:74
+msgid "Help & Support"
+msgstr "Ajuda & Suporte"
+
+#: Template/Element/Layout/default/footer/menu/column_one.ctp:6
+#: Template/Element/Layout/default/menu/menu.ctp:18
+#: Template/Element/Layout/default/menu/mobile_menu.ctp:33
+#: Template/Pages/business_solutions.ctp:13
+msgid "Business Solutions"
+msgstr "Ofertas Comerciais"
+
+#: Template/Element/Layout/default/footer/menu/column_one.ctp:12
+#: Template/Element/Layout/default/menu/menu.ctp:34
+msgid "Showcase"
+msgstr "Galeria"
+
+#: Template/Element/Layout/default/footer/menu/column_three.ctp:2
+#: Template/Element/Layout/default/menu/menu.ctp:50;61
+#: Template/Element/Layout/default/menu/mobile_menu.ctp:69;82
+msgid "Community"
+msgstr "Comunidade"
+
+#: Template/Element/Layout/default/footer/menu/column_two.ctp:2
+#: Template/Element/Layout/default/menu/menu.ctp:6
+#: Template/Element/Layout/default/menu/mobile_menu.ctp:16
+#: Template/Element/get-involved/get-involved.ctp:166
+#: Template/Element/get-involved/sidebar.ctp:11
+msgid "Documentation"
+msgstr "Documentação"
+
+#: Template/Element/Layout/default/menu/menu.ctp:26
+msgid "Get Paid to Write"
+msgstr "Autor Remunerado"
+
+#: Template/Element/Layout/default/menu/menu.ctp:42
+#: Template/Element/Layout/default/menu/mobile_menu.ctp:57
+msgid "Team"
+msgstr "Time"
+
+#: Template/Element/Layout/default/menu/menu.ctp:110
+msgid "Logout"
+msgstr "Sair"
+
+#: Template/Element/Layout/default/menu/menu.ctp:120
+#: Template/Element/Layout/default/menu/mobile_menu.ctp:122
+msgid "DONATE"
+msgstr "DOE"
+
+#: Template/Element/Layout/default/menu/mobile_menu.ctp:45
+msgid "Get Paid To Write"
+msgstr "Autor Remunerado"
+
+#: Template/Element/Layout/default/menu/mobile_menu.ctp:76
+msgid ""
+"Help &\n"
+"                                                Support"
+msgstr ""
+"Ajuda &\n"
+"                                                Suporte"
+
+#: Template/Element/Layout/default/menu/mobile_menu.ctp:94
+msgid "Language: {0}"
+msgstr "Idioma:"
+
+#: Template/Element/Layout/default/menu/top_bar.ctp:6;16
+msgid "CakePHP {0}{1}"
+msgstr ""
+
+#: Template/Element/Layout/default/menu/top_bar.ctp:7
+#: Template/Element/get-involved/get-involved.ctp:176;191
+msgid "Cookbook"
+msgstr ""
+
+#: Template/Element/Layout/default/menu/top_bar.ctp:17
+#: Template/Element/get-involved/get-involved.ctp:175 site.php:169
+msgid "API"
+msgstr ""
+
+#: Template/Element/Projects/form.ctp:68
+msgid "Submit"
+msgstr "Enviar"
+
+#: Template/Element/Showcase/cases.ctp:5
+msgid "CakePHP More Stories"
+msgstr "Mais Casos"
+
+#: Template/Element/Showcase/cases.ctp:33
+msgid "View more projects"
+msgstr "Ver mais projetos"
+
+#: Template/Element/Showcase/title.ctp:2
+msgid "CakePHP - Build fast, grow solid | Success Stories"
+msgstr "CakePHP - Build fast, grow solid | Histórias de Sucesso"
+
+#: Template/Element/Showcase/title.ctp:3
+msgid ""
+" CakePHP making building web applications simpler, faster and require less "
+"code. Success stories - how CakePHP has helped other companies to succeed."
+msgstr "Como o CakePHP ajuda a outras empresas a alcançar o sucesso."
+
+#: Template/Element/Showcase/title.ctp:13
+msgid "CakePHP Success Stories"
+msgstr "CakePHP Histórias de Sucesso"
+
+#: Template/Element/Showcase/title.ctp:14
+msgid "Here’s how CakePHP has helped other companies to succeed."
+msgstr "Como CakePHP ajuda a outras empresas a alcançar o sucesso?"
+
+#: Template/Element/business-solutions/code-review.ctp:3
+#: Template/Element/business-solutions/sidebar.ctp:10
+msgid "Code Review"
+msgstr "Revisão de Código"
+
+#: Template/Element/business-solutions/code-review.ctp:4
+msgid ""
+"The following are some of the main reasons to review the existing source code "
+"on a project:"
+msgstr ""
+"A seguir estão alguns dos principais motivos para rever o código-fonte de um "
+"projeto existente:"
+
+#: Template/Element/business-solutions/code-review.ctp:6
+msgid "You want to ensure the code quality from an external contractor"
+msgstr "Garantir a qualidade de código de um contratante externo"
+
+#: Template/Element/business-solutions/code-review.ctp:7
+msgid "You feel your mission critical application could have scalability issues"
+msgstr ""
+"Você sente que seu aplicativo de missão crítica poderia ter problemas de "
+"escalabilidade"
+
+#: Template/Element/business-solutions/code-review.ctp:8
+msgid "You are worried about potential security issues"
+msgstr "Você está preocupado com possíveis problemas de segurança"
+
+#: Template/Element/business-solutions/code-review.ctp:10
+msgid ""
+"We provide the CakePHP code review to help you on these points, concrete "
+"examples of what to fix, the recommended steps to fix it, and the best "
+"enterprise practices. You know that good code quality pays off on the long "
+"run."
+msgstr ""
+"Nós fornecemos a revisão de código da sua aplicação CakePHP a fim de ajudá-lo "
+"nesses pontos e muitos outros, demonstrando exemplos concretos do que "
+"corrigir, os passos recomendados para tal, e entregando as melhores práticas "
+"empresariais. Você sabe que qualidade de código compensa a longo prazo."
+
+#: Template/Element/business-solutions/code-review.ctp:22
+msgid "Service and Deliverables"
+msgstr "Análise Inteligente"
+
+#: Template/Element/business-solutions/code-review.ctp:27
+msgid "Get a full featured CakePHP code review document containing:"
+msgstr "Receba documentos completos de revisão de código do CakePHP, incluindo:"
+
+#: Template/Element/business-solutions/code-review.ctp:29
+msgid "Code quality review"
+msgstr "Análise de qualidade de código"
+
+#: Template/Element/business-solutions/code-review.ctp:30
+msgid "CakePHP conventions and coding standards review"
+msgstr "Revisão de convenções e padrões de implementação do CakePHP"
+
+#: Template/Element/business-solutions/code-review.ctp:31
+msgid "Scalability and performance code review"
+msgstr "Revisão de escalabilidade e desempenho de código"
+
+#: Template/Element/business-solutions/code-review.ctp:32
+msgid "Re-use and best practices overview"
+msgstr "Reutilização e visão geral de melhores práticas de programação"
+
+#: Template/Element/business-solutions/code-review.ctp:33
+msgid "Security code review"
+msgstr "Revisão de segurança na implementação do código"
+
+#: Template/Element/business-solutions/code-review.ctp:36
+msgid "All covered in a structured easy to follow document:"
+msgstr "Tudo abordado em um documento estruturado e fácil de seguir:"
+
+#: Template/Element/business-solutions/code-review.ctp:38
+msgid "Ready for your management team to evaluate the code status and risks"
+msgstr "Pronto para sua equipe de gestão avaliar o status do código e riscos"
+
+#: Template/Element/business-solutions/code-review.ctp:39
+msgid "Ready for your development team to fix the current issues"
+msgstr "Pronto para sua equipe de desenvolvimento corrigir os problemas atuais"
+
+#: Template/Element/business-solutions/code-review.ctp:41
+msgid ""
+"Trust the experts behind the CakePHP framework. Let us provide you piece of "
+"mind, and actively help you reduce technical debt and extend the longevity of "
+"your code base."
+msgstr ""
+"Confie nos especialistas por trás do framework CakePHP. Permita-nos fornecer "
+"soluções inteligentes, auxiliar ativamente a reduzir déficits técnicos e a "
+"estender a longevidade do seu código."
+
+#: Template/Element/business-solutions/consultancy.ctp:3
+msgid "Expert Consultancy"
+msgstr "Consultoria Especializada"
+
+#: Template/Element/business-solutions/consultancy.ctp:4
+msgid ""
+"Sometimes you need the extra experience and sound judgement to make the right "
+"decisions on your project. We can help with the areas which need special "
+"attention and a trained eye, allowing you to rest assured that you've got all "
+"bases covered."
+msgstr ""
+"As vezes você precisa de avaliações críticas e experiência extra para tomar "
+"as decisões certas sobre seu projeto. Nós podemos ajudar a lidar com as "
+"demandas que necessitam de atenção especial e um olho treinado, permitindo "
+"que você tenha tranquilidade e certeza de estar bem assegurado e respaldado."
+
+#: Template/Element/business-solutions/consultancy.ctp:16
+msgid "Specifications"
+msgstr "Especificações"
+
+#: Template/Element/business-solutions/consultancy.ctp:17
+msgid ""
+"A thorough requirements analysis is the most important step in any project's "
+"timeline. We'll listen to your needs and outline your project's "
+"specifications before development begins. Because applications must often "
+"change over time, our experts will also help to \"future-proof\" your "
+"project, planning for extension and ensuring simple maintenance down the road."
+msgstr ""
+"Uma análise minuciosa de requisitos é o passo mais importante no cronograma "
+"de qualquer projeto. Vamos ouvir suas necessidades e as especificações do seu "
+"projeto desde o esboço, antes de começar o desenvolvimento. Devido às "
+"alterações constantes ao longo do tempo, nossos especialistas também ajudarão "
+"a prever o \"futuro\" do seu projeto, planejando o crescimento e garantindo a "
+"manutenção de forma simples no decorrer do tempo."
+
+#: Template/Element/business-solutions/consultancy.ctp:25
+msgid "Migrations"
+msgstr "Migrações"
+
+#: Template/Element/business-solutions/consultancy.ctp:26
+msgid ""
+"If you need your current CakePHP application upgraded to the latest version "
+"of the framework then look no further than CakeDC. As the experts behind the "
+"framework we can handle a full migration of your existing code base, leaving "
+"you with an application which takes advantage of all the enhanced security "
+"features, performance benefits, and ready for the latest tech available for "
+"CakePHP."
+msgstr ""
+"Se você precisa da sua aplicação atualizada para a versão mais recente do "
+"CakePHP, então pare de procurar agora, pois com a equipe da CakeDC, "
+"especialistas por trás do framework, podemos gerenciar a migração completa de "
+"seu código existente, entregando uma aplicação que tira proveito de todos os "
+"recursos avançados de segurança, benefícios de desempenho, e está pronta para "
+"as implementações tecnológicas mais recentes no CakePHP."
+
+#: Template/Element/business-solutions/contact.ctp:3
+msgid "Give us a"
+msgstr "Nos faça uma"
+
+#: Template/Element/business-solutions/contact.ctp:3
+msgid "Call"
+msgstr "Ligação"
+
+#: Template/Element/business-solutions/contact.ctp:6
+msgid "For more information:"
+msgstr "Para mais informações:"
+
+#: Template/Element/business-solutions/development.ctp:4
+msgid "Custom Development"
+msgstr "Desenvolvimento Personalizado"
+
+#: Template/Element/business-solutions/development.ctp:5
+msgid ""
+"As the commercial entity behind the framework, and established by Larry "
+"Masters, founder of CakePHP, we know your project like no one else. From "
+"startups and social networks, to e-commerce and enterprise level "
+"applications, we provide the highest quality CakePHP development available."
+msgstr ""
+"Como a entidade comercial por trás do framework, e criada por Larry Masters, "
+"fundador do CakePHP, conheçemos a fundação do seu projeto como ninguém. Nós "
+"fornecemos a mais alta qualidade no que tange desenvolvimento com o framework "
+"CakePHP, de startups e redes sociais, aplicações de nível empresarial a e-"
+"commerces."
+
+#: Template/Element/business-solutions/development.ctp:13
+msgid "Find out more"
+msgstr "Descubra mais"
+
+#: Template/Element/business-solutions/development.ctp:23
+msgid "Why Choose CakeDC"
+msgstr "Porquê escolher a CakeDC"
+
+#: Template/Element/business-solutions/development.ctp:24
+msgid "On-Demand Management"
+msgstr "Gerenciamento Sob Demanda"
+
+#: Template/Element/business-solutions/development.ctp:25
+msgid ""
+"We've learned that transparency is key to successful collaborations, so all "
+"of our communication is out in the open, with evidence of our progress and "
+"results readily available."
+msgstr ""
+"Nós aprendemos que transparência é a chave para colaborações de sucesso, "
+"logo, toda a nossa comunicação é feita a céu aberto, com evidência de nosso "
+"progresso e resultados prontamente disponíveis."
+
+#: Template/Element/business-solutions/development.ctp:26
+msgid "Milestone-Driven Development"
+msgstr "Desenvolvimento Baseado em Milestones"
+
+#: Template/Element/business-solutions/development.ctp:27
+msgid ""
+"Our agile development cycles are based on milestones, which are designed to "
+"always be objective, focused and aim to provide a deliverable so you see your "
+"product in the making."
+msgstr ""
+"Nossos ciclos de desenvolvimento ágil são baseados em metas, que são "
+"projetadas de forma a serem alcançáveis e objetivas, de forma que você veja o "
+"seu produto tomando forma."
+
+#: Template/Element/business-solutions/development.ctp:28
+msgid "Full QA Process"
+msgstr "Processo de QA Completo"
+
+#: Template/Element/business-solutions/development.ctp:29
+msgid ""
+"We provide a QA process which is integrated directly into our development "
+"iterations, and that's based upon clear specifications and acceptance "
+"criteria which define our goals."
+msgstr ""
+"Nós fornecemos um processo de controle de qualidade, que é integrado "
+"diretamente ao nossas iterações de desenvolvimento, baseadas em "
+"especificações claras e critérios de aceitação que definem nossos objetivos."
+
+#: Template/Element/business-solutions/development.ctp:30
+msgid "Unit Testing"
+msgstr "Testes Unitários"
+
+#: Template/Element/business-solutions/development.ctp:31
+msgid ""
+"All of our work is fully testable by default, meaning that everything we "
+"deliver is provided in-hand with unit tests to validate our efforts and "
+"guarantee it's functionality."
+msgstr ""
+"Todo o nosso trabalho é totalmente testável por padrão, o que significa que "
+"tudo o que entregamos é fornecido em conjunto com testes unitários para "
+"validar nossos esforços e garantir a funcionalidade."
+
+#: Template/Element/business-solutions/development.ctp:32
+msgid "Live Deployment"
+msgstr "Entrega Continua"
+
+#: Template/Element/business-solutions/development.ctp:33
+msgid ""
+"During the development we offer a full continuous integration of your project "
+"to our private staging servers, which provides us essential insight into code "
+"quality, test coverage and impact areas."
+msgstr ""
+"Durante o desenvolvimento, oferecemos integração continua completa de seu "
+"projeto para nossos servidores privados de publicação, o que nos fornece "
+"insights essenciais sobre qualidade de código, teste de cobertura e áreas de "
+"impacto."
+
+#: Template/Element/business-solutions/development.ctp:36
+msgid "Continuous Integration (CI) Environments"
+msgstr "Integração Contínua (CI)"
+
+#: Template/Element/business-solutions/development.ctp:41
+msgid "We provide 3 managed environments to support our"
+msgstr "Nós fornecemos 3 ambientes gerenciados para suportar nosso"
+
+#: Template/Element/business-solutions/development.ctp:41
+msgid "git workflow"
+msgstr "fluxo de trabalho no git"
+
+#: Template/Element/business-solutions/development.ctp:41
+msgid ""
+"and ensure development, quality assurance and acceptance testing activities "
+"are isolated and visible to the client at all times. Deployment is automated, "
+"providing insight about the unit test coverage, code quality metrics and "
+"build status. Full automation and milestone based iterations provide a stable "
+"and predictable release cycle, reducing the overall time to market for the "
+"project and helping the Project Owners to successfully deliver their features "
+"as expected."
+msgstr ""
+"assegurando o desenvolvimento e garantindo a qualidade. Atividades de testes "
+"de aceitação são isolados e visíveis para o cliente em todos os momentos. A "
+"implementação é automatizada, fornecendo uma visão ampla sobre a cobertura de "
+"testes unitários, métricas de qualidade de código e status de publicação. "
+"Automação completa e iterações de marco fornecem um ciclo de lançamento "
+"estável e previsível, reduzindo o tempo total até o lançamento no mercado e "
+"ajudando a entregar com sucesso suas características como esperado pelos "
+"proprietários do projeto."
+
+#: Template/Element/business-solutions/development.ctp:45
+msgid "What We Provide"
+msgstr "Soluções Comerciais"
+
+#: Template/Element/business-solutions/development.ctp:46
+msgid ""
+"We offer an array of development services, each covered by years of "
+"experience and our collective talent."
+msgstr ""
+"Oferecemos uma vasta gama de serviços de desenvolvimento, cada uma coberta "
+"por anos de experiência e nosso talento coletivo."
+
+#: Template/Element/business-solutions/development.ctp:49
+msgid "CakePHP Development"
+msgstr "Desenvolvimento com o CakePHP"
+
+#: Template/Element/business-solutions/development.ctp:50
+msgid "Plugin Development"
+msgstr "Desenvolvimento de plugins"
+
+#: Template/Element/business-solutions/development.ctp:51
+msgid "Mobile & Tablet Sites"
+msgstr "Sites mobile"
+
+#: Template/Element/business-solutions/development.ctp:52
+msgid "JavaScript, Ajax & Node.js"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:53
+msgid "Single Page Applications"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:54
+msgid "API Development"
+msgstr "Desenvolvimento de API"
+
+#: Template/Element/business-solutions/development.ctp:55
+msgid "Web Services"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:56
+msgid "Internationalization (i18n)"
+msgstr "Internacionalização (i18n)"
+
+#: Template/Element/business-solutions/development.ctp:57
+msgid "Imports & Migrations"
+msgstr "Importações & Migrações"
+
+#: Template/Element/business-solutions/development.ctp:58
+msgid "Third-Party Integrations"
+msgstr "Integrações"
+
+#: Template/Element/business-solutions/development.ctp:59
+msgid "Project Management"
+msgstr "Gerenciamento de projetos"
+
+#: Template/Element/business-solutions/development.ctp:60
+msgid "Issue & Bug Tracking"
+msgstr "Acompanhamento de issues & bugs"
+
+#: Template/Element/business-solutions/development.ctp:61
+msgid "Backups & Version Control"
+msgstr "Versionamento & Backups"
+
+#: Template/Element/business-solutions/development.ctp:62
+msgid "Database Modeling"
+msgstr "Modelagem de banco de dados"
+
+#: Template/Element/business-solutions/development.ctp:63
+msgid "UML/ER/Flow Diagrams"
+msgstr "Diagramas UML/ER/Fluxo"
+
+#: Template/Element/business-solutions/development.ctp:68
+msgid "In-Depth Code Review"
+msgstr "Revisão de código"
+
+#: Template/Element/business-solutions/development.ctp:69
+msgid "Wire-Frames & Mock-ups"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:70
+msgid "Responsive Web Design"
+msgstr "Web design responsivo"
+
+#: Template/Element/business-solutions/development.ctp:71
+msgid "Payment Gateways"
+msgstr "Gateways de pagamento"
+
+#: Template/Element/business-solutions/development.ctp:72
+msgid "PCI Compliance"
+msgstr "Implementação PCI-DSS"
+
+#: Template/Element/business-solutions/development.ctp:73
+msgid "Technical Specifications"
+msgstr "Especificações técnicas"
+
+#: Template/Element/business-solutions/development.ctp:74
+msgid "Functional Analysis"
+msgstr "Análise funcional"
+
+#: Template/Element/business-solutions/development.ctp:75
+msgid "Performance & Scalability"
+msgstr "Desempenho & Escalabilidade"
+
+#: Template/Element/business-solutions/development.ctp:76
+msgid "Security & Integrity Checks"
+msgstr "Segurança & Integridade"
+
+#: Template/Element/business-solutions/development.ctp:77
+msgid "Domain Level Analysis"
+msgstr "Análise em nível de domínio"
+
+#: Template/Element/business-solutions/development.ctp:78
+msgid "Source Code Refactoring"
+msgstr "Refatoração de código fonte"
+
+#: Template/Element/business-solutions/development.ctp:79
+msgid "Technical Documentation"
+msgstr "Documentação técnica"
+
+#: Template/Element/business-solutions/development.ctp:80
+msgid "Web Standards Compliance"
+msgstr "Web standards"
+
+#: Template/Element/business-solutions/development.ctp:81
+msgid "Usability Testing (UI & UX)"
+msgstr "Testes de usabilidade (UI & UX)"
+
+#: Template/Element/business-solutions/development.ctp:82
+msgid "A/B Testing & Smoke Tests"
+msgstr "Testes A/B"
+
+#: Template/Element/business-solutions/development.ctp:91
+msgid "Find out"
+msgstr "Descubra"
+
+#: Template/Element/business-solutions/development.ctp:92
+msgid "More"
+msgstr "Mais"
+
+#: Template/Element/business-solutions/development.ctp:93
+msgid ""
+"Looking to learn more about what CakeDC has to offer? Share your details with "
+"us below, and we'll contact you within {0}"
+msgstr ""
+"Quer saber o que a CakeDC tem a oferecer? Envie mais detalhes e nós "
+"entraremos em contato em até {0}"
+
+#: Template/Element/business-solutions/development.ctp:93
+#: Template/Element/home/support.ctp:69
+msgid "24 hours!"
+msgstr "24 horas!"
+
+#: Template/Element/business-solutions/professional-training.ctp:6
+#: Template/Element/business-solutions/sidebar.ctp:12
+msgid "Professional Training"
+msgstr "Treinamento Profissional"
+
+#: Template/Element/business-solutions/professional-training.ctp:7
+msgid ""
+"Without a fundamental knowledge of CakePHP conventions and the reasons they "
+"are used, even good programmers may write poor code. Learn the insights and "
+"reasoning behind the CakePHP framework straight from the minds behind the "
+"framework: the developers at CakeDC"
+msgstr ""
+"Sem conhecimento fundamentado sobre as convenções do CakePHP e as razões "
+"pelas quais são usadas, mesmo bons programadores podem escrever código ruim. "
+"Aprenda com a experiência e percepções das mentes por trás do framework: os "
+"desenvolvedores da CakeDC."
+
+#: Template/Element/business-solutions/professional-training.ctp:12
+#: Template/Element/home/support.ctp:44
+msgid "Training"
+msgstr "Treinamento"
+
+#: Template/Element/business-solutions/professional-training.ctp:13
+msgid ""
+"Our comprehensive training sessions teach the tools, knowledge, concepts and "
+"best-practices of CakePHP, helping your developers create code that is:"
+msgstr ""
+"Nossas sessões de treinamento ensinam sobre as ferramentas, conhecimento, "
+"conceitos e práticas recomendadas de desenvolvimento com o CakePHP, ajudando "
+"desenvolvedores a criar código que é:"
+
+#: Template/Element/business-solutions/professional-training.ctp:19
+msgid "Readable"
+msgstr "De fácil leitura"
+
+#: Template/Element/business-solutions/professional-training.ctp:20
+msgid "Maintainable"
+msgstr "De fácil manutenção"
+
+#: Template/Element/business-solutions/professional-training.ctp:21
+msgid "Extendable"
+msgstr "De fácil extensão"
+
+#: Template/Element/business-solutions/professional-training.ctp:22
+msgid "Object oriented"
+msgstr "Orientado a objetos"
+
+#: Template/Element/business-solutions/professional-training.ctp:25
+msgid ""
+"Our standard CakePHP training course is around 4-5 hours in duration, with a "
+"short pause mid-session. The course is accompanied by a live example "
+"application, and is conducted via video streaming and chat, where you'll have "
+"direct access to ask any questions necessary. So why not join us, and start "
+"enjoying the measurable, long-lasting benefits of expert code training today."
+msgstr ""
+"Nosso curso padrão de formação do CakePHP gira em torno de 4 a 5 horas de "
+"duração, com uma breve pausa no meio da sessão. O curso é acompanhado através "
+"do desenvolvimento de uma aplicação ao vivo e é realizado via streaming de "
+"vídeo e bate-papo, onde você terá acesso direto a perguntas. Então porque não "
+"se juntar a nós e começar a aproveitar os benefícios mensuráveis de longa "
+"duração do treinamento ainda hoje?"
+
+#: Template/Element/business-solutions/professional-training.ctp:29
+msgid "Schedule"
+msgstr "Agenda"
+
+#: Template/Element/business-solutions/professional-training.ctp:30
+msgid ""
+"Visit the {0} site to view the scheduled courses which are currently "
+"available. Some sessions may already\n"
+"\t\tbe at maximum capacity, and no longer have positions available for "
+"additional attendees. Sign ups are only valid for\n"
+"\t\ta session until 24 hours previous to the scheduled time."
+msgstr ""
+"Visite o site de {0} para visualizar os cursos regulares que estão atualmente "
+"disponíveis. Algumas sessões podem já estar em sua capacidade máxima e já não "
+"têm posições disponíveis para participantes adicionais. Cadastros são válidos "
+"apenas para uma sessão em até 24 horas antes do horário agendado."
+
+#: Template/Element/business-solutions/professional-training.ctp:32
+msgid "CakePHP Training"
+msgstr "Treinamento do CakePHP"
+
+#: Template/Element/business-solutions/professional-training.ctp:36
+msgid "Workshops and Custom Training"
+msgstr "Oficinas e treinamento personalizado"
+
+#: Template/Element/business-solutions/professional-training.ctp:38
+msgid ""
+"Don't forget to look out for {0} the annual CakePHP conference, where you can "
+"attend in person a live workshop presented by a\n"
+"\t\t core framework developer. Highly recommended for those who want to "
+"network with other CakePHP developers and meet the people behind the\n"
+"\t\t project."
+msgstr ""
+"Não se esqueça de checar a {0}, a conferência anual do CakePHP, onde você "
+"pode assistir a um workshop ao vivo, apresentado\n"
+"\t\t por um desenvolvedor do framework em pessoa. Altamente recomendado para "
+"aqueles que querem aumentar seu rede de contato com\n"
+"\t\t outros desenvolvedores CakePHP e conhecer as pessoas por trás do projeto."
+
+#: Template/Element/business-solutions/professional-training.ctp:40
+#: Template/Element/get-involved/sidebar.ctp:18
+#: Template/Element/rebranding/cake_variations.ctp:12 site.php:91
+msgid "CakeFest"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:42
+msgid ""
+"Additionally, if you'd prefer to have a more tailored training session for "
+"you or your team we can provide\n"
+"\t\tspecific training sessions as part of our consultancy services, {0} us "
+"for more information."
+msgstr ""
+"Além disso, se você preferir ter uma sessão de treinamento sob medida para "
+"você ou sua equipe, nós ofertamos sessões personalizadas como parte dos "
+"nossos serviços de consultoria, {0} nos para obter mais informações."
+
+#: Template/Element/business-solutions/professional-training.ctp:43
+msgid "contact"
+msgstr "contate"
+
+#: Template/Element/business-solutions/professional-training.ctp:47
+msgid "Course  Topics"
+msgstr "Tópicos do Curso"
+
+#: Template/Element/business-solutions/professional-training.ctp:50
+msgid "Setting up for development"
+msgstr "Configuração para desenvolvimento"
+
+#: Template/Element/business-solutions/professional-training.ctp:51
+msgid "CakePHP 2 project file structure"
+msgstr "Estrutura de arquivos de projetos do CakePHP 2/3"
+
+#: Template/Element/business-solutions/professional-training.ctp:52
+msgid "Framework configuration"
+msgstr "Configuração do framework"
+
+#: Template/Element/business-solutions/professional-training.ctp:53
+msgid "CakePHP 2 conventions"
+msgstr "Convenções do CakePHP 2/3"
+
+#: Template/Element/business-solutions/professional-training.ctp:54
+msgid "Baking your first project"
+msgstr "Assando seu primeiro projeto"
+
+#: Template/Element/business-solutions/professional-training.ctp:55
+msgid "Understanding scaffolding"
+msgstr "Entendendo o scaffolding"
+
+#: Template/Element/business-solutions/professional-training.ctp:56
+msgid "Using models"
+msgstr "Utilizando models"
+
+#: Template/Element/business-solutions/professional-training.ctp:57
+msgid "Model properties"
+msgstr "Propriedades de models"
+
+#: Template/Element/business-solutions/professional-training.ctp:58
+msgid "Model associations"
+msgstr "Associações de models"
+
+#: Template/Element/business-solutions/professional-training.ctp:59
+msgid "Model validation"
+msgstr "Validação de models"
+
+#: Template/Element/business-solutions/professional-training.ctp:60
+msgid "Retrieving data"
+msgstr "Recuperando dados"
+
+#: Template/Element/business-solutions/professional-training.ctp:61
+msgid "Saving your data"
+msgstr "Salvando dados"
+
+#: Template/Element/business-solutions/professional-training.ctp:66
+msgid "Creating controllers"
+msgstr "Criando controllers"
+
+#: Template/Element/business-solutions/professional-training.ctp:67
+msgid "Implementing callbacks"
+msgstr "Implementando callbacks"
+
+#: Template/Element/business-solutions/professional-training.ctp:68
+msgid "Request and Response objects"
+msgstr "Objetos de requisição e resposta"
+
+#: Template/Element/business-solutions/professional-training.ctp:69
+msgid "Components (Session, Security)"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:70
+msgid "Building views"
+msgstr "Construindo views"
+
+#: Template/Element/business-solutions/professional-training.ctp:71
+msgid "Page layouts"
+msgstr "Layouts de páginas"
+
+#: Template/Element/business-solutions/professional-training.ctp:72
+msgid "Handling elements"
+msgstr "Manipulando elementos"
+
+#: Template/Element/business-solutions/professional-training.ctp:73
+msgid "View blocks"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:74
+msgid "Helpers (Html, Form)"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:75
+msgid "Using plugins"
+msgstr "Utilizando plugins"
+
+#: Template/Element/business-solutions/professional-training.ctp:76
+msgid "Debugging code"
+msgstr "Depuração de código"
+
+#: Template/Element/business-solutions/professional-training.ctp:77
+msgid "Unit testing"
+msgstr "Testes unitários"
+
+#: Template/Element/business-solutions/sidebar.ctp:6
+msgid "Development"
+msgstr "Desenvolvimento"
+
+#: Template/Element/business-solutions/sidebar.ctp:8
+msgid "Consultancy"
+msgstr "Consultoria"
+
+#: Template/Element/business-solutions/sidebar.ctp:14
+msgid "Contact"
+msgstr "Contato"
+
+#: Template/Element/get-involved/cakefest.ctp:2
+msgid "The Annual CakePHP Conference"
+msgstr "A Conferência Anual do CakePHP"
+
+#: Template/Element/get-involved/cakefest.ctp:3
+msgid "Cakefest"
+msgstr ""
+
+#: Template/Element/get-involved/cakefest.ctp:4
+msgid ""
+"Every year we hold a conference dedicated to CakePHP, hosting live workshops "
+"and inviting a variety of great\n"
+"\t\tspeakers, to give you the very best in presentations and talks on the "
+"latest from the community:"
+msgstr ""
+"Todos os anos realizamos uma conferência dedicada ao CakePHP, realizando "
+"workshops ao vivo e convidando uma variedade de grandes palestrantes, para "
+"lhe proporcionar o melhor em apresentações e palestras sobre as últimas "
+"novidades da comunidade:"
+
+#: Template/Element/get-involved/cakefest.ctp:7
+msgid ""
+"The workshops are a great way to learn CakePHP, and get up-to-date with the "
+"latest versions and innovations,\n"
+"\t\t\tdirectly from the core developers of the framework!"
+msgstr ""
+"As oficinas são uma ótima maneira de aprender mais e ficar atualizado sobre "
+"as últimas versões e inovações do CakePHP, diretamente dos principais "
+"desenvolvedores do framework!"
+
+#: Template/Element/get-involved/cakefest.ctp:10
+msgid ""
+"The conference days are packed with presentations, discussions and talks on "
+"CakePHP and related\n"
+"\t\t\ttechnologies, an ideal moment to learn more from the community."
+msgstr ""
+"Os dias da conferência são repletos de apresentações, discussões e palestras "
+"sobre CakePHP e tecnologias relacionadas, um momento ideal para aprender mais "
+"com a comunidade."
+
+#: Template/Element/get-involved/cakefest.ctp:13
+msgid ""
+"It's a great opportunity to network, meet friends old and new, and have some "
+"fun with the core members of\n"
+"\t\t\tthe project. Plus, there's cake!"
+msgstr ""
+"É uma ótima oportunidade para estreitar sua rede de relacionamentos, "
+"encontrar amigos antigos e novos e se divertir com os membros do projeto. "
+"Além disso, há bolo!"
+
+#: Template/Element/get-involved/cakefest.ctp:17
+msgid ""
+"More information on the conference and ticket sales can be found on the {0}"
+msgstr ""
+"Mais informações sobre a conferência e venda de tickets podem ser encontradas "
+"no {0}"
+
+#: Template/Element/get-involved/cakefest.ctp:18
+msgid "CakeFest website"
+msgstr "website da CakeFest"
+
+#: Template/Element/get-involved/community-guidelines.ctp:5
+#: Template/Element/get-involved/sidebar.ctp:17
+msgid "Community Guidelines"
+msgstr "Guia de Conduta"
+
+#: Template/Element/get-involved/community-guidelines.ctp:6
+msgid ""
+"The following is a list of recommendations to help keep the CakePHP community "
+"strong, active and healthy, as well as a place where everyone feels welcome. "
+"These are by no means rules or laws, but instead suggestions and best "
+"practices."
+msgstr ""
+"A seguir você será apresentado a uma lista de recomendações para ajudar a "
+"manter a comunidade CakePHP forte, ativa e saudável, bem como um lugar onde "
+"todos se sintam bem-vindos. Estes não são de forma alguma regras ou leis, mas "
+"sim sugestões e melhores práticas."
+
+#: Template/Element/get-involved/community-guidelines.ctp:8
+msgid ""
+"Remember that when you talk about CakePHP you're representing a global "
+"community of people, most of whom are passionate about their involvement, and "
+"dedicate their free time and good will to helping the framework. Be friendly "
+"and helpful, and always show the respect for others in the same way you'd "
+"expect from them."
+msgstr ""
+"Lembre-se que quando você fala sobre o CakePHP você está representando uma "
+"comunidade global de pessoas, a maioria das quais são apaixonadas por seu "
+"envolvimento, e dedicam seu tempo livre e boa vontade para ajudar o "
+"framework. Seja amistoso e útil, e mostre sempre o respeito com os outros na "
+"mesma maneira que você esperaria deles."
+
+#: Template/Element/get-involved/community-guidelines.ctp:9
+msgid ""
+"Never insult, tease or ridicule a user, group of users or community, based on "
+"personal opinion or bias towards them. If you don't agree with their opinion "
+"or argument, then simply state your reason, provide examples or links, and be "
+"polite. If they're acting inappropriately or using abusive language then "
+"contact an admin of that channel to have them removed."
+msgstr ""
+"Nunca insultar, provocar ou ridicularizar um usuário, grupo de usuários ou "
+"comunidade, com base em opinião pessoal ou parcialidade em relação a eles. Se "
+"você não concordar com a sua opinião ou argumento, basta indicar sua razão, "
+"fornecer exemplos ou links, e ser educado. Se eles estão agindo "
+"inadequadamente ou usando linguagem abusiva, em seguida, entre em contato com "
+"um administrador desse canal para removê-los."
+
+#: Template/Element/get-involved/community-guidelines.ctp:10
+msgid ""
+"Never degrade, belittle, insult or otherwise damage the name or reputation of "
+"another project in favour of CakePHP. If you want to compare or promote "
+"features of the framework, always aim to do so with relevant and technical "
+"arguments, with a positive attitude, and in a humble and respectful manner."
+msgstr ""
+"Nunca degradar, menosprezar, insultar ou danificar o nome ou a reputação de "
+"outro projeto em favor do CakePHP. Se você quiser comparar ou promover "
+"características do framework, sempre procure fazê-lo com argumentos "
+"relevantes e técnicos, com uma atitude positiva, e de uma maneira humilde e "
+"respeitosa."
+
+#: Template/Element/get-involved/community-guidelines.ctp:11
+msgid ""
+"Never use the community channels to announce or advertise a commercial "
+"service or product, or to spam other users with content unrelated to CakePHP "
+"or the community."
+msgstr ""
+"Nunca use os canais da comunidade para anunciar um serviço ou produto "
+"comercial ou para enviar spam a outros usuários com conteúdo não relacionado "
+"ao CakePHP ou à comunidade."
+
+#: Template/Element/get-involved/community-guidelines.ctp:12
+msgid ""
+"When dealing with a user asking for help, if possible, attempt to resolve "
+"their problem or concern, no matter how trivial it may seem. We all started "
+"from somewhere. If you don't have the time, the patience or the know-how to "
+"answer, always refer the user to the CakePHP Community Center at {0}"
+msgstr ""
+"Ao lidar com um usuário pedindo ajuda, se possível, tente resolver seu "
+"problema ou preocupação, não importa quão trivial possa parecer. Todos nós "
+"partimos de algum lugar. Se você não tiver o tempo, a paciência ou o know-how "
+"para responder, direcione o usuário para a página da comunidade em {0}."
+
+#: Template/Element/get-involved/community-guidelines.ctp:13
+msgid ""
+"When talking about a technical feature of CakePHP, always try to make a clear "
+"reference to the version of the framework in which it became available. Also, "
+"if possible, attempt to supply documentation and examples where possible, to "
+"help the reader or listener better understand the concept. And remember, "
+"always check your facts before jumping to conclusions or defending a false "
+"argument."
+msgstr ""
+"Ao falar sobre uma característica técnica do CakePHP, tente sempre fazer uma "
+"referência clara à versão do framework em que ela se tornou disponível. Além "
+"disso, se possível, tente fornecer documentação e exemplos, sempre que "
+"possível, para ajudar o leitor ou ouvinte a entender melhor o conceito. E "
+"lembre-se, sempre verifique seus fatos antes de tirar conclusões ou defender "
+"um argumento falso."
+
+#: Template/Element/get-involved/community-guidelines.ctp:14
+msgid ""
+"When writing example code, always try to apply the CakePHP Conventions and "
+"Coding Standards correctly, and check that the example given does not throw "
+"an error or give an incorrect result. This promotes good practice, and aids "
+"developers in learning to do things \"the right way\" by default, without "
+"hitting too many bumps along the way."
+msgstr ""
+"Ao escrever código de exemplo, sempre tente aplicar as convenções do CakePHP "
+"e padrões de codificação corretamente e verifique se o exemplo fornecido não "
+"aciona um erro ou dá um resultado incorreto. Isso promove boas práticas e "
+"ajuda os desenvolvedores a aprender a fazer as coisas \"no caminho certo\" "
+"por padrão, sem ter muitas colisões ao longo do caminho."
+
+#: Template/Element/get-involved/community-guidelines.ctp:15
+msgid ""
+"The use of the CakePHP logo and brand assets should follow the instructions "
+"available from the logo usage guide: {0}. Following those standards ensures "
+"that the visual identity of the framework is never misrepresented or abused."
+msgstr ""
+"O uso do logo e da marca CakePHP devem seguir as instruções disponíveis a "
+"partir do guia de utilização: http://cakephp.org/logos . Seguir essas normas "
+"garante que a identidade visual da estrutura nunca será deturpada ou abusada."
+
+#: Template/Element/get-involved/community-guidelines.ctp:16
+msgid ""
+"Try to use the CakePHP name correctly. The name should be spelled \"CakePHP"
+"\", all as one word, with an uppercase \"C\", and \"PHP\". This helps keep "
+"the links and references to the framework consistent. For example, CAKEPHP, "
+"Cakephp, cake-php or just Cake would be incorrect uses. Maintaining a common "
+"spelling and format for the name helps keep brand coherent and consistent."
+msgstr ""
+"Tente usar o nome CakePHP corretamente. O nome deve ser escrito \"CakePHP\", "
+"tudo como uma palavra, com \"C\" e \"PHP\" em maiúsculo. Isso ajuda a manter "
+"consistentes os links e referências ao framework. Por exemplo, CAKEPHP, "
+"Cakephp, cake-php ou apenas Cake seriam usos incorretos. Manter uma "
+"ortografia comum e o nome formatado, ajuda a manter a marca coerente e "
+"consistente."
+
+#: Template/Element/get-involved/community-guidelines.ctp:17
+msgid ""
+"When making a reference to CakePHP in a marketing or promotional context, it "
+"helps to make the name stand-out or interactive. Consider using &lt;"
+"strong&gt; or &lt;b&gt; tags for HTML, bold formatting for documents, or "
+"making the name a visible link to {0}. Don't overuse the name in any body of "
+"text, instead try keeping any direct uses of the name relevant. To even out "
+"the usage try to use other references, such as \"the framework\" or \"the "
+"project\"."
+msgstr ""
+"Ao fazer uma referência ao CakePHP em um contexto de marketing ou "
+"promocional, ajude se o nome estiver destacado ou interativo. Considere o uso "
+"das tags HTML &lt;strong&gt; ou &lt;b&gt; , formatação em negrito para "
+"documentos, ou tornar o nome um link para http://cakephp.org . Não use o nome "
+"em excesso em qualquer corpo de texto. Para igualar o uso tente usar outras "
+"referências, como \"o framework\" ou \"o projeto\"."
+
+#: Template/Element/get-involved/find-job-developer.ctp:6
+#: Template/Element/get-involved/sidebar.ctp:16
+msgid "Find Job or Developer"
+msgstr "Oportunidades"
+
+#: Template/Element/get-involved/find-job-developer.ctp:7
+msgid ""
+"If you're looking for skilled CakePHP developers, or are a developer yourself "
+"and seeking a freelance project or\n"
+"\t\tposition at a company, there are many resources available:"
+msgstr ""
+"Se você está procurando por desenvolvedores CakePHP habilidosos, ou for um "
+"desenvolvedor e está buscando uma posição em uma empresa ou projeto "
+"freelance, há muitas possibilidades de busca:"
+
+#: Template/Element/get-involved/find-job-developer.ctp:10
+msgid "LinkedIn"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:11
+msgid "Official career group for CakePHP related opportunities"
+msgstr "Grupo oficial no Linkedin."
+
+#: Template/Element/get-involved/find-job-developer.ctp:13
+msgid "Freelancer"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:14
+msgid "Jobs available for freelance developers"
+msgstr "Vagas de emprego disponíveis para desenvolvedores freelance"
+
+#: Template/Element/get-involved/find-job-developer.ctp:16
+msgid "oDesk"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:17
+msgid "Contractors who specialize in CakePHP"
+msgstr ""
+"Prestadores de serviços que requisitam profissionais com conhecimento sobre o "
+"CakePHP"
+
+#: Template/Element/get-involved/find-job-developer.ctp:19
+msgid "CakePHPJobs"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:20
+msgid "CakePHP related job postings"
+msgstr "Ofertas de trabalho relacionadas ao CakePHP"
+
+#: Template/Element/get-involved/find-job-developer.ctp:22
+msgid "CakeXperts"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:23
+msgid "Where developers and employers connect"
+msgstr "Onde desenvolvedores e empregadores se conectam."
+
+#: Template/Element/get-involved/find-job-developer.ctp:25
+msgid "CakeDC"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:26
+msgid "Development and consultancy from the experts"
+msgstr "Desenvolvimento e consultoria dos especialistas"
+
+#: Template/Element/get-involved/get-help.ctp:6
+#: Template/Element/get-involved/sidebar.ctp:15
+msgid "Get Help"
+msgstr "Obtendo Ajuda"
+
+#: Template/Element/get-involved/get-help.ctp:8
+msgid ""
+"Looking for help but don't know where to find it? Here are all the locations "
+"you can find community driven\n"
+"\t\tsupport and sources of information:"
+msgstr ""
+"Procurando ajuda, mas não sabe onde encontrá-la? Aqui estão todos os locais "
+"onde você pode encontrar suporte e fontes de informações:"
+
+#: Template/Element/get-involved/get-help.ctp:18
+msgid "{0}: Join our CakePHP Slack Channel"
+msgstr "{0}: Entre no canal #CakePHP no Slack"
+
+#: Template/Element/get-involved/get-help.ctp:31
+msgid "{0}: Join us in the #cakephp IRC channel"
+msgstr "{0}: Entre no canal #CakePHP no IRC"
+
+#: Template/Element/get-involved/get-help.ctp:44
+msgid "{0}: Report issues, help fix bugs or implement features"
+msgstr "{0}: Reporte problemas, ajude a corrigir bugs ou implementar recursos"
+
+#: Template/Element/get-involved/get-help.ctp:57
+msgid "{0}: Find news and articles on many topics regarding CakePHP"
+msgstr "{0}: Encontre notícias e artigos sobre o CakePHP"
+
+#: Template/Element/get-involved/get-help.ctp:58
+msgid "The Bakery"
+msgstr ""
+
+#: Template/Element/get-involved/get-help.ctp:70
+msgid "{0}: Get your issues resolved by the open source community"
+msgstr "{0}: Tenha suas issues resolvidas pela comunidade open-source"
+
+#: Template/Element/get-involved/get-help.ctp:71
+msgid "StackOverflow"
+msgstr ""
+
+#: Template/Element/get-involved/get-help.ctp:83
+msgid "{0}: Official announcements from the CakePHP community"
+msgstr "{0}: Anúncios oficiais do CakePHP"
+
+#: Template/Element/get-involved/get-help.ctp:84
+#: Template/Element/get-involved/get-involved.ctp:68
+msgid "Facebook"
+msgstr ""
+
+#: Template/Element/get-involved/get-help.ctp:96
+msgid "{0}: Official community channel for the project"
+msgstr "{0}: Canal oficial do CakePHP no G+"
+
+#: Template/Element/get-involved/get-help.ctp:97 site.php:132
+msgid "Google+"
+msgstr ""
+
+#: Template/Element/get-involved/get-help.ctp:109
+msgid "{0}: Tutorials and screencasts related to development and events"
+msgstr "{0}: Tutoriais e screencasts relacionados a desenvolvimento e eventos"
+
+#: Template/Element/get-involved/get-help.ctp:110
+msgid "YouTube"
+msgstr ""
+
+#: Template/Element/get-involved/get-help.ctp:122
+msgid "{0}: Get the latest updates from around the world"
+msgstr "{0}: Receba as últimas atualizações relacionadas ao CakePHP no Twitter"
+
+#: Template/Element/get-involved/get-help.ctp:123
+#: Template/Element/get-involved/get-involved.ctp:70
+msgid "Twitter"
+msgstr ""
+
+#: Template/Element/get-involved/get-help.ctp:136
+msgid "{0}: Official Subreddit of CakePHP"
+msgstr "{0}: Subreddit oficial do CakePHP"
+
+#: Template/Element/get-involved/get-help.ctp:137
+msgid "CakePHP on Reddit"
+msgstr "Reddit"
+
+#: Template/Element/get-involved/get-involved.ctp:3
+msgid "CakePHP - Build fast, grow solid | Get Involved"
+msgstr "CakePHP - Build fast, grow solid | Participe"
+
+#: Template/Element/get-involved/get-involved.ctp:4
+msgid "Contribute and support the CakePHP Community."
+msgstr "Envolva-se e ajude a comunidade de desenvolvedores do CakePHP."
+
+#: Template/Element/get-involved/get-involved.ctp:10
+msgid "Get Involved!"
+msgstr "Participe!"
+
+#: Template/Element/get-involved/get-involved.ctp:12
+#: Template/Element/home/share.ctp:14
+msgid ""
+"If you're interested in contributing to CakePHP and supporting the community "
+"then we'd love for you to join us, there are a variety of ways to get "
+"involved and help out."
+msgstr ""
+"Se você estiver interessado em contribuir com o CakePHP e apoiar a comunidade "
+"de desenvolvedores, nós adoraríamos que você se juntasse a nós, existem "
+"muitas maneiras de se envolver e ajudar."
+
+#: Template/Element/get-involved/get-involved.ctp:16
+#: Template/Element/get-involved/sidebar.ctp:6
+msgid "User Support"
+msgstr "Suporte ao Usuário"
+
+#: Template/Element/get-involved/get-involved.ctp:18
+msgid ""
+"One of the greatest ways to contribute to CakePHP is by directly supporting "
+"the developer community. There's no need to be a genius or guru to get "
+"involved, you may just have the answer to some of the questions being asked. "
+"Here are some ways you can get started:"
+msgstr ""
+"Uma das melhores maneiras de contribuir com o CakePHP é apoiar diretamente a "
+"comunidade de desenvolvedores. Não precisa ser um gênio ou um guru para se "
+"enturmar, talvez você seja o único a ter a resposta a algumas das perguntas "
+"que serão feitas. Aqui estão algumas maneiras que você pode começar:"
+
+#: Template/Element/get-involved/get-involved.ctp:20
+msgid ""
+"Join the #cakephp IRC channel, or Slack group and talk to developers who need "
+"help. *"
+msgstr ""
+"Junte-se ao canal #CakePHP no IRC, ou no Slack e ajude desenvolvedores que "
+"precisam de ajuda."
+
+#: Template/Element/get-involved/get-involved.ctp:21
+msgid "Answer questions on platforms such as {0}."
+msgstr "Responda perguntas em plataformas como o {0}."
+
+#: Template/Element/get-involved/get-involved.ctp:23
+msgid "Comment on posts asking for help with a specific problem."
+msgstr "Comente em publicações no fórum para solucionar problemas específicos."
+
+#: Template/Element/get-involved/get-involved.ctp:26
+msgid ""
+"* For those who don't have an IRC client we have a web-based client available "
+"{0}."
+msgstr ""
+"* Para aqueles que não têm um cliente de IRC temos um cliente web disponível "
+"{0}."
+
+#: Template/Element/get-involved/get-involved.ctp:26;134;179
+msgid "here"
+msgstr "aqui"
+
+#: Template/Element/get-involved/get-involved.ctp:33
+#: Template/Element/get-involved/sidebar.ctp:7
+msgid "Education and Training"
+msgstr "Formação e Treinamento"
+
+#: Template/Element/get-involved/get-involved.ctp:36
+msgid ""
+"Helping others to learn CakePHP is another valuable way to contribute to the "
+"community. There are many ways\n"
+"\t\t\tyou can help others, these include:"
+msgstr ""
+"Ajudar outras pessoas a aprender sobre o CakePHP é outra maneira valiosa de "
+"contribuir para a comunidade. Há muitas maneiras de ajudar, incluindo:"
+
+#: Template/Element/get-involved/get-involved.ctp:39
+msgid "Coding Seminars"
+msgstr "Seminários de programação"
+
+#: Template/Element/get-involved/get-involved.ctp:40
+msgid "Live Workshops"
+msgstr "Workshops ao vivo"
+
+#: Template/Element/get-involved/get-involved.ctp:41
+msgid "Hackathons"
+msgstr "Hackathons"
+
+#: Template/Element/get-involved/get-involved.ctp:42
+msgid "Training Courses"
+msgstr "Cursos de aperfeiçoamento"
+
+#: Template/Element/get-involved/get-involved.ctp:43
+msgid "Tutorials"
+msgstr "Tutoriais"
+
+#: Template/Element/get-involved/get-involved.ctp:48
+msgid ""
+"Additionally, we offer professional training for CakePHP, as well as the "
+"opportunity to\n"
+"\t\t\tbecome an officially certified CakePHP developer through the developer "
+"certification program."
+msgstr ""
+"Além disso, oferecemos treinamento profissional e a oportunidade de tornar-se "
+"um desenvolvedor CakePHP oficialmente certificado através do programa de "
+"certificação de desenvolvedores."
+
+#: Template/Element/get-involved/get-involved.ctp:54
+#: Template/Element/get-involved/sidebar.ctp:8
+msgid "Marketing and Evangelism"
+msgstr "Marketing e Evangelismo"
+
+#: Template/Element/get-involved/get-involved.ctp:57
+msgid ""
+"As an open source project, backed by the {0} we don't have a massive budget "
+"to market and advertise the framework, so we depend\n"
+"\t\t\ton people like you getting involved and helping support the community. "
+"There are many actions which can help\n"
+"\t\t\traise awareness, share experiences and educate your fellow developers "
+"about CakePHP."
+msgstr ""
+"Como um projeto open-source, apoiado pela {0} não temos um orçamento enorme "
+"para divulgar o framework, por isso, dependemos de pessoas, como você, se "
+"envolverem e apoiarem a comunidade. Há muitas ações que podem ajudar a "
+"aumentar a conscientização, compartilhar experiências e educar os seus "
+"colegas desenvolvedores sobre os benefícios do CakePHP."
+
+#: Template/Element/get-involved/get-involved.ctp:59
+msgid "Cake Software Foundation, Inc."
+msgstr ""
+
+#: Template/Element/get-involved/get-involved.ctp:60
+msgid "Write and Talk About CakePHP"
+msgstr "Escreva e Fale Sobre o CakePHP"
+
+#: Template/Element/get-involved/get-involved.ctp:61
+msgid ""
+"Actively writing and talking about CakePHP helps spread the word about the "
+"framework."
+msgstr "Falar e escrever sobre o CakePHP ajuda a divulgar o framework."
+
+#: Template/Element/get-involved/get-involved.ctp:63
+msgid ""
+"Write an article or blog post about a certain feature or development "
+"experience."
+msgstr ""
+"Escrever um artigo sobre um determinado recurso ou relatar sua experiência "
+"quanto a desenvolvimento."
+
+#: Template/Element/get-involved/get-involved.ctp:64
+msgid ""
+"Comment on articles or posts and provide ideas and arguments which invite "
+"further conversation and\n"
+"\t\t\t\tfeedback."
+msgstr ""
+"Comentar artigos ou mensagens e fornecer ideias e argumentos que possam gerar "
+"interação e feedback."
+
+#: Template/Element/get-involved/get-involved.ctp:67
+msgid ""
+"Use social platforms such as {0}, {1} or {2} to provide links to articles, "
+"posts, plugins, events, etc."
+msgstr ""
+"Use as plataformas sociais, como {0}, {1} ou {2} para fornecer links para "
+"artigos, posts, plugins, eventos, etc."
+
+#: Template/Element/get-involved/get-involved.ctp:69
+msgid "Discourse"
+msgstr ""
+
+#: Template/Element/get-involved/get-involved.ctp:74
+msgid "Help Your Local Community"
+msgstr "Auxilie sua comunidade local"
+
+#: Template/Element/get-involved/get-involved.ctp:76
+msgid ""
+"We depend on people who know and understand their local community. This not "
+"only refers to the difference in\n"
+"\t\t\tthe language, but also the local customs and cultural differences. You "
+"can help us by connecting with your\n"
+"\t\t\tlocal community and supporting CakePHP. A few actions you can undertake "
+"include:"
+msgstr ""
+"Dependemos de pessoas que conhecem e compreendem a sua comunidade local. Isso "
+"não só se refere à diferença entre idiomas, mas também aos costumes locais e "
+"as diferenças culturais. Você pode nos ajudar conectando-se com sua "
+"comunidade local e apoiando o CakePHP. Algumas ações que você pode realizar "
+"incluem:"
+
+#: Template/Element/get-involved/get-involved.ctp:80
+msgid "Starting or joining a local user group"
+msgstr "Começar ou ingressar em um grupo de usuários local"
+
+#: Template/Element/get-involved/get-involved.ctp:81
+msgid "Organizing events or meet-ups"
+msgstr "Organizar eventos ou meet-ups"
+
+#: Template/Element/get-involved/get-involved.ctp:82
+msgid "Distributing information and awareness"
+msgstr "Compartilhar informação e conhecimento"
+
+#: Template/Element/get-involved/get-involved.ctp:89
+#: Template/Element/get-involved/sidebar.ctp:9
+msgid "Contributing Code"
+msgstr "Contribuindo com Código"
+
+#: Template/Element/get-involved/get-involved.ctp:92
+msgid ""
+"If you want to contribute code for a bug fix then coordinate your approach in "
+"the comments of the issue, either\n"
+"\t\t\tby linking to a gist/pastebin or by linking to the commit(s) for the "
+"fix."
+msgstr ""
+"Se você quer contribuir com código para uma correção de bug, então coordene "
+"sua abordagem através dos comentários na issue, vinculando a um gist/pastebin "
+"ou referenciando o commit(s) da correção."
+
+#: Template/Element/get-involved/get-involved.ctp:94
+msgid "Contributing via a Pull Request"
+msgstr "Contribuindo através de Pull Requests"
+
+#: Template/Element/get-involved/get-involved.ctp:96
+msgid ""
+"Contributing via commits on a {0} fork is the preferred way of submitting "
+"fixes. If your fix is more than\n"
+"\t\t\ta single commit, you should put the fix on an appropriately named "
+"branch. This makes integration of the fix\n"
+"\t\t\teasier."
+msgstr ""
+"Contribuir através de commits num fork do {0} é a melhor maneira de submeter "
+"correções. Se a sua correção é maior do que um único commit, você deve criar "
+"um branch nomeado de forma apropriada e relacionada a essa mesma correção. "
+"Isso facilita a integração."
+
+#: Template/Element/get-involved/get-involved.ctp:98;109;178
+msgid "GitHub"
+msgstr ""
+
+#: Template/Element/get-involved/get-involved.ctp:104
+#: Template/Element/get-involved/sidebar.ctp:10
+msgid "Testing and Quality Assurance"
+msgstr "Testes e QA"
+
+#: Template/Element/get-involved/get-involved.ctp:107
+msgid ""
+"Filing issues is a great way to start contributing to CakePHP. By finding and "
+"reporting issues in the code\n"
+"\t\t\tyou notify the maintainers of any issues and help get them resolved. "
+"Issues for all CakePHP projects are\n"
+"\t\t\tlocated on {0}"
+msgstr ""
+"Preencher issues é uma forma excelente de ajudar. Ao encontrar e reportar "
+"issues, você notifica os desenvolvedores do framework e os ajuda a resolver "
+"qualquer tipo de problema. A lista de issues dos projetos relacionados ao "
+"CakePHP está armazenada no {0}"
+
+#: Template/Element/get-involved/get-involved.ctp:111
+msgid "Found a Bug?"
+msgstr "Encontrou um Bug?"
+
+#: Template/Element/get-involved/get-involved.ctp:113
+msgid ""
+"Sometimes there are problems in CakePHP. If you think you've come across one "
+"you can:"
+msgstr ""
+"Às vezes há problemas no CakePHP. Se você acha que encontrou um, você pode:"
+
+#: Template/Element/get-involved/get-involved.ctp:115
+msgid "Search for a similar or {0}."
+msgstr "Buscar uma ocorrência similar ou {0},"
+
+#: Template/Element/get-involved/get-involved.ctp:115
+msgid "existing issues"
+msgstr "issues existentes"
+
+#: Template/Element/get-involved/get-involved.ctp:117
+msgid ""
+"Create a {0} if you're sure it doesn't already exist OR update the existing "
+"issue."
+msgstr ""
+"Criar uma {0} se você tem certeza de que não existe um problema semelhante."
+
+#: Template/Element/get-involved/get-involved.ctp:117
+msgid "new issue"
+msgstr "nova issue"
+
+#: Template/Element/get-involved/get-involved.ctp:119
+msgid ""
+"Add detailed instructions on how to reproduce the bug. This could be in the "
+"form of test cases or a code\n"
+"\t\t\t\tsnippet that demonstrates the issue. Not having a way to reproduce an "
+"issue, means its less likely to\n"
+"\t\t\t\tget fixed."
+msgstr ""
+"Adicione instruções detalhadas sobre como reproduzir o bug. Isso pode ser na "
+"forma de casos de teste ou um trecho de código que demonstra o problema. Não "
+"ter uma maneira de reproduzir um problema, significa que é menos provável que "
+"seja corrigido."
+
+#: Template/Element/get-involved/get-involved.ctp:124
+msgid "Issues That Need Additional Information"
+msgstr "Issues que precisam de informações adicionais"
+
+#: Template/Element/get-involved/get-involved.ctp:126
+msgid ""
+"{0} often need to be confirmed or need more\n"
+"\t\t\tinformation. Asking for additional information on unclear issues "
+"doesn't take much time, and helps speed up the process."
+msgstr ""
+"{0} muitas vezes precisam ser confirmadas ou precisam de mais informações. "
+"Pedir informações adicionais sobre issues pouco claras não leva muito tempo e "
+"ajuda a acelerar o processo."
+
+#: Template/Element/get-involved/get-involved.ctp:127
+msgid "New issues"
+msgstr "Novas issues"
+
+#: Template/Element/get-involved/get-involved.ctp:129
+msgid "Confirm or Invalidate Existing Issues That Need a Way to Reproduce"
+msgstr ""
+"Confirmar ou invalidar issues existentes que necessitam de alguma forma de "
+"reprodução"
+
+#: Template/Element/get-involved/get-involved.ctp:131
+msgid ""
+"If an issue cannot be easily reproduced, or is unclear, it will be set to "
+"hold. Issues on hold generally need\n"
+"\t\t\ta way to be confirmed or require additional information. You can help "
+"by finding out ways to reproduce\n"
+"\t\t\tissues, or prodding issue authors for more information. Issues that are "
+"on hold can be found {0}"
+msgstr ""
+"Se um problema não puder ser facilmente reproduzido ou não estiver claro, ele "
+"será marcado como \"on hold\". Issues marcadas como on hold, geralmente "
+"precisam de uma forma de ser confirmadas. Você pode ajudar descobrindo formas "
+"de reproduzir problemas ou incentivar autores de submissões a  obter mais "
+"informações. Questões que estão on hold podem ser encontradas {0}"
+
+#: Template/Element/get-involved/get-involved.ctp:136
+msgid "Bug Issues for Maintenance Releases"
+msgstr "Problemas de Bugs referentes a releases de manutenção"
+
+#: Template/Element/get-involved/get-involved.ctp:138
+msgid ""
+"Existing releases usually have a few issues open against them. These issues "
+"generally need patches and test\n"
+"\t\t\tcases created for them, so they can be resolved. Preparing patches for "
+"open {0}\n"
+"\t\t\tis a great way to get involved with CakePHP, and is one of the first "
+"steps to becoming a core contributor."
+msgstr ""
+"Versões existentes geralmente têm algumas issues abertas relacionadas a elas. "
+"Esses problemas geralmente precisam de patches e casos de teste criados para "
+"eles. Preparar patches para {0} é uma ótima maneira de se envolver com o "
+"CakePHP, e é um dos primeiros passos para se tornar um contribuinte do núcleo "
+"de desenvolvimento."
+
+#: Template/Element/get-involved/get-involved.ctp:141
+msgid "unresolved issues"
+msgstr "issues sem solução"
+
+#: Template/Element/get-involved/get-involved.ctp:144
+msgid "Features and Enhancements for Future Releases"
+msgstr "Recursos e aprimoramentos para lançamentos futuros"
+
+#: Template/Element/get-involved/get-involved.ctp:146
+msgid ""
+"We are currently working on the {0}. There are still a number of\n"
+"\t\t\tincomplete tasks and {1}. If an issue has been moved into a specific "
+"milestone, it is planned for inclusion in that\n"
+"\t\t\trelease. Issues are moved into milestones based on community feedback "
+"and the core team's plans. If you\n"
+"\t\t\tplan on contributing a feature, please also include relevant test cases "
+"for the feature. We want to keep\n"
+"\t\t\tCakePHP as bug free as possible, and test cases have proven to help "
+"immensely. If you submit features\n"
+"\t\t\twithout test cases, and no documentation it is highly unlikely it will "
+"be merged in."
+msgstr ""
+"Estamos atualmente trabalhando nas versões {0} . Há ainda uma série de "
+"tarefas incompletas e {1} . Se um problema tiver sido movido para um "
+"milestone específico, está planejado para ser incluído nessa mesma versão "
+"indicada. As issues são movidas para milestones com base no feedback da "
+"comunidade e nos planos da equipe de desenvolvimento. Se você planeja "
+"contribuir com um feature, inclua também casos de teste relevantes. Queremos "
+"manter o CakePHP livre de erros, e os casos de teste provaram ser imensamente "
+"úteis. Se você enviar features sem casos de teste e nenhuma documentação é "
+"altamente improvável que ele seja aceito."
+
+#: Template/Element/get-involved/get-involved.ctp:152
+msgid "3.x releases"
+msgstr "versões 3.x"
+
+#: Template/Element/get-involved/get-involved.ctp:153
+msgid "unresolved defects"
+msgstr "defeitos não resolvidos"
+
+#: Template/Element/get-involved/get-involved.ctp:156
+msgid ""
+"CakePHP is {0}, so you can check the status of the {1} on the Jenkins server "
+"at any time."
+msgstr ""
+"O CakePHP é {0}, então você pode checar o status de várias {1} no servidor "
+"Jenkins a qualquer momento."
+
+#: Template/Element/get-involved/get-involved.ctp:169
+msgid ""
+"Documentation is another excellent way to start getting involved with "
+"CakePHP. We have two primary forms of\n"
+"\t\t\tdocumentation, the {0} and the {1}. The API\n"
+"\t\t\tis generated from the source code, so if you find an inaccuracy or "
+"issue with the API documentation, you can\n"
+"\t\t\tfile a patch against the {2}. The Cookbook is a community managed\n"
+"\t\t\tdocumentation source which can also be found on {3}.\n"
+"\t\t\tGuidelines on contributing to the documentation can be reviewed {4}."
+msgstr ""
+"Documentação é outra excelente maneira de começar a se envolver com o "
+"CakePHP. Temos duas formas primárias de documentação, a {0} e o {1}. A API é "
+"gerada a partir do código-fonte, então se você encontrar uma imprecisão ou "
+"problema com a documentação da API, você deve enviar um patch relacionado ao "
+"{2}. O Cookbook é uma fonte de documentação gerenciada pela comunidade que "
+"também pode ser encontrada no {3}.\n"
+"\t\t\tOrientações sobre contribuições para a documentação podem ser vistas "
+"{4}."
+
+#: Template/Element/get-involved/get-involved.ctp:177
+msgid "source code"
+msgstr "código-fonte"
+
+#: Template/Element/get-involved/get-involved.ctp:185
+msgid "Translations"
+msgstr "Traduções"
+
+#: Template/Element/get-involved/get-involved.ctp:187
+msgid ""
+"We have developers from countries all over the world who use CakePHP. If "
+"you're a non-english speaker,\n"
+"\t\t\ttranslating the the {0} content\n"
+"\t\t\tinto your language is another way to help support the community. "
+"Providing the official documentation and\n"
+"\t\t\tsupport material in as many languages as possible helps lower the "
+"barrier to entry to using the framework."
+msgstr ""
+"Temos desenvolvedores de muitos países que usam o CakePHP. Traduzir o "
+"conteúdo do {0} para a sua língua é outra maneira de apoiar a comunidade. "
+"Fornecer o material de suporte e documentação oficial em muitos idiomas, "
+"torna possível diminuir a barreira de entrada que impede novos "
+"desenvolvedores de utilizarem o framework."
+
+#: Template/Element/get-involved/sidebar.ctp:3 site.php:60
+msgid "Get Involved"
+msgstr "Participe"
+
+#: Template/Element/get-involved/sidebar.ctp:12
+msgid "Translation"
+msgstr "Tradução"
+
+#: Template/Element/home/cake.ctp:5
+msgid "New CakePHP {0} Red Velvet."
+msgstr "Novo CakePHP {0} Red Velvet."
+
+#: Template/Element/home/cake.ctp:6
+msgid "Faster. Stronger. Tastier."
+msgstr "Rápido. Robusto. Apetitoso."
+
+#: Template/Element/home/cakefest.ctp:28
+msgid ""
+"Don't have a ticket yet? Only a limited amount are available, so purchase "
+"yours today! From\n"
+"\t                 a wide range of talks, interactive workshops to prizes, "
+"giveaways and fun social activities all planned\n"
+"\t                 over 4 exciting days!"
+msgstr ""
+"Ainda não tem um ticket? Apenas uma quantidade limitada está disponível, "
+"então adquira seu hoje! Uma vasta gama de palestras, workshops interativos, "
+"prêmios, brindes e atividades sociais divertidas estão planejadas ao longo de "
+"4 dias emocionantes!"
+
+#: Template/Element/home/cakefest.ctp:34
+msgid "Buy Your Tickets"
+msgstr "Compre Seus Tickets"
+
+#: Template/Element/home/cakefest.ctp:45
+msgid "Get your ticket!"
+msgstr "Participe!"
+
+#: Template/Element/home/newsletter.ctp:5
+msgid "Sign up for our newsletter."
+msgstr "Assine nossa newsletter."
+
+#: Template/Element/home/newsletter.ctp:18
+#: Template/Pages/newsletter_signup.ctp:61
+msgid "First Name"
+msgstr "Nome"
+
+#: Template/Element/home/newsletter.ctp:29
+#: Template/Pages/newsletter_signup.ctp:65
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#: Template/Element/home/newsletter.ctp:93
+#: Template/Pages/newsletter_signup.ctp:112
+msgid "Email Format"
+msgstr "Formato do Email"
+
+#: Template/Element/home/newsletter.ctp:126
+msgid "Send!"
+msgstr "Enviar!"
+
+#: Template/Element/home/quotes.ctp:11
+msgid "Hear what others have to say."
+msgstr "Ouça o que outros tem a dizer."
+
+#: Template/Element/home/quotes.ctp:12
+msgid "This is how CakePHP has helped others to succeed."
+msgstr "É assim que o CakePHP os auxiliou a alcançar o sucesso."
+
+#: Template/Element/home/share.ctp:10
+msgid "Sharing the cake."
+msgstr "Dividindo o bolo."
+
+#: Template/Element/home/share.ctp:11
+msgid "Get involved and support the community."
+msgstr "Envolva-se e ajude a comunidade de desenvolvedores."
+
+#: Template/Element/home/share.ctp:16
+msgid "Learn more."
+msgstr "Conte-me mais sobre isso."
+
+#: Template/Element/home/showcase.ctp:9
+msgid "Companies using CakePHP"
+msgstr "Companias usando o CakePHP"
+
+#: Template/Element/home/showcase.ctp:11
+msgid "View the Showcase"
+msgstr "Veja nosso mostruário"
+
+#: Template/Element/home/summary.ctp:6
+msgid ""
+"CakePHP makes building web applications simpler, faster, while requiring less "
+"code. A modern\n"
+"\t\t\t\t\t PHP 5.5+ framework offering a flexible database access layer and a "
+"powerful scaffolding system that makes\n"
+"\t\t\t\t\t building both small and complex systems simpler, easier and, of "
+"course, tastier. Build fast, grow solid\n"
+"\t\t\t\t\t with CakePHP."
+msgstr ""
+"O CakePHP simplifica e agiliza a construção de aplicações web, tanto pequenas "
+"quanto complexas, diminuindo a quantidade de código a ser escrito. Um moderno "
+"framework baseado no PHP 5.5+ que oferece uma camada flexível de acesso a "
+"bancos de dados e um sistema de scaffolding poderoso, e, naturalmente, torna "
+"a experiência mais saborosa. Construa rápido, seja consistente com o CakePHP."
+
+#: Template/Element/home/summary.ctp:13
+msgid "Download CakePHP {0}"
+msgstr ""
+
+#: Template/Element/home/summary.ctp:68
+msgid "A recipe to succeed."
+msgstr "Receita para o sucesso."
+
+#: Template/Element/home/summary.ctp:69
+msgid "Prototype faster, Validate faster, Grow consistently."
+msgstr "Prototipe e valide rapidamente, cresça de forma consistente."
+
+#: Template/Element/home/summary.ctp:77
+msgid "Build Quickly"
+msgstr "Construa Rápido"
+
+#: Template/Element/home/summary.ctp:79
+msgid "Use code generation and scaffolding features to {0}."
+msgstr "Use a geração de código e as características de scaffolding para {0}."
+
+#: Template/Element/home/summary.ctp:79
+msgid "rapidly build prototypes"
+msgstr "construir protótipos rapidamente"
+
+#: Template/Element/home/summary.ctp:88
+msgid "No Configuration"
+msgstr "Configuração Simplificada"
+
+#: Template/Element/home/summary.ctp:90
+msgid ""
+"No complicated XML or YAML files. Just setup your database and you're {0}."
+msgstr ""
+"Sem arquivos XMS ou YAML complicados. Apenas configure seu banco de dados e "
+"você está {0}."
+
+#: Template/Element/home/summary.ctp:90
+msgid ""
+"ready to\n"
+"\t\t\t\t\t\t\t\tbake"
+msgstr ""
+"pronto para\n"
+"\t\t\t\t\t\t\t\tassar"
+
+#: Template/Element/home/summary.ctp:99
+msgid "Friendly License"
+msgstr "Licença Amigável"
+
+#: Template/Element/home/summary.ctp:101
+msgid ""
+"CakePHP is licensed under the MIT license which makes it perfect for use in "
+"{0}."
+msgstr ""
+"CakePHP é licenciado sob a licença MIT que o torna perfeito para uso em {0}."
+
+#: Template/Element/home/summary.ctp:101
+msgid "Commercial applications"
+msgstr "aplicações comerciais"
+
+#: Template/Element/home/summary.ctp:110
+msgid "Batteries Included"
+msgstr "Pilhas Inclusas"
+
+#: Template/Element/home/summary.ctp:112
+msgid ""
+"{0}. Translations, database access, caching,\n"
+"\t\t\t\t\t\t\tvalidation, authentication, and much more are all built into "
+"one of the original PHP MVC\n"
+"\t\t\t\t\t\t\tframeworks."
+msgstr ""
+"{0}. Traduções, acesso a banco de dados, caching,\n"
+"\t\t\t\t\t\t\tvalidação, autenticação, e muito mais está incluso em um dos "
+"frameworks PHP MVC\n"
+"\t\t\t\t\t\t\toriginais."
+
+#: Template/Element/home/summary.ctp:114
+msgid "The things you need are built-in"
+msgstr "Os ingredientes que você precisa, estão incluídos"
+
+#: Template/Element/home/summary.ctp:122
+msgid "Clean MVC Conventions"
+msgstr "Convenções MVC Transparentes"
+
+#: Template/Element/home/summary.ctp:125
+msgid ""
+"Instead of having to plan where things go, CakePHP comes with a {0} to guide "
+"you in developing your application"
+msgstr ""
+"Em vez de ter que planejar para onde as coisas vão, o CakePHP vem com uma {0} "
+"para guiá-lo no desenvolvimento de sua aplicação"
+
+#: Template/Element/home/summary.ctp:125
+msgid ""
+"set of\n"
+"\t\t\t\t\t\t\t\tconventions"
+msgstr ""
+"coleção de\n"
+"\t\t\t\t\t\t\t\tconvenções"
+
+#: Template/Element/home/summary.ctp:134
+msgid "Secure"
+msgstr "Seguro"
+
+#: Template/Element/home/summary.ctp:135
+msgid ""
+"CakePHP comes with built-in tools for input validation, CSRF protection, Form "
+"tampering\n"
+"\t\t\t\t\t\t\tprotection, SQL injection prevention, and XSS prevention, "
+"helping you keep your application\n"
+"\t\t\t\t\t\t\t{0}."
+msgstr ""
+"O CakePHP vem com ferramentas nativas de validação de entrada, proteção CSRF, "
+"proteção\n"
+"\t\t\t\t\t\t\tcontra adulteração de formulários, prevenção contra injeção SQL "
+"e XSS, ajudando sua aplicação a\n"
+"\t\t\t\t\t\t\tpermanecer {0}."
+
+#: Template/Element/home/summary.ctp:137
+msgid "safe & secure."
+msgstr "fora de perigo & segura."
+
+#: Template/Element/home/support.ctp:6
+msgid "Premium "
+msgstr "Suporte "
+
+#: Template/Element/home/support.ctp:6;33
+msgid "Support"
+msgstr "Premium"
+
+#: Template/Element/home/support.ctp:7
+msgid "Give \"The Experts Behind CakePHP\" a call:"
+msgstr "Faça uma ligação para \"Os Experts Por Trás do CakePHP\":"
+
+#: Template/Element/home/support.ctp:11
+msgid "Meet CakeDC."
+msgstr "Conheça a CakeDC."
+
+#: Template/Element/home/support.ctp:12
+msgid ""
+"The commercial entity behind the framework, and established by Larry Masters, "
+"founder of CakePHP, we know your project like no one else. From startups and "
+"social networks, to e-commerce and enterprise level applications, we provide "
+"the highest quality CakePHP development available."
+msgstr ""
+"Como a entidade comercial por trás do framework, e criada por Larry Masters, "
+"fundador do CakePHP, conhecemos a fundação do seu projeto como ninguém. De "
+"startups e redes sociais, aplicações de nível empresarial a e-commerces, nós "
+"fornecemos a mais alta qualidade no que tange desenvolvimento com o framework "
+"CakePHP."
+
+#: Template/Element/home/support.ctp:16
+msgid ""
+"Request a rapid response from us now, and we'll contact you within 24 hours:"
+msgstr ""
+"Solicite uma resposta rápida agora, e nós vamos contata-lo em até 24 horas."
+
+#: Template/Element/home/support.ctp:19
+msgid "Rapid Response"
+msgstr "Contato Rápido"
+
+#: Template/Element/home/support.ctp:33;44;55
+msgid "Read more"
+msgstr "Leia mais"
+
+#: Template/Element/home/support.ctp:34
+msgid ""
+"Professional support for CakePHP is provided by our professional services "
+"partner, the Cake Development Corporation."
+msgstr ""
+"O suporte profissional ao CakePHP é fornecido pelo nosso parceiro de ofertas "
+"comerciais, a Cake Development Corporation."
+
+#: Template/Element/home/support.ctp:45
+msgid ""
+"Learn the insights and reasoning behind the CakePHP framework straight from "
+"the minds behind the framework: the developers at CakeDC"
+msgstr ""
+"Aprenda com as considerações e raciocínio diretamente das mentes por trás do "
+"quadro de desenvolvedores da CakeDC."
+
+#: Template/Element/home/support.ctp:55
+msgid "Expert {0} Consultancy"
+msgstr "Consultoria {0} Especializada"
+
+#: Template/Element/home/support.ctp:56
+msgid ""
+"We can help with the areas which need special attention and a trained eye, "
+"allowing you to rest assured that you've got all bases covered."
+msgstr ""
+"Nós podemos ajudar com as áreas que precisam de atenção especial e um olho "
+"treinado, o que lhe permite ter a certeza de que você tem todas as bases "
+"cobertas."
+
+#: Template/Element/home/support.ctp:67
+msgid "Rapid"
+msgstr "Contato"
+
+#: Template/Element/home/support.ctp:68
+msgid "Response"
+msgstr "Rápido"
+
+#: Template/Element/home/support.ctp:69
+msgid "Request a rapid response from us now, and we'll contact you within {0}"
+msgstr ""
+"Solicite uma resposta expressa agora, e nós vamos contata-lo em até {0}."
+
+#: Template/Element/rebranding/cake_variations.ctp:6
+msgid "Cake Development Corporation"
+msgstr ""
+
+#: Template/Element/rebranding/cake_variations.ctp:9
+msgid "Cake Software Foundation"
+msgstr ""
+
+#: Template/Element/rebranding/cake_variations.ctp:15
+msgid "CakeTalent"
+msgstr ""
+
+#: Template/Element/rebranding/cake_variations.ctp:18
+msgid "CakeJobs"
+msgstr ""
+
+#: Template/Element/rebranding/cake_variations.ctp:21
+#: Template/Element/rebranding/guide.ctp:15
+msgid "CakeUniversity"
+msgstr ""
+
+#: Template/Element/rebranding/cake_variations.ctp:23
+msgid "CakePHP sister brands."
+msgstr ""
+
+#: Template/Element/rebranding/changes.ctp:9
+msgid "How much did we change"
+msgstr ""
+
+#: Template/Element/rebranding/changes.ctp:10
+msgid ""
+"The traditional Cake image was redesigned in a minimalist style. The "
+"simplicity of the design\n"
+"\t\t\t\t\tis an expression of CakePHP's own simplicity. Built with basic "
+"geometric forms, it uses one single color\n"
+"\t\t\t\t\tand it's negative space to reduce graphic&nbsp;elements&nbsp;to "
+"it's minimum.&nbsp;"
+msgstr ""
+
+#: Template/Element/rebranding/changes.ctp:20
+msgid ""
+"The result of this radical simplification&nbsp;is an acceleration of the "
+"logo's cognition;\n"
+"\t\t\t\t\tan analogy to CakePHP rapid development approach."
+msgstr ""
+
+#: Template/Element/rebranding/changes.ctp:22
+msgid ""
+"A flat and solid design was inspired by CakePHP&nbsp;third&nbsp;pillar: "
+"consistency."
+msgstr ""
+
+#: Template/Element/rebranding/guide.ctp:7
+msgid "A vision for growth"
+msgstr ""
+
+#: Template/Element/rebranding/guide.ctp:8
+msgid ""
+"To help foster the values that brought us here, we clarified our key "
+"messaging. We wanted to\n"
+"\t\t\t\t\tfocus on what we believe CakePHP enables our community to do best "
+"and what we as project maintainers believe,\n"
+"\t\t\t\t\tand work for."
+msgstr ""
+
+#: Template/Element/rebranding/guide.ctp:19
+msgid "A brand for everyone"
+msgstr ""
+
+#: Template/Element/rebranding/guide.ctp:20
+msgid ""
+"CakePHP has always been free and open source. We attribute the framework "
+"success due to\n"
+"\t\t\t\t\tthe participation of the community of developers that embraced our "
+"ideas and constantly contributed\n"
+"\t\t\t\t\tto our growth and development. Thinking about our community, we "
+"created a system of signatures to be\n"
+"\t\t\t\t\tused by CakePHP developers, applications, individual and group "
+"supporters. These are the CakePHP\n"
+"\t\t\t\t\tCommunity Flags. We invite you to use the flags to show support"
+msgstr ""
+
+#: Template/Element/rebranding/guide.ctp:34
+msgid "Access our {0} page to learn more."
+msgstr ""
+
+#: Template/Element/rebranding/guide.ctp:34
+msgid "Trademarks and Logo Policy"
+msgstr ""
+
+#: Template/Element/rebranding/guide.ctp:37
+msgid "CakePHP Rebranding Project was a partnership with brand designer {0}"
+msgstr ""
+
+#: Template/Element/rebranding/guide.ctp:44
+msgid "Henrique Ibaldo"
+msgstr ""
+
+#: Template/Element/rebranding/summary.ctp:8
+msgid ""
+"The CakePHP framework has, over the past decade, cultivated its values while "
+"staying true\n"
+"\t\t\t\t\t\t to their mission – all under the open source philosophy. The "
+"community has grown strength to strength,\n"
+"\t\t\t\t\t\t and is known for being one of the most supportive, dedicated and "
+"passionate communities in the open\n"
+"\t\t\t\t\t\t source world. "
+msgstr ""
+
+#: Template/Element/rebranding/summary.ctp:14
+msgid ""
+"The mission is clear – Help developers around the world, build simpler, "
+"faster and consistent\n"
+"\t\t\t\t\t\tweb applications."
+msgstr ""
+
+#: Template/Element/rebranding/summary.ctp:18
+msgid ""
+"This has led to the CakePHP Framework being recognised and used by some of "
+"the biggest enterprises\n"
+"\t\t\t\t\t\tof today’s times. Together with this endorsement, and the ever-"
+"growing community, CakePHP was fundamental\n"
+"\t\t\t\t\t\tin the creation of PHP frameworks."
+msgstr ""
+
+#: Template/Element/rebranding/summary.ctp:23
+msgid ""
+"Back when the first version of CakePHP was launched (over a decade ago!), "
+"nobody predicted how this\n"
+"\t\t\t\t\t\tnew comer, a PHP framework, would end up creating professions, "
+"jobs, markets, solutions or most importantly\n"
+"\t\t\t\t\t\tthe community of like-minded people. Everyone came together over "
+"one single idea – one that CakePHP dedicates\n"
+"\t\t\t\t\t\ttime, money and resources to ensure is kept with the times."
+msgstr ""
+
+#: Template/Element/rebranding/summary.ctp:32
+msgid "The first CakePHP logo design, 2005."
+msgstr ""
+
+#: Template/Element/rebranding/summary.ctp:40
+msgid "CakePHP 2015 logo design."
+msgstr ""
+
+#: Template/Element/rebranding/summary.ctp:46
+msgid ""
+"What has occurred over the last decade has been incredible – born from an "
+"open source project –\n"
+"\t\t\t\t\t\ttens of thousands of people developed their careers, made a "
+"living and pursued their dreams within the\n"
+"\t\t\t\t\t\tPHP development world. Hundreds of startups and entrepreneurs "
+"emerged and built their vision grounded\n"
+"\t\t\t\t\t\tin the CakePHP philosophy."
+msgstr ""
+
+#: Template/Element/rebranding/summary.ctp:52
+msgid ""
+"And through the years of constant development, attention and commitment, "
+"CakePHP has remained stable,\n"
+"\t\t\t\t\t\t  consistent. What was realised was, that although the framework "
+"was stable, people were committed, and the\n"
+"\t\t\t\t\t\t  vision and mission were being achieved - CakePHP needed to "
+"grow, change and evolve our thinking to fit into\n"
+"\t\t\t\t\t\t  the new era."
+msgstr ""
+
+#: Template/Element/rebranding/summary.ctp:58
+msgid ""
+"What CakePHP has changed, grown - evolved, is of course the core of the "
+"framework. Sticking with even\n"
+"\t\t\t\t\t\tgreater conviction to the key philosophies and principles that "
+"the CakePHP framework has always held. The team\n"
+"\t\t\t\t\t\tset out to update, modernise and ensure both backwards "
+"compatibility but also future proof the framework. Leading\n"
+"\t\t\t\t\t\tto CakePHP 3 – as most would comment, the same but altogether "
+"improved."
+msgstr ""
+
+#: Template/Element/rebranding/summary.ctp:66
+msgid "Why did we change"
+msgstr ""
+
+#: Template/Element/rebranding/summary.ctp:68
+msgid ""
+"The CakePHP identity is built on the collaboration and dedication of not only "
+"the core development team,\n"
+"\t\t\t\t\t\tbut also of the community."
+msgstr ""
+
+#: Template/Element/rebranding/summary.ctp:72
+msgid "The way the framework spoke was still living in the past. "
+msgstr ""
+
+#: Template/Element/rebranding/summary.ctp:75
+msgid ""
+"CakePHP stood up once again, and strongly reflected – both on itself, but "
+"also on what was\n"
+"\t\t\t\t\thappening in the PHP community."
+msgstr ""
+
+#: Template/Element/rebranding/summary.ctp:79
+msgid ""
+"Through this, we have brought together a world, a CakePHP world, of insight, "
+"collaboration,\n"
+"\t\t\t\t\t\t community and the open source philosophy, to build a new (and "
+"vastly improved) CakePHP image."
+msgstr ""
+
+#: Template/Element/rebranding/summary.ctp:113
+msgid ""
+"In this discovery, reflection and research into where CakePHP is today, the "
+"team has grown, understood\n"
+"\t\t\t\t\tits resilience in the PHP framework world, but also, has stayed "
+"true to the CakePHP Framework’s philosophy - Help\n"
+"\t\t\t\t\tdevelopers around the world, build simpler, faster and consistent "
+"web applications."
+msgstr ""
+
+#: Template/Element/rebranding/summary.ctp:118
+msgid ""
+"The new CakePHP brand was designed to illustrate the values that have driven "
+"us through all\n"
+"\t\t\t\t\t\tthese years: simplicity, velocity and consistency."
+msgstr ""
+
+#: Template/Element/trademark/brand-colors.ctp:2
+msgid ""
+"5. And the unique visual styling of our website and packaging (the \"Trade "
+"Dress\")."
+msgstr ""
+"5. E o estilo visual único do nosso website e embalagens (o \"Trade Dress\")."
+
+#: Template/Element/trademark/brand-colors.ctp:3
+msgid "5.1. Brand colors."
+msgstr "5.1. Cores da marca."
+
+#: Template/Element/trademark/brand-colors.ctp:37
+msgid "5.1.1 Sister Brand Colors. - CakeDC"
+msgstr "5.1.1 Cores da marca irmã. - CakeDC"
+
+#: Template/Element/trademark/brand-colors.ctp:68
+msgid "5.1.2 Sister Brand Colors. - CakeSF"
+msgstr "5.1.2 Cores da marca irmã. - CakeSF"
+
+#: Template/Element/trademark/brand-colors.ctp:99
+msgid "5.1.3 Sister Brand Colors. - CakeFest"
+msgstr "5.1.3 Cores da marca irmã. - CakeFest"
+
+#: Template/Element/trademark/brand-colors.ctp:130
+msgid "5.1.4 Sister Brand Colors. - CakeTalent"
+msgstr "5.1.4 Cores da marca irmã. - CakeTalent"
+
+#: Template/Element/trademark/brand-colors.ctp:162
+msgid "5.1.5 Sister Brand Colors. - CakeJobs"
+msgstr "5.1.5 Cores da marca irmã. - CakeJobs"
+
+#: Template/Element/trademark/brand-colors.ctp:193
+msgid "5.1.6 Sister Brand Colors. - CakeUniversity"
+msgstr "5.1.6 Cores da marca irmã. - CakeUniversity"
+
+#: Template/Element/trademark/commitment.ctp:2
+#: Template/Element/trademark/sidebar.ctp:5
+msgid "Our commitment to open source principles"
+msgstr "Nosso compromisso com os princípios de código aberto"
+
+#: Template/Element/trademark/commitment.ctp:3
+msgid ""
+"We want to encourage and facilitate the use of our trademarks by the "
+"community, but do so in a way that still\n"
+"\t\tensures that the trademarks are meaningful as a source and quality "
+"indicator for our software and the\n"
+"\t\tassociated goods and services and continue to embody the high reputation "
+"of the software and the community\n"
+"\t\tassociated with it. This Policy therefore tries to strike the proper "
+"balance between: 1) our need to ensure\n"
+"\t\tthat our trademarks remain reliable indicators of the qualities that they "
+"are meant to preserve and 2) our\n"
+"\t\tcommunity members' desire to be full participants in the Project. "
+msgstr ""
+"Queremos incentivar e facilitar o uso de nossas marcas registradas pela "
+"comunidade, mas fazê-lo de uma forma que ainda garanta que as marcas são "
+"significativas como fonte e indicador de qualidade para o nosso software e os "
+"bens e serviços associados e continuar a encarnar a alta reputação do "
+"software e da comunidade associada a ele. Esta Política, portanto, procura "
+"estabelecer um equilíbrio adequado entre: 1) nossa necessidade de assegurar "
+"que nossas marcas permaneçam como indicadores confiáveis ​d​as qualidades que "
+"elas devem preservar e 2) o desejo de nossos membros da comunidade de "
+"participar plenamente no Projeto."
+
+#: Template/Element/trademark/flags.ctp:1
+msgid ""
+"1. Group Flag: The Group Flag is used to show plural form of usage. Example, "
+"you are a company or group of\n"
+"developers wanting to let others know you use CakePHP."
+msgstr ""
+"1. Bandeira de Grupo: A Bandeira de Grupo é usada para denotar uso "
+"pluralizado. Por exemplo, você é uma empresa ou grupo de desenvolvedores que "
+"deseja que os outros saibam que você usa o CakePHP."
+
+#: Template/Element/trademark/flags.ctp:8;34;60;86
+msgid "Floating Flag Embed Code:"
+msgstr "Código de Incorporação:"
+
+#: Template/Element/trademark/flags.ctp:18;43;70;95
+msgid "Image files:"
+msgstr "Arquivos de imagem:"
+
+#: Template/Element/trademark/flags.ctp:19;44;71;96
+msgid "DOWNLOAD PNG"
+msgstr ""
+
+#: Template/Element/trademark/flags.ctp:21;46;73;98
+msgid "DOWNLOAD EPS"
+msgstr ""
+
+#: Template/Element/trademark/flags.ctp:23;48;75;100
+msgid "DOWNLOAD SVG"
+msgstr ""
+
+#: Template/Element/trademark/flags.ctp:28
+msgid ""
+"2. Application Flag: The Application Flag is used to show that your have "
+"built an application that is using CakePHP."
+msgstr ""
+"2. Bandeira de Aplicação: A Bandeira de Aplicação é usada para mostrar que "
+"uma aplicação foi construída usando o CakePHP."
+
+#: Template/Element/trademark/flags.ctp:53
+msgid ""
+"3. Developer Flag: The Developer Flag is used by individuals to show their "
+"support for the project and that\n"
+" they are using CakePHP."
+msgstr ""
+"3. Bandeira de Desenvolvedor: A Bandeira de Desenvolvedor é usada por "
+"indivíduos que desejam demonstrar seu suporte ao projeto e que eles estão "
+"usando o CakePHP."
+
+#: Template/Element/trademark/flags.ctp:80
+msgid ""
+"4. Supporter Flag: The Supporter Flag is used to spread the word about "
+"CakePHP and tell them to use CakePHP."
+msgstr ""
+"4. Bandeira de Apoiador: A Bandeira de Apoiador é usada para fomentar o "
+"CakePHP e recomendar o uso do mesmo."
+
+#: Template/Element/trademark/general-considerations.ctp:2
+#: Template/Element/trademark/sidebar.ctp:71
+msgid "General considerations about trademarks and their use"
+msgstr "Considerações gerais sobre marcas comerciais e às suas utilizações"
+
+#: Template/Element/trademark/general-considerations.ctp:3
+#: Template/Element/trademark/sidebar.ctp:74
+msgid "What trademark law is about"
+msgstr "Do direito das marcas"
+
+#: Template/Element/trademark/general-considerations.ctp:6
+#: Template/Element/trademark/sidebar.ctp:76
+msgid "What is a trademark?"
+msgstr "O que é uma marca?"
+
+#: Template/Element/trademark/general-considerations.ctp:7
+msgid ""
+"A trademark is a word, phrase, symbol or design, or a combination of words, "
+"phrases, symbols or designs, that\n"
+"\t\tidentifies and distinguishes the source of the goods of one party from "
+"those of others. A service mark is the\n"
+"\t\tsame as a trademark, except that it identifies and distinguishes the "
+"source of a service rather than a product.\n"
+"\t\t\"Trade dress\" or \"get up\" refers to the look and feel of the "
+"packaging, which in this context can include the\n"
+"\t\tlayout, colors, images, and design choices in a web page. Throughout this "
+"Policy, the terms \"trademark\" and\n"
+"\t\t\"mark\" refer to both trademarks, service marks and trade dress."
+msgstr ""
+"Uma marca comercial é uma palavra, frase, símbolo ou design, ou uma "
+"combinação de palavras, frases, símbolos ou desenhos, que identifica e "
+"distingue a fonte dos bens de uma das partes das de outros. Uma marca de "
+"serviço é a mesma que uma marca registrada, exceto que ela identifica e "
+"distingue a fonte de um serviço em vez de um produto. \"Trade Dress\" ou "
+"\"get up\" refere-se à aparência da embalagem, que neste contexto pode "
+"incluir o layout, cores, imagens e escolhas de design em uma página da web. "
+"Ao longo desta Política, o termo \"Marca\" fere-se tanto a marcas comerciais, "
+"marcas de serviço e vestuário."
+
+#: Template/Element/trademark/general-considerations.ctp:15
+msgid ""
+"However, the use of a word is \"not as a trademark\" when it is used "
+"functionally as part of the software program,\n"
+"\t\tfor example, in a file, folder, directory, or path name. Use in this way "
+"is not a trademark infringement."
+msgstr ""
+"No entanto, o uso de uma palavra é \"não como uma marca registrada\" quando "
+"ele é usado funcionalmente como parte do programa de software, por exemplo, "
+"em um arquivo, pasta, diretório ou nome de caminho. O uso desta maneira não é "
+"uma violação de marca registrada."
+
+#: Template/Element/trademark/general-considerations.ctp:19
+#: Template/Element/trademark/sidebar.ctp:77
+msgid "What is \"likelihood of confusion\"?"
+msgstr "O que é \"risco de confusão\"?"
+
+#: Template/Element/trademark/general-considerations.ctp:20
+msgid ""
+"There is trademark infringement if your use of a trademark has created a "
+"\"likelihood of confusion.\" This means\n"
+"\t\tusing a trademark in a way that will likely confuse or deceive the "
+"relevant consuming public about the source of\n"
+"\t\ta product or service using the mark in question. For example, if the \"Foo"
+"\" software extension removes all double\n"
+"\t\tspaces after periods, but someone else later creates \"Foo\" software "
+"that adds a third space after periods,\n"
+"\t\tconsumers would be confused between the two and the newcomer will likely "
+"be a trademark infringer. As another\n"
+"\t\texample, if a company makes \"Foobar\" software and a third party offers "
+"training called \"Foobar Certification,\" a\n"
+"\t\tperson is likely to believe, wrongly, that the certification is being "
+"offered by the makers of Foobar software.\n"
+"\t\tThe third party has likely misled consumers about the source of its "
+"training and is a trademark infringer."
+msgstr ""
+"Existe violação de marca registrada se o uso de uma marca registrada criou um "
+"\"risco de confusão\". Isso significa usar uma marca comercial de uma forma "
+"que provavelmente irá confundir ou enganar o público consumidor relevante "
+"sobre a fonte de um produto ou serviço usando a marca em questão. Por "
+"exemplo, se a extensão de software \"Foo\" remove todos os espaços duplos "
+"após os períodos, mas outra pessoa mais tarde cria o software \"Foo\" que "
+"adiciona um terceiro espaço após os períodos, os consumidores ficariam "
+"confusos entre os dois eo recém-chegado provavelmente será um infrator de "
+"marca registrada . Como outro exemplo, se uma empresa fabrica software "
+"\"Foobar\" e um terceiro oferece treinamento chamado \"Certificação Foobar\", "
+"é provável que uma pessoa acredite, erroneamente, que a certificação está "
+"sendo oferecida pelos fabricantes do software Foobar. O terceiro "
+"provavelmente induziu os consumidores em erro sobre a fonte de sua formação e "
+"é um infrator de marca registrada."
+
+#: Template/Element/trademark/general-considerations.ctp:31
+#: Template/Element/trademark/sidebar.ctp:78
+msgid "What is \"nominative\" use?"
+msgstr "O que é uso \"nominativo\"?"
+
+#: Template/Element/trademark/general-considerations.ctp:32
+msgid ""
+"So-called \"nominative use\" (or \"nominative fair use\"), which is the name "
+"of the doctrine under U.S. trademark\n"
+"\t\tlaw, allows the use of another's trademark where it is necessary for "
+"understanding. Other countries' trademark\n"
+"\t\tlaws also have similar provisions. For example, a car repair shop that "
+"specializes in a particular brand of\n"
+"\t\tautomobile, VW for example, must be allowed to say that they repair VW "
+"cars. Here is what you should consider\n"
+"\t\twhen deciding whether your use of a trademark is a nominative fair use:"
+msgstr ""
+"O chamado \"uso nominativo\" (ou \"uso justo nominativo\"), que é o nome da "
+"doutrina sob a lei de marcas registradas dos Estados Unidos, permite o uso da "
+"marca registrada de outra pessoa onde é necessário para a compreensão. As "
+"leis de marcas registradas de outros países também têm disposições "
+"semelhantes. Por exemplo, uma oficina de reparação de automóveis que se "
+"especializa em uma determinada marca de automóvel, VW, por exemplo, deve ser "
+"permitido dizer que eles reparam carros VW. Aqui está o que você deve "
+"considerar quando decidir se o uso de uma marca é um uso justo nominativo:"
+
+#: Template/Element/trademark/general-considerations.ctp:39
+msgid ""
+"Whether you can identify the product or service in question without using the "
+"trademark"
+msgstr ""
+"Se você pode identificar o produto ou serviço em questão sem usar a marca "
+"registrada;"
+
+#: Template/Element/trademark/general-considerations.ctp:40
+msgid ""
+"Whether you are avoiding a likelihood of confusion in the way that you have "
+"used the trademark; and"
+msgstr ""
+"Se você está evitando um risco de confusão na forma como você usou a marca "
+"registrada;"
+
+#: Template/Element/trademark/general-considerations.ctp:41
+msgid ""
+"Whether you have used only as much as is necessary to identify the product or "
+"service."
+msgstr ""
+"Se você usou apenas o máximo necessário para identificar o produto ou serviço."
+
+#: Template/Element/trademark/general-considerations.ctp:43
+msgid ""
+"With our \"Foobar Certification\" example above, the person offering the "
+"certification would be allowed to say,\n"
+"\t\tunder the nominative fair use doctrine, that she is offering \"Maude's "
+"Certification for Foobar software.\" "
+msgstr ""
+"Com o nosso exemplo de \"Certificação Foobar\" acima, a pessoa que oferece a "
+"certificação teria permissão para dizer, de acordo com a doutrina de uso "
+"justo nominativo, que ela está oferecendo o \"Certificado de Maude para o "
+"software Foobar\"."
+
+#: Template/Element/trademark/general-considerations.ctp:45
+#: Template/Element/trademark/sidebar.ctp:82
+msgid "Proper trademark use"
+msgstr "Uso adequado da marca"
+
+#: Template/Element/trademark/general-considerations.ctp:47
+msgid ""
+"These rules hold true for all trademarks, not just ours, so you should follow "
+"them for our Marks as well as\n"
+"\t\tanyone else's. "
+msgstr ""
+"Essas regras são válidas para todas as marcas registradas, não apenas para "
+"nós, então você deve segui-las para nossas Marcas, assim como para qualquer "
+"outra pessoa."
+
+#: Template/Element/trademark/general-considerations.ctp:51
+#: Template/Element/trademark/sidebar.ctp:84
+msgid "Use of trademarks in text"
+msgstr "Uso de marcas registradas no texto"
+
+#: Template/Element/trademark/general-considerations.ctp:52
+msgid ""
+"Always distinguish trademarks from surrounding text with at least initial "
+"capital letters or in all capital letters."
+msgstr ""
+"Sempre distinguir marcas do texto com suas extremidades com letras "
+"maiúsculas, pelo menos iniciais ou em letras maiúsculas."
+
+#: Template/Element/trademark/general-considerations.ctp:53;60
+msgid "Unacceptable: {0}"
+msgstr "Inaceitável: {0}"
+
+#: Template/Element/trademark/general-considerations.ctp:54;61
+msgid "Acceptable: {0}"
+msgstr "Aceitável: {0}"
+
+#: Template/Element/trademark/general-considerations.ctp:58
+msgid ""
+"Always use trademarks in their exact form with the correct spelling, neither "
+"abbreviated, hyphenated, or\n"
+"\t\t\tcombined with any other word or words."
+msgstr ""
+
+#: Template/Element/trademark/general-considerations.ctp:65
+msgid "Don't pluralize a trademark."
+msgstr ""
+
+#: Template/Element/trademark/general-considerations.ctp:66
+msgid "Unacceptable: I {0} my computer today!"
+msgstr ""
+
+#: Template/Element/trademark/general-considerations.ctp:67
+msgid "Acceptable: I installed {0} software on my computer today!"
+msgstr ""
+
+#: Template/Element/trademark/general-considerations.ctp:71
+msgid "Always use a trademark as an adjective modifying a noun."
+msgstr ""
+"Sempre use uma marca registrada como um adjetivo que modifica um substantivo."
+
+#: Template/Element/trademark/general-considerations.ctp:71
+msgid "You can see the nouns we prefer under"
+msgstr "Você pode ver os substantivos preferidos em"
+
+#: Template/Element/trademark/general-considerations.ctp:72
+msgid "\"Our trademarks.\""
+msgstr "\"Nossas Marcas.\""
+
+#: Template/Element/trademark/general-considerations.ctp:73
+msgid "Unacceptable: This is a CakePHP. Anyone can install it"
+msgstr "Inaceitável: Este é um CakePHP. Qualquer pessoa pode instalá-lo"
+
+#: Template/Element/trademark/general-considerations.ctp:74
+msgid "Acceptable: This is a CakePHP application. Anyone can install it."
+msgstr "Aceitável: Esta é uma aplicação CakePHP. Qualquer um pode instalá-lo."
+
+#: Template/Element/trademark/general-considerations.ctp:78
+msgid ""
+"Don't use a trademark as a verb. Trademarks are products or services, never "
+"actions."
+msgstr ""
+"Não use uma marca registrada como um verbo. As marcas registradas são "
+"produtos ou serviços, nunca ações."
+
+#: Template/Element/trademark/general-considerations.ctp:79
+msgid "Unacceptable: I CakePHPified my computer today!"
+msgstr "Inaceitável: Eu CakePHPifiquei meu computador hoje!"
+
+#: Template/Element/trademark/general-considerations.ctp:80
+msgid "Acceptable: I installed CakePHP framework on my computer today!"
+msgstr "Aceitável: Eu instalei a estrutura do CakePHP no meu computador hoje!"
+
+#: Template/Element/trademark/general-considerations.ctp:84
+msgid ""
+"Don't use a trademark as a possessive. Instead, the following noun should be "
+"used in possessive form or\n"
+"\t\t\tthe sentence reworded so there is no possessive."
+msgstr ""
+"Não use uma marca registrada como possessiva. Em vez disso, o substantivo "
+"seguinte deve ser usado em forma possessiva ou a sentença reformulada para "
+"que não haja possessivo."
+
+#: Template/Element/trademark/general-considerations.ctp:86
+msgid "Unacceptable: CakePHP’s install interface is very clean."
+msgstr "Inaceitável: Interface de instalação do CakePHP é muito limpa."
+
+#: Template/Element/trademark/general-considerations.ctp:87
+msgid "Acceptable: The CakePHP install interface is very clean."
+msgstr "Aceitável: A interface de instalação do CakePHP está muito limpa."
+
+#: Template/Element/trademark/general-considerations.ctp:91
+msgid "Don't translate a trademark into another language."
+msgstr "Não traduza uma marca para outro idioma."
+
+#: Template/Element/trademark/general-considerations.ctp:92
+msgid "Unacceptable: Quiero instalar TartaPHP en mi sistema."
+msgstr "Inaceitável: Quiero instalar TartaPHP en mi sistema."
+
+#: Template/Element/trademark/general-considerations.ctp:93
+msgid "Acceptable:  Quiero instalar CakePHP en mi sistema."
+msgstr "Aceitável: Quiero instalar CakePHP en mi sistema."
+
+#: Template/Element/trademark/general-considerations.ctp:97
+#: Template/Element/trademark/sidebar.ctp:85
+msgid "Use of Logos"
+msgstr "Uso de Logos"
+
+#: Template/Element/trademark/general-considerations.ctp:98
+msgid ""
+"You may not change any Logo except to scale it. This means you may not add "
+"decorative elements, change the\n"
+"\t\tcolors, change the proportions, distort it, add elements, or combine it "
+"with other logos."
+msgstr ""
+"Você não pode alterar qualquer Logo a não ser para escalá-lo. Isso significa "
+"que você não pode adicionar elementos decorativos, alterar as cores, alterar "
+"as proporções, distorcê-lo, adicionar elementos ou combiná-lo com outros "
+"logos."
+
+#: Template/Element/trademark/general-considerations.ctp:102
+msgid ""
+"However, when the context requires the use of black-and-white graphics and "
+"the logo is color, you may reproduce\n"
+"\t\tthe logo in a manner that produces a black-and-white image."
+msgstr ""
+"No entanto, quando o contexto exige o uso de gráficos em preto-e-branco e o "
+"logo é colorido, você pode reproduzir o logo de uma maneira que produza uma "
+"imagem em preto e branco."
+
+#: Template/Element/trademark/general-considerations.ctp:105
+msgid ""
+"These guidelines are based on the Model Trademark Guidelines, available at "
+"{0},\n"
+"\t\tused under a Creative Commons Attribution 3.0 Unported license: {1}"
+msgstr ""
+"Essas diretrizes são baseadas nas Regras de Marca Registrada modelo, "
+"disponível em {0},\n"
+"Usada sob uma Creative Commons Attribution 3.0 Unported: {1}"
+
+#: Template/Element/trademark/general-information.ctp:2
+#: Template/Element/trademark/sidebar.ctp:63
+msgid "General Information"
+msgstr "Informações Gerais"
+
+#: Template/Element/trademark/general-information.ctp:3
+#: Template/Element/trademark/sidebar.ctp:65
+msgid "Trademark marking and legends"
+msgstr "Marcação de marcas e legendas"
+
+#: Template/Element/trademark/general-information.ctp:5
+msgid ""
+"The first or most prominent mention of a Mark on a webpage, document, "
+"packaging, or documentation should be\n"
+"\t\taccompanied by a symbol indicating whether the mark is a registered "
+"trademark (\"®\") or an unregistered trademark\n"
+"\t\t(\"™\"). See our {0} for the correct symbol to use."
+msgstr ""
+"A primeira menção ou a menção mais proeminente de uma Marca em uma página da "
+"Web, documento, embalagem ou documentação deve ser acompanhada por um símbolo "
+"indicando se a marca é uma marca registrada (\"®\") ou uma marca não "
+"registrada (\"™\"). Veja nossa {0} para o símbolo correto para usar."
+
+#: Template/Element/trademark/general-information.ctp:8
+msgid "Trademark List"
+msgstr "lista de Marcas"
+
+#: Template/Element/trademark/general-information.ctp:11
+msgid ""
+"Also, if you are using our Marks in a way described in the sections {0},\n"
+"\t\tplease put following notice at the foot of the page where you have used "
+"the Mark (or, if in a book, on the\n"
+"\t\tcredits page), on any packaging or labeling, and on advertising or "
+"marketing materials: CakePHP and related Marks\n"
+"\t\tare trademarks of Cake Software Foundation, Inc. and Cake Development "
+"Corporation, registered in the United States and other countries.\n"
+"\t\tUsed with permission from Cake Software Foundation, Inc."
+msgstr ""
+"Além disso, se você estiver usando nossas Marcas da forma descrita nas seções "
+"de {0}, por favor coloque o seguinte aviso ao pé da página onde você usou a "
+"Marca (ou, na página de créditos), e no seu material de publicidade e "
+"marketin: A Cake Software Foundation, Inc. e Cake Development Corporation, "
+"registradas nos Estados Unidos e em outros países, são marcas registradas da "
+"Cake Software Foundation, Inc. e da Cake Development Corporation. Usado com "
+"permissão da Cake Software Foundation, Inc."
+
+#: Template/Element/trademark/general-information.ctp:16
+#: Template/Element/trademark/non-software.ctp:33
+#: Template/Element/trademark/sidebar.ctp:30;52
+#: Template/Element/trademark/software.ctp:61
+msgid "Uses for which we are granting a license"
+msgstr "utilizações para as quais liberamos a concessão de uma licença"
+
+#: Template/Element/trademark/general-information.ctp:17
+#: Template/Element/trademark/sidebar.ctp:66
+msgid "What to do when you see abuse"
+msgstr "O que fazer quando você ver algum abuso de uso"
+
+#: Template/Element/trademark/general-information.ctp:19
+msgid ""
+"If you are aware of any confusing use or misuse of the Marks in any way, we "
+"would appreciate you bringing this to\n"
+"\t\tour attention. Please contact us as described below so that we can "
+"investigate it further."
+msgstr ""
+"Se você estiver ciente de qualquer uso confuso ou uso indevido das Marcas de "
+"qualquer forma, gostaríamos que você nos atentasse quanto a isso. Entre em "
+"contato conosco como descrito abaixo para que possamos investigar mais."
+
+#: Template/Element/trademark/general-information.ctp:21
+#: Template/Element/trademark/guidelines.ctp:222
+#: Template/Element/trademark/introduction.ctp:25
+#: Template/Element/trademark/sidebar.ctp:67
+msgid "Where to get further information"
+msgstr "Onde obter mais informações"
+
+#: Template/Element/trademark/general-information.ctp:23
+msgid ""
+"If you have any questions about this Policy, would like to speak with us "
+"about the use of our Marks in ways not\n"
+"\t\tdescribed in the Policy, or see any abuse of our Marks, please contact {0}"
+msgstr ""
+"Se você tiver alguma dúvida sobre esta Política, gostaria de falar com a "
+"gente sobre o uso de nossas marcas de maneiras não descritas na Política, ou "
+"notar qualquer abuso das nossas marcas, entre em contato: legal [at] "
+"cakefoundation.org"
+
+#: Template/Element/trademark/guidelines.ctp:2
+#: Template/Element/trademark/sidebar.ctp:7
+msgid "Trademarks subject to the guidelines"
+msgstr "Marcas sujeitas às diretrizes"
+
+#: Template/Element/trademark/guidelines.ctp:3
+#: Template/Element/trademark/sidebar.ctp:9
+msgid "Our trademarks"
+msgstr "Nossas marcas registradas"
+
+#: Template/Element/trademark/guidelines.ctp:5
+msgid "This Policy covers:"
+msgstr "Esta Política abrange:"
+
+#: Template/Element/trademark/guidelines.ctp:7
+msgid "1. Our word trademarks and service marks (the \"Word Marks\"):"
+msgstr ""
+"1. Nossas marcas comerciais e marcas de serviço (as \"Marcas de Palavra\"):"
+
+#: Template/Element/trademark/guidelines.ctp:12
+msgid "Mark"
+msgstr "Marca"
+
+#: Template/Element/trademark/guidelines.ctp:15
+msgid "Common descriptive name for the goods or services"
+msgstr ""
+
+#: Template/Element/trademark/guidelines.ctp:77
+msgid "2. Our logos (the \"Logos\"):"
+msgstr "2. Nossos logos (os \"Logos\"):"
+
+#: Template/Element/trademark/guidelines.ctp:82
+msgid "CakePHP Horizontal Logo"
+msgstr "CakePHP Logo Horizontal"
+
+#: Template/Element/trademark/guidelines.ctp:86
+msgid "CakePHP Vertical Logo"
+msgstr "CakePHP Logo Vertical"
+
+#: Template/Element/trademark/guidelines.ctp:90
+msgid "CakePHP Vertical Tagline Logo"
+msgstr "CakePHP Logo Vertical com Slogan"
+
+#: Template/Element/trademark/guidelines.ctp:94
+msgid "CakePHP Horizontal Tagline Logo"
+msgstr "CakePHP Logo Horizontal com Slogan"
+
+#: Template/Element/trademark/guidelines.ctp:98
+msgid "CakePHP Version Number <br> Horizontal Logo"
+msgstr "CakePHP Logo Horizontal <br> Número da Versão"
+
+#: Template/Element/trademark/guidelines.ctp:102
+msgid "CakePHP Version Number<br>Vertical Logo"
+msgstr "CakePHP Logo Vertical <br> Número da Versão"
+
+#: Template/Element/trademark/guidelines.ctp:106
+msgid "CakePHP Version Number<br>and Name Horizontal Logo"
+msgstr "CakePHP Logo Horizontal <br> Número da Versão e Nome"
+
+#: Template/Element/trademark/guidelines.ctp:110
+msgid "CakePHP Version Number<br>and Name Vertical Logo"
+msgstr "CakePHP Logo Vertical <br> Número da Versão e Nome"
+
+#: Template/Element/trademark/guidelines.ctp:115
+msgid "3. CakePHP sister brands’ logos:"
+msgstr "3. Logos das marcas irmãs do CakePHP:"
+
+#: Template/Element/trademark/guidelines.ctp:119
+msgid "CakeDC Full Name Horizontal Signature"
+msgstr "CakeDC Nome Completo Assinatura Horizontal"
+
+#: Template/Element/trademark/guidelines.ctp:123
+msgid "CakeDC Initials Horizontal Signature"
+msgstr "CakeDC Iniciais Assinatura Horizontal"
+
+#: Template/Element/trademark/guidelines.ctp:127
+msgid "CakeDC Full Name Vertical Signature"
+msgstr "CakeDC Nome Completo Assinatura Vertical"
+
+#: Template/Element/trademark/guidelines.ctp:131
+msgid "CakeDC Initials Vertical Signature"
+msgstr "CakeDC Iniciais Assinatura Vertical"
+
+#: Template/Element/trademark/guidelines.ctp:135
+msgid "CakeSF Full Name Horizontal Signature"
+msgstr "CakeSF Nome Completo Assinatura Horizontal"
+
+#: Template/Element/trademark/guidelines.ctp:139
+msgid "CakeSF Initials Horizontal Signature"
+msgstr "CakeSF Iniciais Assinatura Horizontal"
+
+#: Template/Element/trademark/guidelines.ctp:143
+msgid "CakeSF Full Name Vertical Signature"
+msgstr "CakeSF Nome Completo Assinatura Vertical"
+
+#: Template/Element/trademark/guidelines.ctp:147
+msgid "CakeSF Initials Vertical Signature"
+msgstr "CakeSF Iniciais Assinatura Vertical"
+
+#: Template/Element/trademark/guidelines.ctp:151
+msgid "CakeFest Horizontal Signature"
+msgstr "CakeFest Assinatura Horizontal"
+
+#: Template/Element/trademark/guidelines.ctp:155
+msgid "CakeFest Vertical Signature"
+msgstr "CakeFest Assinatura Vertical"
+
+#: Template/Element/trademark/guidelines.ctp:159
+msgid "CakeTalent Horizontal Signature"
+msgstr "CakeTalent Assinatura Horizontal"
+
+#: Template/Element/trademark/guidelines.ctp:163
+msgid "CakeTalent Vertical Signature"
+msgstr "CakeTalent Assinatura Vertical"
+
+#: Template/Element/trademark/guidelines.ctp:167
+msgid "CakeJobs Horizontal Signature"
+msgstr "CakeJobs Assinatura Horizontal"
+
+#: Template/Element/trademark/guidelines.ctp:171
+msgid "CakeJobs Vertical Signature"
+msgstr "CakeJobs Assinatura Vertical"
+
+#: Template/Element/trademark/guidelines.ctp:175
+msgid "CakeUniversity Horizontal Signature"
+msgstr "CakeUniversity Assinatura Horizontal"
+
+#: Template/Element/trademark/guidelines.ctp:179
+msgid "CakeUniversity Vertical Signature"
+msgstr "CakeUniversity Assinatura Vertical"
+
+#: Template/Element/trademark/guidelines.ctp:185
+msgid "4. Community Flags"
+msgstr "4. Flags comunitárias"
+
+#: Template/Element/trademark/guidelines.ctp:186
+msgid ""
+"These have been corrected to show your support for the CakePHP project. The "
+"terms of this Policy applies\n"
+"\t\t\tto the usage of these logos."
+msgstr ""
+"Estas flags foram designadas para mostrar seu apoio ao projeto CakePHP. Os "
+"termos desta Política aplicam-se à utilização destes logos."
+
+#: Template/Element/trademark/guidelines.ctp:194
+msgid "5. Community Flags usage Guidelines:"
+msgstr "5. Diretrizes de Uso das Flags Comunitárias:"
+
+#: Template/Element/trademark/guidelines.ctp:195
+msgid ""
+"Respect a margin over a forth of the flag’s hight to ensure visual "
+"effectiveness. The side margins might be\n"
+"\t\t\tdisregarded while using the flag on the extreme left or right sides of "
+"a layout."
+msgstr ""
+"Respeite uma margem maior que 1/4 da altura da bandeira para garantir a "
+"eficácia visual. As margens laterais podem ser desconsideradas ao usar a "
+"bandeira no lado esquerdo ou direito de um layout."
+
+#: Template/Element/trademark/guidelines.ctp:203
+msgid ""
+"5.2. Brand stylistic shape: the ellipse used to design the Brandmark is also "
+"a brand asset itself, and it can be\n"
+"\t\tused as a decorative corner on layout boxes and backgrounds."
+msgstr ""
+"5.2. Forma estilística da marca: a elipse usada para projetar o Brandmark é "
+"também um ativo da marca em si, e pode ser usada como um canto decorativo em "
+"caixas e fundos de layout."
+
+#: Template/Element/trademark/guidelines.ctp:207
+msgid ""
+"5.3. Iconography: icons and illustrations follow the Brandmark aesthetics: "
+"flat, clean and use negative space for\n"
+"\t\tlighting and shading. The images are designed using the official color "
+"palette. Conceptually, the ico nography\n"
+"\t\tfollows the baking universe."
+msgstr ""
+"5.3. Iconografia: ícones e ilustrações seguem a estética da Brandmark: plana, "
+"limpa e usa espaço negativo para iluminação e sombreamento. As imagens são "
+"projetadas usando a paleta de cores oficial. Conceitualmente, a iconografia "
+"segue a referência de \"cozinhar um bolo\"."
+
+#: Template/Element/trademark/guidelines.ctp:212
+msgid ""
+"This Policy encompasses all trademarks and service marks, whether Word Marks, "
+"Logos or Trade Dress, which are\n"
+"\t\tcollectively referred to as the “Marks.” Some Marks may not be "
+"registered, but registration does not equal\n"
+"\t\townership of trademarks. This Policy covers our Marks whether they are "
+"registered or not."
+msgstr ""
+"Esta Política abrange todas as marcas registradas e marcas de serviço, sejam "
+"Marcas de Palavras, Logos ou Trade Dress, que são coletivamente referidas "
+"como \"Marcas\". Algumas Marcas não podem ser registradas, mas o registro não "
+"é igual a propriedade de marcas registradas. Esta Política abrange as nossas "
+"Marcas, quer estejam registadas ou não."
+
+#: Template/Element/trademark/guidelines.ctp:215
+#: Template/Element/trademark/sidebar.ctp:10
+msgid "The trademarks we are licensing in this Policy"
+msgstr "As marcas comerciais que estamos licenciando nesta Política"
+
+#: Template/Element/trademark/guidelines.ctp:217
+msgid ""
+"The following trademarks are ones that covered by the Policy, all others are "
+"reserved exclusively to our use:"
+msgstr ""
+"As seguintes marcas registradas são aquelas cobertas pela Política, todas as "
+"outras são reservadas exclusivamente ao nosso uso:"
+
+#: Template/Element/trademark/guidelines.ctp:219
+msgid "Community flags as shown in Section 4"
+msgstr "Como indicado na seção 4"
+
+#: Template/Element/trademark/guidelines.ctp:221
+msgid ""
+"Contact us as described in \"{0}\" below if you have questions or want to "
+"ask\n"
+"\t\tpermission to use any of our reserved trademarks."
+msgstr ""
+"Contacte-nos conforme descrito em \"{0}\" abaixo se você tiver dúvidas ou "
+"quiser pedir permissão para utilizar qualquer uma das nossas marcas "
+"reservadas."
+
+#: Template/Element/trademark/introduction.ctp:1
+#: Template/Element/trademark/sidebar.ctp:4
+msgid "Introduction"
+msgstr "Introdução"
+
+#: Template/Element/trademark/introduction.ctp:3
+msgid ""
+"This document, the \"Policy,\" outlines the CakePHP project's (the \"Project"
+"\") policy for the use of\n"
+"\t\tour trademarks. While our software is available under a free and open "
+"source software license, the copyright\n"
+"\t\tlicense does not include an implied right or license to use our trademark."
+msgstr ""
+"Este documento, que será referenciado como \"Política\", descreve a política "
+"do projeto CakePHP (o \"Projeto\") para o uso de nossas marcas registradas. "
+"Enquanto o nosso software está disponível sob uma licença de software livre e "
+"de código aberto, a licença de direitos autorais não inclui um direito "
+"implícito ou licença para usar nossa marca registrada."
+
+#: Template/Element/trademark/introduction.ctp:8
+msgid ""
+"The role of trademarks is to provide assurance about the quality of the "
+"products or services with which the\n"
+"\t\ttrademark is associated, but because an open source license allows your "
+"unrestricted modification of the copyrighted\n"
+"\t\tsoftware, we cannot be sure that your modifications to the software are "
+"ones that will not be misleading if\n"
+"\t\tdistributed under the same name. Instead, this Policy describes the "
+"circumstances under which you may use our\n"
+"\t\ttrademarks."
+msgstr ""
+"O papel das marcas é fornecer garantia sobre a qualidade dos produtos ou "
+"serviços com os quais a marca está associada, mas porque uma licença de "
+"código aberto permite a sua modificação irrestrita do software protegido por "
+"direitos autorais, não podemos ter certeza de que suas modificações no "
+"software não serão enganosas se distribuído com o mesmo nome. Em vez disso, "
+"esta Política descreve as circunstâncias em que você pode usar nossas marcas "
+"registradas."
+
+#: Template/Element/trademark/introduction.ctp:15
+msgid ""
+"In this Policy we are not trying to limit the lawful use of our trademarks, "
+"but rather describe for you what\n"
+"\t\twe consider the parameters of lawful use to be. Trademark law can be "
+"ambiguous, so we hope to provide enough\n"
+"\t\tclarity for you to understand whether we will consider your use licensed "
+"or non-infringing."
+msgstr ""
+"Nessa Política não estamos tentando limitar o uso legal de nossas marcas "
+"registradas, mas descrevemos para você o que consideramos os parâmetros de "
+"uso legítimo. Direito de marca pode ser ambíguo, por isso esperamos fornecer "
+"suficiente clareza para você entender se vamos considerar o seu uso "
+"licenciado ou não-infrator."
+
+#: Template/Element/trademark/introduction.ctp:20
+msgid ""
+"The sections that follow describe what trademarks are covered by these "
+"Guidelines, as well as uses of the\n"
+"\t\ttrademarks that are allowed without additional permission from us. If you "
+"want to use our trademarks in ways that\n"
+"\t\tare not described in this Policy, please see \"{0}\" below for contact "
+"information.\n"
+"\t\tAny use that does not comply with this Policy or for which we have not "
+"separately provided written permission is\n"
+"\t\tnot a use that we have approved, so you must decide for yourself whether "
+"the use is nevertheless lawful."
+msgstr ""
+"As seções a seguir descrevem quais marcas são cobertas nesta Política, bem "
+"como os usos das marcas registradas que são permitidos sem permissão "
+"adicional de nossa parte. Se você quiser usar nossas marcas comerciais de "
+"maneiras que não são descritas nesta Política, consulte \"{0} \" abaixo para "
+"obter informações de contato. Qualquer utilização que não cumpra esta "
+"Política ou para a qual não tenha fornecido separadamente permissão por "
+"escrito não é um uso que aprovamos, pelo que deve decidir por si mesmo se o "
+"uso é, no entanto, lícito."
+
+#: Template/Element/trademark/non-software.ctp:2
+#: Template/Element/trademark/sidebar.ctp:41
+msgid "Use for non-software goods and services"
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:4
+#: Template/Element/trademark/software.ctp:4
+msgid "See {0}, above, which also apply."
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:6
+#: Template/Element/trademark/sidebar.ctp:13
+#: Template/Element/trademark/software.ctp:4
+#: Template/Element/trademark/universal-considerations.ctp:2
+msgid "Universal considerations for all uses"
+msgstr "Considerações universais para todos os usos"
+
+#: Template/Element/trademark/non-software.ctp:10
+#: Template/Element/trademark/sidebar.ctp:18
+#: Template/Element/trademark/software.ctp:8
+msgid "Uses we consider non-infringing"
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:13
+#: Template/Element/trademark/sidebar.ctp:46
+msgid "Websites"
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:14
+msgid ""
+"You may use the Word Marks and Logos, but not the Trade Dress, on your "
+"webpage to show your support for the Project as long as:"
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:17
+msgid ""
+"The website has branding that is easily distinguished from the Project Trade "
+"Dress;"
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:18
+msgid "You own branding or naming is more prominent than any Project Marks;"
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:19
+msgid "The Logos hyperlink to the Project website;"
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:20
+msgid ""
+"The site does not mislead customers into thinking that either your website, "
+"service, or product is our website, service, or product; and"
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:22
+msgid ""
+"The site clearly states that you are not affiliated with or endorsed by the "
+"Project."
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:25
+#: Template/Element/trademark/sidebar.ctp:47
+msgid "Publications and presentations"
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:26
+msgid ""
+"You can use the Word Marks in book and article titles, and the Logo in "
+"illustrations within the document, aslong as the use does not suggest that we "
+"have published, endorse, or agree with your work."
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:30
+#: Template/Element/trademark/sidebar.ctp:48 site.php:225
+msgid "Events"
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:31
+msgid ""
+"You can use the signage in the &lt;&lt;Brand Standards&gt;&gt; to promote the "
+"software and Project at events."
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:36
+#: Template/Element/trademark/sidebar.ctp:54
+msgid "User groups"
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:37
+msgid ""
+"You can use the Word Marks as part of your user group name provided that:"
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:40
+msgid "The main focus of the group is the software;"
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:41
+msgid "Any software or services the group provides are without cost;"
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:42
+msgid "The group does not make a profit;"
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:43
+msgid ""
+"Any charge to attend meetings are to cover the cost of the venue, food and "
+"drink only."
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:45
+msgid ""
+"Note that the Universal considerations for all uses, above, still apply, "
+"specifically, that you may not use or register the Marks as part of your own "
+"trademark, service mark, domain name, company name, trade name, product name "
+"or service name."
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:48
+#: Template/Element/trademark/sidebar.ctp:55
+msgid "Promotional goods"
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:49
+msgid ""
+"\"Promotional goods\" are non-software goods that use the Marks and that are "
+"intended to advertise the Project, promote the Project, or show membership in "
+"the Project community."
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:52
+msgid ""
+"&lt;&lt;Example #1&gt;&gt; You may make promotional goods for free giveaway "
+"at open source conferences and events using only the designs found on our &lt;"
+"&lt;Brand Standards&gt;&gt; site."
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:54
+msgid ""
+"&lt;&lt;Example #2&gt;&gt; You may make promotional goods for free giveaway "
+"at open source conferences and events provided that the goods are obtained "
+"from &lt;&lt;contractor for promotional goods.&gt;&gt;"
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:55
+msgid "Uses we consider infringing without seeking further permission from us"
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:57
+msgid ""
+"We will likely consider using the Marks as part of a domain name or subdomain "
+"an infringement of our Marks."
+msgstr ""
+
+#: Template/Element/trademark/non-software.ctp:59
+msgid ""
+"We would likely consider using the Marks on promotional goods for sale an "
+"infringement of our Marks."
+msgstr ""
+
+#: Template/Element/trademark/sidebar.ctp:2
+msgid "Contents"
+msgstr "Conteúdo"
+
+#: Template/Element/trademark/sidebar.ctp:15
+#: Template/Element/trademark/software.ctp:2
+msgid "Use for software"
+msgstr ""
+
+#: Template/Element/trademark/sidebar.ctp:20
+msgid ""
+"Distribution of unmodified source code or unmodified executable\n"
+"\t\t\t\t\t\t\t\tcode we have compiled"
+msgstr ""
+
+#: Template/Element/trademark/sidebar.ctp:22
+msgid ""
+"Distribution of executable code that you have compiled, or\n"
+"\t\t\t\t\t\t\t\tmodified code"
+msgstr ""
+
+#: Template/Element/trademark/sidebar.ctp:24
+msgid ""
+"Statements about compatibility, interoperability or\n"
+"\t\t\t\t\t\t\t\tderivation"
+msgstr ""
+
+#: Template/Element/trademark/sidebar.ctp:26
+#: Template/Element/trademark/software.ctp:51
+msgid "Use of trademarks to show community affiliation"
+msgstr ""
+
+#: Template/Element/trademark/sidebar.ctp:32
+#: Template/Element/trademark/software.ctp:63
+msgid "Distribution of modified software"
+msgstr ""
+
+#: Template/Element/trademark/sidebar.ctp:33
+#: Template/Element/trademark/software.ctp:75
+msgid "Distribution of software preloaded on hardware"
+msgstr ""
+
+#: Template/Element/trademark/sidebar.ctp:36;58
+msgid ""
+"Uses we consider infringing without seeking further permission from\n"
+"\t\t\t\t\t\tus"
+msgstr ""
+
+#: Template/Element/trademark/sidebar.ctp:44
+msgid ">Uses we consider non-infringing"
+msgstr ""
+
+#: Template/Element/trademark/sidebar.ctp:90
+msgid "Footnotes"
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:11
+msgid ""
+"Distribution of unmodified source code or unmodified executable code\n"
+"\t\t\twe have compiled"
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:13
+msgid ""
+"When you redistribute an unmodified copy of our software, you are not "
+"changing the quality or nature of it.\n"
+"\t\tTherefore, you may retain the Word Marks and the Logos we have placed on "
+"the software, to identify your\n"
+"\t\tredistribution -- whether that redistribution is made by optical media, "
+"memory stick or download of unmodified\n"
+"\t\tsource and executable code. This kind of use only applied if you are "
+"redistributing an official distribution\n"
+"\t\tfrom this Project that has not been changed in any way."
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:21
+msgid ""
+"Distribution of executable code that you have compiled, or modified\n"
+"\t\t\tcode"
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:23
+msgid ""
+"You may use the Word Marks, but not the Logos, to truthfully describe the "
+"origin of the software that you are\n"
+"\t\tproviding, that is, that the code you are distributing is a modification "
+"of our software. You may say, for\n"
+"\t\texample, that \"this software is derived from the source code for  "
+"CakePHP Framework.\""
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:28
+msgid ""
+"Of course, you can place your own trademarks or logos on versions of the "
+"software to which you have made\n"
+"\t\tsubstantive modifications, because by modifying the software, you have "
+"become the origin of that exact version.\n"
+"\t\tIn that case, you should not use our Logos. Our source code version "
+"therefore does not contain our Logo data\n"
+"\t\tfiles."
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:34
+msgid ""
+"Statements about compatibility, interoperability or\n"
+"\t\t\tderivation"
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:36
+msgid ""
+"You may use the Word Marks, but not the Logos, to truthfully describe the "
+"relationship between your software and\n"
+"\t\tours. Our Mark should be used after a verb or preposition that describes "
+"the relationship between your software\n"
+"\t\tand ours. So you may say, for example, \"Bob's software for the CakePHP "
+"Framework \" but may not say \"Bob's CakePHP\n"
+"\t\tsoftware.\" Some other examples that may work for you are:"
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:42
+msgid "[Your software] works with CakePHP Framework"
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:43
+msgid "[Your software] uses CakePHP Framework"
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:44
+msgid "[Your software] is compatible with CakePHP Framework"
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:45
+msgid "[Your software] is powered by CakePHP Framework"
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:46
+msgid "[Your software] runs on CakePHP Framework"
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:47
+msgid "[Your software] for use with CakePHP Framework"
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:48
+msgid "[Your software] for CakePHP Framework"
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:52
+msgid ""
+"This section discusses the use of our Marks for software such an application "
+"themes, skins and personas. The use\n"
+"\t\t\tof our Marks on websites is discussed below."
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:56
+msgid ""
+"You may use the Word Marks and the Logos in themes, personas, or skins for "
+"applications to show your support for\n"
+"\t\tthe Project, provided that the use is non-commercial and the use is "
+"clearly decorative, as contrasted with a use\n"
+"\t\tthat appears to be the branding for a website or application."
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:64
+msgid ""
+"Example #1: You may use the Word Marks and the Logos for the distribution of "
+"code (source or executable)\n"
+"\t\ton the condition that any executable is built from the official Project "
+"source code and that any modifications\n"
+"\t\tare limited to switching on or off features already included in the "
+"software, translations into other languages,\n"
+"\t\tand incorporating bug-fix patches."
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:70
+msgid ""
+"Example #2: You may use the Word Marks and the Logos for the distribution of "
+"executable code on the\n"
+"\t\tcondition that it is made from official Project source code using the "
+"procedure documented for creating an\n"
+"\t\texecutable found at &lt;&lt;location of build instructions.&gt;&gt;&gt;"
+"&gt;"
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:76
+msgid ""
+"Example #1: You may use the Word Marks and the Logos in association with "
+"hardware devices on the\n"
+"\t\tcondition that the executable installed on the device is the official "
+"source executable for the Project, and\n"
+"\t\tthat you do not suggest that the Project is the source of the hardware "
+"device itself but rather than the Marks\n"
+"\t\tare for the software incorporated into the device."
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:82
+msgid ""
+"Example #2: You may use use the Word Marks and the Logos in association with "
+"hardware devices on the\n"
+"\t\tcondition that the software installed on the device is modified only so "
+"far as necessary to operate on the\n"
+"\t\thardware platforms and the essential functions of the software are "
+"unchanged, and that you do not suggest that\n"
+"\t\tthe Project is the source of the hardware device itself but rather than "
+"the Marks are for the software\n"
+"\t\tincorporated into the device."
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:87
+msgid ""
+"Uses we consider infringing without seeking further permission from\n"
+"\t\tus"
+msgstr ""
+
+#: Template/Element/trademark/software.ctp:90
+msgid ""
+"We will likely consider using the Marks in a software distribution that "
+"combines our software with any other\n"
+"\t\tsoftware program an infringement of our Marks. In addition to creating a "
+"single executable for both software\n"
+"\t\tprograms, we would consider your software \"combined\" with ours if "
+"installing our software automatically installs\n"
+"\t\tyours. We would not consider your software \"combined\" with ours if it "
+"is on the same media but requires\n"
+"\t\tseparate, independent action to install it."
+msgstr ""
+
+#: Template/Element/trademark/universal-considerations.ctp:4
+msgid ""
+"Whenever you use one of the Marks, you must always do so in a way that does "
+"not mislead anyone, either directly or by\n"
+"\t\tomission, about exactly what they are getting and from whom. The law "
+"reflects this requirement in two major ways described\n"
+"\t\tin more detail {0}: it prohibits creating a {1} but allows for {2}. For "
+"example, you cannot say you are distributing\n"
+"\t\tthe CakePHP Framework when you're distributing a modified version of it, "
+"because people would be confused\n"
+"\t\tbecause they are not getting the same features and functionality they "
+"would get if they downloaded the software directly\n"
+"\t\tfrom us. You also cannot use our logo on your website in a way that "
+"suggests that your website is an official website or\n"
+"\t\tthat we endorse your website. You can, though, say you like the CakePHP "
+"Framework, that you participate in\n"
+"\t\t the CakePHP community, that you are providing an unmodified version of "
+"the CakePHP Framework,\n"
+"\t\t or that you wrote a book describing how to use the CakePHP Framework."
+msgstr ""
+"Sempre que você usar uma das Marcas, você deve sempre fazê-lo de uma maneira "
+"que não engane ninguém, diretamente ou por omissão, sobre exatamente o que "
+"eles estão recebendo e de quem. A lei reflete esta exigência de duas maneiras "
+"principais descritas em mais detalhes {0}: que proíbe a criação de um {1} "
+"permite a {2} . Por exemplo, você não pode dizer que está distribuindo o "
+"Framework CakePHP quando distribui uma versão modificada dele, porque as "
+"pessoas ficariam confusas por não estarem recebendo os mesmos recursos e "
+"funcionalidades que obteriam se baixassem o software diretamente de nós. Você "
+"também não pode usar nosso logo em seu site de uma forma que sugere que seu "
+"site é um site oficial ou que endossamos seu site. Você pode, no entanto, "
+"dizer que gosta do Framework CakePHP, que participa da comunidade CakePHP, "
+"que está fornecendo uma versão não modificada do Framework CakePHP ou que "
+"escreveu um livro descrevendo como usar o Framework CakePHP."
+
+#: Template/Element/trademark/universal-considerations.ctp:13
+msgid "below"
+msgstr "abaixo"
+
+#: Template/Element/trademark/universal-considerations.ctp:14
+msgid "\"likelihood of confusion\""
+msgstr "\"risco de confusão\""
+
+#: Template/Element/trademark/universal-considerations.ctp:15
+msgid "\"nominative use\""
+msgstr "\"utilização nominativa\""
+
+#: Template/Element/trademark/universal-considerations.ctp:17
+msgid ""
+"This fundamental requirement, that it is always clear to people what they are "
+"getting and from whom, is reflected throughout this Policy. It should also "
+"serve as your guide if you are not sure about how you are using the\n"
+"\t\tMarks."
+msgstr ""
+"Esta exigência fundamental, para que seja smpre claro para as pessoas o que "
+"eles estão recebendo e de quem, é refletida ao longo desta Política. Ele "
+"também deve servir como seu guia se você não tem certeza sobre como você está "
+"usando as Marcas."
+
+#: Template/Element/trademark/universal-considerations.ctp:20
+msgid "In addition:"
+msgstr "Em adição:"
+
+#: Template/Element/trademark/universal-considerations.ctp:22
+msgid ""
+"You may not use the Marks in association with the use or distribution of "
+"software if you are also not in compliance with the copyright license for the "
+"software."
+msgstr ""
+"Você não pode usar as Marcas em associação com o uso ou distribuição de "
+"software se você também não estiver em conformidade com a licença de direitos "
+"autorais do software."
+
+#: Template/Element/trademark/universal-considerations.ctp:24
+msgid ""
+"You may not use or register, in whole or in part, the Marks as part of your "
+"own trademark, service mark, domain name, company name, trade name, product "
+"name or service name."
+msgstr ""
+"Você não pode usar ou registrar, no todo ou em parte, as Marcas como parte de "
+"sua própria marca registrada, marca de serviço, nome de domínio, nome da "
+"empresa, nome comercial, nome do produto ou nome do serviço."
+
+#: Template/Element/trademark/universal-considerations.ctp:26
+msgid ""
+"Trademark law does not allow your use of names or trademarks that are too "
+"similar to ours. You therefore may not use an obvious variation of any of our "
+"Marks or any phonetic equivalent, foreign language equivalent, takeoff, or "
+"abbreviation for a similar or compatible product or service. We would "
+"consider the following too similar to one of our Marks:"
+msgstr ""
+"A lei de marcas registradas não permite o uso de nomes ou marcas que sejam "
+"muito semelhantes às nossas. Portanto, você não pode usar uma variação óbvia "
+"de nenhuma de nossas Marcas ou qualquer equivalente fonético, equivalente em "
+"idioma estrangeiro, decolagem ou abreviação de um produto ou serviço similar "
+"ou compatível. Consideraríamos o seguinte muito semelhante a uma de nossas "
+"Marcas:"
+
+#: Template/Element/trademark/universal-considerations.ctp:28
+msgid "Any mark ending with the letters Cake."
+msgstr "Qualquer marca terminando com as letras Cake."
+
+#: Template/Element/trademark/universal-considerations.ctp:30
+msgid "Any mark beginning with the letters Cake."
+msgstr "Qualquer marca começando com as letras Cake."
+
+#: Template/Element/trademark/universal-considerations.ctp:32
+msgid ""
+"You agree that you will not acquire any rights in the Marks and that any "
+"goodwill generated by your use of the Marks inures solely to our benefit."
+msgstr ""
+"Você concorda que não adquirirá quaisquer direitos sobre as Marcas e que "
+"qualquer ágio gerado pelo seu uso das Marcas será exclusivamente para nosso "
+"benefício."
+
+#: Template/Email/text/writers_form.ctp:10 Template/Writers/index.ctp:88
+msgid "Proposed article titles"
+msgstr "Títulos de artigos propostos"
+
+#: Template/Email/text/writers_form.ctp:11 Template/Writers/index.ctp:96
+msgid "Writing sample"
+msgstr "Exemplo de escrita"
+
+#: Template/Email/text/writers_form.ctp:12 Template/Writers/index.ctp:103
+msgid "Extra information"
+msgstr "Informações complementares"
+
+#: Template/Error/error400.ctp:44
+msgid "Sorry, There’s no Cake Here..."
+msgstr "POXA! Não tem bolo aqui..."
+
+#: Template/Error/error400.ctp:45
+msgid ""
+"Unfortunately the page you were looking for could not be found. It may be "
+"temporarily unavailable, moved or no longer exist. Check the URL you entered "
+"for any mistakes and try again. Alternatively, you could take a look around "
+"the rest of our site."
+msgstr ""
+"Infelizmente a página que você estava procurando não pôde ser encontrada. "
+"Pode estar temporariamente indisponível, movida ou não existir mais. "
+"Verifique a URL que você digitou devido a eventuais erros e tente novamente. "
+"Alternativamente, você poderia dar uma olhada no resto do nosso site."
+
+#: Template/Error/error500.ctp:49
+msgid "ERROR!"
+msgstr "ERRO!"
+
+#: Template/Error/error500.ctp:50
+msgid "An Internal Error Has Occurred."
+msgstr "Ocorreu um erro interno."
+
+#: Template/Pages/business_solutions.ctp:2
+msgid "CakePHP - Build fast, grow solid  | Business Solutions"
+msgstr "CakePHP - Build fast, grow solid  | Ofertas Comerciais"
+
+#: Template/Pages/business_solutions.ctp:3
+msgid ""
+"CakePHP Business solutions by CakeDC, the commercial entity behind the "
+"framework."
+msgstr ""
+"Soluções comerciais ofertadas pela CakeDC, a entidade comercial por trás do "
+"framework."
+
+#: Template/Pages/get_involved.ctp:6 Template/Pages/privacy.ctp:14
+msgid "CakePHP {0} {1}"
+msgstr ""
+
+#: Template/Pages/get_involved.ctp:8
+msgid "Community Center"
+msgstr "Centro da Comunidade"
+
+#: Template/Pages/home.ctp:2
+msgid "CakePHP - Build fast, grow solid | PHP Framework | Home"
+msgstr ""
+
+#: Template/Pages/home.ctp:3
+msgid ""
+"CakePHP is an open-source web, rapid development framework that makes "
+"building web applications simpler,\n"
+" faster and require less code. It follows the model–view–controller (MVC) . "
+"Manual for beginners now available and links\n"
+"  towards the last version."
+msgstr ""
+"CakePHP é um projeto open-source para web, framework de desenvolvimento "
+"rápido que simplifica e agiliza o desenvolvimento de aplicações web. Segue o "
+"padrão MVC."
+
+#: Template/Pages/newsletter.ctp:3
+msgid "CakePHP - Build fast, grow solid | CakePHP latest news"
+msgstr "CakePHP - Build fast, grow solid | Últimas Notícias do CakePHP"
+
+#: Template/Pages/newsletter.ctp:4
+msgid "Latest CakePHP News."
+msgstr "Últimas notícias do CakePHP."
+
+#: Template/Pages/newsletter.ctp:15
+msgid "Newsletter Archive"
+msgstr "Arquivo de Newsletters"
+
+#: Template/Pages/newsletter_signup.ctp:3
+msgid "CakePHP - Build fast, grow solid | Newsletter Sign Up"
+msgstr "CakePHP - Build fast, grow solid | Assinatura de Newsletter"
+
+#: Template/Pages/newsletter_signup.ctp:4
+msgid "Newsletter Sign Up Form"
+msgstr "Formulário de Inscrição das Newsletters"
+
+#: Template/Pages/newsletter_signup.ctp:41
+msgid "Subscribe to our Newsletters"
+msgstr "Assine nossas newsletters"
+
+#: Template/Pages/newsletter_signup.ctp:51
+msgid "are required fields"
+msgstr "são campos obrigatórios"
+
+#: Template/Pages/newsletter_signup.ctp:56
+msgid "Email Address"
+msgstr "Endereço de Email"
+
+#: Template/Pages/newsletter_signup.ctp:138
+msgid "Past Newsletters"
+msgstr "Newsletters antigas"
+
+#: Template/Pages/privacy.ctp:2
+msgid "CakePHP - Build fast, grow solid | Privacy policy"
+msgstr "CakePHP - Build fast, grow solid | Política de privacidade"
+
+#: Template/Pages/privacy.ctp:3
+msgid "CakePHP Privacy Policy."
+msgstr "CakePHP Política de Privacidade."
+
+#: Template/Pages/privacy.ctp:16 site.php:188
+msgid "Privacy Policy"
+msgstr "Política de Privacidade"
+
+#: Template/Pages/privacy.ctp:28
+msgid "The privacy of our visitors to cakephp.org is important to us."
+msgstr "A privacidade dos nossos visitantes é importante para nós."
+
+#: Template/Pages/privacy.ctp:31
+msgid ""
+"At cakephp.org, we recognize that privacy of your personal information is "
+"important."
+msgstr ""
+"Reconhecemos que a privacidade de suas informações pessoais é importante."
+
+#: Template/Pages/privacy.ctp:32
+msgid ""
+"Here is information on what types of personal information we receive and "
+"collect when\n"
+"\t\t\t\t\t you use and visit cakephp.org, and how we safeguard your "
+"information."
+msgstr ""
+"Aqui há informações sobre quais tipos de dados recebemos e coletamos "
+"enquanto\n"
+"\t\t\t\t\t você navegar pelo site cakephp.org, e como guardamos essa "
+"informação."
+
+#: Template/Pages/privacy.ctp:34
+msgid "We never sell your personal information to third parties."
+msgstr "Nós nunca vendemos suas informações pessoais a terceiros."
+
+#: Template/Pages/privacy.ctp:37
+msgid "Log Files:"
+msgstr "Arquivos de registro:"
+
+#: Template/Pages/privacy.ctp:39
+msgid ""
+"As with most other websites, we collect and use the data contained in log "
+"files."
+msgstr ""
+"Como com a maioria dos outros sites, podemos coletar e utilizar os dados "
+"contidos nos arquivos de log."
+
+#: Template/Pages/privacy.ctp:40
+msgid ""
+"The information in the log files include your IP (internet protocol) address, "
+"your ISP\n"
+"\t\t\t\t\t (internet service provider, such as AOL or Shaw Cable), the "
+"browser you used to visit our site\n"
+"\t\t\t\t\t (such as Internet Explorer or Firefox), the time you visited our "
+"site and which pages you visited\n"
+"\t\t\t\t\t throughout our site."
+msgstr ""
+"As informações nos arquivos de log contem o seu endereço IP (internet "
+"protocol), o seu ISP\n"
+"\t\t\t\t\t (internet service provider, tais como Oi ou NET), o navegador que "
+"você usou para visitar o\n"
+"\t\t\t\t\t nosso site (como o Internet Explorer ou o Firefox), o tempo que "
+"você visitou nosso site e quais páginas\n"
+"\t\t\t\t\t você visitou em todo nosso site."
+
+#: Template/Pages/privacy.ctp:46
+msgid "Cookies:"
+msgstr ""
+
+#: Template/Pages/privacy.ctp:47
+msgid ""
+"We do use cookies to store information, such as your personal preferences "
+"when you\n"
+"\t\t\t\tvisit our site."
+msgstr ""
+"Nós usamos cookies para armazenar informações, tais como suas preferências "
+"pessoais\n"
+"\t\t\t\t quando visita o nosso site."
+
+#: Template/Pages/privacy.ctp:50
+msgid "Advertising:"
+msgstr "Publicidade:"
+
+#: Template/Pages/privacy.ctp:52
+msgid ""
+"We use third-party advertising companies to serve ads when you visit our "
+"website."
+msgstr ""
+"Usamos empresas de publicidade de terceiros para veicular anúncios quando "
+"você visita nosso website."
+
+#: Template/Pages/privacy.ctp:53
+msgid ""
+"These companies may use information (not including your name, address, email "
+"address,\n"
+"\t\t\t\t\t or telephone number) about your visits to this and other websites "
+"in order to provide advertisements\n"
+"\t\t\t\t\t  about goods and services of interest to you."
+msgstr ""
+"Essas empresas podem usar informações (não incluindo seu nome, endereço, "
+"endereço de e-mail\n"
+"\t\t\t\t\t ou número de telefone) sobre suas visitas a este e a outros "
+"websites a fim de fornecer anúncios sobre\n"
+"\t\t\t\t\t bens e serviços interessantes para você."
+
+#: Template/Pages/privacy.ctp:57
+msgid ""
+"If you would like more information about this practice and to know your "
+"choices about not\n"
+"\t\t\t\t\t\thaving this information used by these companies, %s."
+msgstr ""
+"Se você gostaria de obter mais informações sobre esta prática e conhecer as "
+"suas escolhas para não ter essas informações usadas por essas empresas, %s."
+
+#: Template/Pages/privacy.ctp:59
+msgid "click here"
+msgstr "clique aqui"
+
+#: Template/Pages/rebranding.ctp:2
+msgid "CakePHP - Build fast, grow solid | The Brand"
+msgstr "CakePHP - Build fast, grow solid | A Marca"
+
+#: Template/Pages/rebranding.ctp:3
+msgid "CakePHP's evolution through the years explained"
+msgstr "A evolução da marca do CakePHP através dos anos"
+
+#: Template/Pages/rebranding.ctp:12
+msgid "A new brand. {0} The same {1}."
+msgstr ""
+
+#: Template/Pages/rebranding.ctp:12
+msgid "vision"
+msgstr "visão"
+
+#: Template/Pages/team.ctp:3
+msgid "CakePHP - Build fast, grow solid | Core Team Profiles"
+msgstr "CakePHP - Build fast, grow solid | Perfis dos Bakers"
+
+#: Template/Pages/team.ctp:4
+msgid "Meet the CakePHP Core development team"
+msgstr "Conheça o time de desenvolvimento do CakePHP"
+
+#: Template/Pages/team.ctp:17
+msgid "{0} {1}"
+msgstr ""
+
+#: Template/Pages/team.ctp:17
+msgid "The"
+msgstr "Os"
+
+#: Template/Pages/team.ctp:17
+msgid "Bakers"
+msgstr "Bakers"
+
+#: Template/Pages/team.ctp:18
+msgid "Meet the team behind CakePHP"
+msgstr "Conheça o time por trás do CakePHP"
+
+#: Template/Pages/team.ctp:28
+msgid "read more"
+msgstr "leia mais"
+
+#: Template/Pages/trademark.ctp:5
+msgid "CakePHP - Build fast, grow solid | Logos and Trademarks"
+msgstr "CakePHP - Build fast, grow solid | Logos e Marcas Registradas"
+
+#: Template/Pages/trademark.ctp:6
+msgid "CakePHP Logos and Trademark policies."
+msgstr "Políticas de uso de logos e marcas registradas."
+
+#: Template/Pages/trademark.ctp:17
+msgid "CakePHP Trademark and Logo Policy"
+msgstr "Política de Uso da Marca CakePHP"
+
+#: Template/Pages/videos.ctp:2
+msgid ""
+"CakePHP - Build fast, grow solid | Learn CakePHP from the experts | Video "
+"Training"
+msgstr ""
+"CakePHP - Build fast, grow solid | Aprenda CakePHP com os experts | "
+"Treinamento por vídeo"
+
+#: Template/Pages/videos.ctp:3
+msgid ""
+"CakePHP making building web applications simpler, faster and require less "
+"code. Manual, training\n"
+"\tand guides for beginners now available and links towards the last version."
+msgstr ""
+
+#: Template/Pages/videos.ctp:25
+msgid "CakePHP Videos"
+msgstr ""
+
+#: Template/Pages/videos.ctp:26
+msgid "Checkout our videos from youtube channel."
+msgstr "Acompanhe nossos vídeos do canal no Youtube."
+
+#: Template/Pages/videos.ctp:67
+msgid "Load More"
+msgstr "Carregar Mais"
+
+#: Template/Plugin/CakeDC/Users/Users/change_password.ctp:29
+msgid "Enter a new password"
+msgstr "Indique uma nova senha"
+
+#: Template/Plugin/CakeDC/Users/Users/change_password.ctp:33
+msgid "New password"
+msgstr "Nova senha"
+
+#: Template/Plugin/CakeDC/Users/Users/change_password.ctp:34
+msgid "Confirm new password"
+msgstr "Confirmar nova senha"
+
+#: Template/Plugin/CakeDC/Users/Users/request_reset_password.ctp:29
+msgid "Request a new password"
+msgstr "Solicitar uma nova senha"
+
+#: Template/Plugin/CakeDC/Users/Users/request_reset_password.ctp:32
+msgid "Username or email"
+msgstr "Nome de usuário ou email"
+
+#: Template/Writers/index.ctp:8
+msgid "CakePHP - Build fast, grow solid | PHP Framework | Become a Tech Writer"
+msgstr "CakePHP - Build fast, grow solid | Seja Autor Remunerado"
+
+#: Template/Writers/index.ctp:9
+msgid ""
+"CakePHP is always on the look-out for basic/simple tutorials, from set-up all "
+"the way to more advanced topics - all with the goal to make CakePHP more "
+"accessible!"
+msgstr ""
+"O CakePHP está sempre a procura de tutoriais técnicos, sejam sobre assuntos "
+"simples ou abordagens de tópicos avançados, com o objetivo de tornar o "
+"CakePHP mais acessível."
+
+#: Template/Writers/index.ctp:10
+msgid "CakePHP, CakePHP Framework, CakePHP Tech writer"
+msgstr ""
+"CakePHP, CakePHP Framework, CakePHP Autor, Tutoriais, Pago, Remunerado, PHP"
+
+#: Template/Writers/index.ctp:19
+msgid "GET PAID TO WRITE ABOUT CAKEPHP"
+msgstr "SEJA PAGO PARA ESCREVER SOBRE O CAKEPHP"
+
+#: Template/Writers/index.ctp:20
+msgid "In-depth tutorials, simple tutorials and more."
+msgstr "Tutoriais complexos, simples e muito mais."
+
+#: Template/Writers/index.ctp:21
+msgid "Sponsored by:"
+msgstr "Patrocinado por:"
+
+#: Template/Writers/index.ctp:33
+msgid "CakePHP wants to publish <br />your tech tutorial!"
+msgstr "O CakePHP quer publicar<br>seu tutorial técnico!"
+
+#: Template/Writers/index.ctp:38
+msgid ""
+"Are you a keen CakePHP community member and have an insatiable talent for "
+"explaining concepts, constructs and the intricacies of the CakePHP framework?"
+msgstr ""
+"Você é um membro ativo da Comunidade CakePHP e tem um talento insaciável para "
+"explicar conceitos, práticas e segredos do framework CakePHP?"
+
+#: Template/Writers/index.ctp:39
+msgid ""
+"Our community is always on the look-out for basic/simple tutorials, from set-"
+"up all the way to more advanced topics - all with the goal to make CakePHP "
+"more accessible!"
+msgstr ""
+"Nossos membros da comunidade de desenvolvedores estão sempre a procura de "
+"tutoriais técnicos, sejam sobre assuntos simples ou abordagens de tópicos "
+"avançados, com o objetivo de tornar o CakePHP mais acessível ao público."
+
+#: Template/Writers/index.ctp:40
+msgid ""
+"Are you perhaps a tad intrigued? - you don’t need to be a technical writer, "
+"you just need to know your CakePHP stuff -and, of course, be able to explain "
+"it! We will work with you  on the final editing and article completion."
+msgstr ""
+"Talvez você tenha algumas dúvidas, mas vamos lá, você não precisa ser um "
+"escritor técnico, você só precisa ter um bom nível de conhecimento sobre o "
+"CakePHP e, claro, ser capaz de explicá-lo! Nós trabalharemos com você até a "
+"conclusão das edições."
+
+#: Template/Writers/index.ctp:41
+msgid ""
+"And on top of becoming known as one of our tutorial writers within the "
+"CakePHP Community - as a bonus, CakeDC is sponsoring you to write! "
+"<strong>Earn up to $50 per article!</strong>"
+msgstr ""
+"Tornar-se conhecido como um dos nossos autores na comunidade CakePHP e como "
+"um bônus, a CakeDC está patrocinando essa iniciativa! <strong>Ganhe até $50 "
+"por artigo!</strong>"
+
+#: Template/Writers/index.ctp:45
+msgid "Make"
+msgstr "Ganhe"
+
+#: Template/Writers/index.ctp:46
+msgid "up to"
+msgstr "até"
+
+#: Template/Writers/index.ctp:53
+msgid "Unsure if you fit the bill?<br>We are looking for the following:"
+msgstr ""
+"Não tem certeza se você se encaixa no perfil?<br>Estamos procurando o "
+"seguinte:"
+
+#: Template/Writers/index.ctp:56
+msgid "Technical<br>expertise and<br>best practices"
+msgstr "Conhecimento<br>técnico e<br>boas práticas"
+
+#: Template/Writers/index.ctp:60
+msgid "Correct and<br>comprehensive<br>commands"
+msgstr "Comandos<br>corretos e<br>compreensivos"
+
+#: Template/Writers/index.ctp:64
+msgid "Clear and concise<br>explanations"
+msgstr "Explicações claras<br>e concisas"
+
+#: Template/Writers/index.ctp:68
+msgid "Friendly and<br>informative<br>writing style"
+msgstr "Estilo de escrita<br>amigável e<br>informativo"
+
+#: Template/Writers/index.ctp:77
+msgid "Author Details"
+msgstr "Sobre o Autor"
+
+#: Template/Writers/index.ctp:78;79;88;96
+msgid "(Required)"
+msgstr "(Obrigatório)"
+
+#: Template/Writers/index.ctp:80
+msgid "MyCakePHP Community username"
+msgstr "Nome de usuário do MyCakePHP"
+
+#: Template/Writers/index.ctp:80
+msgid "(Optional)"
+msgstr "(Opcional)"
+
+#: Template/Writers/index.ctp:85
+msgid "Submit a writing sample to see if you qualify!"
+msgstr "Envie uma amostra para ver se você se qualifica!"
+
+#: Template/Writers/index.ctp:89
+msgid ""
+"Please submit 1-3 proposed article titles of topics that you would be "
+"comfortable covering and are interested in writing about. Topics should be "
+"related to CakePHP, and fall within the framework specific elements (such as "
+"Cake Bake)."
+msgstr ""
+"Por favor envie de 1-3 títulos de artigo propostos dos tópicos que você "
+"estaria confortável a cobrir e está interessado em escrever sobre. Tópicos "
+"devem ser relacionados ao CakePHP e estar dentro os elementos específicos do "
+"framework (como o bake via cmd)."
+
+#: Template/Writers/index.ctp:92
+msgid ""
+"Only original content can be considered, Unfortunately content already posted "
+"elsewhere cannot be used."
+msgstr ""
+"Somente conteúdo original pode ser considerado, infelizmente o conteúdo já "
+"postado em outro lugar não pode ser usado."
+
+#: Template/Writers/index.ctp:97
+msgid ""
+"This is where you share your writing sample with us - a short introduction as "
+"well as the first two steps to your tutorial. At this time, we are only "
+"accepting English tutorials."
+msgstr ""
+"Aqui é onde você pode compartilhar sua amostra de escrita com a gente - uma "
+"breve introdução, bem como os dois primeiros passos para o seu tutorial. "
+"Neste momento, só aceitamos tutoriais em inglês."
+
+#: Template/Writers/index.ctp:104
+msgid ""
+"Do you have your own blog? Let us know! - also, share with us your GIthub, "
+"StackOverflow or Twitter handles, we would love to get to know you better "
+"before assessing your application!"
+msgstr ""
+"Você tem seu próprio blog? Conte para a gente! Além disso, compartilhe "
+"conosco suas contas no GIthub, StackOverflow ou Twitter, gostaríamos muito de "
+"te conhecer melhor antes de avaliar sua submissão!"
+
+#: Template/Writers/index.ctp:111
+msgid "Submit!"
+msgstr "Enviar!"
+
+#: Template/Writers/index.ctp:123
+msgid "Thanks for sending us so many writing samples!"
+msgstr "Obrigado por nos enviar seus exemplos!"
+
+#: Template/Writers/index.ctp:124
+msgid ""
+"This form has been temporarily disabled while we review the backlog of "
+"submissions. <br>Please check back soon!"
+msgstr ""
+"Este formulário foi temporariamente desativado enquanto revemos o backlog de "
+"submissões.<br>Por favor, volte em breve!"
+
+#: Template/Writers/index.ctp:130
+msgid "Notify me!"
+msgstr "Notifique-me!"
+
+#: Template/Writers/index.ctp:138
+msgid "Get paid with PayPal"
+msgstr "Seja pago com o PayPal"
+
+#: Template/Writers/index.ctp:143
+msgid "IN-DEPTH<br>TUTORIALS"
+msgstr "TUTORIAIS<br>APROFUNDADOS"
+
+#: Template/Writers/index.ctp:146
+msgid "1,500+ Words"
+msgstr "1.500 ou + palavras"
+
+#: Template/Writers/index.ctp:146
+msgid "$50"
+msgstr ""
+
+#: Template/Writers/index.ctp:154
+msgid "SIMPLE<br>TUTORIALS"
+msgstr "TUTORIAIS<br>SIMPLES"
+
+#: Template/Writers/index.ctp:157
+msgid "800+ Words"
+msgstr "800 ou + palavras"
+
+#: Template/Writers/index.ctp:157
+msgid "$25"
+msgstr ""
+
+#: Template/Writers/index.ctp:163
+msgid ""
+"Most tutorials are paid out at $50. Short tutorials with only a few commands "
+"or a few paragraphs of explanation are paid out at $25."
+msgstr ""
+"A maioria dos tutoriais são pagos a US $50. Pequenos tutoriais com apenas "
+"alguns comandos ou alguns parágrafos de explicação são pagos a US $25."
+
+#: View/Helper/AppHelper.php:135
+msgid "{0} to {1}"
+msgstr "{0} a {1}"
+
+#: site.php:12
+msgid ""
+"“We got a high ROI from converting our custom PHP app to CakePHP. We love the "
+"continually expanding suite of utilities, plugins, and development patterns "
+"at our disposal!”"
+msgstr ""
+"\"Tivemos um alto ROI na conversão do nosso aplicativo em PHP personalizado "
+"para o CakePHP. Nós adoramos todos os recursos que o framework tem a "
+"oferecer, plugins e padrões de desenvolvimento sempre à nossa disposição.\""
+
+#: site.php:19
+msgid ""
+"“CakePHP was the most efficient way we could find to rapidly develop our "
+"intricate system.  We needed a platform that could handle our high volume of "
+"users without issues and CakePHP has certainly delivered.”"
+msgstr ""
+"\"O CakePHP foi a maneira mais eficiente que encontramos para desenvolver "
+"rapidamente nosso sistema.  Precisávamos de uma plataforma que pudesse lidar "
+"com o nosso alto volume de usuários sem problemas e o CakePHP certamente "
+"cumpriu sua função.\""
+
+#: site.php:26
+msgid ""
+"“From the simplest micro kiosk app to my highly complex gallery management "
+"app, CakePHP is the framework of choice. It allows modular development that "
+"makes sense, and it's architecturally solid and performant. Whatever you are "
+"building, CakePHP can help you get it done.”"
+msgstr ""
+"\"Do micro app mais simples até meu aplicativo de gestão altamente complexo "
+"de galerias, o CakePHP é o framework a ser escolhido. Permite desenvolvimento "
+"modular que faz sentido, e arquitetonicamente é sólido e entrega alto "
+"desempenho. Tudo o que você está construindo, o CakePHP pode ajudá-lo a "
+"realizar.\""
+
+#: site.php:32
+msgid ""
+"“Having inherited this CakePHP project, I didn’t chose CakePHP so much as "
+"choose to continue using it.  After seeing the power and functionality of the "
+"framework in use, it wasn’t a difficult choice to make.”"
+msgstr ""
+"\"Tendo herdado um projeto em CakePHP, não escolhi o CakePHP, mas apesar "
+"disso optei por continuar a usá-lo.  Depois de ver o poder e as "
+"funcionalidades do framework na prátcia, não foi uma escolha difícil de se "
+"fazer.\""
+
+#: site.php:45
+msgid "Issues (Github)"
+msgstr ""
+
+#: site.php:50
+msgid "Youtube Channel"
+msgstr "Youtube"
+
+#: site.php:64
+msgid "Bakery"
+msgstr ""
+
+#: site.php:68
+msgid "Featured Resources"
+msgstr "Recursos em destaque"
+
+#: site.php:78
+msgid "Newsletter"
+msgstr ""
+
+#: site.php:82
+msgid "Certification"
+msgstr "Certificação"
+
+#: site.php:107
+msgid "Forum"
+msgstr "Fórum"
+
+#: site.php:113
+msgid "Stack Overflow"
+msgstr ""
+
+#: site.php:127
+msgid "Paid Support"
+msgstr "Suporte Pago"
+
+#: site.php:139
+msgid "Cake Jobs"
+msgstr ""
+
+#: site.php:165
+msgid "Book"
+msgstr ""
+
+#: site.php:178
+msgid "Videos"
+msgstr ""
+
+#: site.php:198
+msgid "Logos & Trademarks"
+msgstr "Logos & Marcas Registradas"
+
+#: site.php:221
+msgid "Meetups"
+msgstr ""
+
+#: site.php:233
+msgid "Amsterdam"
+msgstr ""
+
+#: site.php:239
+msgid ""
+"Larry Masters the Co-Founder of the CakePHP project, first released in May "
+"2005, and has contributed as a lead developer and advisor ever since. He has "
+"been involved in Open Source development for many years, dating back to his "
+"first contributions made to The Exchange Project, now called osCommerce. "
+"Prior to developing the CakePHP framework and starting Cake Software "
+"Foundation, Inc. he was a core developer of PostNuke, now continued as "
+"Zikula. He has 30 plus years experience in software development, system "
+"administration, and database design. His passion for excellence is shown in "
+"the code he writes and time dedicated to the CakePHP framework development "
+"over the past 11 years."
+msgstr ""
+"Larry Masters é o co-fundador do projeto CakePHP, lançado em maio de 2005, "
+"contribuiu como desenvolvedor líder e consultor desde então. Tem estado "
+"envolvido com iniciativas open-source a muitos anos. Voltando às suas "
+"primeiras contribuições feitas para o The Exchange Project, agora conhecido "
+"como osCommerce. Antes de desenvolver o framework CakePHP e começar a Cake "
+"Software Foundation, Inc, era um membro do PostNuke, agora conhecido como "
+"Zikula.  Tem 30 anos de experiência no desenvolvimento de software, "
+"administração de sistemas e design de banco de dados. Sua paixão pela "
+"excelência é evidente no código que escreve e no tempo dedicado ao "
+"desenvolvimento do framework CakePHP nos últimos 11 anos."
+
+#: site.php:240
+msgid "English, US English, Broken English, Klingon"
+msgstr ""
+
+#: site.php:244
+msgid "Co-Founder"
+msgstr "Co-Fundador"
+
+#: site.php:250
+msgid ""
+"Mark is a core member of the CakePHP team, serving as a lead developer since "
+"late 2009. He is also a developer at FreshBooks. CakePHP Developer, Dad, MtG "
+"nerd, and moonlight Illustrator."
+msgstr ""
+"Mark é um membro do núcleo de desenvolvimento do CakePHP, operando como "
+"desenvolvedor líder desde 2009. Também é desenvolvedor na FreshBooks, pai, "
+"apaixonado por Magic e ilustrador nas horas vagas."
+
+#: site.php:251;273;284;295;337;351;388;398;410
+msgid "English"
+msgstr ""
+
+#: site.php:255
+msgid "Lead Developer"
+msgstr "Desenvolvedor Líder"
+
+#: site.php:261
+msgid ""
+"José is a full-stack software developer that loves to solve difficult "
+"problems. He has been contributing to the CakePHP framework since 2009, and "
+"he often does talks about its amazing ORM. In his spare time, he teaches and "
+"practices mindfulness, ride his bike, or learns new programming languages."
+msgstr ""
+"José é um desenvolvedor de software full-stack que ama resolver problemas "
+"complexos. Tem contribuído com o framework CakePHP desde 2009 e "
+"frequentemente realiza palestras sobre seu ORM incrível. No seu tempo livre "
+"ensina e pratica meditação, anda de bicicleta ou aprende novas linguagens de "
+"programação."
+
+#: site.php:262
+msgid "English, Spanish, French and Danish"
+msgstr ""
+
+#: site.php:266
+msgid "ORM Developer"
+msgstr "Desenvovedor do ORM"
+
+#: site.php:272
+msgid ""
+"A developer based in New York, New York with an extremely active github "
+"account and an interest in Docker and Server Monitoring. He's been doing this "
+"since around 2008 and sometimes he blogs."
+msgstr ""
+"Um desenvolvedor situado em Nova Iorque, extremamente ativo no GitHub e "
+"interessado em monitoramento de servidores e no Docker. Engajado desde 2008, "
+"de vez em quando ele posta em seu blog."
+
+#: site.php:277;288;299;314;329;341;355;368;380;401;414
+msgid "Core Member"
+msgstr "Núcleo de desenvolvimento"
+
+#: site.php:283
+msgid ""
+"A programmer by day and night, you will generally find him lurking in the "
+"deepest darkest corners of the internet. He's also involved in maintaining "
+"lot of popular CakePHP community plugins."
+msgstr ""
+"Um programador de dia e de noite, você geralmente vai encontrá-lo espreitando "
+"nos cantos mais profundos e escuros da internet. Ele também está envolvido na "
+"manutenção de muitos plugins populares da comunidade CakePHP."
+
+#: site.php:294
+msgid ""
+"Bryan Crowe is an open source developer living in New York, NY. He is "
+"involved in the CakePHP framework."
+msgstr ""
+"Bryan Crowe é um desenvolvedor entusiasta do open-source, vivendo em Nova "
+"Iorque."
+
+#: site.php:305
+msgid ""
+"A software developer by profession and not just because it’s a job. Florian "
+"is a core CakePHP team\n"
+"\t\t\t\t\t\t\tdeveloper as well as having worked with CakeDC itself, doing "
+"CakePHP development since 2007. Florian sees\n"
+"\t\t\t\t\t\t\tprogramming as a true profession and not just a job for him, he "
+"likes to work on open source projects after\n"
+"\t\t\t\t\t\t\twork hours and has an interest in Unity3D and c# as well. He’s "
+"working as lead developer for PSA Publishers\n"
+"\t\t\t\t\t\t\tLtd"
+msgstr ""
+"Um desenvolvedor de software por profissão e não apenas porque é um trabalho. "
+"Florian tanto faz parte do time do CakePHP, bem como trabalhou com a CakeDC "
+"em si, desenvolvendo com e para o CakePHP desde 2007. Florian vê a "
+"programação como uma verdadeira profissão e não apenas um emprego, ele gosta "
+"de trabalhar em projetos open-source e tem interesse em Unity3D e C# também. "
+"Ele está trabalhando como desenvolvedor líder para a PSA Publishers Ltd."
+
+#: site.php:310;325
+msgid "English, German"
+msgstr ""
+
+#: site.php:320
+msgid ""
+"Mark has been a web-software enthusiast and Open Source Contributor for many "
+"years.\n"
+"\t\t\t\t\tHe is a German Software Developer living in Berlin who started to "
+"use CakePHP in the 1.2 days.\n"
+"\t\t\t\t\tAs one of the core developers of CakePHP he is a huge fan of rapid "
+"development - and has been using\n"
+"\t\t\t\t\tCakePHP a lot for this in his applications so far.\n"
+"\t\t\t\t\tOn his blog dereuromark.de he sometimes blogs about web and CakePHP "
+"related topics."
+msgstr ""
+"Mark tem sido um entusiasta de software para web e contribuinte open-source "
+"por muitos anos.\n"
+"\t\t\t\t\tEle é um desenvolvedor de software alemão morando em Berlim, que "
+"começou a usar o CakePHP nos tempos de 1.2.\n"
+"\t\t\t\t\tComo um dos principais desenvolvedores do CakePHP, ele é um grande "
+"fã de desenvolvimento rápido e tem sido muito feliz usando o CakePHP em suas "
+"aplicações até agora.\n"
+"\t\t\t\t\tEm seu blog dereuromark.de ele as vezes escreve sobre tópicos "
+"relacionados à web e ao CakePHP."
+
+#: site.php:335
+msgid ""
+"CTO at @bownty, @CakePHP core developer, tech advisor at @getlinkfire - lover "
+"of technology\n"
+"\t\t\t \t\t\t\t\tand servers - author of FriendsOfCake/crud"
+msgstr ""
+"CTO na @bownty, membro do núcleo de desenvolvimento do @CakePHP, consultor de "
+"tecnologia da @getlinkfire - amante de tecnologia e servidores - autor do "
+"FriendsOfCake/crud"
+
+#: site.php:347
+msgid ""
+"Walther is a software engineer/developer primarily working in PHP (Using "
+"CakePHP as his framework of choice).\n"
+"\t\t\t\t\t\t\t\tAlso a core member of the team, as well as the Croogo and "
+"Friends of Cake development team.\n"
+"\t\t\t\t\t\t\t\tWhen he is not developing or behind his PC screen, you can "
+"find him either spending time with his family,\n"
+"\t\t\t\t\t\t\t\tor at Scouts, where he is an adult leader/Scouter."
+msgstr ""
+"Walther é um engenheiro/desenvolvedor de software trabalhando principalmente "
+"com PHP (utilizando CakePHP como seu framework preferido).\n"
+"\t\t\t\t\t\t\t\tTambém é um membro do núcleo de desenvolvimento, bem como da "
+"equipe de desenvolvimento do Croogo e do grupo Friends of Cake.\n"
+"\t\t\t\t\t\t\t\tQuando ele não está se desenvolvendo ou atrás da tela do seu "
+"PC, você pode encontrá-lo passando um tempo com sua família, ou como líder de "
+"escoteiros."
+
+#: site.php:361
+msgid ""
+"An architect and engineer that loves software performance. Finds the balance "
+"between maintainable code and\n"
+"\t\t\t\t\t\t\tperformance. Director at Zumba incentivize the whole team to "
+"contribute in open source projects and participate\n"
+"\t\t\t\t\t\t\tfrom meetups and conferences."
+msgstr ""
+"Arquiteto e engenheiro que ama desempenho de software. Busca encontrar o "
+"equilíbrio entre desempenho e código de fácil manutenção. Diretor na Zumba, "
+"incentiva toda a sua equipe a contribuir para projetos open-source e a "
+"participar de conferências."
+
+#: site.php:364
+msgid "English, Portuguese"
+msgstr ""
+
+#: site.php:374
+msgid ""
+"Kurita is a PHP programmer living in Tokyo. Currently he works in web "
+"application security. Joined CakePHP\n"
+"\t\t\t\t\t\t\t\tcore team in February 2016 and has been working closely with "
+"the team on security fixes."
+msgstr ""
+"Kurita é um programador PHP de Tóquio. Atualmente ele trabalha em segurança "
+"de aplicativos web. Juntou-se ao núcleo de desenvolvimento do CakePHP em "
+"fevereiro de 2016 e tem trabalhado com a equipe em correções de segurança."
+
+#: site.php:376
+msgid "Japanese"
+msgstr ""
+
+#: site.php:386
+msgid ""
+"Besides marketing, social media and community management, Megan is around to "
+"assist in\n"
+"\t\t\t\t\tgeneral queries, community assistance and CakeFest planning."
+msgstr ""
+"Além de marketing, social media e gestão da comunidade, Megan está por perto "
+"para auxiliar, em geral, consultas, assistência comunitária e planejamento da "
+"CakeFest."
+
+#: site.php:391
+msgid "CakePHP Community Manager"
+msgstr "Gerente da comunidade"
+
+#: site.php:397
+msgid ""
+"Cakephp and Croogo core team member, surfer wannabe. Oh, I am Super Awesome "
+"too."
+msgstr ""
+"Membro do núcleo de desenvolvimento do Croogo e do CakePHP, surfista wannabe. "
+"Ah, super incrível também."
+
+#: site.php:407
+msgid ""
+"Mathew is a programmer and 3D artist that enjoys contributing to open source "
+"projects. Joined CakePHP\n"
+"\t\t\t\tcore team in October 2016 and has been working on database "
+"improvements. He has a programming blog at {0}, and\n"
+"\t\t\t\tis the creator of {1}"
+msgstr ""
+"Mathew é um programador e artista 3D que gosta de contribuir para projetos "
+"open-source. Juntou-se ao núcleo de desenvolvimento do CakePHP em outubro de "
+"2016 e tem trabalhado na melhoria do banco de dados. Ele tem um blog de "
+"programação no {0} e é o criador de {1}"
+
+#~ msgid "New CakePHP 3.2 Red Velvet."
+#~ msgstr "Novo CakePHP 3.2 Red Velvet."

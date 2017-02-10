@@ -12,19 +12,19 @@ $this->append('meta', $this->Html->meta('keywords', __('CakePHP, CakePHP Framewo
 $flash = $this->Flash->render()
 ?>
 <section>
-    <div class="container-fluid">
-        <div class="row writers-hero">
-            <div class="col-md-10 col-md-offset-1">
-                <?php if (!$flash):?>
-                    <h1><?= $this->Html->image('writers-hero.svg', ['alt' => __('GET PAID TO WRITE ABOUT CAKEPHP')]) ?></h1>
-                    <h2><?= __('In-depth tutorials, simple tutorials and more.') ?></h2>
-                    <p><?= __('Sponsored by:') ?><?= $this->Html->image('writers-cakedc-logo.svg', ['url' => 'http://www.cakedc.com/']) ?></p>
-                <?php else:?>
-                    <?= $flash?>
-                <?php endif;?>
-            </div>
-        </div>
-    </div>
+	<div class="container-fluid">
+		<div class="row writers-hero">
+			<div class="col-md-10 col-md-offset-1">
+				<?php if (!$flash):?>
+					<h1><?= $this->Html->image('writers-hero.svg', ['alt' => __('GET PAID TO WRITE ABOUT CAKEPHP')]) ?></h1>
+					<h2><?= __('In-depth tutorials, simple tutorials and more.') ?></h2>
+					<p><?= __('Sponsored by:') ?><?= $this->Html->image('writers-cakedc-logo.svg', ['url' => 'http://www.cakedc.com/']) ?></p>
+				<?php else:?>
+					<?= $flash?>
+				<?php endif;?>
+			</div>
+		</div>
+	</div>
 </section>
 <section>
     <div class="container writers-body">
@@ -69,8 +69,7 @@ $flash = $this->Flash->render()
             </div>
         </div>
         <?php if (Configure::read('Site.writers_form_enabled')): ?>
-            <?php if ($flash): ?>
-            <?php else: ?>
+            <?php if (!$flash || strpos($flash, 'alert-success') === false): ?>
                 <?= $this->Form->create($writer) ?>
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 writers-form">
@@ -104,6 +103,11 @@ $flash = $this->Flash->render()
                                     <?= __('Do you have your own blog? Let us know! - also, share with us your GIthub, StackOverflow or Twitter handles, we would love to get to know you better before assessing your application!') ?>
                                 </label>
                                 <?= $this->Form->textarea('extra_information', ['rows' => 5, 'class' => 'form-control', 'id' => 'extra_information']) ?>
+                            </div>
+                            <div class="form-group">
+                                <div class="g-recaptcha" data-sitekey="<?= Configure::read('ReCaptcha.site_key') ?>"></div>
+                                <?php $this->Html->script('https://www.google.com/recaptcha/api.js', ['block' => true]); ?>
+                                <?php $this->Form->unlockField('g-recaptcha-response'); ?>
                             </div>
                         </div>
                         <div class="row">
