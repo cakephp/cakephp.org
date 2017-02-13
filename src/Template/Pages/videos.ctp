@@ -10,7 +10,10 @@
 	<div class="container-fluid p0 m0">
 		<div class="col-md-12 p0 m0">
 			<div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="http://www.youtube.com/embed?max-results=1&listType=user_uploads&list=CakePHP" allowfullscreen></iframe>
+                <?php /*
 				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tkOpGEb1MNw" allowfullscreen></iframe>
+ */?>
 			</div>
 		</div>
 	</div>
@@ -23,7 +26,7 @@
 		<div class="row">
 			<div class="col-sm-12 title-videos mb50">
 				<h1><?= __("CakePHP Videos") ?></h1>
-				<h3><?= __("Checkout our videos from youtube channel.") ?></h3>
+				<h3><?= __("Checkout our videos from {0}.", $this->Html->link(__("youtube channel"), 'https://www.youtube.com/user/CakePHP', ['target' => '_blank'])) ?></h3>
 			</div>
 		</div>
 	</div>
