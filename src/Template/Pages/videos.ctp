@@ -10,10 +10,7 @@
 	<div class="container-fluid p0 m0">
 		<div class="col-md-12 p0 m0">
 			<div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="http://www.youtube.com/embed?max-results=1&listType=user_uploads&list=CakePHP" allowfullscreen></iframe>
-                <?php /*
-				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tkOpGEb1MNw" allowfullscreen></iframe>
- */?>
+				<iframe class="embed-responsive-item" src="//www.youtube.com/embed?max-results=1&listType=user_uploads&list=CakePHP" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>
