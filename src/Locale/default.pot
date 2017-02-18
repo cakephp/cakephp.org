@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2017-01-12 18:15+0000\n"
+"POT-Creation-Date: 2017-02-18 12:33+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -18,16 +18,20 @@ msgstr ""
 msgid "Invalid tag for changelogs"
 msgstr ""
 
-#: Controller/WritersController.php:41
+#: Controller/WritersController.php:45
 msgid "CakePHP Website"
 msgstr ""
 
-#: Controller/WritersController.php:43
+#: Controller/WritersController.php:47
 msgid "Writers Form"
 msgstr ""
 
-#: Controller/WritersController.php:48
+#: Controller/WritersController.php:52
 msgid "Thanks for your submission! We will review and get back to you shortly!"
+msgstr ""
+
+#: Controller/WritersController.php:57
+msgid "Please check your Recaptcha Box."
 msgstr ""
 
 #: Controller/Admin/ProjectsController.php:68;117
@@ -240,14 +244,14 @@ msgstr ""
 
 #: Template/Element/rapid_response.ctp:29;35
 #: Template/Email/text/writers_form.ctp:7
-#: Template/Writers/index.ctp:78
+#: Template/Writers/index.ctp:77
 msgid "Name"
 msgstr ""
 
 #: Template/Element/rapid_response.ctp:42;48
 #: Template/Element/home/newsletter.ctp:41
 #: Template/Email/text/writers_form.ctp:8
-#: Template/Writers/index.ctp:79
+#: Template/Writers/index.ctp:78
 msgid "Email"
 msgstr ""
 
@@ -284,19 +288,19 @@ msgid "Send"
 msgstr ""
 
 #: Template/Element/Layout/default/footer.ctp:32
-msgid "Copyright 2005-2016 Cake Software Foundation, Inc. All rights reserved. {0}."
+msgid "Copyright 2005-{0} Cake Software Foundation, Inc. All rights reserved. {1}."
 msgstr ""
 
-#: Template/Element/Layout/default/footer.ctp:33
+#: Template/Element/Layout/default/footer.ctp:35
 msgid "Designs by Ibaldo"
 msgstr ""
 
-#: Template/Element/Layout/default/navbar.ctp:7;25
+#: Template/Element/Layout/default/navbar.ctp:7;24
 msgid "Home"
 msgstr ""
 
 #: Template/Element/Layout/default/footer/login_form.ctp:4
-#: site.php:86
+#: site.php:75
 msgid "My CakePHP"
 msgstr ""
 
@@ -391,7 +395,7 @@ msgid "Get Paid To Write"
 msgstr ""
 
 #: Template/Element/Layout/default/menu/mobile_menu.ctp:76
-msgid "Help &\n                                                Support"
+msgid "Help &\n\t\t\t\t\t\t\t\t\t\t\t\tSupport"
 msgstr ""
 
 #: Template/Element/Layout/default/menu/mobile_menu.ctp:94
@@ -409,7 +413,7 @@ msgstr ""
 
 #: Template/Element/Layout/default/menu/top_bar.ctp:17
 #: Template/Element/get-involved/get-involved.ctp:175
-#: site.php:169
+#: site.php:178
 msgid "API"
 msgstr ""
 
@@ -774,6 +778,7 @@ msgstr ""
 
 #: Template/Element/business-solutions/professional-training.ctp:12
 #: Template/Element/home/support.ctp:44
+#: site.php:67
 msgid "Training"
 msgstr ""
 
@@ -824,7 +829,7 @@ msgstr ""
 #: Template/Element/business-solutions/professional-training.ctp:40
 #: Template/Element/get-involved/sidebar.ctp:18
 #: Template/Element/rebranding/cake_variations.ctp:12
-#: site.php:91
+#: site.php:80
 msgid "CakeFest"
 msgstr ""
 
@@ -1137,7 +1142,7 @@ msgid "{0}: Official community channel for the project"
 msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:97
-#: site.php:132
+#: site.php:141
 msgid "Google+"
 msgstr ""
 
@@ -1433,7 +1438,7 @@ msgid "We have developers from countries all over the world who use CakePHP. If 
 msgstr ""
 
 #: Template/Element/get-involved/sidebar.ctp:3
-#: site.php:60
+#: site.php:50
 msgid "Get Involved"
 msgstr ""
 
@@ -1450,14 +1455,14 @@ msgid "Faster. Stronger. Tastier."
 msgstr ""
 
 #: Template/Element/home/cakefest.ctp:28
-msgid "Don't have a ticket yet? Only a limited amount are available, so purchase yours today! From\n\t                 a wide range of talks, interactive workshops to prizes, giveaways and fun social activities all planned\n\t                 over 4 exciting days!"
+msgid "Don't have a ticket yet? Only a limited amount are available, so purchase yours today! From\n\t\t\t\t\t a wide range of talks, interactive workshops to prizes, giveaways and fun social activities all planned\n\t\t\t\t\t over 4 exciting days!"
 msgstr ""
 
-#: Template/Element/home/cakefest.ctp:34
+#: Template/Element/home/cakefest.ctp:32
 msgid "Buy Your Tickets"
 msgstr ""
 
-#: Template/Element/home/cakefest.ctp:45
+#: Template/Element/home/cakefest.ctp:44
 msgid "Get your ticket!"
 msgstr ""
 
@@ -1513,7 +1518,7 @@ msgid "View the Showcase"
 msgstr ""
 
 #: Template/Element/home/summary.ctp:6
-msgid "CakePHP makes building web applications simpler, faster, while requiring less code. A modern\n\t\t\t\t\t PHP 5.5+ framework offering a flexible database access layer and a powerful scaffolding system that makes\n\t\t\t\t\t building both small and complex systems simpler, easier and, of course, tastier. Build fast, grow solid\n\t\t\t\t\t with CakePHP."
+msgid "CakePHP makes building web applications simpler, faster, while requiring less code. A modern\n\t\t\t\t\t PHP 7 framework offering a flexible database access layer and a powerful scaffolding system that makes\n\t\t\t\t\t building both small and complex systems simpler, easier and, of course, tastier. Build fast, grow solid\n\t\t\t\t\t with CakePHP."
 msgstr ""
 
 #: Template/Element/home/summary.ctp:13
@@ -2354,7 +2359,7 @@ msgstr ""
 
 #: Template/Element/trademark/non-software.ctp:30
 #: Template/Element/trademark/sidebar.ctp:48
-#: site.php:225
+#: site.php:234
 msgid "Events"
 msgstr ""
 
@@ -2605,17 +2610,17 @@ msgid "You agree that you will not acquire any rights in the Marks and that any 
 msgstr ""
 
 #: Template/Email/text/writers_form.ctp:10
-#: Template/Writers/index.ctp:88
+#: Template/Writers/index.ctp:87
 msgid "Proposed article titles"
 msgstr ""
 
 #: Template/Email/text/writers_form.ctp:11
-#: Template/Writers/index.ctp:96
+#: Template/Writers/index.ctp:95
 msgid "Writing sample"
 msgstr ""
 
 #: Template/Email/text/writers_form.ctp:12
-#: Template/Writers/index.ctp:103
+#: Template/Writers/index.ctp:102
 msgid "Extra information"
 msgstr ""
 
@@ -2705,7 +2710,7 @@ msgid "CakePHP Privacy Policy."
 msgstr ""
 
 #: Template/Pages/privacy.ctp:16
-#: site.php:188
+#: site.php:197
 msgid "Privacy Policy"
 msgstr ""
 
@@ -2834,7 +2839,11 @@ msgid "CakePHP Videos"
 msgstr ""
 
 #: Template/Pages/videos.ctp:26
-msgid "Checkout our videos from youtube channel."
+msgid "Checkout our videos from {0}."
+msgstr ""
+
+#: Template/Pages/videos.ctp:26
+msgid "youtube channel"
 msgstr ""
 
 #: Template/Pages/videos.ctp:67
@@ -2933,87 +2942,87 @@ msgstr ""
 msgid "Friendly and<br>informative<br>writing style"
 msgstr ""
 
-#: Template/Writers/index.ctp:77
+#: Template/Writers/index.ctp:76
 msgid "Author Details"
 msgstr ""
 
-#: Template/Writers/index.ctp:78;79;88;96
+#: Template/Writers/index.ctp:77;78;87;95
 msgid "(Required)"
 msgstr ""
 
-#: Template/Writers/index.ctp:80
+#: Template/Writers/index.ctp:79
 msgid "MyCakePHP Community username"
 msgstr ""
 
-#: Template/Writers/index.ctp:80
+#: Template/Writers/index.ctp:79
 msgid "(Optional)"
 msgstr ""
 
-#: Template/Writers/index.ctp:85
+#: Template/Writers/index.ctp:84
 msgid "Submit a writing sample to see if you qualify!"
 msgstr ""
 
-#: Template/Writers/index.ctp:89
+#: Template/Writers/index.ctp:88
 msgid "Please submit 1-3 proposed article titles of topics that you would be comfortable covering and are interested in writing about. Topics should be related to CakePHP, and fall within the framework specific elements (such as Cake Bake)."
 msgstr ""
 
-#: Template/Writers/index.ctp:92
+#: Template/Writers/index.ctp:91
 msgid "Only original content can be considered, Unfortunately content already posted elsewhere cannot be used."
 msgstr ""
 
-#: Template/Writers/index.ctp:97
+#: Template/Writers/index.ctp:96
 msgid "This is where you share your writing sample with us - a short introduction as well as the first two steps to your tutorial. At this time, we are only accepting English tutorials."
 msgstr ""
 
-#: Template/Writers/index.ctp:104
+#: Template/Writers/index.ctp:103
 msgid "Do you have your own blog? Let us know! - also, share with us your GIthub, StackOverflow or Twitter handles, we would love to get to know you better before assessing your application!"
 msgstr ""
 
-#: Template/Writers/index.ctp:111
+#: Template/Writers/index.ctp:115
 msgid "Submit!"
 msgstr ""
 
-#: Template/Writers/index.ctp:123
+#: Template/Writers/index.ctp:127
 msgid "Thanks for sending us so many writing samples!"
 msgstr ""
 
-#: Template/Writers/index.ctp:124
+#: Template/Writers/index.ctp:128
 msgid "This form has been temporarily disabled while we review the backlog of submissions. <br>Please check back soon!"
 msgstr ""
 
-#: Template/Writers/index.ctp:130
+#: Template/Writers/index.ctp:134
 msgid "Notify me!"
 msgstr ""
 
-#: Template/Writers/index.ctp:138
+#: Template/Writers/index.ctp:142
 msgid "Get paid with PayPal"
 msgstr ""
 
-#: Template/Writers/index.ctp:143
+#: Template/Writers/index.ctp:147
 msgid "IN-DEPTH<br>TUTORIALS"
 msgstr ""
 
-#: Template/Writers/index.ctp:146
+#: Template/Writers/index.ctp:150
 msgid "1,500+ Words"
 msgstr ""
 
-#: Template/Writers/index.ctp:146
+#: Template/Writers/index.ctp:150
 msgid "$50"
 msgstr ""
 
-#: Template/Writers/index.ctp:154
+#: Template/Writers/index.ctp:158
 msgid "SIMPLE<br>TUTORIALS"
 msgstr ""
 
-#: Template/Writers/index.ctp:157
+#: Template/Writers/index.ctp:161
 msgid "800+ Words"
 msgstr ""
 
-#: Template/Writers/index.ctp:157
+#: Template/Writers/index.ctp:161
 msgid "$25"
 msgstr ""
 
-#: Template/Writers/index.ctp:163
+#: Template/Writers/index.ctp:167
 msgid "Most tutorials are paid out at $50. Short tutorials with only a few commands or a few paragraphs of explanation are paid out at $25."
 msgstr ""
 
@@ -3037,167 +3046,171 @@ msgstr ""
 msgid "“Having inherited this CakePHP project, I didn’t chose CakePHP so much as choose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.”"
 msgstr ""
 
-#: site.php:45
+#: site.php:55
 msgid "Issues (Github)"
 msgstr ""
 
-#: site.php:50
-msgid "Youtube Channel"
-msgstr ""
-
-#: site.php:64
+#: site.php:59
 msgid "Bakery"
 msgstr ""
 
-#: site.php:68
+#: site.php:63
 msgid "Featured Resources"
 msgstr ""
 
-#: site.php:78
-msgid "Newsletter"
-msgstr ""
-
-#: site.php:82
+#: site.php:71
 msgid "Certification"
 msgstr ""
 
-#: site.php:107
+#: site.php:90
+msgid "Newsletter"
+msgstr ""
+
+#: site.php:95
+msgid "Linkedin"
+msgstr ""
+
+#: site.php:100
+msgid "Youtube"
+msgstr ""
+
+#: site.php:116
 msgid "Forum"
 msgstr ""
 
-#: site.php:113
+#: site.php:122
 msgid "Stack Overflow"
 msgstr ""
 
-#: site.php:127
+#: site.php:136
 msgid "Paid Support"
 msgstr ""
 
-#: site.php:139
+#: site.php:148
 msgid "Cake Jobs"
 msgstr ""
 
-#: site.php:165
+#: site.php:174
 msgid "Book"
 msgstr ""
 
-#: site.php:178
+#: site.php:187
 msgid "Videos"
 msgstr ""
 
-#: site.php:198
+#: site.php:207
 msgid "Logos & Trademarks"
 msgstr ""
 
-#: site.php:221
+#: site.php:230
 msgid "Meetups"
 msgstr ""
 
-#: site.php:233
-msgid "Amsterdam"
+#: site.php:242
+msgid "New York City"
 msgstr ""
 
-#: site.php:239
+#: site.php:248
 msgid "Larry Masters the Co-Founder of the CakePHP project, first released in May 2005, and has contributed as a lead developer and advisor ever since. He has been involved in Open Source development for many years, dating back to his first contributions made to The Exchange Project, now called osCommerce. Prior to developing the CakePHP framework and starting Cake Software Foundation, Inc. he was a core developer of PostNuke, now continued as Zikula. He has 30 plus years experience in software development, system administration, and database design. His passion for excellence is shown in the code he writes and time dedicated to the CakePHP framework development over the past 11 years."
 msgstr ""
 
-#: site.php:240
+#: site.php:249
 msgid "English, US English, Broken English, Klingon"
 msgstr ""
 
-#: site.php:244
+#: site.php:253
 msgid "Co-Founder"
 msgstr ""
 
-#: site.php:250
+#: site.php:259
 msgid "Mark is a core member of the CakePHP team, serving as a lead developer since late 2009. He is also a developer at FreshBooks. CakePHP Developer, Dad, MtG nerd, and moonlight Illustrator."
 msgstr ""
 
-#: site.php:251;273;284;295;337;351;388;398;410
+#: site.php:260;282;293;304;346;360;397;407;419
 msgid "English"
 msgstr ""
 
-#: site.php:255
+#: site.php:264
 msgid "Lead Developer"
 msgstr ""
 
-#: site.php:261
+#: site.php:270
 msgid "José is a full-stack software developer that loves to solve difficult problems. He has been contributing to the CakePHP framework since 2009, and he often does talks about its amazing ORM. In his spare time, he teaches and practices mindfulness, ride his bike, or learns new programming languages."
 msgstr ""
 
-#: site.php:262
+#: site.php:271
 msgid "English, Spanish, French and Danish"
 msgstr ""
 
-#: site.php:266
+#: site.php:275
 msgid "ORM Developer"
 msgstr ""
 
-#: site.php:272
+#: site.php:281
 msgid "A developer based in New York, New York with an extremely active github account and an interest in Docker and Server Monitoring. He's been doing this since around 2008 and sometimes he blogs."
 msgstr ""
 
-#: site.php:277;288;299;314;329;341;355;368;380;401;414
+#: site.php:286;297;308;323;338;350;364;377;389;410;423
 msgid "Core Member"
 msgstr ""
 
-#: site.php:283
+#: site.php:292
 msgid "A programmer by day and night, you will generally find him lurking in the deepest darkest corners of the internet. He's also involved in maintaining lot of popular CakePHP community plugins."
 msgstr ""
 
-#: site.php:294
+#: site.php:303
 msgid "Bryan Crowe is an open source developer living in New York, NY. He is involved in the CakePHP framework."
 msgstr ""
 
-#: site.php:305
+#: site.php:314
 msgid "A software developer by profession and not just because it’s a job. Florian is a core CakePHP team\n\t\t\t\t\t\t\tdeveloper as well as having worked with CakeDC itself, doing CakePHP development since 2007. Florian sees\n\t\t\t\t\t\t\tprogramming as a true profession and not just a job for him, he likes to work on open source projects after\n\t\t\t\t\t\t\twork hours and has an interest in Unity3D and c# as well. He’s working as lead developer for PSA Publishers\n\t\t\t\t\t\t\tLtd"
 msgstr ""
 
-#: site.php:310;325
+#: site.php:319;334
 msgid "English, German"
 msgstr ""
 
-#: site.php:320
+#: site.php:329
 msgid "Mark has been a web-software enthusiast and Open Source Contributor for many years.\n\t\t\t\t\tHe is a German Software Developer living in Berlin who started to use CakePHP in the 1.2 days.\n\t\t\t\t\tAs one of the core developers of CakePHP he is a huge fan of rapid development - and has been using\n\t\t\t\t\tCakePHP a lot for this in his applications so far.\n\t\t\t\t\tOn his blog dereuromark.de he sometimes blogs about web and CakePHP related topics."
 msgstr ""
 
-#: site.php:335
+#: site.php:344
 msgid "CTO at @bownty, @CakePHP core developer, tech advisor at @getlinkfire - lover of technology\n\t\t\t \t\t\t\t\tand servers - author of FriendsOfCake/crud"
 msgstr ""
 
-#: site.php:347
+#: site.php:356
 msgid "Walther is a software engineer/developer primarily working in PHP (Using CakePHP as his framework of choice).\n\t\t\t\t\t\t\t\tAlso a core member of the team, as well as the Croogo and Friends of Cake development team.\n\t\t\t\t\t\t\t\tWhen he is not developing or behind his PC screen, you can find him either spending time with his family,\n\t\t\t\t\t\t\t\tor at Scouts, where he is an adult leader/Scouter."
 msgstr ""
 
-#: site.php:361
+#: site.php:370
 msgid "An architect and engineer that loves software performance. Finds the balance between maintainable code and\n\t\t\t\t\t\t\tperformance. Director at Zumba incentivize the whole team to contribute in open source projects and participate\n\t\t\t\t\t\t\tfrom meetups and conferences."
 msgstr ""
 
-#: site.php:364
+#: site.php:373
 msgid "English, Portuguese"
 msgstr ""
 
-#: site.php:374
+#: site.php:383
 msgid "Kurita is a PHP programmer living in Tokyo. Currently he works in web application security. Joined CakePHP\n\t\t\t\t\t\t\t\tcore team in February 2016 and has been working closely with the team on security fixes."
 msgstr ""
 
-#: site.php:376
+#: site.php:385
 msgid "Japanese"
 msgstr ""
 
-#: site.php:386
+#: site.php:395
 msgid "Besides marketing, social media and community management, Megan is around to assist in\n\t\t\t\t\tgeneral queries, community assistance and CakeFest planning."
 msgstr ""
 
-#: site.php:391
+#: site.php:400
 msgid "CakePHP Community Manager"
 msgstr ""
 
-#: site.php:397
+#: site.php:406
 msgid "Cakephp and Croogo core team member, surfer wannabe. Oh, I am Super Awesome too."
 msgstr ""
 
-#: site.php:407
+#: site.php:416
 msgid "Mathew is a programmer and 3D artist that enjoys contributing to open source projects. Joined CakePHP\n\t\t\t\tcore team in October 2016 and has been working on database improvements. He has a programming blog at {0}, and\n\t\t\t\tis the creator of {1}"
 msgstr ""
 
