@@ -388,7 +388,7 @@ msgstr ""
 #: Template/Element/Layout/default/menu/menu.ctp:120
 #: Template/Element/Layout/default/menu/mobile_menu.ctp:122
 msgid "DONATE"
-msgstr ""
+msgstr "寄付"
 
 #: Template/Element/Layout/default/menu/mobile_menu.ctp:45
 msgid "Get Paid To Write"
@@ -780,7 +780,7 @@ msgstr ""
 #: Template/Element/home/support.ctp:44
 #: site.php:67
 msgid "Training"
-msgstr ""
+msgstr "トレーニング"
 
 #: Template/Element/business-solutions/professional-training.ctp:13
 msgid "Our comprehensive training sessions teach the tools, knowledge, concepts and best-practices of CakePHP, helping your developers create code that is:"
@@ -988,51 +988,51 @@ msgstr "CakeFestウェブサイト"
 #: Template/Element/get-involved/community-guidelines.ctp:5
 #: Template/Element/get-involved/sidebar.ctp:17
 msgid "Community Guidelines"
-msgstr ""
+msgstr "コミュニティガイドライン"
 
 #: Template/Element/get-involved/community-guidelines.ctp:6
 msgid "The following is a list of recommendations to help keep the CakePHP community strong, active and healthy, as well as a place where everyone feels welcome. These are by no means rules or laws, but instead suggestions and best practices."
-msgstr ""
+msgstr "以下はCakePHPのコミュニティを強く、活発に、そして健全に、また誰もが歓迎される場所にするために推奨される一覧です。これらは規則や法律であはありませんが、提案でありそして最善の方法です。"
 
 #: Template/Element/get-involved/community-guidelines.ctp:8
 msgid "Remember that when you talk about CakePHP you're representing a global community of people, most of whom are passionate about their involvement, and dedicate their free time and good will to helping the framework. Be friendly and helpful, and always show the respect for others in the same way you'd expect from them."
-msgstr ""
+msgstr "CakePHPについて話すときには、世界中の人々のコミュニティを代表していることを忘れないでください。彼らの大半の人々は関与に情熱的で、自由な時間と良心をフレームワークを助けに費やしています。仲良く親切に、そして人から期待するのと同じ方法で相手に経緯を払いましょう。"
 
 #: Template/Element/get-involved/community-guidelines.ctp:9
 msgid "Never insult, tease or ridicule a user, group of users or community, based on personal opinion or bias towards them. If you don't agree with their opinion or argument, then simply state your reason, provide examples or links, and be polite. If they're acting inappropriately or using abusive language then contact an admin of that channel to have them removed."
-msgstr ""
+msgstr "個人的な意見や偏見に基づいて、利用者、利用者のグループ、あるいはコミュニティを侮辱したり、からかったり、嘲笑したりしてはいけません。彼らの意見や主張に同意できないときは、ただ理由を述べて、例やリンクを示し、そして礼儀正しくしましょう。もし彼らが不適切にふるまったり、悪口を言っていたら、それが削除されるようチャンネルの管理者に連絡してください。"
 
 #: Template/Element/get-involved/community-guidelines.ctp:10
 msgid "Never degrade, belittle, insult or otherwise damage the name or reputation of another project in favour of CakePHP. If you want to compare or promote features of the framework, always aim to do so with relevant and technical arguments, with a positive attitude, and in a humble and respectful manner."
-msgstr ""
+msgstr "CakePHPへの賛同のあまり、他のプロジェクトの名誉を貶めたり、けなしたり、侮辱したり、あるいは害を与えないでください。もしフレームワークの機能を比較したり、売り込んだりしたければ、適切かつ技術的な主張、肯定的な態度、そして謙虚で敬意のある方法でそうすることをいつも心がけてください。"
 
 #: Template/Element/get-involved/community-guidelines.ctp:11
 msgid "Never use the community channels to announce or advertise a commercial service or product, or to spam other users with content unrelated to CakePHP or the community."
-msgstr ""
+msgstr "商用サービスや商品の宣伝や広告のために、あるいはCakePHPやそのコミュニティに関係のないコンテンツを他の利用者に送り付けるためにコミュニティチャンネルを使用しないでください。"
 
 #: Template/Element/get-involved/community-guidelines.ctp:12
 msgid "When dealing with a user asking for help, if possible, attempt to resolve their problem or concern, no matter how trivial it may seem. We all started from somewhere. If you don't have the time, the patience or the know-how to answer, always refer the user to the CakePHP Community Center at {0}"
-msgstr ""
+msgstr "助けを求めている利用者に対応するときは、もし可能であれば、どんな些細なものに見えても、彼らの問題や懸念が解決するように心がけてください。私たちは皆、どこかが始まりだったのです。もし時間や、忍耐力、回答するノウハウを持ち合わせていなければ、いつでもその利用者を{0}上のCakePHPコミュニティセンターに照会してください。"
 
 #: Template/Element/get-involved/community-guidelines.ctp:13
 msgid "When talking about a technical feature of CakePHP, always try to make a clear reference to the version of the framework in which it became available. Also, if possible, attempt to supply documentation and examples where possible, to help the reader or listener better understand the concept. And remember, always check your facts before jumping to conclusions or defending a false argument."
-msgstr ""
+msgstr "CakePHPの技術的な機能について話すときは、いつでもそれが有効になったフレームワークのバージョンについて言明するように努めてください。また、もし可能なら、読み手や聞き手がその概念をよりよく理解できるように、文書や例があれば提示してください。そして、結論を急いだりや偽りの主張をしてしまう前によく事実を確かめてください。"
 
 #: Template/Element/get-involved/community-guidelines.ctp:14
 msgid "When writing example code, always try to apply the CakePHP Conventions and Coding Standards correctly, and check that the example given does not throw an error or give an incorrect result. This promotes good practice, and aids developers in learning to do things \"the right way\" by default, without hitting too many bumps along the way."
-msgstr ""
+msgstr "コードの例を書くときには、いつでもCakePHPの規約やコーディング基準に沿うように努め、その例がエラーを投げたり、誤った結果を出したりしないか確かめてください。これは良い方法を広め、開発者が大きな遠回りをせずに既定で「正しい方法」で学ぶ手助けになります。"
 
 #: Template/Element/get-involved/community-guidelines.ctp:15
 msgid "The use of the CakePHP logo and brand assets should follow the instructions available from the logo usage guide: {0}. Following those standards ensures that the visual identity of the framework is never misrepresented or abused."
-msgstr ""
+msgstr "CakePHPのロゴやブランド一式の使用は、ロゴの使用ガイドにある案内に従ってください：{0}。それらの基準に従えば、フレームワークの視覚的なアイデンティティを誤って伝えてしまったり、不正に使ってしまうことがなくなります。"
 
 #: Template/Element/get-involved/community-guidelines.ctp:16
 msgid "Try to use the CakePHP name correctly. The name should be spelled \"CakePHP\", all as one word, with an uppercase \"C\", and \"PHP\". This helps keep the links and references to the framework consistent. For example, CAKEPHP, Cakephp, cake-php or just Cake would be incorrect uses. Maintaining a common spelling and format for the name helps keep brand coherent and consistent."
-msgstr ""
+msgstr "CakePHPという名前を正しく使うように努めてください。この名前は「CakePHP」と綴られるべきで、これで一語であり、大文字の「C」、そして「PHP」です。これはフレームワークへの一貫したリンクや参照に一貫性を保つのを助けます。例えば、CAKEPHP、Cakephp、cake-php、またはただのCakeは正しくない使用しれません。名前を一般的な綴りや書式を維持することは、ブランドのまとまりや一貫性を保つのを助けます。"
 
 #: Template/Element/get-involved/community-guidelines.ctp:17
 msgid "When making a reference to CakePHP in a marketing or promotional context, it helps to make the name stand-out or interactive. Consider using &lt;strong&gt; or &lt;b&gt; tags for HTML, bold formatting for documents, or making the name a visible link to {0}. Don't overuse the name in any body of text, instead try keeping any direct uses of the name relevant. To even out the usage try to use other references, such as \"the framework\" or \"the project\"."
-msgstr ""
+msgstr "マーケティングや販促の文脈でCakePHPを参照するとき、それはその名前を目立たせ、相互作用になるのを助けます。HTMLで &lt;strong&gt; や &lt;b&gt; タグ使用して文書中で太字にしたり、あるいはその名前で{0}にリンクすることを考えてみてください。本文の中で過度に使用せず、関係のある名前を直接使用するように努めてください。使用を調整するために「このフレームワーク」や「このプロジェクト」といった他の言及の仕方を考えてみてください。"
 
 #: Template/Element/get-involved/find-job-developer.ctp:6
 #: Template/Element/get-involved/sidebar.ctp:16
@@ -1057,7 +1057,7 @@ msgstr ""
 
 #: Template/Element/get-involved/find-job-developer.ctp:14
 msgid "Jobs available for freelance developers"
-msgstr ""
+msgstr "フリーランスの開発者向けの仕事です"
 
 #: Template/Element/get-involved/find-job-developer.ctp:16
 msgid "oDesk"
@@ -1065,7 +1065,7 @@ msgstr ""
 
 #: Template/Element/get-involved/find-job-developer.ctp:17
 msgid "Contractors who specialize in CakePHP"
-msgstr ""
+msgstr "CakePHPに特化した請負です"
 
 #: Template/Element/get-involved/find-job-developer.ctp:19
 msgid "CakePHPJobs"
@@ -1081,7 +1081,7 @@ msgstr ""
 
 #: Template/Element/get-involved/find-job-developer.ctp:23
 msgid "Where developers and employers connect"
-msgstr ""
+msgstr "開発者と経営者を結びつける場所です"
 
 #: Template/Element/get-involved/find-job-developer.ctp:25
 msgid "CakeDC"
@@ -1139,7 +1139,7 @@ msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:96
 msgid "{0}: Official community channel for the project"
-msgstr ""
+msgstr "{0}: プロジェクトのための公式コミュニティチャンネルです"
 
 #: Template/Element/get-involved/get-help.ctp:97
 #: site.php:141
@@ -1456,11 +1456,11 @@ msgstr "より速く、より強く、より美味しく"
 
 #: Template/Element/home/cakefest.ctp:28
 msgid "Don't have a ticket yet? Only a limited amount are available, so purchase yours today! From\n\t\t\t\t\t a wide range of talks, interactive workshops to prizes, giveaways and fun social activities all planned\n\t\t\t\t\t over 4 exciting days!"
-msgstr ""
+msgstr "まだチケットをお持ちでない？　数には限りがありますので、ぜひ今日お求めください！　幅広い講演や対話的なワークショップから、賞品、景品、そして楽しい社会活動まで、すべてエキサイティングな四日間に計画されています！"
 
 #: Template/Element/home/cakefest.ctp:32
 msgid "Buy Your Tickets"
-msgstr ""
+msgstr "チケットを購入"
 
 #: Template/Element/home/cakefest.ctp:44
 msgid "Get your ticket!"
@@ -2712,7 +2712,7 @@ msgstr ""
 #: Template/Pages/privacy.ctp:16
 #: site.php:197
 msgid "Privacy Policy"
-msgstr ""
+msgstr "プライバシーポリシー"
 
 #: Template/Pages/privacy.ctp:28
 msgid "The privacy of our visitors to cakephp.org is important to us."
@@ -3048,7 +3048,7 @@ msgstr ""
 
 #: site.php:55
 msgid "Issues (Github)"
-msgstr ""
+msgstr "不具合 (Github)"
 
 #: site.php:59
 msgid "Bakery"
@@ -3056,15 +3056,15 @@ msgstr ""
 
 #: site.php:63
 msgid "Featured Resources"
-msgstr ""
+msgstr "注目のリソース"
 
 #: site.php:71
 msgid "Certification"
-msgstr ""
+msgstr "検定"
 
 #: site.php:90
 msgid "Newsletter"
-msgstr ""
+msgstr "メールマガジン"
 
 #: site.php:95
 msgid "Linkedin"
@@ -3076,7 +3076,7 @@ msgstr ""
 
 #: site.php:116
 msgid "Forum"
-msgstr ""
+msgstr "フォーラム"
 
 #: site.php:122
 msgid "Stack Overflow"
@@ -3084,7 +3084,7 @@ msgstr ""
 
 #: site.php:136
 msgid "Paid Support"
-msgstr ""
+msgstr "有料サポート"
 
 #: site.php:148
 msgid "Cake Jobs"
@@ -3096,11 +3096,11 @@ msgstr ""
 
 #: site.php:187
 msgid "Videos"
-msgstr ""
+msgstr "動画"
 
 #: site.php:207
 msgid "Logos & Trademarks"
-msgstr ""
+msgstr "ロゴ & トレードマーク"
 
 #: site.php:230
 msgid "Meetups"
