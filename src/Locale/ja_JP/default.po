@@ -824,9 +824,13 @@ msgstr "ユーザー支援"
 msgid "One of the greatest ways to contribute to CakePHP is by directly supporting the developer community. You\n\t\t\t\tmay just have the answer to some of the questions that are being asked. Here are some of the ways that you can get started:"
 msgstr "CakePHPに貢献する素晴らしい方法のひとつは、開発者のコミュニティを直接支援することです。あなたは求められているいくつかの質問に対する答えを知っているかもしれません。始めるにはいくつかの方法があります。"
 
-#: Template/Element/get-involved/get-involved.ctp:22
-msgid "Join the #cakephp IRC channel, or Slack group and talk to developers who need help. *"
-msgstr "#cakephpのIRCチャンネルかSlackグループに参加して、助けを必要としている開発者たちと話す。*"
+#: Template/Element/get-involved/get-involved.ctp:20
+msgid "Join the {0} and talk to developers who need help. *"
+msgstr "{0}グループに参加して、助けを必要としている開発者たちと話す。*"
+
+#: Template/Element/get-involved/get-involved.ctp:20
+msgid "#cakephp IRC channel, or Slack group"
+msgstr "#cakephpのIRCチャンネルかSlack"
 
 #: Template/Element/get-involved/get-involved.ctp:23
 msgid "Answer questions on platforms such as {0}."
