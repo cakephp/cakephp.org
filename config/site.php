@@ -390,7 +390,7 @@ return [
 				'image-url' => 'team/chinpei215.png',
 				'country' => 'Japan'
 			],
-			'megan' => [
+,			'megan' => [
 				'name' => 'Megan Lalk',
 				'description' => __('Besides marketing, social media and community management, Megan is around to assist in
 					general queries, community assistance and CakeFest planning.'),
@@ -434,6 +434,17 @@ return [
 				'role' => __('Core Member'),
 				'image-url' => 'team/antograssiot.jpg',
 				'country' => 'France'
+      ],
+			'cleptric' => [
+				'name' => 'Michael Hoffmann (Cleptric)',
+				'description' => __('Michael started using CakePHP in early 2014 and is currently working as a Web developer for scherer software in Munich, Germany. He joined the Core Team in February 2017.'),
+				'language' => __('German, English'),
+				'twitter' => 'cleptric',
+				'github' => 'cleptric',
+				'mycake' => 'cleptric',
+				'role' => __('Core Member'),
+				'image-url' => 'team/cleptric.jpg',
+				'country' => 'Germany'
 			],
 		],
 		'writers_form_enabled' => true,
