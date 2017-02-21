@@ -1193,7 +1193,11 @@ msgid "One of the greatest ways to contribute to CakePHP is by directly supporti
 msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:20
-msgid "Join the #cakephp IRC channel, or Slack group and talk to developers who need help. *"
+msgid "Join the {0} and talk to developers who need help. *"
+msgstr ""
+
+#: Template/Element/get-involved/get-involved.ctp:20
+msgid "#cakephp IRC channel, or Slack group"
 msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:21
