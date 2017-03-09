@@ -7,18 +7,18 @@ $this->assign('meta', $this->Html->meta('description', $description));
 $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
 ?>
 <div id="getInvolved" class="col-sm-12 pt-35">
-	<h2><?= __('Get Involved!')?></h2>
+	<h2><?= __('Get Involved!')?><?= $this->Html->link('¶', '#getInvolved', ['class' => 'headerlink', 'title' => __('Permalink to this headline')]) ?></h2>
 
 	<p><?= __('If you\'re interested in contributing to CakePHP and supporting the community then we\'d love for you to join us, there are a variety of ways to get involved and help out.')?></p>
 
 	<div id="userSupport" class="box-get">
 		<i class="fa fa-users icon-get"></i>
-		<h3><?= __('User Support')?></h3>
+		<h3><?= __('User Support')?><?= $this->Html->link('¶', '#userSupport', ['class' => 'headerlink', 'title' => __('Permalink to this headline')]) ?></h3>
 		<div class="br-bottom mb20"></div>
 		<p><?= __('One of the greatest ways to contribute to CakePHP is by directly supporting the developer community. There\'s no need to be a genius or guru to get involved, you may just have the answer to some of the questions being asked. Here are some ways you can get started:')?></p>
 		<ul>
 			<li><?= __('Join the {0} and talk to developers who need help. *', $this->Html->link(__('#cakephp IRC channel, or Slack group'), '#get-help'))?></li>
-			<li><?= __('Answer questions on platforms such as {0}.', $this->Html->link('StackOverflow', Configure::read('Site.menu.items.help.stackOverflow.url'), ['target' => '_blank']))?>
+			<li><?= __('Answer questions on platforms such as {0} and the {1}.', $this->Html->link(__('StackOverflow'), Configure::read('Site.menu.items.help.stackOverflow.url'), ['target' => '_blank']), $this->Html->link(__('official CakePHP Forum'), Configure::read('Site.menu.items.help.discourse.url'), ['target' => '_blank']))?>
 			</li>
 			<li><?= __('Comment on posts asking for help with a specific problem.')?></li>
 		</ul>
@@ -30,7 +30,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 	<div id="education" class="box-get mb0">
 		<i class="fa fa-graduation-cap icon-get"></i>
 
-		<h3><?= __('Education and Training')?></h3>
+		<h3><?= __('Education and Training')?><?= $this->Html->link('¶', '#education', ['class' => 'headerlink', 'title' => __('Permalink to this headline')]) ?></h3>
 
 		<div class="br-bottom mb20"></div>
 		<p><?= __('Helping others to learn CakePHP is another valuable way to contribute to the community. There are many ways
@@ -51,7 +51,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 	<div id="marketing" class="box-get">
 		<i class="fa fa-comment icon-get"></i>
 
-		<h3><?= __('Marketing and Evangelism')?></h3>
+		<h3><?= __('Marketing and Evangelism')?><?= $this->Html->link('¶', '#marketing', ['class' => 'headerlink', 'title' => __('Permalink to this headline')]) ?></h3>
 
 		<div class="br-bottom mb20"></div>
 		<p><?= __('As an open source project, backed by the {0} we don\'t have a massive budget to market and advertise the framework, so we depend
@@ -86,7 +86,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 	<div id="contributing" class="box-get">
 		<i class="fa fa-comments-o icon-get"></i>
 
-		<h3><?= __('Contributing Code')?></h3>
+		<h3><?= __('Contributing Code')?><?= $this->Html->link('¶', '#contributing', ['class' => 'headerlink', 'title' => __('Permalink to this headline')]) ?></h3>
 
 		<div class="br-bottom mb20"></div>
 		<p><?= __('If you want to contribute code for a bug fix then coordinate your approach in the comments of the issue, either
@@ -101,7 +101,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 	<div id="testing" class="box-get">
 		<i class="fa fa-thumbs-o-up icon-get"></i>
 
-		<h3><?= __('Testing and Quality Assurance')?></h3>
+		<h3><?= __('Testing and Quality Assurance')?><?= $this->Html->link('¶', '#testing', ['class' => 'headerlink', 'title' => __('Permalink to this headline')]) ?></h3>
 
 		<div class="br-bottom mb20"></div>
 		<p><?= __('Filing issues is a great way to start contributing to CakePHP. By finding and reporting issues in the code
@@ -163,7 +163,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 	<div id="documentation" class="box-get">
 		<i class="fa fa-book icon-get"></i>
 
-		<h3><?= __('Documentation')?></h3>
+		<h3><?= __('Documentation')?><?= $this->Html->link('¶', '#documentation', ['class' => 'headerlink', 'title' => __('Permalink to this headline')]) ?></h3>
 
 		<div class="br-bottom mb20"></div>
 		<p><?= __('Documentation is another excellent way to start getting involved with CakePHP. We have two primary forms of
@@ -182,7 +182,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 
 	<div id="translation" class="box-get">
 		<i class="fa fa-comments-o icon-get"></i>
-		<h3><?= __('Translations')?></h3>
+		<h3><?= __('Translations')?><?= $this->Html->link('¶', '#translation', ['class' => 'headerlink', 'title' => __('Permalink to this headline')]) ?></h3>
 		<div class="br-bottom mb20"></div>
 		<p><?= __('We have developers from countries all over the world who use CakePHP. If you\'re a non-english speaker,
 			translating the the {0} content

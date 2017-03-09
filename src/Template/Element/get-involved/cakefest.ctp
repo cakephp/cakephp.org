@@ -1,5 +1,5 @@
 <div id="cakefest" class="col-sm-12 get-conference pt-100">
-	<h2><?= __('The Annual CakePHP Conference')?></h2>
+	<h2><?= __('The Annual CakePHP Conference')?><?= $this->Html->link('¶', '#cakefest', ['class' => 'headerlink', 'title' => __('Permalink to this headline')]) ?></h2>
 	<?= $this->Html->image('cakefest/slide.jpg', ['class' => 'img-responsive', 'alt' => __('Cakefest')]) ?>
 	<p><?= __('Every year we hold a conference dedicated to CakePHP, hosting live workshops and inviting a variety of great
 		speakers, to give you the very best in presentations and talks on the latest from the community:')?></p>

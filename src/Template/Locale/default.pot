@@ -1049,7 +1049,7 @@ msgid "Join the #cakephp IRC channel, or Slack group and talk to developers who 
 msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:21
-msgid "Answer questions on platforms such as {0}."
+msgid "Answer questions on platforms such as {0} and the {1}."
 msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:23

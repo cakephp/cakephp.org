@@ -2,7 +2,7 @@
 use Cake\Core\Configure;
 ?>
 <div id="comunityguidelinesside" class="col-sm-12 get-developer pt-100">
-	<h2><?= __('Community Guidelines') ?></h2>
+	<h2><?= __('Community Guidelines') ?><?= $this->Html->link('¶', '#comunityguidelinesside', ['class' => 'headerlink', 'title' => __('Permalink to this headline')]) ?></h2>
 	<p><?= __('The following is a list of recommendations to help keep the CakePHP community strong, active and healthy, as well as a place where everyone feels welcome. These are by no means rules or laws, but instead suggestions and best practices.') ?></p>
 	<ol>
 		<li><?= __('Remember that when you talk about CakePHP you\'re representing a global community of people, most of whom are passionate about their involvement, and dedicate their free time and good will to helping the framework. Be friendly and helpful, and always show the respect for others in the same way you\'d expect from them.') ?></li>
