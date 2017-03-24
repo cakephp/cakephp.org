@@ -467,3 +467,8 @@ li.language a {
 	background-color: #363637;
 }
 
+.btn-fest:hover, .btn:hover, .btn:active {
+	background-color: #2098a1;
+	color: #fff;
+}
+
