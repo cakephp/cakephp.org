@@ -1,12 +1,12 @@
 <div class="container ptb-120">
 	<div class="row">
 		<div class="col-sm-12 crud-actions">
-			<?= $this->Html->link(__d('Showcase', 'View'), ['action' => 'view', $project->id], [
+			<?= $this->Html->link(__('View'), ['action' => 'view', $project->id], [
 				'class' => 'btn-sm btn-primary'
 			]) ?>
 
 			<?= $this->Form->postLink(
-				__d('Showcase', 'Delete'),
+				__('Delete'),
 				['action' => 'delete', $project->id],
 				[
 					'confirm' => __('Are you sure you want to delete # {0}?', $project->id),
@@ -14,7 +14,7 @@
 				]
 			)?>
 
-			<?= $this->Html->link(__d('Showcase', 'List Projects'), ['action' => 'index'], [
+			<?= $this->Html->link(__('List Projects'), ['action' => 'index'], [
 				'class' => 'btn-sm btn-primary'
 			]) ?>
 		</div>
@@ -22,7 +22,7 @@
 
 	<div class="row">
 		<div class="col-sm-12 projects">
-			<h3><?= __d('Showcase', 'Edit Project') ?></h3>
+			<h3><?= __('Edit Project') ?></h3>
 
 			<?= $this->element('Projects/form') ?>
 		</div>
