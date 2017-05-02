@@ -5970,11 +5970,11 @@ blockquote {
 }
 
 .logo-cake img {
-	margin-top: 0px;
+	margin-top: 24px;
 	margin-bottom: 0px;
-	width: 256px;
-	min-width: 256px;
-	margin-left: -15px;
+	width: 230px;
+	min-width: 240px;
+	margin-left: 0px;
 }
 #footer input {
 	padding: 5px;
@@ -10232,7 +10232,7 @@ code {
 	margin-top: 110px;
 }
 
-.logo-cake-2015 {
+.first-logo-cake-2015 {
 	text-align: center;
 	margin-top: 70px;
 }

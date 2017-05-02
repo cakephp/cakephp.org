@@ -1,5 +1,5 @@
 (function () {
-	var key = 'AIzaSyBzmUqV8vu-0jQ6y26PuF8w1N4dNf_Z45E',
+	var key = 'AIzaSyC6tPt3VAcC28Vv1cSBA4mzxSWphKM6E1o',
 		apiUrl = "https://www.googleapis.com/youtube/v3/playlistItems",
 		params = "?part=snippet&maxResults=12&playlistId=UUU3OMAQMsRi0RixSUNfC3aA&key=" + key,
 		nextPage = null;

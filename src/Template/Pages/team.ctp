@@ -32,7 +32,7 @@ $elementsByRow = 3;
 						<div class="text-team">
 							<div class="d-team"></div>
 							<h3><?= $member['name'] ?></h3>
-							<h5><?= $member['role'] ?></h5>
+							<h5><?= __($member['role']) ?></h5>
 						</div>
 					</div>
 					<?php if ($i % $elementsByRow == 0):?>
@@ -48,7 +48,7 @@ $elementsByRow = 3;
 								<div class="modal-body">
 									<div class="row t-modal-team">
 										<div class="col-sm-12">
-											<p><?= $member['description'] ?></p>
+											<p><?= __($member['description']) ?></p>
 										</div>
 									</div>
 									<div class="row">

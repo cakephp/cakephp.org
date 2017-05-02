@@ -23,7 +23,7 @@
 					echo $this->Form->input('is_showcase');
 					echo $this->Form->input('perspective_image.file', [
 						'type' => 'file',
-						'label' => __d('Showcase', 'Perspective Image'),
+						'label' => __('Perspective Image'),
 						'required' => false,
 						'class' => 'image-preview-input',
 						'data-preview' => 'perspective-image-preview'
@@ -41,7 +41,7 @@
 				<?php
 					echo $this->Form->input('screen_monitor_images.file[]', [
 						'type' => 'file',
-						'label' => __d('Showcase', 'Screen Monitor Images'),
+						'label' => __('Screen Monitor Images'),
 						'required' => false,
 						'class' => 'image-preview-input',
 						'data-preview' => 'screen-monitor-preview',

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2016-06-09 13:50+0000\n"
+"POT-Creation-Date: 2017-01-12 18:15+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -16,6 +16,75 @@ msgstr ""
 
 #: Controller/ChangelogsController.php:62
 msgid "Invalid tag for changelogs"
+msgstr ""
+
+#: Controller/WritersController.php:41
+msgid "CakePHP Website"
+msgstr ""
+
+#: Controller/WritersController.php:43
+msgid "Writers Form"
+msgstr ""
+
+#: Controller/WritersController.php:48
+msgid "Thanks for your submission! We will review and get back to you shortly!"
+msgstr ""
+
+#: Controller/Admin/ProjectsController.php:68;117
+msgid "The project has been saved."
+msgstr ""
+
+#: Controller/Admin/ProjectsController.php:72;121
+msgid "The project could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ProjectsController.php:140
+msgid "The project has been deleted."
+msgstr ""
+
+#: Controller/Admin/ProjectsController.php:142
+msgid "The project could not be deleted. Please, try again."
+msgstr ""
+
+#: Template/Admin/Dashboards/index.ctp:14
+msgid "Welcome to your Dashboard"
+msgstr ""
+
+#: Template/Admin/Projects/edit.ctp:12
+#: Template/Admin/Projects/index.ctp:49
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: Template/Admin/Projects/index.ctp:60
+msgid "previous"
+msgstr ""
+
+#: Template/Admin/Projects/index.ctp:62
+msgid "next"
+msgstr ""
+
+#: Template/Admin/Projects/view.ctp:36
+msgid "Title"
+msgstr ""
+
+#: Template/Admin/Projects/view.ctp:40
+msgid "Website"
+msgstr ""
+
+#: Template/Admin/Projects/view.ctp:44
+msgid "Is Highlighted"
+msgstr ""
+
+#: Template/Admin/Projects/view.ctp:48
+msgid "Is Showcase"
+msgstr ""
+
+#: Template/Admin/Projects/view.ctp:52
+msgid "Created"
+msgstr ""
+
+#: Template/Admin/Projects/view.ctp:56
+msgid "Modified"
 msgstr ""
 
 #: Template/Changelogs/index.ctp:3
@@ -103,12 +172,12 @@ msgid "CakePHP is {0} check the status of the {1} on Travis CI."
 msgstr ""
 
 #: Template/Changelogs/index.ctp:63
-#: Template/Element/get-involved/get-involved.ctp:159
+#: Template/Element/get-involved/get-involved.ctp:157
 msgid "continuously integrated"
 msgstr ""
 
 #: Template/Changelogs/index.ctp:64
-#: Template/Element/get-involved/get-involved.ctp:160
+#: Template/Element/get-involved/get-involved.ctp:158
 msgid "various builds"
 msgstr ""
 
@@ -169,6 +238,51 @@ msgstr ""
 msgid "{0} series "
 msgstr ""
 
+#: Template/Element/rapid_response.ctp:29;35
+#: Template/Email/text/writers_form.ctp:7
+#: Template/Writers/index.ctp:78
+msgid "Name"
+msgstr ""
+
+#: Template/Element/rapid_response.ctp:42;48
+#: Template/Element/home/newsletter.ctp:41
+#: Template/Email/text/writers_form.ctp:8
+#: Template/Writers/index.ctp:79
+msgid "Email"
+msgstr ""
+
+#: Template/Element/rapid_response.ctp:55
+msgid "Type"
+msgstr ""
+
+#: Template/Element/rapid_response.ctp:63
+msgid "Email me"
+msgstr ""
+
+#: Template/Element/rapid_response.ctp:64
+msgid "Call me"
+msgstr ""
+
+#: Template/Element/rapid_response.ctp:65
+msgid "Skype me"
+msgstr ""
+
+#: Template/Element/rapid_response.ctp:75
+msgid "Phone"
+msgstr ""
+
+#: Template/Element/rapid_response.ctp:87
+msgid "Skype"
+msgstr ""
+
+#: Template/Element/rapid_response.ctp:98
+msgid "Subject"
+msgstr ""
+
+#: Template/Element/rapid_response.ctp:128
+msgid "Send"
+msgstr ""
+
 #: Template/Element/Layout/default/footer.ctp:32
 msgid "Copyright 2005-2016 Cake Software Foundation, Inc. All rights reserved. {0}."
 msgstr ""
@@ -182,10 +296,12 @@ msgid "Home"
 msgstr ""
 
 #: Template/Element/Layout/default/footer/login_form.ctp:4
+#: site.php:86
 msgid "My CakePHP"
 msgstr ""
 
 #: Template/Element/Layout/default/footer/login_form.ctp:7
+#: Template/Email/text/writers_form.ctp:9
 #: Template/Plugin/CakeDC/Users/Users/login.ctp:32
 msgid "Username"
 msgstr ""
@@ -222,43 +338,64 @@ msgid "Follow"
 msgstr ""
 
 #: Template/Element/Layout/default/footer/menu/column_four.ctp:12
-#: Template/Element/Layout/default/menu/menu.ctp:58
+#: Template/Element/Layout/default/menu/menu.ctp:74
 msgid "Help & Support"
 msgstr ""
 
 #: Template/Element/Layout/default/footer/menu/column_one.ctp:6
 #: Template/Element/Layout/default/menu/menu.ctp:18
 #: Template/Element/Layout/default/menu/mobile_menu.ctp:33
-#: Template/Pages/business_solutions.ctp:12
+#: Template/Pages/business_solutions.ctp:13
 msgid "Business Solutions"
 msgstr ""
 
 #: Template/Element/Layout/default/footer/menu/column_one.ctp:12
-#: Template/Element/Layout/default/menu/menu.ctp:26
-#: Template/Element/Layout/default/menu/mobile_menu.ctp:43
+#: Template/Element/Layout/default/menu/menu.ctp:34
 msgid "Showcase"
 msgstr ""
 
 #: Template/Element/Layout/default/footer/menu/column_three.ctp:2
-#: Template/Element/Layout/default/menu/menu.ctp:34;45
-#: Template/Element/Layout/default/menu/mobile_menu.ctp:53;66
+#: Template/Element/Layout/default/menu/menu.ctp:50;61
+#: Template/Element/Layout/default/menu/mobile_menu.ctp:69;82
 msgid "Community"
 msgstr ""
 
 #: Template/Element/Layout/default/footer/menu/column_two.ctp:2
 #: Template/Element/Layout/default/menu/menu.ctp:6
 #: Template/Element/Layout/default/menu/mobile_menu.ctp:16
-#: Template/Element/get-involved/get-involved.ctp:168
+#: Template/Element/get-involved/get-involved.ctp:166
 #: Template/Element/get-involved/sidebar.ctp:11
 msgid "Documentation"
 msgstr ""
 
-#: Template/Element/Layout/default/menu/menu.ctp:73
+#: Template/Element/Layout/default/menu/menu.ctp:26
+msgid "Get Paid to Write"
+msgstr ""
+
+#: Template/Element/Layout/default/menu/menu.ctp:42
+#: Template/Element/Layout/default/menu/mobile_menu.ctp:57
+msgid "Team"
+msgstr ""
+
+#: Template/Element/Layout/default/menu/menu.ctp:110
 msgid "Logout"
 msgstr ""
 
-#: Template/Element/Layout/default/menu/mobile_menu.ctp:60
+#: Template/Element/Layout/default/menu/menu.ctp:120
+#: Template/Element/Layout/default/menu/mobile_menu.ctp:122
+msgid "DONATE"
+msgstr ""
+
+#: Template/Element/Layout/default/menu/mobile_menu.ctp:45
+msgid "Get Paid To Write"
+msgstr ""
+
+#: Template/Element/Layout/default/menu/mobile_menu.ctp:76
 msgid "Help &\n                                                Support"
+msgstr ""
+
+#: Template/Element/Layout/default/menu/mobile_menu.ctp:94
+msgid "Language: {0}"
 msgstr ""
 
 #: Template/Element/Layout/default/menu/top_bar.ctp:6;16
@@ -266,13 +403,42 @@ msgid "CakePHP {0}{1}"
 msgstr ""
 
 #: Template/Element/Layout/default/menu/top_bar.ctp:7
-#: Template/Element/get-involved/get-involved.ctp:178;193
+#: Template/Element/get-involved/get-involved.ctp:176;191
 msgid "Cookbook"
 msgstr ""
 
 #: Template/Element/Layout/default/menu/top_bar.ctp:17
-#: Template/Element/get-involved/get-involved.ctp:177
+#: Template/Element/get-involved/get-involved.ctp:175
+#: site.php:169
 msgid "API"
+msgstr ""
+
+#: Template/Element/Projects/form.ctp:68
+msgid "Submit"
+msgstr ""
+
+#: Template/Element/Showcase/cases.ctp:5
+msgid "CakePHP More Stories"
+msgstr ""
+
+#: Template/Element/Showcase/cases.ctp:33
+msgid "View more projects"
+msgstr ""
+
+#: Template/Element/Showcase/title.ctp:2
+msgid "CakePHP - Build fast, grow solid | Success Stories"
+msgstr ""
+
+#: Template/Element/Showcase/title.ctp:3
+msgid " CakePHP making building web applications simpler, faster and require less code. Success stories - how CakePHP has helped other companies to succeed."
+msgstr ""
+
+#: Template/Element/Showcase/title.ctp:13
+msgid "CakePHP Success Stories"
+msgstr ""
+
+#: Template/Element/Showcase/title.ctp:14
+msgid "Here’s how CakePHP has helped other companies to succeed."
 msgstr ""
 
 #: Template/Element/business-solutions/code-review.ctp:3
@@ -380,200 +546,221 @@ msgstr ""
 msgid "For more information:"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:3
+#: Template/Element/business-solutions/development.ctp:4
 msgid "Custom Development"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:4
+#: Template/Element/business-solutions/development.ctp:5
 msgid "As the commercial entity behind the framework, and established by Larry Masters, founder of CakePHP, we know your project like no one else. From startups and social networks, to e-commerce and enterprise level applications, we provide the highest quality CakePHP development available."
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:11
+#: Template/Element/business-solutions/development.ctp:13
+msgid "Find out more"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:23
 msgid "Why Choose CakeDC"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:12
+#: Template/Element/business-solutions/development.ctp:24
 msgid "On-Demand Management"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:13
+#: Template/Element/business-solutions/development.ctp:25
 msgid "We've learned that transparency is key to successful collaborations, so all of our communication is out in the open, with evidence of our progress and results readily available."
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:14
+#: Template/Element/business-solutions/development.ctp:26
 msgid "Milestone-Driven Development"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:15
+#: Template/Element/business-solutions/development.ctp:27
 msgid "Our agile development cycles are based on milestones, which are designed to always be objective, focused and aim to provide a deliverable so you see your product in the making."
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:16
+#: Template/Element/business-solutions/development.ctp:28
 msgid "Full QA Process"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:17
+#: Template/Element/business-solutions/development.ctp:29
 msgid "We provide a QA process which is integrated directly into our development iterations, and that's based upon clear specifications and acceptance criteria which define our goals."
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:18
+#: Template/Element/business-solutions/development.ctp:30
 msgid "Unit Testing"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:19
+#: Template/Element/business-solutions/development.ctp:31
 msgid "All of our work is fully testable by default, meaning that everything we deliver is provided in-hand with unit tests to validate our efforts and guarantee it's functionality."
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:20
+#: Template/Element/business-solutions/development.ctp:32
 msgid "Live Deployment"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:21
+#: Template/Element/business-solutions/development.ctp:33
 msgid "During the development we offer a full continuous integration of your project to our private staging servers, which provides us essential insight into code quality, test coverage and impact areas."
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:24
+#: Template/Element/business-solutions/development.ctp:36
 msgid "Continuous Integration (CI) Environments"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:29
+#: Template/Element/business-solutions/development.ctp:41
 msgid "We provide 3 managed environments to support our"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:29
+#: Template/Element/business-solutions/development.ctp:41
 msgid "git workflow"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:29
+#: Template/Element/business-solutions/development.ctp:41
 msgid "and ensure development, quality assurance and acceptance testing activities are isolated and visible to the client at all times. Deployment is automated, providing insight about the unit test coverage, code quality metrics and build status. Full automation and milestone based iterations provide a stable and predictable release cycle, reducing the overall time to market for the project and helping the Project Owners to successfully deliver their features as expected."
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:33
+#: Template/Element/business-solutions/development.ctp:45
 msgid "What We Provide"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:34
+#: Template/Element/business-solutions/development.ctp:46
 msgid "We offer an array of development services, each covered by years of experience and our collective talent."
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:37
-#: Template/Element/business-solutions/professional-training.ctp:50
-msgid "Setting up for development"
+#: Template/Element/business-solutions/development.ctp:49
+msgid "CakePHP Development"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:38
-#: Template/Element/business-solutions/professional-training.ctp:51
-msgid "CakePHP 2 project file structure"
+#: Template/Element/business-solutions/development.ctp:50
+msgid "Plugin Development"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:39
-#: Template/Element/business-solutions/professional-training.ctp:52
-msgid "Framework configuration"
+#: Template/Element/business-solutions/development.ctp:51
+msgid "Mobile & Tablet Sites"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:40
-#: Template/Element/business-solutions/professional-training.ctp:53
-msgid "CakePHP 2 conventions"
-msgstr ""
-
-#: Template/Element/business-solutions/development.ctp:41
-#: Template/Element/business-solutions/professional-training.ctp:54
-msgid "Baking your first project"
-msgstr ""
-
-#: Template/Element/business-solutions/development.ctp:42
-#: Template/Element/business-solutions/professional-training.ctp:55
-msgid "Understanding scaffolding"
-msgstr ""
-
-#: Template/Element/business-solutions/development.ctp:43
-#: Template/Element/business-solutions/professional-training.ctp:56
-msgid "Using models"
-msgstr ""
-
-#: Template/Element/business-solutions/development.ctp:44
-#: Template/Element/business-solutions/professional-training.ctp:57
-msgid "Model properties"
-msgstr ""
-
-#: Template/Element/business-solutions/development.ctp:45
-#: Template/Element/business-solutions/professional-training.ctp:58
-msgid "Model associations"
-msgstr ""
-
-#: Template/Element/business-solutions/development.ctp:46
-#: Template/Element/business-solutions/professional-training.ctp:59
-msgid "Model validation"
-msgstr ""
-
-#: Template/Element/business-solutions/development.ctp:47
-#: Template/Element/business-solutions/professional-training.ctp:60
-msgid "Retrieving data"
-msgstr ""
-
-#: Template/Element/business-solutions/development.ctp:48
-#: Template/Element/business-solutions/professional-training.ctp:61
-msgid "Saving your data"
+#: Template/Element/business-solutions/development.ctp:52
+msgid "JavaScript, Ajax & Node.js"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:53
-#: Template/Element/business-solutions/professional-training.ctp:66
-msgid "Creating controllers"
+msgid "Single Page Applications"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:54
-#: Template/Element/business-solutions/professional-training.ctp:67
-msgid "Implementing callbacks"
+msgid "API Development"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:55
-#: Template/Element/business-solutions/professional-training.ctp:68
-msgid "Request and Response objects"
+msgid "Web Services"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:56
-#: Template/Element/business-solutions/professional-training.ctp:69
-msgid "Components (Session, Security)"
+msgid "Internationalization (i18n)"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:57
-#: Template/Element/business-solutions/professional-training.ctp:70
-msgid "Building views"
+msgid "Imports & Migrations"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:58
-#: Template/Element/business-solutions/professional-training.ctp:71
-msgid "Page layouts"
+msgid "Third-Party Integrations"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:59
-#: Template/Element/business-solutions/professional-training.ctp:72
-msgid "Handling elements"
+msgid "Project Management"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:60
-#: Template/Element/business-solutions/professional-training.ctp:73
-msgid "View blocks"
+msgid "Issue & Bug Tracking"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:61
-#: Template/Element/business-solutions/professional-training.ctp:74
-msgid "Helpers (Html, Form)"
+msgid "Backups & Version Control"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:62
-#: Template/Element/business-solutions/professional-training.ctp:75
-msgid "Using plugins"
+msgid "Database Modeling"
 msgstr ""
 
 #: Template/Element/business-solutions/development.ctp:63
-#: Template/Element/business-solutions/professional-training.ctp:76
-msgid "Debugging code"
+msgid "UML/ER/Flow Diagrams"
 msgstr ""
 
-#: Template/Element/business-solutions/development.ctp:64
-#: Template/Element/business-solutions/professional-training.ctp:77
-msgid "Unit testing"
+#: Template/Element/business-solutions/development.ctp:68
+msgid "In-Depth Code Review"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:69
+msgid "Wire-Frames & Mock-ups"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:70
+msgid "Responsive Web Design"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:71
+msgid "Payment Gateways"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:72
+msgid "PCI Compliance"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:73
+msgid "Technical Specifications"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:74
+msgid "Functional Analysis"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:75
+msgid "Performance & Scalability"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:76
+msgid "Security & Integrity Checks"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:77
+msgid "Domain Level Analysis"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:78
+msgid "Source Code Refactoring"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:79
+msgid "Technical Documentation"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:80
+msgid "Web Standards Compliance"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:81
+msgid "Usability Testing (UI & UX)"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:82
+msgid "A/B Testing & Smoke Tests"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:91
+msgid "Find out"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:92
+msgid "More"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:93
+msgid "Looking to learn more about what CakeDC has to offer? Share your details with us below, and we'll contact you within {0}"
+msgstr ""
+
+#: Template/Element/business-solutions/development.ctp:93
+#: Template/Element/home/support.ctp:69
+msgid "24 hours!"
 msgstr ""
 
 #: Template/Element/business-solutions/professional-training.ctp:6
@@ -586,7 +773,7 @@ msgid "Without a fundamental knowledge of CakePHP conventions and the reasons th
 msgstr ""
 
 #: Template/Element/business-solutions/professional-training.ctp:12
-#: Template/Element/home/support.ctp:43
+#: Template/Element/home/support.ctp:44
 msgid "Training"
 msgstr ""
 
@@ -635,7 +822,9 @@ msgid "Don't forget to look out for {0} the annual CakePHP conference, where you
 msgstr ""
 
 #: Template/Element/business-solutions/professional-training.ctp:40
+#: Template/Element/get-involved/sidebar.ctp:18
 #: Template/Element/rebranding/cake_variations.ctp:12
+#: site.php:91
 msgid "CakeFest"
 msgstr ""
 
@@ -649,6 +838,102 @@ msgstr ""
 
 #: Template/Element/business-solutions/professional-training.ctp:47
 msgid "Course  Topics"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:50
+msgid "Setting up for development"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:51
+msgid "CakePHP 2 project file structure"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:52
+msgid "Framework configuration"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:53
+msgid "CakePHP 2 conventions"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:54
+msgid "Baking your first project"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:55
+msgid "Understanding scaffolding"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:56
+msgid "Using models"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:57
+msgid "Model properties"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:58
+msgid "Model associations"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:59
+msgid "Model validation"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:60
+msgid "Retrieving data"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:61
+msgid "Saving your data"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:66
+msgid "Creating controllers"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:67
+msgid "Implementing callbacks"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:68
+msgid "Request and Response objects"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:69
+msgid "Components (Session, Security)"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:70
+msgid "Building views"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:71
+msgid "Page layouts"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:72
+msgid "Handling elements"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:73
+msgid "View blocks"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:74
+msgid "Helpers (Html, Form)"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:75
+msgid "Using plugins"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:76
+msgid "Debugging code"
+msgstr ""
+
+#: Template/Element/business-solutions/professional-training.ctp:77
+msgid "Unit testing"
 msgstr ""
 
 #: Template/Element/business-solutions/sidebar.ctp:6
@@ -668,7 +953,6 @@ msgid "The Annual CakePHP Conference"
 msgstr ""
 
 #: Template/Element/get-involved/cakefest.ctp:3
-#: Template/Element/get-involved/sidebar.ctp:17
 msgid "Cakefest"
 msgstr ""
 
@@ -696,35 +980,109 @@ msgstr ""
 msgid "CakeFest website"
 msgstr ""
 
-#: Template/Element/get-involved/community-guidelines.ctp:6
-msgid "Find Jobs or Developers"
+#: Template/Element/get-involved/community-guidelines.ctp:5
+#: Template/Element/get-involved/sidebar.ctp:17
+msgid "Community Guidelines"
 msgstr ""
 
-#: Template/Element/get-involved/community-guidelines.ctp:7
-msgid "If you're looking for skilled CakePHP developers, or are a developer yourself and seeking a freelance project or\n\t\tposition at a company, there are many resources available:"
+#: Template/Element/get-involved/community-guidelines.ctp:6
+msgid "The following is a list of recommendations to help keep the CakePHP community strong, active and healthy, as well as a place where everyone feels welcome. These are by no means rules or laws, but instead suggestions and best practices."
+msgstr ""
+
+#: Template/Element/get-involved/community-guidelines.ctp:8
+msgid "Remember that when you talk about CakePHP you're representing a global community of people, most of whom are passionate about their involvement, and dedicate their free time and good will to helping the framework. Be friendly and helpful, and always show the respect for others in the same way you'd expect from them."
+msgstr ""
+
+#: Template/Element/get-involved/community-guidelines.ctp:9
+msgid "Never insult, tease or ridicule a user, group of users or community, based on personal opinion or bias towards them. If you don't agree with their opinion or argument, then simply state your reason, provide examples or links, and be polite. If they're acting inappropriately or using abusive language then contact an admin of that channel to have them removed."
 msgstr ""
 
 #: Template/Element/get-involved/community-guidelines.ctp:10
-msgid "LinkedIn"
+msgid "Never degrade, belittle, insult or otherwise damage the name or reputation of another project in favour of CakePHP. If you want to compare or promote features of the framework, always aim to do so with relevant and technical arguments, with a positive attitude, and in a humble and respectful manner."
 msgstr ""
 
 #: Template/Element/get-involved/community-guidelines.ctp:11
-msgid "Official career group for CakePHP related opportunities"
+msgid "Never use the community channels to announce or advertise a commercial service or product, or to spam other users with content unrelated to CakePHP or the community."
+msgstr ""
+
+#: Template/Element/get-involved/community-guidelines.ctp:12
+msgid "When dealing with a user asking for help, if possible, attempt to resolve their problem or concern, no matter how trivial it may seem. We all started from somewhere. If you don't have the time, the patience or the know-how to answer, always refer the user to the CakePHP Community Center at {0}"
 msgstr ""
 
 #: Template/Element/get-involved/community-guidelines.ctp:13
-msgid "CakePHPJobs"
+msgid "When talking about a technical feature of CakePHP, always try to make a clear reference to the version of the framework in which it became available. Also, if possible, attempt to supply documentation and examples where possible, to help the reader or listener better understand the concept. And remember, always check your facts before jumping to conclusions or defending a false argument."
 msgstr ""
 
 #: Template/Element/get-involved/community-guidelines.ctp:14
-msgid "CakePHP related job postings"
+msgid "When writing example code, always try to apply the CakePHP Conventions and Coding Standards correctly, and check that the example given does not throw an error or give an incorrect result. This promotes good practice, and aids developers in learning to do things \"the right way\" by default, without hitting too many bumps along the way."
+msgstr ""
+
+#: Template/Element/get-involved/community-guidelines.ctp:15
+msgid "The use of the CakePHP logo and brand assets should follow the instructions available from the logo usage guide: {0}. Following those standards ensures that the visual identity of the framework is never misrepresented or abused."
 msgstr ""
 
 #: Template/Element/get-involved/community-guidelines.ctp:16
-msgid "CakeDC"
+msgid "Try to use the CakePHP name correctly. The name should be spelled \"CakePHP\", all as one word, with an uppercase \"C\", and \"PHP\". This helps keep the links and references to the framework consistent. For example, CAKEPHP, Cakephp, cake-php or just Cake would be incorrect uses. Maintaining a common spelling and format for the name helps keep brand coherent and consistent."
 msgstr ""
 
 #: Template/Element/get-involved/community-guidelines.ctp:17
+msgid "When making a reference to CakePHP in a marketing or promotional context, it helps to make the name stand-out or interactive. Consider using &lt;strong&gt; or &lt;b&gt; tags for HTML, bold formatting for documents, or making the name a visible link to {0}. Don't overuse the name in any body of text, instead try keeping any direct uses of the name relevant. To even out the usage try to use other references, such as \"the framework\" or \"the project\"."
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:6
+#: Template/Element/get-involved/sidebar.ctp:16
+msgid "Find Job or Developer"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:7
+msgid "If you're looking for skilled CakePHP developers, or are a developer yourself and seeking a freelance project or\n\t\tposition at a company, there are many resources available:"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:10
+msgid "LinkedIn"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:11
+msgid "Official career group for CakePHP related opportunities"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:13
+msgid "Freelancer"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:14
+msgid "Jobs available for freelance developers"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:16
+msgid "oDesk"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:17
+msgid "Contractors who specialize in CakePHP"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:19
+msgid "CakePHPJobs"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:20
+msgid "CakePHP related job postings"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:22
+msgid "CakeXperts"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:23
+msgid "Where developers and employers connect"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:25
+msgid "CakeDC"
+msgstr ""
+
+#: Template/Element/get-involved/find-job-developer.ctp:26
 msgid "Development and consultancy from the experts"
 msgstr ""
 
@@ -754,7 +1112,7 @@ msgid "{0}: Find news and articles on many topics regarding CakePHP"
 msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:58
-msgid "Blog"
+msgid "The Bakery"
 msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:70
@@ -770,32 +1128,41 @@ msgid "{0}: Official announcements from the CakePHP community"
 msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:84
-#: Template/Element/get-involved/get-involved.ctp:70
+#: Template/Element/get-involved/get-involved.ctp:68
 msgid "Facebook"
 msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:96
-msgid "{0}: Tutorials and screencasts related to development and events"
+msgid "{0}: Official community channel for the project"
 msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:97
-msgid "YouTube"
+#: site.php:132
+msgid "Google+"
 msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:109
-msgid "{0}: Get the latest updates from around the world"
+msgid "{0}: Tutorials and screencasts related to development and events"
 msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:110
-#: Template/Element/get-involved/get-involved.ctp:72
-msgid "Twitter"
+msgid "YouTube"
+msgstr ""
+
+#: Template/Element/get-involved/get-help.ctp:122
+msgid "{0}: Get the latest updates from around the world"
 msgstr ""
 
 #: Template/Element/get-involved/get-help.ctp:123
+#: Template/Element/get-involved/get-involved.ctp:70
+msgid "Twitter"
+msgstr ""
+
+#: Template/Element/get-involved/get-help.ctp:136
 msgid "{0}: Official Subreddit of CakePHP"
 msgstr ""
 
-#: Template/Element/get-involved/get-help.ctp:124
+#: Template/Element/get-involved/get-help.ctp:137
 msgid "CakePHP on Reddit"
 msgstr ""
 
@@ -812,255 +1179,261 @@ msgid "Get Involved!"
 msgstr ""
 
 #: Template/Element/get-involved/get-involved.ctp:12
-msgid "If you're interested in contributing to CakePHP and supporting the community, then we'd love for you to join us!.\n\t\tThere are a variety of ways to get involved and help out."
+#: Template/Element/home/share.ctp:14
+msgid "If you're interested in contributing to CakePHP and supporting the community then we'd love for you to join us, there are a variety of ways to get involved and help out."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:17
+#: Template/Element/get-involved/get-involved.ctp:16
 #: Template/Element/get-involved/sidebar.ctp:6
 msgid "User Support"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:19
-msgid "One of the greatest ways to contribute to CakePHP is by directly supporting the developer community. You\n\t\t\t\tmay just have the answer to some of the questions that are being asked. Here are some of the ways that you can get started:"
+#: Template/Element/get-involved/get-involved.ctp:18
+msgid "One of the greatest ways to contribute to CakePHP is by directly supporting the developer community. There's no need to be a genius or guru to get involved, you may just have the answer to some of the questions being asked. Here are some ways you can get started:"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:22
-msgid "Join the #cakephp IRC channel, or Slack group and talk to developers who need help. *"
+#: Template/Element/get-involved/get-involved.ctp:20
+msgid "Join the {0} and talk to developers who need help. *"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:23
+#: Template/Element/get-involved/get-involved.ctp:20
+msgid "#cakephp IRC channel, or Slack group"
+msgstr ""
+
+#: Template/Element/get-involved/get-involved.ctp:21
 msgid "Answer questions on platforms such as {0}."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:25
+#: Template/Element/get-involved/get-involved.ctp:23
 msgid "Comment on posts asking for help with a specific problem."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:28
+#: Template/Element/get-involved/get-involved.ctp:26
 msgid "* For those who don't have an IRC client we have a web-based client available {0}."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:28;136;181
+#: Template/Element/get-involved/get-involved.ctp:26;134;179
 msgid "here"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:35
+#: Template/Element/get-involved/get-involved.ctp:33
 #: Template/Element/get-involved/sidebar.ctp:7
 msgid "Education and Training"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:38
-msgid "Helping others to learn CakePHP is another valuable way to contribute to the community. There are many ways\n\t\t\tyou can help others; These include:"
+#: Template/Element/get-involved/get-involved.ctp:36
+msgid "Helping others to learn CakePHP is another valuable way to contribute to the community. There are many ways\n\t\t\tyou can help others, these include:"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:41
+#: Template/Element/get-involved/get-involved.ctp:39
 msgid "Coding Seminars"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:42
+#: Template/Element/get-involved/get-involved.ctp:40
 msgid "Live Workshops"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:43
+#: Template/Element/get-involved/get-involved.ctp:41
 msgid "Hackathons"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:44
+#: Template/Element/get-involved/get-involved.ctp:42
 msgid "Training Courses"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:45
+#: Template/Element/get-involved/get-involved.ctp:43
 msgid "Tutorials"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:50
+#: Template/Element/get-involved/get-involved.ctp:48
 msgid "Additionally, we offer professional training for CakePHP, as well as the opportunity to\n\t\t\tbecome an officially certified CakePHP developer through the developer certification program."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:56
+#: Template/Element/get-involved/get-involved.ctp:54
 #: Template/Element/get-involved/sidebar.ctp:8
 msgid "Marketing and Evangelism"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:59
+#: Template/Element/get-involved/get-involved.ctp:57
 msgid "As an open source project, backed by the {0} we don't have a massive budget to market and advertise the framework, so we depend\n\t\t\ton people like you getting involved and helping support the community. There are many actions which can help\n\t\t\traise awareness, share experiences and educate your fellow developers about CakePHP."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:61
+#: Template/Element/get-involved/get-involved.ctp:59
 msgid "Cake Software Foundation, Inc."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:62
+#: Template/Element/get-involved/get-involved.ctp:60
 msgid "Write and Talk About CakePHP"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:63
+#: Template/Element/get-involved/get-involved.ctp:61
 msgid "Actively writing and talking about CakePHP helps spread the word about the framework."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:65
+#: Template/Element/get-involved/get-involved.ctp:63
 msgid "Write an article or blog post about a certain feature or development experience."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:66
+#: Template/Element/get-involved/get-involved.ctp:64
 msgid "Comment on articles or posts and provide ideas and arguments which invite further conversation and\n\t\t\t\tfeedback."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:69
+#: Template/Element/get-involved/get-involved.ctp:67
 msgid "Use social platforms such as {0}, {1} or {2} to provide links to articles, posts, plugins, events, etc."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:71
+#: Template/Element/get-involved/get-involved.ctp:69
 msgid "Discourse"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:76
+#: Template/Element/get-involved/get-involved.ctp:74
 msgid "Help Your Local Community"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:78
+#: Template/Element/get-involved/get-involved.ctp:76
 msgid "We depend on people who know and understand their local community. This not only refers to the difference in\n\t\t\tthe language, but also the local customs and cultural differences. You can help us by connecting with your\n\t\t\tlocal community and supporting CakePHP. A few actions you can undertake include:"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:82
+#: Template/Element/get-involved/get-involved.ctp:80
 msgid "Starting or joining a local user group"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:83
+#: Template/Element/get-involved/get-involved.ctp:81
 msgid "Organizing events or meet-ups"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:84
+#: Template/Element/get-involved/get-involved.ctp:82
 msgid "Distributing information and awareness"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:91
+#: Template/Element/get-involved/get-involved.ctp:89
 #: Template/Element/get-involved/sidebar.ctp:9
 msgid "Contributing Code"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:94
+#: Template/Element/get-involved/get-involved.ctp:92
 msgid "If you want to contribute code for a bug fix then coordinate your approach in the comments of the issue, either\n\t\t\tby linking to a gist/pastebin or by linking to the commit(s) for the fix."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:96
+#: Template/Element/get-involved/get-involved.ctp:94
 msgid "Contributing via a Pull Request"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:98
+#: Template/Element/get-involved/get-involved.ctp:96
 msgid "Contributing via commits on a {0} fork is the preferred way of submitting fixes. If your fix is more than\n\t\t\ta single commit, you should put the fix on an appropriately named branch. This makes integration of the fix\n\t\t\teasier."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:100;111;180
+#: Template/Element/get-involved/get-involved.ctp:98;109;178
 msgid "GitHub"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:106
+#: Template/Element/get-involved/get-involved.ctp:104
 #: Template/Element/get-involved/sidebar.ctp:10
 msgid "Testing and Quality Assurance"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:109
+#: Template/Element/get-involved/get-involved.ctp:107
 msgid "Filing issues is a great way to start contributing to CakePHP. By finding and reporting issues in the code\n\t\t\tyou notify the maintainers of any issues and help get them resolved. Issues for all CakePHP projects are\n\t\t\tlocated on {0}"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:113
+#: Template/Element/get-involved/get-involved.ctp:111
 msgid "Found a Bug?"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:115
+#: Template/Element/get-involved/get-involved.ctp:113
 msgid "Sometimes there are problems in CakePHP. If you think you've come across one you can:"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:117
+#: Template/Element/get-involved/get-involved.ctp:115
 msgid "Search for a similar or {0}."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:117
+#: Template/Element/get-involved/get-involved.ctp:115
 msgid "existing issues"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:119
+#: Template/Element/get-involved/get-involved.ctp:117
 msgid "Create a {0} if you're sure it doesn't already exist OR update the existing issue."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:119
+#: Template/Element/get-involved/get-involved.ctp:117
 msgid "new issue"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:121
+#: Template/Element/get-involved/get-involved.ctp:119
 msgid "Add detailed instructions on how to reproduce the bug. This could be in the form of test cases or a code\n\t\t\t\tsnippet that demonstrates the issue. Not having a way to reproduce an issue, means its less likely to\n\t\t\t\tget fixed."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:126
+#: Template/Element/get-involved/get-involved.ctp:124
 msgid "Issues That Need Additional Information"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:128
+#: Template/Element/get-involved/get-involved.ctp:126
 msgid "{0} often need to be confirmed or need more\n\t\t\tinformation. Asking for additional information on unclear issues doesn't take much time, and helps speed up the process."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:129
+#: Template/Element/get-involved/get-involved.ctp:127
 msgid "New issues"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:131
+#: Template/Element/get-involved/get-involved.ctp:129
 msgid "Confirm or Invalidate Existing Issues That Need a Way to Reproduce"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:133
+#: Template/Element/get-involved/get-involved.ctp:131
 msgid "If an issue cannot be easily reproduced, or is unclear, it will be set to hold. Issues on hold generally need\n\t\t\ta way to be confirmed or require additional information. You can help by finding out ways to reproduce\n\t\t\tissues, or prodding issue authors for more information. Issues that are on hold can be found {0}"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:138
+#: Template/Element/get-involved/get-involved.ctp:136
 msgid "Bug Issues for Maintenance Releases"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:140
+#: Template/Element/get-involved/get-involved.ctp:138
 msgid "Existing releases usually have a few issues open against them. These issues generally need patches and test\n\t\t\tcases created for them, so they can be resolved. Preparing patches for open {0}\n\t\t\tis a great way to get involved with CakePHP, and is one of the first steps to becoming a core contributor."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:143
-msgid "open unresolved issues"
+#: Template/Element/get-involved/get-involved.ctp:141
+msgid "unresolved issues"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:146
+#: Template/Element/get-involved/get-involved.ctp:144
 msgid "Features and Enhancements for Future Releases"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:148
+#: Template/Element/get-involved/get-involved.ctp:146
 msgid "We are currently working on the {0}. There are still a number of\n\t\t\tincomplete tasks and {1}. If an issue has been moved into a specific milestone, it is planned for inclusion in that\n\t\t\trelease. Issues are moved into milestones based on community feedback and the core team's plans. If you\n\t\t\tplan on contributing a feature, please also include relevant test cases for the feature. We want to keep\n\t\t\tCakePHP as bug free as possible, and test cases have proven to help immensely. If you submit features\n\t\t\twithout test cases, and no documentation it is highly unlikely it will be merged in."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:154
+#: Template/Element/get-involved/get-involved.ctp:152
 msgid "3.x releases"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:155
+#: Template/Element/get-involved/get-involved.ctp:153
 msgid "unresolved defects"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:158
+#: Template/Element/get-involved/get-involved.ctp:156
 msgid "CakePHP is {0}, so you can check the status of the {1} on the Jenkins server at any time."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:171
+#: Template/Element/get-involved/get-involved.ctp:169
 msgid "Documentation is another excellent way to start getting involved with CakePHP. We have two primary forms of\n\t\t\tdocumentation, the {0} and the {1}. The API\n\t\t\tis generated from the source code, so if you find an inaccuracy or issue with the API documentation, you can\n\t\t\tfile a patch against the {2}. The Cookbook is a community managed\n\t\t\tdocumentation source which can also be found on {3}.\n\t\t\tGuidelines on contributing to the documentation can be reviewed {4}."
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:179
+#: Template/Element/get-involved/get-involved.ctp:177
 msgid "source code"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:187
+#: Template/Element/get-involved/get-involved.ctp:185
 msgid "Translations"
 msgstr ""
 
-#: Template/Element/get-involved/get-involved.ctp:189
+#: Template/Element/get-involved/get-involved.ctp:187
 msgid "We have developers from countries all over the world who use CakePHP. If you're a non-english speaker,\n\t\t\ttranslating the the {0} content\n\t\t\tinto your language is another way to help support the community. Providing the official documentation and\n\t\t\tsupport material in as many languages as possible helps lower the barrier to entry to using the framework."
 msgstr ""
 
 #: Template/Element/get-involved/sidebar.ctp:3
+#: site.php:60
 msgid "Get Involved"
 msgstr ""
 
@@ -1068,12 +1441,8 @@ msgstr ""
 msgid "Translation"
 msgstr ""
 
-#: Template/Element/get-involved/sidebar.ctp:16
-msgid "Community Guidelines"
-msgstr ""
-
 #: Template/Element/home/cake.ctp:5
-msgid "New CakePHP 3.2 Red Velvet."
+msgid "New CakePHP {0} Red Velvet."
 msgstr ""
 
 #: Template/Element/home/cake.ctp:6
@@ -1096,7 +1465,22 @@ msgstr ""
 msgid "Sign up for our newsletter."
 msgstr ""
 
-#: Template/Element/home/newsletter.ctp:105
+#: Template/Element/home/newsletter.ctp:18
+#: Template/Pages/newsletter_signup.ctp:61
+msgid "First Name"
+msgstr ""
+
+#: Template/Element/home/newsletter.ctp:29
+#: Template/Pages/newsletter_signup.ctp:65
+msgid "Last Name"
+msgstr ""
+
+#: Template/Element/home/newsletter.ctp:93
+#: Template/Pages/newsletter_signup.ctp:112
+msgid "Email Format"
+msgstr ""
+
+#: Template/Element/home/newsletter.ctp:126
 msgid "Send!"
 msgstr ""
 
@@ -1116,11 +1500,7 @@ msgstr ""
 msgid "Get involved and support the community."
 msgstr ""
 
-#: Template/Element/home/share.ctp:14
-msgid "If you're interested in contributing to CakePHP and supporting the community then we'd love for you to join us, there are a variety of ways to get involved and help out."
-msgstr ""
-
-#: Template/Element/home/share.ctp:15
+#: Template/Element/home/share.ctp:16
 msgid "Learn more."
 msgstr ""
 
@@ -1220,92 +1600,64 @@ msgstr ""
 msgid "safe & secure."
 msgstr ""
 
-#: Template/Element/home/support.ctp:5
+#: Template/Element/home/support.ctp:6
 msgid "Premium "
 msgstr ""
 
-#: Template/Element/home/support.ctp:5;32
+#: Template/Element/home/support.ctp:6;33
 msgid "Support"
 msgstr ""
 
-#: Template/Element/home/support.ctp:6
+#: Template/Element/home/support.ctp:7
 msgid "Give \"The Experts Behind CakePHP\" a call:"
 msgstr ""
 
-#: Template/Element/home/support.ctp:10
+#: Template/Element/home/support.ctp:11
 msgid "Meet CakeDC."
 msgstr ""
 
-#: Template/Element/home/support.ctp:11
+#: Template/Element/home/support.ctp:12
 msgid "The commercial entity behind the framework, and established by Larry Masters, founder of CakePHP, we know your project like no one else. From startups and social networks, to e-commerce and enterprise level applications, we provide the highest quality CakePHP development available."
 msgstr ""
 
-#: Template/Element/home/support.ctp:15
+#: Template/Element/home/support.ctp:16
 msgid "Request a rapid response from us now, and we'll contact you within 24 hours:"
 msgstr ""
 
-#: Template/Element/home/support.ctp:18
+#: Template/Element/home/support.ctp:19
 msgid "Rapid Response"
 msgstr ""
 
-#: Template/Element/home/support.ctp:32;43;54
+#: Template/Element/home/support.ctp:33;44;55
 msgid "Read more"
 msgstr ""
 
-#: Template/Element/home/support.ctp:33
+#: Template/Element/home/support.ctp:34
 msgid "Professional support for CakePHP is provided by our professional services partner, the Cake Development Corporation."
 msgstr ""
 
-#: Template/Element/home/support.ctp:44
+#: Template/Element/home/support.ctp:45
 msgid "Learn the insights and reasoning behind the CakePHP framework straight from the minds behind the framework: the developers at CakeDC"
 msgstr ""
 
-#: Template/Element/home/support.ctp:54
+#: Template/Element/home/support.ctp:55
 msgid "Expert {0} Consultancy"
 msgstr ""
 
-#: Template/Element/home/support.ctp:55
+#: Template/Element/home/support.ctp:56
 msgid "We can help with the areas which need special attention and a trained eye, allowing you to rest assured that you've got all bases covered."
 msgstr ""
 
-#: Template/Element/home/support.ctp:85
+#: Template/Element/home/support.ctp:67
 msgid "Rapid"
 msgstr ""
 
-#: Template/Element/home/support.ctp:86
+#: Template/Element/home/support.ctp:68
 msgid "Response"
 msgstr ""
 
-#: Template/Element/home/support.ctp:87
+#: Template/Element/home/support.ctp:69
 msgid "Request a rapid response from us now, and we'll contact you within {0}"
-msgstr ""
-
-#: Template/Element/home/support.ctp:87
-msgid "24 hours!"
-msgstr ""
-
-#: Template/Element/home/support.ctp:92
-msgid "Name"
-msgstr ""
-
-#: Template/Element/home/support.ctp:105
-msgid "Email"
-msgstr ""
-
-#: Template/Element/home/support.ctp:118
-msgid "Type"
-msgstr ""
-
-#: Template/Element/home/support.ctp:138
-msgid "Phone"
-msgstr ""
-
-#: Template/Element/home/support.ctp:150
-msgid "Skype"
-msgstr ""
-
-#: Template/Element/home/support.ctp:161
-msgid "Subject"
 msgstr ""
 
 #: Template/Element/rebranding/cake_variations.ctp:6
@@ -1708,38 +2060,38 @@ msgstr ""
 msgid "The first or most prominent mention of a Mark on a webpage, document, packaging, or documentation should be\n\t\taccompanied by a symbol indicating whether the mark is a registered trademark (\"®\") or an unregistered trademark\n\t\t(\"™\"). See our {0} for the correct symbol to use."
 msgstr ""
 
-#: Template/Element/trademark/general-information.ctp:7
+#: Template/Element/trademark/general-information.ctp:8
 msgid "Trademark List"
 msgstr ""
 
-#: Template/Element/trademark/general-information.ctp:9
+#: Template/Element/trademark/general-information.ctp:11
 msgid "Also, if you are using our Marks in a way described in the sections {0},\n\t\tplease put following notice at the foot of the page where you have used the Mark (or, if in a book, on the\n\t\tcredits page), on any packaging or labeling, and on advertising or marketing materials: CakePHP and related Marks\n\t\tare trademarks of Cake Software Foundation, Inc. and Cake Development Corporation, registered in the United States and other countries.\n\t\tUsed with permission from Cake Software Foundation, Inc."
 msgstr ""
 
-#: Template/Element/trademark/general-information.ctp:14
+#: Template/Element/trademark/general-information.ctp:16
 #: Template/Element/trademark/non-software.ctp:33
 #: Template/Element/trademark/sidebar.ctp:30;52
 #: Template/Element/trademark/software.ctp:61
 msgid "Uses for which we are granting a license"
 msgstr ""
 
-#: Template/Element/trademark/general-information.ctp:15
+#: Template/Element/trademark/general-information.ctp:17
 #: Template/Element/trademark/sidebar.ctp:66
 msgid "What to do when you see abuse"
 msgstr ""
 
-#: Template/Element/trademark/general-information.ctp:17
+#: Template/Element/trademark/general-information.ctp:19
 msgid "If you are aware of any confusing use or misuse of the Marks in any way, we would appreciate you bringing this to\n\t\tour attention. Please contact us as described below so that we can investigate it further."
 msgstr ""
 
-#: Template/Element/trademark/general-information.ctp:19
+#: Template/Element/trademark/general-information.ctp:21
 #: Template/Element/trademark/guidelines.ctp:222
 #: Template/Element/trademark/introduction.ctp:25
 #: Template/Element/trademark/sidebar.ctp:67
 msgid "Where to get further information"
 msgstr ""
 
-#: Template/Element/trademark/general-information.ctp:21
+#: Template/Element/trademark/general-information.ctp:23
 msgid "If you have any questions about this Policy, would like to speak with us about the use of our Marks in ways not\n\t\tdescribed in the Policy, or see any abuse of our Marks, please contact {0}"
 msgstr ""
 
@@ -2002,6 +2354,7 @@ msgstr ""
 
 #: Template/Element/trademark/non-software.ctp:30
 #: Template/Element/trademark/sidebar.ctp:48
+#: site.php:225
 msgid "Events"
 msgstr ""
 
@@ -2204,7 +2557,7 @@ msgid "We will likely consider using the Marks in a software distribution that c
 msgstr ""
 
 #: Template/Element/trademark/universal-considerations.ctp:4
-msgid "Whenever you use one of the Marks, you must always do so in a way that does not mislead anyone, either directly or by\n\t\tomission, about exactly what they are getting and from whom. The law reflects this requirement in two major ways described\n\t\tin more detail {0}: it prohibits creating a {1} but allows for {2}. For example, you cannot say you are distributing\n\t\tthe CakePHP Framework when you're distributing a modified version of it, because people would be confused\n\t\tbecause they are not getting the same features and functionality they would get if they downloaded the software directly\n\t\tfrom us. You also cannot use our logo on your website in a way that suggests that your website is an official website or\n\t\tthat we endorse your website. You can, though, say you like CakePHP Framework, that you participate in\n\t\t the CakePHP community, that you are providing an unmodified version of the CakePHP Framework,\n\t\t or that you wrote a book describing how to use the CakePHP Framework."
+msgid "Whenever you use one of the Marks, you must always do so in a way that does not mislead anyone, either directly or by\n\t\tomission, about exactly what they are getting and from whom. The law reflects this requirement in two major ways described\n\t\tin more detail {0}: it prohibits creating a {1} but allows for {2}. For example, you cannot say you are distributing\n\t\tthe CakePHP Framework when you're distributing a modified version of it, because people would be confused\n\t\tbecause they are not getting the same features and functionality they would get if they downloaded the software directly\n\t\tfrom us. You also cannot use our logo on your website in a way that suggests that your website is an official website or\n\t\tthat we endorse your website. You can, though, say you like the CakePHP Framework, that you participate in\n\t\t the CakePHP community, that you are providing an unmodified version of the CakePHP Framework,\n\t\t or that you wrote a book describing how to use the CakePHP Framework."
 msgstr ""
 
 #: Template/Element/trademark/universal-considerations.ctp:13
@@ -2251,6 +2604,21 @@ msgstr ""
 msgid "You agree that you will not acquire any rights in the Marks and that any goodwill generated by your use of the Marks inures solely to our benefit."
 msgstr ""
 
+#: Template/Email/text/writers_form.ctp:10
+#: Template/Writers/index.ctp:88
+msgid "Proposed article titles"
+msgstr ""
+
+#: Template/Email/text/writers_form.ctp:11
+#: Template/Writers/index.ctp:96
+msgid "Writing sample"
+msgstr ""
+
+#: Template/Email/text/writers_form.ctp:12
+#: Template/Writers/index.ctp:103
+msgid "Extra information"
+msgstr ""
+
 #: Template/Error/error400.ctp:44
 msgid "Sorry, There’s no Cake Here..."
 msgstr ""
@@ -2292,15 +2660,39 @@ msgstr ""
 msgid "CakePHP is an open-source web, rapid development framework that makes building web applications simpler,\n faster and require less code. It follows the model–view–controller (MVC) . Manual for beginners now available and links\n  towards the last version."
 msgstr ""
 
-#: Template/Pages/newsletter.ctp:13
+#: Template/Pages/newsletter.ctp:3
+msgid "CakePHP - Build fast, grow solid | CakePHP latest news"
+msgstr ""
+
+#: Template/Pages/newsletter.ctp:4
+msgid "Latest CakePHP News."
+msgstr ""
+
+#: Template/Pages/newsletter.ctp:15
 msgid "Newsletter Archive"
 msgstr ""
 
-#: Template/Pages/newsletter_signup.ctp:1
-msgid "CakePHP - Build fast, grow solid | Newsletter Signup"
+#: Template/Pages/newsletter_signup.ctp:3
+msgid "CakePHP - Build fast, grow solid | Newsletter Sign Up"
 msgstr ""
 
-#: Template/Pages/newsletter_signup.ctp:82
+#: Template/Pages/newsletter_signup.ctp:4
+msgid "Newsletter Sign Up Form"
+msgstr ""
+
+#: Template/Pages/newsletter_signup.ctp:41
+msgid "Subscribe to our Newsletters"
+msgstr ""
+
+#: Template/Pages/newsletter_signup.ctp:51
+msgid "are required fields"
+msgstr ""
+
+#: Template/Pages/newsletter_signup.ctp:56
+msgid "Email Address"
+msgstr ""
+
+#: Template/Pages/newsletter_signup.ctp:138
 msgid "Past Newsletters"
 msgstr ""
 
@@ -2313,6 +2705,7 @@ msgid "CakePHP Privacy Policy."
 msgstr ""
 
 #: Template/Pages/privacy.ctp:16
+#: site.php:188
 msgid "Privacy Policy"
 msgstr ""
 
@@ -2468,72 +2861,343 @@ msgstr ""
 msgid "Username or email"
 msgstr ""
 
-#: Template/Plugin/Showcase/Admin/Projects/edit.ctp:12
-#: Template/Plugin/Showcase/Admin/Projects/index.ctp:49
-msgid "Are you sure you want to delete # {0}?"
+#: Template/Writers/index.ctp:8
+msgid "CakePHP - Build fast, grow solid | PHP Framework | Become a Tech Writer"
 msgstr ""
 
-#: Template/Plugin/Showcase/Admin/Projects/index.ctp:60
-msgid "previous"
+#: Template/Writers/index.ctp:9
+msgid "CakePHP is always on the look-out for basic/simple tutorials, from set-up all the way to more advanced topics - all with the goal to make CakePHP more accessible!"
 msgstr ""
 
-#: Template/Plugin/Showcase/Admin/Projects/index.ctp:62
-msgid "next"
+#: Template/Writers/index.ctp:10
+msgid "CakePHP, CakePHP Framework, CakePHP Tech writer"
 msgstr ""
 
-#: Template/Plugin/Showcase/Admin/Projects/view.ctp:36
-msgid "Title"
+#: Template/Writers/index.ctp:19
+msgid "GET PAID TO WRITE ABOUT CAKEPHP"
 msgstr ""
 
-#: Template/Plugin/Showcase/Admin/Projects/view.ctp:40
-msgid "Website"
+#: Template/Writers/index.ctp:20
+msgid "In-depth tutorials, simple tutorials and more."
 msgstr ""
 
-#: Template/Plugin/Showcase/Admin/Projects/view.ctp:44
-msgid "Is Highlighted"
+#: Template/Writers/index.ctp:21
+msgid "Sponsored by:"
 msgstr ""
 
-#: Template/Plugin/Showcase/Admin/Projects/view.ctp:48
-msgid "Is Showcase"
+#: Template/Writers/index.ctp:33
+msgid "CakePHP wants to publish <br />your tech tutorial!"
 msgstr ""
 
-#: Template/Plugin/Showcase/Admin/Projects/view.ctp:52
-msgid "Created"
+#: Template/Writers/index.ctp:38
+msgid "Are you a keen CakePHP community member and have an insatiable talent for explaining concepts, constructs and the intricacies of the CakePHP framework?"
 msgstr ""
 
-#: Template/Plugin/Showcase/Admin/Projects/view.ctp:56
-msgid "Modified"
+#: Template/Writers/index.ctp:39
+msgid "Our community is always on the look-out for basic/simple tutorials, from set-up all the way to more advanced topics - all with the goal to make CakePHP more accessible!"
 msgstr ""
 
-#: Template/Plugin/Showcase/Element/Projects/form.ctp:68
-msgid "Submit"
+#: Template/Writers/index.ctp:40
+msgid "Are you perhaps a tad intrigued? - you don’t need to be a technical writer, you just need to know your CakePHP stuff -and, of course, be able to explain it! We will work with you  on the final editing and article completion."
 msgstr ""
 
-#: Template/Plugin/Showcase/Element/Showcase/cases.ctp:5
-msgid "CakePHP More Stories"
+#: Template/Writers/index.ctp:41
+msgid "And on top of becoming known as one of our tutorial writers within the CakePHP Community - as a bonus, CakeDC is sponsoring you to write! <strong>Earn up to $50 per article!</strong>"
 msgstr ""
 
-#: Template/Plugin/Showcase/Element/Showcase/cases.ctp:33
-msgid "View more projects"
+#: Template/Writers/index.ctp:45
+msgid "Make"
 msgstr ""
 
-#: Template/Plugin/Showcase/Element/Showcase/title.ctp:2
-msgid "CakePHP - Build fast, grow solid | Success Stories"
+#: Template/Writers/index.ctp:46
+msgid "up to"
 msgstr ""
 
-#: Template/Plugin/Showcase/Element/Showcase/title.ctp:3
-msgid " CakePHP making building web applications simpler, faster and require less code. Success stories - how CakePHP has helped other companies to succeed."
+#: Template/Writers/index.ctp:53
+msgid "Unsure if you fit the bill?<br>We are looking for the following:"
 msgstr ""
 
-#: Template/Plugin/Showcase/Element/Showcase/title.ctp:13
-msgid "CakePHP Success Stories"
+#: Template/Writers/index.ctp:56
+msgid "Technical<br>expertise and<br>best practices"
 msgstr ""
 
-#: Template/Plugin/Showcase/Element/Showcase/title.ctp:14
-msgid "Here’s how CakePHP has helped other companies to succeed."
+#: Template/Writers/index.ctp:60
+msgid "Correct and<br>comprehensive<br>commands"
 msgstr ""
 
-#: View/Helper/AppHelper.php:117
+#: Template/Writers/index.ctp:64
+msgid "Clear and concise<br>explanations"
+msgstr ""
+
+#: Template/Writers/index.ctp:68
+msgid "Friendly and<br>informative<br>writing style"
+msgstr ""
+
+#: Template/Writers/index.ctp:77
+msgid "Author Details"
+msgstr ""
+
+#: Template/Writers/index.ctp:78;79;88;96
+msgid "(Required)"
+msgstr ""
+
+#: Template/Writers/index.ctp:80
+msgid "MyCakePHP Community username"
+msgstr ""
+
+#: Template/Writers/index.ctp:80
+msgid "(Optional)"
+msgstr ""
+
+#: Template/Writers/index.ctp:85
+msgid "Submit a writing sample to see if you qualify!"
+msgstr ""
+
+#: Template/Writers/index.ctp:89
+msgid "Please submit 1-3 proposed article titles of topics that you would be comfortable covering and are interested in writing about. Topics should be related to CakePHP, and fall within the framework specific elements (such as Cake Bake)."
+msgstr ""
+
+#: Template/Writers/index.ctp:92
+msgid "Only original content can be considered, Unfortunately content already posted elsewhere cannot be used."
+msgstr ""
+
+#: Template/Writers/index.ctp:97
+msgid "This is where you share your writing sample with us - a short introduction as well as the first two steps to your tutorial. At this time, we are only accepting English tutorials."
+msgstr ""
+
+#: Template/Writers/index.ctp:104
+msgid "Do you have your own blog? Let us know! - also, share with us your GIthub, StackOverflow or Twitter handles, we would love to get to know you better before assessing your application!"
+msgstr ""
+
+#: Template/Writers/index.ctp:111
+msgid "Submit!"
+msgstr ""
+
+#: Template/Writers/index.ctp:123
+msgid "Thanks for sending us so many writing samples!"
+msgstr ""
+
+#: Template/Writers/index.ctp:124
+msgid "This form has been temporarily disabled while we review the backlog of submissions. <br>Please check back soon!"
+msgstr ""
+
+#: Template/Writers/index.ctp:130
+msgid "Notify me!"
+msgstr ""
+
+#: Template/Writers/index.ctp:138
+msgid "Get paid with PayPal"
+msgstr ""
+
+#: Template/Writers/index.ctp:143
+msgid "IN-DEPTH<br>TUTORIALS"
+msgstr ""
+
+#: Template/Writers/index.ctp:146
+msgid "1,500+ Words"
+msgstr ""
+
+#: Template/Writers/index.ctp:146
+msgid "$50"
+msgstr ""
+
+#: Template/Writers/index.ctp:154
+msgid "SIMPLE<br>TUTORIALS"
+msgstr ""
+
+#: Template/Writers/index.ctp:157
+msgid "800+ Words"
+msgstr ""
+
+#: Template/Writers/index.ctp:157
+msgid "$25"
+msgstr ""
+
+#: Template/Writers/index.ctp:163
+msgid "Most tutorials are paid out at $50. Short tutorials with only a few commands or a few paragraphs of explanation are paid out at $25."
+msgstr ""
+
+#: View/Helper/AppHelper.php:135
 msgid "{0} to {1}"
+msgstr ""
+
+#: site.php:12
+msgid "“We got a high ROI from converting our custom PHP app to CakePHP. We love the continually expanding suite of utilities, plugins, and development patterns at our disposal!”"
+msgstr ""
+
+#: site.php:19
+msgid "“CakePHP was the most efficient way we could find to rapidly develop our intricate system.  We needed a platform that could handle our high volume of users without issues and CakePHP has certainly delivered.”"
+msgstr ""
+
+#: site.php:26
+msgid "“From the simplest micro kiosk app to my highly complex gallery management app, CakePHP is the framework of choice. It allows modular development that makes sense, and it's architecturally solid and performant. Whatever you are building, CakePHP can help you get it done.”"
+msgstr ""
+
+#: site.php:32
+msgid "“Having inherited this CakePHP project, I didn’t chose CakePHP so much as choose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.”"
+msgstr ""
+
+#: site.php:45
+msgid "Issues (Github)"
+msgstr ""
+
+#: site.php:50
+msgid "Youtube Channel"
+msgstr ""
+
+#: site.php:64
+msgid "Bakery"
+msgstr ""
+
+#: site.php:68
+msgid "Featured Resources"
+msgstr ""
+
+#: site.php:78
+msgid "Newsletter"
+msgstr ""
+
+#: site.php:82
+msgid "Certification"
+msgstr ""
+
+#: site.php:107
+msgid "Forum"
+msgstr ""
+
+#: site.php:113
+msgid "Stack Overflow"
+msgstr ""
+
+#: site.php:127
+msgid "Paid Support"
+msgstr ""
+
+#: site.php:139
+msgid "Cake Jobs"
+msgstr ""
+
+#: site.php:165
+msgid "Book"
+msgstr ""
+
+#: site.php:178
+msgid "Videos"
+msgstr ""
+
+#: site.php:198
+msgid "Logos & Trademarks"
+msgstr ""
+
+#: site.php:221
+msgid "Meetups"
+msgstr ""
+
+#: site.php:233
+msgid "Amsterdam"
+msgstr ""
+
+#: site.php:239
+msgid "Larry Masters the Co-Founder of the CakePHP project, first released in May 2005, and has contributed as a lead developer and advisor ever since. He has been involved in Open Source development for many years, dating back to his first contributions made to The Exchange Project, now called osCommerce. Prior to developing the CakePHP framework and starting Cake Software Foundation, Inc. he was a core developer of PostNuke, now continued as Zikula. He has 30 plus years experience in software development, system administration, and database design. His passion for excellence is shown in the code he writes and time dedicated to the CakePHP framework development over the past 11 years."
+msgstr ""
+
+#: site.php:240
+msgid "English, US English, Broken English, Klingon"
+msgstr ""
+
+#: site.php:244
+msgid "Co-Founder"
+msgstr ""
+
+#: site.php:250
+msgid "Mark is a core member of the CakePHP team, serving as a lead developer since late 2009. He is also a developer at FreshBooks. CakePHP Developer, Dad, MtG nerd, and moonlight Illustrator."
+msgstr ""
+
+#: site.php:251;273;284;295;337;351;388;398;410
+msgid "English"
+msgstr ""
+
+#: site.php:255
+msgid "Lead Developer"
+msgstr ""
+
+#: site.php:261
+msgid "José is a full-stack software developer that loves to solve difficult problems. He has been contributing to the CakePHP framework since 2009, and he often does talks about its amazing ORM. In his spare time, he teaches and practices mindfulness, ride his bike, or learns new programming languages."
+msgstr ""
+
+#: site.php:262
+msgid "English, Spanish, French and Danish"
+msgstr ""
+
+#: site.php:266
+msgid "ORM Developer"
+msgstr ""
+
+#: site.php:272
+msgid "A developer based in New York, New York with an extremely active github account and an interest in Docker and Server Monitoring. He's been doing this since around 2008 and sometimes he blogs."
+msgstr ""
+
+#: site.php:277;288;299;314;329;341;355;368;380;401;414
+msgid "Core Member"
+msgstr ""
+
+#: site.php:283
+msgid "A programmer by day and night, you will generally find him lurking in the deepest darkest corners of the internet. He's also involved in maintaining lot of popular CakePHP community plugins."
+msgstr ""
+
+#: site.php:294
+msgid "Bryan Crowe is an open source developer living in New York, NY. He is involved in the CakePHP framework."
+msgstr ""
+
+#: site.php:305
+msgid "A software developer by profession and not just because it’s a job. Florian is a core CakePHP team\n\t\t\t\t\t\t\tdeveloper as well as having worked with CakeDC itself, doing CakePHP development since 2007. Florian sees\n\t\t\t\t\t\t\tprogramming as a true profession and not just a job for him, he likes to work on open source projects after\n\t\t\t\t\t\t\twork hours and has an interest in Unity3D and c# as well. He’s working as lead developer for PSA Publishers\n\t\t\t\t\t\t\tLtd"
+msgstr ""
+
+#: site.php:310;325
+msgid "English, German"
+msgstr ""
+
+#: site.php:320
+msgid "Mark has been a web-software enthusiast and Open Source Contributor for many years.\n\t\t\t\t\tHe is a German Software Developer living in Berlin who started to use CakePHP in the 1.2 days.\n\t\t\t\t\tAs one of the core developers of CakePHP he is a huge fan of rapid development - and has been using\n\t\t\t\t\tCakePHP a lot for this in his applications so far.\n\t\t\t\t\tOn his blog dereuromark.de he sometimes blogs about web and CakePHP related topics."
+msgstr ""
+
+#: site.php:335
+msgid "CTO at @bownty, @CakePHP core developer, tech advisor at @getlinkfire - lover of technology\n\t\t\t \t\t\t\t\tand servers - author of FriendsOfCake/crud"
+msgstr ""
+
+#: site.php:347
+msgid "Walther is a software engineer/developer primarily working in PHP (Using CakePHP as his framework of choice).\n\t\t\t\t\t\t\t\tAlso a core member of the team, as well as the Croogo and Friends of Cake development team.\n\t\t\t\t\t\t\t\tWhen he is not developing or behind his PC screen, you can find him either spending time with his family,\n\t\t\t\t\t\t\t\tor at Scouts, where he is an adult leader/Scouter."
+msgstr ""
+
+#: site.php:361
+msgid "An architect and engineer that loves software performance. Finds the balance between maintainable code and\n\t\t\t\t\t\t\tperformance. Director at Zumba incentivize the whole team to contribute in open source projects and participate\n\t\t\t\t\t\t\tfrom meetups and conferences."
+msgstr ""
+
+#: site.php:364
+msgid "English, Portuguese"
+msgstr ""
+
+#: site.php:374
+msgid "Kurita is a PHP programmer living in Tokyo. Currently he works in web application security. Joined CakePHP\n\t\t\t\t\t\t\t\tcore team in February 2016 and has been working closely with the team on security fixes."
+msgstr ""
+
+#: site.php:376
+msgid "Japanese"
+msgstr ""
+
+#: site.php:386
+msgid "Besides marketing, social media and community management, Megan is around to assist in\n\t\t\t\t\tgeneral queries, community assistance and CakeFest planning."
+msgstr ""
+
+#: site.php:391
+msgid "CakePHP Community Manager"
+msgstr ""
+
+#: site.php:397
+msgid "Cakephp and Croogo core team member, surfer wannabe. Oh, I am Super Awesome too."
+msgstr ""
+
+#: site.php:407
+msgid "Mathew is a programmer and 3D artist that enjoys contributing to open source projects. Joined CakePHP\n\t\t\t\tcore team in October 2016 and has been working on database improvements. He has a programming blog at {0}, and\n\t\t\t\tis the creator of {1}"
 msgstr ""
 
