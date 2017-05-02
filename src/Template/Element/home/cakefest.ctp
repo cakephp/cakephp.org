@@ -29,13 +29,12 @@ use Cake\Core\Configure;
 					 a wide range of talks, interactive workshops to prizes, giveaways and fun social activities all planned
 					 over 4 exciting days!') ?></p>
 					<div class="text-center">
-						<button type="button" class="btn btn-fest mt40">
-							<?= $this->Html->link(
-								__('Buy Your Tickets'),
+							<?= $this->Html->link(__('Buy Your Tickets'),
 								'http://cakefest.org/tickets',
 								[
 									'style' => 'color:white;',
-									'target' => '_blank'
+									'target' => '_blank',
+									'class' => 'btn btn-fest mt40'
 								]
 							) ?>
 						</button>

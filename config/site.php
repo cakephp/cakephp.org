@@ -424,6 +424,28 @@ return [
 				'image-url' => 'team/thinkingmedia.jpg',
 				'country' => 'Canada'
 			],
+			'cleptric' => [
+				'name' => 'Michael Hoffmann (Cleptric)',
+				'description' => __('Michael started using CakePHP in early 2014 and is currently working as a Web developer for scherer software in Munich, Germany. He joined the Core Team in February 2017.'),
+				'language' => __('German, English'),
+				'twitter' => 'cleptric',
+				'github' => 'cleptric',
+				'mycake' => 'cleptric',
+				'role' => __('Core Member'),
+				'image-url' => 'team/cleptric.jpg',
+				'country' => 'Germany'
+			],
+			'antograssiot' => [
+				'name' => 'Anthony Grassiot (antograssiot)',
+				'description' => __('Anthony is a former electrical/automation engineer who started using CakePHP back in 2014. He joined the core team in September 2015. Anthony now works as a full time Web developer at TLD. Besides web development, he is also a music enthusiast, playing drums and trumpet.'),
+				'language' => __('French, English, Spanish'),
+				'twitter' => 'antograssiot',
+				'github' => 'antograssiot',
+				'mycake' => 'antograssiot',
+				'role' => __('Core Member'),
+				'image-url' => 'team/antograssiot.jpg',
+				'country' => 'France'
+			],
 		],
 		'writers_form_enabled' => true,
 	],

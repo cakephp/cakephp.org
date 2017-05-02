@@ -1,7 +1,7 @@
 <div class="container ptb-120">
 	<div class="row">
 		<div class="col-sm-12">
-			<?= $this->Html->link(__d('Showcase', 'New Project'), ['action' => 'add'], [
+			<?= $this->Html->link(__('New Project'), ['action' => 'add'], [
 				'class' => 'btn-sm btn-primary'
 			]) ?>
 		</div>
@@ -9,7 +9,7 @@
 
 	<div class="row">
 		<div class="col-sm-12 projects">
-			<h3><?= __d('Showcase', 'Projects') ?></h3>
+			<h3><?= __('Projects') ?></h3>
 			<table class="table">
 				<thead>
 					<tr>
