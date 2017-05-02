@@ -48,16 +48,15 @@
 		<div class="col-sm-6 business-list">
 			<ul>
 				<li><?= __('Setting up for development') ?></li>
-				<li><?= __('CakePHP 2 project file structure') ?></li>
+				<li><?= __('CakePHP project file structure') ?></li>
 				<li><?= __('Framework configuration') ?></li>
-				<li><?= __('CakePHP 2 conventions') ?></li>
+				<li><?= __('CakePHP conventions') ?></li>
 				<li><?= __('Baking your first project') ?></li>
-				<li><?= __('Understanding scaffolding') ?></li>
-				<li><?= __('Using models') ?></li>
-				<li><?= __('Model properties') ?></li>
-				<li><?= __('Model associations') ?></li>
-				<li><?= __('Model validation') ?></li>
-				<li><?= __('Retrieving data') ?></li>
+				<li><?= __('The ORM') ?></li>
+				<li><?= __('Tables') ?></li>
+				<li><?= __('Associations') ?></li>
+				<li><?= __('Entity validation') ?></li>
+				<li><?= __('Reading data') ?></li>
 				<li><?= __('Saving your data') ?></li>
 			</ul>
 		</div>
@@ -66,13 +65,12 @@
 				<li><?= __('Creating controllers') ?></li>
 				<li><?= __('Implementing callbacks') ?></li>
 				<li><?= __('Request and Response objects') ?></li>
-				<li><?= __('Components (Session, Security)') ?></li>
+				<li><?= __('Components') ?></li>
 				<li><?= __('Building views') ?></li>
 				<li><?= __('Page layouts') ?></li>
 				<li><?= __('Handling elements') ?></li>
 				<li><?= __('View blocks') ?></li>
 				<li><?= __('Helpers (Html, Form)') ?></li>
-				<li><?= __('Using plugins') ?></li>
 				<li><?= __('Debugging code') ?></li>
 				<li><?= __('Unit testing') ?></li>
 			</ul>
