@@ -23,9 +23,9 @@
 	<li>
 		<?=
 		$this->Html->link(
-			__('Get Paid to Write'),
-			['plugin' => false, 'controller' => 'Writers', 'action' => 'index', 'prefix' => false],
-			['escape' => false, 'class' => 'new-tag']
+			__('Swag'),
+			'https://swag.cakephp.org/',
+			['escape' => false, 'class' => 'new-tag', 'target' => '_blank']
 		);?>
 	</li>
 	<li>
