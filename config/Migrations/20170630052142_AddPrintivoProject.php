@@ -20,8 +20,8 @@ class AddPrintivoProject extends AbstractMigration
         $uploadedFilesTable= TableRegistry::get('UploadedFiles');
 
         $project = $projectTable->newEntity();
-        $project->title = 'Printivo Test 1';
-        $project->slug = 'printivo-com-test';
+        $project->title = 'Printivo.com';
+        $project->slug = 'printivo-com';
         $project->website = 'https://printivo.com';
         $project->brief_description = 'Nigeria\'s first and arguably Africa\'s largest online web-print platform';
         $project->description = '<p><strong>Nigeria&#39;s</strong> first and arguably Africa&#39;s largest online web-print platform enabling individuals and SMEs order their print products such as business cards, fliers, banners, flyers and mugs.</p>
