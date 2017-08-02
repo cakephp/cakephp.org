@@ -10321,3 +10321,215 @@ code {
 .t-extral {
 	font-weight: 300;
 }
+
+
+/* ---------------------- ROAD TRIP ------------------------- */
+
+.roadtrip-hero {
+	overflow: hidden;
+}
+
+.roadtrip-hero img {
+	width: 100%;
+}
+
+
+
+.roadtrip-body {
+	padding-top: 40px;
+	text-align: center;
+}
+
+.roadtrip-body p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: 400;
+}
+
+
+.roadtrip-body h1{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.roadtrip-body h2{
+	font-size: 30px;
+	line-height: 32px;
+	margin: 0 0 35px 0;
+	font-weight: 900;
+}
+
+.plaque1svg {
+	width: 120px;
+	padding: 25px 0 30px;
+}
+
+.plaque2svg {
+	max-width: 550px;
+	display: block;
+	margin: 80px auto 40px;
+}
+
+.road-cloud1 {
+	max-width: 110px;
+	left: -30%;
+}
+
+
+.road-cloud2 {
+	max-width: 142px;
+	right: -30%;
+}
+
+.road-cloud1, .road-cloud2 {
+	position: absolute;;
+	bottom: 0;
+}
+.road-hosts {
+	position: relative;
+}
+
+.road-quote {
+	border: 2px solid #F8F7F4;
+	border-radius: 10px;
+	position: relative;
+	margin-top: 80px;
+	padding: 80px 20px 10px;
+}
+
+.road-quote span {
+	color: #D33C44;
+}
+
+.road-quote-photo {
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -50px;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	border-radius: 50px;
+	box-shadow:
+			0 0 0 6px white,
+			0 0 0 8px #F8F7F4;
+
+}
+
+@media (max-width:991px) {
+
+	.roadtrip-hero img {
+		width: 150%;
+		max-width: inherit !important;
+		margin-left: -25%;
+	}
+	.road-cloud1, .road-cloud2 {
+		display: none;
+	}
+}
+
+@media (max-width:530px) {
+	.roadtrip-hero img {
+		width: 250%;
+		margin-left: -74%;
+	}
+}
+
+.road-form {
+	text-align: left;
+	margin-top: 40px;
+	padding: 40px 40px 25px;
+	background-color: #f7f6f3;
+	margin-bottom: 80px;
+}
+
+.road-form label span{
+	font-weight: 500;
+}
+
+.road-form button {
+	display: block;
+	margin: 30px auto 20px auto;
+	border: 0;
+	background-color: #D33C44;
+	color: white;
+	font-weight: 800;
+	font-size: 16px;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+.road-form button:hover {
+	background-color: #363637;
+	transition: all 0.5s ease;
+}
+
+.road-form h3 {
+	text-align: center;
+	margin: 30px 0 60px;
+}
+
+.road-form .form-control {
+	display: block;
+	width: 100%;
+	min-height: 54px;
+	padding: 15px 15px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #FFF;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 0px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	border: 1px solid #ddddd4;
+	color: #363637;
+}
+
+.road-form .form-control:focus {
+	border: 1px solid #d33c44;
+}
+
+.road-form .form-group:nth-last-of-type(n+2) {
+	margin-bottom: 30px;
+}
+
+.roadtrip-select select {
+	background-color: #F8F7F4;
+	border: 0;
+	border-radius: 0;
+	padding: 10px 20px !important;
+	display: block;
+	width: 100%;
+}
+
+
+.roadtrip-update {
+	text-align: left;
+	border: 2px solid #F8F7F4;
+	padding: 30px;
+	border-radius: 20px;
+	margin: 50px auto;
+}
+
+.roadtrip-update h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.roadtrip-bottom {
+	width: 100%;
+	margin: 0;
+}
+
+.roadtrip-bottom img{
+	width: 100%;
+	margin: 0;
+}
