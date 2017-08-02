@@ -18,9 +18,9 @@
 			__('CakeFest website'),
 			'http://cakefest.org/',
 			[
-                'class' => 't-blue',
-                'target' => '_blank'
-            ]
+				'class' => 't-blue',
+				'target' => '_blank'
+			]
 		)) ?>
 	</p>
 </div>

@@ -79,6 +79,7 @@ $basicRoutes = function (RouteBuilder $routes) {
     $routes->connect('/get-involved', ['controller' => 'Pages', 'action' => 'display', 'get-involved']);
     $routes->connect('/team', ['controller' => 'Pages', 'action' => 'display', 'team']);
     $routes->connect('/business-solutions', ['controller' => 'Pages', 'action' => 'display', 'business-solutions']);
+    $routes->connect('/roadtrip', ['controller' => 'Pages', 'action' => 'display', 'road_trip']);
 
     $routes->redirect('/pages/documentation', 'http://book.cakephp.org/');
     $routes->redirect('/documentation', 'http://book.cakephp.org/');
@@ -119,6 +120,7 @@ $realRoutes = function ($routes) use ($basicRoutes) {
 
 Router::scope('/jp', ['language' => 'ja_JP'], $realRoutes);
 Router::scope('/fr', ['language' => 'fr_FR'], $realRoutes);
+Router::scope('/pt', ['language' => 'pt_BR'], $realRoutes);
 Router::scope('/', ['language' => 'en'], $realRoutes);
 Router::scope('/', $realRoutes);
 /**

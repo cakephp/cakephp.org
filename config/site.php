@@ -9,29 +9,27 @@ return [
 		'quotes' => [
 			[
 				'image' => 'quote/megan.png',
-				'text' => '“We got a high ROI from converting our custom PHP app to CakePHP. We love the continually expanding suite of utilities, plugins, and development patterns at our disposal!”',
+				'text' => __('“We got a high ROI from converting our custom PHP app to CakePHP. We love the continually expanding suite of utilities, plugins, and development patterns at our disposal!”'),
 				'client' => 'Megan Danz',
 				'company' => 'Harbor Compliance',
 				'url' => 'https://www.harborcompliance.com/'
 			],
 			[
 				'image' => 'quote/brad.png',
-				'text' => '“CakePHP was the most efficient way we could find to rapidly develop our intricate system.  We needed a platform that could handle our high volume of users without issues and CakePHP has certainly delivered.”',
+				'text' => __('“CakePHP was the most efficient way we could find to rapidly develop our intricate system.  We needed a platform that could handle our high volume of users without issues and CakePHP has certainly delivered.”'),
 				'client' => 'Brad Lambden',
 				'company' => 'iWorkZone',
 				'url' => 'https://iworkzone.com/'
 			],
 			[
 				'image' => 'quote/julian.png',
-				'text' => '“From the simplest micro kiosk app to my highly complex gallery management app, CakePHP is the
-							framework of choice. It allows modular development that makes sense, and it\'s architecturally solid and performant.
-							Whatever you are building, CakePHP can help you get it done.”',
+				'text' => __('“From the simplest micro kiosk app to my highly complex gallery management app, CakePHP is the framework of choice. It allows modular development that makes sense, and it\'s architecturally solid and performant. Whatever you are building, CakePHP can help you get it done.”'),
 				'client' => 'Julian Sander',
 				'company' => 'Gallery Assistant'
 			],
 			[
 				'image' => 'quote/dwayne.png',
-				'text' => '“Having inherited this CakePHP project, I didn’t chose CakePHP so much as choose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.”',
+				'text' => __('“Having inherited this CakePHP project, I didn’t chose CakePHP so much as choose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.”'),
 				'client' => 'Dwayne Sander',
 				'company' => 'Alerrt',
 				'url' => 'http://alerrt.org/'
@@ -41,16 +39,6 @@ return [
 		'menu' => [
 			'items' => [
 				'community' => [
-					'issues' => [
-						'url' => 'https://github.com/cakephp/cakephp/issues',
-						'options' => ['target' => '_blank'],
-						'title' => __('Issues (Github)')
-					],
-					'youtube' => [
-						'url' => 'https://www.youtube.com/user/CakePHP',
-						'options' => ['target' => '_blank'],
-						'title' => __('Youtube Channel')
-					],
 					'getInvolved' => [
 						'url' => [
 							'plugin' => false,
@@ -61,6 +49,11 @@ return [
 						],
 						'title' => __('Get Involved')
 					],
+					'issues' => [
+						'url' => 'https://github.com/cakephp/cakephp/issues',
+						'options' => ['target' => '_blank'],
+						'title' => __('Issues (Github)')
+					],
 					'blog' => [
 						'url' => 'http://bakery.cakephp.org/',
 						'title' => __('Bakery')
@@ -69,15 +62,9 @@ return [
 						'url' => 'https://github.com/FriendsOfCake/awesome-cakephp',
 						'title' => __('Featured Resources')
 					],
-					'newsletter' => [
-						'url' => [
-							'plugin' => false,
-							'controller' => 'Pages',
-							'action' => 'display',
-							'newsletter',
-							'prefix' => false
-						],
-						'title' => __('Newsletter')
+					'training' => [
+						'url' => 'http://training.cakephp.org/',
+						'title' => __('Training')
 					],
 					'certification' => [
 						'url' => 'http://certification.cakephp.org/',
@@ -91,6 +78,26 @@ return [
 						'url' => 'http://cakefest.org',
 						'options' => ['target' => '_blank'],
 						'title' => __('CakeFest')
+					],
+					'newsletter' => [
+						'url' => [
+							'plugin' => false,
+							'controller' => 'Pages',
+							'action' => 'display',
+							'newsletter',
+							'prefix' => false
+						],
+						'title' => __('Newsletter')
+					],
+					'linkedin' => [
+						'url' => 'https://www.linkedin.com/groups/4623165',
+						'options' => ['target' => '_blank'],
+						'title' => __('Linkedin')
+					],
+					'youtube' => [
+						'url' => 'https://www.youtube.com/user/CakePHP',
+						'options' => ['target' => '_blank'],
+						'title' => __('Youtube')
 					],
 					'facebook' => [
 						'url' => 'https://www.facebook.com/CakePHP/',
@@ -416,6 +423,28 @@ return [
 				'role' => __('Core Member'),
 				'image-url' => 'team/thinkingmedia.jpg',
 				'country' => 'Canada'
+			],
+			'cleptric' => [
+				'name' => 'Michael Hoffmann (Cleptric)',
+				'description' => __('Michael started using CakePHP in early 2014 and is currently working as a Web developer for scherer software in Munich, Germany. He joined the Core Team in February 2017.'),
+				'language' => __('German, English'),
+				'twitter' => 'cleptric',
+				'github' => 'cleptric',
+				'mycake' => 'cleptric',
+				'role' => __('Core Member'),
+				'image-url' => 'team/cleptric.jpg',
+				'country' => 'Germany'
+			],
+			'antograssiot' => [
+				'name' => 'Anthony Grassiot (antograssiot)',
+				'description' => __('Anthony is a former electrical/automation engineer who started using CakePHP back in 2014. He joined the core team in September 2015. Anthony now works as a full time Web developer at TLD. Besides web development, he is also a music enthusiast, playing drums and trumpet.'),
+				'language' => __('French, English, Spanish'),
+				'twitter' => 'antograssiot',
+				'github' => 'antograssiot',
+				'mycake' => 'antograssiot',
+				'role' => __('Core Member'),
+				'image-url' => 'team/antograssiot.jpg',
+				'country' => 'France'
 			],
 		],
 		'writers_form_enabled' => true,
