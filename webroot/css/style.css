@@ -10333,7 +10333,10 @@ code {
 	width: 100%;
 }
 
-
+.roadtrip-hero .alert {
+	margin-top: 90px;
+	margin-bottom: -60px;
+}
 
 .roadtrip-body {
 	padding-top: 40px;
@@ -10425,6 +10428,9 @@ code {
 		width: 150%;
 		max-width: inherit !important;
 		margin-left: -25%;
+	}
+	.roadtrip-hero .alert {
+		margin-top: 70px;
 	}
 	.road-cloud1, .road-cloud2 {
 		display: none;

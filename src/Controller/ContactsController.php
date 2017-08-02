@@ -41,7 +41,7 @@ class ContactsController extends AppController
         if ($this->Contacts->save($contact)) {
             $this->sendEmail($contact);
 
-            $this->Flash->success(__('Thank you!'), ['key' => 'contact']);
+            $this->Flash->success(__('Thank you, we are adding your city to the list if others and will let you know if we choose yours to visit.'), ['key' => 'contact']);
         }
 
         return $this->redirect('/roadtrip');
