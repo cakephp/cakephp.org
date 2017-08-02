@@ -5,6 +5,9 @@ use Cake\Core\Configure;
 use Cake\Mailer\Email;
 use Cake\Event\Event;
 
+/**
+ * @property \App\Model\Table\ContactsTable $Contacts
+ */
 class ContactsController extends AppController
 {
     public function beforeFilter(Event $event)
@@ -27,6 +30,21 @@ class ContactsController extends AppController
         }
 
         $this->response->statusCode(422);
+    }
+
+    public function roadTrip()
+    {
+        $this->autoRender = false;
+
+        $contact = $this->Contacts->createRapidContact(['type' => 'road_trip', 'subject' => 'road_trip'] + $this->request->data);
+
+        if ($this->Contacts->save($contact)) {
+            $this->sendEmail($contact);
+
+            $this->Flash->success(__('Thank you!'), ['key' => 'contact']);
+        }
+
+        return $this->redirect('/roadtrip');
     }
 
     private function sendEmail($contact)
