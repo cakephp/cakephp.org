@@ -44,7 +44,19 @@
                                         <?= $this->Html->link(
                                             __('Swag'),
                                             'https://swag.cakephp.org/',
-                                            ['escape' => false, 'class' => 'new-tag', 'target' => '_blank']
+                                            ['escape' => false, 'target' => '_blank']
+                                        );?>
+									</h4>
+								</div>
+							</div>
+
+						   <div class="panel">
+								<div class="panel-heading p0">
+									<h4 class="panel-title title-responsivo-menu">
+                                        <?= $this->Html->link(
+                                            __('Road Trip'),
+                                            ['controller' => 'Pages', 'action' => 'display', 'road_trip'],
+                                            ['escape' => false, 'class' => 'new-tag']
                                         );?>
 									</h4>
 								</div>
