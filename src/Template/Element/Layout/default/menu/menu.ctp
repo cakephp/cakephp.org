@@ -25,7 +25,15 @@
 		$this->Html->link(
 			__('Swag'),
 			'https://swag.cakephp.org/',
-			['escape' => false, 'class' => 'new-tag', 'target' => '_blank']
+			['escape' => false, 'target' => '_blank']
+		);?>
+	</li>
+	<li>
+		<?=
+		$this->Html->link(
+			__('Road Trip'),
+            ['controller' => 'Pages', 'action' => 'display', 'road_trip'],
+			['escape' => false, 'class' => 'new-tag']
 		);?>
 	</li>
 	<li>
