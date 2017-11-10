@@ -41,11 +41,23 @@
 						   <div class="panel">
 								<div class="panel-heading p0">
 									<h4 class="panel-title title-responsivo-menu">
-										<?= $this->Html->link(
-											'<i class="fa fa-caret-right upside-stop"></i>' . h(__('Get Paid To Write')),
-											['plugin' => false, 'controller' => 'Writers', 'action' => 'index', 'prefix' => false],
-											['escape' => false, 'class' => 'new-tag ']
-										) ?>
+                                        <?= $this->Html->link(
+                                            __('Swag'),
+                                            'https://swag.cakephp.org/',
+                                            ['escape' => false, 'target' => '_blank']
+                                        );?>
+									</h4>
+								</div>
+							</div>
+
+						   <div class="panel">
+								<div class="panel-heading p0">
+									<h4 class="panel-title title-responsivo-menu">
+                                        <?= $this->Html->link(
+                                            __('Road Trip'),
+                                            ['controller' => 'Pages', 'action' => 'display', 'road_trip'],
+                                            ['escape' => false, 'class' => 'new-tag']
+                                        );?>
 									</h4>
 								</div>
 							</div>
