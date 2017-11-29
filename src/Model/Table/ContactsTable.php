@@ -112,6 +112,9 @@ class ContactsTable extends Table
             case 'skype':
                 $body = 'skype me at ' . $data['skype'];
                 break;
+            case 'road_trip':
+                $body = 'come to ' . $data['where'];
+                break;
             default:
                 throw new \InvalidArgumentException();
         }
@@ -146,6 +149,9 @@ class ContactsTable extends Table
                 break;
             case 'training':
                 $subject = 'Rapid Response: Training';
+                break;
+            case 'road_trip':
+                $subject = 'Road Trip';
                 break;
             default:
                 throw new \InvalidArgumentException();

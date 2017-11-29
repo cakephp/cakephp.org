@@ -1,14 +1,14 @@
 <div class="container ptb-120">
 	<div class="row">
 		<div class="col-sm-12 crud-actions">
-			<?= $this->Html->link(__d('Showcase', 'Edit'), ['action' => 'edit', $project->id], [
+			<?= $this->Html->link(__('Edit'), ['action' => 'edit', $project->id], [
 				'class' => 'btn-sm btn-primary'
 			]) ?>
-			<?= $this->Form->postLink(__d('Showcase', 'Delete'), ['action' => 'delete', $project->id], [
+			<?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $project->id], [
 				'class' => 'btn-sm btn-danger',
-				'confirm' => __d('Showcase', 'Are you sure you?')
+				'confirm' => __('Are you sure you?')
 			]) ?>
-			<?= $this->Html->link(__d('Showcase', 'List Projects'), ['action' => 'index'], [
+			<?= $this->Html->link(__('List Projects'), ['action' => 'index'], [
 				'class' => 'btn-sm btn-primary'
 			]) ?>
 		</div>

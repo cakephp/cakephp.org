@@ -23,8 +23,16 @@
 	<li>
 		<?=
 		$this->Html->link(
-			__('Get Paid to Write'),
-			['plugin' => false, 'controller' => 'Writers', 'action' => 'index', 'prefix' => false],
+			__('Swag'),
+			'https://swag.cakephp.org/',
+			['escape' => false, 'target' => '_blank']
+		);?>
+	</li>
+	<li>
+		<?=
+		$this->Html->link(
+			__('Road Trip'),
+            ['controller' => 'Pages', 'action' => 'display', 'road_trip'],
 			['escape' => false, 'class' => 'new-tag']
 		);?>
 	</li>
