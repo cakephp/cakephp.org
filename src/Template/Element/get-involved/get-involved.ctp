@@ -18,8 +18,19 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 		<p><?= __('One of the greatest ways to contribute to CakePHP is by directly supporting the developer community. There\'s no need to be a genius or guru to get involved, you may just have the answer to some of the questions being asked. Here are some ways you can get started:')?></p>
 		<ul>
 			<li><?= __('Join the {0} and talk to developers who need help. *', $this->Html->link(__('#cakephp IRC channel, or Slack group'), '#get-help'))?></li>
-			<li><?= __('Answer questions on platforms such as {0} and the {1}.', $this->Html->link(__('StackOverflow'), Configure::read('Site.menu.items.help.stackOverflow.url'), ['target' => '_blank']), $this->Html->link(__('official CakePHP Forum'), Configure::read('Site.menu.items.help.discourse.url'), ['target' => '_blank']))?>
-			</li>
+			<li><?= __(
+					'Answer questions on platforms such as {0} and the {1}.',
+					$this->Html->link(
+						__('StackOverflow'),
+						Configure::read('Site.menu.items.help.stackOverflow.url'),
+						['target' => '_blank']
+					),
+					$this->Html->link(
+						__('official CakePHP Forum'),
+						Configure::read('Site.menu.items.help.discourse.url'),
+						['target' => '_blank']
+					)
+				)?></li>
 			<li><?= __('Comment on posts asking for help with a specific problem.')?></li>
 		</ul>
 		<p>
