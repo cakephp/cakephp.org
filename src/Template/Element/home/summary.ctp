@@ -133,8 +133,8 @@
 						<span class="glyph_range icon-recipe i-recipe-size">L</span>
 						<h3 class="title-small"><?= __('Secure')?></h3>
 						<p><?= __('CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering
-							protection, SQL injection prevention, and XSS prevention, helping you keep your application
-							{0}.', $this->Html->tag('strong', __('safe & secure.')))?></p>
+							protection, SQL injection prevention, and XSS prevention. CakePHP codebase itself has been audited
+							through {0} program.', $this->Html->link('Mozilla Secure Open Source', 'https://bakery.cakephp.org/2017/11/22/mozilla_sos_audit_published.html'))?></p>
 					</div>
 				</div>
 			</div>
