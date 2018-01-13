@@ -288,7 +288,7 @@ return [
 				'country' => 'United States'
 			],
 			'admad' => [
-				'name' => 'Admad (Admad)',
+				'name' => 'ADmad (ADmad)',
 				'description' => __('A programmer by day and night, you will generally find him lurking in the deepest darkest corners of the internet. He\'s also involved in maintaining lot of popular CakePHP community plugins.'),
 				'language' => __('English'),
 				'twitter' => '',
