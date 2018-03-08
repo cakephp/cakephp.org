@@ -117,9 +117,9 @@
     <li >
         <?=
             $this->Html->link(
-                $this->Html->image('https://cakefest.org/cakefest/img/cakefest-logo.svg', ['width' => 94]),
+                $this->Html->image('https://cakefest.org/cakefest/img/cakefest-logo.svg', ['width' => 93]),
                 'https://cakefest.org/tickets',
-                ['escape' => false, 'class' => 'new-tag', 'target' => '_blank', 'style' => "background-color: white;"]
+                ['escape' => false, 'class' => 'new-tag bg-white', 'target' => '_blank']
             );?>
     </li>
     <li>

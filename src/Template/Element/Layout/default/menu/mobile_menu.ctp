@@ -50,18 +50,6 @@
 								</div>
 							</div>
 
-						   <div class="panel">
-								<div class="panel-heading p0">
-									<h4 class="panel-title title-responsivo-menu">
-                                        <?= $this->Html->link(
-                                            __('Road Trip'),
-                                            ['controller' => 'Pages', 'action' => 'display', 'road_trip'],
-                                            ['escape' => false, 'class' => 'new-tag']
-                                        );?>
-									</h4>
-								</div>
-							</div>
-
 							<div class="panel">
 								<div class="panel-heading p0">
 									<h4 class="panel-title title-responsivo-menu">
@@ -127,7 +115,20 @@
 									</div>
 								</div>
 							</div>
-							<div class="panel">
+                            <div class="panel">
+                                <div class="panel-heading p0">
+                                    <h4 class="panel-title title-responsivo-menu bg-white">
+                                        <?=
+                                            $this->Html->link(
+                                                $this->Html->image('https://cakefest.org/cakefest/img/cakefest-logo.svg', ['width' => 93]),
+                                                'https://cakefest.org/tickets',
+                                                ['escape' => false, 'class' => 'new-tag', 'target' => '_blank', 'style' => "background-color: white;"]
+                                            );?>
+                                    </h4>
+                                </div>
+                            </div>
+
+                            <div class="panel">
 								<div class="panel-heading p0">
 									<h4 class="panel-title title-responsivo-menu donate-background">
 										<?= $this->Html->link(
