@@ -8209,6 +8209,21 @@ table.fc-border-separate {
 	margin: 10px 0 30px;
 }
 
+.headerlink {
+	display: none;
+}
+
+h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink, h4:hover .headerlink, h5:hover .headerlink, h6:hover .headerlink {
+	display: inline;
+	margin: 0 0 0 5px;
+	font-size: 80%;
+	padding: 0;
+	line-height: 95%;
+	vertical-align: center;
+}
+h2:hover .headerlink {
+	line-height: inherit;
+}
 
 .br-bottom-sidebar:after {
     content: "";

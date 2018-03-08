@@ -288,7 +288,7 @@ return [
 				'country' => 'United States'
 			],
 			'admad' => [
-				'name' => 'Admad (Admad)',
+				'name' => 'ADmad (ADmad)',
 				'description' => __('A programmer by day and night, you will generally find him lurking in the deepest darkest corners of the internet. He\'s also involved in maintaining lot of popular CakePHP community plugins.'),
 				'language' => __('English'),
 				'twitter' => '',
@@ -411,17 +411,13 @@ return [
 				'image-url' => 'team/rchavik.jpg',
 				'country' => 'Indonesia'
 			],
-			'thinkingmedia' => [
-				'name' => 'Mathew Foscarini (thinkingmedia)',
-				'description' => __('Mathew is a programmer and 3D artist that enjoys contributing to open source projects. Joined CakePHP
-				core team in October 2016 and has been working on database improvements. He has a programming blog at {0}, and
-				is the creator of {1}', 'http://www.thinkingmedia.ca/', 'http://ahtag.com/'),
+			'cgtag' => [
+				'name' => 'Nik Foscarini (cgtag)',
+				'description' => __('Nik is a programmer and 3D artist that enjoys contributing to open source projects. Joined CakePHP
+				core team in October 2016 and has been working on database improvements.'),
 				'language' => __('English'),
-				'twitter' => 'thinkingmedia',
-				'github' => 'thinkingmedia',
-				'mycake' => 'thinkingmedia',
 				'role' => __('Core Member'),
-				'image-url' => 'team/thinkingmedia.jpg',
+				'image-url' => 'team/nik_foscarini.jpg',
 				'country' => 'Canada'
 			],
 			'cleptric' => [

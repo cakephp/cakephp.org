@@ -833,7 +833,7 @@ msgid "#cakephp IRC channel, or Slack group"
 msgstr "#cakephpのIRCチャンネルかSlack"
 
 #: Template/Element/get-involved/get-involved.ctp:23
-msgid "Answer questions on platforms such as {0}."
+msgid "Answer questions on platforms such as {0} and the {1}."
 msgstr "{0}のようなプラットフォームで質問に答える。"
 
 #: Template/Element/get-involved/get-involved.ctp:25
