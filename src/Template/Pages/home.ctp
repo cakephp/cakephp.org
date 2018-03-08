@@ -10,11 +10,12 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 
 <?= $this->element('Layout/default/menu/top_bar') ?>
 
+<?= $this->element('home/cakefest')?>
+
 <?= $this->element('home/cake')?>
 
 <?= $this->element('home/summary')?>
 
-<?= $this->element('home/cakefest')?>
 
 <?= $this->element('home/support')?>
 
