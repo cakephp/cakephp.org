@@ -188,6 +188,7 @@ Plugin::load('Burzum/Imagine');
 Plugin::load('Josegonzalez/Upload');
 Plugin::load('Muffin/Slug');
 Plugin::load('Muffin/Tags');
+Configure::write('Site.cakefest.end_date', '06/17/2018');
 
 // Only try to load DebugKit in development mode
 // Debug Kit should not be installed on a production system
