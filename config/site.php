@@ -186,6 +186,10 @@ return [
 						],
 						'title' => __('Videos')
 					],
+					'security' => [
+						'url' => 'https://book.cakephp.org/3.0/en/contributing/tickets.html#reporting-security-issues',
+						'title' => __('Reporting Security Issues'),
+					],
 					'privacy' => [
 						'url' => [
 							'plugin' => false,
