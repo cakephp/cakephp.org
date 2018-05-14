@@ -114,14 +114,6 @@
             ?>
         </li>
     <?php endif; ?>
-    <li >
-        <?=
-            $this->Html->link(
-                $this->Html->image('https://cakefest.org/cakefest/img/cakefest-logo.svg', ['width' => 93]),
-                'https://cakefest.org/tickets',
-                ['escape' => false, 'class' => 'new-tag bg-white', 'target' => '_blank']
-            );?>
-    </li>
     <li>
         <?=
             $this->Html->link(
