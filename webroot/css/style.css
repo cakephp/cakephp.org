@@ -10554,3 +10554,18 @@ code {
 	width: 100%;
 	margin: 0;
 }
+
+#sponsors {
+	background-color:#f7f7f5;
+}
+
+.sponsor {
+	background-color: white;
+	border-radius: 30px;
+	padding: 20px;
+	margin-top: 80px;
+}
+
+.sponsor-copy {
+	text-align: justify;
+}
