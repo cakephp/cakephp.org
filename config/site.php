@@ -261,7 +261,7 @@ return [
                 [
                     'name' => 'StickerYou',
                     'logo' => ['img' => '/images/companies/logos/sponsors/stickeryou.png', 'style' => 'height: 250px;'],
-                    'copy' => ['text' => 'As a valued partner and proud supporter of CakePHP, StickerYou is happy to offer a 10% discount on all Custom Stickers <a href="https://www.stickeryou.com/products/custom-stickers/335/">Custom Stickers</a>, <a href="https://www.stickeryou.com/products/business-labels/655">Business Labels</a>, Roll Labels, Vinyl Lettering or Custom Decals. StickerYou.com is your one-stop shop to make your business stick. Use code CAKE10 at checkout to apply your discount.', 'style' => 'padding-bottom: 26px;'],
+                    'copy' => ['text' => 'As a valued partner and proud supporter of CakePHP, StickerYou is happy to offer a 10% discount on all <a href="https://www.stickeryou.com/products/custom-stickers/335/">Custom Stickers</a>, <a href="https://www.stickeryou.com/products/business-labels/655">Business Labels</a>, Roll Labels, Vinyl Lettering or Custom Decals. <b>StickerYou.com</b> is your one-stop shop to make your business stick. Use code <b>CAKE10</b> at checkout to apply your discount.', 'style' => 'padding-bottom: 26px;'],
                     'link' => 'https://stickeryou.com',
                 ]
             ]
