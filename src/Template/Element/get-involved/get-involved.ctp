@@ -164,8 +164,9 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 				$this->Html->link(__('unresolved defects'), 'https://github.com/cakephp/cakephp/issues?state=open&label%3ADefect', ['target' => '_blank'])
 			)?></p>
 
-		<p><?= __('CakePHP is {0}, so you can check the status of the various builds on the Jenkins server at any time.',
-			$this->Html->link(__('continuously integrated'), 'http://en.wikipedia.org/wiki/Continuous_integration', ['target' => '_blank'])
+		<p><?= __('CakePHP is {0}, so you can check the status of the {1} on the Jenkins server at any time.',
+ 				$this->Html->link(__('continuously integrated'), 'http://en.wikipedia.org/wiki/Continuous_integration', ['target' => '_blank']),
+ 				$this->Html->link(__('various builds'), 'http://ci.cakephp.org/')
 			)?>
 		</p>
 	</div>
