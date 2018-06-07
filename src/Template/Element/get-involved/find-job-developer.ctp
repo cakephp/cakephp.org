@@ -13,9 +13,6 @@ use Cake\Core\Configure;
 	<h4><?= $this->Html->link(__('Freelancer'), Configure::read('Site.menu.items.jobs.freelancer.url'), ['target' => '_blank'])?></h4>
 	<p><?= __('Jobs available for freelance developers')?></p>
 
-	<h4><?= $this->Html->link(__('oDesk'), Configure::read('Site.menu.items.jobs.odesk.url'), ['target' => '_blank'])?></h4>
-	<p><?= __('Contractors who specialize in CakePHP')?></p>
-
 	<h4><?= $this->Html->link(__('CakePHPJobs'), Configure::read('Site.menu.items.jobs.cakeJobs.url'), ['target' => '_blank'])?></h4>
 	<p><?= __('CakePHP related job postings')?></p>
 
