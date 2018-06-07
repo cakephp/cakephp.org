@@ -30,7 +30,7 @@
 								<div class="panel-heading p0">
 									<h4 class="panel-title title-responsivo-menu">
 										<?= $this->Html->link(
-											'<i class="fa fa-caret-right upside-stop"></i>' . h(__('Business Solutions')),
+											__('Business Solutions'),
 											['controller' => 'pages', 'action' => 'display', 'business-solutions'],
 											['escape' => false]
 										) ?>
@@ -50,23 +50,11 @@
 								</div>
 							</div>
 
-						   <div class="panel">
-								<div class="panel-heading p0">
-									<h4 class="panel-title title-responsivo-menu">
-                                        <?= $this->Html->link(
-                                            __('Road Trip'),
-                                            ['controller' => 'Pages', 'action' => 'display', 'road_trip'],
-                                            ['escape' => false, 'class' => 'new-tag']
-                                        );?>
-									</h4>
-								</div>
-							</div>
-
 							<div class="panel">
 								<div class="panel-heading p0">
 									<h4 class="panel-title title-responsivo-menu">
 										<?= $this->Html->link(
-											'<i class="fa fa-caret-right upside-stop"></i>' . h(__('Team')),
+											__('Team'),
 											['controller' => 'pages', 'action' => 'display', 'team'],
 											['escape' => false]
 										) ?>
@@ -127,11 +115,24 @@
 									</div>
 								</div>
 							</div>
-							<div class="panel">
+                            <div class="panel">
+                                <div class="panel-heading p0">
+                                    <h4 class="panel-title title-responsivo-menu bg-white">
+                                        <?=
+                                            $this->Html->link(
+                                                $this->Html->image('https://cakefest.org/cakefest/img/cakefest-logo.svg', ['width' => 93]),
+                                                'https://cakefest.org/tickets',
+                                                ['escape' => false, 'class' => 'new-tag', 'target' => '_blank', 'style' => "background-color: white;"]
+                                            );?>
+                                    </h4>
+                                </div>
+                            </div>
+
+                            <div class="panel">
 								<div class="panel-heading p0">
 									<h4 class="panel-title title-responsivo-menu donate-background">
 										<?= $this->Html->link(
-											'<i class="fa fa-caret-right upside-stop"></i>' . h(__('DONATE')),
+											__('DONATE'),
 											'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WXKS8CBVMNFZC',
 											['escape' => false]
 										) ?>
