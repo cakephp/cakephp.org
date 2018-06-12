@@ -4,7 +4,7 @@ use Cake\Core\Configure;
 
 <div id="getHelp" class="col-sm-12 get-social pt-100">
 	<a name="get-help"></a>
-	<h2><?= __('Get Help')?></h2>
+	<h2><?= __('Get Help')?><?= $this->Html->link('¶', '#getHelp', ['class' => 'headerlink', 'title' => __('Permalink to this headline')]) ?></h2>
 
 	<p><?= __('Looking for help but don\'t know where to find it? Here are all the locations you can find community driven
 		support and sources of information:')?></p>

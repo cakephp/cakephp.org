@@ -186,6 +186,10 @@ return [
 						],
 						'title' => __('Videos')
 					],
+					'security' => [
+						'url' => 'https://book.cakephp.org/3.0/en/contributing/tickets.html#reporting-security-issues',
+						'title' => __('Reporting Security Issues'),
+					],
 					'privacy' => [
 						'url' => [
 							'plugin' => false,
@@ -237,10 +241,30 @@ return [
 			]
 		],
 		'cakefest' => [
-			'start_date' => '2017-06-08',
-			'end_date' => '2017-06-11',
-			'location' => __('New York City'),
-			'title' => 'Cakefest 2017'
+			'start_date' => '2018-06-14',
+			'end_date' => '2018-06-17',
+			'location' => __('Nashville, TN'),
+			'title' => 'CakeFest 2018',
+            'sponsors' => [
+                [
+                    'name' => 'CakeDC',
+                    'logo' => ['img' => '/images/companies/logos/sponsors/cakedc.jpg', 'style' => 'height: 250px;'],
+                    'copy' => ['text' => '<a href="https://cakedc.com">CakeDC</a> is the commercial entity behind the framework and was established by Larry Masters, founder of CakePHP. From startups and social networks, to e-commerce and enterprise level applications, CakeDC provides the highest quality CakePHP development available. CakeDC is committed to supporting the CakePHP framework and community.', 'style' => ''],
+                    'link' => 'https://cakedc.com'
+                ],
+                [
+                    'name' => 'Rackspace',
+                    'logo' => ['img' => '/images/companies/logos/sponsors/rackspace.jpg', 'style' => 'height: 250px;padding-top: 70px;'],
+                    'copy' => ['text' => 'Rackspace combines public cloud, private cloud, and dedicated bare metal computing to provide the perfect infrastructure for each customers specific needs. Rackspace is CakePHP\'s hosting partner.', 'style' => 'padding-bottom: 104px;'],
+                    'link' => 'https://rackspace.com'
+                ],
+                [
+                    'name' => 'StickerYou',
+                    'logo' => ['img' => '/images/companies/logos/sponsors/stickeryou.png', 'style' => 'height: 250px;'],
+                    'copy' => ['text' => 'As a valued partner and proud supporter of CakePHP, StickerYou is happy to offer a 10% discount on all <a href="https://www.stickeryou.com/products/custom-stickers/335/">Custom Stickers</a>, <a href="https://www.stickeryou.com/products/business-labels/655">Business Labels</a>, Roll Labels, Vinyl Lettering or Custom Decals. <b>StickerYou.com</b> is your one-stop shop to make your business stick. Use code <b>CAKE10</b> at checkout to apply your discount.', 'style' => 'padding-bottom: 26px;'],
+                    'link' => 'https://stickeryou.com',
+                ]
+            ]
 		],
 		'team' => [
 			'larry' => [
@@ -288,7 +312,7 @@ return [
 				'country' => 'United States'
 			],
 			'admad' => [
-				'name' => 'Admad (Admad)',
+				'name' => 'ADmad (ADmad)',
 				'description' => __('A programmer by day and night, you will generally find him lurking in the deepest darkest corners of the internet. He\'s also involved in maintaining lot of popular CakePHP community plugins.'),
 				'language' => __('English'),
 				'twitter' => '',
@@ -395,7 +419,6 @@ return [
 				'description' => __('Besides marketing, social media and community management, Megan is around to assist in
 					general queries, community assistance and CakeFest planning.'),
 				'language' => __('English'),
-				'twitter' => 'meganKleyweg',
 				'mycake' => 'Megslalk',
 				'role' => __('CakePHP Community Manager'),
 				'image-url' => 'team/megan.jpg',
@@ -411,17 +434,13 @@ return [
 				'image-url' => 'team/rchavik.jpg',
 				'country' => 'Indonesia'
 			],
-			'thinkingmedia' => [
-				'name' => 'Mathew Foscarini (thinkingmedia)',
-				'description' => __('Mathew is a programmer and 3D artist that enjoys contributing to open source projects. Joined CakePHP
-				core team in October 2016 and has been working on database improvements. He has a programming blog at {0}, and
-				is the creator of {1}', 'http://www.thinkingmedia.ca/', 'http://ahtag.com/'),
+			'cgtag' => [
+				'name' => 'Nik Foscarini (cgtag)',
+				'description' => __('Nik is a programmer and 3D artist that enjoys contributing to open source projects. Joined CakePHP
+				core team in October 2016 and has been working on database improvements.'),
 				'language' => __('English'),
-				'twitter' => 'thinkingmedia',
-				'github' => 'thinkingmedia',
-				'mycake' => 'thinkingmedia',
 				'role' => __('Core Member'),
-				'image-url' => 'team/thinkingmedia.jpg',
+				'image-url' => 'team/nik_foscarini.jpg',
 				'country' => 'Canada'
 			],
 			'cleptric' => [

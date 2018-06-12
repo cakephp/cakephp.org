@@ -8,9 +8,11 @@ use Cake\Core\Configure;
 		<div class="container text-center">
 			<div class="row">
 				<div class="col-sm-10 col-md-4 col-sm-offset-1 col-md-offset-4">
-					<div class="box-cakefest text-center">
-						<span class="glyph_range icon-fest">N</span>
-					</div>
+                    <a href="http://cakefest.org/tickets" target="_blank">
+                        <div class="box-cakefest text-center">
+                            <span class="glyph_range icon-fest">N</span>
+                        </div>
+                    </a>
 				</div>
 			</div>
 		</div>
