@@ -186,6 +186,10 @@ return [
 						],
 						'title' => __('Videos')
 					],
+					'security' => [
+						'url' => 'https://book.cakephp.org/3.0/en/contributing/tickets.html#reporting-security-issues',
+						'title' => __('Reporting Security Issues'),
+					],
 					'privacy' => [
 						'url' => [
 							'plugin' => false,
@@ -257,7 +261,7 @@ return [
                 [
                     'name' => 'StickerYou',
                     'logo' => ['img' => '/images/companies/logos/sponsors/stickeryou.png', 'style' => 'height: 250px;'],
-                    'copy' => ['text' => 'As a valued partner and proud supporter of CakePHP, StickerYou is happy to offer a 10% discount on all Custom Stickers <a href="https://www.stickeryou.com/products/custom-stickers/335/">Custom Stickers</a>, <a href="https://www.stickeryou.com/products/business-labels/655">Business Labels</a>, Roll Labels, Vinyl Lettering or Custom Decals. StickerYou.com is your one-stop shop to make your business stick. Use code CAKE10 at checkout to apply your discount.', 'style' => 'padding-bottom: 26px;'],
+                    'copy' => ['text' => 'As a valued partner and proud supporter of CakePHP, StickerYou is happy to offer a 10% discount on all <a href="https://www.stickeryou.com/products/custom-stickers/335/">Custom Stickers</a>, <a href="https://www.stickeryou.com/products/business-labels/655">Business Labels</a>, Roll Labels, Vinyl Lettering or Custom Decals. <b>StickerYou.com</b> is your one-stop shop to make your business stick. Use code <b>CAKE10</b> at checkout to apply your discount.', 'style' => 'padding-bottom: 26px;'],
                     'link' => 'https://stickeryou.com',
                 ]
             ]
@@ -415,7 +419,6 @@ return [
 				'description' => __('Besides marketing, social media and community management, Megan is around to assist in
 					general queries, community assistance and CakeFest planning.'),
 				'language' => __('English'),
-				'twitter' => 'meganKleyweg',
 				'mycake' => 'Megslalk',
 				'role' => __('CakePHP Community Manager'),
 				'image-url' => 'team/megan.jpg',
