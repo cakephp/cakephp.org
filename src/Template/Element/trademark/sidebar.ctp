@@ -81,7 +81,7 @@
 				<li>
 					<?= $this->Html->link(__('Proper trademark use'), '#proper-use')?>
 					<ol>
-						<li><?= $this->Html->link(__('Use of trademarks in text'), 'proper-text')?></li>
+						<li><?= $this->Html->link(__('Use of trademarks in text'), '#proper-text')?></li>
 						<li><?= $this->Html->link(__('Use of Logos'), '#proper-logo')?></li>
 					</ol>
 				</li>

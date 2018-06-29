@@ -419,7 +419,6 @@ return [
 				'description' => __('Besides marketing, social media and community management, Megan is around to assist in
 					general queries, community assistance and CakeFest planning.'),
 				'language' => __('English'),
-				'twitter' => 'meganKleyweg',
 				'mycake' => 'Megslalk',
 				'role' => __('CakePHP Community Manager'),
 				'image-url' => 'team/megan.jpg',
