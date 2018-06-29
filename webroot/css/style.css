@@ -6190,7 +6190,7 @@ header {
 	background-image: url('../images/bg/cakefest.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 70px 0 400px 0;
+    padding: 70px 0 700px 0;
     background-position: center center;
     margin-bottom: 30px;
 }
@@ -8209,6 +8209,21 @@ table.fc-border-separate {
 	margin: 10px 0 30px;
 }
 
+.headerlink {
+	display: none;
+}
+
+h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink, h4:hover .headerlink, h5:hover .headerlink, h6:hover .headerlink {
+	display: inline;
+	margin: 0 0 0 5px;
+	font-size: 80%;
+	padding: 0;
+	line-height: 95%;
+	vertical-align: center;
+}
+h2:hover .headerlink {
+	line-height: inherit;
+}
 
 .br-bottom-sidebar:after {
     content: "";
@@ -10538,4 +10553,19 @@ code {
 .roadtrip-bottom img{
 	width: 100%;
 	margin: 0;
+}
+
+#sponsors {
+	background-color:#f7f7f5;
+}
+
+.sponsor {
+	background-color: white;
+	border-radius: 30px;
+	padding: 20px;
+	margin-top: 80px;
+}
+
+.sponsor-copy {
+	text-align: justify;
 }

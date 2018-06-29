@@ -3,7 +3,7 @@ use Cake\Core\Configure;
 ?>
 
 <div id="findjobdeveloper" class="col-sm-12 get-developer pt-100">
-	<h2><?= __('Find Job or Developer')?></h2>
+	<h2><?= __('Find Job or Developer')?><?= $this->Html->link('¶', '#findjobdeveloper', ['class' => 'headerlink', 'title' => __('Permalink to this headline')]) ?></h2>
 	<p><?= __('If you\'re looking for skilled CakePHP developers, or are a developer yourself and seeking a freelance project or
 		position at a company, there are many resources available:')?></p>
 
@@ -12,9 +12,6 @@ use Cake\Core\Configure;
 
 	<h4><?= $this->Html->link(__('Freelancer'), Configure::read('Site.menu.items.jobs.freelancer.url'), ['target' => '_blank'])?></h4>
 	<p><?= __('Jobs available for freelance developers')?></p>
-
-	<h4><?= $this->Html->link(__('oDesk'), Configure::read('Site.menu.items.jobs.odesk.url'), ['target' => '_blank'])?></h4>
-	<p><?= __('Contractors who specialize in CakePHP')?></p>
 
 	<h4><?= $this->Html->link(__('CakePHPJobs'), Configure::read('Site.menu.items.jobs.cakeJobs.url'), ['target' => '_blank'])?></h4>
 	<p><?= __('CakePHP related job postings')?></p>
