@@ -25,11 +25,9 @@
 	</title>
 	<?= $this->Html->meta('icon', ['type' => 'icon']) ?>
 	<meta charset="utf-8" >
-
 	<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic%7CMontserrat:400,700' rel='stylesheet'>
 	<?= $this->AssetCompress->css('public') ?>
 	<?= $this->AssetCompress->css('fonts', ['raw' => true, 'pathPrefix' => null]) ?>
-	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 	<?= $this->fetch('socialMeta') ?>
 	<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
@@ -80,4 +78,3 @@
 <?php endif; ?>
 </body>
 </html>
-
