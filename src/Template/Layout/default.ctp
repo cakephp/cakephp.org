@@ -16,6 +16,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- Google Tag Manager -->
+	<script>
+		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-T74JQQQ');
+	</script>
+	<!-- End Google Tag Manager -->
 	<?= $this->Html->charset() ?>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,6 +51,7 @@
 
 	<link rel="manifest" href="/favicons/manifest.json">
 	<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg">
+
 	<meta name="apple-mobile-web-app-title" content="CakePHP">
 	<meta name="application-name" content="CakePHP">
 	<meta name="msapplication-TileColor" content="#da532c">
@@ -50,9 +60,18 @@
 
 	<?= $this->fetch('meta') ?>
 	<?= $this->fetch('css') ?>
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
 	<link rel="icon" type="image/png" href="/favicons/favicon.png">
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+	<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T74JQQQ"
+				  height="0" width="0" style="display:none;visibility:hidden">
+	</iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <?= $this->element('Layout/default/navbar')?>
 <?= $this->Flash->render() ?>
 <?= $this->Flash->render('auth') ?>
@@ -60,16 +79,10 @@
 	<?= $this->fetch('content') ?>
 </section>
 <?= $this->element('Layout/default/footer')?>
-
 <?= $this->AssetCompress->script('public'); ?>
 <?= $this->AssetCompress->script('not_compiled', ['raw' => true, 'pathPrefix' => null]); ?>
 <?= $this->fetch('script') ?>
-
 <?php $address = env('SERVER_ADDR'); if ($address && !in_array($address, ['127.0.0.1', 'localhost'], true)): ?>
-	<script type="text/javascript">
-		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-	</script>
 	<script type="text/javascript">
 		var pageTracker = _gat._getTracker("UA-743287-4");
 		pageTracker._initData();
@@ -78,3 +91,5 @@
 <?php endif; ?>
 </body>
 </html>
+
+
