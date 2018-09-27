@@ -51,7 +51,6 @@
 
 	<link rel="manifest" href="/favicons/manifest.json">
 	<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg">
-
 	<meta name="apple-mobile-web-app-title" content="CakePHP">
 	<meta name="application-name" content="CakePHP">
 	<meta name="msapplication-TileColor" content="#da532c">
