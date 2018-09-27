@@ -1,4 +1,4 @@
-window.addEventListener("load", function(){
+function cookieConsent(server) {
 	window.cookieconsent.initialise({
 		palette: {
 			"popup": {
@@ -14,6 +14,9 @@ window.addEventListener("load", function(){
 		},
 		cookieconsent : {
 			status: 'deny'
+		},
+		cookie : {
+			domain: server
 		},
 		position : "top",
 		onInitialise: function (status) {

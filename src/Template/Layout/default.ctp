@@ -82,13 +82,12 @@
 <?= $this->AssetCompress->script('public'); ?>
 <?= $this->AssetCompress->script('not_compiled', ['raw' => true, 'pathPrefix' => null]); ?>
 <?= $this->fetch('script') ?>
-<?php $address = env('SERVER_ADDR'); if ($address && !in_array($address, ['127.0.0.1', 'localhost'], true)): ?>
-	<script type="text/javascript">
-		var pageTracker = _gat._getTracker("UA-743287-4");
-		pageTracker._initData();
-		pageTracker._trackPageview();
-	</script>
-<?php endif; ?>
+<script type="text/javascript">
+	window.addEventListener("load", function() {
+		cookieConsent("<?=$server?>");
+	}
+</script>
+
 </body>
 </html>
 
