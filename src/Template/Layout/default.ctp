@@ -60,7 +60,6 @@
 
 	<?= $this->fetch('meta') ?>
 	<?= $this->fetch('css') ?>
-	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
 	<link rel="icon" type="image/png" href="/favicons/favicon.png">
 </head>
 <body>
@@ -85,10 +84,8 @@
 <script type="text/javascript">
 	window.addEventListener("load", function() {
 		cookieConsent("<?=$server?>");
-	}
+	});
 </script>
 
 </body>
 </html>
-
-

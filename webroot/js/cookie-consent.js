@@ -15,10 +15,9 @@ function cookieConsent(server) {
 		cookieconsent : {
 			status: 'deny'
 		},
-		cookie : {
-			domain: server
-		},
-		position : "top",
+		// cookie : {
+		// 	domain: server
+		// },
 		onInitialise: function (status) {
 			var type = this.options.type;
 			var didConsent = this.hasConsented();
@@ -35,7 +34,5 @@ function cookieConsent(server) {
 				});
 			}
 		},
-		onStatusChange: function(status, chosenBefore) {},
-		onRevokeChoice: function() {},
 	})
-});
+};
