@@ -12,8 +12,15 @@
 			<?= $this->Html->tag('li', $this->Html->link(__('Translation'), '#translation'))?>
 		</ul>
 	</li>
-	<?= $this->Html->tag('li', $this->Html->link(__('Get Help'), '#getHelp'), ['class' => 'br-bottom-sidebar mt30'])?>
-	<?= $this->Html->tag('li', $this->Html->link(__('Find Job or Developer'), '#findjobdeveloper'), ['class' => 'br-bottom-sidebar'])?>
-	<?= $this->Html->tag('li', $this->Html->link(__('Community Guidelines'), '#comunityguidelinesside'), ['class' => 'br-bottom-sidebar'])?>
+		<?= $this->Html->tag('li', $this->Html->link(__('Get Help'), '#getHelp'), ['class' => 'br-bottom-sidebar mt30'])?>
+	<li>
+		<?= $this->Html->link(__('Find Job or Developer'), '#findjobdeveloper') ?>
+		<div class="br-bottom-sidebar-2"></div>
+		<ul id="sub-sidebar-2">
+			<?= $this->Html->tag('li', $this->Html->link(__('Find Job'), '#findJob'))?>
+			<?= $this->Html->tag('li', $this->Html->link(__('Find Developer'), '#findDeveloper'))?>
+		</ul>
+	</li>
+	<?= $this->Html->tag('li', $this->Html->link(__('Community Guidelines'), '#comunityguidelinesside'), ['class' => 'br-bottom-sidebar mt30'])?>
 	<?= $this->Html->tag('li', $this->Html->link(__('CakeFest'), '#cakefest'), ['class' => 'br-bottom-sidebar'])?>
 </ul>

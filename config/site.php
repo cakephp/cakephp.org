@@ -141,31 +141,128 @@ return [
 						'title' => __('Google+')
 					],
 				],
-				'jobs' => [
+				'jobSites' => [
 					'cakeJobs' => [
+						'title' => __('Cake Jobs'),
 						'url' => 'http://cakephpjobs.com/',
-						'options' => ['target' => '_blank'],
-						'title' => __('Cake Jobs')
+						'description' => __('The best place to post your CakePHP related jobs'),
 					],
-					'linkedin' => [
+					'linkedIn' => [
+						'title' => __('LinkedIn'),
 						'url' => 'https://www.linkedin.com/groups/4623165',
-						'options' => ['target' => '_blank'],
-						'title' => 'LinkedIn'
+						'description' => __('Official LinkedIn career group for CakePHP related opportunities'),
 					],
 					'freelancer' => [
-						'url' => 'https://www.freelancer.com/find/CakePHP',
-						'options' => ['target' => '_blank'],
-						'title' => 'Freelancer'
+						'title' => __('Freelancer'),
+						'url' => 'https://www.freelancer.com/jobs/cakephp/',
+						'description' => __('CakePHP related freelance jobs'),
 					],
-					'odesk' => [
+					'upwork' => [
+						'title' => __('Upwork'),
 						'url' => 'https://www.upwork.com/o/jobs/browse/skill/cakephp/',
-						'options' => ['target' => '_blank'],
-						'title' => 'oDesk'
+						'description' => __('CakePHP related freelance jobs'),
 					],
-					'cakexperts' => [
-						'url' => 'http://cakexperts.com/',
-						'options' => ['target' => '_blank'],
-						'title' => 'CakeXperts'
+					'guru' => [
+						'title' => __('Guru'),
+						'url' => 'https://www.guru.com/d/jobs/q/cakephp/',
+						'description' => __('CakePHP related freelance jobs'),
+					],
+					'twago' => [
+						'title' => __('twago'),
+						'url' => 'https://www.twago.com/s/projects/cakephp/',
+						'description' => __('CakePHP related freelance jobs'),
+					],
+					'workHire' => [
+						'title' => __('WorknHire'),
+						'url' => 'http://worknhire.com/WorkProjects/jobs/q_CakePHP',
+						'description' => __('CakePHP related freelance jobs'),
+					],
+					'codementorX' => [
+						'title' => __('CodementorX'),
+						'url' => 'https://www.codementor.io/freelance-jobs/cakephp',
+						'description' => __('CakePHP related freelance jobs'),
+					],
+					'peoplePerHour' => [
+						'title' => __('PeoplePerHour'),
+						'url' => 'https://www.peopleperhour.com/freelance-cakephp-jobs',
+						'description' => __('CakePHP related freelance jobs'),
+					],
+					'indeed' => [
+						'title' => __('Indeed'),
+						'url' => 'https://www.indeed.com/q-Cakephp-jobs.html',
+						'description' => __('CakePHP related freelance jobs'),
+					],
+					'stackOverflow' => [
+						'title' => __('Stack Overflow'),
+						'url' => 'https://stackoverflow.com/jobs/developer-jobs-using-cakephp',
+						'description' => __('CakePHP related freelance jobs'),
+					],
+					'xing' => [
+						'title' => __('XING (Mostly German)'),
+						'url' => 'https://www.xing.com/communities/groups/cakephp-the-rapid-php-development-framework-0a9b-1013723',
+						'description' => __('XING career group for CakePHP related opportunities (mostly Germany, Austria & Switzerland)'),
+					],
+					'naukri' => [
+						'title' => __('Naukri (India)'),
+						'url' => 'https://www.naukri.com/cakephp-jobs',
+						'description' => __('CakePHP related freelance jobs in India'),
+					],
+				],
+				'developerSites' => [
+					'cakeDC' => [
+						'title' => __('CakeDC'),
+						'url' => 'http://www.cakedc.com/',
+						'description' => __('Development and consultancy from the experts'),
+					],
+					'linkedIn' => [
+						'title' => __('LinkedIn'),
+						'url' => 'https://www.linkedin.com/groups/4623165',
+						'description' => __('Official LinkedIn career group for CakePHP related opportunities'),
+					],
+					'guru' => [
+						'title' => __('Guru'),
+						'url' => 'https://www.guru.com/d/freelancers/q/cakephp/',
+						'description' => __('Freelancers providing CakePHP related services'),
+					],
+					'toptal' => [
+						'title' => __('Toptal'),
+						'url' => 'https://www.toptal.com/cakephp',
+						'description' => __('Freelancers providing CakePHP related services'),
+					],
+					'truelancer' => [
+						'title' => __('Truelancer'),
+						'url' => 'https://www.truelancer.com/cakephp-freelancers',
+						'description' => __('Freelancers providing CakePHP related services'),
+					],
+					'freelancermap' => [
+						'title' => __('Freelancermap'),
+						'url' => 'https://www.freelancermap.com/freelancers-directory/cakephp-3383',
+						'description' => __('Freelancers providing CakePHP related services'),
+					],
+					'fiverr' => [
+						'title' => __('Fiverr'),
+						'url' => 'https://www.fiverr.com/search/gigs?query=cakephp',
+						'description' => __('Freelancers providing CakePHP related services'),
+					],
+					'freelancerMax' => [
+						'title' => __('FreelancerMax'),
+						'url' => 'https://www.freelancermax.com/hire/freelance-cakephp',
+						'description' => __('Freelancers providing CakePHP related services'),
+					],
+					'malt' => [
+						'title' => __('Malt'),
+						'url' => 'https://www.malt.com/a/freelance/developers/backend-developer/cakephp-developer',
+						'description' => __('Freelancers providing CakePHP related services'),
+					],
+					'xing' => [
+						'title' => __('XING (Mostly German)'),
+						'url' => 'https://www.xing.com/communities/groups/cakephp-the-rapid-php-development-framework-0a9b-1013723',
+						'description' => __('XING career group for CakePHP related opportunities (mostly Germany, Austria & Switzerland)'),
+					],
+					'404Works' => [
+						'title' => __('404Works (French)'),
+						'url' => 'https://www.404works.com/tag/cakephp',
+						'description' => __('Freelancers providing CakePHP related services (French)'),
 					],
 				],
 				'documentation' => [
