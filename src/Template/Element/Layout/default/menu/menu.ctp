@@ -1,3 +1,17 @@
+<?php
+/**
+ * The main menu element
+ */
+
+if (!isset($selectedLanguage)) {
+	$selectedLanguage = 'en';
+}
+
+if (!isset($availableLanguages)) {
+	$availableLanguages = ['en'];
+}
+
+?>
 <ul class="menu">
     <li class="toggle-menu"><i class="fa icon_menu"></i></li>
     <li class="first">

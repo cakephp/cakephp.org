@@ -43,8 +43,8 @@ use Cake\Routing\Router;
 Router::defaultRouteClass('DashedRoute');
 
 Router::addUrlFilter(function ($params, $request) {
-    if (isset($request->params['language']) && !isset($params['language'])) {
-        $params['language'] = $request->params['language'];
+    if (isset($request->getParams['language']) && !isset($params['language'])) {
+        $params['language'] = $request->getParams['language'];
     }
 
     return $params;

@@ -40,18 +40,16 @@ if (!extension_loaded('intl')) {
 
 use Cake\Cache\Cache;
 use Cake\Console\ConsoleErrorHandler;
-use Cake\Core\App;
 use Cake\Core\Configure;
 use Cake\Core\Configure\Engine\PhpConfig;
 use Cake\Core\Plugin;
 use Cake\Database\Type;
 use Cake\Datasource\ConnectionManager;
 use Cake\Error\ErrorHandler;
+use Cake\Http\ServerRequest;
 use Cake\Log\Log;
 use Cake\Mailer\Email;
-use Cake\Network\Request;
 use Cake\Routing\DispatcherFactory;
-use Cake\Utility\Inflector;
 use Cake\Utility\Security;
 
 /**
@@ -74,12 +72,15 @@ try {
 // shared configuration.
 //Configure::load('app_local', 'default');
 
-// When debug = false the metadata cache should last
-// for a very very long time, as we don't want
-// to refresh the cache while users are doing requests.
-if (!Configure::read('debug')) {
-	Configure::write('Cache._cake_model_.duration', '+1 years');
-	Configure::write('Cache._cake_core_.duration', '+1 years');
+/*
+ * When debug = true the metadata cache should only last
+ * for a short time.
+ */
+if (Configure::read('debug')) {
+	Configure::write('Cache._cake_model_.duration', '+2 minutes');
+	Configure::write('Cache._cake_core_.duration', '+2 minutes');
+	// disable router cache during development
+	Configure::write('Cache._cake_routes_.duration', '+2 seconds');
 }
 
 /**
@@ -133,12 +134,12 @@ if (!Configure::read('App.fullBaseUrl')) {
 	unset($httpHost, $s);
 }
 
-Cache::config(Configure::consume('Cache'));
-ConnectionManager::config(Configure::consume('Datasources'));
-Email::configTransport(Configure::consume('EmailTransport'));
-Email::config(Configure::consume('Email'));
-Log::config(Configure::consume('Log'));
-Security::salt(Configure::consume('Security.salt'));
+Cache::setConfig(Configure::consume('Cache'));
+ConnectionManager::setConfig(Configure::consume('Datasources'));
+Email::setConfigTransport(Configure::consume('EmailTransport'));
+Email::setConfig(Configure::consume('Email'));
+Log::setConfig(Configure::consume('Log'));
+Security::setSalt(Configure::consume('Security.salt'));
 
 /**
  * The default crypto extension in 3.0 is OpenSSL.
@@ -150,11 +151,11 @@ Security::salt(Configure::consume('Security.salt'));
 /**
  * Setup detectors for mobile and tablet.
  */
-Request::addDetector('mobile', function ($request) {
+ServerRequest::addDetector('mobile', function ($request) {
 	$detector = new \Detection\MobileDetect();
 	return $detector->isMobile();
 });
-Request::addDetector('tablet', function ($request) {
+ServerRequest::addDetector('tablet', function ($request) {
 	$detector = new \Detection\MobileDetect();
 	return $detector->isTablet();
 });
@@ -195,13 +196,6 @@ Configure::write('Site.cakefest.end_date', '06/17/2018');
 if (Configure::read('debug')) {
 	Plugin::load('DebugKit', ['bootstrap' => true]);
 }
-
-/**
- * Connect middleware/dispatcher filters.
- */
-DispatcherFactory::add('Asset');
-DispatcherFactory::add('Routing');
-DispatcherFactory::add('ControllerFactory');
 
 /**
  * Enable default locale format parsing.

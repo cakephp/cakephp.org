@@ -14,6 +14,8 @@ use Cake\Routing\Router;
 
 $config = [
     'Users' => [
+		// Controller used to manage users plugin features & actions
+		'controller' => 'CakeDC/Users.Users',
         'Registration' => [
             //determines if the register is enabled
             'active' => false,
@@ -36,7 +38,7 @@ $config = [
             'all' => [
                 'finder' => 'auth',
             ],
-            'CakeDC/Users.RememberMe',
+            //'CakeDC/Users.RememberMe',
             'Form',
         ],
         'authorize' => [
