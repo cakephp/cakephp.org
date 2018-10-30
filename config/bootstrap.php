@@ -40,18 +40,16 @@ if (!extension_loaded('intl')) {
 
 use Cake\Cache\Cache;
 use Cake\Console\ConsoleErrorHandler;
-use Cake\Core\App;
 use Cake\Core\Configure;
 use Cake\Core\Configure\Engine\PhpConfig;
 use Cake\Core\Plugin;
 use Cake\Database\Type;
 use Cake\Datasource\ConnectionManager;
 use Cake\Error\ErrorHandler;
+use Cake\Http\ServerRequest;
 use Cake\Log\Log;
 use Cake\Mailer\Email;
-use Cake\Network\Request;
 use Cake\Routing\DispatcherFactory;
-use Cake\Utility\Inflector;
 use Cake\Utility\Security;
 
 /**
@@ -150,11 +148,11 @@ Security::setSalt(Configure::consume('Security.salt'));
 /**
  * Setup detectors for mobile and tablet.
  */
-Request::addDetector('mobile', function ($request) {
+ServerRequest::addDetector('mobile', function ($request) {
 	$detector = new \Detection\MobileDetect();
 	return $detector->isMobile();
 });
-Request::addDetector('tablet', function ($request) {
+ServerRequest::addDetector('tablet', function ($request) {
 	$detector = new \Detection\MobileDetect();
 	return $detector->isTablet();
 });
@@ -195,13 +193,6 @@ Configure::write('Site.cakefest.end_date', '06/17/2018');
 if (Configure::read('debug')) {
 	Plugin::load('DebugKit', ['bootstrap' => true]);
 }
-
-/**
- * Connect middleware/dispatcher filters.
- */
-DispatcherFactory::add('Asset');
-DispatcherFactory::add('Routing');
-DispatcherFactory::add('ControllerFactory');
 
 /**
  * Enable default locale format parsing.
