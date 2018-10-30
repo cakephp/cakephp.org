@@ -73,7 +73,7 @@ class AppController extends Controller
 		$lang = $this->request->param('language');
 
 		if ($lang && isset($this->availableLanguages[$lang])) {
-			I18n::locale($lang);
+			I18n::setLocale($lang);
 			$selectedLanguage = $this->availableLanguages[$lang];
 		}
 

@@ -24,9 +24,9 @@ class ContactsTable extends Table
     {
         parent::initialize($config);
 
-        $this->table('contacts');
-        $this->displayField('name');
-        $this->primaryKey('id');
+        $this->setTable('contacts');
+        $this->setDisplayField('name');
+        $this->setPrimaryKey('id');
 
         $this->addBehavior('Timestamp');
     }

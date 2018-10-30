@@ -52,11 +52,11 @@ class ContactsController extends AppController
         $email = new Email('default');
 
         $email
-            ->emailFormat('text')
-            ->replyTo($contact->email, $contact->name)
-            ->from([Configure::read('Site.contact.email') => 'CakeDC Website'])
-            ->to(Configure::read('Site.contact.email'))
-            ->subject($contact->subject)
+            ->setEmailFormat('text')
+            ->setReplyTo($contact->email, $contact->name)
+            ->setFrom([Configure::read('Site.contact.email') => 'CakeDC Website'])
+            ->setTo(Configure::read('Site.contact.email'))
+            ->setSubject($contact->subject)
             ->send($contact->body);
     }
 }
