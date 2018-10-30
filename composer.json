@@ -11,7 +11,7 @@
 		"cakephp/migrations": "~1.0",
 		"cakephp/plugin-installer": "*",
 		"markstory/asset_compress": "~3.0",
-		"cakedc/users": "@stable",
+		"cakedc/users": "^4.1.2",
 		"burzum/cakephp-imagine-plugin": "~2.0",
 		"muffin/tags": "dev-master",
 		"muffin/slug": "~1.0",
