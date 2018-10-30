@@ -9,7 +9,7 @@
 		"cakephp/cakephp": "~3.3",
 		"mobiledetect/mobiledetectlib": "2.*",
 		"cakephp/migrations": "~1.0",
-		"cakephp/plugin-installer": "*",
+		"cakephp/plugin-installer": "^1.1.0",
 		"markstory/asset_compress": "~3.0",
 		"cakedc/users": "^7.0.2",
 		"burzum/cakephp-imagine-plugin": "~2.0",
