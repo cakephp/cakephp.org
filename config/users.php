@@ -38,7 +38,7 @@ $config = [
             'all' => [
                 'finder' => 'auth',
             ],
-            'CakeDC/Users.RememberMe',
+            //'CakeDC/Users.RememberMe',
             'Form',
         ],
         'authorize' => [
