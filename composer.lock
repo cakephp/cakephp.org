@@ -1909,30 +1909,32 @@
         },
         {
             "name": "cakephp/debug_kit",
-            "version": "3.9.3",
+            "version": "3.16.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/debug_kit.git",
-                "reference": "20562b25e58da1efae7050c6c995ffe11726ad9a"
+                "reference": "7672bb9688465ac263a65468102307bf506069bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/20562b25e58da1efae7050c6c995ffe11726ad9a",
-                "reference": "20562b25e58da1efae7050c6c995ffe11726ad9a",
+                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/7672bb9688465ac263a65468102307bf506069bc",
+                "reference": "7672bb9688465ac263a65468102307bf506069bc",
                 "shasum": ""
             },
             "require": {
-                "cakephp/cakephp": ">=3.1.0 <4.0",
-                "cakephp/plugin-installer": "*",
-                "composer/composer": "^1.3",
-                "jdorn/sql-formatter": "~1.2"
+                "cakephp/cakephp": "^3.6.0",
+                "cakephp/chronos": "^1.0.0",
+                "cakephp/plugin-installer": "^1.0.0",
+                "composer/composer": "^1.3.0",
+                "jdorn/sql-formatter": "^1.2.0",
+                "php": ">=5.6.0"
             },
             "require-dev": {
-                "cakephp/cakephp-codesniffer": "~2.1",
-                "phpunit/phpunit": "<6.0"
+                "cakephp/cakephp-codesniffer": "^3.0",
+                "phpunit/phpunit": "^5.7.14|^6.0"
             },
             "suggest": {
-                "ext-sqlite": "DebugKit needs to store panel data in a database. SQLite is simple and easy to use."
+                "ext-pdo_sqlite": "DebugKit needs to store panel data in a database. SQLite is simple and easy to use."
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -1963,7 +1965,7 @@
                 "debug",
                 "kit"
             ],
-            "time": "2017-03-16T01:28:35+00:00"
+            "time": "2018-10-02T01:12:48+00:00"
         },
         {
             "name": "composer/ca-bundle",
