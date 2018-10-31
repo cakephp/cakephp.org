@@ -6,9 +6,9 @@
 	"license": "MIT",
 	"require": {
 		"php": ">=5.5.9",
-		"cakephp/cakephp": "~3.3",
+		"cakephp/cakephp": "3.6.*",
+		"cakephp/migrations": "^2.0.0",
 		"mobiledetect/mobiledetectlib": "2.*",
-		"cakephp/migrations": "~1.0",
 		"cakephp/plugin-installer": "^1.1.0",
 		"markstory/asset_compress": "~3.0",
 		"cakedc/users": "^7.0.2",
