@@ -15,7 +15,7 @@
 		"burzum/cakephp-imagine-plugin": "~2.0",
 		"muffin/tags": "dev-master",
 		"muffin/slug": "~1.0",
-		"josegonzalez/cakephp-upload": "~3.0",
+		"josegonzalez/cakephp-upload": "^4.0.0",
 		"google/recaptcha": "~1.1",
 		"linkorb/jsmin-php": "^1.0",
 		"natxet/CssMin": "^3.0"

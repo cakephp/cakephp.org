@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "323ddbb8911778a7719645c075b99f29",
+    "content-hash": "b78c78950ef26d3873f8e5eb9d8b2728",
     "packages": [
         {
             "name": "aura/intl",
@@ -565,25 +565,25 @@
         },
         {
             "name": "josegonzalez/cakephp-upload",
-            "version": "3.8.1",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfCake/cakephp-upload.git",
-                "reference": "d6401518d9c32a86db4fb5bf4b2a5b8df3a0811c"
+                "reference": "dd91ff86321e87d1fb5af9cd03d78022d214f319"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfCake/cakephp-upload/zipball/d6401518d9c32a86db4fb5bf4b2a5b8df3a0811c",
-                "reference": "d6401518d9c32a86db4fb5bf4b2a5b8df3a0811c",
+                "url": "https://api.github.com/repos/FriendsOfCake/cakephp-upload/zipball/dd91ff86321e87d1fb5af9cd03d78022d214f319",
+                "reference": "dd91ff86321e87d1fb5af9cd03d78022d214f319",
                 "shasum": ""
             },
             "require": {
                 "cakephp/orm": "3.*",
                 "league/flysystem": "*",
-                "php": ">=5.5"
+                "php": ">=5.6"
             },
             "require-dev": {
-                "cakephp/cakephp": "~3.0",
+                "cakephp/cakephp": "~3.4",
                 "cakephp/cakephp-codesniffer": "dev-master",
                 "league/flysystem-vfs": "*",
                 "phpunit/phpunit": "<6.0",
@@ -615,7 +615,7 @@
                 "orm",
                 "upload"
             ],
-            "time": "2018-03-18T18:09:41+00:00"
+            "time": "2018-04-26T21:49:45+00:00"
         },
         {
             "name": "league/climate",
