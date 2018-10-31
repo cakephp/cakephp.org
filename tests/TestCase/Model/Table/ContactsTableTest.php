@@ -24,7 +24,10 @@ class ContactsTableTest extends TestCase
      * @var array
      */
     public $fixtures = [
-        'app.contacts'
+        'app.contacts',
+        'app.projects',
+        'app.tags_tags',
+        'app.uploaded_files',
     ];
 
     /**
