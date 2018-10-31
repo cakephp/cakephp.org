@@ -70,7 +70,7 @@ class AppController extends Controller
 	protected function setLocale()
 	{
 		$selectedLanguage = 'en';
-		$lang = $this->request->param('language');
+		$lang = $this->request->getParam('language');
 
 		if ($lang && isset($this->availableLanguages[$lang])) {
 			I18n::setLocale($lang);
