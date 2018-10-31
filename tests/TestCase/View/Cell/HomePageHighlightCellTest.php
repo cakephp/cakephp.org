@@ -40,7 +40,7 @@ class HomePageHighlightCellTest extends TestCase
     {
         parent::setUp();
         $this->request = $this->getMockBuilder(\Cake\Network\Request::class)->getMock();
-		$this->response = $this->getMockBuilder(\Cake\Network\Response::class)->getMock();
+        $this->response = $this->getMockBuilder(\Cake\Network\Response::class)->getMock();
         $this->HomePageHighlight = new HomePageHighlightCell($this->request, $this->response);
     }
 

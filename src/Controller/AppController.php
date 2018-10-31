@@ -30,56 +30,57 @@ use Cake\I18n\I18n;
 class AppController extends Controller
 {
 
-	protected $availableLanguages = [
-		'en' => 'en',
-		'ja_JP' => 'jp',
-		'pt_BR' => 'pt'
-	];
+    protected $availableLanguages = [
+        'en' => 'en',
+        'ja_JP' => 'jp',
+        'pt_BR' => 'pt'
+    ];
 
-	/**
-	 * Initialization hook method.
-	 *
-	 * Use this method to add common initialization code like loading components.
-	 *
-	 * e.g. `$this->loadComponent('Security');`
-	 *
-	 * @return void
-	 */
-	public function initialize()
-	{
-		parent::initialize();
+    /**
+     * Initialization hook method.
+     *
+     * Use this method to add common initialization code like loading components.
+     *
+     * e.g. `$this->loadComponent('Security');`
+     *
+     * @return void
+     */
+    public function initialize()
+    {
+        parent::initialize();
 
-		$this->loadComponent('RequestHandler');
-		$this->loadComponent('Flash');
-		$this->loadComponent('Security');
-		$this->loadComponent('Csrf');
-		$this->loadComponent('CakeDC/Users.UsersAuth');
-	}
+        $this->loadComponent('RequestHandler');
+        $this->loadComponent('Flash');
+        $this->loadComponent('Security');
+        $this->loadComponent('Csrf');
+        $this->loadComponent('CakeDC/Users.UsersAuth');
+    }
 
-	public function beforeFilter(Event $event)
-	{
-		$this->setLocale();
-		return parent::beforeFilter($event);
-	}
+    public function beforeFilter(Event $event)
+    {
+        $this->setLocale();
 
-	/**
-	 * Sets the current locale based on url param and available languages
-	 *
-	 * @return void
-	 */
-	protected function setLocale()
-	{
-		$selectedLanguage = 'en';
-		$lang = $this->request->getParam('language');
+        return parent::beforeFilter($event);
+    }
 
-		if ($lang && isset($this->availableLanguages[$lang])) {
-			I18n::setLocale($lang);
-			$selectedLanguage = $this->availableLanguages[$lang];
-		}
+    /**
+     * Sets the current locale based on url param and available languages
+     *
+     * @return void
+     */
+    protected function setLocale()
+    {
+        $selectedLanguage = 'en';
+        $lang = $this->request->getParam('language');
 
-		$this->set('selectedLanguage', $selectedLanguage);
-		$this->set('availableLanguages', $this->availableLanguages);
-	}
+        if ($lang && isset($this->availableLanguages[$lang])) {
+            I18n::setLocale($lang);
+            $selectedLanguage = $this->availableLanguages[$lang];
+        }
+
+        $this->set('selectedLanguage', $selectedLanguage);
+        $this->set('availableLanguages', $this->availableLanguages);
+    }
 
     /**
      * Before render callback.

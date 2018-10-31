@@ -28,17 +28,17 @@ use Cake\View\Exception\MissingTemplateException;
 class PagesControllerTest extends IntegrationTestCase
 {
 
-	/**
-	 * Fixtures
-	 *
-	 * @var array
-	 */
-	public $fixtures = [
-		'app.projects',
-		'app.tags_tags',
-		'app.tags_tagged',
-		'app.uploaded_files',
-	];
+    /**
+     * Fixtures
+     *
+     * @var array
+     */
+    public $fixtures = [
+        'app.projects',
+        'app.tags_tags',
+        'app.tags_tagged',
+        'app.uploaded_files',
+    ];
 
     /**
      * testDisplay method
