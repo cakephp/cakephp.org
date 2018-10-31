@@ -28,7 +28,7 @@
 							<div class="form-group">
 								<label class="col-sm-2 control-label-rapid"><?= __('Name') ?></label>
 								<div class="col-sm-10">
-									<?= $this->Form->input('name', [
+									<?= $this->Form->control('name', [
 										'label' => false,
 										'div' => false,
 										'class' => 'form-control form-plugin-rapid',
@@ -41,7 +41,7 @@
 							<div class="form-group">
 								<label class="col-sm-2 control-label-rapid"><?= __('Email') ?></label>
 								<div class="col-sm-10">
-									<?= $this->Form->input('email', [
+									<?= $this->Form->control('email', [
 										'label' => false,
 										'div' => false,
 										'class' => 'form-control form-plugin-rapid',
@@ -54,7 +54,7 @@
 							<div class="form-group">
 								<label class="col-sm-2 control-label-rapid"><?= __('Type') ?></label>
 								<div class="col-sm-10">
-									<?= $this->Form->input('type', [
+									<?= $this->Form->control('type', [
 										'div' => false,
 										'label' => false,
 										'class' => 'form-plugin-rapid type-select',
@@ -74,7 +74,7 @@
 							<div class="form-group phone-field hidden-fields" style="display:none">
 								<label class="col-sm-2 control-label-rapid"><?= __('Phone') ?></label>
 								<div class="col-sm-10">
-									<?= $this->Form->input('phone', [
+									<?= $this->Form->control('phone', [
 										'div' => false,
 										'label' => false,
 										'class' => 'form-plugin-rapid form-control',
@@ -86,7 +86,7 @@
 							<div class="form-group skype-field hidden-fields" style="display:none">
 								<label class="col-sm-2 control-label-rapid"><?= __('Skype') ?></label>
 								<div class="col-sm-10">
-									<?= $this->Form->input('skype', [
+									<?= $this->Form->control('skype', [
 										'div' => false,
 										'label' => false,
 										'class' => 'form-plugin-rapid form-control',
@@ -97,7 +97,7 @@
 							<div class="form-group">
 								<label class="col-sm-2 control-label-rapid"><?= __('Subject') ?></label>
 								<div class="col-sm-10">
-									<?= $this->Form->input('subject', [
+									<?= $this->Form->control('subject', [
 										'div' => false,
 										'label' => false,
 										'class' => 'form-plugin-rapid',

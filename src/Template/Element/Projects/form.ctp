@@ -8,20 +8,20 @@
 		<div class="row">
 			<div class="col-sm-12 col-md-8 col-lg-6 projects form">
 				<?php
-					echo $this->Form->input('title', ['class' => 'form-control']);
-					echo $this->Form->input('description');
-					echo $this->Form->input('brief_description', ['class' => 'form-control']);
-					echo $this->Form->input('website', ['class' => 'form-control']);
-					echo $this->Form->input('tags', [
+					echo $this->Form->control('title', ['class' => 'form-control']);
+					echo $this->Form->control('description');
+					echo $this->Form->control('brief_description', ['class' => 'form-control']);
+					echo $this->Form->control('website', ['class' => 'form-control']);
+					echo $this->Form->control('tags', [
 						'class' => 'form-control taggable-select',
 						'multiple' => true,
 						'label' => 'Categories',
 						'value' => $project->tags_array
 					]);
-					echo $this->Form->input('technologies', ['class' => 'form-control']);
-					echo $this->Form->input('is_highlighted');
-					echo $this->Form->input('is_showcase');
-					echo $this->Form->input('perspective_image.file', [
+					echo $this->Form->control('technologies', ['class' => 'form-control']);
+					echo $this->Form->control('is_highlighted');
+					echo $this->Form->control('is_showcase');
+					echo $this->Form->control('perspective_image.file', [
 						'type' => 'file',
 						'label' => __('Perspective Image'),
 						'required' => false,
@@ -39,7 +39,7 @@
 					</div>
 				</div>
 				<?php
-					echo $this->Form->input('screen_monitor_images.file[]', [
+					echo $this->Form->control('screen_monitor_images.file[]', [
 						'type' => 'file',
 						'label' => __('Screen Monitor Images'),
 						'required' => false,

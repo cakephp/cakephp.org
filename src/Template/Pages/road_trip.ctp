@@ -31,9 +31,9 @@ $this->assign('title', __('CakePHP is coming to your town!'));
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <?= $this->Form->create(null, ['url' => ['controller' => 'Contacts', 'action' => 'roadTrip'], 'class' => 'road-form']) ?>
-                    <?= $this->Form->input('name', ['label' => __('Name {0}', $this->Html->tag('span', __('(Required)'))), 'escape' => false, 'class' => 'form-control', 'required' => true]) ?>
-                    <?= $this->Form->input('email', ['label' => __('Email {0}', $this->Html->tag('span', __('(Required)'))), 'escape' => false, 'class' => 'form-control', 'required' => true]) ?>
-                    <?= $this->Form->input('where', ['label' => __('Tell us where would you’d like us to go next {0}', $this->Html->tag('span', __('(Required)'))), 'escape' => false, 'class' => 'form-control', 'required' => true]) ?>
+                    <?= $this->Form->control('name', ['label' => __('Name {0}', $this->Html->tag('span', __('(Required)'))), 'escape' => false, 'class' => 'form-control', 'required' => true]) ?>
+                    <?= $this->Form->control('email', ['label' => __('Email {0}', $this->Html->tag('span', __('(Required)'))), 'escape' => false, 'class' => 'form-control', 'required' => true]) ?>
+                    <?= $this->Form->control('where', ['label' => __('Tell us where would you’d like us to go next {0}', $this->Html->tag('span', __('(Required)'))), 'escape' => false, 'class' => 'form-control', 'required' => true]) ?>
                     <?= $this->Form->button(__('Notify me!')) ?>
                 <?= $this->Form->end() ?>
             </div>
