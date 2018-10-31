@@ -52,7 +52,15 @@
 	},
 	"scripts": {
 		"post-install-cmd": "App\\Console\\Installer::postInstall",
-		"post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump"
+		"post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump",
+		"check": [
+			"@cs-check",
+			"@test"
+		],
+		"cs-check": "phpcs -p ./src ./tests",
+		"cs-fix": "phpcbf ./src ./tests",
+		"test": "phpunit",
+		"test-coverage": "phpunit --coverage-clover=clover.xml"
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true
