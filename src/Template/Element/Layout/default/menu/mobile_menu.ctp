@@ -1,4 +1,14 @@
-<div class="modal fade" id="menumodal" tabindex="-1" aria-labelledby="modal-label-3" aria-hidden="true">
+<?php
+/**
+ * The mobile menu element
+ */
+if (!isset($selectedLanguage)) {
+	$selectedLanguage = 'en';
+}
+if (!isset($availableLanguages)) {
+	$availableLanguages = ['en'];
+}
+?><div class="modal fade" id="menumodal" tabindex="-1" aria-labelledby="modal-label-3" aria-hidden="true">
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content modal-content-menu">
 			<div class="modal-header modal-header-menu">
