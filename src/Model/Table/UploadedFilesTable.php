@@ -26,7 +26,7 @@ class UploadedFilesTable extends Table
 
         $this->setTable('uploaded_files');
         $this->setDisplayField('id');
-        $this->setDrimaryKey('id');
+        $this->setPrimaryKey('id');
 
         $this->addBehavior('Timestamp');
         $this->addBehavior('Burzum/Imagine.Imagine');

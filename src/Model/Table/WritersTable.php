@@ -34,7 +34,7 @@ class WritersTable extends Table
 
         $this->setTable('writers');
         $this->setDisplayField('name');
-        $this->setDrimaryKey('id');
+        $this->setPrimaryKey('id');
 
         $this->addBehavior('Timestamp');
     }

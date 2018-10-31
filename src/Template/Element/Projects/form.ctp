@@ -31,7 +31,7 @@
 				?>
 				<div class="row">
 					<div class="col-sm-12 col-md-8 col-lg-6" id="perspective-image-preview">
-						<?php if (count($project->perspective_image)): ?>
+						<?php if (!empty($project->perspective_image)): ?>
 							<?= $this->Showcase->image($project->perspective_image, [
 								'style' => 'max-width:100px;height:auto;margin-right:20px;'
 							]) ?>
@@ -50,7 +50,7 @@
 				?>
 				<div class="row">
 					<div class="col-sm-12 col-md-8 col-lg-6" id="screen-monitor-preview">
-						<?php if (count($project->screen_monitor_images)): ?>
+						<?php if (!empty($project->screen_monitor_images)): ?>
 							<?php foreach ($project->screen_monitor_images as $image): ?>
 								<?= $this->Showcase->image($image, [
 									'style' => 'max-width:100px;height:auto;margin-right:20px'
