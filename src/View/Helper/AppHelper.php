@@ -35,7 +35,6 @@ class AppHelper extends Helper
         return $link;
     }
 
-
     /**
      * Outputs the footer menu items
      *
@@ -141,9 +140,8 @@ class AppHelper extends Helper
      */
     public function newsletterArchive()
     {
-        return Cache::remember('newsletterArchive', function() {
+        return Cache::remember('newsletterArchive', function () {
             return file_get_contents('http://us9.campaign-archive1.com/generate-js/?u=f380de581acd576e7d802552a&fid=13717&show=10');
         }, 'newsletter');
-
     }
 }

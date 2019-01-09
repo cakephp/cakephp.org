@@ -37,7 +37,6 @@ class WritersController extends AppController
                 $writer = $this->Writers->newEntity($this->request->data);
                 $writer->client_ip = $this->request->clientIp();
                 if ($this->Writers->save($writer)) {
-
                     $email = new Email('default');
                     $email
                         ->setEmailFormat('text')
