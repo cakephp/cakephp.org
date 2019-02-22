@@ -10,7 +10,7 @@ use Cake\View\Helper;
  *
  * @property \Cake\View\Helper\HtmlHelper $Html
  * @property \Cake\View\Helper\UrlHelper $Url
- * 
+ *
  * @package App\View\Helper
  */
 class MetaHelper extends Helper

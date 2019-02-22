@@ -32,9 +32,9 @@ class WritersTable extends Table
     {
         parent::initialize($config);
 
-        $this->table('writers');
-        $this->displayField('name');
-        $this->primaryKey('id');
+        $this->setTable('writers');
+        $this->setDisplayField('name');
+        $this->setPrimaryKey('id');
 
         $this->addBehavior('Timestamp');
     }

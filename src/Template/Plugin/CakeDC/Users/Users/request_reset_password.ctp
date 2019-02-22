@@ -29,7 +29,7 @@ use Cake\Core\Configure;
 				<h4><?= __('Request a new password') ?></h4>
 				<div class="col-md-6 col-md-offset-3">
 					<?= $this->Form->create() ?>
-						<?= $this->Form->input('reference', ['label' => false, 'required' => true, 'placeholder' => __('Username or email'), 'class' => 'form-control-mylogin']) ?>
+						<?= $this->Form->control('reference', ['label' => false, 'required' => true, 'placeholder' => __('Username or email'), 'class' => 'form-control-mylogin']) ?>
 						<?= $this->Form->button(__d('Users', 'Submit'), ['class' => 'btn-user btn-mylogin']); ?>
 
 						<?= $this->Form->end() ?>

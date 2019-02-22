@@ -43,10 +43,9 @@ use Cake\Routing\Router;
 Router::defaultRouteClass('DashedRoute');
 
 Router::addUrlFilter(function ($params, $request) {
-    if (isset($request->params['language']) && !isset($params['language'])) {
-        $params['language'] = $request->params['language'];
+    if ($request->getParam('language') && !isset($params['language'])) {
+        $params['language'] = $request->getParam('language');
     }
-
     return $params;
 });
 
@@ -123,8 +122,3 @@ Router::scope('/fr', ['language' => 'fr_FR'], $realRoutes);
 Router::scope('/pt', ['language' => 'pt_BR'], $realRoutes);
 Router::scope('/', ['language' => 'en'], $realRoutes);
 Router::scope('/', $realRoutes);
-/**
- * Load all plugin routes.  See the Plugin documentation on
- * how to customize the loading of plugin routes.
- */
-Plugin::routes();
