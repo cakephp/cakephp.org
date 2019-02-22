@@ -55,6 +55,15 @@ class Application extends BaseApplication
         if (Configure::read('debug')) {
             $this->addPlugin(\DebugKit\Plugin::class);
         }
+
+        $this->addPlugin('Migrations');
+        $this->addPlugin('AssetCompress', ['bootstrap' => true]);
+        Configure::write('Users.config', ['users']);
+        $this->addPlugin('CakeDC/Users', ['routes' => true, 'bootstrap' => true]);
+        $this->addPlugin('Burzum/Imagine');
+        $this->addPlugin('Josegonzalez/Upload');
+        $this->addPlugin('Muffin/Slug');
+        $this->addPlugin('Muffin/Tags');
     }
 
     /**

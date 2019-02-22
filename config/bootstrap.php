@@ -42,14 +42,13 @@ use Cake\Cache\Cache;
 use Cake\Console\ConsoleErrorHandler;
 use Cake\Core\Configure;
 use Cake\Core\Configure\Engine\PhpConfig;
-use Cake\Core\Plugin;
 use Cake\Database\Type;
 use Cake\Datasource\ConnectionManager;
 use Cake\Error\ErrorHandler;
 use Cake\Http\ServerRequest;
 use Cake\Log\Log;
 use Cake\Mailer\Email;
-use Cake\Routing\DispatcherFactory;
+use Cake\Mailer\TransportFactory;
 use Cake\Utility\Security;
 
 /**
@@ -134,9 +133,10 @@ if (!Configure::read('App.fullBaseUrl')) {
 	unset($httpHost, $s);
 }
 
+//debug(Configure::consume('EmailTransport'));
 Cache::setConfig(Configure::consume('Cache'));
 ConnectionManager::setConfig(Configure::consume('Datasources'));
-Email::setConfigTransport(Configure::consume('EmailTransport'));
+TransportFactory::setConfig(Configure::consume('EmailTransport'));
 Email::setConfig(Configure::consume('Email'));
 Log::setConfig(Configure::consume('Log'));
 Security::setSalt(Configure::consume('Security.salt'));
@@ -180,22 +180,7 @@ ServerRequest::addDetector('tablet', function ($request) {
  * Plugin::load('Migrations'); //Loads a single plugin named Migrations
  *
  */
-
-Plugin::load('Migrations');
-Plugin::load('AssetCompress', ['bootstrap' => true]);
-Configure::write('Users.config', ['users']);
-Plugin::load('CakeDC/Users', ['routes' => true, 'bootstrap' => true]);
-Plugin::load('Burzum/Imagine');
-Plugin::load('Josegonzalez/Upload');
-Plugin::load('Muffin/Slug');
-Plugin::load('Muffin/Tags');
 Configure::write('Site.cakefest.end_date', '06/17/2018');
-
-// Only try to load DebugKit in development mode
-// Debug Kit should not be installed on a production system
-if (Configure::read('debug')) {
-	Plugin::load('DebugKit', ['bootstrap' => true]);
-}
 
 /**
  * Enable default locale format parsing.
