@@ -135,11 +135,6 @@ return [
 						'url' => 'http://www.cakedc.com/',
 						'title' => __('Paid Support')
 					],
-					'googleplus' => [
-						'url' => 'https://plus.google.com/communities/108328920558088369819',
-						'options' => ['target' => '_blank'],
-						'title' => __('Google+')
-					],
 				],
 				'jobs' => [
 					'cakeJobs' => [
