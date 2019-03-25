@@ -157,11 +157,6 @@ return [
 						'options' => ['target' => '_blank'],
 						'title' => 'oDesk'
 					],
-					'cakexperts' => [
-						'url' => 'http://cakexperts.com/',
-						'options' => ['target' => '_blank'],
-						'title' => 'CakeXperts'
-					],
 				],
 				'documentation' => [
 					'book' => [
