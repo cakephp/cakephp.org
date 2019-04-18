@@ -6,7 +6,7 @@ This is the repository for the official [CakePHP Website](http://cakephp.org).
 
 The `master` branch has the following requirements:
 
-* PHP 5.5.2 or greater.
+* PHP 5.6.0 or greater.
 
 ## Installation
 
