@@ -135,11 +135,6 @@ return [
 						'url' => 'http://www.cakedc.com/',
 						'title' => __('Paid Support')
 					],
-					'googleplus' => [
-						'url' => 'https://plus.google.com/communities/108328920558088369819',
-						'options' => ['target' => '_blank'],
-						'title' => __('Google+')
-					],
 				],
 				'jobs' => [
 					'cakeJobs' => [
@@ -161,11 +156,6 @@ return [
 						'url' => 'https://www.upwork.com/o/jobs/browse/skill/cakephp/',
 						'options' => ['target' => '_blank'],
 						'title' => 'oDesk'
-					],
-					'cakexperts' => [
-						'url' => 'http://cakexperts.com/',
-						'options' => ['target' => '_blank'],
-						'title' => 'CakeXperts'
 					],
 				],
 				'documentation' => [
