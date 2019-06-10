@@ -42,6 +42,13 @@
                         ['escape' => false]
                     ) ?>
                 </div>
+				<div class="mt10">
+                    <?= $this->Html->link(
+                        $this->Html->image('pingping.png'),
+                        'https://pingping.io',
+                        ['escape' => false]
+                    ) ?>
+                </div>
 			</div>
 		<?= $this->Form->end() ?>
 	</div>
