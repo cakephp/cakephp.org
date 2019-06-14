@@ -460,7 +460,7 @@ return [
 				'description' => __('Marc is an Open Source enthusiast from Basel, Switzerland. ' .
                     'He started contributing to CakePHP at the end of 2012 (CakePHP 2.2.4), becoming a documentation team member soon after. ' .
                     'He also co-maintains PHPMD and a few other projects. ' .
-                    'At ORCA Services AG he works as Head Of Development. ' .
+                    'At ORCA Services AG he works as Head of Development. ' .
                     'He cares about code style, test coverage & clean code. ' .
                     'In his spare time he is passionate about electronic dance music, likes to play PC games (mostly point & click adventures & single player role playing games), ' .
                     'likes to swim or relax in the sauna, enjoys a good movie or generally spending time with his family, friends, his two Maine Coon cats & his Cimarrón Uruguayo dog.'),
