@@ -270,7 +270,7 @@ return [
 			],
 			'mark' => [
 				'name' => 'Mark Story',
-				'description' => __('Mark is a core member of the CakePHP team, serving as a lead developer since late 2009. He is also a developer at FreshBooks. CakePHP Developer, Dad, MtG nerd, and moonlight Illustrator.'),
+				'description' => __('Mark is a core member of the CakePHP team, serving as a lead developer since late 2009. During the day he works at Sentry. He fills the rest of his time hacking on CakePHP, playing MtG and being a dad.'),
 				'language' => __('English'),
 				'twitter' => 'mark_story',
 				'github' => 'markstory',
