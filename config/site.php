@@ -471,6 +471,19 @@ return [
 				'image-url' => 'team/ravage.jpg',
 				'country' => 'Switzerland'
 			],
+            'steinkel' => [
+                'name' => 'Jorge González (steinkel)',
+                'description' => __('Jorge is a passionate developer since he started playing with an MSX at 12. ' .
+                    'He used different technologies until he discovered the CakePHP Framework (love at first sight). ' .
+                    'He joined Cake Development Corporation (CakeDC) in 2012, working now as Senior CakePHP Developer and Project Manager. '
+                ),
+                'language' => __('Spanish, English'),
+                'github' => 'steinkel',
+                'mycake' => 'steinkel',
+                'role' => __('CakePHP Trainer'),
+                'image-url' => 'team/jorge_gonzalez.jpg',
+                'country' => 'Spain'
+            ],
 		],
 		'writers_form_enabled' => true,
 	],
