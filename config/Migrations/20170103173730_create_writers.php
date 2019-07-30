@@ -3,7 +3,6 @@ use Migrations\AbstractMigration;
 
 class CreateWriters extends AbstractMigration
 {
-
     public function up()
     {
         $this->table('writers')
