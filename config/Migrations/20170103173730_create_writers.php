@@ -60,4 +60,3 @@ class CreateWriters extends AbstractMigration
         $this->dropTable('writers');
     }
 }
-

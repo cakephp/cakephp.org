@@ -46,6 +46,7 @@ Router::addUrlFilter(function ($params, $request) {
     if ($request->getParam('language') && !isset($params['language'])) {
         $params['language'] = $request->getParam('language');
     }
+
     return $params;
 });
 
