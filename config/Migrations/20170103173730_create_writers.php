@@ -3,7 +3,6 @@ use Migrations\AbstractMigration;
 
 class CreateWriters extends AbstractMigration
 {
-
     public function up()
     {
         $this->table('writers')
@@ -60,4 +59,3 @@ class CreateWriters extends AbstractMigration
         $this->dropTable('writers');
     }
 }
-

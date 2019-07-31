@@ -35,7 +35,7 @@ require CORE_PATH . 'config' . DS . 'bootstrap.php';
 
 // You can remove this if you are confident you have intl installed.
 if (!extension_loaded('intl')) {
-	trigger_error('You must enable the intl extension to use CakePHP.', E_USER_ERROR);
+    trigger_error('You must enable the intl extension to use CakePHP.', E_USER_ERROR);
 }
 
 use Cake\Cache\Cache;
@@ -60,10 +60,10 @@ use Cake\Utility\Security;
  * that changes from configuration that does not. This makes deployment simpler.
  */
 try {
-	Configure::config('default', new PhpConfig());
-	Configure::load('app', 'default', false);
+    Configure::config('default', new PhpConfig());
+    Configure::load('app', 'default', false);
 } catch (\Exception $e) {
-	exit($e->getMessage() . "\n");
+    exit($e->getMessage() . "\n");
 }
 
 // Load an environment local configuration file.
@@ -76,10 +76,10 @@ try {
  * for a short time.
  */
 if (Configure::read('debug')) {
-	Configure::write('Cache._cake_model_.duration', '+2 minutes');
-	Configure::write('Cache._cake_core_.duration', '+2 minutes');
-	// disable router cache during development
-	Configure::write('Cache._cake_routes_.duration', '+2 seconds');
+    Configure::write('Cache._cake_model_.duration', '+2 minutes');
+    Configure::write('Cache._cake_core_.duration', '+2 minutes');
+    // disable router cache during development
+    Configure::write('Cache._cake_routes_.duration', '+2 seconds');
 }
 
 /**
@@ -104,14 +104,14 @@ ini_set('intl.default_locale', env('CAKE_LOCALE', Configure::read('App.defaultLo
  */
 $isCli = PHP_SAPI === 'cli';
 if ($isCli) {
-	(new ConsoleErrorHandler(Configure::read('Error')))->register();
+    (new ConsoleErrorHandler(Configure::read('Error')))->register();
 } else {
-	(new ErrorHandler(Configure::read('Error')))->register();
+    (new ErrorHandler(Configure::read('Error')))->register();
 }
 
 // Include the CLI bootstrap overrides.
 if ($isCli) {
-	require __DIR__ . '/bootstrap_cli.php';
+    require __DIR__ . '/bootstrap_cli.php';
 }
 
 /**
@@ -121,16 +121,16 @@ if ($isCli) {
  * If you define fullBaseUrl in your config file you can remove this.
  */
 if (!Configure::read('App.fullBaseUrl')) {
-	$s = null;
-	if (env('HTTPS')) {
-		$s = 's';
-	}
+    $s = null;
+    if (env('HTTPS')) {
+        $s = 's';
+    }
 
-	$httpHost = env('HTTP_HOST');
-	if (isset($httpHost)) {
-		Configure::write('App.fullBaseUrl', 'http' . $s . '://' . $httpHost);
-	}
-	unset($httpHost, $s);
+    $httpHost = env('HTTP_HOST');
+    if (isset($httpHost)) {
+        Configure::write('App.fullBaseUrl', 'http' . $s . '://' . $httpHost);
+    }
+    unset($httpHost, $s);
 }
 
 //debug(Configure::consume('EmailTransport'));
@@ -152,12 +152,14 @@ Security::setSalt(Configure::consume('Security.salt'));
  * Setup detectors for mobile and tablet.
  */
 ServerRequest::addDetector('mobile', function ($request) {
-	$detector = new \Detection\MobileDetect();
-	return $detector->isMobile();
+    $detector = new \Detection\MobileDetect();
+
+    return $detector->isMobile();
 });
 ServerRequest::addDetector('tablet', function ($request) {
-	$detector = new \Detection\MobileDetect();
-	return $detector->isTablet();
+    $detector = new \Detection\MobileDetect();
+
+    return $detector->isTablet();
 });
 
 /**
@@ -189,14 +191,14 @@ Configure::write('Site.cakefest.end_date', '06/17/2018');
  * Also enable immutable time objects in the ORM.
  */
 Type::build('time')
-	->useImmutable()
-	->useLocaleParser();
+    ->useImmutable()
+    ->useLocaleParser();
 Type::build('date')
-	->useImmutable()
-	->useLocaleParser();
+    ->useImmutable()
+    ->useLocaleParser();
 Type::build('datetime')
-	->useImmutable()
-	->useLocaleParser();
+    ->useImmutable()
+    ->useLocaleParser();
 
 /** Site info */
 Configure::load('site');
