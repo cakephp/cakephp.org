@@ -27,6 +27,9 @@
 					<div class="owl-el">
 						<?= $this->Html->image('companies/logos/8.jpg', ['class' => 'center-image', 'alt' => '']) ?>
 					</div>
+					<div class="owl-el">
+						<?= $this->Html->image('companies/logos/9.jpg', ['class' => 'center-image', 'alt' => '']) ?>
+					</div>
 				</div>
 			</div>
 		</div>
