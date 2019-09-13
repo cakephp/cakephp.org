@@ -1,4 +1,6 @@
 <?php
+use Cake\Chronos\Chronos;
+use Cake\ORM\TableRegistry;
 use Migrations\AbstractMigration;
 
 class AddOpenitcockpitProject extends AbstractMigration
