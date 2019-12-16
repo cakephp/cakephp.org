@@ -160,7 +160,7 @@ return [
                 ],
                 'documentation' => [
                     'book' => [
-                        'url' => 'http://book.cakephp.org/',
+                        'url' => 'http://book.cakephp.org/4',
                         'title' => __('Book'),
                     ],
                     'api' => [
@@ -177,7 +177,7 @@ return [
                         'title' => __('Videos')
                     ],
                     'security' => [
-                        'url' => 'https://book.cakephp.org/3.0/en/contributing/tickets.html#reporting-security-issues',
+                        'url' => 'https://book.cakephp.org/4.0/en/contributing/tickets.html#reporting-security-issues',
                         'title' => __('Reporting Security Issues'),
                     ],
                     'privacy' => [
