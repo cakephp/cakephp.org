@@ -160,7 +160,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 			plan on contributing a feature, please also include relevant test cases for the feature. We want to keep
 			CakePHP as bug free as possible, and test cases have proven to help immensely. If you submit features
 			without test cases, and no documentation it is highly unlikely it will be merged in.',
-				$this->Html->link(__('3.x releases'), 'https://github.com/cakephp/cakephp/issues', ['target' => '_blank']),
+				$this->Html->link(__('4.x releases'), 'https://github.com/cakephp/cakephp/issues', ['target' => '_blank']),
 				$this->Html->link(__('unresolved defects'), 'https://github.com/cakephp/cakephp/issues?state=open&label%3ADefect', ['target' => '_blank'])
 			)?></p>
 
