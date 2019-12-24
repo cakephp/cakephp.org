@@ -388,6 +388,17 @@ return [
                 'image-url' => 'team/rchavik.jpg',
                 'country' => 'Indonesia'
             ],
+			'cleptric' => [
+                'name' => 'Michael Hoffmann (Cleptric)',
+                'description' => __('Michael started using CakePHP in early 2014 and is currently working as a web developer for magicplan in Munich, Germany. He joined the Core Team in February 2017.'),
+                'language' => __('German, English'),
+                'twitter' => 'cleptric',
+                'github' => 'cleptric',
+                'mycake' => 'cleptric',
+                'role' => __('Core Member'),
+                'image-url' => 'team/cleptric.jpg',
+                'country' => 'Germany'
+            ],
             'ravage' => [
                 'name' => 'Marc Würth (ravage)',
                 'description' => __('Marc is an Open Source enthusiast from Basel, Switzerland. ' .
