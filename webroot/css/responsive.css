@@ -1067,5 +1067,16 @@
 		padding: 10px 18px;
 	}
 
+	.whats-new .container > div {
+		flex: 1 0 50%;
+	}
 
+	.whats-new .artwork {
+		margin-right: 50px;
+	}
+
+	.whats-new .container {
+		display: flex;
+		justify-content: space-between;
+	}
 }
