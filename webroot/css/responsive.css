@@ -1,15 +1,15 @@
 @media (max-width: 767px) {
 /*CSS LIDO EM DISPOSITIVOS ATÉ 767 PX DE LARGURA*/
     .title-home h1 {
-    	font-size: 22px;
+    	font-size: 32px;
 	    margin-bottom: 5px;
-	    font-weight: 300;
-	    line-height: 22px;
+	    font-weight: 200;
+	    line-height: 32px;
 	}
 
 	.logo-cake img {
         margin-top: 18px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
         width: 210px;
         min-width: 210px !important;
 	}
@@ -20,7 +20,7 @@
 	}
 
 	.title-home h3 {
-		font-size: 40px;
+		font-size: 32px;
 	    font-weight: 200;
 	    letter-spacing: 0.01em;
 	}
@@ -1028,7 +1028,34 @@
 
 @media (min-width: 1200px) {
   /*CSS LIDO EM DISPOSITIVOS DE MAIS DE 1200 PX DE LARGURA*/
-	.hero, .hero-2 {
+	.hero {
+		margin-top: 166px;
+		position: relative;
+	}
+
+	.hero .container {
+		padding: 40px;
+		min-height: 381px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.title-home {
+		padding: 0;
+		text-align: left;
+	}
+
+	.hero .artwork {
+		margin-top: -100px;
+		margin-bottom: -100px;
+	}
+
+	.cta-home {
+		margin-top: 35px;
+	}
+
+	.hero-2 {
 		background-attachment: fixed;
 	}
 
