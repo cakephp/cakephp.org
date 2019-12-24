@@ -312,17 +312,6 @@ return [
                 'image-url' => 'team/admad.jpg',
                 'country' => 'India'
             ],
-            'beakman' => [
-                'name' => 'Bryan Crowe (Beakman)',
-                'description' => __('Bryan Crowe is an open source developer living in New York, NY. He is involved in the CakePHP framework.'),
-                'language' => __('English'),
-                'twitter' => '_beakman',
-                'github' => 'bcrowe',
-                'mycake' => 'beakman',
-                'role' => __('Core Member'),
-                'image-url' => 'team/bryan_crowe.jpg',
-                'country' => 'United States'
-            ],
             'burzum' => [
                 'name' => 'Florian Kramer (Burzum)',
                 'description' => __('A software developer by profession and not just because it’s a job. Florian is a core CakePHP team
@@ -353,18 +342,6 @@ return [
                 'image-url' => 'team/mark_scherer.png',
                 'country' => 'Germany'
             ],
-            'jippi' => [
-                'name' => 'Christian Winther (Jippi)',
-                'description' => __('CTO at @bownty, @CakePHP core developer, tech advisor at @getlinkfire - lover of technology
-			 					and servers - author of FriendsOfCake/crud'),
-                'language' => __('English'),
-                'twitter' => 'Jippi',
-                'github' => 'jippi',
-                'mycake' => 'jippi',
-                'role' => __('Core Member'),
-                'image-url' => 'team/christian_winther.jpg',
-                'country' => 'Denmark'
-            ],
             'dakota' => [
                 'name' => 'Walther Lalk (Dakota)',
                 'description' => __('Walther is a software engineer/developer primarily working in PHP (Using CakePHP as his framework of choice).
@@ -378,19 +355,6 @@ return [
                 'role' => __('Core Member'),
                 'image-url' => 'team/walther_lalk.jpg',
                 'country' => 'South Africa'
-            ],
-            'jrbasso' => [
-                'name' => 'Juan Basso (jrbasso)',
-                'description' => __('An architect and engineer that loves software performance. Finds the balance between maintainable code and
-							performance. Director at Zumba incentivize the whole team to contribute in open source projects and participate
-							from meetups and conferences.'),
-                'language' => __('English, Portuguese'),
-                'twitter' => 'jrbasso',
-                'github' => 'jrbasso',
-                'mycake' => 'jrbasso',
-                'role' => __('Core Member'),
-                'image-url' => 'team/juan_basso.jpg',
-                'country' => 'United States',
             ],
             'chinpei215' => [
                 'name' => 'Kurita Takashi',
@@ -423,37 +387,6 @@ return [
                 'role' => __('Core Member'),
                 'image-url' => 'team/rchavik.jpg',
                 'country' => 'Indonesia'
-            ],
-            'cgtag' => [
-                'name' => 'Nik Foscarini (cgtag)',
-                'description' => __('Nik is a programmer and 3D artist that enjoys contributing to open source projects. Joined CakePHP
-				core team in October 2016 and has been working on database improvements.'),
-                'language' => __('English'),
-                'role' => __('Core Member'),
-                'image-url' => 'team/nik_foscarini.jpg',
-                'country' => 'Canada'
-            ],
-            'cleptric' => [
-                'name' => 'Michael Hoffmann (Cleptric)',
-                'description' => __('Michael started using CakePHP in early 2014 and is currently working as a web developer for magicplan in Munich, Germany. He joined the Core Team in February 2017.'),
-                'language' => __('German, English'),
-                'twitter' => 'cleptric',
-                'github' => 'cleptric',
-                'mycake' => 'cleptric',
-                'role' => __('Core Member'),
-                'image-url' => 'team/cleptric.jpg',
-                'country' => 'Germany'
-            ],
-            'antograssiot' => [
-                'name' => 'Anthony Grassiot (antograssiot)',
-                'description' => __('Anthony is a former electrical/automation engineer who started using CakePHP back in 2014. He joined the core team in September 2015. Anthony now works as a full time Web developer at TLD. Besides web development, he is also a music enthusiast, playing drums and trumpet.'),
-                'language' => __('French, English, Spanish'),
-                'twitter' => 'antograssiot',
-                'github' => 'antograssiot',
-                'mycake' => 'antograssiot',
-                'role' => __('Core Member'),
-                'image-url' => 'team/antograssiot.jpg',
-                'country' => 'France'
             ],
             'ravage' => [
                 'name' => 'Marc Würth (ravage)',
