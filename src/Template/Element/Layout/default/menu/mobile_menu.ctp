@@ -1,4 +1,14 @@
-<div class="modal fade" id="menumodal" tabindex="-1" aria-labelledby="modal-label-3" aria-hidden="true">
+<?php
+/**
+ * The mobile menu element
+ */
+if (!isset($selectedLanguage)) {
+	$selectedLanguage = 'en';
+}
+if (!isset($availableLanguages)) {
+	$availableLanguages = ['en'];
+}
+?><div class="modal fade" id="menumodal" tabindex="-1" aria-labelledby="modal-label-3" aria-hidden="true">
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content modal-content-menu">
 			<div class="modal-header modal-header-menu">
@@ -101,12 +111,12 @@
 											<li></li>
 											<?php foreach($availableLanguages as $lang => $alias): ?>
 												<?php if ($alias === $selectedLanguage) continue; ?>
-												<?php $pass = $this->request->param('pass') ?>
+												<?php $pass = $this->request->getParam('pass') ?>
 												<li>
 													<?= $this->Html->link($alias, [
 															'language' => $lang,
-															'controller' => $this->request->param('controller'),
-															'action' => $this->request->param('action'),
+															'controller' => $this->request->getParam('controller'),
+															'action' => $this->request->getParam('action'),
 															isset($pass[0]) ? $pass[0] : null
 														]) ?>
 												</li>

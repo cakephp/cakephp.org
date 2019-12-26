@@ -27,8 +27,8 @@ class InitialData extends AbstractMigration
      */
     public function up()
     {
-		$connection = ConnectionManager::get('default');
-		$sql = file_get_contents(CONFIG . 'sql' . DS . 'initial_data.sql');
-		$connection->execute($sql);
+        $connection = ConnectionManager::get('default');
+        $sql = file_get_contents(CONFIG . 'sql' . DS . 'initial_data.sql');
+        $connection->execute($sql);
     }
 }

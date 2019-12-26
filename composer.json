@@ -6,16 +6,16 @@
 	"license": "MIT",
 	"require": {
 		"php": ">=5.5.9",
-		"cakephp/cakephp": "~3.3",
+		"cakephp/cakephp": "3.7.*",
+		"cakephp/migrations": "^2.0.0",
 		"mobiledetect/mobiledetectlib": "2.*",
-		"cakephp/migrations": "~1.0",
-		"cakephp/plugin-installer": "*",
+		"cakephp/plugin-installer": "^1.1.0",
 		"markstory/asset_compress": "~3.0",
-		"cakedc/users": "@stable",
+		"cakedc/users": "^7.0.2",
 		"burzum/cakephp-imagine-plugin": "~2.0",
-		"muffin/tags": "dev-master",
-		"muffin/slug": "~1.0",
-		"josegonzalez/cakephp-upload": "~3.0",
+		"muffin/tags": "^1.1",
+		"muffin/slug": "^1.4",
+		"josegonzalez/cakephp-upload": "^4.0.0",
 		"google/recaptcha": "~1.1",
 		"linkorb/jsmin-php": "^1.0",
 		"natxet/CssMin": "^3.0"
@@ -24,7 +24,8 @@
 		"psy/psysh": "@stable",
 		"cakephp/debug_kit": "~3.2",
 		"cakephp/bake": "~1.1",
-		"cakephp/cakephp-codesniffer": "^2.1"
+		"cakephp/cakephp-codesniffer": "^3.0",
+		"phpunit/phpunit": "^5.7.14|^6.0"
 	},
 	"suggest": {
 		"phpunit/phpunit": "Allows automated tests to be run without system-wide install.",
@@ -51,7 +52,15 @@
 	},
 	"scripts": {
 		"post-install-cmd": "App\\Console\\Installer::postInstall",
-		"post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump"
+		"post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump",
+		"check": [
+			"@cs-check",
+			"@test"
+		],
+		"cs-check": "phpcs -p ./src ./tests",
+		"cs-fix": "phpcbf ./src ./tests",
+		"test": "phpunit",
+		"test-coverage": "phpunit --coverage-clover=clover.xml"
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true

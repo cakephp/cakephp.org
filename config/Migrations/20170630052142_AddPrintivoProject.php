@@ -14,10 +14,10 @@ class AddPrintivoProject extends AbstractMigration
      */
     public function change()
     {
-        $projectTable= TableRegistry::get('Projects');
-        $perspectiveImagesTable= TableRegistry::get('PerspectiveImages');
-        $screenMonitorImagesTable= TableRegistry::get('ScreenMonitorImages');
-        $uploadedFilesTable= TableRegistry::get('UploadedFiles');
+        $projectTable = TableRegistry::get('Projects');
+        $perspectiveImagesTable = TableRegistry::get('PerspectiveImages');
+        $screenMonitorImagesTable = TableRegistry::get('ScreenMonitorImages');
+        $uploadedFilesTable = TableRegistry::get('UploadedFiles');
 
         $project = $projectTable->newEntity();
         $project->title = 'Printivo.com';
@@ -32,8 +32,7 @@ class AddPrintivoProject extends AbstractMigration
         $project->created = Chronos::now();
         $project->modified = Chronos::now();
 
-
-        if($projectTable->save($project)) {
+        if ($projectTable->save($project)) {
             $perspectiveImages = $uploadedFilesTable->newEntity();
             $perspectiveImages->file = 'Perspective_Printivo.jpg';
             $perspectiveImages->dir = 'https://s3-us-west-2.amazonaws.com/printivo/files/cakephp/PerspectiveImages';
@@ -59,7 +58,6 @@ class AddPrintivoProject extends AbstractMigration
 
             $screenMonitorImages->model = $screenMonitorImagesTable->alias();
             $screenMonitorImagesTable->save($screenMonitorImages);
-
         }
     }
 }

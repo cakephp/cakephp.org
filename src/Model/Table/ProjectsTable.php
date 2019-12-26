@@ -25,9 +25,9 @@ class ProjectsTable extends Table
     {
         parent::initialize($config);
 
-        $this->table('projects');
-        $this->displayField('title');
-        $this->primaryKey('id');
+        $this->setTable('projects');
+        $this->setDisplayField('title');
+        $this->setPrimaryKey('id');
 
         $this->addBehavior('Timestamp');
         $this->addBehavior('Muffin/Slug.Slug');

@@ -74,9 +74,9 @@ $flash = $this->Flash->render()
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 writers-form">
                             <h3><?= __('Author Details') ?></h3>
-                            <?= $this->Form->input('name', ['label' => ['text' => '<strong>' . __('Name') . '</strong> ' . __('(Required)'), 'escape' => false], 'class' => 'form-control']) ?>
-                            <?= $this->Form->input('email', ['label' => ['text' => '<strong>' . __('Email') . '</strong> ' . __('(Required)'), 'escape' => false], 'class' => 'form-control']) ?>
-                            <?= $this->Form->input('username', ['label' => ['text' => '<strong>' . __('MyCakePHP Community username') . '</strong> ' . __('(Optional)'), 'escape' => false], 'class' => 'form-control']) ?>
+                            <?= $this->Form->control('name', ['label' => ['text' => '<strong>' . __('Name') . '</strong> ' . __('(Required)'), 'escape' => false], 'class' => 'form-control']) ?>
+                            <?= $this->Form->control('email', ['label' => ['text' => '<strong>' . __('Email') . '</strong> ' . __('(Required)'), 'escape' => false], 'class' => 'form-control']) ?>
+                            <?= $this->Form->control('username', ['label' => ['text' => '<strong>' . __('MyCakePHP Community username') . '</strong> ' . __('(Optional)'), 'escape' => false], 'class' => 'form-control']) ?>
                         </div>
                     </div>
                     <div class="row">

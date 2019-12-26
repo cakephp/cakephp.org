@@ -29,15 +29,15 @@ use Cake\Core\Configure;
 				<h4><?= __('Login') ?></h4>
 				<div class="col-md-6 col-md-offset-3">
 					<?= $this->Form->create() ?>
-						<?= $this->Form->input('username', ['label' => false, 'required' => true, 'placeholder' => __('Username'), 'class' => 'form-control-mylogin']) ?>
-						<?= $this->Form->input('password', ['label' => false, 'required' => true, 'placeholder' => __('Password'),'class' => 'form-control-mylogin']) ?>
+						<?= $this->Form->control('username', ['label' => false, 'required' => true, 'placeholder' => __('Username'), 'class' => 'form-control-mylogin']) ?>
+						<?= $this->Form->control('password', ['label' => false, 'required' => true, 'placeholder' => __('Password'),'class' => 'form-control-mylogin']) ?>
 						<div class="col-md-5 col-md-offset-1 col-xs-6 p0 pull-right p0">
 							<?= $this->Form->button(__d('Users', 'Login'), ['class' => 'btn-user btn-mylogin']); ?>
 						</div>
 						<div class="col-md-6 col-xs-6 check-mylogin p0">
 							<?php
 							if (Configure::check('Users.RememberMe.active')) {
-								echo $this->Form->input(Configure::read('Users.Key.Data.rememberMe'), [
+								echo $this->Form->control(Configure::read('Users.Key.Data.rememberMe'), [
 									'type' => 'checkbox',
 									'label' => __d('Users', 'Remember me.'),
 									'checked' => 'checked',

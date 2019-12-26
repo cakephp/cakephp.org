@@ -27,13 +27,13 @@ class CreateContacts extends AbstractMigration
      */
     public function change()
     {
-    	$this->table('contacts')
-    		->addColumn('subject', 'string', ['limit' => 255, 'default' => null, 'null' => false])
-    		->addColumn('name', 'string', ['limit' => 255, 'default' => null, 'null' => false])
-    		->addColumn('email', 'string', ['limit' => 255, 'default' => null, 'null' => false])
-    		->addColumn('body', 'text', ['default' => null, 'null' => false])
-    		->addColumn('created', 'timestamp', ['default' => null, 'null' => true])
-    		->addColumn('modified', 'timestamp', ['default' => null, 'null' => true])
-    		->create();
+        $this->table('contacts')
+            ->addColumn('subject', 'string', ['limit' => 255, 'default' => null, 'null' => false])
+            ->addColumn('name', 'string', ['limit' => 255, 'default' => null, 'null' => false])
+            ->addColumn('email', 'string', ['limit' => 255, 'default' => null, 'null' => false])
+            ->addColumn('body', 'text', ['default' => null, 'null' => false])
+            ->addColumn('created', 'timestamp', ['default' => null, 'null' => true])
+            ->addColumn('modified', 'timestamp', ['default' => null, 'null' => true])
+            ->create();
     }
 }
