@@ -427,6 +427,17 @@ return [
                 'image-url' => 'team/jorge_gonzalez.jpg',
                 'country' => 'Spain'
             ],
+			'garas' => [
+                'name' => 'Edgaras Janušauskas (garas)',
+                'description' => __('Edgaras is a PHP software developer from Lithuania. ' .
+                    'He started using CakePHP in 2011 and joined CakePHP team in October 2018. ' .
+                'language' => __('Lithuanian, English'),
+                'github' => 'garas',
+                'mycake' => 'garas',
+                'role' => __('Core Member'),
+                'image-url' => 'team/garas.jpg',
+                'country' => 'Lithuania'
+            ],
         ],
         'writers_form_enabled' => true,
     ],
