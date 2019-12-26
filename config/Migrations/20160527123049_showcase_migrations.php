@@ -27,17 +27,17 @@ class ShowcaseMigrations extends AbstractMigration
      */
     public function change()
     {
-    	if ($this->hasTable('projects')) {
-    		return;
-    	}
+        if ($this->hasTable('projects')) {
+            return;
+        }
 
-    	$this->table('projects')
+        $this->table('projects')
             ->addColumn('title', 'string', ['limit' => 255, 'null' => false, 'default' => null])
             ->addColumn('website', 'string', ['limit' => 255, 'null' => false, 'default' => null])
             ->addColumn('slug', 'string', ['limit' => 255, 'null' => false, 'default' => null])
             ->addColumn('technologies', 'string', ['limit' => 255, 'null' => true, 'default' => null])
-    		->addColumn('brief_description', 'string', ['limit' => 255, 'null' => false, 'default' => null])
-    		->addColumn('description', 'text', ['null' => false, 'default' => null])
+            ->addColumn('brief_description', 'string', ['limit' => 255, 'null' => false, 'default' => null])
+            ->addColumn('description', 'text', ['null' => false, 'default' => null])
             ->addColumn('is_highlighted', 'boolean', ['default' => false])
             ->addColumn('is_showcase', 'boolean', ['default' => false])
             ->addColumn('created', 'timestamp', ['default' => null, 'null' => true])
@@ -45,17 +45,17 @@ class ShowcaseMigrations extends AbstractMigration
             ->create();
 
         $this->table('uploaded_files')
-    		->addColumn('file', 'string', ['limit' => 255, 'null' => false, 'default' => null])
-    		->addColumn('dir', 'string', ['limit' => 255, 'null' => false, 'default' => null])
-    		->addColumn('size', 'string', ['limit' => 255, 'null' => false, 'default' => null])
-    		->addColumn('type', 'string', ['limit' => 255, 'null' => false, 'default' => null])
-    		->addColumn('created', 'timestamp', ['default' => null, 'null' => true])
-    		->addColumn('modified', 'timestamp', ['default' => null, 'null' => true])
-    		->create();
+            ->addColumn('file', 'string', ['limit' => 255, 'null' => false, 'default' => null])
+            ->addColumn('dir', 'string', ['limit' => 255, 'null' => false, 'default' => null])
+            ->addColumn('size', 'string', ['limit' => 255, 'null' => false, 'default' => null])
+            ->addColumn('type', 'string', ['limit' => 255, 'null' => false, 'default' => null])
+            ->addColumn('created', 'timestamp', ['default' => null, 'null' => true])
+            ->addColumn('modified', 'timestamp', ['default' => null, 'null' => true])
+            ->create();
 
-    	$this->table('uploaded_files')
-    		->addColumn('entity_id', 'integer', ['limit' => 11, 'default' => null, 'null' => false])
-    		->addColumn('model', 'string', ['limit' => 255, 'default' => null, 'null' => false])
-    		->update();
+        $this->table('uploaded_files')
+            ->addColumn('entity_id', 'integer', ['limit' => 11, 'default' => null, 'null' => false])
+            ->addColumn('model', 'string', ['limit' => 255, 'default' => null, 'null' => false])
+            ->update();
     }
 }
