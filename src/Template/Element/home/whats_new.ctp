@@ -3,7 +3,7 @@
  * @var \App\View\AppView
  */
 ?>
-<section class="whats-new pt-120 pb-120">
+<section class="whats-new pt-120">
 	<div class="container">
 		<div class="visible-md-block visible-lg-block artwork">
 			<?= $this->Html->image('whats_new.svg') ?>

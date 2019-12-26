@@ -1079,4 +1079,19 @@
 		display: flex;
 		justify-content: space-between;
 	}
+
+	#recipe .service-boxes {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.service-boxes .box-services-c {
+		flex: 0 0 33.333%;
+		padding: 10px 60px 10px;
+	}
+
+	.service-boxes .box-services-c img {
+		width: 130px;
+	}
 }

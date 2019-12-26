@@ -12,7 +12,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 
 <?= $this->element('home/whats_new')?>
 
-<?= $this->element('home/support')?>
+<?= $this->element('home/summary')?>
 
 <?= $this->element('home/showcase')?>
 

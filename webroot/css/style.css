@@ -1970,9 +1970,6 @@
 	}
 
 	/* Box-services style 3 */
-	.box-services-c {
-		text-align:center;
-	}
 	.box-services-c .fa {
 		margin-bottom:15px;
 	}
@@ -5349,24 +5346,23 @@
 
 
 #recipe h2 {
-    font-size: 50px;
+    font-size: 31px;
     letter-spacing: 0.01em;
-    line-height: 50px;
+    line-height: 31px;
     font-weight: 200;
-    color: #D33C44;
     margin: 0 0 15px 0;
 }
 
 #recipe h4 {
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 200;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     letter-spacing: 0.01em;
     color: #363637;
 }
 
 #recipe h3 {
-    font-size: 27px;
+    font-size: 20px;
     font-weight: 300;
     color: #333333;
     margin-top: 30px;
