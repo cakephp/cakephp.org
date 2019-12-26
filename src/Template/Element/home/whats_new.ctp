@@ -27,7 +27,7 @@
 				   know your project like no one else. From startups and social networks, to e-commerce and enterprise
 				   level applications, we provide the highest quality CakePHP development available.</p>
 				<div>
-					<a href="https://cakedc.com" class="learn-more">Get in touch!</a>
+					<a href="https://www.cakedc.com" class="learn-more">Get in touch!</a>
 				</div>
 			</div>
 		</div>
