@@ -160,7 +160,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 			plan on contributing a feature, please also include relevant test cases for the feature. We want to keep
 			CakePHP as bug free as possible, and test cases have proven to help immensely. If you submit features
 			without test cases, and no documentation it is highly unlikely it will be merged in.',
-				$this->Html->link(__('3.x releases'), 'https://github.com/cakephp/cakephp/issues', ['target' => '_blank']),
+				$this->Html->link(__('4.x releases'), 'https://github.com/cakephp/cakephp/issues', ['target' => '_blank']),
 				$this->Html->link(__('unresolved defects'), 'https://github.com/cakephp/cakephp/issues?state=open&label%3ADefect', ['target' => '_blank'])
 			)?></p>
 
@@ -187,7 +187,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 				$this->Html->link(__('Cookbook'), Configure::read('Site.menu.items.documentation.book.url')),
 				$this->Html->link(__('source code'), 'https://github.com/cakephp/cakephp', ['target' => '_blank']),
 				$this->Html->link(__('GitHub'), 'https://github.com/cakephp/docs',  ['target' => '_blank']),
-				$this->Html->link(__('here'), 'http://book.cakephp.org/3.0/en/contributing/documentation.html')
+				$this->Html->link(__('here'), 'http://book.cakephp.org/4/en/contributing/documentation.html')
 			)?></p>
 	</div>
 

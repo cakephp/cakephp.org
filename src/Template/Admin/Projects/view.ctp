@@ -21,7 +21,7 @@
 			<div class="well back-red view">
 				<div class="row">
 					<div class="col-sm-12 col-md-8 col-lg-6">
-						<?php if (count($project->project_images)): ?>
+						<?php if (!empty($project->project_images)): ?>
 							<div class="col-sm-8 col-md-6 col-lg-6">
 								<div class="row">
 									<?= $this->Image->display($project->project_images[0], null, [

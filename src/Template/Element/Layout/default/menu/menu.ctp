@@ -1,3 +1,17 @@
+<?php
+/**
+ * The main menu element
+ */
+
+if (!isset($selectedLanguage)) {
+	$selectedLanguage = 'en';
+}
+
+if (!isset($availableLanguages)) {
+	$availableLanguages = ['en'];
+}
+
+?>
 <ul class="menu">
     <li class="toggle-menu"><i class="fa icon_menu"></i></li>
     <li class="first">
@@ -92,19 +106,19 @@
             <li></li>
             <?php foreach($availableLanguages as $lang => $alias): ?>
                 <?php if ($alias === $selectedLanguage) continue; ?>
-                <?php $pass = $this->request->param('pass') ?>
+                <?php $pass = $this->request->getParam('pass') ?>
                 <li>
                     <?= $this->Html->link($alias, [
                         'language' => $lang,
-                        'controller' => $this->request->param('controller'),
-                        'action' => $this->request->param('action'),
+                        'controller' => $this->request->getParam('controller'),
+                        'action' => $this->request->getParam('action'),
                         isset($pass[0]) ? $pass[0] : null
                     ]) ?>
                 </li>
             <?php endforeach; ?>
         </ul>
     </li>
-    <?php if ($this->request->session()->check('Auth.User')) : ?>
+    <?php if ($this->request->getSession()->check('Auth.User')) : ?>
         <li>
             <?= $this->Html->link(
                 $this->Html->tag('i', '', ['class' => 'fa fa-logout']) . __('Logout'),

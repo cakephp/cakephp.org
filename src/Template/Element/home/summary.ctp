@@ -11,7 +11,7 @@
 					<div class="col-md-12 mb70">
 						<?= $this->Html->link(
 							__('Download CakePHP {0}', $_version),
-							'http://book.cakephp.org/3.0/en/installation.html',
+							'http://book.cakephp.org/4/en/installation.html',
 							['class' => 'btn btn-red mt30']
 						) ?>
 					</div>

@@ -30,8 +30,8 @@ use Cake\Core\Configure;
 				<div class="col-md-6 col-md-offset-3">
 					<?= $this->Form->create() ?>
 
-					<?= $this->Form->input('password', ['label' => false, 'required' => true, 'placeholder' => __('New password'), 'class' => 'form-control-mylogin']) ?>
-					<?= $this->Form->input('password_confirm', ['type' => 'password', 'label' => false, 'required' => true, 'placeholder' => __('Confirm new password'), 'class' => 'form-control-mylogin']) ?>
+					<?= $this->Form->control('password', ['label' => false, 'required' => true, 'placeholder' => __('New password'), 'class' => 'form-control-mylogin']) ?>
+					<?= $this->Form->control('password_confirm', ['type' => 'password', 'label' => false, 'required' => true, 'placeholder' => __('Confirm new password'), 'class' => 'form-control-mylogin']) ?>
 					<?= $this->Form->button(__d('Users', 'Submit'), ['class' => 'btn-user btn-mylogin']); ?>
 
 						<?= $this->Form->end() ?>

@@ -43,8 +43,8 @@ use Cake\Routing\Router;
 Router::defaultRouteClass('DashedRoute');
 
 Router::addUrlFilter(function ($params, $request) {
-    if (isset($request->params['language']) && !isset($params['language'])) {
-        $params['language'] = $request->params['language'];
+    if ($request->getParam('language') && !isset($params['language'])) {
+        $params['language'] = $request->getParam('language');
     }
 
     return $params;
@@ -81,8 +81,8 @@ $basicRoutes = function (RouteBuilder $routes) {
     $routes->connect('/business-solutions', ['controller' => 'Pages', 'action' => 'display', 'business-solutions']);
     $routes->connect('/roadtrip', ['controller' => 'Pages', 'action' => 'display', 'road_trip']);
 
-    $routes->redirect('/pages/documentation', 'http://book.cakephp.org/');
-    $routes->redirect('/documentation', 'http://book.cakephp.org/');
+    $routes->redirect('/pages/documentation', 'http://book.cakephp.org/4');
+    $routes->redirect('/documentation', 'http://book.cakephp.org/4');
     $routes->connect('/changelogs', ['controller' => 'Changelogs', 'action' => 'index']);
     $routes->connect('/changelogs/*', ['controller' => 'Changelogs', 'action' => 'view']);
     $routes->redirect('/development', ['controller' => 'Pages', 'action' => 'display', 'business-solutions']);
@@ -123,8 +123,3 @@ Router::scope('/fr', ['language' => 'fr_FR'], $realRoutes);
 Router::scope('/pt', ['language' => 'pt_BR'], $realRoutes);
 Router::scope('/', ['language' => 'en'], $realRoutes);
 Router::scope('/', $realRoutes);
-/**
- * Load all plugin routes.  See the Plugin documentation on
- * how to customize the loading of plugin routes.
- */
-Plugin::routes();
