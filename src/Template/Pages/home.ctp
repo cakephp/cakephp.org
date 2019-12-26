@@ -8,16 +8,11 @@ $this->assign('meta', $this->Html->meta('description', $description));
 $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
 ?>
 
-<?= $this->element('Layout/default/menu/top_bar') ?>
-
-<?= $this->element('home/cakefest')?>
-
 <?= $this->element('home/cake')?>
 
+<?= $this->element('home/whats_new')?>
+
 <?= $this->element('home/summary')?>
-
-
-<?= $this->element('home/support')?>
 
 <?= $this->element('home/showcase')?>
 
