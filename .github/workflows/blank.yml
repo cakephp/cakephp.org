@@ -13,4 +13,4 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
-        script: deploy_cakephp_org.sh
+        script: bash /home/deploy/deploy_cakephp_org.sh
