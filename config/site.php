@@ -435,7 +435,7 @@ return [
                 'github' => 'garas',
                 'mycake' => 'garas',
                 'role' => __('Core Member'),
-                'image-url' => 'team/garas.jpg',
+                'image-url' => 'team/Garas.jpg',
                 'country' => 'Lithuania'
             ],
         ],
