@@ -18,11 +18,6 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 
 <?= $this->element('home/showcase')?>
 
-<?= $this->element('home/company_logos')?>
-
-<?= $this->element('home/quotes')?>
-
-
 <?= $this->element('home/cakefest_sponsors')?>
 
 <?= $this->element('home/newsletter')?>

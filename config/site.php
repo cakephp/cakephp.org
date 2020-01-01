@@ -9,27 +9,27 @@ return [
         'quotes' => [
             [
                 'image' => 'quote/megan.png',
-                'text' => __('“We got a high ROI from converting our custom PHP app to CakePHP. We love the continually expanding suite of utilities, plugins, and development patterns at our disposal!”'),
+                'text' => __('We got a high ROI from converting our custom PHP app to CakePHP. We love the continually expanding suite of utilities, plugins, and development patterns at our disposal!'),
                 'client' => 'Megan Danz',
                 'company' => 'Harbor Compliance',
                 'url' => 'https://www.harborcompliance.com/'
             ],
             [
                 'image' => 'quote/brad.png',
-                'text' => __('“CakePHP was the most efficient way we could find to rapidly develop our intricate system.  We needed a platform that could handle our high volume of users without issues and CakePHP has certainly delivered.”'),
+                'text' => __('CakePHP was the most efficient way we could find to rapidly develop our intricate system.  We needed a platform that could handle our high volume of users without issues and CakePHP has certainly delivered.'),
                 'client' => 'Brad Lambden',
                 'company' => 'iWorkZone',
                 'url' => 'https://iworkzone.com/'
             ],
             [
                 'image' => 'quote/julian.png',
-                'text' => __('“From the simplest micro kiosk app to my highly complex gallery management app, CakePHP is the framework of choice. It allows modular development that makes sense, and it\'s architecturally solid and performant. Whatever you are building, CakePHP can help you get it done.”'),
+                'text' => __('From the simplest micro kiosk app to my highly complex gallery management app, CakePHP is the framework of choice. It allows modular development that makes sense, and it\'s architecturally solid and performant. Whatever you are building, CakePHP can help you get it done.'),
                 'client' => 'Julian Sander',
                 'company' => 'Gallery Assistant'
             ],
             [
                 'image' => 'quote/dwayne.png',
-                'text' => __('“Having inherited this CakePHP project, I didn’t chose CakePHP so much as choose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.”'),
+                'text' => __('Having inherited this CakePHP project, I didn’t chose CakePHP so much as choose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.'),
                 'client' => 'Dwayne Sander',
                 'company' => 'Alerrt',
                 'url' => 'http://alerrt.org/'

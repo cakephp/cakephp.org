@@ -1,17 +1,27 @@
-<section>
-	<?=  $this->cell('HomePageHighlight') ?>
-</section>
+<?php
 
-<section id="companies">
+use Cake\Core\Configure;
+
+$quotes = Configure::read('Site.quotes');
+?>
+
+<section class="showcase">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 text-center">
-				<h3><?= __("Companies using CakePHP") ?></h3>
-				<?= $this->Html->link(
-					__("View the Showcase"),
-					['controller' => 'projects', 'action' => 'index'],
-					['class' => 'btn btn-red mt40']
-				) ?>
+			<div class="col-md-6">
+				<div>
+					<h2><?= __("Companies using CakePHP") ?></h2>
+					<h3><?= __('Here are some of the companies trusting our framework.') ?></h3>
+					<?= $this->Html->link(__("View Showcase"), ['controller' => 'projects', 'action' => 'index'],
+						['class' => 'btn btn-home mb40 mt10']) ?>
+				</div>
+
+				<?= $this->element('home/quotes') ?>
+
+				<?= $this->element('home/company_logos') ?>
+			</div>
+			<div class="col-md-6">
+				<?= $this->cell('HomePageHighlight') ?>
 			</div>
 		</div>
 	</div>

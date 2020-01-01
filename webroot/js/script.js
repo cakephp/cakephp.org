@@ -546,7 +546,8 @@
 				items: 1,
 				autoHeight: true,
 				autoplayHoverPause: true,
-				autoPlay: 5500,
+				autoplayTimeout: 5500,
+				autoplay: true,
 				nav: false,
 				dotsContainer: '#quotes-dots-container'
 			});
