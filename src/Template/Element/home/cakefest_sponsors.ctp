@@ -5,10 +5,11 @@ use Cake\Utility\Hash;
 $sponsors = Configure::read('Site.cakefest.sponsors');
 ?>
 <section id="sponsors" class="pt-90">
+	<?= $this->Html->image('sponsor_words.svg', ['class' => 'sponsor-icon']) ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<h3 class="title-red"><?= __('A word from our sponsors:')?></h3>
+				<h2><?= __('A word from our sponsors:')?></h2>
 			</div>
 			<?php foreach($sponsors as $sponsor): ?>
 			<div class="col-md-4 mb90">

@@ -10580,19 +10580,19 @@ code {
 	margin: 0;
 }
 
-#sponsors {
-	background-color:#f7f7f5;
+#sponsors h2 {
+	margin: 0;
 }
 
 .sponsor {
-	background-color: white;
-	border-radius: 30px;
 	padding: 20px;
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
-.sponsor-copy {
-	text-align: justify;
+.sponsor-icon {
+	width: 60px;
+	display: block;
+	margin: 0 auto 70px auto;
 }
 
 .btn-home {
