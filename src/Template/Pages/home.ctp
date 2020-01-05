@@ -16,6 +16,8 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 
 <?= $this->element('home/share') ?>
 
+<?= $this->element('home/support') ?>
+
 <?= $this->element('home/showcase')?>
 
 <?= $this->element('home/cakefest_sponsors')?>

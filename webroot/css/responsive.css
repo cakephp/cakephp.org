@@ -93,10 +93,6 @@
     	margin-top: 538px;
 	}
 
-	#sharing {
-		padding-bottom: 222px;
-	}
-
 	.social iframe {
 		    margin: 5px;
 	}
@@ -716,10 +712,6 @@
     font-size: 350px;
 	}
 
-	#sharing {
-		padding-bottom: 160px;
-	}
-
 	.footer-social {
 		text-align: center;
     	width: 100%;
@@ -973,10 +965,6 @@
     	font-size: 380px;
 	}
 
-	#sharing {
-		padding-bottom: 150px;
-	}
-
 	.fa-menu-title {
 		font-size: 17px;
 	    display: block;
@@ -1024,15 +1012,18 @@
 	}
 
 
-	#recipe .service-boxes {
+	.service-boxes {
 		display: flex;
 		justify-content: center;
+		align-content: flex-start;
 		flex-wrap: wrap;
 	}
 
 	.service-boxes .box-services-c {
 		flex: 0 0 33.333%;
 		padding: 10px 60px 10px;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.service-boxes .box-services-c img {

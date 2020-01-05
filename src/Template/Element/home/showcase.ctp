@@ -5,7 +5,7 @@ use Cake\Core\Configure;
 $quotes = Configure::read('Site.quotes');
 ?>
 
-<section class="showcase">
+<section class="showcase mt100">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">

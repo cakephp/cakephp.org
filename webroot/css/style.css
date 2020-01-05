@@ -1970,7 +1970,7 @@
 	}
 
 	/* Box-services style 3 */
-	.box-services-c .fa {
+	.box-services-c > .fa {
 		margin-bottom:15px;
 	}
 
@@ -5485,8 +5485,9 @@
 
 
 
-#expertise p{
-    color: white;
+#expertise .logo {
+	width: 240px;
+	margin: 0 auto;
 }
 
 .icon-expertise {
@@ -10667,4 +10668,8 @@ code {
 
 .newsletter-signup .container {
 	min-width: 900px;
+}
+
+.flex-grow-1 {
+	flex-grow: 1;
 }
