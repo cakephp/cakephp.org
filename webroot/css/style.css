@@ -10664,3 +10664,7 @@ code {
 	overflow: hidden;
 	left: 101px;
 }
+
+.newsletter-signup .container {
+	min-width: 900px;
+}
