@@ -93,10 +93,6 @@
     	margin-top: 538px;
 	}
 
-	#sharing {
-		padding-bottom: 222px;
-	}
-
 	.social iframe {
 		    margin: 5px;
 	}
@@ -716,10 +712,6 @@
     font-size: 350px;
 	}
 
-	#sharing {
-		padding-bottom: 160px;
-	}
-
 	.footer-social {
 		text-align: center;
     	width: 100%;
@@ -933,7 +925,7 @@
 
 
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px){
 /*CSS LIDO EM DISPOSITIVOS ATÉ 1199 PX DE LARGURA*/
 	.menu > li > a {
 		padding: 25px 20px;
@@ -971,10 +963,6 @@
 	.icon-sharing {
     	margin-top: 144px;
     	font-size: 380px;
-	}
-
-	#sharing {
-		padding-bottom: 150px;
 	}
 
 	.fa-menu-title {
@@ -1024,6 +1012,45 @@
 	}
 
 
+	.service-boxes {
+		display: flex;
+		justify-content: center;
+		align-content: flex-start;
+		flex-wrap: wrap;
+	}
+
+	.service-boxes .box-services-c {
+		flex: 0 0 33.333%;
+		padding: 10px 60px 10px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.service-boxes .box-services-c img {
+		width: 130px;
+	}
+
+	.whats-new .container > div, .sharing .container > div {
+		flex: 1 0 50%;
+	}
+
+	.whats-new .artwork, .sharing .artwork {
+		margin-right: 50px;
+	}
+
+	.whats-new .container, .sharing .container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.sharing .container {
+		align-items: center;
+	}
+
+	.sharing .artwork img {
+		max-height: 500px;
+		width: 100%;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -1065,33 +1092,5 @@
 
 	.social-footer a {
 		padding: 10px 18px;
-	}
-
-	.whats-new .container > div {
-		flex: 1 0 50%;
-	}
-
-	.whats-new .artwork {
-		margin-right: 50px;
-	}
-
-	.whats-new .container {
-		display: flex;
-		justify-content: space-between;
-	}
-
-	#recipe .service-boxes {
-		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
-	}
-
-	.service-boxes .box-services-c {
-		flex: 0 0 33.333%;
-		padding: 10px 60px 10px;
-	}
-
-	.service-boxes .box-services-c img {
-		width: 130px;
 	}
 }
