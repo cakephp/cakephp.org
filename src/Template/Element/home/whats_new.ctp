@@ -23,12 +23,11 @@
 
 			<div>
 				<h2>Business Solutions</h2>
-				<p>CakeDC, the commercial entity behind the framework,
-				   and established by Larry Masters, founder of CakePHP,
-				   we know your project like no one else. From startups
-				   and social networks, to e-commerce and enterprise
-				   level applications, we provide the highest quality
-				   CakePHP development available.</p>
+				<p>CakeDC, the commercial entity behind the CakePHP framework, was established by Larry Masters, the
+				   founder of CakePHP. CakeDC offers CakePHP development, consultancy, CakePHP training and code review Services.
+					From startups and social networks, to e-commerce and enterprise level applications, CakeDC provides
+				   the highest quality CakePHP development available.
+				</p>
 				<div>
 					<a href="https://cakedc.com" class="learn-more">Get in touch!</a>
 				</div>
