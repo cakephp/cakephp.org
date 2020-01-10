@@ -51,8 +51,8 @@
 		margin: 0 0 40px 0;
 	}
 	h2 {
-		font-size: 36px;
-		line-height: 50px;
+		font-size: 32px;
+		line-height: 32px;
 		margin: 0 0 35px 0;
 	}
 	h3 {
@@ -1970,7 +1970,7 @@
 	}
 
 	/* Box-services style 3 */
-	.box-services-c .fa {
+	.box-services-c > .fa {
 		margin-bottom:15px;
 	}
 
@@ -5485,8 +5485,9 @@
 
 
 
-#expertise p{
-    color: white;
+#expertise .logo {
+	width: 240px;
+	margin: 0 auto;
 }
 
 .icon-expertise {
@@ -5582,43 +5583,68 @@
 }
 
 #companies-logos {
-	background: #BEBEB6;
+	background: #EFF2F7;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	border-bottom-left-radius: 40px;
 }
 
 #quote {
-	background-color: white;
+	color: #808080;
+	font-family: Roboto;
 }
 
-#quote h4 {
-    margin-bottom: 140px;
+.quote-client {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
 
-#quote h5{
-    text-align: right;
-    color: #D33C44;
+.quote-client img {
+	width: 50px !important;
+	margin-right: 10px;
+	border-radius: 50px;
+	flex: 0 1 50px;
+}
+
+.quote-client h5{
     font-size: 15px;
     margin: 0;
     letter-spacing: 0.04em;
     line-height: 30px;
+	color: #808080
 }
 
-#quote h6 {
-    text-align: right;
+.quote-client a {
+	color: #808080;
+}
+
+.quote-client h6 {
+	color: #808080;
     font-size: 15px;
     letter-spacing: 0.04em;
 }
 
-blockquote {
-	font-size: 24px;
+#quote blockquote {
+	font-size: 17px;
     margin: 10px 0;
-    padding: 0;
+    padding: 0 0 0 60px;
     font-style: italic;
-    color: #C5C6C0;
-    line-height: 33px;
+    line-height: 30px;
     font-weight: 400;
     border: none;
+	position: relative;
+}
+
+#quote blockquote:before {
+	font-family: serif;
+	content: "\201C";
+	color: #DDB985;
+	font-size: 80px;
+	display: block;
+	position: absolute;
+	top: 20px;
+	left: -5px;
 }
 
 .title-red {
@@ -10555,19 +10581,19 @@ code {
 	margin: 0;
 }
 
-#sponsors {
-	background-color:#f7f7f5;
+#sponsors h2 {
+	margin: 0;
 }
 
 .sponsor {
-	background-color: white;
-	border-radius: 30px;
 	padding: 20px;
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
-.sponsor-copy {
-	text-align: justify;
+.sponsor-icon {
+	width: 60px;
+	display: block;
+	margin: 0 auto 70px auto;
 }
 
 .btn-home {
@@ -10589,6 +10615,61 @@ code {
 	background: #fff;
 }
 
-.whats-new h2 {
+.whats-new h2, .sharing h2 {
 	margin-bottom: 20px;
+}
+
+#showcase-carousel {
+	height: 650px;
+	background: url('../img/using_cakephp.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.owl-dot {
+	border: 0;
+}
+
+.owl-dot span {
+	display: block;
+	color: #CCCCCC;
+	border: 0;
+	background: #CCCCCC;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+}
+
+.owl-dot.active span {
+	color: #DDB985;
+	background: #DDB985;
+
+}
+
+.showcase h2 {
+	margin-bottom: 0;
+}
+
+.showcase h3 {
+	font-family: Roboto;
+	font-weight: 200;
+	font-size: 20px;
+}
+
+.showcase .carousel-inner {
+	transform: skew(0deg, 21.5deg);
+	position: absolute;
+	width: 293px;
+	height: 185px;
+	top: 110px;
+	overflow: hidden;
+	left: 101px;
+}
+
+.newsletter-signup .container {
+	min-width: 900px;
+}
+
+.flex-grow-1 {
+	flex-grow: 1;
 }

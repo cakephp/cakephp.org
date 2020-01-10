@@ -14,13 +14,11 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 
 <?= $this->element('home/summary')?>
 
+<?= $this->element('home/share') ?>
+
+<?= $this->element('home/support') ?>
+
 <?= $this->element('home/showcase')?>
-
-<?= $this->element('home/company_logos')?>
-
-<?= $this->element('home/quotes')?>
-
-<?= $this->element('home/share')?>
 
 <?= $this->element('home/cakefest_sponsors')?>
 
