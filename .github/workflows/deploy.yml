@@ -1,9 +1,12 @@
-name: remote deploy
-on: [push]
-jobs:
+name: deploy
+on:
+  push:
+    branches:
+    - master
 
+jobs:
   build:
-    name: remote deploy
+    name: master deploy live
     runs-on: ubuntu-latest
     steps:
     - name: remote deploy
