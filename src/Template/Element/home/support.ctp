@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<h2 class="mb20"><?= __('Premium Support')?></h2>
+				<h2 class="mb20"><?= __('Premium CakePHP Support')?></h2>
 				<h4><?= __('Let the experts behind CakePHP show you how it\'s done.')?></h4>
 			</div>
 		</div>
@@ -13,9 +13,8 @@
 					<?= $this->Html->image('cakedc.svg', ['class' => 'logo']) ?>
 				</div>
 				<p>
-					<?= __('As the commercial entity behind the framework, and established by Larry Masters, founder of CakePHP, we know your project like no
-one else. From startups and social networks, to e-commerce and enterprise level applications, we provide the highest quality
-CakePHP development available.') ?>
+					<?= __('CakeDC offers you access to the leading CakePHP developers from around the world.
+					Faster CakePHP development that will have your application growth ready and stable.') ?>
 				</p>
 			</div>
 		</div>
@@ -36,7 +35,7 @@ rest assured that you\'ve got all bases covered.') ?>
 			</div>
 			<div class="box-services-c">
 				<?= $this->Html->image('cakedc_training.png') ?>
-				<h4 class="title-small"><?= __('Training') ?></h4>
+				<h4 class="title-small"><?= __('CakePHP Training') ?></h4>
 				<p class="mb0 flex-grow-1">
 					<?= __('Learn the insights and reasoning behind the
 CakePHP framework straight from the minds
@@ -54,7 +53,7 @@ CakeDC.') ?>
 			</div>
 			<div class="box-services-c">
 				<?= $this->Html->image('cakedc_support.png') ?>
-				<h4 class="title-small"><?= __('Support') ?></h4>
+				<h4 class="title-small"><?= __('CakePHP Support') ?></h4>
 				<p class="flex-grow-1">
 					<?= __('Professional support for CakePHP is provided
 by our professional services partner, the Cake
