@@ -1027,6 +1027,10 @@
 	}
 
 	.service-boxes .box-services-c img {
+		width: 130px;
+	}
+
+	.service-boxes.recipe .box-services-c img {
 		height: 90px;
 		width: auto;
 	}

@@ -236,7 +236,7 @@ return [
 			'location' => __('Tokyo, Japan'),
 			'title' => 'CakeFest 2019',
             'sponsors' => [
-                /*[
+                [
                     'name' => 'CakeDC',
                     'logo' => ['img' => '/images/companies/logos/sponsors/cakedc.jpg', 'style' => 'height: 250px;'],
                     'copy' => ['text' => '<a href="https://cakedc.com" target="_blank">CakeDC</a> is the commercial entity behind the framework and was established by Larry Masters, founder of CakePHP. From startups and social networks, to e-commerce and enterprise level applications, CakeDC provides the highest quality CakePHP development available. CakeDC is committed to supporting the CakePHP framework and community.', 'style' => ''],
@@ -253,7 +253,7 @@ return [
                     'logo' => ['img' => '/images/companies/logos/sponsors/stickeryou.png', 'style' => 'height: 250px;'],
                     'copy' => ['text' => 'As a valued partner and proud supporter of CakePHP, StickerYou is happy to offer a 10% discount on all <a href="https://www.stickeryou.com/products/custom-stickers/335/" target="_blank">Custom Stickers</a>, <a href="https://www.stickeryou.com/products/business-labels/655" target="_blank">Business Labels</a>, Roll Labels, Vinyl Lettering or Custom Decals. <b>StickerYou.com</b> is your one-stop shop to make your business stick. Use code <b>CAKE10</b> at checkout to apply your discount.', 'style' => 'padding-bottom: 26px;'],
                     'link' => 'https://stickeryou.com',
-                ]*/
+                ]
             ]
         ],
         'team' => [

@@ -5,7 +5,7 @@
 			<h3><?= __('Prototype faster, Validate faster, Grow consistently.') ?></h3>
 		</div>
 
-		<div class="service-boxes">
+		<div class="service-boxes recipe">
 			<div class="box-services-c">
 				<?= $this->Html->image('build_quickly.svg') ?>
 				<h4 class="title-small"><?= __('Build Quickly') ?></h4>
