@@ -27,7 +27,7 @@
 attention and a trained eye, allowing you to
 rest assured that you\'ve got all bases covered.') ?>
 				</p>
-				<div class="text-center">
+				<div>
                     <?= $this->Html->link(__('+1 702 425 5085'), 'tel:+17024255085', [
                         'class' => 'btn btn-home pull-left',
                     ]) ?>
@@ -44,7 +44,7 @@ behind the framework: the developers at
 CakeDC.') ?>
 				</p>
 				<p class="rapid-contact-feedback"></p>
-				<div class="text-center">
+				<div>
 					<?= $this->Html->link(__('Rapid Response'), '#', [
 						'class' => 'btn btn-home pull-left',
 						'data-toggle' => 'modal',
@@ -60,8 +60,7 @@ CakeDC.') ?>
 by our professional services partner, the Cake
 Development Corporation.') ?>
 				</p>
-				<div class="text-center">
-
+				<div>
 					<a href="skype:CakeDC" class="btn btn-home pull-left">
 						<i class="fa fa-skype"></i> CakeDC
 					</a>
