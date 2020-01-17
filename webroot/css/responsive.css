@@ -1027,7 +1027,12 @@
 	}
 
 	.service-boxes .box-services-c img {
-		width: 130px;
+		height: 90px;
+		width: auto;
+	}
+
+	.box-services-c h4 {
+		text-align: center;
 	}
 
 	.whats-new .container > div, .sharing .container > div {
