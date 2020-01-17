@@ -57,7 +57,7 @@ class ProjectsFixture extends TestFixture
                 'is_highlighted' => 1,
                 'is_showcase' => 1,
                 'created' => 1541021081,
-                'modified' => 1541021081
+                'modified' => 1541021081,
             ],
         ];
         parent::init();

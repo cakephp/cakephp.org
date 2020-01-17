@@ -14,5 +14,5 @@ EventManager::instance()->on($listener);
 StorageManager::config('Local', [
     'adapterOptions' => [ROOT . DS . 'files', true],
     'adapterClass' => '\Gaufrette\Adapter\Local',
-    'class' => '\Gaufrette\Filesystem'
+    'class' => '\Gaufrette\Filesystem',
 ]);
