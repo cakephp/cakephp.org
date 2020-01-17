@@ -53,7 +53,7 @@ class UploadedFilesFixture extends TestFixture
                 'created' => 1541021245,
                 'modified' => 1541021245,
                 'entity_id' => 1,
-                'model' => 'Lorem ipsum dolor sit amet'
+                'model' => 'Lorem ipsum dolor sit amet',
             ],
         ];
         parent::init();

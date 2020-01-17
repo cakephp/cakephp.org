@@ -47,7 +47,7 @@ class AddSuperadmin extends AbstractMigration
                 'role' => 'superuser',
                 'created' => '2016-05-23 08:21:37',
                 'modified' => '2016-05-23 08:21:37',
-            ]
+            ],
         ];
         $usersTable = $this->table('users');
         $usersTable->insert($users)->save();

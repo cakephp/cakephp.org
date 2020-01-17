@@ -52,7 +52,7 @@ class TagsTagsFixture extends TestFixture
                 'counter' => 1,
                 'created' => '2018-10-31 21:26:16',
                 'modified' => '2018-10-31 21:26:16',
-                'tag_key' => 'Lorem ipsum dolor sit amet'
+                'tag_key' => 'Lorem ipsum dolor sit amet',
             ],
         ];
         parent::init();
