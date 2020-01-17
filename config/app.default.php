@@ -99,7 +99,7 @@ return [
         'newsletter' => [
             'className' => 'File',
             'path' => CACHE,
-            'duration' => '+1 hour'
+            'duration' => '+1 hour',
         ],
         /**
          * Configure the cache used for general framework caching.

@@ -8,7 +8,7 @@ class ProjectsController extends AppController
 {
     private $patchOptions = ['associated' => [
         'ScreenMonitorImages' => ['validate' => false],
-        'PerspectiveImages' => ['validate' => false]
+        'PerspectiveImages' => ['validate' => false],
     ]];
 
     public function beforeFilter(Event $event)
@@ -44,7 +44,7 @@ class ProjectsController extends AppController
     public function view($id = null)
     {
         $project = $this->Projects->get($id, [
-            'contain' => ['PerspectiveImages', 'ScreenMonitorImages']
+            'contain' => ['PerspectiveImages', 'ScreenMonitorImages'],
         ]);
 
         $this->set('project', $project);
@@ -103,7 +103,7 @@ class ProjectsController extends AppController
     public function edit($id = null)
     {
         $project = $this->Projects->get($id, [
-            'contain' => ['PerspectiveImages', 'ScreenMonitorImages', 'Tags']
+            'contain' => ['PerspectiveImages', 'ScreenMonitorImages', 'Tags'],
         ]);
 
         if ($this->request->is(['patch', 'post', 'put'])) {

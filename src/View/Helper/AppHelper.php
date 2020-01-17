@@ -17,7 +17,7 @@ class AppHelper extends Helper
      * @var array
      */
     public $helpers = [
-        'Html'
+        'Html',
     ];
 
     /**
