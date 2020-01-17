@@ -6,7 +6,7 @@ php:
   - 7.3
 
 before_script:
-  - sh -c "composer require 'cakephp/cakephp-codesniffer:dev-master'"
+  - sh -c "composer require 'cakephp/cakephp-codesniffer:^3.3'"
   - phpenv rehash
 
 script:
