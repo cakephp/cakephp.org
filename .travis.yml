@@ -3,7 +3,7 @@ language: php
 sudo: false
 
 php:
-  - 7.0
+  - 7.3
 
 before_script:
   - sh -c "composer require 'cakephp/cakephp-codesniffer:dev-master'"
