@@ -1036,18 +1036,12 @@
 
 	.service-boxes.recipe .box-services-c img {
 		height: 90px;
-		width: auto;
 	}
 
 	.service-boxes.recipe .box-services-c img {
 		height: 90px;
-		width: auto;
 	}
-
-	.box-services-c h4 {
-		text-align: center;
-	}
-
+	
 	.whats-new .container > div, .sharing .container > div {
 		flex: 1 0 50%;
 	}
