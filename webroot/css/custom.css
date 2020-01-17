@@ -18,15 +18,15 @@ body {
 	font-size: 15px;
 	color: #363637;
 	letter-spacing: 0.04em;
-	margin-bottom: 120px;
 	font-weight: normal;
 }
 
 .display_archive .campaign {
 	font-weight: bold;
 	font-size: 15px;
-	height: 30px;
+	min-height: 30px;
 	font-family: 'Raleway', sans-serif;
+	padding-bottom: 10px;
 }
 
 .t-videos h4 {
