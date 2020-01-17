@@ -10662,11 +10662,7 @@ code {
 .showcase .carousel-inner {
 	transform: skew(0deg, 21.5deg);
 	position: absolute;
-	width: 293px;
-	height: 185px;
-	top: 110px;
 	overflow: hidden;
-	left: 101px;
 }
 
 .newsletter-signup .container {
