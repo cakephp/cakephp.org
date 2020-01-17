@@ -1,8 +1,8 @@
-<section class="ptb-80 back-red footer-wrapper">
-	<div class="container">
+<section class="newsletter-signup mb100">
+	<div class="container  back-red">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<h3 class="title-white mb50"><?= __('Sign up for our newsletter.') ?></h3>
+				<h3 class="title-white mb50 mt50"><?= __('Sign up for our newsletter.') ?></h3>
 
 				<form class="form" method="post" action="//cakephp.us9.list-manage.com/subscribe/post?u=f380de581acd576e7d802552a&amp;id=539d7fcbd1">
 					<div class="row col-p10">
@@ -42,6 +42,13 @@
 											   required>
 									</label>
 								</div>
+								<div class="col-sm-12">
+									<button
+										type="submit"
+										name="subscribe"
+										id="mc-embedded-subscribe"
+										class="btn btn-home btn-inverted"><?= __('Send!') ?></button>
+								</div>
 							</div>
 						</div>
 
@@ -67,6 +74,17 @@
 											<label for="mce-group[19433]-19433-3">Freelancers</label>
 										</li>
 									</ul>
+									<strong class="mt10"><?= __('Email Format') ?></strong>
+									<ul>
+										<li>
+											<input type="radio" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0">
+											<label for="mce-EMAILTYPE-0">html</label>
+										</li>
+										<li>
+											<input type="radio" value="text" name="EMAILTYPE" id="mce-EMAILTYPE-1">
+											<label for="mce-EMAILTYPE-1">text</label>
+										</li>
+									</ul>
 								</div>
 								<div class="col-lg-4 col-md-4 mc-field-group mt10">
 									<strong>Lista en Español</strong>
@@ -89,19 +107,6 @@
 										</li>
 									</ul>
 								</div>
-								<div class="col-lg-4 col-md-4 mc-field-group mt10">
-									<strong><?= __('Email Format') ?></strong>
-									<ul>
-										<li>
-											<input type="radio" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0">
-											<label for="mce-EMAILTYPE-0">html</label>
-										</li>
-										<li>
-											<input type="radio" value="text" name="EMAILTYPE" id="mce-EMAILTYPE-1">
-											<label for="mce-EMAILTYPE-1">text</label>
-										</li>
-									</ul>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -117,13 +122,6 @@
 							   name="b_f380de581acd576e7d802552a_539d7fcbd1"
 							   tabindex="-1"
 							   value="">
-					</div>
-					<div class="me20 send-button clearfix">
-						<button
-								type="submit"
-							   name="subscribe"
-							   id="mc-embedded-subscribe"
-							   class="btn btn-white"><?= __('Send!') ?></button>
 					</div>
 				</form>
 			</div>

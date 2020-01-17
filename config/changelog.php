@@ -10,5 +10,5 @@ return [
     'Changelog' => [
         'Git' => '/usr/local/bin/git',
         'Repository' => 'cakephp.git',
-    ]
+    ],
 ];

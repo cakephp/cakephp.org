@@ -55,7 +55,7 @@ class TagsTaggedFixture extends TestFixture
                 'fk_id' => 1,
                 'fk_table' => 'Lorem ipsum dolor sit amet',
                 'created' => '2018-10-31 21:41:28',
-                'modified' => '2018-10-31 21:41:28'
+                'modified' => '2018-10-31 21:41:28',
             ],
         ];
         parent::init();

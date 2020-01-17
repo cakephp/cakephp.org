@@ -32,19 +32,19 @@ class ProjectsTable extends Table
         $this->addBehavior('Timestamp');
         $this->addBehavior('Muffin/Slug.Slug');
         $this->addBehavior('Muffin/Tags.Tag', [
-            'taggedCounter' => false
+            'taggedCounter' => false,
         ]);
 
         $this->hasOne('PerspectiveImages', [
             'foreignKey' => 'entity_id',
             'conditions' => ['model' => 'PerspectiveImages'],
-            'dependent' => true
+            'dependent' => true,
         ]);
 
         $this->hasMany('ScreenMonitorImages', [
             'foreignKey' => 'entity_id',
             'conditions' => ['model' => 'ScreenMonitorImages'],
-            'dependent' => true
+            'dependent' => true,
         ]);
     }
 
@@ -106,13 +106,13 @@ class ProjectsTable extends Table
         if (!$entity->isNew()) {
             if ($entity->perspective_image) {
                 $this->PerspectiveImages->deleteAll([
-                    'entity_id' => $entity->id, 'model' => $this->PerspectiveImages->alias()
+                    'entity_id' => $entity->id, 'model' => $this->PerspectiveImages->alias(),
                 ]);
             }
 
             if ($entity->screen_monitor_images) {
                 $this->ScreenMonitorImages->deleteAll([
-                    'entity_id' => $entity->id, 'model' => $this->ScreenMonitorImages->alias()
+                    'entity_id' => $entity->id, 'model' => $this->ScreenMonitorImages->alias(),
                 ]);
             }
         }

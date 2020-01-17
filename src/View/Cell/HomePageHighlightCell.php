@@ -8,7 +8,6 @@ use Cake\View\Cell;
  */
 class HomePageHighlightCell extends Cell
 {
-
     public $helper = ['Showcase.Showcase'];
 
     /**

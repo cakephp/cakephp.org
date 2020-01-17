@@ -15,13 +15,13 @@ class ScreenMonitorImagesTable extends UploadedFilesTable
         $this->addBehavior('Josegonzalez/Upload.Upload', [
             'file' => [
                 'path' => 'webroot{DS}files{DS}{model}{DS}{field}{DS}{microtime}',
-                'transformer' => 'App\File\Transformer\GenerateDifferentVersionsTransformer'
-            ]
+                'transformer' => 'App\File\Transformer\GenerateDifferentVersionsTransformer',
+            ],
         ]);
 
         $this->belongsTo('Projects', [
             'foreignKey' => 'entity_id',
-            'conditions' => ['model' => 'ScreenMonitorImages']
+            'conditions' => ['model' => 'ScreenMonitorImages'],
         ]);
     }
 }
