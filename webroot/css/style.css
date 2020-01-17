@@ -10673,3 +10673,12 @@ code {
 .flex-grow-1 {
 	flex-grow: 1;
 }
+
+.sponsor .sponsor-logo {
+	height: 250px;
+}
+
+.sponsor .sponsor-logo img{
+	max-height: 250px;
+	width: auto;
+}

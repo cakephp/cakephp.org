@@ -183,6 +183,10 @@
 	.title-expertise{
 		text-align: center;
 	}
+	.service-boxes.recipe .box-services-c img {
+		height: auto;
+		width: 180px;
+	}
 
 	.box-services-d:hover .icon-expertise-2 {
     	text-align: center;
@@ -1028,6 +1032,11 @@
 
 	.service-boxes .box-services-c img {
 		width: 130px;
+	}
+
+	.service-boxes.recipe .box-services-c img {
+		height: 90px;
+		width: auto;
 	}
 
 	.service-boxes.recipe .box-services-c img {
