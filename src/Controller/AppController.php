@@ -29,7 +29,6 @@ use Cake\I18n\I18n;
  */
 class AppController extends Controller
 {
-
     protected $availableLanguages = [
         'en' => 'en',
         'ja_JP' => 'jp',

@@ -13,7 +13,6 @@ use ReCaptcha\ReCaptcha;
  */
 class WritersController extends AppController
 {
-
     public function beforeFilter(Event $event)
     {
         $this->Auth->allow();
