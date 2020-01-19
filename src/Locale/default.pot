@@ -3034,7 +3034,7 @@ msgid "“From the simplest micro kiosk app to my highly complex gallery managem
 msgstr ""
 
 #: site.php:32
-msgid "“Having inherited this CakePHP project, I didn’t chose CakePHP so much as choose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.”"
+msgid "“Having inherited this CakePHP project, I didn’t choose CakePHP so much as chose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.”"
 msgstr ""
 
 #: site.php:45

@@ -4405,8 +4405,8 @@ msgstr ""
 
 #: site.php:32
 msgid ""
-"“Having inherited this CakePHP project, I didn’t chose CakePHP so much as "
-"choose to continue using it.  After seeing the power and functionality of the "
+"“Having inherited this CakePHP project, I didn’t choose CakePHP so much as "
+"chose to continue using it.  After seeing the power and functionality of the "
 "framework in use, it wasn’t a difficult choice to make.”"
 msgstr ""
 "\"Tendo herdado um projeto em CakePHP, não escolhi o CakePHP, mas apesar "

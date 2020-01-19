@@ -29,7 +29,7 @@ return [
             ],
             [
                 'image' => 'quote/dwayne.png',
-                'text' => __('Having inherited this CakePHP project, I didn’t chose CakePHP so much as choose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.'),
+                'text' => __('Having inherited this CakePHP project, I didn’t choose CakePHP so much as chose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.'),
                 'client' => 'Dwayne Sander',
                 'company' => 'Alerrt',
                 'url' => 'http://alerrt.org/',
