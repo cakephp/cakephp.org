@@ -664,21 +664,32 @@
     	margin-bottom: 30px;
 	}
 
+	#showcase-carousel {
+		margin: 20px auto;
+		width: 320px;
+		height: 350px;
+	}
+
+	.showcase .carousel-inner {
+		width: 165px;
+		height: 110px;
+		top: 65px;
+		left: 60px;
+	}
+
+	.cta-home {
+		text-align: center;
+	}
 }
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 768px) and (max-width: 991px) {
 /*CSS LIDO EM DISPOSITIVOS ATÉ 991 PX DE LARGURA*/
 	.header-transparent .main-header {
 		background-color: #d33c44;
+	}
+
+	.cta-home {
+		text-align: center;
 	}
 
 	.search-form {
@@ -917,17 +928,31 @@
 		    text-align: center;
 	}
 
+	.service-boxes {
+		display: flex;
+		justify-content: center;
+		align-content: flex-start;
+		flex-wrap: wrap;
+	}
 
+	.service-boxes .box-services-c {
+		flex: 0 0 50%;
+		padding: 10px 60px 10px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.service-boxes.recipe .box-services-c img {
+		height: 100px;
+	}
+
+	.showcase .carousel-inner {
+		width: 322px;
+		height: auto;
+		top: 112px;
+		left: 113px;
+	}
 }
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 992px){
 /*CSS LIDO EM DISPOSITIVOS ATÉ 1199 PX DE LARGURA*/
@@ -1041,7 +1066,7 @@
 	.service-boxes.recipe .box-services-c img {
 		height: 90px;
 	}
-	
+
 	.whats-new .container > div, .sharing .container > div {
 		flex: 1 0 50%;
 	}
@@ -1062,6 +1087,17 @@
 	.sharing .artwork img {
 		max-height: 500px;
 		width: 100%;
+	}
+
+	.showcase .carousel-inner {
+		width: 235px;
+		height: auto;
+		top: 85px;
+		left: 85px;
+	}
+
+	#showcase-carousel {
+		margin: 20px 0;
 	}
 }
 
@@ -1104,5 +1140,12 @@
 
 	.social-footer a {
 		padding: 10px 18px;
+	}
+
+	.showcase .carousel-inner {
+		width: 293px;
+		height: 185px;
+		top: 110px;
+		left: 101px;
 	}
 }
