@@ -66,10 +66,6 @@ return [
                         'url' => 'http://training.cakephp.org/',
                         'title' => __('Training'),
                     ],
-                    'certification' => [
-                        'url' => 'http://certification.cakephp.org/',
-                        'title' => __('Certification'),
-                    ],
                     'myCakephp' => [
                         'url' => 'http://my.cakephp.org/login',
                         'title' => __('My CakePHP'),
