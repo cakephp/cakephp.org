@@ -10681,3 +10681,11 @@ code {
 	max-height: 250px;
 	width: auto;
 }
+
+.showcase-page .companies-logos {
+	margin-bottom: 10px;
+}
+
+.showcase-page #showcase-carousel {
+	margin-top: 0;
+}
