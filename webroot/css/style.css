@@ -10606,9 +10606,10 @@ code {
 	padding: 10px 15px;
 	margin-bottom: 10px;
 	margin-right: 10px;
+	border-color: #D33C44;
 }
 
-.btn-home:hover {
+.btn-home:hover, a.btn-home:hover {
 	color: #D33C44;
 	background: #fff;
 }
@@ -10616,6 +10617,12 @@ code {
 .btn-home.btn-inverted {
 	color: #D33C44;
 	background: #fff;
+	border-color: #fff;
+}
+
+a.btn-home.btn-inverted:hover, button.btn-home.btn-inverted:hover {
+	color: #fff;
+	background: #D33C44;
 }
 
 .whats-new h2, .sharing h2 {
