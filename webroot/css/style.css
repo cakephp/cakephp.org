@@ -43,7 +43,6 @@
 		letter-spacing: -1px;
 		margin: 0;
 		color: #363637;
-		font-weight:200;
 	}
 	h1 {
 		font-size: 42px;
@@ -5291,7 +5290,6 @@
 .title-home h3{
     color: white;
     font-size: 32px;
-    font-weight: 200;
     letter-spacing: 0.01em;
 	margin: 0;
 }
