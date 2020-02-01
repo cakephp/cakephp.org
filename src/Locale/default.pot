@@ -1593,7 +1593,7 @@ msgid "Secure"
 msgstr ""
 
 #: Template/Element/home/summary.ctp:135
-msgid "CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering\n\t\t\t\t\t\t\tprotection, SQL injection prevention, and XSS prevention, helping you keep your application\n\t\t\t\t\t\t\t{0}."
+msgid "CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention, and XSS prevention. CakePHP codebase itself has been audited through the {0} program."
 msgstr ""
 
 #: Template/Element/home/summary.ctp:137
