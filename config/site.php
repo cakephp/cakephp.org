@@ -208,11 +208,6 @@ return [
                         'options' => ['target' => '_blank', 'class' => 'hide'],
                         'title' => 'PhpStorm',
                     ],
-                    'rackspace' => [
-                        'url' => 'https://www.rackspace.com/',
-                        'options' => ['target' => '_blank', 'class' => 'hide'],
-                        'title' => 'Rackspace',
-                    ],
                 ],
                 'calendar' => [
                     'meetups' => [

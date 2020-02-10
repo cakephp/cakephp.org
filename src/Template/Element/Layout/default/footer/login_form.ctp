@@ -30,20 +30,6 @@
             ) ?>
             <div class="mt10">
                 <?= $this->Html->link(
-                $this->Html->image('rackspace.png'),
-                'https://www.rackspace.com/',
-                ['escape' => false]
-                ) ?>
-            </div>
-            <div class="mt10">
-                <?= $this->Html->link(
-                    $this->Html->image('sticker-you.png'),
-                    'https://stickeryou.com',
-                    ['escape' => false]
-                ) ?>
-            </div>
-            <div class="mt10">
-                <?= $this->Html->link(
                     $this->Html->image('pingping.png'),
                     'https://pingping.io',
                     ['escape' => false]
@@ -58,20 +44,6 @@
                     'https://www.openhub.net/p/cakephp',
                     ['escape' => false, 'target' => '_blank']
         ) ?>
-        <div class="mt10">
-            <?= $this->Html->link(
-            $this->Html->image('rackspace.png'),
-            'https://www.rackspace.com/',
-            ['escape' => false, 'target' => '_blank']
-            ) ?>
-        </div>
-        <div class="mt10">
-            <?= $this->Html->link(
-                $this->Html->image('sticker-you.png'),
-                'https://stickeryou.com',
-                ['escape' => false, 'target' => '_blank']
-            ) ?>
-        </div>
         <div class="mt10">
             <?= $this->Html->link(
                 $this->Html->image('pingping.png'),
