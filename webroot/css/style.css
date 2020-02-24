@@ -10679,7 +10679,9 @@ a.btn-home.btn-inverted:hover, button.btn-home.btn-inverted:hover {
 }
 
 .sponsor .sponsor-logo {
-	height: 250px;
+    height: 250px;
+    align-items: center;
+    display: flex;
 }
 
 .sponsor .sponsor-logo img{
