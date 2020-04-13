@@ -51,5 +51,12 @@
                 ['escape' => false, 'target' => '_blank']
             ) ?>
         </div>
+		<div class="mt10">
+            <?= $this->Html->link(
+                $this->Html->image('linode.png'),
+                'https://www.linode.com/',
+                ['escape' => false, 'target' => '_blank']
+            ) ?>
+		</div>
     </div>
 </div>
