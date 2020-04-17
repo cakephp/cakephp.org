@@ -2148,7 +2148,7 @@ msgstr "Convenções MVC Transparentes"
 #: Template/Element/home/summary.ctp:125
 msgid ""
 "Instead of having to plan where things go, CakePHP comes with a {0} to guide "
-"you in developing your application"
+"you in developing your application."
 msgstr ""
 "Em vez de ter que planejar para onde as coisas vão, o CakePHP vem com uma {0} "
 "para guiá-lo no desenvolvimento de sua aplicação"
