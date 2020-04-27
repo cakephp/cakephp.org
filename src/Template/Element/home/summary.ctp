@@ -51,7 +51,7 @@
 				<h4 class="title-small"><?= __('Clean MVC Conventions') ?></h4>
 
 				<p>
-					<?= __('Instead of having to plan where things go, CakePHP comes with a {0} to guide you in developing your application',
+					<?= __('Instead of having to plan where things go, CakePHP comes with a {0} to guide you in developing your application.',
 						$this->Html->tag('strong', __('set of
 								conventions'))) ?>
 				</p>
@@ -60,7 +60,7 @@
 			<div class="box-services-c">
 				<?= $this->Html->image('secure.svg') ?>
 				<h4 class="title-small"><?= __('Secure') ?></h4>
-				<p><?= __('CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention. CakePHP codebase itself has been audited through the {0} program', $this->Html->link('Mozilla Secure Open Source',
+				<p><?= __('CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention. CakePHP codebase itself has been audited through the {0} program.', $this->Html->link('Mozilla Secure Open Source',
                         'https://bakery.cakephp.org/2017/11/22/mozilla_sos_audit_published.html')) ?></p>
 			</div>
 		</div>

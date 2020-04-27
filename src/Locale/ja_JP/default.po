@@ -1205,7 +1205,7 @@ msgid "Clean MVC Conventions"
 msgstr "綺麗なMVC規約"
 
 #: Template/Element/home/summary.ctp:125
-msgid "Instead of having to plan where things go, CakePHP comes with a {0} to guide you in developing your application"
+msgid "Instead of having to plan where things go, CakePHP comes with a {0} to guide you in developing your application."
 msgstr "どうしようかと計画を立てなくても、CakePHPにはアプリケーション開発の手引きをする{0}が備わっています。"
 
 #: Template/Element/home/summary.ctp:125
@@ -1217,7 +1217,7 @@ msgid "Secure"
 msgstr "安全"
 
 #: Template/Element/home/summary.ctp:135
-msgid "CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention. CakePHP codebase itself has been audited through the {0} program"
+msgid "CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention. CakePHP codebase itself has been audited through the {0} program."
 msgstr "CakePHPにはアプリケーションを{0}に保つ手助けになる入力検証、CSRF防止、フォーム偽造防止、SQLインジェクション対策、そしてXSS対策のための組み込みのツールが付いています。"
 
 #: Template/Element/home/summary.ctp:137
