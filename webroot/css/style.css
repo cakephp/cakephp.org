@@ -8327,6 +8327,10 @@ h2:hover .headerlink {
     margin-top: 30px;
 }
 
+#sidebar-2.affix-bottom {
+	position: absolute;
+}
+
 #sidebar-2.affix {
     position: fixed;
     top: 80px;
