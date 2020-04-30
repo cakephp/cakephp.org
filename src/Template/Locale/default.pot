@@ -1428,7 +1428,7 @@ msgid "Clean MVC Conventions"
 msgstr ""
 
 #: Template/Element/home/summary.ctp:125
-msgid "Instead of having to plan where things go, CakePHP comes with a {0} to guide you in developing your application"
+msgid "Instead of having to plan where things go, CakePHP comes with a {0} to guide you in developing your application."
 msgstr ""
 
 #: Template/Element/home/summary.ctp:125
