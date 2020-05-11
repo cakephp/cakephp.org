@@ -3,9 +3,3 @@ $('#nav').affix({
         top: $('header').height()
       }
 });	
-
-$('#sidebar-2').affix({
-      offset: {
-        top: 250
-      }
-});	
