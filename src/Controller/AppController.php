@@ -58,6 +58,7 @@ class AppController extends Controller
     public function beforeFilter(Event $event)
     {
         $this->setLocale();
+        $this->set('server', $this->request->host());
 
         return parent::beforeFilter($event);
     }

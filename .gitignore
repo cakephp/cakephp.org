@@ -8,3 +8,4 @@
 /webroot/files/*
 /plugins/Showcase
 .idea
+.php_cs.cache
