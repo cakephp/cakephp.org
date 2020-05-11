@@ -14,11 +14,12 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
         <div class="row">
             <div class="col-md-12 title-calendar ">
                 <?= $this->Html->tag(
-                    'h1', __(
+    'h1',
+    __(
                         'Next CakePHP {0}',
                         $this->Html->tag('strong', __('Online Meetups'))
                     )
-                ) ?>
+) ?>
             </div>
         </div>
     </div>

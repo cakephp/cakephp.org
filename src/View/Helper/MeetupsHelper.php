@@ -21,6 +21,7 @@ class MeetupsHelper extends Helper
             }
             $out .= $this->meetup($meetup);
         }
+
         return $this->Html->tag('div', $out, ['class' => 'meetups']);
     }
 
@@ -44,20 +45,20 @@ class MeetupsHelper extends Helper
             ['class' => 'description']
         );
         $meetupContent .= $this->Html->tag('hr', null);
+
         return $this->Html->tag('div', $meetupContent, ['class' => 'meetup']);
     }
 
     protected function meetupLink(array $meetup, string $field, string $pre = ''): string
     {
-        return
-            $this->Html->tag('br') .
+        return $this->Html->tag('br') .
             $this->Html->tag('span', $pre) .
             $this->Html->link(
                 $meetup[$field]['name'] ?? '',
                 $meetup[$field]['url'] ?? '/',
                 [
                     'class' => $field,
-                    'target' => '_blank'
+                    'target' => '_blank',
                 ]
             );
     }
