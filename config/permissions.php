@@ -55,13 +55,13 @@ return [
             'role' => ['user'],
             'controller' => ['Dashboards'],
             'action' => ['index'],
-            'prefix' => 'admin'
+            'prefix' => 'admin',
         ],
         [
             'role' => ['user'],
             'controller' => ['Projects'],
             'action' => '*',
-            'prefix' => 'admin'
+            'prefix' => 'admin',
         ],
         [
             'role' => ['user'],

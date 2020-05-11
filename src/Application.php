@@ -78,7 +78,7 @@ class Application extends BaseApplication
     {
         // Register scoped middleware for use in routes.php
         $routes->registerMiddleware('csrf', new CsrfProtectionMiddleware([
-            'httpOnly' => true
+            'httpOnly' => true,
         ]));
 
         parent::routes($routes);
@@ -99,7 +99,7 @@ class Application extends BaseApplication
 
             // Handle plugin/theme assets like CakePHP normally does.
             ->add(new AssetMiddleware([
-                'cacheTime' => Configure::read('Asset.cacheTime')
+                'cacheTime' => Configure::read('Asset.cacheTime'),
             ]))
 
             // Add routing middleware.

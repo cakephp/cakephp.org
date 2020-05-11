@@ -29,7 +29,7 @@
 				   the highest quality CakePHP development available.
 				</p>
 				<div>
-					<a href="https://www.cakedc.com" class="learn-more">Get in touch!</a>
+					<a href="https://www.cakedc.com" class="learn-more">Chat to the top CakePHP developers</a>
 				</div>
 			</div>
 		</div>

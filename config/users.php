@@ -32,7 +32,7 @@ $config = [
             'plugin' => 'CakeDC/Users',
             'controller' => 'Users',
             'action' => 'login',
-            'prefix' => false
+            'prefix' => false,
         ],
         'authenticate' => [
             'all' => [

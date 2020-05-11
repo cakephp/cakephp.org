@@ -15,7 +15,7 @@ $sponsors = Configure::read('Site.cakefest.sponsors');
 			<div class="col-md-4 mb90">
 				<div class="sponsor col-md-offset-1">
 
-                    <div style="<?= Hash::get($sponsor, 'logo.style') ?>">
+                    <div class="sponsor-logo" style="<?= Hash::get($sponsor, 'logo.style') ?>">
                         <?= $this->Html->image(Hash::get($sponsor, 'logo.img')); ?>
                     </div>
 						<?= $this->Html->tag('div', __($sponsor['copy']['text']), ['class' => 'sponsor-copy', 'style' => Hash::get($sponsor, 'copy.style')]) ?>

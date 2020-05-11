@@ -32,7 +32,7 @@ class ChangelogsTable extends Table
         'sort' => [
             'regex' => '/(?<version>[\d\.]+)(?:-(?<title>[a-zA-Z]+)(?:(?<iteration>\d)?))?/',
             'titleOrder' => ['dev', 'alpha', 'beta', 'rc'],
-        ]
+        ],
     ];
 
     /**

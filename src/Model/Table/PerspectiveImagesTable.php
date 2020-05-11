@@ -14,13 +14,13 @@ class PerspectiveImagesTable extends UploadedFilesTable
 
         $this->addBehavior('Josegonzalez/Upload.Upload', [
             'file' => [
-                'path' => 'webroot{DS}files{DS}{model}{DS}{field}{DS}{microtime}'
-            ]
+                'path' => 'webroot{DS}files{DS}{model}{DS}{field}{DS}{microtime}',
+            ],
         ]);
 
         $this->belongsTo('Projects', [
             'foreignKey' => 'entity_id',
-            'conditions' => ['model' => 'PerspectiveImages']
+            'conditions' => ['model' => 'PerspectiveImages'],
         ]);
     }
 }

@@ -1581,7 +1581,7 @@ msgid "Clean MVC Conventions"
 msgstr ""
 
 #: Template/Element/home/summary.ctp:125
-msgid "Instead of having to plan where things go, CakePHP comes with a {0} to guide you in developing your application"
+msgid "Instead of having to plan where things go, CakePHP comes with a {0} to guide you in developing your application."
 msgstr ""
 
 #: Template/Element/home/summary.ctp:125
@@ -1593,7 +1593,7 @@ msgid "Secure"
 msgstr ""
 
 #: Template/Element/home/summary.ctp:135
-msgid "CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering\n\t\t\t\t\t\t\tprotection, SQL injection prevention, and XSS prevention, helping you keep your application\n\t\t\t\t\t\t\t{0}."
+msgid "CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention, and XSS prevention. CakePHP codebase itself has been audited through the {0} program."
 msgstr ""
 
 #: Template/Element/home/summary.ctp:137
@@ -3034,7 +3034,7 @@ msgid "“From the simplest micro kiosk app to my highly complex gallery managem
 msgstr ""
 
 #: site.php:32
-msgid "“Having inherited this CakePHP project, I didn’t chose CakePHP so much as choose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.”"
+msgid "“Having inherited this CakePHP project, I didn’t choose CakePHP so much as chose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.”"
 msgstr ""
 
 #: site.php:45
