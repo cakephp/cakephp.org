@@ -43,7 +43,6 @@
 		letter-spacing: -1px;
 		margin: 0;
 		color: #363637;
-		font-weight:200;
 	}
 	h1 {
 		font-size: 42px;
@@ -5282,7 +5281,7 @@
 
 .title-home h1{
 	color: #D33C44;
-    font-weight: 200;
+    font-weight: bold;
     font-size: 32px;
     margin-bottom: 28px;
     letter-spacing: 0.01em;
@@ -5291,7 +5290,6 @@
 .title-home h3{
     color: white;
     font-size: 32px;
-    font-weight: 200;
     letter-spacing: 0.01em;
 	margin: 0;
 }
@@ -5354,9 +5352,12 @@
 }
 
 #recipe h4 {
-    font-size: 20px;
-    font-weight: 200;
-    margin-bottom: 50px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+    font-weight: 300;
+	margin-top: 25px;
+    margin-bottom: 25px;
+	line-height: 20px;
     letter-spacing: 0.01em;
     color: #363637;
 }
@@ -5372,7 +5373,7 @@
     font-size: 15px;
     color: #363637;
     letter-spacing: 0.04em;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 .glyph_range {
@@ -5591,7 +5592,7 @@
 
 #quote {
 	color: #808080;
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 }
 
 .quote-client {
@@ -8326,6 +8327,10 @@ h2:hover .headerlink {
     margin-top: 30px;
 }
 
+#sidebar-2.affix-bottom {
+	position: absolute;
+}
+
 #sidebar-2.affix {
     position: fixed;
     top: 80px;
@@ -10603,9 +10608,10 @@ code {
 	padding: 10px 15px;
 	margin-bottom: 10px;
 	margin-right: 10px;
+	border-color: #D33C44;
 }
 
-.btn-home:hover {
+.btn-home:hover, a.btn-home:hover {
 	color: #D33C44;
 	background: #fff;
 }
@@ -10613,6 +10619,12 @@ code {
 .btn-home.btn-inverted {
 	color: #D33C44;
 	background: #fff;
+	border-color: #fff;
+}
+
+a.btn-home.btn-inverted:hover, button.btn-home.btn-inverted:hover {
+	color: #fff;
+	background: #D33C44;
 }
 
 .whats-new h2, .sharing h2 {
@@ -10651,7 +10663,7 @@ code {
 }
 
 .showcase h3 {
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 200;
 	font-size: 20px;
 }
@@ -10659,11 +10671,7 @@ code {
 .showcase .carousel-inner {
 	transform: skew(0deg, 21.5deg);
 	position: absolute;
-	width: 293px;
-	height: 185px;
-	top: 110px;
 	overflow: hidden;
-	left: 101px;
 }
 
 .newsletter-signup .container {
@@ -10675,10 +10683,20 @@ code {
 }
 
 .sponsor .sponsor-logo {
-	height: 250px;
+    height: 250px;
+    align-items: center;
+    display: flex;
 }
 
 .sponsor .sponsor-logo img{
 	max-height: 250px;
 	width: auto;
+}
+
+.showcase-page .companies-logos {
+	margin-bottom: 10px;
+}
+
+.showcase-page #showcase-carousel {
+	margin-top: 0;
 }
