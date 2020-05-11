@@ -66,6 +66,16 @@ return [
                         'url' => 'http://training.cakephp.org/',
                         'title' => __('Training'),
                     ],
+                    'meetups' => [
+                        'url' => [
+                            'plugin' => false,
+                            'controller' => 'Pages',
+                            'action' => 'display',
+                            'meetups',
+                            'prefix' => false,
+                        ],
+                        'title' => __('Meetups'),
+                    ],
                     'myCakephp' => [
                         'url' => 'http://my.cakephp.org/login',
                         'title' => __('My CakePHP'),
@@ -233,10 +243,10 @@ return [
                     'copy' => ['text' => '<a href="https://cakedc.com" target="_blank">CakeDC</a> is the commercial entity behind the framework and was established by Larry Masters, founder of CakePHP. From startups and social networks, to e-commerce and enterprise level applications, CakeDC provides the highest quality CakePHP development available. CakeDC is committed to supporting the CakePHP framework and community.', 'style' => ''],
                     'link' => 'https://cakedc.com',
                 ],
-				[
+                [
                     'name' => 'Linode',
                     'logo' => ['img' => '/images/companies/logos/sponsors/linode.jpg'],
-                    'copy' => ['text' => '<a href="https://www.linode.com/" target="_blank">Linode</a> is the largest independent open cloud provider in the world with 10 global data centers serving over 800,000 customers and businesses around the globe. Linode products, services, and people enable developers and businesses to build, deploy, and scale applications more easily and cost-effectively in the cloud.', 'style' => ''],
+                    'copy' => ['text' => '<a href="https://www.linode.com/" target="_blank">Linode</a> is the largest independent open cloud provider in the world with 10 global data centers serving over 800,000 customers and businesses around the globe. Linode products, services, and people enable developers and businesses to build, deploy, and scale applications more easily and cost-effectively in the cloud.', 'style' => ''],
                     'link' => 'https://www.linode.com/',
                 ],
             ],
@@ -425,5 +435,59 @@ return [
             ],
         ],
         'writers_form_enabled' => true,
+        'meetups' => [
+            [
+                'title' => __('CakePHP 4 online meetup'),
+                'hosted-by' => [
+                    'name' => 'Jorge M. González Martín',
+                    'url' => 'https://github.com/steinkel',
+                ],
+                'when' => '5/20/20, 5:00 PM UTC',
+                'where' => [
+                    'name' => 'CakePHP Meetup',
+                    'url' => 'https://www.meetup.com/CakePHP-DE/events/270525132',
+                ],
+                'description' => "The 2nd virtual CakePHP Community meetup is coming up. Topics TBA.",
+            ],
+            [
+                'title' => __('Our first online Meetup (international edition)'),
+                'hosted-by' => [
+                    'name' => 'Mark Scherer',
+                    'url' => 'https://github.com/dereuromark',
+                ],
+                'when' => '5/01/20 5:00 PM UTC',
+                'where' => [
+                    'name' => 'CakePHP Meetup',
+                    'url' => 'https://www.meetup.com/CakePHP-DE/events/270064069',
+                ],
+                'description' => "Hey Folks!
+        <br/>We didn't have a meetup for a while here in Berlin, and I think now with more and more
+        events
+        moving
+        to online-only, it is time to set up a gathering again for our community.
+        And since this is now fully online, why not inviting everyone of the (Cake)PHP coding community
+        out
+        there?
+        <br/>
+        <br/>### Save the data
+        <br/>
+        <br/>We will give you the details shortly.
+        <br/>If you want to co-host or add yourself as a speaker, please reach out with your topic.
+        <br/>
+        <br/>Main topics so far:
+        <br/>- CakePHP 4.1 preview
+        <br/>- IdeHelper / IDE usability and development speedup tips.
+        <br/>- Auth with Authentication plugin
+        <br/>- Fixture Factories
+        <br/>
+        <br/>### Time-Schedule
+        <br/>We want to do it 7PM Berlin time (GMT+2), so folks e.g. in the USA can join in still in the
+        late
+        morning.
+        <br/>And the ones more east, should still also be able to join in, as well.
+        <br/>
+        <br/>Note: Event in English.",
+            ],
+        ],
     ],
 ];
