@@ -10700,3 +10700,25 @@ a.btn-home.btn-inverted:hover, button.btn-home.btn-inverted:hover {
 .showcase-page #showcase-carousel {
 	margin-top: 0;
 }
+.meetup .title {
+    font-size: 50px;
+    color: #d33c44;
+    letter-spacing: 0.01em;
+    line-height: 24px;
+    font-weight: 200;
+    margin-bottom: 0.5em;
+}
+.meetup .hosted-by {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 24px;
+    font-weight: 500;
+}
+.meetup hr {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 35px;
+    border-top: 2px solid #D33C44;
+    margin: 26px 0px 30px;
+}

@@ -1,11 +1,11 @@
 {
-	"name": "cakephp/app",
-	"description": "CakePHP skeleton app",
-	"homepage": "http://cakephp.org",
+	"name": "cakephp/cakephp-org",
+	"description": "CakePHP.org website",
+	"homepage": "https://cakephp.org",
 	"type": "project",
 	"license": "MIT",
 	"require": {
-		"php": ">=5.5.9",
+		"php": ">=7.3",
 		"cakephp/cakephp": "3.8.*",
 		"cakephp/migrations": "^2.0.0",
 		"mobiledetect/mobiledetectlib": "2.*",

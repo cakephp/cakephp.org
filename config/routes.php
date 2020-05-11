@@ -92,6 +92,7 @@ $basicRoutes = function (RouteBuilder $routes) {
         $routes->connect('/', ['controller' => 'Dashboards', 'action' => 'index']);
         $routes->fallbacks('DashedRoute');
     });
+    $routes->connect('/meetups', ['controller' => 'Pages', 'action' => 'display', 'meetups']);
 
     /**
      * Connect catchall routes for all controllers.
