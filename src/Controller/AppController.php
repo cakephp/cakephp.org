@@ -29,11 +29,10 @@ use Cake\I18n\I18n;
  */
 class AppController extends Controller
 {
-
     protected $availableLanguages = [
         'en' => 'en',
         'ja_JP' => 'jp',
-        'pt_BR' => 'pt'
+        'pt_BR' => 'pt',
     ];
 
     /**
@@ -59,7 +58,7 @@ class AppController extends Controller
     public function beforeFilter(Event $event)
     {
         $this->setLocale();
-		$this->set('server', $this->request->host());
+        $this->set('server', $this->request->host());
 
         return parent::beforeFilter($event);
     }

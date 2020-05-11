@@ -40,7 +40,7 @@ class AppView extends View
         $this->loadHelper('Menu');
         $this->loadHelper('Showcase');
         $this->loadHelper('Form', [
-            'templates' => 'bootstrap_form'
+            'templates' => 'bootstrap_form',
         ]);
     }
 }

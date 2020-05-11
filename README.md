@@ -1,6 +1,6 @@
 # CakePHP Official Website - cakephp.org
 
-This is the repository for the official [CakePHP Website](http://cakephp.org).
+This is the repository for the official [CakePHP Website](https://cakephp.org).
 
 ## Requirements
 
@@ -31,8 +31,9 @@ bin/cake migrations migrate
 
 ## Reporting Issues
 
-If you see an issue in the [CakePHP Website](http://cakephp.org) or something to improve please open an issue on [GitHub](https://github.com/cakephp/cakephp.org/issues).
+If you see an issue in the [CakePHP Website](https://cakephp.org) or something to improve please open an issue on [GitHub](https://github.com/cakephp/cakephp.org/issues).
 
 ## Contributing
 
 If you'd like to contribute to the CakePHP Website, you can [fork](https://help.github.com/articles/fork-a-repo) the project, add features, and send [pull requests](https://help.github.com/articles/using-pull-requests) or open [issues](https://github.com/cakephp/cakephp.org/issues).
+

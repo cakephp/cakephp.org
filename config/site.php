@@ -12,27 +12,27 @@ return [
                 'text' => __('We got a high ROI from converting our custom PHP app to CakePHP. We love the continually expanding suite of utilities, plugins, and development patterns at our disposal!'),
                 'client' => 'Megan Danz',
                 'company' => 'Harbor Compliance',
-                'url' => 'https://www.harborcompliance.com/'
+                'url' => 'https://www.harborcompliance.com/',
             ],
             [
                 'image' => 'quote/brad.png',
                 'text' => __('CakePHP was the most efficient way we could find to rapidly develop our intricate system.  We needed a platform that could handle our high volume of users without issues and CakePHP has certainly delivered.'),
                 'client' => 'Brad Lambden',
                 'company' => 'iWorkZone',
-                'url' => 'https://iworkzone.com/'
+                'url' => 'https://iworkzone.com/',
             ],
             [
                 'image' => 'quote/julian.png',
                 'text' => __('From the simplest micro kiosk app to my highly complex gallery management app, CakePHP is the framework of choice. It allows modular development that makes sense, and it\'s architecturally solid and performant. Whatever you are building, CakePHP can help you get it done.'),
                 'client' => 'Julian Sander',
-                'company' => 'Gallery Assistant'
+                'company' => 'Gallery Assistant',
             ],
             [
                 'image' => 'quote/dwayne.png',
-                'text' => __('Having inherited this CakePHP project, I didn’t chose CakePHP so much as choose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.'),
+                'text' => __('Having inherited this CakePHP project, I didn’t choose CakePHP so much as chose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.'),
                 'client' => 'Dwayne Sander',
                 'company' => 'Alerrt',
-                'url' => 'http://alerrt.org/'
+                'url' => 'http://alerrt.org/',
             ],
 
         ],
@@ -45,39 +45,45 @@ return [
                             'controller' => 'Pages',
                             'action' => 'display',
                             'get-involved',
-                            'prefix' => false
+                            'prefix' => false,
                         ],
-                        'title' => __('Get Involved')
+                        'title' => __('Get Involved'),
                     ],
                     'issues' => [
                         'url' => 'https://github.com/cakephp/cakephp/issues',
                         'options' => ['target' => '_blank'],
-                        'title' => __('Issues (Github)')
+                        'title' => __('Issues (Github)'),
                     ],
                     'blog' => [
                         'url' => 'http://bakery.cakephp.org/',
-                        'title' => __('Bakery')
+                        'title' => __('Bakery'),
                     ],
                     'awesomeList' => [
                         'url' => 'https://github.com/FriendsOfCake/awesome-cakephp',
-                        'title' => __('Featured Resources')
+                        'title' => __('Featured Resources'),
                     ],
                     'training' => [
                         'url' => 'http://training.cakephp.org/',
-                        'title' => __('Training')
+                        'title' => __('Training'),
                     ],
-                    'certification' => [
-                        'url' => 'http://certification.cakephp.org/',
-                        'title' => __('Certification')
+                    'meetups' => [
+                        'url' => [
+                            'plugin' => false,
+                            'controller' => 'Pages',
+                            'action' => 'display',
+                            'meetups',
+                            'prefix' => false,
+                        ],
+                        'title' => __('Meetups'),
                     ],
                     'myCakephp' => [
                         'url' => 'http://my.cakephp.org/login',
-                        'title' => __('My CakePHP')
+                        'title' => __('My CakePHP'),
                     ],
                     'cakefest' => [
                         'url' => 'http://cakefest.org',
                         'options' => ['target' => '_blank'],
-                        'title' => __('CakeFest')
+                        'title' => __('CakeFest'),
                     ],
                     'newsletter' => [
                         'url' => [
@@ -85,29 +91,29 @@ return [
                             'controller' => 'Pages',
                             'action' => 'display',
                             'newsletter',
-                            'prefix' => false
+                            'prefix' => false,
                         ],
-                        'title' => __('Newsletter')
+                        'title' => __('Newsletter'),
                     ],
                     'linkedin' => [
                         'url' => 'https://www.linkedin.com/groups/4623165',
                         'options' => ['target' => '_blank'],
-                        'title' => __('Linkedin')
+                        'title' => __('Linkedin'),
                     ],
                     'youtube' => [
                         'url' => 'https://www.youtube.com/user/CakePHP',
                         'options' => ['target' => '_blank'],
-                        'title' => __('Youtube')
+                        'title' => __('Youtube'),
                     ],
                     'facebook' => [
                         'url' => 'https://www.facebook.com/CakePHP/',
                         'options' => ['target' => '_blank'],
-                        'title' => 'Facebook'
+                        'title' => 'Facebook',
                     ],
                     'twitter' => [
                         'url' => 'https://twitter.com/cakephp',
                         'options' => ['target' => '_blank'],
-                        'title' => 'Twitter'
+                        'title' => 'Twitter',
                     ],
                 ],
                 'help' => [
@@ -119,43 +125,43 @@ return [
                     'stackOverflow' => [
                         'url' => 'http://stackoverflow.com/tags/cakephp',
                         'options' => ['target' => '_blank'],
-                        'title' => __('Stack Overflow')
+                        'title' => __('Stack Overflow'),
                     ],
                     'irc' => [
                         'url' => 'https://kiwiirc.com/client/irc.freenode.net#cakephp',
                         'options' => ['target' => '_blank'],
-                        'title' => 'IRC'
+                        'title' => 'IRC',
                     ],
                     'slack' => [
                         'url' => 'http://cakesf.herokuapp.com/',
                         'options' => ['target' => '_blank'],
-                        'title' => 'Slack'
+                        'title' => 'Slack',
                     ],
                     'commercial' => [
                         'url' => 'http://www.cakedc.com/',
-                        'title' => __('Paid Support')
+                        'title' => __('Paid Support'),
                     ],
                 ],
                 'jobs' => [
                     'cakeJobs' => [
                         'url' => 'http://cakephpjobs.com/',
                         'options' => ['target' => '_blank'],
-                        'title' => __('Cake Jobs')
+                        'title' => __('Cake Jobs'),
                     ],
                     'linkedin' => [
                         'url' => 'https://www.linkedin.com/groups/4623165',
                         'options' => ['target' => '_blank'],
-                        'title' => 'LinkedIn'
+                        'title' => 'LinkedIn',
                     ],
                     'freelancer' => [
                         'url' => 'https://www.freelancer.com/find/CakePHP',
                         'options' => ['target' => '_blank'],
-                        'title' => 'Freelancer'
+                        'title' => 'Freelancer',
                     ],
                     'odesk' => [
                         'url' => 'https://www.upwork.com/o/jobs/browse/skill/cakephp/',
                         'options' => ['target' => '_blank'],
-                        'title' => 'oDesk'
+                        'title' => 'oDesk',
                     ],
                 ],
                 'documentation' => [
@@ -165,16 +171,16 @@ return [
                     ],
                     'api' => [
                         'url' => 'http://api.cakephp.org/',
-                        'title' => __('API')
+                        'title' => __('API'),
                     ],
                     'videos' => [
                         'url' => [
                             'plugin' => false,
                             'controller' => 'documentation',
                             'action' => 'videos',
-                            'prefix' => false
+                            'prefix' => false,
                         ],
-                        'title' => __('Videos')
+                        'title' => __('Videos'),
                     ],
                     'security' => [
                         'url' => 'https://book.cakephp.org/4.0/en/contributing/tickets.html#reporting-security-issues',
@@ -186,9 +192,9 @@ return [
                             'controller' => 'Pages',
                             'action' => 'display',
                             'privacy',
-                            'prefix' => false
+                            'prefix' => false,
                         ],
-                        'title' => __('Privacy Policy')
+                        'title' => __('Privacy Policy'),
                     ],
                     'logos' => [
                         'url' => [
@@ -196,65 +202,54 @@ return [
                             'controller' => 'Pages',
                             'action' => 'display',
                             'trademark',
-                            'prefix' => false
+                            'prefix' => false,
                         ],
-                        'title' => __('Logos & Trademarks')
+                        'title' => __('Logos & Trademarks'),
                     ],
                 ],
                 'serviceProvider' => [
                     'cakedc' => [
                         'url' => 'http://www.cakedc.com/',
                         'title' => 'CakeDC',
-                        'options' => ['class' => 'hide']
+                        'options' => ['class' => 'hide'],
                     ],
                     'phpstorm' => [
                         'url' => 'https://www.jetbrains.com/phpstorm/',
                         'options' => ['target' => '_blank', 'class' => 'hide'],
-                        'title' => 'PhpStorm'
+                        'title' => 'PhpStorm',
                     ],
-                    'rackspace' => [
-                        'url' => 'https://www.rackspace.com/',
-                        'options' => ['target' => '_blank', 'class' => 'hide'],
-                        'title' => 'Rackspace'
-                    ]
                 ],
                 'calendar' => [
                     'meetups' => [
                         'url' => '#',
-                        'title' => __('Meetups')
+                        'title' => __('Meetups'),
                     ],
                     'events' => [
                         'url' => '#',
-                        'title' => __('Events')
+                        'title' => __('Events'),
                     ],
-                ]
-            ]
+                ],
+            ],
         ],
         'cakefest' => [
-			'start_date' => '2019-11-07',
-			'end_date' => '2019-11-10',
-			'location' => __('Tokyo, Japan'),
-			'title' => 'CakeFest 2019',
+            'start_date' => '2019-11-07',
+            'end_date' => '2019-11-10',
+            'location' => __('Tokyo, Japan'),
+            'title' => 'CakeFest 2019',
             'sponsors' => [
-                /*[
+                [
                     'name' => 'CakeDC',
-                    'logo' => ['img' => '/images/companies/logos/sponsors/cakedc.jpg', 'style' => 'height: 250px;'],
+                    'logo' => ['img' => '/images/companies/logos/sponsors/cakedc.jpg'],
                     'copy' => ['text' => '<a href="https://cakedc.com" target="_blank">CakeDC</a> is the commercial entity behind the framework and was established by Larry Masters, founder of CakePHP. From startups and social networks, to e-commerce and enterprise level applications, CakeDC provides the highest quality CakePHP development available. CakeDC is committed to supporting the CakePHP framework and community.', 'style' => ''],
-                    'link' => 'https://cakedc.com'
+                    'link' => 'https://cakedc.com',
                 ],
                 [
-                    'name' => 'Rackspace',
-                    'logo' => ['img' => '/images/companies/logos/sponsors/rackspace.jpg', 'style' => 'height: 250px;padding-top: 70px;'],
-                    'copy' => ['text' => 'Rackspace combines public cloud, private cloud, and dedicated bare metal computing to provide the perfect infrastructure for each customers specific needs. Rackspace is CakePHP\'s hosting partner.', 'style' => 'padding-bottom: 104px;'],
-                    'link' => 'https://rackspace.com'
+                    'name' => 'Linode',
+                    'logo' => ['img' => '/images/companies/logos/sponsors/linode.jpg'],
+                    'copy' => ['text' => '<a href="https://www.linode.com/" target="_blank">Linode</a> is the largest independent open cloud provider in the world with 10 global data centers serving over 800,000 customers and businesses around the globe. Linode products, services, and people enable developers and businesses to build, deploy, and scale applications more easily and cost-effectively in the cloud.', 'style' => ''],
+                    'link' => 'https://www.linode.com/',
                 ],
-                [
-                    'name' => 'StickerYou',
-                    'logo' => ['img' => '/images/companies/logos/sponsors/stickeryou.png', 'style' => 'height: 250px;'],
-                    'copy' => ['text' => 'As a valued partner and proud supporter of CakePHP, StickerYou is happy to offer a 10% discount on all <a href="https://www.stickeryou.com/products/custom-stickers/335/" target="_blank">Custom Stickers</a>, <a href="https://www.stickeryou.com/products/business-labels/655" target="_blank">Business Labels</a>, Roll Labels, Vinyl Lettering or Custom Decals. <b>StickerYou.com</b> is your one-stop shop to make your business stick. Use code <b>CAKE10</b> at checkout to apply your discount.', 'style' => 'padding-bottom: 26px;'],
-                    'link' => 'https://stickeryou.com',
-                ]*/
-            ]
+            ],
         ],
         'team' => [
             'larry' => [
@@ -266,7 +261,7 @@ return [
                 'mycake' => 'phpnut',
                 'role' => __('Co-Founder'),
                 'image-url' => 'team/larry_masters.jpg',
-                'country' => 'United States'
+                'country' => 'United States',
             ],
             'mark' => [
                 'name' => 'Mark Story',
@@ -277,7 +272,7 @@ return [
                 'mycake' => 'markstory',
                 'role' => __('Lead Developer'),
                 'image-url' => 'team/mark_story.jpg',
-                'country' => 'Canada'
+                'country' => 'Canada',
             ],
             'jose_lorenzo' => [
                 'name' => 'José Lorenzo Rodríguez (Lorenzo/Jose_Zap)',
@@ -288,7 +283,7 @@ return [
                 'mycake' => 'lorenzo',
                 'role' => __('ORM Developer'),
                 'image-url' => 'team/jose_lorenzo.jpg',
-                'country' => 'Denmark'
+                'country' => 'Denmark',
             ],
             'savant' => [
                 'name' => 'Jose Diaz-Gonzalez (Savant)',
@@ -299,7 +294,7 @@ return [
                 'mycake' => '',
                 'role' => __('Core Member'),
                 'image-url' => 'team/savant.jpg',
-                'country' => 'United States'
+                'country' => 'United States',
             ],
             'admad' => [
                 'name' => 'ADmad (ADmad)',
@@ -310,7 +305,7 @@ return [
                 'mycake' => 'ADmad',
                 'role' => __('Core Member'),
                 'image-url' => 'team/admad.jpg',
-                'country' => 'India'
+                'country' => 'India',
             ],
             'burzum' => [
                 'name' => 'Florian Kramer (Burzum)',
@@ -325,7 +320,7 @@ return [
                 'mycake' => 'burzum',
                 'role' => __('Core Member'),
                 'image-url' => 'team/florian_kramer.jpg',
-                'country' => 'Germany'
+                'country' => 'Germany',
             ],
             'mark_s' => [
                 'name' => 'Mark Scherer (Dereuromark)',
@@ -340,7 +335,7 @@ return [
                 'mycake' => 'dereuromark',
                 'role' => __('Core Member'),
                 'image-url' => 'team/mark_scherer.png',
-                'country' => 'Germany'
+                'country' => 'Germany',
             ],
             'dakota' => [
                 'name' => 'Walther Lalk (Dakota)',
@@ -354,7 +349,7 @@ return [
                 'mycake' => 'dakota',
                 'role' => __('Core Member'),
                 'image-url' => 'team/walther_lalk.jpg',
-                'country' => 'South Africa'
+                'country' => 'South Africa',
             ],
             'chinpei215' => [
                 'name' => 'Kurita Takashi',
@@ -366,7 +361,7 @@ return [
                 'mycake' => 'chinpei215',
                 'role' => __('Core Member'),
                 'image-url' => 'team/chinpei215.png',
-                'country' => 'Japan'
+                'country' => 'Japan',
             ],
             'megan' => [
                 'name' => 'Megan Lalk',
@@ -376,7 +371,7 @@ return [
                 'mycake' => 'Megslalk',
                 'role' => __('CakePHP Community Manager'),
                 'image-url' => 'team/megan.jpg',
-                'country' => 'South Africa'
+                'country' => 'South Africa',
             ],
             'rchavik' => [
                 'name' => 'Rachman Chavik (rchavik)',
@@ -386,7 +381,7 @@ return [
                 'mycake' => 'rchavik',
                 'role' => __('Core Member'),
                 'image-url' => 'team/rchavik.jpg',
-                'country' => 'Indonesia'
+                'country' => 'Indonesia',
             ],
             'cleptric' => [
                 'name' => 'Michael Hoffmann (Cleptric)',
@@ -397,7 +392,7 @@ return [
                 'mycake' => 'cleptric',
                 'role' => __('Core Member'),
                 'image-url' => 'team/cleptric.jpg',
-                'country' => 'Germany'
+                'country' => 'Germany',
             ],
             'ravage' => [
                 'name' => 'Marc Würth (ravage)',
@@ -413,7 +408,7 @@ return [
                 'mycake' => 'ravage84',
                 'role' => __('Core Member'),
                 'image-url' => 'team/ravage.jpg',
-                'country' => 'Switzerland'
+                'country' => 'Switzerland',
             ],
             'steinkel' => [
                 'name' => 'Jorge González (steinkel)',
@@ -425,7 +420,7 @@ return [
                 'mycake' => 'steinkel',
                 'role' => __('CakePHP Trainer'),
                 'image-url' => 'team/jorge_gonzalez.jpg',
-                'country' => 'Spain'
+                'country' => 'Spain',
             ],
             'garas' => [
                 'name' => 'Edgaras Janušauskas (garas)',
@@ -436,9 +431,63 @@ return [
                 'mycake' => 'garas',
                 'role' => __('Core Member'),
                 'image-url' => 'team/Garas.jpg',
-                'country' => 'Lithuania'
+                'country' => 'Lithuania',
             ],
         ],
         'writers_form_enabled' => true,
+        'meetups' => [
+            [
+                'title' => __('CakePHP 4 online meetup'),
+                'hosted-by' => [
+                    'name' => 'Jorge M. González Martín',
+                    'url' => 'https://github.com/steinkel',
+                ],
+                'when' => '5/20/20, 5:00 PM UTC',
+                'where' => [
+                    'name' => 'CakePHP Meetup',
+                    'url' => 'https://www.meetup.com/CakePHP-DE/events/270525132',
+                ],
+                'description' => "The 2nd virtual CakePHP Community meetup is coming up. Topics TBA.",
+            ],
+            [
+                'title' => __('Our first online Meetup (international edition)'),
+                'hosted-by' => [
+                    'name' => 'Mark Scherer',
+                    'url' => 'https://github.com/dereuromark',
+                ],
+                'when' => '5/01/20 5:00 PM UTC',
+                'where' => [
+                    'name' => 'CakePHP Meetup',
+                    'url' => 'https://www.meetup.com/CakePHP-DE/events/270064069',
+                ],
+                'description' => "Hey Folks!
+        <br/>We didn't have a meetup for a while here in Berlin, and I think now with more and more
+        events
+        moving
+        to online-only, it is time to set up a gathering again for our community.
+        And since this is now fully online, why not inviting everyone of the (Cake)PHP coding community
+        out
+        there?
+        <br/>
+        <br/>### Save the data
+        <br/>
+        <br/>We will give you the details shortly.
+        <br/>If you want to co-host or add yourself as a speaker, please reach out with your topic.
+        <br/>
+        <br/>Main topics so far:
+        <br/>- CakePHP 4.1 preview
+        <br/>- IdeHelper / IDE usability and development speedup tips.
+        <br/>- Auth with Authentication plugin
+        <br/>- Fixture Factories
+        <br/>
+        <br/>### Time-Schedule
+        <br/>We want to do it 7PM Berlin time (GMT+2), so folks e.g. in the USA can join in still in the
+        late
+        morning.
+        <br/>And the ones more east, should still also be able to join in, as well.
+        <br/>
+        <br/>Note: Event in English.",
+            ],
+        ],
     ],
 ];
