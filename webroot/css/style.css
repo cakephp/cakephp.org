@@ -10724,3 +10724,17 @@ a.btn-home.btn-inverted:hover, button.btn-home.btn-inverted:hover {
     border-top: 2px solid #D33C44;
     margin: 26px 0px 30px;
 }
+.meetup .description {
+    background: #f7f7f5;
+    padding: 30px 20px 10px;
+    margin: 35px 0;
+}
+.meetup .description .join {
+    font-weight: bold;
+    text-align: center;
+}
+.meetup .description .join .where{
+    background: #d33c44;
+    color: white;
+    padding: 15px;
+}
