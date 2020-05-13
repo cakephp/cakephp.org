@@ -39,9 +39,14 @@ class MeetupsHelper extends Helper
         );
         $meetupContent .= $this->meetupLink($meetup, 'hosted-by', __('Hosted by: '));
         $meetupContent .= $this->meetupLink($meetup, 'where', __('Meeting link: '));
+        $joinButton = $this->Html->tag(
+            'div',
+            $this->meetupLink($meetup, 'where', __('Join the meetup here: ')),
+            ['class' => 'join']
+        );
         $meetupContent .= $this->Html->tag(
-            'pre',
-            $meetup['description'] ?? null,
+            'div',
+            (nl2br($meetup['description'] ?? null)) . $joinButton,
             ['class' => 'description']
         );
         $meetupContent .= $this->Html->tag('hr', null);

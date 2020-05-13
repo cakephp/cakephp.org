@@ -444,21 +444,20 @@ return [
                 ],
                 'when' => '5/20/20, 5:00 PM UTC',
                 'where' => [
-                    'name' => 'CakePHP Meetup',
+                    'name' => 'Join CakePHP 4 Meetup May 20',
                     'url' => 'https://www.meetup.com/CakePHP-DE/events/270525132',
                 ],
-                'description' => "
-The 2nd virtual CakePHP Community meetup is coming up
- <br/>
- <br/>We're using topics from the first meetup, and we'll be spicing them with some typical use cases in real applications:
- <br/>
- <br/>## Topics
- <br/>
- <br/>- Baking a new plugin and TDD for it
- <br/>- Authorization plugin
- <br/>- Pro-Debug with Xdebug + stepping through in IDE
- <br/>
- <br/>The topics and contents will be open to changes, and also open to contributions from attendees. We'll have some time for lightning talks to present about an idea/project/technology that you think it'll be useful for the community.                
+                'description' => "The 2nd virtual CakePHP Community meetup is coming up!
+
+ We're using topics from the first meetup, and we'll be spicing them with some typical use cases in real applications:
+
+ ## Topics
+
+ - Baking a new plugin and TDD for it
+ - Authorization plugin
+ - Pro-Debug with Xdebug + stepping through in IDE
+
+ The topics and contents will be open to changes, and also open to contributions from attendees. We'll have some time for lightning talks to present about an idea/project/technology that you think it'll be useful for the community.
                 ",
             ],
             [
@@ -473,32 +472,32 @@ The 2nd virtual CakePHP Community meetup is coming up
                     'url' => 'https://www.meetup.com/CakePHP-DE/events/270064069',
                 ],
                 'description' => "Hey Folks!
-        <br/>We didn't have a meetup for a while here in Berlin, and I think now with more and more
+        We didn't have a meetup for a while here in Berlin, and I think now with more and more
         events
         moving
         to online-only, it is time to set up a gathering again for our community.
         And since this is now fully online, why not inviting everyone of the (Cake)PHP coding community
         out
         there?
-        <br/>
-        <br/>### Save the data
-        <br/>
-        <br/>We will give you the details shortly.
-        <br/>If you want to co-host or add yourself as a speaker, please reach out with your topic.
-        <br/>
-        <br/>Main topics so far:
-        <br/>- CakePHP 4.1 preview
-        <br/>- IdeHelper / IDE usability and development speedup tips.
-        <br/>- Auth with Authentication plugin
-        <br/>- Fixture Factories
-        <br/>
-        <br/>### Time-Schedule
-        <br/>We want to do it 7PM Berlin time (GMT+2), so folks e.g. in the USA can join in still in the
+
+        ### Save the data
+
+        We will give you the details shortly.
+        If you want to co-host or add yourself as a speaker, please reach out with your topic.
+
+        Main topics so far:
+        - CakePHP 4.1 preview
+        - IdeHelper / IDE usability and development speedup tips.
+        - Auth with Authentication plugin
+        - Fixture Factories
+
+        ### Time-Schedule
+        We want to do it 7PM Berlin time (GMT+2), so folks e.g. in the USA can join in still in the
         late
         morning.
-        <br/>And the ones more east, should still also be able to join in, as well.
-        <br/>
-        <br/>Note: Event in English.",
+        And the ones more east, should still also be able to join in, as well.
+
+        Note: Event in English.",
             ],
         ],
     ],
