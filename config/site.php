@@ -447,7 +447,19 @@ return [
                     'name' => 'CakePHP Meetup',
                     'url' => 'https://www.meetup.com/CakePHP-DE/events/270525132',
                 ],
-                'description' => "The 2nd virtual CakePHP Community meetup is coming up. Topics TBA.",
+                'description' => "
+The 2nd virtual CakePHP Community meetup is coming up
+ <br/>
+ <br/>We're using topics from the first meetup, and we'll be spicing them with some typical use cases in real applications:
+ <br/>
+ <br/>## Topics
+ <br/>
+ <br/>- Baking a new plugin and TDD for it
+ <br/>- Authorization plugin
+ <br/>- Pro-Debug with Xdebug + stepping through in IDE
+ <br/>
+ <br/>The topics and contents will be open to changes, and also open to contributions from attendees. We'll have some time for lightning talks to present about an idea/project/technology that you think it'll be useful for the community.                
+                ",
             ],
             [
                 'title' => __('Our first online Meetup (international edition)'),
