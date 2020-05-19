@@ -444,8 +444,8 @@ return [
                 ],
                 'when' => '5/20/20, 5:00 PM UTC',
                 'where' => [
-                    'name' => 'Join CakePHP 4 Meetup May 20',
-                    'url' => 'https://www.meetup.com/CakePHP-DE/events/270525132',
+                    'name' => 'Join CakePHP 4 Meetup May 20 - 5 PM UTC',
+                    'url' => 'https://webinar.ringcentral.com/j/1497230191?pwd=cTJ6Q0Y5cmc3amVGZXE4WkxiajVBdz09',
                 ],
                 'description' => "The 2nd virtual CakePHP Community meetup is coming up!
 
@@ -459,6 +459,8 @@ return [
  - Mark Story will be around too and might be talking about common-table-expressions...
 
  The topics and contents will be open to changes, and also open to contributions from attendees. We'll have some time for lightning talks to present about an idea/project/technology that you think it'll be useful for the community.
+ 
+ Please note the meeting will be hosted through RingCentral webinars, you'll be prompted to download the RingCentral client, so it might be wise to join 10 minutes before the event starts to test your audio etc.
                 ",
             ],
             [
