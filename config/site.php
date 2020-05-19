@@ -453,9 +453,10 @@ return [
 
  ## Topics
 
- - Baking a new plugin and TDD for it
- - Authorization plugin
- - Pro-Debug with Xdebug + stepping through in IDE
+ - 'Baking a new plugin and TDD for it' by Mark Scherer ~1h
+ - 'Authorization plugin' by Jorge González ~1h
+ - 'Pro-Debug with Xdebug + stepping through in IDE' by Jorge González ~20m
+ - Mark Story will be around too and might be talking about common-table-expressions...
 
  The topics and contents will be open to changes, and also open to contributions from attendees. We'll have some time for lightning talks to present about an idea/project/technology that you think it'll be useful for the community.
                 ",
