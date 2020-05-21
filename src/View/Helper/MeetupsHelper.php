@@ -22,6 +22,10 @@ class MeetupsHelper extends Helper
             $out .= $this->meetup($meetup);
         }
 
+        if (!$out) {
+            return $this->blank();
+        }
+
         return $this->Html->tag('div', $out, ['class' => 'meetups']);
     }
 
@@ -67,4 +71,22 @@ class MeetupsHelper extends Helper
                 ]
             );
     }
+
+    protected function blank(): string
+    {
+        $content = $this->Html->tag('h1', 
+            $this->Html->tag('span', 'V', ['class' => 'glyph_range']) . 
+            __('{0} {1}', $this->Html->tag('em', __('New meetup information ')), $this->Html->tag('strong', __('COMING SOON!'))) .  
+            $this->Html->tag('span', 'V', ['class' => 'glyph_range'])
+        );
+
+        $content .= $this->Html->tag('h3', 
+            __('{0} {1} {2}', __('Follow Us On Twitter: '), 
+            $this->Html->link(__('@CakePHP'), '//twitter.com/cakephp', ['target' => '_blank']),  
+            __('For Updates Period')
+        ));
+
+        return $this->Html->tag('div', $content, ['class' => 'col-sm-12 text-center t-team']);
+    }
+
 }
