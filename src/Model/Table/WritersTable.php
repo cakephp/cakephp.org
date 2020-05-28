@@ -5,7 +5,6 @@ use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
-
 /**
  * Writers Model
  *
@@ -19,9 +18,8 @@ use Cake\Validation\Validator;
  *
  * @mixin \Cake\ORM\Behavior\TimestampBehavior
  */
-class WritersTable extends Table
+class WritersTable extends \Cake\ORM\Table
 {
-
     /**
      * Initialize method
      *
@@ -31,50 +29,26 @@ class WritersTable extends Table
     public function initialize(array $config)
     {
         parent::initialize($config);
-
         $this->setTable('writers');
         $this->setDisplayField('name');
         $this->setPrimaryKey('id');
-
         $this->addBehavior('Timestamp');
     }
-
     /**
      * Default validation rules.
      *
      * @param \Cake\Validation\Validator $validator Validator instance.
      * @return \Cake\Validation\Validator
      */
-    public function validationDefault(Validator $validator)
+    public function validationDefault(\Cake\Validation\Validator $validator)
     {
-        $validator
-            ->integer('id')
-            ->allowEmpty('id', 'create');
-
-        $validator
-            ->requirePresence('name', 'create')
-            ->notEmpty('name');
-
-        $validator
-            ->email('email')
-            ->requirePresence('email', 'create')
-            ->notEmpty('email');
-
-        $validator
-            ->allowEmpty('username');
-
-        $validator
-            ->requirePresence('article_titles', 'create')
-            ->notEmpty('article_titles');
-
-        $validator
-            ->requirePresence('writing_sample', 'create')
-            ->notEmpty('writing_sample');
-
-        $validator
-            ->requirePresence('extra_information', 'create')
-            ->allowEmpty('extra_information');
-
+        $validator->integer('id')->allowEmpty('id', 'create');
+        $validator->requirePresence('name', 'create')->notEmpty('name');
+        $validator->email('email')->requirePresence('email', 'create')->notEmpty('email');
+        $validator->allowEmpty('username');
+        $validator->requirePresence('article_titles', 'create')->notEmpty('article_titles');
+        $validator->requirePresence('writing_sample', 'create')->notEmpty('writing_sample');
+        $validator->requirePresence('extra_information', 'create')->allowEmpty('extra_information');
         return $validator;
     }
 }

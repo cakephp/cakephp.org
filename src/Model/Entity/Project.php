@@ -2,7 +2,6 @@
 namespace App\Model\Entity;
 
 use Cake\ORM\Entity;
-
 /**
  * Project Entity.
  *
@@ -14,9 +13,8 @@ use Cake\ORM\Entity;
  * @property \Cake\I18n\Time $created
  * @property \Cake\I18n\Time $modified
  */
-class Project extends Entity
+class Project extends \Cake\ORM\Entity
 {
-
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
      *
@@ -26,17 +24,12 @@ class Project extends Entity
      *
      * @var array
      */
-    protected $_accessible = [
-        '*' => true,
-        'id' => false,
-    ];
-
+    protected $_accessible = ['*' => true, 'id' => false];
     protected function _getTagsArray()
     {
         if (empty($this->tags)) {
             return '';
         }
-
         return collection($this->tags)->map(function ($t) {
             return $t->label;
         })->toArray();
