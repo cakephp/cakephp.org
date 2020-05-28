@@ -8,7 +8,7 @@ class ScreenMonitorImagesTable extends UploadedFilesTable
      *
      * @return void
      */
-    public function initialize(array $config)
+    public function initialize(array $config): void
     {
         parent::initialize($config);
 

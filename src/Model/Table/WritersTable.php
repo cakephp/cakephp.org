@@ -26,7 +26,7 @@ class WritersTable extends \Cake\ORM\Table
      * @param array $config The configuration for the Table.
      * @return void
      */
-    public function initialize(array $config)
+    public function initialize(array $config): void
     {
         parent::initialize($config);
         $this->setTable('writers');
@@ -40,7 +40,7 @@ class WritersTable extends \Cake\ORM\Table
      * @param \Cake\Validation\Validator $validator Validator instance.
      * @return \Cake\Validation\Validator
      */
-    public function validationDefault(\Cake\Validation\Validator $validator)
+    public function validationDefault(\Cake\Validation\Validator $validator): \Cake\Validation\Validator
     {
         $validator->integer('id')->allowEmpty('id', 'create');
         $validator->requirePresence('name', 'create')->notEmpty('name');

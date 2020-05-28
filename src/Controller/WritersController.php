@@ -2,7 +2,7 @@
 namespace App\Controller;
 
 use Cake\Core\Configure;
-use Cake\Event\Event;
+use Cake\Event\EventInterface;
 use Cake\Mailer\Email;
 use ReCaptcha\ReCaptcha;
 
@@ -13,7 +13,7 @@ use ReCaptcha\ReCaptcha;
  */
 class WritersController extends AppController
 {
-    public function beforeFilter(Event $event)
+    public function beforeFilter(EventInterface $event)
     {
         $this->Auth->allow();
 

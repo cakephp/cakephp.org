@@ -2,7 +2,7 @@
 namespace App\File\Transformer;
 
 use Imagine\Imagick\Imagine;
-use InvalidaArgumentException;
+use InvalidArgumentException;
 
 abstract class AbstractVersion
 {
@@ -15,6 +15,11 @@ abstract class AbstractVersion
      * @var string
      */
     const EXT = '.jpg';
+
+    /**
+     * @var array
+     */
+    public $data;
 
     /**
      * @return Point
@@ -40,7 +45,7 @@ abstract class AbstractVersion
     public function __construct($data)
     {
         if (empty($data['tmp_name']) || empty($data['name'])) {
-            throw new InvalidaArgumentException('You should provide an array with `tmp_name` and `name`');
+            throw new InvalidArgumentException('You should provide an array with `tmp_name` and `name`');
         }
 
         $this->data = $data;

@@ -1,8 +1,8 @@
 <?php
 namespace App\Controller\Admin;
 
-use Cake\Event\Event;
 use App\Controller\AppController;
+use Cake\Event\EventInterface;
 
 class ProjectsController extends AppController
 {
@@ -11,7 +11,7 @@ class ProjectsController extends AppController
         'PerspectiveImages' => ['validate' => false],
     ]];
 
-    public function beforeFilter(Event $event)
+    public function beforeFilter(EventInterface $event)
     {
         if (in_array($this->request->action, ['edit', 'add'])) {
             $this->loadModel('Muffin/Tags.Tags');
