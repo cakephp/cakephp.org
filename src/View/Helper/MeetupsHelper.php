@@ -16,7 +16,8 @@ class MeetupsHelper extends Helper
         $out = '';
         $meetups = Configure::read('Site.meetups');
         foreach ($meetups as $meetup) {
-            if (Time::parse($meetup['when'])->isPast()) {
+            $when = Time::parse($meetup['when']);
+            if ($when->isPast() && !$when->wasWithinLast('1 day')) {
                 continue;
             }
             $out .= $this->meetup($meetup);
