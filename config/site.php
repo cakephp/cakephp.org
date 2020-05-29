@@ -439,6 +439,34 @@ return [
             [
                 'title' => __('CakePHP 4 online meetup'),
                 'hosted-by' => [
+                    'name' => 'Mark Scherer',
+                    'url' => 'https://github.com/dereuromark',
+                ],
+                'when' => '6/18/20, 11:00 AM UTC',
+                'where' => [
+                    'name' => 'TBA - Join CakePHP 4 Meetup May 20 - 11 AM UTC',
+                    'url' => '#',
+                ],
+                'description' => "The 3rd virtual CakePHP Community meetup is coming up!
+
+ We're using topics from the previous meetup, and we'll be spicing them with some typical use cases in real applications:
+
+ ## Topics
+
+ - Xdebug configuration
+ - Dev environment setup using vagrant, docker
+ - Queue plugin
+ - Reactphp configuration and usage
+ - STI Alternative mysql plugin
+
+ The topics and contents will be open to changes, and also open to contributions from attendees. We'll have some time for lightning talks to present about an idea/project/technology that you think it'll be useful for the community.
+ 
+ Please note the meeting will be hosted through RingCentral webinars, you'll be prompted to download the RingCentral client, so it might be wise to join 10 minutes before the event starts to test your audio etc.
+                ",
+            ],
+            [
+                'title' => __('CakePHP 4 online meetup'),
+                'hosted-by' => [
                     'name' => 'Jorge M. González Martín',
                     'url' => 'https://github.com/steinkel',
                 ],
