@@ -444,7 +444,7 @@ return [
                 ],
                 'when' => '6/18/20, 11:00 AM UTC',
                 'where' => [
-                    'name' => 'TBA - Join CakePHP 4 Meetup May 20 - 11 AM UTC',
+                    'name' => 'TBA - Join CakePHP 4 Meetup June 18 - 11 AM UTC',
                     'url' => '#',
                 ],
                 'description' => "The 3rd virtual CakePHP Community meetup is coming up!
