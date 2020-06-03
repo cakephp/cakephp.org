@@ -170,7 +170,7 @@ return [
                         'title' => __('Book'),
                     ],
                     'api' => [
-                        'url' => 'http://api.cakephp.org/',
+                        'url' => 'https://api.cakephp.org/',
                         'title' => __('API'),
                     ],
                     'videos' => [
@@ -460,7 +460,7 @@ return [
  - STI Alternative mysql plugin
 
  The topics and contents will be open to changes, and also open to contributions from attendees. We'll have some time for lightning talks to present about an idea/project/technology that you think it'll be useful for the community.
- 
+
  Please note the meeting will be hosted through RingCentral webinars, you'll be prompted to download the RingCentral client, so it might be wise to join 10 minutes before the event starts to test your audio etc.
                 ",
             ],
@@ -487,7 +487,7 @@ return [
  - Mark Story will be around too and might be talking about common-table-expressions...
 
  The topics and contents will be open to changes, and also open to contributions from attendees. We'll have some time for lightning talks to present about an idea/project/technology that you think it'll be useful for the community.
- 
+
  Please note the meeting will be hosted through RingCentral webinars, you'll be prompted to download the RingCentral client, so it might be wise to join 10 minutes before the event starts to test your audio etc.
                 ",
             ],
