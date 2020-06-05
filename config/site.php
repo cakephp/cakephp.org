@@ -444,25 +444,31 @@ return [
                 ],
                 'when' => '6/18/20, 11:00 AM UTC',
                 'where' => [
-                    'name' => 'TBA - Join CakePHP 4 Meetup June 18 - 11 AM UTC',
-                    'url' => '#',
+                    'name' => 'Join CakePHP 4 Meetup June 18 - 11 AM UTC',
+                    'url' => 'https://www.meetup.com/CakePHP-DE/events/271011975/',
                 ],
-                'description' => "The 3rd virtual CakePHP Community meetup is coming up!
+                'description' => "
+The 3rd virtual CakePHP Community meetup is coming up!
 
- We're using topics from the previous meetup, and we'll be spicing them with some typical use cases in real applications:
+We're using topics from the previous meetup, and we'll be spicing them with some typical use cases in real applications:
 
- ## Topics
+## Topics
 
- - Xdebug configuration
- - Dev environment setup using vagrant, docker
- - Queue plugin
- - Reactphp configuration and usage
- - STI Alternative mysql plugin
+- Xdebug configuration
+- Dev environment setup using vagrant, docker
+- Queue plugin
+- Reactphp configuration and usage
+- STI Alternative mysql plugin
 
- The topics and contents will be open to changes, and also open to contributions from attendees. We'll have some time for lightning talks to present about an idea/project/technology that you think it'll be useful for the community.
+The topics and contents will be open to changes, and also open to contributions from attendees. We'll have some time for lightning talks to present about an idea/project/technology that you think it'll be useful for the community.
 
- Please note the meeting will be hosted through RingCentral webinars, you'll be prompted to download the RingCentral client, so it might be wise to join 10 minutes before the event starts to test your audio etc.
-                ",
+Please note the meeting will be hosted through RingCentral webinars, you'll be prompted to download the RingCentral client, so it might be wise to join 10 minutes before the event starts to test your audio etc.
+We will share the link here prior to the event.
+
+---
+
+Note: This time Japan and other countries more eastern should also have a chance, so we need to do it a bit earlier for us.
+11 AM UTC = 13:00 Berlin Time (MESZ)",
             ],
             [
                 'title' => __('CakePHP 4 online meetup'),
