@@ -83,7 +83,7 @@ $appPermissions = [
             'action' => '*',
             'bypassAuth' => true,
         ],
-    ]
+    ],
 ];
 
 return $appPermissions + $baseUsersPermissions;
