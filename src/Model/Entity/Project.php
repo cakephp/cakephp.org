@@ -2,6 +2,7 @@
 namespace App\Model\Entity;
 
 use Cake\ORM\Entity;
+
 /**
  * Project Entity.
  *
@@ -30,6 +31,7 @@ class Project extends \Cake\ORM\Entity
         if (empty($this->tags)) {
             return '';
         }
+
         return collection($this->tags)->map(function ($t) {
             return $t->label;
         })->toArray();

@@ -5,6 +5,7 @@ use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
+
 /**
  * Writers Model
  *
@@ -34,6 +35,7 @@ class WritersTable extends \Cake\ORM\Table
         $this->setPrimaryKey('id');
         $this->addBehavior('Timestamp');
     }
+
     /**
      * Default validation rules.
      *
@@ -49,6 +51,7 @@ class WritersTable extends \Cake\ORM\Table
         $validator->requirePresence('article_titles', 'create')->notEmpty('article_titles');
         $validator->requirePresence('writing_sample', 'create')->notEmpty('writing_sample');
         $validator->requirePresence('extra_information', 'create')->allowEmpty('extra_information');
+
         return $validator;
     }
 }
