@@ -25,14 +25,14 @@
                             </div>
                             <div class="panel-heading">
                                 <h4 class="panel-title view-more text-center">
-                                <a data-toggle="collapse"
-                                   href="#viewmoreshowcase"
-                                   data-parent="#accordion"
-                                   class="show-more-button">
-                                    <i class="fa fa-view-more fa-chevron-down"></i>
-                                    <h5><?= __("View more projects") ?></h5>
-                                    <i class="fa fa-view-more fa-chevron-down"></i>
-                                </a>
+                                    <a data-toggle="collapse"
+                                       href="#viewmoreshowcase"
+                                       data-parent="#accordion"
+                                       class="show-more-button">
+                                        <i class="fa fa-view-more fa-chevron-down"></i>
+                                        <h5><?= __("View more projects") ?></h5>
+                                        <i class="fa fa-view-more fa-chevron-down"></i>
+                                    </a>
                                 </h4>
                             </div>
                         </div>
@@ -44,11 +44,11 @@
 </section>
 
 <?php $this->append('script'); ?>
-    <script>
-        $(document).ready(function () {
-            $('.show-more-button').on('click', function () {
-                $(this).hide();
-            });
+<script>
+    $(document).ready(function () {
+        $('.show-more-button').on('click', function () {
+            $(this).hide();
         });
-    </script>
+    });
+</script>
 <?php $this->end('script'); ?>

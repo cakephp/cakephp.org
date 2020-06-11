@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Model\Entity;
 
 use Cake\ORM\Entity;
@@ -26,6 +27,7 @@ class Project extends \Cake\ORM\Entity
      * @var array
      */
     protected $_accessible = ['*' => true, 'id' => false];
+
     protected function _getTagsArray()
     {
         if (empty($this->tags)) {

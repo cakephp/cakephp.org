@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Model\Table;
 
 class ScreenMonitorImagesTable extends UploadedFilesTable

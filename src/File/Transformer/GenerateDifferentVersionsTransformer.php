@@ -1,4 +1,5 @@
 <?php
+
 namespace App\File\Transformer;
 
 use Josegonzalez\Upload\File\Transformer\DefaultTransformer;

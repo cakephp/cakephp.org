@@ -19,7 +19,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
                         'Next CakePHP {0}',
                         $this->Html->tag('strong', __('Online Meetups'))
                     )
-) ?>
+                ) ?>
             </div>
         </div>
     </div>

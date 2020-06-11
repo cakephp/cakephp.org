@@ -1,8 +1,8 @@
 <section id="sub">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-6 text-center back-book">
-				<?= $this->Html->link(
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 text-center back-book">
+                <?= $this->Html->link(
                     $this->Html->tag('h2', __(
                         'CakePHP {0}{1}',
                         $this->Html->tag('strong', __('Cookbook')),
@@ -10,10 +10,10 @@
                     )),
                     "http://book.cakephp.org/4",
                     ['escape' => false]
-);?>
-			</div>
-			<div class="col-md-6 text-center back-api">
-				<?= $this->Html->link(
+                ); ?>
+            </div>
+            <div class="col-md-6 text-center back-api">
+                <?= $this->Html->link(
                     $this->Html->tag('h2', __(
                         'CakePHP {0}{1}',
                         $this->Html->tag('strong', __('API')),
@@ -21,8 +21,8 @@
                     )),
                     "http://api.cakephp.org/",
                     ['escape' => false]
-                );?>
-			</div>
-		</div>
-	</div>
+                ); ?>
+            </div>
+        </div>
+    </div>
 </section>

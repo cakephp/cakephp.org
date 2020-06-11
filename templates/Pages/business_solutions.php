@@ -1,12 +1,12 @@
 <?php
-    $title = __('CakePHP - Build fast, grow solid  | Business Solutions');
-    $description = __('CakePHP Business solutions by CakeDC, the commercial entity behind the framework.');
-    $this->assign('title', $title);
-    $this->assign('meta', $this->Html->meta('description', $description));
-    $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
+$title = __('CakePHP - Build fast, grow solid  | Business Solutions');
+$description = __('CakePHP Business solutions by CakeDC, the commercial entity behind the framework.');
+$this->assign('title', $title);
+$this->assign('meta', $this->Html->meta('description', $description));
+$this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
 ?>
-<?= $this->element('adwords/business_solution')?>
-<section  class="gray-stripe business-blue-back">
+<?= $this->element('adwords/business_solution') ?>
+<section class="gray-stripe business-blue-back">
     <div class="container">
         <div class="row">
             <div class="col-md-8 title-calendar th1-business">
@@ -40,5 +40,5 @@
     </div>
 </section>
 <div>
-    <?= $this->element('home/newsletter')?>
+    <?= $this->element('home/newsletter') ?>
 </div>

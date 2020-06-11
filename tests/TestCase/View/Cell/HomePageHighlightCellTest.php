@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Test\TestCase\View\Cell;
 
 use App\View\Cell\HomePageHighlightCell;

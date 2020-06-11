@@ -12,7 +12,7 @@
 use Cake\Core\Configure;
 
 ?>
-<section  class="dark-gray-stripe">
+<section class="dark-gray-stripe">
     <div class="container">
         <div class="row">
             <div class="col-md-12 title-mycake">
@@ -34,7 +34,7 @@ use Cake\Core\Configure;
                     <?= $this->Form->control('password_confirm', ['type' => 'password', 'label' => false, 'required' => true, 'placeholder' => __('Confirm new password'), 'class' => 'form-control-mylogin']) ?>
                     <?= $this->Form->button(__d('Users', 'Submit'), ['class' => 'btn-user btn-mylogin']); ?>
 
-                        <?= $this->Form->end() ?>
+                    <?= $this->Form->end() ?>
                 </div>
             </div>
         </div>

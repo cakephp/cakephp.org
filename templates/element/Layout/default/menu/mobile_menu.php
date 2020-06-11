@@ -50,7 +50,7 @@ if (!isset($availableLanguages)) {
                                                 'business-solutions',
                                             ],
                                             ['escape' => false]
-) ?>
+                                        ) ?>
                                     </h4>
                                 </div>
                             </div>

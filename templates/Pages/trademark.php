@@ -1,13 +1,13 @@
 <?php
-    /**
-     * @todo New contact form needs to replace $emailLegal in the sections below
-     */
-    $title = __('CakePHP - Build fast, grow solid | Logos and Trademarks');
-    $description = __('CakePHP Logos and Trademark policies.');
-    $this->assign('title', $title);
-    $this->assign('meta', $this->Html->meta('description', $description));
-    $emailLegal = $this->Html->tag('strong', 'legal [at] cakefoundation.org');
-    $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
+/**
+ * @todo New contact form needs to replace $emailLegal in the sections below
+ */
+$title = __('CakePHP - Build fast, grow solid | Logos and Trademarks');
+$description = __('CakePHP Logos and Trademark policies.');
+$this->assign('title', $title);
+$this->assign('meta', $this->Html->meta('description', $description));
+$emailLegal = $this->Html->tag('strong', 'legal [at] cakefoundation.org');
+$this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
 ?>
 
 <section class="dark-gray-stripe">
@@ -43,5 +43,5 @@
         </div>
     </div>
 </section>
-<?= $this->element('home/newsletter')?>
+<?= $this->element('home/newsletter') ?>
 

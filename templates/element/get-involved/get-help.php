@@ -1,14 +1,15 @@
 <?php
+
 use Cake\Core\Configure;
 
 ?>
 
 <div id="getHelp" class="col-sm-12 get-social pt-100">
     <a name="get-help"></a>
-    <h2><?= __('Get Help')?><?= $this->Html->link('¶', '#getHelp', ['class' => 'headerlink', 'title' => __('Permalink to this headline')]) ?></h2>
+    <h2><?= __('Get Help') ?><?= $this->Html->link('¶', '#getHelp', ['class' => 'headerlink', 'title' => __('Permalink to this headline')]) ?></h2>
 
     <p><?= __('Looking for help but don\'t know where to find it? Here are all the locations you can find community driven
-		support and sources of information:')?></p>
+		support and sources of information:') ?></p>
 
     <div class="col-sm-12 p0 mt30">
         <div class="col-sm-1 p0">
@@ -21,8 +22,8 @@ use Cake\Core\Configure;
                     '{0}: Join our CakePHP Slack Channel',
                     $this->Html->link('#Slack', Configure::read('Site.menu.items.help.slack.url'), ['target' => '_blank'])
                 )
-)
-        ?>
+            )
+            ?>
         </div>
     </div>
     <div class="col-sm-12 p0">
@@ -37,7 +38,7 @@ use Cake\Core\Configure;
                     $this->Html->link('IRC', Configure::read('Site.menu.items.help.irc.url'), ['target' => '_blank'])
                 )
             )
-?>
+            ?>
         </div>
     </div>
     <div class="col-sm-12 p0">
@@ -51,8 +52,8 @@ use Cake\Core\Configure;
                     '{0}: Report issues, help fix bugs or implement features',
                     $this->Html->link(__('Issues'), Configure::read('Site.menu.items.community.issues.url'), ['target' => '_blank'])
                 )
-)
-?>
+            )
+            ?>
         </div>
     </div>
     <div class="col-sm-12 p0">
@@ -66,8 +67,8 @@ use Cake\Core\Configure;
                     '{0}: Find news and articles on many topics regarding CakePHP',
                     $this->Html->link(__('The Bakery'), Configure::read('Site.menu.items.community.blog.url'))
                 )
-)
-?>
+            )
+            ?>
         </div>
     </div>
     <div class="col-sm-12 p0">
@@ -81,8 +82,8 @@ use Cake\Core\Configure;
                     '{0}: Get your issues resolved by the open source community',
                     $this->Html->link(__('StackOverflow'), Configure::read('Site.menu.items.help.stackOverflow.url'), ['target' => '_blank'])
                 )
-)
-?>
+            )
+            ?>
         </div>
     </div>
     <div class="col-sm-12 p0">
@@ -96,8 +97,8 @@ use Cake\Core\Configure;
                     '{0}: Official announcements from the CakePHP community',
                     $this->Html->link(__('Facebook'), Configure::read('Site.menu.items.community.facebook.url'), ['target' => '_blank'])
                 )
-)
-?>
+            )
+            ?>
         </div>
     </div>
     <div class="col-sm-12 p0">
@@ -111,8 +112,8 @@ use Cake\Core\Configure;
                     '{0}: Official community channel for the project',
                     $this->Html->link(__('Google+'), Configure::read('Site.menu.items.help.googleplus.url'), ['target' => '_blank'])
                 )
-)
-?>
+            )
+            ?>
         </div>
     </div>
     <div class="col-sm-12 p0">
@@ -126,8 +127,8 @@ use Cake\Core\Configure;
                     '{0}: Tutorials and screencasts related to development and events',
                     $this->Html->link(__('YouTube'), Configure::read('Site.menu.items.community.youtube.url'), ['target' => '_blank'])
                 )
-)
-?>
+            )
+            ?>
         </div>
     </div>
     <div class="col-sm-12 p0">
@@ -141,8 +142,8 @@ use Cake\Core\Configure;
                     '{0}: Get the latest updates from around the world',
                     $this->Html->link(__('Twitter'), Configure::read('Site.menu.items.community.twitter.url'), ['target' => '_blank'])
                 )
-)
-?>
+            )
+            ?>
         </div>
     </div>
     <div class="col-sm-12 p0">
@@ -157,8 +158,8 @@ use Cake\Core\Configure;
                     '{0}: Official Subreddit of CakePHP',
                     $this->Html->link(__('CakePHP on Reddit'), 'https://www.reddit.com/r/cakephp/', ['target' => '_blank'])
                 )
-)
-?>
+            )
+            ?>
         </div>
     </div>
 </div>

@@ -12,17 +12,17 @@
             <h3><?= __('Projects') ?></h3>
             <table class="table">
                 <thead>
-                    <tr>
-                        <th><?= $this->Paginator->sort('id') ?></th>
-                        <th><?= $this->Paginator->sort('title') ?></th>
-                        <th><?= $this->Paginator->sort('website') ?></th>
-                        <th><?= $this->Paginator->sort('is_highlighted') ?></th>
-                        <th><?= $this->Paginator->sort('is_showcase') ?></th>
-                        <th class="actions"></th>
-                    </tr>
+                <tr>
+                    <th><?= $this->Paginator->sort('id') ?></th>
+                    <th><?= $this->Paginator->sort('title') ?></th>
+                    <th><?= $this->Paginator->sort('website') ?></th>
+                    <th><?= $this->Paginator->sort('is_highlighted') ?></th>
+                    <th><?= $this->Paginator->sort('is_showcase') ?></th>
+                    <th class="actions"></th>
+                </tr>
                 </thead>
                 <tbody>
-                    <?php foreach ($projects as $project) : ?>
+                <?php foreach ($projects as $project) : ?>
                     <tr>
                         <td><?= $this->Number->format($project->id) ?></td>
                         <td><?= h($project->title) ?></td>
@@ -52,7 +52,7 @@
                             ) ?>
                         </td>
                     </tr>
-                    <?php endforeach; ?>
+                <?php endforeach; ?>
                 </tbody>
             </table>
             <div class="paginator">

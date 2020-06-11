@@ -5,7 +5,7 @@ $this->assign('title', $title);
 $this->assign('meta', $this->Html->meta('description', $description));
 $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
 ?>
-<?= $this->element('adwords/showcase')?>
+<?= $this->element('adwords/showcase') ?>
 <section class="show-title">
     <div class="container">
         <div class="row">

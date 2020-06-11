@@ -1,10 +1,10 @@
 <?php
 
-    $title = __('CakePHP - Build fast, grow solid | Newsletter Sign Up');
-    $description = __('Newsletter Sign Up Form');
-    $this->assign('title', $title);
-    $this->assign('meta', $this->Html->meta('description', $description));
-    $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
+$title = __('CakePHP - Build fast, grow solid | Newsletter Sign Up');
+$description = __('Newsletter Sign Up Form');
+$this->assign('title', $title);
+$this->assign('meta', $this->Html->meta('description', $description));
+$this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
 
 ?>
 <!-- Begin MailChimp Signup Form -->
@@ -39,11 +39,12 @@
             <div class="col-md-8">
                 <div id="mc_embed_signup">
                     <h1 class="title-red"><?= __('Subscribe to our Newsletters') ?></h1>
-                    <form action="//cakephp.us9.list-manage.com/subscribe/post?u=f380de581acd576e7d802552a&amp;id=539d7fcbd1"
-                          method="post"
-                          id="mc-embedded-subscribe-form"
-                          name="mc-embedded-subscribe-form"
-                          class="validate" novalidate>
+                    <form
+                        action="//cakephp.us9.list-manage.com/subscribe/post?u=f380de581acd576e7d802552a&amp;id=539d7fcbd1"
+                        method="post"
+                        id="mc-embedded-subscribe-form"
+                        name="mc-embedded-subscribe-form"
+                        class="validate" novalidate>
 
                         <div id="mc_embed_signup_scroll">
 
@@ -55,7 +56,8 @@
                                 <label for="mce-EMAIL">
                                     <?= __('Email Address') ?> <span class="asterisk">*</span>
                                 </label>
-                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                <input type="email" value="" name="EMAIL" class="required email"
+                                       id="mce-EMAIL">
                             </div>
                             <div class="mc-field-group">
                                 <label for="mce-FNAME"><?= __('First Name') ?></label>
@@ -70,19 +72,23 @@
                                 <strong>English Lists</strong>
                                 <ul>
                                     <li>
-                                        <input type="checkbox" value="1" name="group[19433][1]" id="mce-group[19433]-19433-0">
+                                        <input type="checkbox" value="1" name="group[19433][1]"
+                                               id="mce-group[19433]-19433-0">
                                         <label for="mce-group[19433]-19433-0">Newsletter</label>
                                     </li>
                                     <li>
-                                        <input type="checkbox" value="2" name="group[19433][2]" id="mce-group[19433]-19433-1">
+                                        <input type="checkbox" value="2" name="group[19433][2]"
+                                               id="mce-group[19433]-19433-1">
                                         <label for="mce-group[19433]-19433-1">Events</label>
                                     </li>
                                     <li>
-                                        <input type="checkbox" value="4" name="group[19433][4]" id="mce-group[19433]-19433-2">
+                                        <input type="checkbox" value="4" name="group[19433][4]"
+                                               id="mce-group[19433]-19433-2">
                                         <label for="mce-group[19433]-19433-2">Security</label>
                                     </li>
                                     <li>
-                                        <input type="checkbox" value="64" name="group[19433][64]" id="mce-group[19433]-19433-3">
+                                        <input type="checkbox" value="64" name="group[19433][64]"
+                                               id="mce-group[19433]-19433-3">
                                         <label for="mce-group[19433]-19433-3">Freelancers</label>
                                     </li>
                                 </ul>
@@ -91,19 +97,23 @@
                                 <strong>Lista en Español</strong>
                                 <ul>
                                     <li>
-                                        <input type="checkbox" value="8" name="group[19445][8]" id="mce-group[19445]-19445-0">
+                                        <input type="checkbox" value="8" name="group[19445][8]"
+                                               id="mce-group[19445]-19445-0">
                                         <label for="mce-group[19445]-19445-0">Boletín de Noticias</label>
                                     </li>
                                     <li>
-                                        <input type="checkbox" value="16" name="group[19445][16]" id="mce-group[19445]-19445-1">
+                                        <input type="checkbox" value="16" name="group[19445][16]"
+                                               id="mce-group[19445]-19445-1">
                                         <label for="mce-group[19445]-19445-1">Eventos</label>
                                     </li>
                                     <li>
-                                        <input type="checkbox" value="32" name="group[19445][32]" id="mce-group[19445]-19445-2">
+                                        <input type="checkbox" value="32" name="group[19445][32]"
+                                               id="mce-group[19445]-19445-2">
                                         <label for="mce-group[19445]-19445-2">Seguridad</label>
                                     </li>
                                     <li>
-                                        <input type="checkbox" value="128" name="group[19445][128]" id="mce-group[19445]-19445-3">
+                                        <input type="checkbox" value="128" name="group[19445][128]"
+                                               id="mce-group[19445]-19445-3">
                                         <label for="mce-group[19445]-19445-3">Freelancers</label>
                                     </li>
                                 </ul>
@@ -112,11 +122,13 @@
                                 <strong><?= __('Email Format') ?></strong>
                                 <ul>
                                     <li>
-                                        <input type="radio" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0">
+                                        <input type="radio" value="html" name="EMAILTYPE"
+                                               id="mce-EMAILTYPE-0">
                                         <label for="mce-EMAILTYPE-0">html</label>
                                     </li>
                                     <li>
-                                        <input type="radio" value="text" name="EMAILTYPE" id="mce-EMAILTYPE-1">
+                                        <input type="radio" value="text" name="EMAILTYPE"
+                                               id="mce-EMAILTYPE-1">
                                         <label for="mce-EMAILTYPE-1">text</label>
                                     </li>
                                 </ul>
@@ -129,10 +141,12 @@
 
                             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                             <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                                <input type="text" name="b_f380de581acd576e7d802552a_539d7fcbd1" tabindex="-1" value="">
+                                <input type="text" name="b_f380de581acd576e7d802552a_539d7fcbd1" tabindex="-1"
+                                       value="">
                             </div>
                             <div class="clear">
-                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                                <input type="submit" value="Subscribe" name="subscribe"
+                                       id="mc-embedded-subscribe" class="button">
                             </div>
                             <p>
                                 <?= $this->Html->link(__('Past Newsletters'), ['controller' => 'Pages', 'action' => 'display', 'newsletter'], ['title' => __('Past Newsletters'), 'id' => 'mc-past-responses']); ?>

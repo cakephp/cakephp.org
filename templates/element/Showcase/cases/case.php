@@ -3,7 +3,7 @@
         <div class="col-sm-4 <?= $index % 2 === 1 ? 'col-sm-push-8' : '' ?>">
             <a href="<?= $this->App->externalLink($project->website); ?>" target="_blank">
                 <?= $this->Showcase->image($project->screen_monitor_images[0], [
-                'class' => 'img-responsive',
+                    'class' => 'img-responsive',
                 ], 'small'); ?>
             </a>
         </div>

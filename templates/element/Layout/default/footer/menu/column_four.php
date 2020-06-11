@@ -9,6 +9,6 @@ $menu = array_merge($this->Menu->helpAndSupportItems())
 ?>
 
 <ul class="footer-menu">
-    <li class="menu-title"><i class="fa fa-menu-title fa-comments-o"></i><?= __('Help &amp; Support')?></li>
+    <li class="menu-title"><i class="fa fa-menu-title fa-comments-o"></i><?= __('Help &amp; Support') ?></li>
     <?= $this->App->menuItems($menu); ?>
 </ul>

@@ -1,10 +1,10 @@
 <?php
 
-    $title = __('CakePHP - Build fast, grow solid | CakePHP latest news');
-    $description = __('Latest CakePHP News.');
-    $this->assign('title', $title);
-    $this->assign('meta', $this->Html->meta('description', $description));
-    $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
+$title = __('CakePHP - Build fast, grow solid | CakePHP latest news');
+$description = __('Latest CakePHP News.');
+$this->assign('title', $title);
+$this->assign('meta', $this->Html->meta('description', $description));
+$this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
 
 ?>
 <div class="section newsletter">
@@ -19,4 +19,4 @@
         </div>
     </div>
 </div>
-<?= $this->element('home/newsletter')?>
+<?= $this->element('home/newsletter') ?>

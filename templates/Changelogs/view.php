@@ -17,7 +17,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
                         'CakePHP {0}',
                         $this->Html->tag('strong', __('Changelogs'))
                     )
-)?>
+                ) ?>
             </div>
         </div>
     </div>
@@ -27,19 +27,21 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
         <div class="row">
             <div class="col-md-8 col-md-offset-1 t-privacy">
 
-<?php
+                <?php
 
-$items = [];
-foreach ($changes as $hash => $change) :
-    $url = 'http://github.com/cakephp/cakephp/commit/' . $hash;
-    $link = $this->Html->link($hash, $url, ['target' => '_blank']);
-    $items[] = $link . ' ' . h($change);
-endforeach;
-?>
+                $items = [];
+                foreach ($changes as $hash => $change) :
+                    $url = 'http://github.com/cakephp/cakephp/commit/' . $hash;
+                    $link = $this->Html->link($hash, $url, ['target' => '_blank']);
+                    $items[] = $link . ' ' . h($change);
+                endforeach;
+                ?>
 
-<h3><?= __('Version {0}', $tag) ?></h3>
-<?= $this->Html->nestedList($items, [], ['style' => 'list-style: inherit']) ?>
-<?= $this->Html->link(__('Back'), ['controller' => 'Changelogs', 'action' => 'index']) ?>
-</div>
+                <h3><?= __('Version {0}', $tag) ?></h3>
+                <?= $this->Html->nestedList($items, [], ['style' => 'list-style: inherit']) ?>
+                <?= $this->Html->link(__('Back'), ['controller' => 'Changelogs', 'action' => 'index']) ?>
+            </div>
             <?= $this->element('changelogs'); ?>
-            </div></div></section>
+        </div>
+    </div>
+</section>

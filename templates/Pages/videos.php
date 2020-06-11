@@ -1,21 +1,22 @@
 <?php
-    $title = __('CakePHP - Build fast, grow solid | Learn CakePHP from the experts | Video Training');
-    $description = __('CakePHP making building web applications simpler, faster and require less code. Manual, training
+$title = __('CakePHP - Build fast, grow solid | Learn CakePHP from the experts | Video Training');
+$description = __('CakePHP making building web applications simpler, faster and require less code. Manual, training
 	and guides for beginners now available and links towards the last version.');
-    $this->assign('title', $title);
-    $this->assign('meta', $this->Html->meta('description', $description));
-    $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
-    ?>
+$this->assign('title', $title);
+$this->assign('meta', $this->Html->meta('description', $description));
+$this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
+?>
 <section id="videos-full" class="p0 m0">
     <div class="container-fluid p0 m0">
         <div class="col-md-12 p0 m0">
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="//www.youtube.com/embed?max-results=1&listType=user_uploads&list=CakePHP" allowfullscreen></iframe>
+                <iframe class="embed-responsive-item"
+                        src="//www.youtube.com/embed?max-results=1&listType=user_uploads&list=CakePHP"
+                        allowfullscreen></iframe>
             </div>
         </div>
     </div>
 </section>
-
 
 
 <section class="ptb-80-40 back-light-gray">
@@ -75,5 +76,5 @@
 <?= $this->element('home/newsletter') ?>
 
 <?php $this->append('script'); ?>
-    <?= $this->Html->script('youtube_videos.js') ?>
+<?= $this->Html->script('youtube_videos.js') ?>
 <?php $this->end('script'); ?>
