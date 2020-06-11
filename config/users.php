@@ -31,9 +31,9 @@ $config = [
             'Password' => [
                 'resolver' => [
                     'finder' => 'auth',
-                ]
-            ]
-        ]
+                ],
+            ],
+        ],
     ],
 ];
 
