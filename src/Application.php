@@ -1,4 +1,6 @@
 <?php
+declare(strict_types=1);
+
 /**
  * CakePHP(tm) : Rapid Development Framework (https://cakephp.org)
  * Copyright (c) Cake Software Foundation, Inc. (https://cakefoundation.org)
@@ -18,7 +20,8 @@ use Cake\Core\Configure;
 use Cake\Core\Exception\MissingPluginException;
 use Cake\Error\Middleware\ErrorHandlerMiddleware;
 use Cake\Http\BaseApplication;
-use Cake\Http\Middleware\CsrfProtectionMiddleware;
+use Cake\Http\Middleware\BodyParserMiddleware;
+use Cake\Http\MiddlewareQueue;
 use Cake\Routing\Middleware\AssetMiddleware;
 use Cake\Routing\Middleware\RoutingMiddleware;
 
@@ -31,7 +34,9 @@ use Cake\Routing\Middleware\RoutingMiddleware;
 class Application extends BaseApplication
 {
     /**
-     * {@inheritDoc}
+     * Load all the application configuration and bootstrap logic.
+     *
+     * @return void
      */
     public function bootstrap(): void
     {
@@ -39,13 +44,7 @@ class Application extends BaseApplication
         parent::bootstrap();
 
         if (PHP_SAPI === 'cli') {
-            try {
-                $this->addPlugin('Bake');
-            } catch (MissingPluginException $e) {
-                // Do not halt if the plugin is missing
-            }
-
-            $this->addPlugin('Migrations');
+            $this->bootstrapCli();
         }
 
         /*
@@ -57,31 +56,13 @@ class Application extends BaseApplication
         }
 
         $this->addPlugin('Migrations');
-        $this->addPlugin('AssetCompress', ['bootstrap' => true]);
+        $this->addPlugin('AssetCompress');
         Configure::write('Users.config', ['users']);
-        $this->addPlugin('CakeDC/Users', ['routes' => true, 'bootstrap' => true]);
+        $this->addPlugin(\CakeDC\Users\Plugin::class);
         $this->addPlugin('Burzum/Imagine');
         $this->addPlugin('Josegonzalez/Upload');
         $this->addPlugin('Muffin/Slug');
         $this->addPlugin('Muffin/Tags');
-    }
-
-    /**
-     * Define the routes for an application.
-     *
-     * Use the provided RouteBuilder to define an application's routing, register scoped middleware.
-     *
-     * @param \Cake\Routing\RouteBuilder $routes A route builder to add routes into.
-     * @return void
-     */
-    public function routes(\Cake\Routing\RouteBuilder $routes): void
-    {
-        // Register scoped middleware for use in routes.php
-        $routes->registerMiddleware('csrf', new CsrfProtectionMiddleware([
-            'httpOnly' => true,
-        ]));
-
-        parent::routes($routes);
     }
 
     /**
@@ -90,12 +71,12 @@ class Application extends BaseApplication
      * @param \Cake\Http\MiddlewareQueue $middlewareQueue The middleware queue to setup.
      * @return \Cake\Http\MiddlewareQueue The updated middleware queue.
      */
-    public function middleware($middlewareQueue): \Cake\Http\MiddlewareQueue
+    public function middleware(MiddlewareQueue $middlewareQueue): MiddlewareQueue
     {
         $middlewareQueue
             // Catch any exceptions in the lower layers,
             // and make an error page/response
-            ->add(new ErrorHandlerMiddleware(null, Configure::read('Error')))
+            ->add(new ErrorHandlerMiddleware(Configure::read('Error')))
 
             // Handle plugin/theme assets like CakePHP normally does.
             ->add(new AssetMiddleware([
@@ -103,11 +84,38 @@ class Application extends BaseApplication
             ]))
 
             // Add routing middleware.
-            // Routes collection cache enabled by default, to disable route caching
-            // pass null as cacheConfig, example: `new RoutingMiddleware($this)`
-            // you might want to disable this cache in case your routing is extremely simple
-            ->add(new RoutingMiddleware($this, '_cake_routes_'));
+            // If you have a large number of routes connected, turning on routes
+            // caching in production could improve performance. For that when
+            // creating the middleware instance specify the cache config name by
+            // using it's second constructor argument:
+            // `new RoutingMiddleware($this, '_cake_routes_')`
+            ->add(new RoutingMiddleware($this, '_cake_routes_'))
+
+            // Parse various types of encoded request bodies so that they are
+            // available as array through $request->getData()
+            // https://book.cakephp.org/4/en/controllers/middleware.html#body-parser-middleware
+            ->add(new BodyParserMiddleware());
 
         return $middlewareQueue;
+    }
+
+    /**
+     * Bootrapping for CLI application.
+     *
+     * That is when running commands.
+     *
+     * @return void
+     */
+    protected function bootstrapCli(): void
+    {
+        try {
+            $this->addPlugin('Bake');
+        } catch (MissingPluginException $e) {
+            // Do not halt if the plugin is missing
+        }
+
+        $this->addPlugin('Migrations');
+
+        // Load more plugins here
     }
 }
