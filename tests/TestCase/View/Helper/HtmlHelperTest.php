@@ -4,6 +4,7 @@ namespace App\Test\TestCase\View\Helper;
 use App\View\Helper\HtmlHelper;
 use Cake\TestSuite\TestCase;
 use Cake\View\View;
+
 /**
  * App\View\Helper\HtmlHelper Test Case
  */
@@ -15,6 +16,7 @@ class HtmlHelperTest extends \Cake\TestSuite\TestCase
      * @var \App\View\Helper\HtmlHelper
      */
     public $Html;
+
     /**
      * setUp method
      *
@@ -26,6 +28,7 @@ class HtmlHelperTest extends \Cake\TestSuite\TestCase
         $view = new \Cake\View\View();
         $this->Html = new \App\View\Helper\HtmlHelper($view);
     }
+
     /**
      * tearDown method
      *
@@ -36,6 +39,7 @@ class HtmlHelperTest extends \Cake\TestSuite\TestCase
         unset($this->Html);
         parent::tearDown();
     }
+
     /**
      * @test
      */
@@ -46,6 +50,7 @@ class HtmlHelperTest extends \Cake\TestSuite\TestCase
         $link = $this->Html->link('example', '/', ['target' => '_blank', 'rel' => 'something']);
         $this->assertSame('<a href="/" target="_blank" rel="something">example</a>', $link);
     }
+
     /**
      * @test
      */
