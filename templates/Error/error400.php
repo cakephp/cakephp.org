@@ -18,11 +18,11 @@ if (Configure::read('debug')) :
         <strong>SQL Query: </strong>
         <?= h($error->queryString) ?>
     </p>
-<?php endif; ?>
+    <?php endif; ?>
     <?php if (!empty($error->params)) : ?>
     <strong>SQL Query Params: </strong>
-    <?= Debugger::dump($error->params) ?>
-<?php endif; ?>
+        <?= Debugger::dump($error->params) ?>
+    <?php endif; ?>
     <?= $this->element('auto_table_warning') ?>
     <?php
     if (extension_loaded('xdebug')) :

@@ -41,7 +41,7 @@ $elementsByRow = 3;
                     </div>
                     <?php if ($i % $elementsByRow == 0) : ?>
                     <div class="clearfix hidden-xs hidden-sm"></div>
-                <?php endif; ?>
+                    <?php endif; ?>
                     <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel"
                          id="<?= $key ?>">
                         <div class="modal-dialog" role="document">

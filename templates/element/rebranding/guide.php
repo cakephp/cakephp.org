@@ -44,7 +44,7 @@
                         $this->Html->image('rebranding/ibaldo.jpg', ['class' => 'img-responsive center-block', 'title' => __('Henrique Ibaldo')]),
                         'http://www.ibaldo.co/',
                         ['target' => '_blank', 'escape' => false]
-                    )
+)
                     ?>
                 </div>
             </div>

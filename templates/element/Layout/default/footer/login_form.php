@@ -27,7 +27,7 @@
                 $this->Html->image('open-hub.png'),
                 'https://www.openhub.net/p/cakephp',
                 ['escape' => false]
-            ) ?>
+) ?>
             <div class="mt10">
                 <?= $this->Html->link(
                     $this->Html->image('pingping.png'),

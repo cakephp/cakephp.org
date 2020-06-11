@@ -108,10 +108,10 @@
 		the logo in a manner that produces a black-and-white image.') ?></p>
 
     <p><?= __(
-            'These guidelines are based on the Model Trademark Guidelines, available at {0},
+        'These guidelines are based on the Model Trademark Guidelines, available at {0},
 		used under a Creative Commons Attribution 3.0 Unported license: {1}',
-            $this->Html->link('http://www.modeltrademarkguidelines.org.', 'http://www.modeltrademarkguidelines.org', ['class' => 't-blue', 'target' => '_blank']),
-            $this->Html->link('https://creativecommons.org/.', 'https://creativecommons.org/licenses/by/3.0/deed.en_US', ['class' => 't-blue', 'target' => '_blank'])
-        ) ?>
+        $this->Html->link('http://www.modeltrademarkguidelines.org.', 'http://www.modeltrademarkguidelines.org', ['class' => 't-blue', 'target' => '_blank']),
+        $this->Html->link('https://creativecommons.org/.', 'https://creativecommons.org/licenses/by/3.0/deed.en_US', ['class' => 't-blue', 'target' => '_blank'])
+) ?>
     </p>
 </div>

@@ -10,7 +10,7 @@
                     )),
                     "http://book.cakephp.org/4",
                     ['escape' => false]
-                ); ?>
+); ?>
             </div>
             <div class="col-md-6 text-center back-api">
                 <?= $this->Html->link(

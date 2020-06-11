@@ -2,11 +2,11 @@
     <h3><?= __('Use for non-software goods and services') ?></h3>
 
     <p><?= __(
-            'See {0}, above, which also apply.',
-            $this->Html->link(__("Universal considerations for all uses"), '#universal-considerations', [
+        'See {0}, above, which also apply.',
+        $this->Html->link(__("Universal considerations for all uses"), '#universal-considerations', [
                 'class' => 't-blue',
             ])
-        ) ?> </p>
+) ?> </p>
     <h4 id="non-infringing" class="p-trad-sub"><?= __('Uses we consider non-infringing') ?></h4>
 
     <p>

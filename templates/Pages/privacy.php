@@ -17,7 +17,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
                         $this->Html->tag('strong', __('Privacy Policy')),
                         $this->Html->tag('span', 'd', ['class' => 'glyph_range icon-privacy'])
                     )
-                ) ?>
+) ?>
             </div>
         </div>
     </div>
@@ -126,7 +126,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
                             'class' => 't-blue',
                         ])
                     );
-                    ?>
+?>
                 </p>
                 <h3><?php echo __('Analytics Partners'); ?></h3>
                 <p>

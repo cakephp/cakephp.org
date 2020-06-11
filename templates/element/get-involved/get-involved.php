@@ -21,18 +21,18 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
         <ul>
             <li><?= __('Join the {0} and talk to developers who need help. *', $this->Html->link(__('#cakephp IRC channel, or Slack group'), '#get-help')) ?></li>
             <li><?= __(
-                    'Answer questions on platforms such as {0} and the {1}.',
-                    $this->Html->link(
-                        __('StackOverflow'),
-                        Configure::read('Site.menu.items.help.stackOverflow.url'),
-                        ['target' => '_blank']
-                    ),
-                    $this->Html->link(
-                        __('official CakePHP Forum'),
-                        Configure::read('Site.menu.items.help.discourse.url'),
-                        ['target' => '_blank']
-                    )
-                ) ?></li>
+                'Answer questions on platforms such as {0} and the {1}.',
+                $this->Html->link(
+                    __('StackOverflow'),
+                    Configure::read('Site.menu.items.help.stackOverflow.url'),
+                    ['target' => '_blank']
+                ),
+                $this->Html->link(
+                    __('official CakePHP Forum'),
+                    Configure::read('Site.menu.items.help.discourse.url'),
+                    ['target' => '_blank']
+                )
+) ?></li>
             <li><?= __('Comment on posts asking for help with a specific problem.') ?></li>
         </ul>
         <p>
@@ -77,11 +77,11 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 				feedback.') ?>
             </li>
             <li><?= __(
-                    'Use social platforms such as {0}, {1} or {2} to provide links to articles, posts, plugins, events, etc.',
-                    $this->Html->link(__('Facebook'), Configure::read('Site.menu.items.community.facebook.url'), ['target' => '_blank']),
-                    $this->Html->link(__('Discourse'), Configure::read('Site.menu.items.help.discourse.url'), ['target' => '_blank']),
-                    $this->Html->link(__('Twitter'), Configure::read('Site.menu.items.community.twitter.url'), ['target' => '_blank'])
-                ) ?>
+                'Use social platforms such as {0}, {1} or {2} to provide links to articles, posts, plugins, events, etc.',
+                $this->Html->link(__('Facebook'), Configure::read('Site.menu.items.community.facebook.url'), ['target' => '_blank']),
+                $this->Html->link(__('Discourse'), Configure::read('Site.menu.items.help.discourse.url'), ['target' => '_blank']),
+                $this->Html->link(__('Twitter'), Configure::read('Site.menu.items.community.twitter.url'), ['target' => '_blank'])
+            ) ?>
             </li>
         </ul>
         <h4><?= __('Help Your Local Community') ?></h4>
@@ -142,38 +142,38 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
         <h4><?= __('Confirm or Invalidate Existing Issues That Need a Way to Reproduce') ?></h4>
 
         <p><?= __(
-                'If an issue cannot be easily reproduced, or is unclear, it will be set to hold. Issues on hold generally need
+            'If an issue cannot be easily reproduced, or is unclear, it will be set to hold. Issues on hold generally need
 			a way to be confirmed or require additional information. You can help by finding out ways to reproduce
 			issues, or prodding issue authors for more information. Issues that are on hold can be found {0}',
-                $this->Html->link(__('here'), 'https://github.com/cakephp/cakephp/labels/On%20hold', ['target' => '_blank'])
-            ) ?></p>
+            $this->Html->link(__('here'), 'https://github.com/cakephp/cakephp/labels/On%20hold', ['target' => '_blank'])
+        ) ?></p>
         <h4><?= __('Bug Issues for Maintenance Releases') ?></h4>
 
         <p><?= __(
-                'Existing releases usually have a few issues open against them. These issues generally need patches and test
+            'Existing releases usually have a few issues open against them. These issues generally need patches and test
 			cases created for them, so they can be resolved. Preparing patches for open {0}
 			is a great way to get involved with CakePHP, and is one of the first steps to becoming a core contributor.',
-                $this->Html->link(__('unresolved issues'), 'https://github.com/cakephp/cakephp/issues?q=is%3Aopen', ['target' => '_blank'])
-            ) ?>
+            $this->Html->link(__('unresolved issues'), 'https://github.com/cakephp/cakephp/issues?q=is%3Aopen', ['target' => '_blank'])
+        ) ?>
         </p>
         <h4><?= __('Features and Enhancements for Future Releases') ?></h4>
 
         <p> <?= __(
-                'We are currently working on the {0}. There are still a number of
+            'We are currently working on the {0}. There are still a number of
 			incomplete tasks and {1}. If an issue has been moved into a specific milestone, it is planned for inclusion in that
 			release. Issues are moved into milestones based on community feedback and the core team\'s plans. If you
 			plan on contributing a feature, please also include relevant test cases for the feature. We want to keep
 			CakePHP as bug free as possible, and test cases have proven to help immensely. If you submit features
 			without test cases, and no documentation it is highly unlikely it will be merged in.',
-                $this->Html->link(__('4.x releases'), 'https://github.com/cakephp/cakephp/issues', ['target' => '_blank']),
-                $this->Html->link(__('unresolved defects'), 'https://github.com/cakephp/cakephp/issues?state=open&label%3ADefect', ['target' => '_blank'])
-            ) ?></p>
+            $this->Html->link(__('4.x releases'), 'https://github.com/cakephp/cakephp/issues', ['target' => '_blank']),
+            $this->Html->link(__('unresolved defects'), 'https://github.com/cakephp/cakephp/issues?state=open&label%3ADefect', ['target' => '_blank'])
+        ) ?></p>
 
         <p><?= __(
-                'CakePHP is {0}, so you can check the status of the {1} on the Jenkins server at any time.',
-                $this->Html->link(__('continuously integrated'), 'http://en.wikipedia.org/wiki/Continuous_integration', ['target' => '_blank']),
-                $this->Html->link(__('various builds'), 'http://ci.cakephp.org/')
-            ) ?>
+            'CakePHP is {0}, so you can check the status of the {1} on the Jenkins server at any time.',
+            $this->Html->link(__('continuously integrated'), 'http://en.wikipedia.org/wiki/Continuous_integration', ['target' => '_blank']),
+            $this->Html->link(__('various builds'), 'http://ci.cakephp.org/')
+        ) ?>
         </p>
     </div>
 
@@ -184,18 +184,18 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 
         <div class="br-bottom mb20"></div>
         <p><?= __(
-                'Documentation is another excellent way to start getting involved with CakePHP. We have two primary forms of
+            'Documentation is another excellent way to start getting involved with CakePHP. We have two primary forms of
 			documentation, the {0} and the {1}. The API
 			is generated from the source code, so if you find an inaccuracy or issue with the API documentation, you can
 			file a patch against the {2}. The Cookbook is a community managed
 			documentation source which can also be found on {3}.
 			Guidelines on contributing to the documentation can be reviewed {4}.',
-                $this->Html->link(__('API'), Configure::read('Site.menu.items.documentation.api.url')),
-                $this->Html->link(__('Cookbook'), Configure::read('Site.menu.items.documentation.book.url')),
-                $this->Html->link(__('source code'), 'https://github.com/cakephp/cakephp', ['target' => '_blank']),
-                $this->Html->link(__('GitHub'), 'https://github.com/cakephp/docs', ['target' => '_blank']),
-                $this->Html->link(__('here'), 'http://book.cakephp.org/4/en/contributing/documentation.html')
-            ) ?></p>
+            $this->Html->link(__('API'), Configure::read('Site.menu.items.documentation.api.url')),
+            $this->Html->link(__('Cookbook'), Configure::read('Site.menu.items.documentation.book.url')),
+            $this->Html->link(__('source code'), 'https://github.com/cakephp/cakephp', ['target' => '_blank']),
+            $this->Html->link(__('GitHub'), 'https://github.com/cakephp/docs', ['target' => '_blank']),
+            $this->Html->link(__('here'), 'http://book.cakephp.org/4/en/contributing/documentation.html')
+        ) ?></p>
     </div>
 
     <div id="translation" class="box-get">
@@ -203,12 +203,12 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
         <h3><?= __('Translations') ?><?= $this->Html->link('¶', '#translation', ['class' => 'headerlink', 'title' => __('Permalink to this headline')]) ?></h3>
         <div class="br-bottom mb20"></div>
         <p><?= __(
-                'We have developers from countries all over the world who use CakePHP. If you\'re a non-english speaker,
+            'We have developers from countries all over the world who use CakePHP. If you\'re a non-english speaker,
 			translating the the {0} content
 			into your language is another way to help support the community. Providing the official documentation and
 			support material in as many languages as possible helps lower the barrier to entry to using the framework.',
-                $this->Html->link(__('Cookbook'), Configure::read('Site.menu.items.documentation.book.url'))
-            ) ?>
+            $this->Html->link(__('Cookbook'), Configure::read('Site.menu.items.documentation.book.url'))
+        ) ?>
         </p>
     </div>
 </div>

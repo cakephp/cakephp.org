@@ -9,7 +9,7 @@
                         $this->Html->tag('strong', __('Community Center')),
                         $this->Html->tag('span', 'c', ['class' => 'glyph_range icon-getinvolved'])
                     )
-                ) ?>
+) ?>
             </div>
         </div>
     </div>

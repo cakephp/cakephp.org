@@ -13,7 +13,7 @@
                     <?= __(
                         'Use code generation and scaffolding features to {0}.',
                         $this->Html->tag('strong', __('rapidly build prototypes'))
-                    ) ?>
+) ?>
                 </p>
             </div>
 
@@ -23,10 +23,10 @@
                 <h4 class="title-small"><?= __('No Configuration') ?></h4>
 
                 <p><?= __(
-                        'No complicated XML or YAML files. Just setup your database and you\'re {0}.',
-                        $this->Html->tag('strong', __('ready to
+                    'No complicated XML or YAML files. Just setup your database and you\'re {0}.',
+                    $this->Html->tag('strong', __('ready to
 								bake'))
-                    ) ?></p>
+                ) ?></p>
             </div>
 
             <div class="box-services-c">
@@ -69,9 +69,9 @@
                 <?= $this->Html->image('secure.svg') ?>
                 <h4 class="title-small"><?= __('Secure') ?></h4>
                 <p><?= __('CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention. CakePHP codebase itself has been audited through the {0} program.', $this->Html->link(
-                        'Mozilla Secure Open Source',
-                        'https://bakery.cakephp.org/2017/11/22/mozilla_sos_audit_published.html'
-                    )) ?></p>
+                    'Mozilla Secure Open Source',
+                    'https://bakery.cakephp.org/2017/11/22/mozilla_sos_audit_published.html'
+                )) ?></p>
             </div>
         </div>
     </div>

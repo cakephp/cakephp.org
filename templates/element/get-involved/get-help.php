@@ -22,8 +22,8 @@ use Cake\Core\Configure;
                     '{0}: Join our CakePHP Slack Channel',
                     $this->Html->link('#Slack', Configure::read('Site.menu.items.help.slack.url'), ['target' => '_blank'])
                 )
-            )
-            ?>
+)
+        ?>
         </div>
     </div>
     <div class="col-sm-12 p0">
@@ -38,7 +38,7 @@ use Cake\Core\Configure;
                     $this->Html->link('IRC', Configure::read('Site.menu.items.help.irc.url'), ['target' => '_blank'])
                 )
             )
-            ?>
+?>
         </div>
     </div>
     <div class="col-sm-12 p0">
@@ -53,7 +53,7 @@ use Cake\Core\Configure;
                     $this->Html->link(__('Issues'), Configure::read('Site.menu.items.community.issues.url'), ['target' => '_blank'])
                 )
             )
-            ?>
+?>
         </div>
     </div>
     <div class="col-sm-12 p0">
@@ -68,7 +68,7 @@ use Cake\Core\Configure;
                     $this->Html->link(__('The Bakery'), Configure::read('Site.menu.items.community.blog.url'))
                 )
             )
-            ?>
+?>
         </div>
     </div>
     <div class="col-sm-12 p0">
@@ -83,7 +83,7 @@ use Cake\Core\Configure;
                     $this->Html->link(__('StackOverflow'), Configure::read('Site.menu.items.help.stackOverflow.url'), ['target' => '_blank'])
                 )
             )
-            ?>
+?>
         </div>
     </div>
     <div class="col-sm-12 p0">
@@ -98,7 +98,7 @@ use Cake\Core\Configure;
                     $this->Html->link(__('Facebook'), Configure::read('Site.menu.items.community.facebook.url'), ['target' => '_blank'])
                 )
             )
-            ?>
+?>
         </div>
     </div>
     <div class="col-sm-12 p0">
@@ -113,7 +113,7 @@ use Cake\Core\Configure;
                     $this->Html->link(__('Google+'), Configure::read('Site.menu.items.help.googleplus.url'), ['target' => '_blank'])
                 )
             )
-            ?>
+?>
         </div>
     </div>
     <div class="col-sm-12 p0">
@@ -128,7 +128,7 @@ use Cake\Core\Configure;
                     $this->Html->link(__('YouTube'), Configure::read('Site.menu.items.community.youtube.url'), ['target' => '_blank'])
                 )
             )
-            ?>
+?>
         </div>
     </div>
     <div class="col-sm-12 p0">
@@ -143,7 +143,7 @@ use Cake\Core\Configure;
                     $this->Html->link(__('Twitter'), Configure::read('Site.menu.items.community.twitter.url'), ['target' => '_blank'])
                 )
             )
-            ?>
+?>
         </div>
     </div>
     <div class="col-sm-12 p0">
@@ -159,7 +159,7 @@ use Cake\Core\Configure;
                     $this->Html->link(__('CakePHP on Reddit'), 'https://www.reddit.com/r/cakephp/', ['target' => '_blank'])
                 )
             )
-            ?>
+?>
         </div>
     </div>
 </div>

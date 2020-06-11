@@ -14,7 +14,7 @@
                     __('Learn more.'),
                     ['controller' => 'pages', 'action' => 'display', 'get-involved'],
                     ['class' => "btn btn-home mt40"]
-                ) ?>
+) ?>
             </div>
         </div>
     </div>

@@ -21,7 +21,7 @@ if (!isset($availableLanguages)) {
             '#',
             ['escape' => false]
         );
-        ?>
+?>
         <ul class="submenu">
             <?= $this->App->menuItems($this->Menu->documentationItems()); ?>
         </ul>
@@ -82,7 +82,7 @@ if (!isset($availableLanguages)) {
             '#',
             ['escape' => false]
         );
-        ?>
+?>
         <div class="megamenu full megamenu2 full2">
             <div class="row">
                 <div class="col-6 pl30">
