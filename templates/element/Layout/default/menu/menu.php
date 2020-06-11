@@ -21,7 +21,7 @@ if (!isset($availableLanguages)) {
             '#',
             ['escape' => false]
         );
-        ?>
+?>
         <ul class="submenu">
             <?= $this->App->menuItems($this->Menu->documentationItems()); ?>
         </ul>
@@ -56,7 +56,7 @@ if (!isset($availableLanguages)) {
                 'prefix' => false,
                 'plugin' => false,
                 'controller' => 'Projects',
-                'action' => 'index'
+                'action' => 'index',
             ],
             ['escape' => false, 'class' => 'hide']
         ); ?>
@@ -82,7 +82,7 @@ if (!isset($availableLanguages)) {
             '#',
             ['escape' => false]
         );
-        ?>
+?>
         <div class="megamenu full megamenu2 full2">
             <div class="row">
                 <div class="col-6 pl30">
@@ -121,15 +121,17 @@ if (!isset($availableLanguages)) {
         ) ?>
         <ul class="submenu">
             <li></li>
-            <?php foreach ($availableLanguages as $lang => $alias): ?>
-                <?php if ($alias === $selectedLanguage) continue; ?>
+            <?php foreach ($availableLanguages as $lang => $alias) : ?>
+                <?php if ($alias === $selectedLanguage) {
+                    continue;
+                } ?>
                 <?php $pass = $this->request->getParam('pass') ?>
                 <li>
                     <?= $this->Html->link($alias, [
                         'language' => $lang,
                         'controller' => $this->request->getParam('controller'),
                         'action' => $this->request->getParam('action'),
-                        isset($pass[0]) ? $pass[0] : null
+                        isset($pass[0]) ? $pass[0] : null,
                     ]) ?>
                 </li>
             <?php endforeach; ?>

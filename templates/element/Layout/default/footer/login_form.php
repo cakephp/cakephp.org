@@ -24,10 +24,10 @@
                 <?= __('New user?') ?> <?= $this->Html->link(__('Register!'), '#') ?>
             </p>
             <?= $this->Html->link(
-    $this->Html->image('open-hub.png'),
-    'https://www.openhub.net/p/cakephp',
-    ['escape' => false]
-            ) ?>
+                $this->Html->image('open-hub.png'),
+                'https://www.openhub.net/p/cakephp',
+                ['escape' => false]
+) ?>
             <div class="mt10">
                 <?= $this->Html->link(
                     $this->Html->image('pingping.png'),
@@ -40,9 +40,9 @@
     </div>
     <div class="col-md-8 col-xs-6 p0 register">
         <?= $this->Html->link(
-                    $this->Html->image('open-hub.png'),
-                    'https://www.openhub.net/p/cakephp',
-                    ['escape' => false, 'target' => '_blank']
+            $this->Html->image('open-hub.png'),
+            'https://www.openhub.net/p/cakephp',
+            ['escape' => false, 'target' => '_blank']
         ) ?>
         <div class="mt10">
             <?= $this->Html->link(

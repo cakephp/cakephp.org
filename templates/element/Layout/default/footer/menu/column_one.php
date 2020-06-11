@@ -7,9 +7,9 @@
             'plugin' => false,
             'controller' => 'Pages',
             'action' => 'display',
-            'business-solutions'
+            'business-solutions',
         ],
-        'title' => __('Business Solutions')
+        'title' => __('Business Solutions'),
     ],
     'showcase' => [
         'class' => 'menu-title mt30',
@@ -17,10 +17,10 @@
         'url' => [
             'prefix' => false,
             'plugin' => false,
-            'controller' => 'Projects'
+            'controller' => 'Projects',
         ],
-        'title' => __('Showcase')
-    ]
+        'title' => __('Showcase'),
+    ],
 ];
 ?>
 <ul class="footer-menu business-solution">

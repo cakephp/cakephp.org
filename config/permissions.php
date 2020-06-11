@@ -120,7 +120,7 @@ return [
                 }
 
                 return false;
-            }
+            },
         ],
         //all roles allowed to Pages/display
         [
@@ -128,5 +128,5 @@ return [
             'controller' => 'Pages',
             'action' => 'display',
         ],
-    ]
+    ],
 ];

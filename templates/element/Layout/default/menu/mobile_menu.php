@@ -47,10 +47,10 @@ if (!isset($availableLanguages)) {
                                                 'plugin' => false,
                                                 'controller' => 'Pages',
                                                 'action' => 'display',
-                                                'business-solutions'
+                                                'business-solutions',
                                             ],
                                             ['escape' => false]
-                                        ) ?>
+) ?>
                                     </h4>
                                 </div>
                             </div>
@@ -77,7 +77,7 @@ if (!isset($availableLanguages)) {
                                                 'plugin' => false,
                                                 'controller' => 'Pages',
                                                 'action' => 'display',
-                                                'team'
+                                                'team',
                                             ],
                                             ['escape' => false]
                                         ) ?>
@@ -124,8 +124,10 @@ if (!isset($availableLanguages)) {
                                     <div class="panel-body sidebar-menu-body tarja-menu">
                                         <ul class="">
                                             <li></li>
-                                            <?php foreach ($availableLanguages as $lang => $alias): ?>
-                                                <?php if ($alias === $selectedLanguage) continue; ?>
+                                            <?php foreach ($availableLanguages as $lang => $alias) : ?>
+                                                <?php if ($alias === $selectedLanguage) {
+                                                    continue;
+                                                } ?>
                                                 <?php $pass = $this->request->getParam('pass') ?>
                                                 <li>
                                                     <?= $this->Html->link($alias, [
@@ -134,7 +136,7 @@ if (!isset($availableLanguages)) {
                                                         'language' => $lang,
                                                         'controller' => $this->request->getParam('controller'),
                                                         'action' => $this->request->getParam('action'),
-                                                        isset($pass[0]) ? $pass[0] : null
+                                                        isset($pass[0]) ? $pass[0] : null,
                                                     ]) ?>
                                                 </li>
                                             <?php endforeach; ?>
