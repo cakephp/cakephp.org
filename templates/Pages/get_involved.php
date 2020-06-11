@@ -3,13 +3,13 @@
 		<div class="row">
 			<div class="col-md-12 title-calendar ">
 				<?= $this->Html->tag(
-					'h1',
+                    'h1',
                     __(
-						'CakePHP {0} {1}',
-						$this->Html->tag('strong', __('Community Center')),
-						$this->Html->tag('span', 'c', ['class' => 'glyph_range icon-getinvolved'])
-					)
-				)?>
+                        'CakePHP {0} {1}',
+                        $this->Html->tag('strong', __('Community Center')),
+                        $this->Html->tag('span', 'c', ['class' => 'glyph_range icon-getinvolved'])
+                    )
+)?>
 			</div>
 		</div>
 	</div>

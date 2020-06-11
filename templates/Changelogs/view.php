@@ -17,7 +17,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
                         'CakePHP {0}',
                         $this->Html->tag('strong', __('Changelogs'))
                     )
-                )?>
+)?>
             </div>
         </div>
     </div>

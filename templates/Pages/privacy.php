@@ -17,7 +17,7 @@
                         $this->Html->tag('strong', __('Privacy Policy')),
                         $this->Html->tag('span', 'd', ['class' => 'glyph_range icon-privacy'])
                     )
-                )?>
+)?>
             </div>
         </div>
     </div>
@@ -136,7 +136,7 @@
                             'target' => '_blank',
                             'class' => 't-blue',
                         ])
-                    );
+);
                     ?>
                     <?php echo __('As an example, we may use analytics partners to analyze and measure, in the aggregate, 
 					the number of unique visitors to our Services.'); ?>

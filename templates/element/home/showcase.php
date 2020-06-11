@@ -16,7 +16,7 @@ $quotes = Configure::read('Site.quotes');
                         __("View Showcase"),
                         ['controller' => 'projects', 'action' => 'index'],
                         ['class' => 'btn btn-home mb40 mt10']
-                    ) ?>
+) ?>
                 </div>
 
                 <?= $this->element('home/quotes') ?>

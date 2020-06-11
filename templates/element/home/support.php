@@ -46,10 +46,10 @@ CakeDC.') ?>
 				<p class="rapid-contact-feedback"></p>
 				<div>
 					<?= $this->Html->link(__('Rapid Response'), '#', [
-						'class' => 'btn btn-home pull-left',
-						'data-toggle' => 'modal',
-						'data-target' => '#rapidresponse',
-					]) ?>
+                        'class' => 'btn btn-home pull-left',
+                        'data-toggle' => 'modal',
+                        'data-target' => '#rapidresponse',
+                    ]) ?>
 				</div>
 			</div>
 			<div class="box-services-c">
@@ -71,8 +71,8 @@ Development Corporation.') ?>
 </section>
 
 <?= $this->element('rapid_response', [
-	'modalId' => 'rapidresponse',
-	'firstTitle' => __('Rapid'),
-	'secondTitle' => __('Response'),
-	'description' => __('Request a rapid response from us now, and we\'ll contact you within {0}', $this->Html->tag('strong', __('24 hours!'))),
+    'modalId' => 'rapidresponse',
+    'firstTitle' => __('Rapid'),
+    'secondTitle' => __('Response'),
+    'description' => __('Request a rapid response from us now, and we\'ll contact you within {0}', $this->Html->tag('strong', __('24 hours!'))),
 ]) ?>

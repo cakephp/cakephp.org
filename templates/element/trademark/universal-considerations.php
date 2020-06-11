@@ -11,10 +11,10 @@
 		that we endorse your website. You can, though, say you like the CakePHP Framework, that you participate in
 		 the CakePHP community, that you are providing an unmodified version of the CakePHP Framework,
 		 or that you wrote a book describing how to use the CakePHP Framework.',
-		$this->Html->link(__('below'), '#considerations-about', ['class' => 't-blue']),
-		$this->Html->link(__('"likelihood of confusion"'), '#considerations-confusion', ['class' => 't-blue']),
+        $this->Html->link(__('below'), '#considerations-about', ['class' => 't-blue']),
+        $this->Html->link(__('"likelihood of confusion"'), '#considerations-confusion', ['class' => 't-blue']),
         $this->Html->link(__('"nominative use"'), '#considerations-nominative', ['class' => 't-blue'])
-    ); ?></p>
+); ?></p>
 
 	<p><?= __('This fundamental requirement, that it is always clear to people what they are getting and from whom, is reflected throughout this Policy. It should also serve as your guide if you are not sure about how you are using the
 		Marks.') ?></p>

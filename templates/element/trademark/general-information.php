@@ -6,8 +6,8 @@
         'The first or most prominent mention of a Mark on a webpage, document, packaging, or documentation should be
 		accompanied by a symbol indicating whether the mark is a registered trademark ("®") or an unregistered trademark
 		("™"). See our {0} for the correct symbol to use.',
-		$this->Html->link(__('Trademark List'), '#our-guidelines', ['class' => 't-blue'])
-	)?></p>
+        $this->Html->link(__('Trademark List'), '#our-guidelines', ['class' => 't-blue'])
+)?></p>
 
 	<p><?= __(
         'Also, if you are using our Marks in a way described in the sections {0},

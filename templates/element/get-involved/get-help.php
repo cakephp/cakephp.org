@@ -1,5 +1,6 @@
 <?php
 use Cake\Core\Configure;
+
 ?>
 
 <div id="getHelp" class="col-sm-12 get-social pt-100">
@@ -20,7 +21,7 @@ use Cake\Core\Configure;
                     '{0}: Join our CakePHP Slack Channel',
                     $this->Html->link('#Slack', Configure::read('Site.menu.items.help.slack.url'), ['target' => '_blank'])
                 )
-            )
+)
         ?>
         </div>
     </div>
@@ -50,7 +51,7 @@ use Cake\Core\Configure;
                     '{0}: Report issues, help fix bugs or implement features',
                     $this->Html->link(__('Issues'), Configure::read('Site.menu.items.community.issues.url'), ['target' => '_blank'])
                 )
-            )
+)
 ?>
         </div>
     </div>
@@ -65,7 +66,7 @@ use Cake\Core\Configure;
                     '{0}: Find news and articles on many topics regarding CakePHP',
                     $this->Html->link(__('The Bakery'), Configure::read('Site.menu.items.community.blog.url'))
                 )
-            )
+)
 ?>
         </div>
     </div>
@@ -80,7 +81,7 @@ use Cake\Core\Configure;
                     '{0}: Get your issues resolved by the open source community',
                     $this->Html->link(__('StackOverflow'), Configure::read('Site.menu.items.help.stackOverflow.url'), ['target' => '_blank'])
                 )
-            )
+)
 ?>
         </div>
     </div>
@@ -95,7 +96,7 @@ use Cake\Core\Configure;
                     '{0}: Official announcements from the CakePHP community',
                     $this->Html->link(__('Facebook'), Configure::read('Site.menu.items.community.facebook.url'), ['target' => '_blank'])
                 )
-            )
+)
 ?>
         </div>
     </div>
@@ -110,7 +111,7 @@ use Cake\Core\Configure;
                     '{0}: Official community channel for the project',
                     $this->Html->link(__('Google+'), Configure::read('Site.menu.items.help.googleplus.url'), ['target' => '_blank'])
                 )
-            )
+)
 ?>
         </div>
     </div>
@@ -125,7 +126,7 @@ use Cake\Core\Configure;
                     '{0}: Tutorials and screencasts related to development and events',
                     $this->Html->link(__('YouTube'), Configure::read('Site.menu.items.community.youtube.url'), ['target' => '_blank'])
                 )
-            )
+)
 ?>
         </div>
     </div>
@@ -140,7 +141,7 @@ use Cake\Core\Configure;
                     '{0}: Get the latest updates from around the world',
                     $this->Html->link(__('Twitter'), Configure::read('Site.menu.items.community.twitter.url'), ['target' => '_blank'])
                 )
-            )
+)
 ?>
         </div>
     </div>
@@ -156,7 +157,7 @@ use Cake\Core\Configure;
                     '{0}: Official Subreddit of CakePHP',
                     $this->Html->link(__('CakePHP on Reddit'), 'https://www.reddit.com/r/cakephp/', ['target' => '_blank'])
                 )
-            )
+)
 ?>
         </div>
     </div>

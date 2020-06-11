@@ -2,10 +2,10 @@
 	<div class="row">
 		<div class="col-sm-12">
 			<?= $this->Html->link(__('Projects'), [
-				'controller' => 'Projects',
-				'action' => 'index'], [
-				'class' => 'btn-sm btn-primary',
-			]) ?>
+                'controller' => 'Projects',
+                'action' => 'index'], [
+                'class' => 'btn-sm btn-primary',
+            ]) ?>
 		</div>
 	</div>
 

@@ -31,7 +31,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
                     Configure::read('Site.menu.items.help.discourse.url'),
                     ['target' => '_blank']
                 )
-            )?></li>
+)?></li>
             <li><?= __('Comment on posts asking for help with a specific problem.')?></li>
         </ul>
         <p>

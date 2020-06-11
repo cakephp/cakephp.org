@@ -1,5 +1,6 @@
 <?php
 use Cake\Core\Configure;
+
 ?>
 <div id="comunityguidelinesside" class="col-sm-12 get-developer pt-100">
     <h2><?= __('Community Guidelines') ?><?= $this->Html->link('¶', '#comunityguidelinesside', ['class' => 'headerlink', 'title' => __('Permalink to this headline')]) ?></h2>

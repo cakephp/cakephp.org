@@ -1,5 +1,6 @@
 <?php
 use Cake\Core\Configure;
+
 ?>
 
 <div id="findjobdeveloper" class="col-sm-12 get-developer pt-100">

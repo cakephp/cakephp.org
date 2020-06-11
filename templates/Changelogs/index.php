@@ -17,7 +17,7 @@
                         'CakePHP {0}',
                         $this->Html->tag('strong', __('Changelogs'))
                     )
-                )?>
+)?>
             </div>
         </div>
     </div>

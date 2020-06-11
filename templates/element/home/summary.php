@@ -13,7 +13,7 @@
 					<?= __(
                         'Use code generation and scaffolding features to {0}.',
                         $this->Html->tag('strong', __('rapidly build prototypes'))
-                    ) ?>
+) ?>
 				</p>
 			</div>
 
@@ -59,7 +59,7 @@
 				<p>
 					<?= __(
                         'Instead of having to plan where things go, CakePHP comes with a {0} to guide you in developing your application.',
-						$this->Html->tag('strong', __('set of
+                        $this->Html->tag('strong', __('set of
 								conventions'))
                     ) ?>
 				</p>

@@ -2,10 +2,10 @@
 	<div class="modal-dialog" role="document">
 		<div class="modal-content modal-showcase">
 			<?= $this->Form->create(null, ['url' => [
-				'plugin' => false,
-				'controller' => 'contacts',
-				'action' => 'rapid',
-			], 'class' => 'support-form']); ?>
+                'plugin' => false,
+                'controller' => 'contacts',
+                'action' => 'rapid',
+            ], 'class' => 'support-form']); ?>
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
@@ -29,12 +29,12 @@
 								<label class="col-sm-2 control-label-rapid"><?= __('Name') ?></label>
 								<div class="col-sm-10">
 									<?= $this->Form->control('name', [
-										'label' => false,
-										'div' => false,
-										'class' => 'form-control form-plugin-rapid',
-										'placeholder' => __('Name'),
-										'required' => true,
-									]) ?>
+                                        'label' => false,
+                                        'div' => false,
+                                        'class' => 'form-control form-plugin-rapid',
+                                        'placeholder' => __('Name'),
+                                        'required' => true,
+                                    ]) ?>
 								</div>
 							</div>
 
@@ -42,12 +42,12 @@
 								<label class="col-sm-2 control-label-rapid"><?= __('Email') ?></label>
 								<div class="col-sm-10">
 									<?= $this->Form->control('email', [
-										'label' => false,
-										'div' => false,
-										'class' => 'form-control form-plugin-rapid',
-										'placeholder' => __('Email'),
-										'required' => true,
-									]) ?>
+                                        'label' => false,
+                                        'div' => false,
+                                        'class' => 'form-control form-plugin-rapid',
+                                        'placeholder' => __('Email'),
+                                        'required' => true,
+                                    ]) ?>
 								</div>
 							</div>
 
@@ -55,19 +55,19 @@
 								<label class="col-sm-2 control-label-rapid"><?= __('Type') ?></label>
 								<div class="col-sm-10">
 									<?= $this->Form->control('type', [
-										'div' => false,
-										'label' => false,
-										'class' => 'form-plugin-rapid type-select',
-										'type' => 'select',
-										'options' => [
-											'email' => __('Email me'),
-											'call' => __('Call me'),
-											'skype' => __('Skype me'),
-										],
-										'templates' => [
-											'inputContainer' => '{{content}}',
-										],
-									]) ?>
+                                        'div' => false,
+                                        'label' => false,
+                                        'class' => 'form-plugin-rapid type-select',
+                                        'type' => 'select',
+                                        'options' => [
+                                            'email' => __('Email me'),
+                                            'call' => __('Call me'),
+                                            'skype' => __('Skype me'),
+                                        ],
+                                        'templates' => [
+                                            'inputContainer' => '{{content}}',
+                                        ],
+                                    ]) ?>
 								</div>
 							</div>
 
@@ -75,11 +75,11 @@
 								<label class="col-sm-2 control-label-rapid"><?= __('Phone') ?></label>
 								<div class="col-sm-10">
 									<?= $this->Form->control('phone', [
-										'div' => false,
-										'label' => false,
-										'class' => 'form-plugin-rapid form-control',
-										'id' => 'intl-phone-number',
-									]) ?>
+                                        'div' => false,
+                                        'label' => false,
+                                        'class' => 'form-plugin-rapid form-control',
+                                        'id' => 'intl-phone-number',
+                                    ]) ?>
 								</div>
 							</div>
 
@@ -87,10 +87,10 @@
 								<label class="col-sm-2 control-label-rapid"><?= __('Skype') ?></label>
 								<div class="col-sm-10">
 									<?= $this->Form->control('skype', [
-										'div' => false,
-										'label' => false,
-										'class' => 'form-plugin-rapid form-control',
-									]) ?>
+                                        'div' => false,
+                                        'label' => false,
+                                        'class' => 'form-plugin-rapid form-control',
+                                    ]) ?>
 								</div>
 							</div>
 
@@ -98,22 +98,22 @@
 								<label class="col-sm-2 control-label-rapid"><?= __('Subject') ?></label>
 								<div class="col-sm-10">
 									<?= $this->Form->control('subject', [
-										'div' => false,
-										'label' => false,
-										'class' => 'form-plugin-rapid',
-										'type' => 'select',
-										'options' => [
-											'other' => "Let's talk",
-											'dev' => 'Development',
-											'consultancy' => 'Consultancy',
-											'review' => 'Code Review',
-											'migration' => 'Migration',
-											'training' => 'Training',
-										],
-										'templates' => [
-											'inputContainer' => '{{content}}',
-										],
-									]) ?>
+                                        'div' => false,
+                                        'label' => false,
+                                        'class' => 'form-plugin-rapid',
+                                        'type' => 'select',
+                                        'options' => [
+                                            'other' => "Let's talk",
+                                            'dev' => 'Development',
+                                            'consultancy' => 'Consultancy',
+                                            'review' => 'Code Review',
+                                            'migration' => 'Migration',
+                                            'training' => 'Training',
+                                        ],
+                                        'templates' => [
+                                            'inputContainer' => '{{content}}',
+                                        ],
+                                    ]) ?>
 								</div>
 							</div>
 						</div>
@@ -126,9 +126,9 @@
 				</div>
 				<div class="col-xs-6">
 					<?= $this->Form->submit(__('Send'), [
-						'class' => 'btn btn-primary btn-modal-show',
-						'onclick' => "goog_report_conversion ()",
-					]) ?>
+                        'class' => 'btn btn-primary btn-modal-show',
+                        'onclick' => "goog_report_conversion ()",
+                    ]) ?>
 				</div>
 			</div>
 			<?= $this->Form->end(); ?>

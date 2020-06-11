@@ -11,10 +11,10 @@
 
 	<div class="text-center col-sm-6">
 		<?= $this->Html->link(__('Find out more'), '#', [
-			'class' => 'btn btn-expertise mt20',
-			'data-toggle' => 'modal',
-			'data-target' => '#findoutmore',
-		])?>
+            'class' => 'btn btn-expertise mt20',
+            'data-toggle' => 'modal',
+            'data-target' => '#findoutmore',
+        ])?>
 
 		<p class="rapid-contact-feedback"></p>
 	</div>
@@ -87,8 +87,8 @@
 </div>
 
 <?= $this->element('rapid_response', [
-	'modalId' => 'findoutmore',
-	'firstTitle' => __('Find out'),
-	'secondTitle' => __('More'),
-	'description' => __('Looking to learn more about what CakeDC has to offer? Share your details with us below, and we\'ll contact you within {0}', $this->Html->tag('strong', __('24 hours!'))),
+    'modalId' => 'findoutmore',
+    'firstTitle' => __('Find out'),
+    'secondTitle' => __('More'),
+    'description' => __('Looking to learn more about what CakeDC has to offer? Share your details with us below, and we\'ll contact you within {0}', $this->Html->tag('strong', __('24 hours!'))),
 ]) ?>
