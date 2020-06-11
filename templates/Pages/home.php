@@ -22,4 +22,4 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 
 <?= $this->element('home/cakefest_sponsors')?>
 
-<?= $this->element('home/newsletter')?>
+<?= $this->element('home/newsletter');

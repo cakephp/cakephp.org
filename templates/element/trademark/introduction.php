@@ -17,10 +17,12 @@
 		clarity for you to understand whether we will consider your use licensed or non-infringing.')?>
 </p>
 <p>
-	<?= __('The sections that follow describe what trademarks are covered by these Guidelines, as well as uses of the
+	<?= __(
+        'The sections that follow describe what trademarks are covered by these Guidelines, as well as uses of the
 		trademarks that are allowed without additional permission from us. If you want to use our trademarks in ways that
 		are not described in this Policy, please see "{0}" below for contact information.
 		Any use that does not comply with this Policy or for which we have not separately provided written permission is
 		not a use that we have approved, so you must decide for yourself whether the use is nevertheless lawful.',
-		$this->Html->link(__('Where to get further information'), '#general-information', ['class' => 't-blue']))?>
+        $this->Html->link(__('Where to get further information'), '#general-information', ['class' => 't-blue'])
+    )?>
 </p>

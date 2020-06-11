@@ -4,7 +4,7 @@
 			<?= $this->Form->create(null, ['url' => [
 				'plugin' => false,
 				'controller' => 'contacts',
-				'action' => 'rapid'
+				'action' => 'rapid',
 			], 'class' => 'support-form']); ?>
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -33,7 +33,7 @@
 										'div' => false,
 										'class' => 'form-control form-plugin-rapid',
 										'placeholder' => __('Name'),
-										'required' => true
+										'required' => true,
 									]) ?>
 								</div>
 							</div>
@@ -46,7 +46,7 @@
 										'div' => false,
 										'class' => 'form-control form-plugin-rapid',
 										'placeholder' => __('Email'),
-										'required' => true
+										'required' => true,
 									]) ?>
 								</div>
 							</div>
@@ -62,11 +62,11 @@
 										'options' => [
 											'email' => __('Email me'),
 											'call' => __('Call me'),
-											'skype' => __('Skype me')
+											'skype' => __('Skype me'),
 										],
 										'templates' => [
-											'inputContainer' => '{{content}}'
-										]
+											'inputContainer' => '{{content}}',
+										],
 									]) ?>
 								</div>
 							</div>
@@ -78,7 +78,7 @@
 										'div' => false,
 										'label' => false,
 										'class' => 'form-plugin-rapid form-control',
-										'id' => 'intl-phone-number'
+										'id' => 'intl-phone-number',
 									]) ?>
 								</div>
 							</div>
@@ -108,11 +108,11 @@
 											'consultancy' => 'Consultancy',
 											'review' => 'Code Review',
 											'migration' => 'Migration',
-											'training' => 'Training'
+											'training' => 'Training',
 										],
 										'templates' => [
-											'inputContainer' => '{{content}}'
-										]
+											'inputContainer' => '{{content}}',
+										],
 									]) ?>
 								</div>
 							</div>

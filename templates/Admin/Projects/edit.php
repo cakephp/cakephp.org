@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="col-sm-12 crud-actions">
 			<?= $this->Html->link(__('View'), ['action' => 'view', $project->id], [
-				'class' => 'btn-sm btn-primary'
+				'class' => 'btn-sm btn-primary',
 			]) ?>
 
 			<?= $this->Form->postLink(
@@ -10,12 +10,12 @@
 				['action' => 'delete', $project->id],
 				[
 					'confirm' => __('Are you sure you want to delete # {0}?', $project->id),
-					'class' => 'btn-sm btn-danger'
+					'class' => 'btn-sm btn-danger',
 				]
 			)?>
 
 			<?= $this->Html->link(__('List Projects'), ['action' => 'index'], [
-				'class' => 'btn-sm btn-primary'
+				'class' => 'btn-sm btn-primary',
 			]) ?>
 		</div>
 	</div>

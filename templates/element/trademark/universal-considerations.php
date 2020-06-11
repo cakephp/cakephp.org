@@ -1,7 +1,8 @@
 <div id="universal-considerations" class="col-sm-12">
 	<h3><?= __('Universal considerations for all uses') ?></h3>
 
-	<p><?= __('Whenever you use one of the Marks, you must always do so in a way that does not mislead anyone, either directly or by
+	<p><?= __(
+        'Whenever you use one of the Marks, you must always do so in a way that does not mislead anyone, either directly or by
 		omission, about exactly what they are getting and from whom. The law reflects this requirement in two major ways described
 		in more detail {0}: it prohibits creating a {1} but allows for {2}. For example, you cannot say you are distributing
 		the CakePHP Framework when you\'re distributing a modified version of it, because people would be confused
@@ -12,7 +13,8 @@
 		 or that you wrote a book describing how to use the CakePHP Framework.',
 		$this->Html->link(__('below'), '#considerations-about', ['class' => 't-blue']),
 		$this->Html->link(__('"likelihood of confusion"'), '#considerations-confusion', ['class' => 't-blue']),
-		$this->Html->link(__('"nominative use"'), '#considerations-nominative', ['class' => 't-blue'])); ?></p>
+        $this->Html->link(__('"nominative use"'), '#considerations-nominative', ['class' => 't-blue'])
+    ); ?></p>
 
 	<p><?= __('This fundamental requirement, that it is always clear to people what they are getting and from whom, is reflected throughout this Policy. It should also serve as your guide if you are not sure about how you are using the
 		Marks.') ?></p>

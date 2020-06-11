@@ -10,8 +10,10 @@
 				<?= $this->Html->image('build_quickly.svg') ?>
 				<h4 class="title-small"><?= __('Build Quickly') ?></h4>
 				<p>
-					<?= __('Use code generation and scaffolding features to {0}.',
-						$this->Html->tag('strong', __('rapidly build prototypes'))) ?>
+					<?= __(
+                        'Use code generation and scaffolding features to {0}.',
+                        $this->Html->tag('strong', __('rapidly build prototypes'))
+                    ) ?>
 				</p>
 			</div>
 
@@ -20,9 +22,11 @@
 
 				<h4 class="title-small"><?= __('No Configuration') ?></h4>
 
-				<p><?= __('No complicated XML or YAML files. Just setup your database and you\'re {0}.',
-						$this->Html->tag('strong', __('ready to
-								bake'))) ?></p>
+				<p><?= __(
+                    'No complicated XML or YAML files. Just setup your database and you\'re {0}.',
+                    $this->Html->tag('strong', __('ready to
+								bake'))
+                ) ?></p>
 			</div>
 
 			<div class="box-services-c">
@@ -30,8 +34,10 @@
 
 				<h4 class="title-small"><?= __('Friendly License') ?></h4>
 				<p>
-					<?= __('CakePHP is licensed under the MIT license which makes it perfect for use in {0}.',
-						$this->Html->tag('strong', __('Commercial applications'))) ?>
+					<?= __(
+                        'CakePHP is licensed under the MIT license which makes it perfect for use in {0}.',
+                        $this->Html->tag('strong', __('Commercial applications'))
+                    ) ?>
 				</p>
 			</div>
 
@@ -51,17 +57,21 @@
 				<h4 class="title-small"><?= __('Clean MVC Conventions') ?></h4>
 
 				<p>
-					<?= __('Instead of having to plan where things go, CakePHP comes with a {0} to guide you in developing your application.',
+					<?= __(
+                        'Instead of having to plan where things go, CakePHP comes with a {0} to guide you in developing your application.',
 						$this->Html->tag('strong', __('set of
-								conventions'))) ?>
+								conventions'))
+                    ) ?>
 				</p>
 			</div>
 
 			<div class="box-services-c">
 				<?= $this->Html->image('secure.svg') ?>
 				<h4 class="title-small"><?= __('Secure') ?></h4>
-				<p><?= __('CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention. CakePHP codebase itself has been audited through the {0} program.', $this->Html->link('Mozilla Secure Open Source',
-                        'https://bakery.cakephp.org/2017/11/22/mozilla_sos_audit_published.html')) ?></p>
+				<p><?= __('CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention. CakePHP codebase itself has been audited through the {0} program.', $this->Html->link(
+                    'Mozilla Secure Open Source',
+                    'https://bakery.cakephp.org/2017/11/22/mozilla_sos_audit_published.html'
+                )) ?></p>
 			</div>
 		</div>
 	</div>

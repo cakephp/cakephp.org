@@ -4,7 +4,7 @@
 			<?= $this->Html->link(__('Projects'), [
 				'controller' => 'Projects',
 				'action' => 'index'], [
-				'class' => 'btn-sm btn-primary'
+				'class' => 'btn-sm btn-primary',
 			]) ?>
 		</div>
 	</div>

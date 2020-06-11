@@ -7,12 +7,12 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 ?>
 <?= $this->element('adwords/showcase')?>
 <section class="show-title">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 title-showcase">
-				<h1><?= __("CakePHP Success Stories") ?></h1>
-				<h3><?= __("Here’s how CakePHP has helped other companies to succeed.") ?></h3>
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 title-showcase">
+                <h1><?= __("CakePHP Success Stories") ?></h1>
+                <h3><?= __("Here’s how CakePHP has helped other companies to succeed.") ?></h3>
+            </div>
+        </div>
+    </div>
 </section>

@@ -6,7 +6,7 @@
 		<li>
 			<?= $this->Html->link(__('Trademarks subject to the guidelines'), '#guidelines')?>
 			<ol>
-				<li><?= $this->Html->link( __('Our trademarks'), '#our-guidelines')?></li>
+				<li><?= $this->Html->link(__('Our trademarks'), '#our-guidelines')?></li>
 				<li><?= $this->Html->link(__('The trademarks we are licensing in this Policy'), '#policy')?></li>
 			</ol>
 		</li>
@@ -45,7 +45,7 @@
 					<ol>
 						<li><?= $this->Html->link(__('Websites'), '#websites')?></li>
 						<li><?= $this->Html->link(__('Publications and presentations'), '#publications')?></li>
-						<li><?= $this->Html->link(__('Events'),'#events')?></li>
+						<li><?= $this->Html->link(__('Events'), '#events')?></li>
 					</ol>
 				</li>
 				<li>

@@ -15,12 +15,12 @@
 		</li>
 	</ul>
 	<p><?= __('More information on the conference and ticket sales can be found on the {0}', $this->Html->link(
-			__('CakeFest website'),
-			'http://cakefest.org/',
-			[
+        __('CakeFest website'),
+        'http://cakefest.org/',
+        [
 				'class' => 't-blue',
-				'target' => '_blank'
+				'target' => '_blank',
 			]
-		)) ?>
+    )) ?>
 	</p>
 </div>

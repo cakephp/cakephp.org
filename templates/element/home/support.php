@@ -48,7 +48,7 @@ CakeDC.') ?>
 					<?= $this->Html->link(__('Rapid Response'), '#', [
 						'class' => 'btn btn-home pull-left',
 						'data-toggle' => 'modal',
-						'data-target' => '#rapidresponse'
+						'data-target' => '#rapidresponse',
 					]) ?>
 				</div>
 			</div>
@@ -74,5 +74,5 @@ Development Corporation.') ?>
 	'modalId' => 'rapidresponse',
 	'firstTitle' => __('Rapid'),
 	'secondTitle' => __('Response'),
-	'description' => __('Request a rapid response from us now, and we\'ll contact you within {0}', $this->Html->tag('strong', __('24 hours!')))
+	'description' => __('Request a rapid response from us now, and we\'ll contact you within {0}', $this->Html->tag('strong', __('24 hours!'))),
 ]) ?>

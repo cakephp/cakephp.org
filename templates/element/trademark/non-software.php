@@ -4,7 +4,7 @@
 	<p><?= __(
 		'See {0}, above, which also apply.',
 		$this->Html->link(__("Universal considerations for all uses"), '#universal-considerations', [
-			'class' => 't-blue'
+			'class' => 't-blue',
 		])
 	) ?> </p>
 	<h4 id="non-infringing" class="p-trad-sub"><?= __('Uses we consider non-infringing') ?></h4>
