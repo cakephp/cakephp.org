@@ -14,6 +14,9 @@
  */
 namespace App\Controller;
 
+use Cake\Controller\Component\FlashComponent;
+use Cake\Controller\Component\FormProtectionComponent;
+use Cake\Controller\Component\RequestHandlerComponent;
 use Cake\Controller\Controller;
 use Cake\Core\Configure;
 use Cake\Event\EventInterface;
@@ -48,11 +51,9 @@ class AppController extends Controller
     {
         parent::initialize();
 
-        $this->loadComponent('RequestHandler');
-        $this->loadComponent('Flash');
-        $this->loadComponent('Security');
-        $this->loadComponent('Csrf');
-        $this->loadComponent('CakeDC/Users.UsersAuth');
+        $this->loadComponent(RequestHandlerComponent::class);
+        $this->loadComponent(FlashComponent::class);
+        $this->loadComponent(FormProtectionComponent::class);
     }
 
     public function beforeFilter(EventInterface $event)
