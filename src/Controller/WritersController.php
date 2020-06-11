@@ -2,15 +2,17 @@
 
 namespace App\Controller;
 
+use App\Model\Table\WritersTable;
 use Cake\Core\Configure;
 use Cake\Event\EventInterface;
 use Cake\Mailer\Email;
+use Cake\Network\Response;
 use ReCaptcha\ReCaptcha;
 
 /**
  * Writers Controller
  *
- * @property \App\Model\Table\WritersTable $Writers
+ * @property WritersTable $Writers
  */
 class WritersController extends AppController
 {
@@ -24,7 +26,7 @@ class WritersController extends AppController
     /**
      * Index method
      *
-     * @return \Cake\Network\Response|null
+     * @return Response|null
      */
     public function index()
     {
@@ -34,7 +36,7 @@ class WritersController extends AppController
             $recaptcha = new ReCaptcha(Configure::read('ReCaptcha.secret_key'));
             $resp = $recaptcha->verify($this->request->data('g-recaptcha-response'), $this->request->clientIp());
             if ($resp->isSuccess()) {
-                $writer = $this->Writers->newEntity($this->request->data);
+                $writer = $this->Writers->newEntity($this->request->getData());
                 $writer->client_ip = $this->request->clientIp();
                 if ($this->Writers->save($writer)) {
                     $email = new Email('default');

@@ -3,7 +3,10 @@
 namespace App\Controller\Admin;
 
 use App\Controller\AppController;
+use Cake\Datasource\Exception\RecordNotFoundException;
 use Cake\Event\EventInterface;
+use Cake\Network\Exception\NotFoundException;
+use Cake\Network\Response;
 
 class ProjectsController extends AppController
 {
@@ -25,7 +28,7 @@ class ProjectsController extends AppController
     /**
      * Index method
      *
-     * @return \Cake\Network\Response|null
+     * @return Response|null
      */
     public function index()
     {
@@ -39,8 +42,8 @@ class ProjectsController extends AppController
      * View method
      *
      * @param string|null $id Project id.
-     * @return \Cake\Network\Response|null
-     * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
+     * @return Response|null
+     * @throws RecordNotFoundException When record not found.
      */
     public function view($id = null)
     {
@@ -55,7 +58,7 @@ class ProjectsController extends AppController
     /**
      * Add method
      *
-     * @return \Cake\Network\Response|void Redirects on successful add, renders view otherwise.
+     * @return Response|void Redirects on successful add, renders view otherwise.
      */
     public function add()
     {
@@ -64,7 +67,7 @@ class ProjectsController extends AppController
         if ($this->request->is('post')) {
             $this->normalizeScreenMonitorImages();
 
-            $project = $this->Projects->patchEntity($project, $this->request->data, $this->patchOptions);
+            $project = $this->Projects->patchEntity($project, $this->request->getData(), $this->patchOptions);
             if ($this->Projects->save($project)) {
                 $this->Flash->success(__('The project has been saved.'));
 
@@ -84,8 +87,8 @@ class ProjectsController extends AppController
      */
     private function normalizeScreenMonitorImages()
     {
-        if (isset($this->request->data['screen_monitor_images']['file'])) {
-            $files = $this->request->data['screen_monitor_images']['file'];
+        //@todo fix this
+        if ($files = $this->request->getData('screen_monitor_images.file')) {
             $this->request->data['screen_monitor_images'] = [];
 
             foreach ($files as $f) {
@@ -98,8 +101,8 @@ class ProjectsController extends AppController
      * Edit method
      *
      * @param string|null $id Project id.
-     * @return \Cake\Network\Response|void Redirects on successful edit, renders view otherwise.
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
+     * @return Response|void Redirects on successful edit, renders view otherwise.
+     * @throws NotFoundException When record not found.
      */
     public function edit($id = null)
     {
@@ -112,7 +115,7 @@ class ProjectsController extends AppController
 
             unset($project->perspective_image);
 
-            $project = $this->Projects->patchEntity($project, $this->request->data, $this->patchOptions);
+            $project = $this->Projects->patchEntity($project, $this->request->getData(), $this->patchOptions);
 
             if ($this->Projects->save($project)) {
                 $this->Flash->success(__('The project has been saved.'));
@@ -130,8 +133,8 @@ class ProjectsController extends AppController
      * Delete method
      *
      * @param string|null $id Project id.
-     * @return \Cake\Network\Response|null Redirects to index.
-     * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
+     * @return Response|null Redirects to index.
+     * @throws RecordNotFoundException When record not found.
      */
     public function delete($id = null)
     {

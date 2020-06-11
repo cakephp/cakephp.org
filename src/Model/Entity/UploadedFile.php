@@ -2,6 +2,7 @@
 
 namespace App\Model\Entity;
 
+use Cake\I18n\Time;
 use Cake\ORM\Entity;
 
 /**
@@ -12,8 +13,8 @@ use Cake\ORM\Entity;
  * @property string $dir
  * @property string $size
  * @property string $type
- * @property \Cake\I18n\Time $created
- * @property \Cake\I18n\Time $modified
+ * @property Time $created
+ * @property Time $modified
  */
 class UploadedFile extends Entity
 {

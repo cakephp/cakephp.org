@@ -20,6 +20,7 @@ use Cake\Controller\Component\FormProtectionComponent;
 use Cake\Controller\Component\RequestHandlerComponent;
 use Cake\Controller\Controller;
 use Cake\Core\Configure;
+use Cake\Event\Event;
 use Cake\Event\EventInterface;
 use Cake\I18n\I18n;
 
@@ -87,7 +88,7 @@ class AppController extends Controller
     /**
      * Before render callback.
      *
-     * @param \Cake\Event\Event $event The beforeRender event.
+     * @param Event $event The beforeRender event.
      * @return void
      */
     public function beforeRender(EventInterface $event)

@@ -4,7 +4,9 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 use Cake\Core\Configure;
+use Cake\Event\Event;
 use Cake\Event\EventInterface;
+use Cake\Network\Response;
 
 /**
  * Changelogs Controller
@@ -14,29 +16,15 @@ use Cake\Event\EventInterface;
  */
 class ChangelogsController extends AppController
 {
-
-    /**
-     * Initialize method
-     *
-     * @return void
-     */
-    public function initialize(): void
-    {
-        parent::initialize();
-
-        $this->loadComponent('Flash');
-    }
-
     /**
      * Before Filter
      *
-     * @param \Cake\Event\Event $event The event object.
+     * @param Event $event The event object.
      * @return void
      */
     public function beforeFilter(EventInterface $event)
     {
         parent::beforeFilter($event);
-        $this->Auth->allow();
         $this->Changelogs->repository(Configure::read('Changelog.Repository'));
     }
 
@@ -55,7 +43,7 @@ class ChangelogsController extends AppController
      * View changelog
      *
      * @param string $tag Tag to view
-     * @return void|\Cake\Network\Response Redirects on invalid tag
+     * @return void|Response Redirects on invalid tag
      */
     public function view($tag = null)
     {

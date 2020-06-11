@@ -36,8 +36,8 @@ class UploadedFilesTable extends Table
     /**
      * Default validation rules.
      *
-     * @param \Cake\Validation\Validator $validator Validator instance.
-     * @return \Cake\Validation\Validator
+     * @param Validator $validator Validator instance.
+     * @return Validator
      */
     public function validationDefault(Validator $validator): Validator
     {
@@ -67,9 +67,9 @@ class UploadedFilesTable extends Table
     /**
      * beforeSave
      *
-     * @param \Cake\Event\Event $event an event instance
-     * @param \ArrayObject $entity data being marshalled
-     * @param \ArrayObject $options options for the current event
+     * @param Event $event an event instance
+     * @param ArrayObject $entity data being marshalled
+     * @param ArrayObject $options options for the current event
      * @return void
      */
     public function beforeSave(Event $event, Entity $entity, ArrayObject $options)

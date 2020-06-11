@@ -13,7 +13,7 @@ use App\Model\Entity\Project;
  * Projects Model
  *
  */
-class ProjectsTable extends \Cake\ORM\Table
+class ProjectsTable extends Table
 {
     /**
      * Initialize method
@@ -37,10 +37,10 @@ class ProjectsTable extends \Cake\ORM\Table
     /**
      * Default validation rules.
      *
-     * @param \Cake\Validation\Validator $validator Validator instance.
-     * @return \Cake\Validation\Validator
+     * @param Validator $validator Validator instance.
+     * @return Validator
      */
-    public function validationDefault(\Cake\Validation\Validator $validator): Validator
+    public function validationDefault(Validator $validator): Validator
     {
         $validator->integer('id')->allowEmpty('id', 'create');
         $validator->requirePresence('title')->notEmpty('title');
@@ -60,7 +60,7 @@ class ProjectsTable extends \Cake\ORM\Table
      * @param array $options options
      * @return bool
      */
-    public function beforeSave(\Cake\Event\Event $event, \Cake\ORM\Entity $entity, $options)
+    public function beforeSave(Event $event, Entity $entity, $options)
     {
         if (empty($entity->perspective_image->file['name'])) {
             unset($entity->perspective_image);

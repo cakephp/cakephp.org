@@ -15,6 +15,7 @@
 
 namespace App\Console;
 
+use Composer\IO\IOInterface;
 use Composer\Script\Event;
 use Exception;
 
@@ -28,9 +29,9 @@ class Installer
     /**
      * Does some routine installation tasks so people don't have to.
      *
-     * @param \Composer\Script\Event $event The composer event object.
+     * @param Event $event The composer event object.
      * @return void
-     * @throws \Exception Exception raised by validator.
+     * @throws Exception Exception raised by validator.
      */
     public static function postInstall(Event $event)
     {
@@ -74,7 +75,7 @@ class Installer
      * Create the config/app.php file if it does not exist.
      *
      * @param string $dir The application's root directory.
-     * @param \Composer\IO\IOInterface $io IO interface to write to console.
+     * @param IOInterface $io IO interface to write to console.
      * @return void
      */
     public static function createAppConfig($dir, $io)
@@ -91,7 +92,7 @@ class Installer
      * Create the `logs` and `tmp` directories.
      *
      * @param string $dir The application's root directory.
-     * @param \Composer\IO\IOInterface $io IO interface to write to console.
+     * @param IOInterface $io IO interface to write to console.
      * @return void
      */
     public static function createWritableDirectories($dir, $io)
@@ -122,7 +123,7 @@ class Installer
      * This is not the most secure default, but it gets people up and running quickly.
      *
      * @param string $dir The application's root directory.
-     * @param \Composer\IO\IOInterface $io IO interface to write to console.
+     * @param IOInterface $io IO interface to write to console.
      * @return void
      */
     public static function setFolderPermissions($dir, $io)
@@ -167,7 +168,7 @@ class Installer
      * Set the security.salt value in the application's config file.
      *
      * @param string $dir The application's root directory.
-     * @param \Composer\IO\IOInterface $io IO interface to write to console.
+     * @param IOInterface $io IO interface to write to console.
      * @return void
      */
     public static function setSecuritySalt($dir, $io)

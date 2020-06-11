@@ -3,11 +3,12 @@
 namespace App\Controller;
 
 use Cake\Event\EventInterface;
+use Showcase\Model\Table\ProjectsTable;
 
 /**
  * Projects Controller
  *
- * @property \Showcase\Model\Table\ProjectsTable $Projects
+ * @property ProjectsTable $Projects
  */
 class ProjectsController extends AppController
 {

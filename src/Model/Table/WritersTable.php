@@ -2,6 +2,9 @@
 
 namespace App\Model\Table;
 
+use App\Model\Entity\Writer;
+use Cake\Datasource\EntityInterface;
+use Cake\ORM\Behavior\TimestampBehavior;
 use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
@@ -10,17 +13,17 @@ use Cake\Validation\Validator;
 /**
  * Writers Model
  *
- * @method \App\Model\Entity\Writer get($primaryKey, $options = [])
- * @method \App\Model\Entity\Writer newEntity($data = null, array $options = [])
- * @method \App\Model\Entity\Writer[] newEntities(array $data, array $options = [])
- * @method \App\Model\Entity\Writer|bool save(\Cake\Datasource\EntityInterface $entity, $options = [])
- * @method \App\Model\Entity\Writer patchEntity(\Cake\Datasource\EntityInterface $entity, array $data, array $options = [])
- * @method \App\Model\Entity\Writer[] patchEntities($entities, array $data, array $options = [])
- * @method \App\Model\Entity\Writer findOrCreate($search, callable $callback = null)
+ * @method Writer get($primaryKey, $options = [])
+ * @method Writer newEntity($data = null, array $options = [])
+ * @method Writer[] newEntities(array $data, array $options = [])
+ * @method Writer|bool save(EntityInterface $entity, $options = [])
+ * @method Writer patchEntity(EntityInterface $entity, array $data, array $options = [])
+ * @method Writer[] patchEntities($entities, array $data, array $options = [])
+ * @method Writer findOrCreate($search, callable $callback = null)
  *
- * @mixin \Cake\ORM\Behavior\TimestampBehavior
+ * @mixin TimestampBehavior
  */
-class WritersTable extends \Cake\ORM\Table
+class WritersTable extends Table
 {
     /**
      * Initialize method
@@ -40,10 +43,10 @@ class WritersTable extends \Cake\ORM\Table
     /**
      * Default validation rules.
      *
-     * @param \Cake\Validation\Validator $validator Validator instance.
-     * @return \Cake\Validation\Validator
+     * @param Validator $validator Validator instance.
+     * @return Validator
      */
-    public function validationDefault(\Cake\Validation\Validator $validator): \Cake\Validation\Validator
+    public function validationDefault(Validator $validator): Validator
     {
         $validator->integer('id')->allowEmpty('id', 'create');
         $validator->requirePresence('name', 'create')->notEmpty('name');

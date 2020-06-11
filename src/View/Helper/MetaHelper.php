@@ -5,12 +5,13 @@ namespace App\View\Helper;
 use Cake\Core\Configure;
 use Cake\Utility\Hash;
 use Cake\View\Helper;
+use Cake\View\Helper\UrlHelper;
 
 /**
  * Class MetaHelper
  *
  * @property \Cake\View\Helper\HtmlHelper $Html
- * @property \Cake\View\Helper\UrlHelper $Url
+ * @property UrlHelper $Url
  *
  * @package App\View\Helper
  */

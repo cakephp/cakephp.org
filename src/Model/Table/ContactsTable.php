@@ -7,6 +7,7 @@ use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
+use InvalidArgumentException;
 
 /**
  * Contacts Model
@@ -35,8 +36,8 @@ class ContactsTable extends Table
     /**
      * Default validation rules.
      *
-     * @param \Cake\Validation\Validator $validator Validator instance.
-     * @return \Cake\Validation\Validator
+     * @param Validator $validator Validator instance.
+     * @return Validator
      */
     public function validationDefault(Validator $validator): Validator
     {
@@ -68,8 +69,8 @@ class ContactsTable extends Table
      * Returns a rules checker object that will be used for validating
      * application integrity.
      *
-     * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
-     * @return \Cake\ORM\RulesChecker
+     * @param RulesChecker $rules The rules object to be modified.
+     * @return RulesChecker
      */
     public function buildRules(RulesChecker $rules): RulesChecker
     {
@@ -117,7 +118,7 @@ class ContactsTable extends Table
                 $body = 'come to ' . $data['where'];
                 break;
             default:
-                throw new \InvalidArgumentException();
+                throw new InvalidArgumentException();
         }
 
         return $intro . $body . '. Thanks.';
@@ -155,7 +156,7 @@ class ContactsTable extends Table
                 $subject = 'Road Trip';
                 break;
             default:
-                throw new \InvalidArgumentException();
+                throw new InvalidArgumentException();
         }
 
         $subject .= " ({$data['name']} / {$data['email']})";
