@@ -445,7 +445,7 @@ return [
                 'when' => '6/18/20, 11:00 AM UTC',
                 'where' => [
                     'name' => 'Join CakePHP 4 Meetup June 18 - 11 AM UTC',
-                    'url' => 'https://www.meetup.com/CakePHP-DE/events/271011975/',
+                    'url' => 'https://webinar.ringcentral.com/j/1483697678?pwd=WEVsSFB2Q3A3S3BkWktvaENnVGhqQT09',
                 ],
                 'description' => "
 The 3rd virtual CakePHP Community meetup is coming up!
