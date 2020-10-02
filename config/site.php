@@ -170,7 +170,7 @@ return [
                         'title' => __('Book'),
                     ],
                     'api' => [
-                        'url' => 'http://api.cakephp.org/',
+                        'url' => 'https://api.cakephp.org/',
                         'title' => __('API'),
                     ],
                     'videos' => [
@@ -439,15 +439,63 @@ return [
             [
                 'title' => __('CakePHP 4 online meetup'),
                 'hosted-by' => [
+                    'name' => 'Mark Scherer',
+                    'url' => 'https://github.com/dereuromark',
+                ],
+                'when' => '6/18/20, 11:00 AM UTC',
+                'where' => [
+                    'name' => 'Join CakePHP 4 Meetup June 18 - 11 AM UTC',
+                    'url' => 'https://webinar.ringcentral.com/j/1483697678?pwd=WEVsSFB2Q3A3S3BkWktvaENnVGhqQT09',
+                ],
+                'description' => "
+The 3rd virtual CakePHP Community meetup is coming up!
+
+We're using topics from the previous meetup, and we'll be spicing them with some typical use cases in real applications:
+
+## Topics
+
+- Xdebug configuration
+- Dev environment setup using vagrant, docker
+- Queue plugin
+- Reactphp configuration and usage
+- STI Alternative mysql plugin
+
+The topics and contents will be open to changes, and also open to contributions from attendees. We'll have some time for lightning talks to present about an idea/project/technology that you think it'll be useful for the community.
+
+Please note the meeting will be hosted through RingCentral webinars, you'll be prompted to download the RingCentral client, so it might be wise to join 10 minutes before the event starts to test your audio etc.
+We will share the link here prior to the event.
+
+---
+
+Note: This time Japan and other countries more eastern should also have a chance, so we need to do it a bit earlier for us.
+11 AM UTC = 13:00 Berlin Time (MESZ)",
+            ],
+            [
+                'title' => __('CakePHP 4 online meetup'),
+                'hosted-by' => [
                     'name' => 'Jorge M. González Martín',
                     'url' => 'https://github.com/steinkel',
                 ],
                 'when' => '5/20/20, 5:00 PM UTC',
                 'where' => [
-                    'name' => 'CakePHP Meetup',
-                    'url' => 'https://www.meetup.com/CakePHP-DE/events/270525132',
+                    'name' => 'Join CakePHP 4 Meetup May 20 - 5 PM UTC',
+                    'url' => 'https://webinar.ringcentral.com/j/1497230191?pwd=cTJ6Q0Y5cmc3amVGZXE4WkxiajVBdz09',
                 ],
-                'description' => "The 2nd virtual CakePHP Community meetup is coming up. Topics TBA.",
+                'description' => "The 2nd virtual CakePHP Community meetup is coming up!
+
+ We're using topics from the first meetup, and we'll be spicing them with some typical use cases in real applications:
+
+ ## Topics
+
+ - 'Baking a new plugin and TDD for it' by Mark Scherer ~1h
+ - 'Authorization plugin' by Jorge González ~1h
+ - 'Pro-Debug with Xdebug + stepping through in IDE' by Jorge González ~20m
+ - Mark Story will be around too and might be talking about common-table-expressions...
+
+ The topics and contents will be open to changes, and also open to contributions from attendees. We'll have some time for lightning talks to present about an idea/project/technology that you think it'll be useful for the community.
+
+ Please note the meeting will be hosted through RingCentral webinars, you'll be prompted to download the RingCentral client, so it might be wise to join 10 minutes before the event starts to test your audio etc.
+                ",
             ],
             [
                 'title' => __('Our first online Meetup (international edition)'),
@@ -461,32 +509,32 @@ return [
                     'url' => 'https://www.meetup.com/CakePHP-DE/events/270064069',
                 ],
                 'description' => "Hey Folks!
-        <br/>We didn't have a meetup for a while here in Berlin, and I think now with more and more
+        We didn't have a meetup for a while here in Berlin, and I think now with more and more
         events
         moving
         to online-only, it is time to set up a gathering again for our community.
         And since this is now fully online, why not inviting everyone of the (Cake)PHP coding community
         out
         there?
-        <br/>
-        <br/>### Save the data
-        <br/>
-        <br/>We will give you the details shortly.
-        <br/>If you want to co-host or add yourself as a speaker, please reach out with your topic.
-        <br/>
-        <br/>Main topics so far:
-        <br/>- CakePHP 4.1 preview
-        <br/>- IdeHelper / IDE usability and development speedup tips.
-        <br/>- Auth with Authentication plugin
-        <br/>- Fixture Factories
-        <br/>
-        <br/>### Time-Schedule
-        <br/>We want to do it 7PM Berlin time (GMT+2), so folks e.g. in the USA can join in still in the
+
+        ### Save the data
+
+        We will give you the details shortly.
+        If you want to co-host or add yourself as a speaker, please reach out with your topic.
+
+        Main topics so far:
+        - CakePHP 4.1 preview
+        - IdeHelper / IDE usability and development speedup tips.
+        - Auth with Authentication plugin
+        - Fixture Factories
+
+        ### Time-Schedule
+        We want to do it 7PM Berlin time (GMT+2), so folks e.g. in the USA can join in still in the
         late
         morning.
-        <br/>And the ones more east, should still also be able to join in, as well.
-        <br/>
-        <br/>Note: Event in English.",
+        And the ones more east, should still also be able to join in, as well.
+
+        Note: Event in English.",
             ],
         ],
     ],
