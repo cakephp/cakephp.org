@@ -1,4 +1,4 @@
-<section>
+<section class="hero">
 	<div class="container">
 		<div class="col-sm-12 col-md-12">
             <?= $this->Html->link($this->Html->image('cakefest2020.png'), 'https://cakefest.org/tickets', [
