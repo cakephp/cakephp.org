@@ -1,5 +1,21 @@
+@media (max-width: 375px) {
+    #showcase-carousel {
+        width: 300px;
+        height: 330px;
+    }
+
+    .showcase .carousel-inner {
+        width: 148px;
+        top: 68px;
+    }
+}
+
 @media (max-width: 767px) {
 /*CSS LIDO EM DISPOSITIVOS ATÉ 767 PX DE LARGURA*/
+    .hero:first-child {
+        margin-top: 80px;
+    }
+
     .title-home h1 {
     	font-size: 32px;
 	    margin-bottom: 5px;
@@ -684,6 +700,10 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
 /*CSS LIDO EM DISPOSITIVOS ATÉ 991 PX DE LARGURA*/
+    .hero:first-child {
+        margin-top: 90px;
+    }
+
 	.header-transparent .main-header {
 		background-color: #d33c44;
 	}
@@ -956,6 +976,10 @@
 
 @media (min-width: 992px){
 /*CSS LIDO EM DISPOSITIVOS ATÉ 1199 PX DE LARGURA*/
+    .hero:first-child {
+        margin-top: 110px;
+    }
+
 	.menu > li > a {
 		padding: 25px 20px;
 	}
@@ -1103,6 +1127,10 @@
 
 @media (min-width: 1200px) {
   /*CSS LIDO EM DISPOSITIVOS DE MAIS DE 1200 PX DE LARGURA*/
+    .hero:first-child {
+        margin-top: 166px;
+    }
+
 	.hero {
 		margin-top: 166px;
 		position: relative;
