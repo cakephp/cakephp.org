@@ -1,12 +1,12 @@
 <?php
 namespace App\Model\Table;
 
+use App\Model\Entity\Project;
 use Cake\Event\Event;
 use Cake\ORM\Entity;
 use Cake\ORM\Query;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
-use App\Model\Entity\Project;
 
 /**
  * Projects Model
@@ -92,7 +92,7 @@ class ProjectsTable extends Table
      * @param Event $event event
      * @param Entity $entity entity
      * @param array $options options
-     * @return bool
+     * @return void
      */
     public function beforeSave(Event $event, Entity $entity, $options)
     {
@@ -119,8 +119,8 @@ class ProjectsTable extends Table
     }
 
     /**
-     * @param Query $query
-     * @param array $options
+     * @param Query $query query
+     * @param array $options options
      * @return Query
      */
     public function findHighlighted($query, $options)
@@ -160,8 +160,8 @@ class ProjectsTable extends Table
     }
 
     /**
-     * @param Query $query
-     * @param array $options
+     * @param Query $query query
+     * @param array $options options
      * @return Query
      */
     public function findView($query, $options)
@@ -173,8 +173,8 @@ class ProjectsTable extends Table
     }
 
     /**
-     * @param Query $query
-     * @param array $options
+     * @param Query $query query
+     * @param array $options options
      * @return Query
      */
     public function findShowcase($query, $options)

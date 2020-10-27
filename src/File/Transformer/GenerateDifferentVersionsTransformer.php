@@ -5,6 +5,9 @@ use Josegonzalez\Upload\File\Transformer\DefaultTransformer;
 
 class GenerateDifferentVersionsTransformer extends DefaultTransformer
 {
+    /**
+     * @return array
+     */
     public function transform()
     {
         $result = parent::transform();

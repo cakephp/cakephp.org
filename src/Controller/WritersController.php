@@ -13,6 +13,9 @@ use ReCaptcha\ReCaptcha;
  */
 class WritersController extends AppController
 {
+    /**
+     * @inheritDoc
+     */
     public function beforeFilter(Event $event)
     {
         $this->Auth->allow();
@@ -23,7 +26,7 @@ class WritersController extends AppController
     /**
      * Index method
      *
-     * @return \Cake\Network\Response|null
+     * @return \Cake\Http\Response|null|void
      */
     public function index()
     {
