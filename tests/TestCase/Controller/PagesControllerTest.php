@@ -34,10 +34,10 @@ class PagesControllerTest extends IntegrationTestCase
      * @var array
      */
     public $fixtures = [
-        'app.projects',
-        'app.tags_tags',
-        'app.tags_tagged',
-        'app.uploaded_files',
+        'app.Projects',
+        'app.TagsTags',
+        'app.TagsTagged',
+        'app.UploadedFiles',
     ];
 
     /**

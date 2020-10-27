@@ -42,7 +42,7 @@ class ChangelogsController extends AppController
     /**
      * Index Action
      *
-     * @return void
+     * @return \Cake\Http\Response|null|void
      */
     public function index()
     {
@@ -53,8 +53,10 @@ class ChangelogsController extends AppController
     /**
      * View changelog
      *
+     * Redirects on invalid tag
+     *
      * @param string $tag Tag to view
-     * @return void|\Cake\Network\Response Redirects on invalid tag
+     * @return \Cake\Http\Response|null|void
      */
     public function view($tag = null)
     {

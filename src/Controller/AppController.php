@@ -55,6 +55,9 @@ class AppController extends Controller
         $this->loadComponent('CakeDC/Users.UsersAuth');
     }
 
+    /**
+     * @inheritDoc
+     */
     public function beforeFilter(Event $event)
     {
         $this->setLocale();

@@ -1,16 +1,22 @@
 <?php
 namespace App\Controller\Admin;
 
-use Cake\Event\Event;
 use App\Controller\AppController;
+use Cake\Event\Event;
 
 class ProjectsController extends AppController
 {
+    /**
+     * @var array
+     */
     private $patchOptions = ['associated' => [
         'ScreenMonitorImages' => ['validate' => false],
         'PerspectiveImages' => ['validate' => false],
     ]];
 
+    /**
+     * @inheritDoc
+     */
     public function beforeFilter(Event $event)
     {
         if (in_array($this->request->action, ['edit', 'add'])) {
@@ -24,7 +30,7 @@ class ProjectsController extends AppController
     /**
      * Index method
      *
-     * @return \Cake\Network\Response|null
+     * @return \Cake\Http\Response|null|void
      */
     public function index()
     {
@@ -38,7 +44,7 @@ class ProjectsController extends AppController
      * View method
      *
      * @param string|null $id Project id.
-     * @return \Cake\Network\Response|null
+     * @return \Cake\Http\Response|null|void
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
     public function view($id = null)
@@ -54,7 +60,9 @@ class ProjectsController extends AppController
     /**
      * Add method
      *
-     * @return \Cake\Network\Response|void Redirects on successful add, renders view otherwise.
+     * Redirects on successful add, renders view otherwise.
+     *
+     * @return \Cake\Http\Response|null|void
      */
     public function add()
     {
@@ -96,8 +104,10 @@ class ProjectsController extends AppController
     /**
      * Edit method
      *
+     * Redirects on successful edit, renders view otherwise.
+     *
      * @param string|null $id Project id.
-     * @return \Cake\Network\Response|void Redirects on successful edit, renders view otherwise.
+     * @return \Cake\Http\Response|null|void
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
     public function edit($id = null)
@@ -128,8 +138,10 @@ class ProjectsController extends AppController
     /**
      * Delete method
      *
+     * Redirects to index.
+     *
      * @param string|null $id Project id.
-     * @return \Cake\Network\Response|null Redirects to index.
+     * @return \Cake\Http\Response|null|void
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
     public function delete($id = null)

@@ -34,8 +34,7 @@ abstract class AbstractVersion
     /**
      * Constructor
      *
-     * @param array data
-     * @return void
+     * @param array $data data
      */
     public function __construct($data)
     {
@@ -68,11 +67,17 @@ abstract class AbstractVersion
         return [$dest => $this->getDestFilename($this->data['name'])];
     }
 
+    /**
+     * @return string
+     */
     private function mockPath()
     {
         return ROOT . DS . self::MOCKS_DIR . DS . $this->getMock();
     }
 
+    /**
+     * @return string
+     */
     private function extractSuffix()
     {
         $arr = explode('.', $this->getMock());
@@ -80,6 +85,10 @@ abstract class AbstractVersion
         return $arr[0];
     }
 
+    /**
+     * @param string $name name
+     * @return string
+     */
     private function getDestFilename($name)
     {
         $name = explode('.', $name);

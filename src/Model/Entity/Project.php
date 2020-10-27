@@ -31,6 +31,9 @@ class Project extends Entity
         'id' => false,
     ];
 
+    /**
+     * @return array
+     */
     protected function _getTagsArray()
     {
         if (empty($this->tags)) {
