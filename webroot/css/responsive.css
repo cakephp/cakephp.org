@@ -691,6 +691,10 @@
 	.cta-home {
 		text-align: center;
 	}
+
+    .register {
+        padding-left: 15px !important;
+    }
 }
 
 @media (max-width: 375px) {
@@ -702,6 +706,16 @@
     .showcase .carousel-inner {
         width: 148px;
         top: 68px;
+    }
+}
+
+@media (min-width: 768px) {
+    .register {
+        padding-left: 30px !important;
+    }
+
+    .row.col-p30 [class*="col-"].business-solution {
+        padding: 0 30px;
     }
 }
 
@@ -1130,6 +1144,14 @@
 	#showcase-carousel {
 		margin: 20px 0;
 	}
+
+    .register {
+        padding-left: 0 !important;
+    }
+
+    .row.col-p30 [class*="col-"].business-solution {
+        padding: 0 20px;
+    }
 }
 
 @media (min-width: 1200px) {
