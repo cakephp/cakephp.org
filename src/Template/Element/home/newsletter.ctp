@@ -5,7 +5,7 @@
 				<h3 class="title-white mb50 mt50"><?= __('Sign up for our newsletter.') ?></h3>
 
 				<form class="form" method="post" action="//cakephp.us9.list-manage.com/subscribe/post?u=f380de581acd576e7d802552a&amp;id=539d7fcbd1">
-					<div class="row col-p10">
+					<div class="row col-p10 pb-40">
 						<div class="col-sm-5 col-sm-offset-1">
 							<div class="row">
 								<div class="col-sm-12">
