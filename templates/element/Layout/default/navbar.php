@@ -5,7 +5,7 @@
                 <?=
                 $this->Html->link(
                     $this->Html->image('cake-logo.svg', ['alt' => __('Home')]),
-					['controller' => 'pages', 'action' => 'display', 'home'],
+                    '/',
                     ['escape' => false, 'class' => 'logo-cake']
                 ); ?>
             </div>
@@ -22,17 +22,17 @@
                 <?=
                 $this->Html->link(
                     $this->Html->image('cake-logo.svg', ['alt' => __('Home')]),
-					['controller' => 'pages', 'action' => 'display', 'home'],
-					['escape' => false, 'class' => 'logo-cake']
-				); ?>
-			</div>
-			<div class="col-sm-6 col-xs-6">
-				<div class="navbar-right">
-					<button class="btn-menu" data-toggle="modal" data-target="#menumodal"><i
-							class="toggle-modal icon_menu"></i></button>
-				</div>
-			</div>
-		</div>
-	</div>
+                    '/',
+                    ['escape' => false, 'class' => 'logo-cake']
+                ); ?>
+            </div>
+            <div class="col-sm-6 col-xs-6">
+                <div class="navbar-right">
+                    <button class="btn-menu" data-toggle="modal" data-target="#menumodal"><i
+                            class="toggle-modal icon_menu"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
 </header>
 <?= $this->element('Layout/default/menu/mobile_menu') ?>

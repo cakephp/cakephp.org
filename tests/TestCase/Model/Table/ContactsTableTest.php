@@ -1,9 +1,11 @@
 <?php
+
 namespace App\Test\TestCase\Model\Table;
 
 use App\Model\Table\ContactsTable;
 use Cake\ORM\TableRegistry;
 use Cake\TestSuite\TestCase;
+
 /**
  * App\Model\Table\ContactsTable Test Case
  */
@@ -21,6 +23,7 @@ class ContactsTableTest extends \Cake\TestSuite\TestCase
      * @var array
      */
     public $fixtures = ['app.contacts', 'app.projects', 'app.tags_tags', 'app.uploaded_files'];
+
     /**
      * setUp method
      *
@@ -32,6 +35,7 @@ class ContactsTableTest extends \Cake\TestSuite\TestCase
         $config = \Cake\ORM\TableRegistry::exists('Contacts') ? [] : ['className' => 'App\Model\Table\ContactsTable'];
         $this->Contacts = \Cake\ORM\TableRegistry::get('Contacts', $config);
     }
+
     /**
      * tearDown method
      *
@@ -42,6 +46,7 @@ class ContactsTableTest extends \Cake\TestSuite\TestCase
         unset($this->Contacts);
         parent::tearDown();
     }
+
     /**
      * Test initialize method
      *
@@ -51,6 +56,7 @@ class ContactsTableTest extends \Cake\TestSuite\TestCase
     {
         $this->markTestIncomplete('Not implemented yet.');
     }
+
     /**
      * Test validationDefault method
      *
@@ -60,6 +66,7 @@ class ContactsTableTest extends \Cake\TestSuite\TestCase
     {
         $this->markTestIncomplete('Not implemented yet.');
     }
+
     /**
      * Test buildRules method
      *

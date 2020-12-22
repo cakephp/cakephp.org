@@ -1,6 +1,8 @@
 <?php
+
 namespace App\Model\Entity;
 
+use Cake\I18n\Time;
 use Cake\ORM\Entity;
 
 /**
@@ -14,8 +16,8 @@ use Cake\ORM\Entity;
  * @property string $writing_sample
  * @property string $extra_information
  * @property string $client_ip
- * @property \Cake\I18n\Time $created
- * @property \Cake\I18n\Time $modified
+ * @property Time $created
+ * @property Time $modified
  */
 class Writer extends Entity
 {

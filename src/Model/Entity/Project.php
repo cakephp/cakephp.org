@@ -1,7 +1,10 @@
 <?php
+
 namespace App\Model\Entity;
 
+use Cake\I18n\Time;
 use Cake\ORM\Entity;
+
 /**
  * Project Entity.
  *
@@ -10,10 +13,10 @@ use Cake\ORM\Entity;
  * @property string $website
  * @property bool $is_highlighted
  * @property bool $is_showcase
- * @property \Cake\I18n\Time $created
- * @property \Cake\I18n\Time $modified
+ * @property Time $created
+ * @property Time $modified
  */
-class Project extends \Cake\ORM\Entity
+class Project extends Entity
 {
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
@@ -25,11 +28,13 @@ class Project extends \Cake\ORM\Entity
      * @var array
      */
     protected $_accessible = ['*' => true, 'id' => false];
+
     protected function _getTagsArray()
     {
         if (empty($this->tags)) {
             return '';
         }
+
         return collection($this->tags)->map(function ($t) {
             return $t->label;
         })->toArray();

@@ -4,11 +4,11 @@
  */
 
 if (!isset($selectedLanguage)) {
-	$selectedLanguage = 'en';
+    $selectedLanguage = 'en';
 }
 
 if (!isset($availableLanguages)) {
-	$availableLanguages = ['en'];
+    $availableLanguages = ['en'];
 }
 
 ?>
@@ -16,56 +16,73 @@ if (!isset($availableLanguages)) {
     <li class="toggle-menu"><i class="fa icon_menu"></i></li>
     <li class="first">
         <?=
-            $this->Html->link(
-                $this->Html->tag('i', '', ['class' => 'fa fa-menu fa-chevron-down']) . __('Documentation'),
-                '#',
-                ['escape' => false]
-            );
-        ?>
+        $this->Html->link(
+            $this->Html->tag('i', '', ['class' => 'fa fa-menu fa-chevron-down']) . __('Documentation'),
+            '#',
+            ['escape' => false]
+        );
+?>
         <ul class="submenu">
             <?= $this->App->menuItems($this->Menu->documentationItems()); ?>
         </ul>
     </li>
     <li>
         <?=
-            $this->Html->link(
-                __('Business Solutions'),
-                ['controller' => 'pages', 'action' => 'display', 'business-solutions'],
-                ['escape' => false]
-            );?>
+        $this->Html->link(
+            __('Business Solutions'),
+            [
+                'prefix' => false,
+                'plugin' => false,
+                'controller' => 'Pages',
+                'action' => 'display',
+                'business-solutions',
+            ],
+            ['escape' => false]
+        ); ?>
     </li>
     <li>
         <?=
-            $this->Html->link(
-                __('Swag'),
-                'https://swag.cakephp.org/',
-                ['escape' => false, 'target' => '_blank']
-            );?>
+        $this->Html->link(
+            __('Swag'),
+            'https://swag.cakephp.org/',
+            ['escape' => false, 'target' => '_blank']
+        ); ?>
     </li>
     <li>
         <?=
-            $this->Html->link(
-                __('Showcase'),
-                ['controller' => 'projects', 'action' => 'index'],
-                ['escape' => false, 'class' => 'hide']
-            );?>
+        $this->Html->link(
+            __('Showcase'),
+            [
+                'prefix' => false,
+                'plugin' => false,
+                'controller' => 'Projects',
+                'action' => 'index',
+            ],
+            ['escape' => false, 'class' => 'hide']
+        ); ?>
     </li>
     <li>
         <?=
-            $this->Html->link(
-                __('Team'),
-                ['plugin' => false, 'controller' => 'Pages', 'action' => 'display', 'team', 'prefix' => false],
-                ['escape' => false]
-            );?>
+        $this->Html->link(
+            __('Team'),
+            [
+                'prefix' => false,
+                'plugin' => false,
+                'controller' => 'Pages',
+                'action' => 'display',
+                'team',
+            ],
+            ['escape' => false]
+        ); ?>
     </li>
     <li>
         <?=
-            $this->Html->link(
-                $this->Html->tag('i', '', ['class' => 'fa fa-menu fa-chevron-down']) . __('Community'),
-                '#',
-                ['escape' => false]
-            );
-        ?>
+        $this->Html->link(
+            $this->Html->tag('i', '', ['class' => 'fa fa-menu fa-chevron-down']) . __('Community'),
+            '#',
+            ['escape' => false]
+        );
+?>
         <div class="megamenu full megamenu2 full2">
             <div class="row">
                 <div class="col-6 pl30">
@@ -84,11 +101,11 @@ if (!isset($availableLanguages)) {
                     <ul class="megamenu-list">
                         <li class="menu-title main-title">
                             <?=
-                                $this->Html->link(
-                                    $this->Html->tag('i', '', ['class' => 'fa fa-menu-title fa-comments-o']) . __('Help & Support'),
-                                    '#',
-                                    ['escape' => false]
-                                ) ?>
+                            $this->Html->link(
+                                $this->Html->tag('i', '', ['class' => 'fa fa-menu-title fa-comments-o']) . __('Help & Support'),
+                                '#',
+                                ['escape' => false]
+                            ) ?>
                         </li>
                         <?= $this->App->menuItems($this->Menu->helpAndSupportItems()); ?>
                     </ul>
@@ -104,15 +121,17 @@ if (!isset($availableLanguages)) {
         ) ?>
         <ul class="submenu">
             <li></li>
-            <?php foreach($availableLanguages as $lang => $alias): ?>
-                <?php if ($alias === $selectedLanguage) continue; ?>
+            <?php foreach ($availableLanguages as $lang => $alias) : ?>
+                <?php if ($alias === $selectedLanguage) {
+                    continue;
+                } ?>
                 <?php $pass = $this->request->getParam('pass') ?>
                 <li>
                     <?= $this->Html->link($alias, [
                         'language' => $lang,
                         'controller' => $this->request->getParam('controller'),
                         'action' => $this->request->getParam('action'),
-                        isset($pass[0]) ? $pass[0] : null
+                        isset($pass[0]) ? $pass[0] : null,
                     ]) ?>
                 </li>
             <?php endforeach; ?>
@@ -130,10 +149,10 @@ if (!isset($availableLanguages)) {
     <?php endif; ?>
     <li>
         <?=
-            $this->Html->link(
-                __('DONATE'),
-                'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WXKS8CBVMNFZC',
-                ['escape' => false, 'class' => 'donate']
-            );?>
+        $this->Html->link(
+            __('DONATE'),
+            'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WXKS8CBVMNFZC',
+            ['escape' => false, 'class' => 'donate']
+        ); ?>
     </li>
 </ul>

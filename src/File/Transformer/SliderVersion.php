@@ -1,4 +1,5 @@
 <?php
+
 namespace App\File\Transformer;
 
 use Imagine\Image\Box;

@@ -8,18 +8,18 @@ $this->assign('meta', $this->Html->meta('description', $description));
 $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
 ?>
 
-<?= $this->element('home/cake')?>
+<?= $this->element('home/cake') ?>
 
-<?= $this->element('home/whats_new')?>
+<?= $this->element('home/whats_new') ?>
 
-<?= $this->element('home/summary')?>
+<?= $this->element('home/summary') ?>
 
 <?= $this->element('home/share') ?>
 
 <?= $this->element('home/support') ?>
 
-<?= $this->element('home/showcase')?>
+<?= $this->element('home/showcase') ?>
 
-<?= $this->element('home/cakefest_sponsors')?>
+<?= $this->element('home/cakefest_sponsors') ?>
 
-<?= $this->element('home/newsletter')?>
+<?= $this->element('home/newsletter');

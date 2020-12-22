@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Model\Table;
 
 use Cake\Event\Event;
@@ -7,11 +8,12 @@ use Cake\ORM\Query;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
 use App\Model\Entity\Project;
+
 /**
  * Projects Model
  *
  */
-class ProjectsTable extends \Cake\ORM\Table
+class ProjectsTable extends Table
 {
     /**
      * Initialize method
@@ -31,13 +33,14 @@ class ProjectsTable extends \Cake\ORM\Table
         $this->hasOne('PerspectiveImages', ['foreignKey' => 'entity_id', 'conditions' => ['model' => 'PerspectiveImages'], 'dependent' => true]);
         $this->hasMany('ScreenMonitorImages', ['foreignKey' => 'entity_id', 'conditions' => ['model' => 'ScreenMonitorImages'], 'dependent' => true]);
     }
+
     /**
      * Default validation rules.
      *
-     * @param \Cake\Validation\Validator $validator Validator instance.
-     * @return \Cake\Validation\Validator
+     * @param Validator $validator Validator instance.
+     * @return Validator
      */
-    public function validationDefault(\Cake\Validation\Validator $validator): Validator
+    public function validationDefault(Validator $validator): Validator
     {
         $validator->integer('id')->allowEmpty('id', 'create');
         $validator->requirePresence('title')->notEmpty('title');
@@ -45,8 +48,10 @@ class ProjectsTable extends \Cake\ORM\Table
         $validator->requirePresence('website', 'create')->notEmpty('website')->add('website', 'valid-url', ['rule' => 'url']);
         $validator->boolean('is_highlighted')->requirePresence('is_highlighted', 'create')->notEmpty('is_highlighted');
         $validator->boolean('is_showcase')->requirePresence('is_showcase', 'create')->notEmpty('is_showcase');
+
         return $validator;
     }
+
     /**
      * beforeSave
      *
@@ -55,7 +60,7 @@ class ProjectsTable extends \Cake\ORM\Table
      * @param array $options options
      * @return bool
      */
-    public function beforeSave(\Cake\Event\Event $event, \Cake\ORM\Entity $entity, $options)
+    public function beforeSave(Event $event, Entity $entity, $options)
     {
         if (empty($entity->perspective_image->file['name'])) {
             unset($entity->perspective_image);
@@ -72,6 +77,7 @@ class ProjectsTable extends \Cake\ORM\Table
             }
         }
     }
+
     /**
      * @param Query $query
      * @param array $options
@@ -81,6 +87,7 @@ class ProjectsTable extends \Cake\ORM\Table
     {
         return $query->contain('PerspectiveImages')->contain('ScreenMonitorImages')->contain('Tags')->where(['is_highlighted' => true]);
     }
+
     /**
      * @return Query
      */
@@ -96,8 +103,10 @@ class ProjectsTable extends \Cake\ORM\Table
         shuffle($ids);
         $projects = $this->find()->find('view')->where(['Projects.id IN' => array_slice($ids, 0, 3)])->toArray();
         shuffle($projects);
+
         return $projects;
     }
+
     /**
      * @param Query $query
      * @param array $options
@@ -107,6 +116,7 @@ class ProjectsTable extends \Cake\ORM\Table
     {
         return $query->contain('PerspectiveImages')->contain('ScreenMonitorImages')->contain('Tags');
     }
+
     /**
      * @param Query $query
      * @param array $options
