@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright 2010 - 2019, Cake Development Corporation (https://www.cakedc.com)
  *
@@ -48,42 +49,54 @@
         }
     ],
  */
-$baseUsersPermissions = include ROOT . '/vendor/cakedc/users/config/permissions.php';
+$permissions = include ROOT . '/vendor/cakedc/users/config/permissions.php';
 
-$appPermissions = [
-    'CakeDC/Auth.permissions' => [
-        [
-            'role' => '*',
-            'controller' => 'Pages',
-            'action' => 'display',
-            'bypassAuth' => true,
-        ],
-        [
-            'role' => '*',
-            'controller' => 'Changelogs',
-            'action' => ['index', 'view'],
-            'bypassAuth' => true,
-        ],
-        [
-            'role' => ['user'],
-            'controller' => ['Dashboards'],
-            'action' => ['index'],
-            'prefix' => 'admin',
-        ],
-        [
-            'role' => ['user'],
-            'controller' => ['Projects'],
-            'action' => '*',
-            'prefix' => 'admin',
-        ],
-        [
-            'role' => '*',
-            'plugin' => 'DebugKit',
-            'controller' => '*',
-            'action' => '*',
-            'bypassAuth' => true,
-        ],
+$permissions['CakeDC/Auth.permissions'] = array_merge($permissions['CakeDC/Auth.permissions'], [
+    [
+        'role' => '*',
+        'controller' => 'Pages',
+        'action' => 'display',
+        'bypassAuth' => true,
     ],
-];
+    [
+        'role' => '*',
+        'controller' => 'Changelogs',
+        'action' => ['index', 'view'],
+        'bypassAuth' => true,
+    ],
+    [
+        'role' => ['user'],
+        'controller' => ['Dashboards'],
+        'action' => ['index'],
+        'prefix' => 'admin',
+    ],
+    [
+        'role' => ['user'],
+        'controller' => ['Projects'],
+        'action' => '*',
+        'prefix' => 'admin',
+    ],
+    [
+        'role' => '*',
+        'plugin' => 'DebugKit',
+        'controller' => '*',
+        'action' => '*',
+        'bypassAuth' => true,
+    ],
+    [
+        'role' => '*',
+        'plugin' => false,
+        'controller' => 'Contacts',
+        'action' => '*',
+        'bypassAuth' => true,
+    ],
+    [
+        'role' => '*',
+        'plugin' => false,
+        'controller' => 'Writers',
+        'action' => '*',
+        'bypassAuth' => true,
+    ],
+]);
 
-return $appPermissions + $baseUsersPermissions;
+return $permissions;
