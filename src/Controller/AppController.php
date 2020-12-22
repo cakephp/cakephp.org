@@ -12,11 +12,16 @@
  * @since     0.2.9
  * @license   http://www.opensource.org/licenses/mit-license.php MIT License
  */
+
 namespace App\Controller;
 
+use Cake\Controller\Component\FlashComponent;
+use Cake\Controller\Component\FormProtectionComponent;
+use Cake\Controller\Component\RequestHandlerComponent;
 use Cake\Controller\Controller;
 use Cake\Core\Configure;
 use Cake\Event\Event;
+use Cake\Event\EventInterface;
 use Cake\I18n\I18n;
 
 /**
@@ -44,18 +49,16 @@ class AppController extends Controller
      *
      * @return void
      */
-    public function initialize()
+    public function initialize(): void
     {
         parent::initialize();
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
-        $this->loadComponent('Security');
-        $this->loadComponent('Csrf');
-        $this->loadComponent('CakeDC/Users.UsersAuth');
+        $this->loadComponent('FormProtection');
     }
 
-    public function beforeFilter(Event $event)
+    public function beforeFilter(EventInterface $event)
     {
         $this->setLocale();
         $this->set('server', $this->request->host());
@@ -85,10 +88,10 @@ class AppController extends Controller
     /**
      * Before render callback.
      *
-     * @param \Cake\Event\Event $event The beforeRender event.
+     * @param Event $event The beforeRender event.
      * @return void
      */
-    public function beforeRender(Event $event)
+    public function beforeRender(EventInterface $event)
     {
         $this->set([
             '_version' => Configure::read('App.version'),

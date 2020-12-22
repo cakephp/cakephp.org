@@ -12,11 +12,13 @@
  * @since     0.2.9
  * @license   http://www.opensource.org/licenses/mit-license.php MIT License
  */
+
 namespace App\Controller;
 
 use Cake\Core\Configure;
-use Cake\Event\Event;
+use Cake\Event\EventInterface;
 use Cake\Http\Exception\NotFoundException;
+use Cake\Network\Response;
 use Cake\View\Exception\MissingTemplateException;
 
 /**
@@ -28,9 +30,8 @@ use Cake\View\Exception\MissingTemplateException;
  */
 class PagesController extends AppController
 {
-    public function beforeFilter(Event $event)
+    public function beforeFilter(EventInterface $event)
     {
-        $this->Auth->allow();
         $this->response->withCache('-1 minute', '+1 days');
 
         return parent::beforeFilter($event);
@@ -39,7 +40,7 @@ class PagesController extends AppController
     /**
      * Displays a view
      *
-     * @return void|\Cake\Network\Response
+     * @return void|Response
      * @throws \Cake\Network\Exception\NotFoundException When the view file could not
      *   be found or \Cake\View\Exception\MissingTemplateException in debug mode.
      */

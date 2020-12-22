@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Test\TestCase\View\Helper;
 
 use App\View\Helper\HtmlHelper;
@@ -8,9 +9,8 @@ use Cake\View\View;
 /**
  * App\View\Helper\HtmlHelper Test Case
  */
-class HtmlHelperTest extends TestCase
+class HtmlHelperTest extends \Cake\TestSuite\TestCase
 {
-
     /**
      * Test subject
      *
@@ -26,8 +26,8 @@ class HtmlHelperTest extends TestCase
     public function setUp()
     {
         parent::setUp();
-        $view = new View();
-        $this->Html = new HtmlHelper($view);
+        $view = new \Cake\View\View();
+        $this->Html = new \App\View\Helper\HtmlHelper($view);
     }
 
     /**
@@ -38,7 +38,6 @@ class HtmlHelperTest extends TestCase
     public function tearDown()
     {
         unset($this->Html);
-
         parent::tearDown();
     }
 
@@ -49,7 +48,6 @@ class HtmlHelperTest extends TestCase
     {
         $link = $this->Html->link('example', '/', ['target' => '_blank']);
         $this->assertSame('<a href="/" target="_blank" rel="noopener noreferrer">example</a>', $link);
-
         $link = $this->Html->link('example', '/', ['target' => '_blank', 'rel' => 'something']);
         $this->assertSame('<a href="/" target="_blank" rel="something">example</a>', $link);
     }
@@ -61,7 +59,6 @@ class HtmlHelperTest extends TestCase
     {
         $link = $this->Html->link('example', '/');
         $this->assertSame('<a href="/">example</a>', $link);
-
         $link = $this->Html->link('example', '/', ['rel' => 'something']);
         $this->assertSame('<a href="/" rel="something">example</a>', $link);
     }

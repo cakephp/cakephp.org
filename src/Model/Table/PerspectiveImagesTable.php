@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Model\Table;
 
 class PerspectiveImagesTable extends UploadedFilesTable
@@ -8,7 +9,7 @@ class PerspectiveImagesTable extends UploadedFilesTable
      *
      * @return void
      */
-    public function initialize(array $config)
+    public function initialize(array $config): void
     {
         parent::initialize($config);
 
