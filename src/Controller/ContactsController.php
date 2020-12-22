@@ -12,13 +12,6 @@ use Cake\Event\EventInterface;
  */
 class ContactsController extends AppController
 {
-    public function beforeFilter(EventInterface $event)
-    {
-        $this->Auth->allow();
-
-        return parent::beforeFilter($event);
-    }
-
     public function rapid()
     {
         $this->autoRender = false;

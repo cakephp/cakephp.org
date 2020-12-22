@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 /**
@@ -34,6 +35,12 @@ use Cake\Routing\Middleware\RoutingMiddleware;
  */
 class Application extends BaseApplication
 {
+
+    /**
+     * @var array
+     */
+    private $permissions = [];
+
     /**
      * Load all the application configuration and bootstrap logic.
      *
@@ -58,8 +65,18 @@ class Application extends BaseApplication
 
         $this->addPlugin('Migrations');
         $this->addPlugin('AssetCompress');
-        Configure::write('Users.config', ['users']);
-        $this->addPlugin(\CakeDC\Users\Plugin::class);
+        $this->addPlugin('CakeDC/Users', [
+            'bootstrap' => true,
+            'routes' => true,
+        ]);
+
+        $plugin = $this->getPlugins()->get('CakeDC/Users');
+        if (method_exists($plugin, 'permissions')) {
+            $this->permissions = array_merge($this->permissions, $plugin->permissions());
+        }
+
+        Configure::write('CakeDC/Auth.preloadPermissions', $this->permissions);
+
         $this->addPlugin('Burzum/Imagine');
         $this->addPlugin('Josegonzalez/Upload');
         $this->addPlugin('Muffin/Slug');

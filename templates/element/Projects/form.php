@@ -1,7 +1,7 @@
+<?= $this->Form->create($project, ['type' => 'file']) ?>
 <?php $this->Form->unlockField('screen_monitor_images.file') ?>
 <?php $this->Form->unlockField('perspective_image.file') ?>
 
-<?= $this->Form->create($project, ['type' => 'file']) ?>
 <?= $this->Form->hidden('id') ?>
 
 <div class="well back-red">

@@ -18,8 +18,6 @@ class WritersController extends AppController
 {
     public function beforeFilter(EventInterface $event)
     {
-        $this->Auth->allow();
-
         return parent::beforeFilter($event);
     }
 
@@ -30,7 +28,7 @@ class WritersController extends AppController
      */
     public function index()
     {
-        $writer = $this->Writers->newEntity();
+        $writer = $this->Writers->newEmptyEntity();
 
         if (Configure::read('Site.writers_form_enabled') && $this->request->is('post')) {
             $recaptcha = new ReCaptcha(Configure::read('ReCaptcha.secret_key'));

@@ -17,7 +17,7 @@ class ProjectsController extends AppController
 
     public function beforeFilter(EventInterface $event)
     {
-        if (in_array($this->request->action, ['edit', 'add'])) {
+        if (in_array($this->getRequest()->getParam('action'), ['edit', 'add'])) {
             $this->loadModel('Muffin/Tags.Tags');
             $this->set('tags', $this->Tags->find('list', ['keyField' => 'label']));
         }
@@ -62,7 +62,7 @@ class ProjectsController extends AppController
      */
     public function add()
     {
-        $project = $this->Projects->newEntity();
+        $project = $this->Projects->newEmptyEntity();
 
         if ($this->request->is('post')) {
             $this->normalizeScreenMonitorImages();

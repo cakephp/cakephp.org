@@ -53,9 +53,10 @@ class AppController extends Controller
     {
         parent::initialize();
 
-        $this->loadComponent(RequestHandlerComponent::class);
-        $this->loadComponent(FlashComponent::class);
-        $this->loadComponent(FormProtectionComponent::class);
+        $this->loadComponent('RequestHandler');
+        $this->loadComponent('Flash');
+        $this->loadComponent('FormProtection');
+        //$this->loadComponent(FormProtectionComponent::class);
     }
 
     public function beforeFilter(EventInterface $event)
