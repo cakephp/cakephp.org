@@ -8176,8 +8176,10 @@ table.fc-border-separate {
     font-size: 50px;
     color: #d33c44;
     letter-spacing: 0.01em;
-    line-height: 24px;
+    line-height: normal;
     font-weight: 200;
+    margin-top: -20px;
+    margin-bottom: 15px;
 }
 
 .get-involved p {

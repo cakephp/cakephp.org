@@ -418,7 +418,8 @@
 	/* ---------------------- GET INVOLVED ------------------------- */
 
 	.get-involved h2 {
-		line-height: 55px;
+		margin-top: 0;
+        margin-bottom: 35px;
 	}
 
 	.gray-stripe {
@@ -885,7 +886,8 @@
 	/* ---------------------- GET INVOLVED ------------------------- */
 
 	.get-involved h2 {
-		line-height: 55px;
+		margin-top: 0;
+        margin-bottom: 35px;
 	}
 
 	.icon-getinvolved {
