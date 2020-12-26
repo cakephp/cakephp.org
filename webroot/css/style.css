@@ -10704,7 +10704,10 @@ a.btn-home.btn-inverted:hover, button.btn-home.btn-inverted:hover {
 
 .showcase-page #showcase-carousel {
     margin-top: 0;
+    background: none;
+    height: auto;
 }
+
 .meetup .title {
     font-size: 50px;
     color: #d33c44;
