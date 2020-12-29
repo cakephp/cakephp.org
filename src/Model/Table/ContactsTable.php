@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Model\Table;
 
 use App\Model\Entity\Contact;
@@ -6,6 +7,7 @@ use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
+use InvalidArgumentException;
 
 /**
  * Contacts Model
@@ -20,7 +22,7 @@ class ContactsTable extends Table
      * @param array $config The configuration for the Table.
      * @return void
      */
-    public function initialize(array $config)
+    public function initialize(array $config): void
     {
         parent::initialize($config);
 
@@ -34,10 +36,10 @@ class ContactsTable extends Table
     /**
      * Default validation rules.
      *
-     * @param \Cake\Validation\Validator $validator Validator instance.
-     * @return \Cake\Validation\Validator
+     * @param Validator $validator Validator instance.
+     * @return Validator
      */
-    public function validationDefault(Validator $validator)
+    public function validationDefault(Validator $validator): Validator
     {
         $validator
             ->integer('id')
@@ -67,10 +69,10 @@ class ContactsTable extends Table
      * Returns a rules checker object that will be used for validating
      * application integrity.
      *
-     * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
-     * @return \Cake\ORM\RulesChecker
+     * @param RulesChecker $rules The rules object to be modified.
+     * @return RulesChecker
      */
-    public function buildRules(RulesChecker $rules)
+    public function buildRules(RulesChecker $rules): RulesChecker
     {
         return $rules;
     }
@@ -82,7 +84,7 @@ class ContactsTable extends Table
      */
     public function createRapidContact($data)
     {
-        $contact = $this->newEntity();
+        $contact = $this->newEmptyEntity();
         $contact->set('name', $data['name']);
         $contact->set('email', $data['email']);
         $contact->set('subject', $this->extractRapidSubject($data));
@@ -116,7 +118,7 @@ class ContactsTable extends Table
                 $body = 'come to ' . $data['where'];
                 break;
             default:
-                throw new \InvalidArgumentException();
+                throw new InvalidArgumentException();
         }
 
         return $intro . $body . '. Thanks.';
@@ -154,7 +156,7 @@ class ContactsTable extends Table
                 $subject = 'Road Trip';
                 break;
             default:
-                throw new \InvalidArgumentException();
+                throw new InvalidArgumentException();
         }
 
         $subject .= " ({$data['name']} / {$data['email']})";

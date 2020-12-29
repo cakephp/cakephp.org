@@ -1,5 +1,5 @@
 # Define the line ending behavior of the different file extensions
-# Set default behaviour, in case users don't have core.autocrlf set.
+# Set default behavior, in case users don't have core.autocrlf set.
 * text=auto
 * text eol=lf
 
@@ -17,6 +17,7 @@
 *.properties text
 *.txt text
 *.xml text
+*.svg text
 *.yml text
 .htaccess text
 
@@ -30,9 +31,24 @@
 *.png binary
 *.jpg binary
 *.gif binary
+*.webp binary
 *.ico binary
 *.mo binary
 *.pdf binary
 *.phar binary
-*.eot binary
+*.woff binary
+*.woff2 binary
 *.ttf binary
+*.otf binary
+*.eot binary
+*.gz binary
+*.bz2 binary
+*.7z binary
+*.zip binary
+*.webm binary
+*.mp4 binary
+*.ogv binary
+
+# Remove files for archives generated using `git archive`
+phpstan.neon export-ignore
+.github export-ignore
