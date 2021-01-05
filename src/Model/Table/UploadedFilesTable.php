@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Model\Table;
 
 use ArrayObject;
@@ -20,7 +21,7 @@ class UploadedFilesTable extends Table
      * @param array $config The configuration for the Table.
      * @return void
      */
-    public function initialize(array $config)
+    public function initialize(array $config): void
     {
         parent::initialize($config);
 
@@ -35,10 +36,10 @@ class UploadedFilesTable extends Table
     /**
      * Default validation rules.
      *
-     * @param \Cake\Validation\Validator $validator Validator instance.
-     * @return \Cake\Validation\Validator
+     * @param Validator $validator Validator instance.
+     * @return Validator
      */
-    public function validationDefault(Validator $validator)
+    public function validationDefault(Validator $validator): Validator
     {
         $validator
             ->integer('id')
@@ -66,9 +67,9 @@ class UploadedFilesTable extends Table
     /**
      * beforeSave
      *
-     * @param \Cake\Event\Event $event an event instance
-     * @param \ArrayObject $entity data being marshalled
-     * @param \ArrayObject $options options for the current event
+     * @param Event $event an event instance
+     * @param ArrayObject $entity data being marshalled
+     * @param ArrayObject $options options for the current event
      * @return void
      */
     public function beforeSave(Event $event, Entity $entity, ArrayObject $options)

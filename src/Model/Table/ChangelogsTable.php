@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Model\Table;
 
 use Cake\Cache\Cache;
@@ -77,16 +78,14 @@ class ChangelogsTable extends Table
      */
     public function tags()
     {
-        extract(self::$_settings);
-
         // Check the cache first
-        $cached = Cache::read('changelog_tags', $cacheEngine);
+        $cached = Cache::read('changelog_tags', self::$_settings['cacheEngine']);
         if ($cached !== false) {
             return $cached;
         }
 
-        $gitdir = escapeshellcmd($this->_gitDirectory($path, $repo));
-        $git = escapeshellcmd($git);
+        $gitdir = escapeshellcmd($this->_gitDirectory(self::$_settings['path'], self::$_settings['repo']));
+        $git = escapeshellcmd(self::$_settings['git']);
         $tags = explode("\n", trim(`$git --git-dir=$gitdir tag`));
         usort($tags, [$this, 'sort']);
         if (empty($tags)) {
@@ -144,16 +143,15 @@ class ChangelogsTable extends Table
         if ($index === false) {
             return false;
         }
-        extract(self::$_settings);
 
         // Check the cache first.
-        $cached = Cache::read('commits_' . $tag, $cacheEngine);
+        $cached = Cache::read('commits_' . $tag, self::$_settings['cacheEngine']);
         if ($cached !== false) {
             return $cached;
         }
 
-        $gitdir = escapeshellcmd($this->_gitDirectory($path, $repo));
-        $git = escapeshellcmd($git);
+        $gitdir = escapeshellcmd($this->_gitDirectory(self::$_settings['path'], self::$_settings['repo']));
+        $git = escapeshellcmd(self::$_settings['git']);
         $tag = escapeshellcmd($tag);
         $previous = escapeshellcmd($tags[$index + 1]);
         $commits = explode("\n", trim(`$git --git-dir=$gitdir rev-list --no-merges --oneline $tag ^$previous`));
@@ -162,7 +160,7 @@ class ChangelogsTable extends Table
             preg_match('/^([^ ]+) (.*)$/', $commit, $matches);
             $changes[$matches[1]] = $matches[2];
         }
-        Cache::write('commits_' . $tag, $changes, $cacheEngine);
+        Cache::write('commits_' . $tag, $changes, self::$_settings['cacheEngine']);
 
         return $changes;
     }

@@ -1,11 +1,12 @@
 <?php
+
 /**
- * Copyright 2010 - 2015, Cake Development Corporation (http://cakedc.com)
+ * Copyright 2010 - 2019, Cake Development Corporation (https://www.cakedc.com)
  *
  * Licensed under The MIT License
  * Redistributions of files must retain the above copyright notice.
  *
- * @copyright Copyright 2010 - 2015, Cake Development Corporation (http://cakedc.com)
+ * @copyright Copyright 2010 - 2018, Cake Development Corporation (https://www.cakedc.com)
  * @license MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 
@@ -39,7 +40,7 @@
         'action' => ['edit', 'delete'],
         'allowed' => function(array $user, $role, Request $request) {
             $postId = Hash::get($request->params, 'pass.0');
-            $post = TableRegistry::get('Posts')->get($postId);
+            $post = TableRegistry::getTableLocator()->get('Posts')->get($postId);
             $userId = Hash::get($user, 'id');
             if (!empty($post->user_id) && !empty($userId)) {
                 return $post->user_id === $userId;
@@ -48,24 +49,54 @@
         }
     ],
  */
+$permissions = include ROOT . '/vendor/cakedc/users/config/permissions.php';
 
-return [
-    'Users.SimpleRbac.permissions' => [
-        [
-            'role' => ['user'],
-            'controller' => ['Dashboards'],
-            'action' => ['index'],
-            'prefix' => 'admin',
-        ],
-        [
-            'role' => ['user'],
-            'controller' => ['Projects'],
-            'action' => '*',
-            'prefix' => 'admin',
-        ],
-        [
-            'role' => ['user'],
-            'controller' => ['Pages'],
-            'action' => ['display'],
-        ],
-        ]];
+$permissions['CakeDC/Auth.permissions'] = array_merge($permissions['CakeDC/Auth.permissions'], [
+    [
+        'role' => '*',
+        'controller' => 'Pages',
+        'action' => 'display',
+        'bypassAuth' => true,
+    ],
+    [
+        'role' => '*',
+        'controller' => 'Changelogs',
+        'action' => ['index', 'view'],
+        'bypassAuth' => true,
+    ],
+    [
+        'role' => ['user'],
+        'controller' => ['Dashboards'],
+        'action' => ['index'],
+        'prefix' => 'admin',
+    ],
+    [
+        'role' => ['user'],
+        'controller' => ['Projects'],
+        'action' => '*',
+        'prefix' => 'admin',
+    ],
+    [
+        'role' => '*',
+        'plugin' => 'DebugKit',
+        'controller' => '*',
+        'action' => '*',
+        'bypassAuth' => true,
+    ],
+    [
+        'role' => '*',
+        'plugin' => false,
+        'controller' => 'Contacts',
+        'action' => '*',
+        'bypassAuth' => true,
+    ],
+    [
+        'role' => '*',
+        'plugin' => false,
+        'controller' => 'Writers',
+        'action' => '*',
+        'bypassAuth' => true,
+    ],
+]);
+
+return $permissions;
