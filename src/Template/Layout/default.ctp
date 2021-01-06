@@ -46,6 +46,7 @@
     <link rel="manifest" href="/favicons/manifest.json">
     <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" type="image/png" href="/favicons/favicon.ico"/>
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
 	<meta name="apple-mobile-web-app-title" content="CakePHP">
 	<meta name="application-name" content="CakePHP">
     <meta name="msapplication-TileColor" content="#da532c">
@@ -53,7 +54,6 @@
 
 	<?= $this->fetch('meta') ?>
 	<?= $this->fetch('css') ?>
-	<link rel="icon" type="image/png" href="/favicons/favicon.png">
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
