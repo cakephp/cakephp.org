@@ -712,7 +712,7 @@
 
 @media (min-width: 768px) {
     .register {
-        padding-left: 30px !important;
+        padding-left: 15px !important;
     }
 
     .row.col-p30 [class*="col-"].business-solution {
