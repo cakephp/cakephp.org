@@ -26,7 +26,7 @@
             <?= $this->Html->link(
     $this->Html->image('open-hub.svg'),
     'https://www.openhub.net/p/cakephp',
-    ['escape' => false]
+    ['escape' => false, 'style' => 'opacity: .5']
             ) ?>
             <div class="mt10">
                 <?= $this->Html->link(
@@ -42,7 +42,7 @@
         <?= $this->Html->link(
                     $this->Html->image('open-hub.svg'),
                     'https://www.openhub.net/p/cakephp',
-                    ['escape' => false, 'target' => '_blank']
+                    ['escape' => false, 'target' => '_blank', 'style' => 'opacity: .5']
         ) ?>
         <div class="mt10">
             <?= $this->Html->link(
