@@ -694,7 +694,7 @@
 	}
 
     .register {
-        padding-left: 15px !important;
+        padding-left: 30px !important;
     }
 }
 
@@ -716,7 +716,7 @@
     }
 
     .row.col-p30 [class*="col-"].business-solution {
-        padding: 0 30px;
+        padding: 0 30px !important;
     }
 }
 
