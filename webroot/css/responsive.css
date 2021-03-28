@@ -677,7 +677,6 @@
 	}
 
 	#showcase-carousel {
-		margin: 20px auto;
 		width: 320px;
 		height: 350px;
 	}
@@ -694,7 +693,7 @@
 	}
 
     .register {
-        padding-left: 30px !important;
+        padding-left: 15px !important;
     }
 }
 
@@ -712,7 +711,7 @@
 
 @media (min-width: 768px) {
     .register {
-        padding-left: 15px !important;
+        padding-left: 30px !important;
     }
 
     .row.col-p30 [class*="col-"].business-solution {
@@ -1150,10 +1149,6 @@
 		height: auto;
 		top: 85px;
 		left: 85px;
-	}
-
-	#showcase-carousel {
-		margin: 20px 0;
 	}
 
     .register {
