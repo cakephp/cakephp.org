@@ -10639,6 +10639,7 @@ a.btn-home.btn-inverted:hover, button.btn-home.btn-inverted:hover {
     background: url('../img/using_cakephp.svg');
     background-repeat: no-repeat;
     background-size: contain;
+    margin: 20px auto;
 }
 
 .owl-dot {
