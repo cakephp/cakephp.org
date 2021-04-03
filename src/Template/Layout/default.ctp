@@ -40,16 +40,17 @@
 	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 	<?= $this->fetch('socialMeta') ?>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicons/favicon.ico"/>
     <link rel="manifest" href="/favicons/manifest.json">
-    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#D33C44">
     <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
 	<meta name="apple-mobile-web-app-title" content="CakePHP">
 	<meta name="application-name" content="CakePHP">
-    <meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#D33C44">
+	<meta name="theme-color" content="#D33C44">
 
 	<?= $this->fetch('meta') ?>
 	<?= $this->fetch('css') ?>
