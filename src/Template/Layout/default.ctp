@@ -25,6 +25,14 @@
 		})(window,document,'script','dataLayer','GTM-T74JQQQ');
 	</script>
 	<!-- End Google Tag Manager -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-743287-4');
+	</script>
+	<!-- End Global site tag (gtag.js) - Google Analytics -->
 	<?= $this->Html->charset() ?>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
