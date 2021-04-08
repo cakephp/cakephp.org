@@ -6148,6 +6148,7 @@ header {
 
 .social iframe {
     text-align: center;
+    width: 96px;
 }
 
 .form-user input {
@@ -8175,8 +8176,10 @@ table.fc-border-separate {
     font-size: 50px;
     color: #d33c44;
     letter-spacing: 0.01em;
-    line-height: 24px;
+    line-height: normal;
     font-weight: 200;
+    margin-top: -20px;
+    margin-bottom: 15px;
 }
 
 .get-involved p {
@@ -10636,6 +10639,7 @@ a.btn-home.btn-inverted:hover, button.btn-home.btn-inverted:hover {
     background: url('../img/using_cakephp.svg');
     background-repeat: no-repeat;
     background-size: contain;
+    margin: 20px auto;
 }
 
 .owl-dot {
@@ -10701,7 +10705,10 @@ a.btn-home.btn-inverted:hover, button.btn-home.btn-inverted:hover {
 
 .showcase-page #showcase-carousel {
     margin-top: 0;
+    background: none;
+    height: auto;
 }
+
 .meetup .title {
     font-size: 50px;
     color: #d33c44;

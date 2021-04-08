@@ -6,6 +6,7 @@ class PerspectiveImagesTable extends UploadedFilesTable
     /**
      * Initilize
      *
+     * @param array $config config
      * @return void
      */
     public function initialize(array $config)

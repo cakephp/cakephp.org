@@ -2,14 +2,17 @@
 namespace App\Controller;
 
 use Cake\Core\Configure;
-use Cake\Mailer\Email;
 use Cake\Event\Event;
+use Cake\Mailer\Email;
 
 /**
  * @property \App\Model\Table\ContactsTable $Contacts
  */
 class ContactsController extends AppController
 {
+    /**
+     * @inheritDoc
+     */
     public function beforeFilter(Event $event)
     {
         $this->Auth->allow();
@@ -17,6 +20,9 @@ class ContactsController extends AppController
         return parent::beforeFilter($event);
     }
 
+    /**
+     * @return \Cake\Http\Response|null|void
+     */
     public function rapid()
     {
         $this->autoRender = false;
@@ -32,6 +38,9 @@ class ContactsController extends AppController
         $this->response->statusCode(422);
     }
 
+    /**
+     * @return \Cake\Http\Response|null|void
+     */
     public function roadTrip()
     {
         $this->autoRender = false;
@@ -47,6 +56,10 @@ class ContactsController extends AppController
         return $this->redirect('/roadtrip');
     }
 
+    /**
+     * @param App\Model\Entity\Contact $contact contact
+     * @return void
+     */
     private function sendEmail($contact)
     {
         $email = new Email('default');

@@ -1,8 +1,8 @@
 <?php
 namespace App\Controller\Admin;
 
-use Cake\Event\Event;
 use App\Controller\AppController;
+use Cake\Event\Event;
 
 class DashboardsController extends AppController
 {
@@ -10,7 +10,7 @@ class DashboardsController extends AppController
     /**
      * Index method
      *
-     * @return \Cake\Network\Response|null
+     * @return \Cake\Http\Response|null|void
      */
     public function index()
     {

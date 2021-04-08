@@ -25,6 +25,14 @@
 		})(window,document,'script','dataLayer','GTM-T74JQQQ');
 	</script>
 	<!-- End Google Tag Manager -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-743287-4');
+	</script>
+	<!-- End Global site tag (gtag.js) - Google Analytics -->
 	<?= $this->Html->charset() ?>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,27 +47,21 @@
 	<?= $this->AssetCompress->css('fonts', ['raw' => true, 'pathPrefix' => null]) ?>
 	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 	<?= $this->fetch('socialMeta') ?>
-	<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
 
-	<link rel="manifest" href="/favicons/manifest.json">
-	<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicons/favicon.ico"/>
+    <link rel="manifest" href="/favicons/manifest.json">
+    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#D33C44">
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
 	<meta name="apple-mobile-web-app-title" content="CakePHP">
 	<meta name="application-name" content="CakePHP">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#D33C44">
+	<meta name="theme-color" content="#D33C44">
 
 	<?= $this->fetch('meta') ?>
 	<?= $this->fetch('css') ?>
-	<link rel="icon" type="image/png" href="/favicons/favicon.png">
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->

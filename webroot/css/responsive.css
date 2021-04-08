@@ -418,7 +418,8 @@
 	/* ---------------------- GET INVOLVED ------------------------- */
 
 	.get-involved h2 {
-		line-height: 55px;
+		margin-top: 0;
+        margin-bottom: 35px;
 	}
 
 	.gray-stripe {
@@ -676,7 +677,6 @@
 	}
 
 	#showcase-carousel {
-		margin: 20px auto;
 		width: 320px;
 		height: 350px;
 	}
@@ -691,6 +691,10 @@
 	.cta-home {
 		text-align: center;
 	}
+
+    .register {
+        padding-left: 15px !important;
+    }
 }
 
 @media (max-width: 375px) {
@@ -702,6 +706,12 @@
     .showcase .carousel-inner {
         width: 148px;
         top: 68px;
+    }
+}
+
+@media (min-width: 768px) {
+    .register {
+        padding-left: 30px !important;
     }
 }
 
@@ -871,7 +881,8 @@
 	/* ---------------------- GET INVOLVED ------------------------- */
 
 	.get-involved h2 {
-		line-height: 55px;
+		margin-top: 0;
+        margin-bottom: 35px;
 	}
 
 	.icon-getinvolved {
@@ -979,6 +990,11 @@
 		top: 112px;
 		left: 113px;
 	}
+
+    .row.col-p30 {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
 }
 
 @media (min-width: 992px){
@@ -1099,7 +1115,7 @@
 	}
 
 	.whats-new .container > div, .sharing .container > div {
-		flex: 1 0 50%;
+		flex: 1 0 47%;
 	}
 
 	.whats-new .artwork, .sharing .artwork {
@@ -1127,9 +1143,9 @@
 		left: 85px;
 	}
 
-	#showcase-carousel {
-		margin: 20px 0;
-	}
+    .register {
+        padding-left: 0 !important;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -1183,4 +1199,8 @@
 		top: 110px;
 		left: 101px;
 	}
+
+    .row.col-p30 [class*="col-"].business-solution {
+        padding: 0 15px;
+    }
 }

@@ -11,6 +11,9 @@ class MeetupsHelper extends Helper
 {
     public $helpers = ['Html'];
 
+    /**
+     * @return string
+     */
     public function meetups(): string
     {
         $out = '';
@@ -30,6 +33,10 @@ class MeetupsHelper extends Helper
         return $this->Html->tag('div', $out, ['class' => 'meetups']);
     }
 
+    /**
+     * @param array $meetup meetup
+     * @return string
+     */
     public function meetup(array $meetup): string
     {
         $meetupContent = $this->Html->link(
@@ -59,6 +66,13 @@ class MeetupsHelper extends Helper
         return $this->Html->tag('div', $meetupContent, ['class' => 'meetup']);
     }
 
+    /**
+     *
+     * @param array $meetup meetup
+     * @param string $field field
+     * @param string $pre prefix
+     * @return string
+     */
     protected function meetupLink(array $meetup, string $field, string $pre = ''): string
     {
         return $this->Html->tag('br') .
@@ -73,21 +87,28 @@ class MeetupsHelper extends Helper
             );
     }
 
+    /**
+     * @return string
+     */
     protected function blank(): string
     {
-        $content = $this->Html->tag('h1', 
-            $this->Html->tag('span', 'V', ['class' => 'glyph_range']) . 
-            __('{0} {1}', $this->Html->tag('em', __('New Meetup information ')), $this->Html->tag('strong', __('COMING SOON!'))) .  
+        $content = $this->Html->tag(
+            'h1',
+            $this->Html->tag('span', 'V', ['class' => 'glyph_range']) .
+            __('{0} {1}', $this->Html->tag('em', __('New Meetup information ')), $this->Html->tag('strong', __('COMING SOON!'))) .
             $this->Html->tag('span', 'V', ['class' => 'glyph_range'])
         );
 
-        $content .= $this->Html->tag('h3', 
-            __('{0} {1} {2}', __('Follow us on Twitter: '), 
-            $this->Html->link(__('@CakePHP'), '//twitter.com/cakephp', ['target' => '_blank']),  
-            __('for updates period')
-        ));
+        $content .= $this->Html->tag(
+            'h3',
+            __(
+                '{0} {1} {2}',
+                __('Follow us on Twitter: '),
+                $this->Html->link(__('@CakePHP'), '//twitter.com/cakephp', ['target' => '_blank']),
+                __('for updates period')
+            )
+        );
 
         return $this->Html->tag('div', $content, ['class' => 'col-sm-12 text-center t-team']);
     }
-
 }

@@ -28,6 +28,9 @@ use Cake\View\Exception\MissingTemplateException;
  */
 class PagesController extends AppController
 {
+    /**
+     * @inheritDoc
+     */
     public function beforeFilter(Event $event)
     {
         $this->Auth->allow();
@@ -39,7 +42,7 @@ class PagesController extends AppController
     /**
      * Displays a view
      *
-     * @return void|\Cake\Network\Response
+     * @return \Cake\Http\Response|null|void
      * @throws \Cake\Network\Exception\NotFoundException When the view file could not
      *   be found or \Cake\View\Exception\MissingTemplateException in debug mode.
      */

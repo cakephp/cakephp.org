@@ -78,6 +78,7 @@ class ContactsTable extends Table
     /**
      * Generates a rapid contact from data
      *
+     * @param array $data data
      * @return Contact
      */
     public function createRapidContact($data)
@@ -94,7 +95,7 @@ class ContactsTable extends Table
     /**
      * Extracts the right body for rapid contact based on data
      *
-     * @param array $data
+     * @param array $data data
      * @return string
      */
     private function extractRapidBody($data)
@@ -125,7 +126,7 @@ class ContactsTable extends Table
     /**
      * Extracs the right subject for rapid contact based on data
      *
-     * @param array $data
+     * @param array $data data
      * @return string
      */
     private function extractRapidSubject($data)

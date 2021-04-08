@@ -1,9 +1,10 @@
 <?php
-use Cake\Event\EventManager;
-use Burzum\FileStorage\Lib\FileStorageUtils;
-use Burzum\FileStorage\Lib\StorageManager;
+
 use Burzum\FileStorage\Event\ImageProcessingListener;
 use Burzum\FileStorage\Event\LocalFileStorageListener;
+use Burzum\FileStorage\Lib\FileStorageUtils;
+use Burzum\FileStorage\Lib\StorageManager;
+use Cake\Event\EventManager;
 
 $listener = new LocalFileStorageListener();
 EventManager::instance()->on($listener);
