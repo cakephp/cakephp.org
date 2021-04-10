@@ -5590,6 +5590,13 @@
     border-bottom-left-radius: 40px;
 }
 
+#companies-logos img {
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+    display: block;
+}
+
 #quote {
     color: #808080;
     font-family: 'Roboto', sans-serif;
