@@ -10752,3 +10752,7 @@ a.btn-home.btn-inverted:hover, button.btn-home.btn-inverted:hover {
     color: white;
     padding: 15px;
 }
+
+.cta-home {
+    padding-bottom: 30px;
+}
