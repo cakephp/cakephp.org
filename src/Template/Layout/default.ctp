@@ -26,6 +26,7 @@
 	</script>
 	<!-- End Google Tag Manager -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-743287-4"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
