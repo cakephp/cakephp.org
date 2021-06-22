@@ -137,6 +137,11 @@ return [
                         'options' => ['target' => '_blank'],
                         'title' => 'Slack',
                     ],
+                    'discord' => [
+                        'url' => 'https://discord.gg/A2VHpxeq',
+                        'options' => ['target' => '_blank'],
+                        'title' => 'Discord',
+                    ],
                     'commercial' => [
                         'url' => 'http://www.cakedc.com/',
                         'title' => __('Paid Support'),
