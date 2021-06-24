@@ -138,7 +138,7 @@ return [
                         'title' => 'Slack',
                     ],
                     'discord' => [
-                        'url' => 'https://discord.gg/A2VHpxeq',
+                        'url' => 'https://discord.gg/k4trEMPebj',
                         'options' => ['target' => '_blank'],
                         'title' => 'Discord',
                     ],
