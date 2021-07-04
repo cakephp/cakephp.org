@@ -24,15 +24,15 @@
                 <?= __('New user?') ?> <?= $this->Html->link(__('Register!'), '#') ?>
             </p>
             <?= $this->Html->link(
-    $this->Html->image('open-hub.svg'),
+    $this->Html->image('open-hub.svg' ,['alt' => 'openHub']),
     'https://www.openhub.net/p/cakephp',
-    ['escape' => false, 'style' => 'opacity: .5', 'aria-label' => 'openHub', 'alt' => 'openHub']
+    ['escape' => false, 'style' => 'opacity: .5', 'aria-label' => 'openHub']
             ) ?>
             <div class="mt10">
                 <?= $this->Html->link(
-                    $this->Html->image('pingping.png'),
+                    $this->Html->image('pingping.png', ['alt' => 'pingping.io']),
                     'https://pingping.io',
-                    ['escape' => false, 'aria-label' => 'pingping.io', 'alt' => 'pingping.io']
+                    ['escape' => false, 'aria-label' => 'pingping.io']
                 ) ?>
             </div>
         </div>
@@ -40,22 +40,22 @@
     </div>
     <div class="col-md-8 col-xs-12 p0 register">
         <?= $this->Html->link(
-                    $this->Html->image('open-hub.svg'),
+                    $this->Html->image('open-hub.svg', ['alt' => 'openHub']),
                     'https://www.openhub.net/p/cakephp',
-                    ['escape' => false, 'target' => '_blank', 'style' => 'opacity: .5', 'aria-label' => 'openHub', 'alt' => 'openHub']
+                    ['escape' => false, 'target' => '_blank', 'style' => 'opacity: .5', 'aria-label' => 'openHub']
         ) ?>
         <div class="mt10">
             <?= $this->Html->link(
-                $this->Html->image('pingping.png'),
+                $this->Html->image('pingping.png', ['alt' => 'pingping.io']),
                 'https://pingping.io',
-                ['escape' => false, 'target' => '_blank', 'aria-label' => 'pingping.io', 'alt' => 'pingping.io']
+                ['escape' => false, 'target' => '_blank', 'aria-label' => 'pingping.io']
             ) ?>
         </div>
 		<div class="mt10">
             <?= $this->Html->link(
-                $this->Html->image('linode.png'),
+                $this->Html->image('linode.png', ['alt' => 'Linode']),
                 'https://www.linode.com/',
-                ['escape' => false, 'target' => '_blank', 'aria-label' => 'Linode', 'alt' => 'Linode']
+                ['escape' => false, 'target' => '_blank', 'aria-label' => 'Linode']
             ) ?>
 		</div>
     </div>
