@@ -14,7 +14,7 @@
  */
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<!-- Google Tag Manager -->
 	<script>
