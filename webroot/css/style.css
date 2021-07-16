@@ -5620,11 +5620,11 @@
     margin: 0;
     letter-spacing: 0.04em;
     line-height: 30px;
-    color: #808080
+    color: #707070;
 }
 
 .quote-client a {
-    color: #808080;
+    color: #707070;
 }
 
 .quote-client h6 {
@@ -5642,6 +5642,7 @@
     font-weight: 400;
     border: none;
     position: relative;
+    color: #757575;
 }
 
 #quote blockquote:before {
