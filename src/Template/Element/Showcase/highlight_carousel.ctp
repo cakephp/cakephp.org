@@ -12,7 +12,7 @@
 <?php endif; ?>
 
 <div id="showcase-carousel" class="carousel slide" data-ride="carousel">
-	<div class="carousel-inner" role="listbox">
+	<div class="carousel-inner">
 		<?php foreach ($images as $index => $image): ?>
 		<div class="item <?= ($index === 0) ? 'active' : '' ?>">
 			<?= $this->Showcase->image(
