@@ -554,6 +554,9 @@
 
 		} // END if
 
+        var slideButton = $('#quotes-dots-container .owl-dot');
+        slideButton.attr('title', 'pagination');
+
 	});
 
 
