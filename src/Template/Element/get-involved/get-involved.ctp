@@ -17,7 +17,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 		<div class="br-bottom mb20"></div>
 		<p><?= __('One of the greatest ways to contribute to CakePHP is by directly supporting the developer community. There\'s no need to be a genius or guru to get involved, you may just have the answer to some of the questions being asked. Here are some ways you can get started:')?></p>
 		<ul>
-			<li><?= __('Join the {0} and talk to developers who need help. *', $this->Html->link(__('#cakephp IRC channel, or Slack group'), '#get-help'))?></li>
+			<li><?= __('Join the {0} and talk to developers who need help. *', $this->Html->link(__('#cakephp IRC channel, Slack or Discord server'), '#get-help'))?></li>
 			<li><?= __(
 					'Answer questions on platforms such as {0} and the {1}.',
 					$this->Html->link(
