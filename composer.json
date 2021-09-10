@@ -17,6 +17,7 @@
 		"muffin/slug": "^1.4",
 		"josegonzalez/cakephp-upload": "^4.0.0",
 		"google/recaptcha": "~1.1",
+        "league/flysystem": "^1.1",
 		"linkorb/jsmin-php": "^1.0",
 		"natxet/cssmin": "^3.0"
 	},
@@ -48,7 +49,6 @@
 	},
 	"scripts": {
 		"post-install-cmd": "App\\Console\\Installer::postInstall",
-		"post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump",
 		"check": [
 			"@cs-check",
 			"@test"
