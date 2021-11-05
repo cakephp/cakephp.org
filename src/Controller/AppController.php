@@ -94,7 +94,7 @@ class AppController extends Controller
     public function beforeRender(Event $event)
     {
         $this->set([
-            '_version' => Configure::read('App.version'),
+            '_version' => Configure::read('App.cakeVersion', '4.3'),
         ]);
     }
 }
