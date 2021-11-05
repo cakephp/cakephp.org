@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'App.cakeVersion' => '4.3',
     'Site' => [
         'contact' => [
             'email' => 'contact@cakedc.com',
