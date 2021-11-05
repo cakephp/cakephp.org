@@ -10,11 +10,11 @@
 		</div>
 		<div>
 			<div class="mb50">
-				<h2>What's new in V.4</h2>
-				<p>CakePHP 4.0.0 is as tasty as other major CakePHP releases but will now require you to use PHP 7.2.
-				   With a refreshed application skeleton design, CakePHP 4.0.0 comes with a streamlined API making your
+				<h2>What's new in version 4</h2>
+				<p>CakePHP 4 is as tasty as other major CakePHP releases but will now require you to use PHP 7.2.
+				   With a refreshed application skeleton design, CakePHP 4 comes with a streamlined API making your
 				   development and application faster.</p>
-				<p>While 4.0 contains a number of breaking changes we have prepared an exhaustive migration guide
+				<p>While CakePHP 4 contains a number of breaking changes we have prepared an exhaustive migration guide
 				   covering all the deprecated and removed features as well as highlighting the shiny new features.</p>
 				<div>
 					<a href="https://book.cakephp.org/4/en/appendices/4-0-migration-guide.html#new-features" class="learn-more">Learn more</a>

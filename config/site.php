@@ -1,6 +1,7 @@
 <?php
 
 return [
+    // use major.minor to indicate current version in home page
     'App.cakeVersion' => '4.3',
     'Site' => [
         'contact' => [
