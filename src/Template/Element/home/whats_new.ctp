@@ -10,14 +10,19 @@
 		</div>
 		<div>
 			<div class="mb50">
-				<h2>What's new in version 4</h2>
-				<p>CakePHP 4 is as tasty as other major CakePHP releases but will now require you to use PHP 7.2.
-				   With a refreshed application skeleton design, CakePHP 4 comes with a streamlined API making your
-				   development and application faster.</p>
+				<h2>What's new in version 4.3</h2>
+				<p>The migration guide has a complete list of what's new in 4.3.0. We recommend you give that page a read when upgrading. A few highlights from 4.3.0 are:
+                <ul>
+                    
+              <li> A new fixture system </li>
+              <li> TestSuite\HttpMockTrait was added </li>
+              <li> LocatorAwareTrait::fetchTable() was added </li>
+              <li> Controller::middleware() was added. </li>
+              <li> CspMiddleware can now transparently add nonce- based policies. </li> </p>
 				<p>While CakePHP 4 contains a number of breaking changes we have prepared an exhaustive migration guide
 				   covering all the deprecated and removed features as well as highlighting the shiny new features.</p>
 				<div>
-					<a href="https://book.cakephp.org/4/en/appendices/4-0-migration-guide.html#new-features" class="learn-more">Learn more</a>
+					<a href="https://book.cakephp.org/4/en/appendices/4-3-migration-guide.html" class="learn-more">Learn more</a>
 				</div>
 			</div>
 
