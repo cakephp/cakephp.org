@@ -9,7 +9,7 @@
 			<div class="cta-home">
 				<a href="http://book.cakephp.org/4/en/installation.html" class="btn btn-home">
 					<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
-					Download
+					Install <?= $_version ?>
 				</a>
 				<a href="http://book.cakephp.org" class="btn btn-home btn-inverted">
 					<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
