@@ -4,15 +4,15 @@
 			<div class="row">
 				<ul id="sidebar-2" class="nav-pills nav-stacked blue-business-l" data-spy="affix" data-offset-top="250" data-offset-bottom="-6200">
 					<li><?= $this->Html->link(__('Development'), '#development-busi') ?></li>
-					<div class="br-bottom-sidebar"></div>
+					<li class="br-bottom-sidebar"></li>
 					<li><?= $this->Html->link(__('Consultancy'), '#consultancy-busi') ?></li>
-					<div class="br-bottom-sidebar"></div>
+					<li class="br-bottom-sidebar"></li>
 					<li><?= $this->Html->link(__('Code Review'), '#code-busi') ?></li>
-					<div class="br-bottom-sidebar"></div>
+					<li class="br-bottom-sidebar"></li>
 					<li><?= $this->Html->link(__('Professional Training'), '#professional-busi') ?></li>
-					<div class="br-bottom-sidebar"></div>
+					<li class="br-bottom-sidebar"></li>
 					<li><?= $this->Html->link(__('Contact'), '#contact-busi') ?></li>
-					<div class="br-bottom-sidebar"></div>
+					<li class="br-bottom-sidebar"></li>
 				</ul>
 			</div>
 		</div>
