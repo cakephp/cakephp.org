@@ -440,6 +440,17 @@ return [
                 'image-url' => 'team/Garas.jpg',
                 'country' => 'Lithuania',
             ],
+            'pfeifer_kevin' => [
+                'name' => 'Kevin Pfeifer (LordSimal)',
+                'description' => __('Kevin is a web developer from Austria. ' .
+                    'He started using CakePHP in 2017 and joined CakePHP team in December 2021.'),
+                'language' => __('Lithuanian, English'),
+                'github' => 'LordSimal',
+                'twitter' => 'lordsimal',
+                'role' => __('Core Member'),
+                'image-url' => 'team/pfeifer_kevin.jpg',
+                'country' => 'Austria',
+            ],
         ],
         'writers_form_enabled' => true,
         'meetups' => [
