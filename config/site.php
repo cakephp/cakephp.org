@@ -444,7 +444,7 @@ return [
                 'name' => 'Kevin Pfeifer (LordSimal)',
                 'description' => __('Kevin is a web developer from Austria. ' .
                     'He started using CakePHP in 2017 and joined CakePHP team in December 2021.'),
-                'language' => __('Lithuanian, English'),
+                'language' => __('German, English'),
                 'github' => 'LordSimal',
                 'twitter' => 'lordsimal',
                 'role' => __('Core Member'),
