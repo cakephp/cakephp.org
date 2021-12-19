@@ -59,11 +59,6 @@ $basicRoutes = function (RouteBuilder $routes) {
     $routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
 
     /**
-     * ...and connect the rest of 'Pages' controller's URLs.
-     */
-    $routes->connect('/pages/*', ['controller' => 'Pages', 'action' => 'display']);
-
-    /**
      * Custom routes
      */
     $routes->connect('/newsletter', ['controller' => 'Pages', 'action' => 'display', 'newsletter']);
@@ -93,6 +88,11 @@ $basicRoutes = function (RouteBuilder $routes) {
         $routes->fallbacks('DashedRoute');
     });
     $routes->connect('/meetups', ['controller' => 'Pages', 'action' => 'display', 'meetups']);
+
+    /**
+     * ...and connect the rest of 'Pages' controller's URLs.
+     */
+    $routes->connect('/pages/*', ['controller' => 'Pages', 'action' => 'display']);
 
     /**
      * Connect catchall routes for all controllers.
