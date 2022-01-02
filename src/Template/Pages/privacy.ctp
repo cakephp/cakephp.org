@@ -49,34 +49,34 @@
 				<p><?php echo __('What are cookies'); ?></p>
 				<p>
 					<?php echo __('Cookies are small pieces of text sent by your web browser by a website you visit.'); ?>
-					<?php echo __('A cookie file is stored in your web browser and allows the Service or a third-party 
+					<?php echo __('A cookie file is stored in your web browser and allows the Service or a third-party
 					to recognize you and make your next visit easier and the Service more useful to you.'); ?>
 				</p>
 				<p><?php echo __('Cookies can be "persistent" or "session" cookies.'); ?></p>
 				<p><?php echo __('How CakePHP uses cookies'); ?></p>
 				<p><?php echo __('When you use and access the Service, we may place a number of cookies files in your web browser.'); ?></p>
 				<p>
-					<?php echo __('We use cookies for the following purposes: to enable certain functions of the Service, to provide 
+					<?php echo __('We use cookies for the following purposes: to enable certain functions of the Service, to provide
 					analytics, to store your preferences, to enable advertisements delivery, including behavioral advertising.'); ?>
 				</p>
 				<p>
-					<?php echo __('We use both session and persistent cookies on the Service and we use different types of cookies 
+					<?php echo __('We use both session and persistent cookies on the Service and we use different types of cookies
 					to run the Service:'); ?>
 				</p>
 				<p>
-					<?php echo __('Essential cookies. We may use essential cookies to authenticate users and prevent fraudulent 
+					<?php echo __('Essential cookies. We may use essential cookies to authenticate users and prevent fraudulent
 					use of user accounts.'); ?>
 				</p>
 				<h3><?php echo __('My.cakephp.org account information (only specific to my.cakephp.org user sign up)'); ?></h3>
 				<p>
-					<?php echo __('Account information: To create an account, you must provide a username and password. 
+					<?php echo __('Account information: To create an account, you must provide a username and password.
 					Your username is public, and it doesn’t have to be related to your real name.'); ?>
 					<?php echo __('You may also provide an email address. We also store your user account preferences and settings.'); ?>
 				</p>
 				<p>
 					<i><?php echo __('Content you submit.'); ?></i>
 					<?php echo __('We collect the content you submit to the Services.'); ?>
-					<?php echo __('This includes your posts and comments including saved drafts, your messages with other users 
+					<?php echo __('This includes your posts and comments including saved drafts, your messages with other users
 					(e.g., private messages, chats, and modmail).');?>
 					<?php echo __('Your content may include text, links, images, gifs, and videos.');?>
 				</p>
@@ -89,28 +89,30 @@
 				</p>
 				<p>
 					<i><?php echo __('Transactional information.'); ?></i>
-					<?php echo __('If you purchase products or services from us (e.g., CakeFest, CakePHP training), we will 
-					collect certain information from you, including your name, address, email address, and information about 
+					<?php echo __('If you purchase products or services from us (e.g., CakeFest, CakePHP training), we will
+					collect certain information from you, including your name, address, email address, and information about
 					the product or service you are purchasing.'); ?>
-					<?php echo __('Payments are processed by third-party payment processors (e.g., PayPal), so please refer 
-					to the applicable processor’s terms and privacy policy for more information about how payment information is 
+					<?php echo __('Payments are processed by third-party payment processors (e.g., PayPal), so please refer
+					to the applicable processor’s terms and privacy policy for more information about how payment information is
 					processed and stored.');?>
 				</p>
 				<p>
 					<i><?php echo __('Other information.'); ?></i>
-					<?php echo __(' You may choose to provide other information directly to us. For example, filling out your 
+					<?php echo __(' You may choose to provide other information directly to us. For example, filling out your
 					personal information on your user profile.'); ?>
 				</p>
 				<h3><?php echo __('How We Use Information About You'); ?></h3>
 				<p><?php echo __('We use information about you to:'); ?></p>
-				<li><?php echo __('Provide, maintain, and improve the Services;'); ?></li>
-				<li><?php echo __('Send you technical notices, updates, security alerts, invoices and other support and 
-				administrative messages;'); ?></li>
-				<li><?php echo __('Provide customer service;'); ?></li>
-				<li><?php echo __('Communicate with you about products, services, offers, promotions, and events, and 
-				provide other news and information we think will be of interest to you (for information about how to opt 
-				out of these communications, see “Your Choices” below);'); ?></li>
-				<li><?php echo __('Monitor and analyze trends, usage, and activities in connection with our Services;'); ?></li>
+                <ul>
+                    <li><?php echo __('Provide, maintain, and improve the Services;'); ?></li>
+                    <li><?php echo __('Send you technical notices, updates, security alerts, invoices and other support and
+                    administrative messages;'); ?></li>
+                    <li><?php echo __('Provide customer service;'); ?></li>
+                    <li><?php echo __('Communicate with you about products, services, offers, promotions, and events, and
+                    provide other news and information we think will be of interest to you (for information about how to opt
+                    out of these communications, see “Your Choices” below);'); ?></li>
+                    <li><?php echo __('Monitor and analyze trends, usage, and activities in connection with our Services;'); ?></li>
+                </ul>
 				<h3><?php echo __('Advertising:'); ?></h3>
 				<p>
 					<?php echo __('We use third-party advertising companies to serve ads when you visit our website.'); ?>
@@ -135,26 +137,26 @@
 							'class' => 't-blue'
 						]));
 					?>
-					<?php echo __('As an example, we may use analytics partners to analyze and measure, in the aggregate, 
+					<?php echo __('As an example, we may use analytics partners to analyze and measure, in the aggregate,
 					the number of unique visitors to our Services.'); ?>
 				</p>
 				<h3><?php echo __('Deleting Your Account'); ?></h3>
 				<p>
 					<?php echo __('You may delete your account information at any time from the user preferences page.'); ?>
-					<?php echo __('When you delete your account, your profile is no longer visible to other users and 
+					<?php echo __('When you delete your account, your profile is no longer visible to other users and
 					disassociated from content you posted under that account.'); ?>
 				</p>
 				<h3><?php echo __('Information Security'); ?></h3>
 				<p>
-					<?php echo __('We take measures to help protect information about you from loss, theft, misuse and 
+					<?php echo __('We take measures to help protect information about you from loss, theft, misuse and
 					unauthorized access, disclosure, alteration, and destruction.'); ?>
 					<?php echo __('For example, we use HTTPS while information is being transmitted'); ?>
-					<?php echo __('We also enforce technical and administrative access controls to limit which of our 
+					<?php echo __('We also enforce technical and administrative access controls to limit which of our
 					employees have access to non-public personal information.'); ?>
 				</p>
 				<h3><?php echo __('Data Retention'); ?></h3>
 				<p>
-					<?php echo __('We store the information we collect for as long as it is necessary for the purpose(s) 
+					<?php echo __('We store the information we collect for as long as it is necessary for the purpose(s)
 					for which we originally collected it.'); ?>
 					<?php echo __('We may retain certain information for legitimate business purposes or as required by law.'); ?>
 				</p>
