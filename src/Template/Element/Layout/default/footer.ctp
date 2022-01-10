@@ -1,11 +1,11 @@
 <section id="socials" class="back-3 footer-wrapper">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-5  social text-center">
+			<div class="col-xs-12 col-sm-12 col-lg-5  social text-center">
 				<?= $this->element('Layout/default/footer/social_interactions') ?>
 			</div>
 
-			<div class="col-xs-12 col-sm-12 col-md-7 social-footer text-center ">
+			<div class="col-xs-12 col-sm-12 col-lg-7 social-footer text-center ">
 				<?= $this->element('Layout/default/footer/social_links') ?>
 			</div>
 

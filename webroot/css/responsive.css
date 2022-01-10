@@ -780,10 +780,6 @@
 		margin-bottom: 30px;
 	}
 
-	.social {
-		    margin-bottom: 44px;
-	}
-
 	.menu > li > a {
 		    padding: 25px 25px;
 	}
@@ -1203,4 +1199,10 @@
     .row.col-p30 [class*="col-"].business-solution {
         padding: 0 15px;
     }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+	.social {
+		margin-bottom: 44px;
+	}
 }
