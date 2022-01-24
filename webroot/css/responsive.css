@@ -695,6 +695,11 @@
     .register {
         padding-left: 15px !important;
     }
+
+    .business-solution-t .t-modal-show h4 {
+        font-size: 44px;
+        line-height: 5px;
+    }
 }
 
 @media (max-width: 375px) {
