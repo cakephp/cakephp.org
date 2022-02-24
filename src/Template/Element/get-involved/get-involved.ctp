@@ -66,7 +66,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 		<div class="br-bottom mb20"></div>
 		<p><?= __('As an open source project, backed by the {0} we don\'t have a massive budget to market and advertise the framework, so we depend
 			on people like you getting involved and helping support the community. There are many actions which can help
-			raise awareness, share experiences and educate your fellow developers about CakePHP.', $this->Html->link(__('Cake Software Foundation, Inc.'), 'http://cakefoundation.org/', ['target' => '_blank']))?> </p>
+			raise awareness, share experiences and educate your fellow developers about CakePHP.', $this->Html->link(__('Cake Software Foundation, Inc.'), 'https://cakefoundation.org/', ['target' => '_blank']))?> </p>
 		<h4><?= __('Write and Talk About CakePHP')?></h4>
 		<p><?= __('Actively writing and talking about CakePHP helps spread the word about the framework.')?></p>
 		<ul>
@@ -164,8 +164,8 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 			)?></p>
 
 		<p><?= __('CakePHP is {0}, so you can check the status of the {1} on the Jenkins server at any time.',
- 				$this->Html->link(__('continuously integrated'), 'http://en.wikipedia.org/wiki/Continuous_integration', ['target' => '_blank']),
- 				$this->Html->link(__('various builds'), 'http://ci.cakephp.org/')
+ 				$this->Html->link(__('continuously integrated'), 'https://en.wikipedia.org/wiki/Continuous_integration', ['target' => '_blank']),
+ 				$this->Html->link(__('various builds'), 'https://ci.cakephp.org/')
 			)?>
 		</p>
 	</div>
@@ -186,7 +186,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 				$this->Html->link(__('Cookbook'), Configure::read('Site.menu.items.documentation.book.url')),
 				$this->Html->link(__('source code'), 'https://github.com/cakephp/cakephp', ['target' => '_blank']),
 				$this->Html->link(__('GitHub'), 'https://github.com/cakephp/docs',  ['target' => '_blank']),
-				$this->Html->link(__('here'), 'http://book.cakephp.org/4/en/contributing/documentation.html')
+				$this->Html->link(__('here'), 'https://book.cakephp.org/4/en/contributing/documentation.html')
 			)?></p>
 	</div>
 

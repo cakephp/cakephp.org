@@ -8,7 +8,7 @@ use Cake\Core\Configure;
 		<div class="container text-center">
 			<div class="row">
 				<div class="col-sm-10 col-md-4 col-sm-offset-1 col-md-offset-4">
-                    <a href="http://cakefest.org/tickets" target="_blank">
+                    <a href="https://cakefest.org/tickets" target="_blank">
                         <div class="box-cakefest text-center">
                             <span class="glyph_range icon-fest">N</span>
                         </div>
@@ -32,7 +32,7 @@ use Cake\Core\Configure;
 					 over 4 exciting days!') ?></p>
 					<div class="text-center">
 							<?= $this->Html->link(__('Buy Your Tickets'),
-								'http://cakefest.org/tickets',
+								'https://cakefest.org/tickets',
 								[
 									'style' => 'color:white;',
 									'target' => '_blank',
@@ -43,7 +43,7 @@ use Cake\Core\Configure;
 					</div>
 				</div>
 				<div class="col-md-3 col-md-offset-1">
-					<a href='http://cakefest.org/tickets' title="<?= __('Get your ticket!')?>">
+					<a href='https://cakefest.org/tickets' title="<?= __('Get your ticket!')?>">
 						<?php if ($this->App->isCakeFestInFuture()): ?>
 							<div class="box-data">
 								<h6>Only</h6>

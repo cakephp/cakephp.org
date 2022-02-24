@@ -18,7 +18,7 @@ $flash = $this->Flash->render()
 				<?php if (!$flash):?>
 					<h1><?= $this->Html->image('writers-hero.svg', ['alt' => __('GET PAID TO WRITE ABOUT CAKEPHP')]) ?></h1>
 					<h2><?= __('In-depth tutorials, simple tutorials and more.') ?></h2>
-					<p><?= __('Sponsored by:') ?><?= $this->Html->image('writers-cakedc-logo.svg', ['url' => 'http://www.cakedc.com/']) ?></p>
+					<p><?= __('Sponsored by:') ?><?= $this->Html->image('writers-cakedc-logo.svg', ['url' => 'https://www.cakedc.com/']) ?></p>
 				<?php else:?>
 					<?= $flash?>
 				<?php endif;?>

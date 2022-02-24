@@ -60,13 +60,13 @@ $elementsByRow = 3;
 								</div>
 								<div class="modal-team">
 									<?php if (!empty($member['twitter'])):?>
-										<a href="http://twitter.com/<?= $member['twitter'] ?>" target="_blank" data-toggle="tooltip" title="Twitter"><i class="fa icon-social fa-twitter"></i></a>
+										<a href="https://twitter.com/<?= $member['twitter'] ?>" target="_blank" data-toggle="tooltip" title="Twitter"><i class="fa icon-social fa-twitter"></i></a>
 									<?php endif;?>
 									<?php if (!empty($member['github'])):?>
 										<a href="https://github.com/<?= $member['github'] ?>" target="_blank" data-toggle="tooltip" title="Github"><i class="fa icon-social fa-github"></i></a>
 									<?php endif;?>
 									<?php if (!empty($member['mycake'])):?>
-										<a href="http://my.cakephp.org/user/<?= $member['mycake'] ?>" target="_blank" data-toggle="tooltip" title="My CakePHP"><span class="glyph_range icon-social">a</span></a>
+										<a href="https://my.cakephp.org/user/<?= $member['mycake'] ?>" target="_blank" data-toggle="tooltip" title="My CakePHP"><span class="glyph_range icon-social">a</span></a>
 									<?php endif;?>
 								</div>
 							</div>

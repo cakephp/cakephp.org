@@ -372,7 +372,7 @@
 			'count': 1,
 			'dateFormat':"%d %b, %Y",
 			'apiPath':"../plugins/tweetie/api/tweet.php",
-			'template':'<div class="sidebar-tweet clearfix"><i class="fa fa-twitter"></i><p class="tweet-content"><a href="http://twitter.com/{{user_name}}" class="tweet-user">@{{user_name}}</a> <span>{{tweet}}</span> <small>{{date}}</small></p></div>'
+			'template':'<div class="sidebar-tweet clearfix"><i class="fa fa-twitter"></i><p class="tweet-content"><a href="https://twitter.com/{{user_name}}" class="tweet-user">@{{user_name}}</a> <span>{{tweet}}</span> <small>{{date}}</small></p></div>'
 		});
 	}
 
