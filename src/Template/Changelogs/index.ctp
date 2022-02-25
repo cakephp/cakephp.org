@@ -29,7 +29,7 @@
 <p>
 	<?= __(
 		'CakePHP\'s code repositories are hosted at {0}.',
-		'<a href="http://github.com/cakephp/cakephp">github.com</a>'
+		'<a href="https://github.com/cakephp/cakephp">github.com</a>'
 	) ?>
 </p>
 
@@ -79,7 +79,7 @@
 		__('Contributing to CakePHP is easy.'),
 		__(
 			'Checkout the {0} for how you can get started contributing to CakePHP.',
-			'<a href="http://book.cakephp.org/4/en/contributing/code.html">' . __('guide on contributing') . '</a>'
+			'<a href="https://book.cakephp.org/4/en/contributing/code.html">' . __('guide on contributing') . '</a>'
 		)
 	)) ?>
 </p>

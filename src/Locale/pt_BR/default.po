@@ -1318,7 +1318,7 @@ msgid ""
 "that the visual identity of the framework is never misrepresented or abused."
 msgstr ""
 "O uso do logo e da marca CakePHP devem seguir as instruções disponíveis a "
-"partir do guia de utilização: http://cakephp.org/logos . Seguir essas normas "
+"partir do guia de utilização: https://cakephp.org/logos . Seguir essas normas "
 "garante que a identidade visual da estrutura nunca será deturpada ou abusada."
 
 #: Template/Element/get-involved/community-guidelines.ctp:16
@@ -1349,7 +1349,7 @@ msgstr ""
 "Ao fazer uma referência ao CakePHP em um contexto de marketing ou "
 "promocional, ajude se o nome estiver destacado ou interativo. Considere o uso "
 "das tags HTML &lt;strong&gt; ou &lt;b&gt; , formatação em negrito para "
-"documentos, ou tornar o nome um link para http://cakephp.org . Não use o nome "
+"documentos, ou tornar o nome um link para https://cakephp.org . Não use o nome "
 "em excesso em qualquer corpo de texto. Para igualar o uso tente usar outras "
 "referências, como \"o framework\" ou \"o projeto\"."
 

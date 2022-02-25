@@ -29,7 +29,7 @@
 		<h3><?= __('Schedule') ?></h3>
 		<p><?= __('Visit the {0} site to view the scheduled courses which are currently available. Some sessions may already
 		be at maximum capacity, and no longer have positions available for additional attendees. Sign ups are only valid for
-		a session until 24 hours previous to the scheduled time.', $this->Html->link(__('CakePHP Training'), 'http://www.cakedc.com/cakephp-training', ['class' => 't-blue']))?></p>
+		a session until 24 hours previous to the scheduled time.', $this->Html->link(__('CakePHP Training'), 'https://www.cakedc.com/cakephp-training', ['class' => 't-blue']))?></p>
 	</div>
 
 	<div class="col-sm-12 p0">
@@ -37,7 +37,7 @@
 		<p>
 			<?= __('Don\'t forget to look out for {0} the annual CakePHP conference, where you can attend in person a live workshop presented by a
 		 core framework developer. Highly recommended for those who want to network with other CakePHP developers and meet the people behind the
-		 project.', $this->Html->link(__('CakeFest'), 'http://cakefest.org/', ['class' => 't-blue'])) ?>
+		 project.', $this->Html->link(__('CakeFest'), 'https://cakefest.org/', ['class' => 't-blue'])) ?>
 		</p>
 		<p><?= __('Additionally, if you\'d prefer to have a more tailored training session for you or your team we can provide
 		specific training sessions as part of our consultancy services, {0} us for more information.', $this->Html->link(__('contact'), '#', ['class' => 't-blue'])) ?></p>
