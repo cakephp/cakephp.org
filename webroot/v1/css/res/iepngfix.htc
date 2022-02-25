@@ -4,10 +4,10 @@
 <script type="text/javascript">
 
 // IE5.5+ PNG Alpha Fix v1.0RC4
-// (c) 2004-2005 Angus Turnbull http://www.twinhelix.com
+// (c) 2004-2005 Angus Turnbull https://www.twinhelix.com
 
 // This is licensed under the CC-GNU LGPL, version 2.1 or later.
-// For details, see: http://creativecommons.org/licenses/LGPL/2.1/
+// For details, see: https://creativecommons.org/licenses/LGPL/2.1/
 
 
 // This must be a path to a blank image. That's all the configuration you need.
