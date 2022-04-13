@@ -28,7 +28,7 @@
 			</div>
 			<div class="col-sm-6 col-xs-6">
 				<div class="navbar-right">
-					<button class="btn-menu" data-toggle="modal" data-target="#menumodal"><i
+					<button class="btn-menu" data-toggle="modal" data-target="#menumodal" title="toggle button"><i
 							class="toggle-modal icon_menu"></i></button>
 				</div>
 			</div>
