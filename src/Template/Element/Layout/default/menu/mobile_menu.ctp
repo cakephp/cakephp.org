@@ -132,7 +132,7 @@ if (!isset($availableLanguages)) {
                                             $this->Html->link(
                                                 $this->Html->image('https://cakefest.org/cakefest/img/cakefest-logo.svg', ['width' => 93]),
                                                 'https://cakefest.org/tickets',
-                                                ['escape' => false, 'class' => 'new-tag', 'target' => '_blank', 'style' => "background-color: white;"]
+                                                ['escape' => false, 'class' => 'new-tag', 'target' => '_blank', 'style' => "background-color: white;", 'aria-label' => 'cakefest']
                                             );?>
                                     </h4>
                                 </div>
