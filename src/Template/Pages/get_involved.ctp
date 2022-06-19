@@ -1,4 +1,4 @@
-<section  class="gray-stripe">
+<section  class="dark-gray-stripe">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 title-calendar ">
