@@ -54,9 +54,9 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 			<li><?= __('Tutorials')?></li>
 		</ul>
 	</div>
-	<div class="alert box-featured-light-2 back-medium-gray">
+	<div class="alert ">
 		<span class="glyph_range icon-featured icon-education">Q</span>
-		<p class="c-white"><?= __('Additionally, we offer professional training for CakePHP. Sign up to our monthly <a href="https://training.cakephp.org" target="_blank">training sessions</a> sponsored by <a href="https://cakedc.com" target="_blank">CakeDC</a>.')?></p>
+		<p><?= __('Additionally, we offer professional training for CakePHP. Sign up to our monthly <a href="https://training.cakephp.org" target="_blank">training sessions</a> sponsored by <a href="https://cakedc.com" target="_blank">CakeDC</a>.')?></p>
 	</div>
 	<div id="marketing" class="box-get">
 		<i class="fa fa-comment icon-get"></i>
