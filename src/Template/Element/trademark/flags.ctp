@@ -16,11 +16,11 @@ developers wanting to let others know you use CakePHP.')?><br/>
 </pre>
 		</div>
 		<p><?= __('Image files:')?></p>
-		<?= $this->Html->link(__('DOWNLOAD PNG'), 'img/flags/We-bake-with-CakePHP.png', ['class' => 'btn btn-ok btn-c mb20', 'fullBase' => true, 'target' => '_blank'])?>
+		<?= $this->Html->link(__('DOWNLOAD PNG'), 'img/flags/We-bake-with-CakePHP.png', ['class' => 'btn btn-ok btn-f mb20', 'fullBase' => true, 'target' => '_blank'])?>
 		<span class="mr20"></span>
-		<?= $this->Html->link(__('DOWNLOAD EPS'), 'img/flags/We-bake-with-CakePHP.eps', ['class' => 'btn btn-ok btn-c mb20', 'fullBase' => true, 'target' => '_blank'])?>
+		<?= $this->Html->link(__('DOWNLOAD EPS'), 'img/flags/We-bake-with-CakePHP.eps', ['class' => 'btn btn-ok btn-f mb20', 'fullBase' => true, 'target' => '_blank'])?>
 		<span class="mr20"></span>
-		<?= $this->Html->link(__('DOWNLOAD SVG'), 'img/flags/We-bake-with-CakePHP.svg', ['class' => 'btn btn-ok btn-c mb20', 'fullBase' => true, 'target' => '_blank'])?>
+		<?= $this->Html->link(__('DOWNLOAD SVG'), 'img/flags/We-bake-with-CakePHP.svg', ['class' => 'btn btn-ok btn-f mb20', 'fullBase' => true, 'target' => '_blank'])?>
 		<span class="mr20"></span>
 	</div>
 </div>
@@ -41,11 +41,11 @@ developers wanting to let others know you use CakePHP.')?><br/>
 </pre>
 		</div>
 		<p><?= __('Image files:')?></p>
-		<?= $this->Html->link(__('DOWNLOAD PNG'), 'img/flags/Baked-with-CakePHP.png', ['class' => 'btn btn-ok btn-c mb20', 'fullBase' => true])?>
+		<?= $this->Html->link(__('DOWNLOAD PNG'), 'img/flags/Baked-with-CakePHP.png', ['class' => 'btn btn-ok btn-f mb20', 'fullBase' => true])?>
 		<span class="mr20"></span>
-		<?= $this->Html->link(__('DOWNLOAD EPS'), 'img/flags/Baked-with-CakePHP.eps', ['class' => 'btn btn-ok btn-c mb20', 'fullBase' => true])?>
+		<?= $this->Html->link(__('DOWNLOAD EPS'), 'img/flags/Baked-with-CakePHP.eps', ['class' => 'btn btn-ok btn-f mb20', 'fullBase' => true])?>
 		<span class="mr20"></span>
-		<?= $this->Html->link(__('DOWNLOAD SVG'), 'img/flags/Baked-with-CakePHP.svg', ['class' => 'btn btn-ok btn-c mb20', 'fullBase' => true])?>
+		<?= $this->Html->link(__('DOWNLOAD SVG'), 'img/flags/Baked-with-CakePHP.svg', ['class' => 'btn btn-ok btn-f mb20', 'fullBase' => true])?>
 		<span class="mr20"></span>
 	</div>
 </div>
@@ -68,11 +68,11 @@ developers wanting to let others know you use CakePHP.')?><br/>
 </pre>
 		</div>
 		<p><?= __('Image files:')?></p>
-		<?= $this->Html->link(__('DOWNLOAD PNG'), 'img/flags/I-bake-with-CakePHP.png', ['class' => 'btn btn-ok btn-c mb20', 'fullBase' => true])?>
+		<?= $this->Html->link(__('DOWNLOAD PNG'), 'img/flags/I-bake-with-CakePHP.png', ['class' => 'btn btn-ok btn-f mb20', 'fullBase' => true])?>
 		<span class="mr20"></span>
-		<?= $this->Html->link(__('DOWNLOAD EPS'), 'img/flags/I-bake-with-CakePHP.eps', ['class' => 'btn btn-ok btn-c mb20', 'fullBase' => true])?>
+		<?= $this->Html->link(__('DOWNLOAD EPS'), 'img/flags/I-bake-with-CakePHP.eps', ['class' => 'btn btn-ok btn-f mb20', 'fullBase' => true])?>
 		<span class="mr20"></span>
-		<?= $this->Html->link(__('DOWNLOAD SVG'), 'img/flags/I-bake-with-CakePHP.svg', ['class' => 'btn btn-ok btn-c mb20', 'fullBase' => true])?>
+		<?= $this->Html->link(__('DOWNLOAD SVG'), 'img/flags/I-bake-with-CakePHP.svg', ['class' => 'btn btn-ok btn-f mb20', 'fullBase' => true])?>
 		<span class="mr20"></span>
 	</div>
 </div>
@@ -93,11 +93,11 @@ developers wanting to let others know you use CakePHP.')?><br/>
 </pre>
 		</div>
 		<p><?= __('Image files:')?></p>
-		<?= $this->Html->link(__('DOWNLOAD PNG'), 'img/flags/Bake-with-CakePHP.png', ['class' => 'btn btn-ok btn-c mb20', 'fullBase' => true])?>
+		<?= $this->Html->link(__('DOWNLOAD PNG'), 'img/flags/Bake-with-CakePHP.png', ['class' => 'btn btn-ok btn-f mb20', 'fullBase' => true])?>
 		<span class="mr20"></span>
-		<?= $this->Html->link(__('DOWNLOAD EPS'), 'img/flags/Bake-with-CakePHP.eps', ['class' => 'btn btn-ok btn-c mb20', 'fullBase' => true])?>
+		<?= $this->Html->link(__('DOWNLOAD EPS'), 'img/flags/Bake-with-CakePHP.eps', ['class' => 'btn btn-ok btn-f mb20', 'fullBase' => true])?>
 		<span class="mr20"></span>
-		<?= $this->Html->link(__('DOWNLOAD SVG'), 'img/flags/Bake-with-CakePHP.svg', ['class' => 'btn btn-ok btn-c mb20', 'fullBase' => true])?>
+		<?= $this->Html->link(__('DOWNLOAD SVG'), 'img/flags/Bake-with-CakePHP.svg', ['class' => 'btn btn-ok btn-f mb20', 'fullBase' => true])?>
 		<span class="mr20"></span>
 	</div>
 </div>

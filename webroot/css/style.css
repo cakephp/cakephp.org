@@ -4120,6 +4120,17 @@
         background-color:#d33c44;
     }
 
+    .btn-f {
+        background-color: #d33c44;
+        padding: 10px 20px;
+        border-radius: 2px;
+        font-size: 12px;
+        letter-spacing: 0.04em;
+        font-weight: 500;
+        margin: 0 3px;
+        color: #ffffff;
+    }
+
 
     /* Background buttons */
     .btn.btn-bg {
