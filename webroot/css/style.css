@@ -4131,6 +4131,11 @@
         color: #ffffff;
     }
 
+    .btn-f:hover, .btn-f:focus {
+        background: #FCFCFC;
+        color: #d33c44;
+    }
+
 
     /* Background buttons */
     .btn.btn-bg {
