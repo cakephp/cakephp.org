@@ -10,22 +10,21 @@
         </div>
         <div>
             <div class="mb50">
-                <h2>What's new in version 4.3</h2>
-                <p>The migration guide has a complete list of what's new in 4.3.0. We recommend you give that page a read when upgrading. A few highlights from 4.3.0 are:
+                <h2>What's new in version 4.4</h2>
+                <p>The migration guide has a complete list of what's new in 4.4.0. We recommend you give that page a read when upgrading. A few highlights from 4.4.0 are:
                 <ul>
-                    <li> New fixture system </li>
-                    <li> TestSuite\HttpMockTrait was added </li>
-                    <li> LocatorAwareTrait::fetchTable() was added </li>
-                    <li> Controller::middleware() was added </li>
-                    <li> CspMiddleware can now transparently add nonce- based policies </li>
-                    <li> JSON log formatting was added </li>
+                    <li> Simplified tests for Database package. This helps with the development of 5.x. </li>
+                    <li> Fixed build errors from new versions of intl, MySQL, and openssl. </li>
+                    <li> Improved README docs. </li>
+                    <li> Fixed regression in route parameter coercion intoduced in 4.4.3 with the value 0 being cast to an int. </li>
+                    
                 </ul>
                 <p>
                     While CakePHP 4 contains a number of breaking changes we have prepared an exhaustive migration guide
                     covering all the deprecated and removed features as well as highlighting the shiny new features.
                 </p>
                 <div>
-                    <a href="https://book.cakephp.org/4/en/appendices/4-3-migration-guide.html" class="learn-more">Learn more</a>
+                    <a href="https://book.cakephp.org/4/en/appendices/4-4-migration-guide.html" class="learn-more">Learn more</a>
                 </div>
             </div>
 
