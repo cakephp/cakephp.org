@@ -712,6 +712,10 @@
         width: 148px;
         top: 68px;
     }
+
+    .whats-new li {
+        word-break: break-word;
+    }
 }
 
 @media (min-width: 768px) {
