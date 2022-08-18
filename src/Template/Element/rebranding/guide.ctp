@@ -34,7 +34,7 @@
 						<?= __('Access our {0} page to learn more.', $this->Html->link(__('Trademarks and Logo Policy'), ['controller' => 'Pages', 'action' => 'display', 'trademark']))?>
 					</p>
 					<p>
-						<?= __('CakePHP Rebranding Project was a partnership with brand designer {0}', $this->Html->link('Henrique Ibaldo', 'http://www.ibaldo.co/', ['target' => '_blank']) )?>
+						<?= __('CakePHP Rebranding Project was a partnership with brand designer {0}', $this->Html->link('Henrique Ibaldo', 'https://www.ibaldo.co/', ['target' => '_blank']) )?>
 					</p>
 				</div>
 				<div class="clearfix"></div>
@@ -42,7 +42,7 @@
 				<div class="col-md-12">
 					<?= $this->Html->link(
 							$this->Html->image('rebranding/ibaldo.jpg', ['class' => 'img-responsive center-block', 'title' => __('Henrique Ibaldo')]),
-							'http://www.ibaldo.co/',
+							'https://www.ibaldo.co/',
 							['target' => '_blank', 'escape' => false])
 					?>
 				</div>

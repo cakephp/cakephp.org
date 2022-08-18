@@ -92,8 +92,21 @@ i.icon-get {
 	font-size: 50px;
 }
 
+.get-involved .alert {
+    background-color: #f7f7f5;
+}
+
+.get-involved .alert p {
+    display: inline;
+    letter-spacing: 0.01em;
+}
+
+.get-involved .alert .icon-education {
+    color: #d33c44;
+}
+
 .get-involved a {
-	color: #2f85ae;
+	color: #2B789C;
 }
 
 i.get-social-icon {

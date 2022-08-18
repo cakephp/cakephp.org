@@ -30,7 +30,7 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 
 $items = [];
 foreach ($changes as $hash => $change):
-	$url = 'http://github.com/cakephp/cakephp/commit/' . $hash;
+	$url = 'https://github.com/cakephp/cakephp/commit/' . $hash;
 	$link = $this->Html->link($hash, $url, ['target' => '_blank']);
 	$items[] = $link . ' ' . h($change);
 endforeach;

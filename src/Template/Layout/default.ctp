@@ -1,16 +1,16 @@
 <?php
 /**
- * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
- * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
+ * CakePHP(tm) : Rapid Development Framework (https://cakephp.org)
+ * Copyright (c) Cake Software Foundation, Inc. (https://cakefoundation.org)
  *
  * Licensed under The MIT License
  * For full copyright and license information, please see the LICENSE.txt
  * Redistributions of files must retain the above copyright notice.
  *
- * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- * @link          http://cakephp.org CakePHP(tm) Project
+ * @copyright     Copyright (c) Cake Software Foundation, Inc. (https://cakefoundation.org)
+ * @link          https://cakephp.org CakePHP(tm) Project
  * @since         0.10.0
- * @license       http://www.opensource.org/licenses/mit-license.php MIT License
+ * @license       https://www.opensource.org/licenses/mit-license.php MIT License
  */
 ?>
 <!DOCTYPE html>
@@ -31,7 +31,7 @@
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
-		gtag('config', 'UA-743287-4');
+		gtag('config', 'UA-743287-4', { 'anonymize_ip': true });
 	</script>
 	<!-- End Global site tag (gtag.js) - Google Analytics -->
 	<?= $this->Html->charset() ?>
@@ -43,7 +43,9 @@
 	</title>
 	<?= $this->Html->meta('icon', ['type' => 'icon']) ?>
 	<meta charset="utf-8" >
-	<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic%7CMontserrat:400,700' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:wght@400;700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
 	<?= $this->AssetCompress->css('public') ?>
 	<?= $this->AssetCompress->css('fonts', ['raw' => true, 'pathPrefix' => null]) ?>
 	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -53,6 +55,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
     <link rel="shortcut icon" type="image/x-icon" href="/favicons/favicon.ico"/>
+    <link rel="icon" type="image/svg+xml" href="/favicons/favicon.svg"/>
+    <link rel="icon" type="image/png" href="/favicons/favicon.png"/>
     <link rel="manifest" href="/favicons/manifest.json">
     <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#D33C44">
     <meta name="msapplication-config" content="/favicons/browserconfig.xml" />

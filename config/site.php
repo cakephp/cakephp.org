@@ -1,6 +1,8 @@
 <?php
 
 return [
+    // use major.minor to indicate current version in home page
+    'App.cakeVersion' => '4.3',
     'Site' => [
         'contact' => [
             'email' => 'contact@cakedc.com',
@@ -32,7 +34,7 @@ return [
                 'text' => __('Having inherited this CakePHP project, I didn’t choose CakePHP so much as chose to continue using it.  After seeing the power and functionality of the framework in use, it wasn’t a difficult choice to make.'),
                 'client' => 'Dwayne Sander',
                 'company' => 'Alerrt',
-                'url' => 'http://alerrt.org/',
+                'url' => 'https://alerrt.org/',
             ],
 
         ],
@@ -55,7 +57,7 @@ return [
                         'title' => __('Issues (Github)'),
                     ],
                     'blog' => [
-                        'url' => 'http://bakery.cakephp.org/',
+                        'url' => 'https://bakery.cakephp.org/',
                         'title' => __('Bakery'),
                     ],
                     'awesomeList' => [
@@ -63,7 +65,7 @@ return [
                         'title' => __('Featured Resources'),
                     ],
                     'training' => [
-                        'url' => 'http://training.cakephp.org/',
+                        'url' => 'https://training.cakephp.org/',
                         'title' => __('Training'),
                     ],
                     'meetups' => [
@@ -77,11 +79,11 @@ return [
                         'title' => __('Meetups'),
                     ],
                     'myCakephp' => [
-                        'url' => 'http://my.cakephp.org/login',
+                        'url' => 'https://my.cakephp.org/login',
                         'title' => __('My CakePHP'),
                     ],
                     'cakefest' => [
-                        'url' => 'http://cakefest.org',
+                        'url' => 'https://cakefest.org',
                         'options' => ['target' => '_blank'],
                         'title' => __('CakeFest'),
                     ],
@@ -118,12 +120,12 @@ return [
                 ],
                 'help' => [
                     'discourse' => [
-                        'url' => 'http://discourse.cakephp.org',
+                        'url' => 'https://discourse.cakephp.org',
                         'title' => __('Forum'),
                         'options' => ['target' => '_blank'],
                     ],
                     'stackOverflow' => [
-                        'url' => 'http://stackoverflow.com/tags/cakephp',
+                        'url' => 'https://stackoverflow.com/tags/cakephp',
                         'options' => ['target' => '_blank'],
                         'title' => __('Stack Overflow'),
                     ],
@@ -133,7 +135,7 @@ return [
                         'title' => 'IRC',
                     ],
                     'slack' => [
-                        'url' => 'http://cakesf.herokuapp.com/',
+                        'url' => 'https://cakesf.herokuapp.com/',
                         'options' => ['target' => '_blank'],
                         'title' => 'Slack',
                     ],
@@ -143,13 +145,13 @@ return [
                         'title' => 'Discord',
                     ],
                     'commercial' => [
-                        'url' => 'http://www.cakedc.com/',
+                        'url' => 'https://www.cakedc.com/',
                         'title' => __('Paid Support'),
                     ],
                 ],
                 'jobs' => [
                     'cakeJobs' => [
-                        'url' => 'http://cakephpjobs.com/',
+                        'url' => 'https://cakephpjobs.com/',
                         'options' => ['target' => '_blank'],
                         'title' => __('Cake Jobs'),
                     ],
@@ -171,7 +173,7 @@ return [
                 ],
                 'documentation' => [
                     'book' => [
-                        'url' => 'http://book.cakephp.org/4',
+                        'url' => 'https://book.cakephp.org/4',
                         'title' => __('Book'),
                     ],
                     'api' => [
@@ -214,7 +216,7 @@ return [
                 ],
                 'serviceProvider' => [
                     'cakedc' => [
-                        'url' => 'http://www.cakedc.com/',
+                        'url' => 'https://www.cakedc.com/',
                         'title' => 'CakeDC',
                         'options' => ['class' => 'hide'],
                     ],
@@ -437,6 +439,17 @@ return [
                 'role' => __('Core Member'),
                 'image-url' => 'team/Garas.jpg',
                 'country' => 'Lithuania',
+            ],
+            'pfeifer_kevin' => [
+                'name' => 'Kevin Pfeifer (LordSimal)',
+                'description' => __('Kevin is a web developer from Austria. ' .
+                    'He started using CakePHP in 2017 and joined CakePHP team in December 2021.'),
+                'language' => __('German, English'),
+                'github' => 'LordSimal',
+                'twitter' => 'lordsimal',
+                'role' => __('Core Member'),
+                'image-url' => 'team/pfeifer_kevin.jpg',
+                'country' => 'Austria',
             ],
         ],
         'writers_form_enabled' => true,
