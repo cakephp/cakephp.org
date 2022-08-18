@@ -2,7 +2,7 @@
 <section class="hero">
     <?= $this->Html->link(
             $this->Html->image('cakefest-banner-2022.png'),
-            'http://cakefest.org', 
+            'https://cakefest.org', 
             ['target' => '_blank', 'escape' => false]
         ); ?>
 </section>
