@@ -38,12 +38,12 @@ $elementsByRow = 3;
 					<?php if ($i % $elementsByRow == 0):?>
 						<div class="clearfix hidden-xs hidden-sm"></div>
 					<?php endif;?>
-					<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" id="<?= $key ?>">
+					<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel-<?= $key ?>" id="<?= $key ?>">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-									<h4 class="modal-title title-modal-team" id="gridSystemModalLabel"><?= $member['name'] ?></h4>
+									<h4 class="modal-title title-modal-team" id="gridSystemModalLabel-<?= $key ?>"><?= $member['name'] ?></h4>
 								</div>
 								<div class="modal-body">
 									<div class="row t-modal-team">
