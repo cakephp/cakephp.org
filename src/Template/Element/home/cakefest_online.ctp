@@ -2,8 +2,8 @@
 <section class="hero">
     <?= $this->Html->link(
             $this->Html->image('cakefest-banner-2022.png'),
-            'https://cakefest.org', 
-            ['target' => '_blank', 'escape' => false]
+            'https://cakefest.org',
+            ['target' => '_blank', 'escape' => false, 'title' => 'cakefest banner']
         ); ?>
 </section>
 <?php endif;?>
