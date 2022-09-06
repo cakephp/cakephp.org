@@ -135,7 +135,7 @@ return [
                         'title' => 'IRC',
                     ],
                     'slack' => [
-                        'url' => 'https://cakesf.herokuapp.com/',
+                        'url' => 'https://slack-invite.cakephp.org/',
                         'options' => ['target' => '_blank'],
                         'title' => 'Slack',
                     ],
