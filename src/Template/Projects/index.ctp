@@ -7,7 +7,7 @@
 
     <?= $this->element('Showcase/cases') ?>
 
-    <?= $this->element('Showcase/highlight', ['index' => 2, 'class' => "back-medium-gray data-height-fix featured-case-3"]) ?>
+    <?= $this->element('Showcase/highlight', ['index' => 2, 'class' => "back-dark data-height-fix featured-case-3"]) ?>
 
     <?= $this->element('home/support')?>
 
