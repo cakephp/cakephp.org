@@ -1,7 +1,7 @@
 <?php if ($project->website): ?>
 	<div class="col-sm-12 showcase-cases ptb-30">
 		<div class="col-sm-4 <?= $index % 2 === 1 ? 'col-sm-push-8' : '' ?>">
-			<a href="<?= $this->App->externalLink($project->website); ?>" target="_blank">
+			<a href="<?= $this->App->externalLink($project->website); ?>" target="_blank" aria-label="<?= $project->title ?>">
 				<?= $this->Showcase->image($project->screen_monitor_images[0], [
 				'class' => 'img-responsive'
 				], 'small'); ?>
