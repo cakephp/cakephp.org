@@ -10795,3 +10795,7 @@ a.btn-home.btn-inverted:hover, button.btn-home.btn-inverted:hover {
     -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
     box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
 }
+
+.section-caption a {
+    color: #4EA9D0;
+}
