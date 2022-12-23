@@ -55,7 +55,7 @@
 ); ?>
 <?= $this->Html->link(
 	$this->Html->tag('i', '', ['class' => 'fa fa-slack icon-social']),
-	'https://cakesf.herokuapp.com/',
+	'https://slack-invite.cakephp.org/',
 	[
 		'target' => '_blank',
 		'title' => 'Slack',
@@ -76,13 +76,13 @@
 	]
 ); ?>
 <?= $this->Html->link(
-	'#IRC',
-	'https://kiwiirc.com/client/irc.freenode.net#cakephp',
-	[
-		'target' => '_blank',
-		'title' => 'IRC',
-		'class' => 'icon-irc',
-		'data-toggle' => 'tooltip',
-        'aria-label' => 'IRC'
-	]
-) ?>
+	$this->Html->tag('i', '', ['class' => 'fa icon-social fa-stack-mastodon']),
+    'https://phpc.social/@cakephp',
+    [
+        'rel' => 'me', 
+        'title' => 'Mastodon',
+        'data-toggle' => 'tooltip',
+        'aria-label' => 'Mastodon',
+        'escape' => false,
+    ]
+); ?>
