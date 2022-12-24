@@ -117,6 +117,11 @@ return [
                         'options' => ['target' => '_blank'],
                         'title' => 'Twitter',
                     ],
+                    'mastodon' => [
+                        'url' => 'https://phpc.social/@cakephp',
+                        'options' => ['target' => '_blank', 'rel' => 'me'],
+                        'title' => 'Mastodon',
+                    ],
                 ],
                 'help' => [
                     'discourse' => [

@@ -76,7 +76,7 @@
 	]
 ); ?>
 <?= $this->Html->link(
-	$this->Html->tag('i', '', ['class' => 'fa icon-social fa-stack-mastodon']),
+	$this->Html->tag('i', '', ['class' => 'fa icon-social fa-mastodon']),
     'https://phpc.social/@cakephp',
     [
         'rel' => 'me', 
