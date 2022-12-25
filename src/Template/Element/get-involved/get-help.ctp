@@ -13,7 +13,7 @@ use Cake\Core\Configure;
 
     <div class="col-sm-12 p0 mt30">
         <div class="col-sm-1 p0">
-            <i class="fa get-social-icon fa-slack"></i>
+            <i class="fa-brands get-social-icon fa-slack"></i>
         </div>
         <div class="col-sm-11 p0">
             <p>
@@ -59,7 +59,7 @@ use Cake\Core\Configure;
     </div>
     <div class="col-sm-12 p0">
         <div class="col-sm-1 p0">
-            <i class="fa get-social-icon fa-git"></i>
+            <i class="fa-brands get-social-icon fa-git"></i>
         </div>
         <div class="col-sm-11 p0">
             <p>
@@ -71,7 +71,7 @@ use Cake\Core\Configure;
     </div>
     <div class="col-sm-12 p0">
         <div class="col-sm-1 p0">
-            <i class="fa get-social-icon fa-pencil-square-o"></i>
+            <i class="fa get-social-icon fa-pen-to-square"></i>
         </div>
         <div class="col-sm-11 p0">
             <p>
@@ -83,7 +83,7 @@ use Cake\Core\Configure;
     </div>
     <div class="col-sm-12 p0">
         <div class="col-sm-1 p0">
-            <i class="fa get-social-icon fa-stack-overflow"></i>
+            <i class="fa-brands get-social-icon fa-stack-overflow"></i>
         </div>
         <div class="col-sm-11 p0">
             <p>
@@ -95,7 +95,7 @@ use Cake\Core\Configure;
     </div>
     <div class="col-sm-12 p0">
         <div class="col-sm-1 p0">
-            <i class="fa get-social-icon fa-facebook"></i>
+            <i class="fa-brands get-social-icon fa-facebook"></i>
         </div>
         <div class="col-sm-11 p0">
             <p>
@@ -107,7 +107,7 @@ use Cake\Core\Configure;
     </div>
     <div class="col-sm-12 p0">
         <div class="col-sm-1 p0">
-            <i class="fa get-social-icon fa-youtube-play"></i>
+            <i class="fa-brands get-social-icon fa-youtube"></i>
         </div>
         <div class="col-sm-11 p0">
             <p>
@@ -119,7 +119,7 @@ use Cake\Core\Configure;
     </div>
     <div class="col-sm-12 p0">
         <div class="col-sm-1 p0">
-            <i class="fa get-social-icon fa-twitter"></i>
+            <i class="fa-brands get-social-icon fa-twitter"></i>
         </div>
         <div class="col-sm-11 p0">
             <p>
@@ -131,7 +131,7 @@ use Cake\Core\Configure;
     </div>
     <div class="col-sm-12 p0">
         <div class="col-sm-1 p0">
-            <i class="fa get-social-icon fa-reddit-alien"></i>
+            <i class="fa-brands get-social-icon fa-reddit-alien"></i>
         </div>
         <div class="col-sm-11 p0">
             <p>

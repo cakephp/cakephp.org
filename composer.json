@@ -34,7 +34,10 @@
 		}
 	},
 	"config": {
-		"secure-http": false
+		"secure-http": false,
+		"allow-plugins": {
+			"cakephp/plugin-installer": true
+		}
 	},
 	"extra": {
 		"installer-paths": {
