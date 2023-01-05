@@ -1,5 +1,5 @@
 <?= $this->Html->link(
-	$this->Html->tag('i', '', ['class' => 'fa icon-social fa-twitter']),
+	$this->Html->tag('i', '', ['class' => 'fa-brands icon-social fa-twitter']),
 	'https://www.twitter.com/cakephp',
 	[
 		'target' => '_blank',
@@ -10,7 +10,7 @@
 	]
 ); ?>
 <?= $this->Html->link(
-	$this->Html->tag('i', '', ['class' => 'fa icon-social fa-facebook']),
+	$this->Html->tag('i', '', ['class' => 'fa-brands icon-social fa-facebook']),
 	'https://www.facebook.com/CakePHP',
 	[
 		'target' => '_blank',
@@ -21,7 +21,7 @@
 	]
 ); ?>
 <?= $this->Html->link(
-	$this->Html->tag('i', '', ['class' => 'fa icon-social fa-youtube-play']),
+	$this->Html->tag('i', '', ['class' => 'fa-brands icon-social fa-youtube']),
 	'https://www.youtube.com/user/CakePHP',
 	[
 		'target' => '_blank',
@@ -32,7 +32,7 @@
 	]
 ); ?>
 <?= $this->Html->link(
-	$this->Html->tag('i', '', ['class' => 'fa icon-social fa-linkedin']),
+	$this->Html->tag('i', '', ['class' => 'fa-brands icon-social fa-linkedin']),
 	'https://www.linkedin.com/groups/4623165/profile',
 	[
 		'target' => '_blank',
@@ -43,7 +43,7 @@
 	]
 ); ?>
 <?= $this->Html->link(
-	$this->Html->tag('i', '', ['class' => 'fa icon-social fa-git']),
+	$this->Html->tag('i', '', ['class' => 'fa-brands icon-social fa-git']),
 	'https://www.github.com/cakephp',
 	[
 		'target' => '_blank',
@@ -54,7 +54,7 @@
 	]
 ); ?>
 <?= $this->Html->link(
-	$this->Html->tag('i', '', ['class' => 'fa fa-slack icon-social']),
+	$this->Html->tag('i', '', ['class' => 'fa-brands icon-social fa-slack']),
 	'https://slack-invite.cakephp.org/',
 	[
 		'target' => '_blank',
@@ -65,7 +65,7 @@
 	]
 ); ?>
 <?= $this->Html->link(
-	$this->Html->tag('i', '', ['class' => 'fa icon-social fa-stack-overflow']),
+	$this->Html->tag('i', '', ['class' => 'fa-brands icon-social fa-stack-overflow']),
 	'https://stackoverflow.com/tags/cakephp/info',
 	[
 		'target' => '_blank',
@@ -76,10 +76,10 @@
 	]
 ); ?>
 <?= $this->Html->link(
-	$this->Html->tag('i', '', ['class' => 'fa icon-social fa-mastodon']),
+	$this->Html->tag('i', '', ['class' => 'fa-brands icon-social fa-mastodon']),
     'https://phpc.social/@cakephp',
     [
-        'rel' => 'me', 
+        'rel' => 'me',
         'title' => 'Mastodon',
         'data-toggle' => 'tooltip',
         'aria-label' => 'Mastodon',
