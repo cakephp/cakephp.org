@@ -60,10 +60,10 @@ $elementsByRow = 3;
 								</div>
 								<div class="modal-team">
 									<?php if (!empty($member['twitter'])):?>
-										<a href="https://twitter.com/<?= $member['twitter'] ?>" target="_blank" data-toggle="tooltip" aria-label="Twitter" title="Twitter"><i class="fa icon-social fa-twitter"></i></a>
+										<a href="https://twitter.com/<?= $member['twitter'] ?>" target="_blank" data-toggle="tooltip" aria-label="Twitter" title="Twitter"><i class="fa-brands icon-social fa-twitter"></i></a>
 									<?php endif;?>
 									<?php if (!empty($member['github'])):?>
-										<a href="https://github.com/<?= $member['github'] ?>" target="_blank" data-toggle="tooltip" aria-label="Github" title="Github"><i class="fa icon-social fa-github"></i></a>
+										<a href="https://github.com/<?= $member['github'] ?>" target="_blank" data-toggle="tooltip" aria-label="Github" title="Github"><i class="fa-brands icon-social fa-github"></i></a>
 									<?php endif;?>
 									<?php if (!empty($member['mycake'])):?>
 										<a href="https://my.cakephp.org/user/<?= $member['mycake'] ?>" target="_blank" data-toggle="tooltip" title="My CakePHP"><span class="glyph_range icon-social">a</span></a>
