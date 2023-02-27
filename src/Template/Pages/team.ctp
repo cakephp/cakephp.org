@@ -18,7 +18,70 @@ $elementsByRow = 3;
 				<h3><?= __('Meet the team behind CakePHP')?></h3>
 			</div>
 			<div class="col-sm-12">
-				<?php foreach($team as $key => $member):
+				<?php foreach($team['active'] as $key => $member):
+					$i++;?>
+					<div class="col-sm-6 col-md-4 padd-team">
+						<div class="portfolio-el view view-team text-center">
+							<?= $this->Html->image($member['image-url'], ['alt' => $member['name']])?>
+							<a class="mask" data-target="#<?= $key ?>" data-toggle="modal">
+								<div class="t-team-read">
+									<h6><?= __('read more')?></h6>
+								</div>
+							</a>
+						</div>
+						<div class="text-team">
+							<div class="d-team"></div>
+							<h3><?= $member['name'] ?></h3>
+							<h5><?= __($member['role']) ?></h5>
+						</div>
+					</div>
+					<?php if ($i % $elementsByRow == 0):?>
+						<div class="clearfix hidden-xs hidden-sm"></div>
+					<?php endif;?>
+					<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel-<?= $key ?>" id="<?= $key ?>">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title title-modal-team" id="gridSystemModalLabel-<?= $key ?>"><?= $member['name'] ?></h4>
+								</div>
+								<div class="modal-body">
+									<div class="row t-modal-team">
+										<div class="col-sm-12">
+											<p><?= __($member['description']) ?></p>
+										</div>
+									</div>
+									<div class="row">
+										<?= $this->Form->hidden('country', ['id' => $key . '-country', 'class' => 'country', 'value'=> $member['country']]) ?>
+										<div class="col-sm-12">
+											<div id="<?= $key ?>-map" class="img-responsive"></div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-team">
+									<?php if (!empty($member['twitter'])):?>
+										<a href="https://twitter.com/<?= $member['twitter'] ?>" target="_blank" data-toggle="tooltip" aria-label="Twitter" title="Twitter"><i class="fa-brands icon-social fa-twitter"></i></a>
+									<?php endif;?>
+									<?php if (!empty($member['github'])):?>
+										<a href="https://github.com/<?= $member['github'] ?>" target="_blank" data-toggle="tooltip" aria-label="Github" title="Github"><i class="fa-brands icon-social fa-github"></i></a>
+									<?php endif;?>
+									<?php if (!empty($member['mycake'])):?>
+										<a href="https://my.cakephp.org/user/<?= $member['mycake'] ?>" target="_blank" data-toggle="tooltip" title="My CakePHP"><span class="glyph_range icon-social">a</span></a>
+									<?php endif;?>
+								</div>
+							</div>
+						</div>
+					</div>
+				<?php endforeach;?>
+			</div>
+			<div class="col-sm-12 text-center t-team">
+				<h3><?= __('Alumni')?></h3>
+			</div>
+			<div class="col-sm-12">
+				<?php
+				$i = 0;
+				?>
+				<?php foreach($team['alumni'] as $key => $member):
 					$i++;?>
 					<div class="col-sm-6 col-md-4 padd-team">
 						<div class="portfolio-el view view-team text-center">
