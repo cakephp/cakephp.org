@@ -264,197 +264,201 @@ return [
             ],
         ],
         'team' => [
-            'larry' => [
-                'name' => 'Larry Masters',
-                'description' => __('Larry Masters the Co-Founder of the CakePHP project, first released in May 2005, and has contributed as a lead developer and advisor ever since. He has been involved in Open Source development for many years, dating back to his first contributions made to The Exchange Project, now called osCommerce. Prior to developing the CakePHP framework and starting Cake Software Foundation, Inc. he was a core developer of PostNuke, now continued as Zikula. He has 30 plus years experience in software development, system administration, and database design. His passion for excellence is shown in the code he writes and time dedicated to the CakePHP framework development over the past 11 years.'),
-                'language' => __('English, US English, Broken English, Klingon'),
-                'twitter' => 'phpnut',
-                'github' => 'phpnut',
-                'mycake' => 'phpnut',
-                'role' => __('Co-Founder'),
-                'image-url' => 'team/larry_masters.jpg',
-                'country' => 'United States',
+            'active' => [
+                'larry' => [
+                    'name' => 'Larry Masters',
+                    'description' => __('Larry Masters the Co-Founder of the CakePHP project, first released in May 2005, and has contributed as a lead developer and advisor ever since. He has been involved in Open Source development for many years, dating back to his first contributions made to The Exchange Project, now called osCommerce. Prior to developing the CakePHP framework and starting Cake Software Foundation, Inc. he was a core developer of PostNuke, now continued as Zikula. He has 30 plus years experience in software development, system administration, and database design. His passion for excellence is shown in the code he writes and time dedicated to the CakePHP framework development over the past 11 years.'),
+                    'language' => __('English, US English, Broken English, Klingon'),
+                    'twitter' => 'phpnut',
+                    'github' => 'phpnut',
+                    'mycake' => 'phpnut',
+                    'role' => __('Co-Founder'),
+                    'image-url' => 'team/larry_masters.jpg',
+                    'country' => 'United States',
+                ],
+                'mark' => [
+                    'name' => 'Mark Story',
+                    'description' => __('Mark is a core member of the CakePHP team, serving as a lead developer since late 2009. During the day he works at Sentry. He fills the rest of his time hacking on CakePHP, playing MtG and being a dad.'),
+                    'language' => __('English'),
+                    'twitter' => 'mark_story',
+                    'github' => 'markstory',
+                    'mycake' => 'markstory',
+                    'role' => __('Lead Developer'),
+                    'image-url' => 'team/mark_story.jpg',
+                    'country' => 'Canada',
+                ],
+                'jose_lorenzo' => [
+                    'name' => 'José Lorenzo Rodríguez (Lorenzo/Jose_Zap)',
+                    'description' => __('José is a full-stack software developer that loves to solve difficult problems. He has been contributing to the CakePHP framework since 2009, and he often does talks about its amazing ORM. In his spare time, he teaches and practices mindfulness, ride his bike, or learns new programming languages.'),
+                    'language' => __('English, Spanish, French and Danish'),
+                    'twitter' => 'jose_zap',
+                    'github' => 'lorenzo',
+                    'mycake' => 'lorenzo',
+                    'role' => __('ORM Developer'),
+                    'image-url' => 'team/jose_lorenzo.jpg',
+                    'country' => 'Denmark',
+                ],
+                'savant' => [
+                    'name' => 'Jose Diaz-Gonzalez (Savant)',
+                    'description' => __('A developer based in New York, New York with an extremely active github account and an interest in Docker and Server Monitoring. He\'s been doing this since around 2008 and sometimes he blogs.'),
+                    'language' => __('English'),
+                    'twitter' => 'savant',
+                    'github' => 'josegonzalez',
+                    'mycake' => '',
+                    'role' => __('Core Member'),
+                    'image-url' => 'team/savant.jpg',
+                    'country' => 'United States',
+                ],
+                'admad' => [
+                    'name' => 'ADmad (ADmad)',
+                    'description' => __('A programmer by day and night, you will generally find him lurking in the deepest darkest corners of the internet. He\'s also involved in maintaining lot of popular CakePHP community plugins.'),
+                    'language' => __('English'),
+                    'twitter' => '',
+                    'github' => 'ADmad',
+                    'mycake' => 'ADmad',
+                    'role' => __('Core Member'),
+                    'image-url' => 'team/admad.jpg',
+                    'country' => 'India',
+                ],
+                'mark_s' => [
+                    'name' => 'Mark Scherer (Dereuromark)',
+                    'description' => __('Mark has been a web-software enthusiast and Open Source Contributor for many years.
+                        He is a German Software Developer living in Berlin who started to use CakePHP in the 1.2 days.
+                        As one of the core developers of CakePHP he is a huge fan of rapid development - and has been using
+                        CakePHP a lot for this in his applications so far.
+                        On his blog dereuromark.de he sometimes blogs about web and CakePHP related topics.'),
+                    'language' => __('English, German'),
+                    'twitter' => 'dereuromark',
+                    'github' => 'dereuromark',
+                    'mycake' => 'dereuromark',
+                    'role' => __('Core Member'),
+                    'image-url' => 'team/mark_scherer.png',
+                    'country' => 'Germany',
+                ],
+                'cleptric' => [
+                    'name' => 'Michael Hoffmann (Cleptric)',
+                    'description' => __('Michael started using CakePHP in early 2014 and is currently working as a web developer for magicplan in Munich, Germany. He joined the Core Team in February 2017.'),
+                    'language' => __('German, English'),
+                    'twitter' => 'cleptric',
+                    'github' => 'cleptric',
+                    'mycake' => 'cleptric',
+                    'role' => __('Core Member'),
+                    'image-url' => 'team/cleptric.jpg',
+                    'country' => 'Germany',
+                ],
+                'ravage' => [
+                    'name' => 'Marc Würth (ravage)',
+                    'description' => __('Marc is an Open Source enthusiast from Basel, Switzerland. ' .
+                        'He started contributing to CakePHP at the end of 2012 (CakePHP 2.2.4), becoming a documentation team member soon after. ' .
+                        'He also co-maintains PHPMD and a few other projects. ' .
+                        'At ORCA Services AG he works as Head of Development. ' .
+                        'He cares about code style, test coverage & clean code. ' .
+                        'In his spare time he is passionate about electronic dance music, likes to play PC games (mostly point & click adventures & single player role playing games), ' .
+                        'likes to swim or relax in the sauna, enjoys a good movie or generally spending time with his family, friends, his two Maine Coon cats & his Cimarrón Uruguayo dog.'),
+                    'language' => __('Swiss-German, German, English'),
+                    'github' => 'ravage84',
+                    'mycake' => 'ravage84',
+                    'role' => __('Core Member'),
+                    'image-url' => 'team/ravage.jpg',
+                    'country' => 'Switzerland',
+                ],
+                'steinkel' => [
+                    'name' => 'Jorge González (steinkel)',
+                    'description' => __('Jorge is a passionate developer since he started playing with an MSX at 12. ' .
+                        'He used different technologies until he discovered the CakePHP Framework (love at first sight). ' .
+                        'He joined Cake Development Corporation (CakeDC) in 2012, working now as Senior CakePHP Developer and Project Manager. '),
+                    'language' => __('Spanish, English'),
+                    'github' => 'steinkel',
+                    'mycake' => 'steinkel',
+                    'role' => __('CakePHP Trainer'),
+                    'image-url' => 'team/jorge_gonzalez.jpg',
+                    'country' => 'Spain',
+                ],
+                'garas' => [
+                    'name' => 'Edgaras Janušauskas (garas)',
+                    'description' => __('Edgaras is a PHP software developer from Lithuania. ' .
+                        'He started using CakePHP in 2011 and joined CakePHP team in October 2018.'),
+                    'language' => __('Lithuanian, English'),
+                    'github' => 'garas',
+                    'mycake' => 'garas',
+                    'role' => __('Core Member'),
+                    'image-url' => 'team/Garas.jpg',
+                    'country' => 'Lithuania',
+                ],
+                'pfeifer_kevin' => [
+                    'name' => 'Kevin Pfeifer (LordSimal)',
+                    'description' => __('Kevin is a web developer from Austria. ' .
+                        'He started using CakePHP in 2017 and joined CakePHP team in December 2021.'),
+                    'language' => __('German, English'),
+                    'github' => 'LordSimal',
+                    'twitter' => 'lordsimal',
+                    'role' => __('Core Member'),
+                    'image-url' => 'team/pfeifer_kevin.jpg',
+                    'country' => 'Austria',
+                ],
             ],
-            'mark' => [
-                'name' => 'Mark Story',
-                'description' => __('Mark is a core member of the CakePHP team, serving as a lead developer since late 2009. During the day he works at Sentry. He fills the rest of his time hacking on CakePHP, playing MtG and being a dad.'),
-                'language' => __('English'),
-                'twitter' => 'mark_story',
-                'github' => 'markstory',
-                'mycake' => 'markstory',
-                'role' => __('Lead Developer'),
-                'image-url' => 'team/mark_story.jpg',
-                'country' => 'Canada',
-            ],
-            'jose_lorenzo' => [
-                'name' => 'José Lorenzo Rodríguez (Lorenzo/Jose_Zap)',
-                'description' => __('José is a full-stack software developer that loves to solve difficult problems. He has been contributing to the CakePHP framework since 2009, and he often does talks about its amazing ORM. In his spare time, he teaches and practices mindfulness, ride his bike, or learns new programming languages.'),
-                'language' => __('English, Spanish, French and Danish'),
-                'twitter' => 'jose_zap',
-                'github' => 'lorenzo',
-                'mycake' => 'lorenzo',
-                'role' => __('ORM Developer'),
-                'image-url' => 'team/jose_lorenzo.jpg',
-                'country' => 'Denmark',
-            ],
-            'savant' => [
-                'name' => 'Jose Diaz-Gonzalez (Savant)',
-                'description' => __('A developer based in New York, New York with an extremely active github account and an interest in Docker and Server Monitoring. He\'s been doing this since around 2008 and sometimes he blogs.'),
-                'language' => __('English'),
-                'twitter' => 'savant',
-                'github' => 'josegonzalez',
-                'mycake' => '',
-                'role' => __('Core Member'),
-                'image-url' => 'team/savant.jpg',
-                'country' => 'United States',
-            ],
-            'admad' => [
-                'name' => 'ADmad (ADmad)',
-                'description' => __('A programmer by day and night, you will generally find him lurking in the deepest darkest corners of the internet. He\'s also involved in maintaining lot of popular CakePHP community plugins.'),
-                'language' => __('English'),
-                'twitter' => '',
-                'github' => 'ADmad',
-                'mycake' => 'ADmad',
-                'role' => __('Core Member'),
-                'image-url' => 'team/admad.jpg',
-                'country' => 'India',
-            ],
-            'burzum' => [
-                'name' => 'Florian Kramer (Burzum)',
-                'description' => __('A software developer by profession and not just because it’s a job. Florian is a core CakePHP team
-							developer as well as having worked with CakeDC itself, doing CakePHP development since 2007. Florian sees
-							programming as a true profession and not just a job for him, he likes to work on open source projects after
-							work hours and has an interest in Unity3D and c# as well. He’s working as lead developer for PSA Publishers
-							Ltd'),
-                'language' => __('English, German'),
-                'twitter' => 'burzum793',
-                'github' => 'burzum',
-                'mycake' => 'burzum',
-                'role' => __('Core Member'),
-                'image-url' => 'team/florian_kramer.jpg',
-                'country' => 'Germany',
-            ],
-            'mark_s' => [
-                'name' => 'Mark Scherer (Dereuromark)',
-                'description' => __('Mark has been a web-software enthusiast and Open Source Contributor for many years.
-					He is a German Software Developer living in Berlin who started to use CakePHP in the 1.2 days.
-					As one of the core developers of CakePHP he is a huge fan of rapid development - and has been using
-					CakePHP a lot for this in his applications so far.
-					On his blog dereuromark.de he sometimes blogs about web and CakePHP related topics.'),
-                'language' => __('English, German'),
-                'twitter' => 'dereuromark',
-                'github' => 'dereuromark',
-                'mycake' => 'dereuromark',
-                'role' => __('Core Member'),
-                'image-url' => 'team/mark_scherer.png',
-                'country' => 'Germany',
-            ],
-            'dakota' => [
-                'name' => 'Walther Lalk (Dakota)',
-                'description' => __('Walther is a software engineer/developer primarily working in PHP (Using CakePHP as his framework of choice).
-								Also a core member of the team, as well as the Croogo and Friends of Cake development team.
-								When he is not developing or behind his PC screen, you can find him either spending time with his family,
-								or at Scouts, where he is an adult leader/Scouter.'),
-                'language' => __('English'),
-                'twitter' => 'dakotairene',
-                'github' => 'dakota',
-                'mycake' => 'dakota',
-                'role' => __('Core Member'),
-                'image-url' => 'team/walther_lalk.jpg',
-                'country' => 'South Africa',
-            ],
-            'chinpei215' => [
-                'name' => 'Kurita Takashi',
-                'description' => __('Kurita is a PHP programmer living in Tokyo. Currently he works in web application security. Joined CakePHP
-								core team in February 2016 and has been working closely with the team on security fixes.'),
-                'language' => __('Japanese'),
-                'twitter' => 'chinpei215',
-                'github' => 'chinpei215',
-                'mycake' => 'chinpei215',
-                'role' => __('Core Member'),
-                'image-url' => 'team/chinpei215.png',
-                'country' => 'Japan',
-            ],
-            'megan' => [
-                'name' => 'Megan Lalk',
-                'description' => __('Besides marketing, social media and community management, Megan is around to assist in
-					general queries, community assistance and CakeFest planning.'),
-                'language' => __('English'),
-                'mycake' => 'Megslalk',
-                'role' => __('CakePHP Community Manager'),
-                'image-url' => 'team/megan.jpg',
-                'country' => 'South Africa',
-            ],
-            'rchavik' => [
-                'name' => 'Rachman Chavik (rchavik)',
-                'description' => __('Cakephp and Croogo core team member, surfer wannabe. Oh, I am Super Awesome too.'),
-                'language' => __('English'),
-                'twitter' => 'rchavik',
-                'mycake' => 'rchavik',
-                'role' => __('Core Member'),
-                'image-url' => 'team/rchavik.jpg',
-                'country' => 'Indonesia',
-            ],
-            'cleptric' => [
-                'name' => 'Michael Hoffmann (Cleptric)',
-                'description' => __('Michael started using CakePHP in early 2014 and is currently working as a web developer for magicplan in Munich, Germany. He joined the Core Team in February 2017.'),
-                'language' => __('German, English'),
-                'twitter' => 'cleptric',
-                'github' => 'cleptric',
-                'mycake' => 'cleptric',
-                'role' => __('Core Member'),
-                'image-url' => 'team/cleptric.jpg',
-                'country' => 'Germany',
-            ],
-            'ravage' => [
-                'name' => 'Marc Würth (ravage)',
-                'description' => __('Marc is an Open Source enthusiast from Basel, Switzerland. ' .
-                    'He started contributing to CakePHP at the end of 2012 (CakePHP 2.2.4), becoming a documentation team member soon after. ' .
-                    'He also co-maintains PHPMD and a few other projects. ' .
-                    'At ORCA Services AG he works as Head of Development. ' .
-                    'He cares about code style, test coverage & clean code. ' .
-                    'In his spare time he is passionate about electronic dance music, likes to play PC games (mostly point & click adventures & single player role playing games), ' .
-                    'likes to swim or relax in the sauna, enjoys a good movie or generally spending time with his family, friends, his two Maine Coon cats & his Cimarrón Uruguayo dog.'),
-                'language' => __('Swiss-German, German, English'),
-                'github' => 'ravage84',
-                'mycake' => 'ravage84',
-                'role' => __('Core Member'),
-                'image-url' => 'team/ravage.jpg',
-                'country' => 'Switzerland',
-            ],
-            'steinkel' => [
-                'name' => 'Jorge González (steinkel)',
-                'description' => __('Jorge is a passionate developer since he started playing with an MSX at 12. ' .
-                    'He used different technologies until he discovered the CakePHP Framework (love at first sight). ' .
-                    'He joined Cake Development Corporation (CakeDC) in 2012, working now as Senior CakePHP Developer and Project Manager. '),
-                'language' => __('Spanish, English'),
-                'github' => 'steinkel',
-                'mycake' => 'steinkel',
-                'role' => __('CakePHP Trainer'),
-                'image-url' => 'team/jorge_gonzalez.jpg',
-                'country' => 'Spain',
-            ],
-            'garas' => [
-                'name' => 'Edgaras Janušauskas (garas)',
-                'description' => __('Edgaras is a PHP software developer from Lithuania. ' .
-                    'He started using CakePHP in 2011 and joined CakePHP team in October 2018.'),
-                'language' => __('Lithuanian, English'),
-                'github' => 'garas',
-                'mycake' => 'garas',
-                'role' => __('Core Member'),
-                'image-url' => 'team/Garas.jpg',
-                'country' => 'Lithuania',
-            ],
-            'pfeifer_kevin' => [
-                'name' => 'Kevin Pfeifer (LordSimal)',
-                'description' => __('Kevin is a web developer from Austria. ' .
-                    'He started using CakePHP in 2017 and joined CakePHP team in December 2021.'),
-                'language' => __('German, English'),
-                'github' => 'LordSimal',
-                'twitter' => 'lordsimal',
-                'role' => __('Core Member'),
-                'image-url' => 'team/pfeifer_kevin.jpg',
-                'country' => 'Austria',
+            'alumni' => [
+                'rchavik' => [
+                    'name' => 'Rachman Chavik (rchavik)',
+                    'description' => __('Cakephp and Croogo core team member, surfer wannabe. Oh, I am Super Awesome too.'),
+                    'language' => __('English'),
+                    'twitter' => 'rchavik',
+                    'mycake' => 'rchavik',
+                    'role' => __('Core Member'),
+                    'image-url' => 'team/rchavik.jpg',
+                    'country' => 'Indonesia',
+                ],
+                'dakota' => [
+                    'name' => 'Walther Lalk (Dakota)',
+                    'description' => __('Walther is a software engineer/developer primarily working in PHP (Using CakePHP as his framework of choice).
+                                    Also a core member of the team, as well as the Croogo and Friends of Cake development team.
+                                    When he is not developing or behind his PC screen, you can find him either spending time with his family,
+                                    or at Scouts, where he is an adult leader/Scouter.'),
+                    'language' => __('English'),
+                    'twitter' => 'dakotairene',
+                    'github' => 'dakota',
+                    'mycake' => 'dakota',
+                    'role' => __('Core Member'),
+                    'image-url' => 'team/walther_lalk.jpg',
+                    'country' => 'South Africa',
+                ],
+                'chinpei215' => [
+                    'name' => 'Kurita Takashi',
+                    'description' => __('Kurita is a PHP programmer living in Tokyo. Currently he works in web application security. Joined CakePHP
+                                    core team in February 2016 and has been working closely with the team on security fixes.'),
+                    'language' => __('Japanese'),
+                    'twitter' => 'chinpei215',
+                    'github' => 'chinpei215',
+                    'mycake' => 'chinpei215',
+                    'role' => __('Core Member'),
+                    'image-url' => 'team/chinpei215.png',
+                    'country' => 'Japan',
+                ],
+                'megan' => [
+                    'name' => 'Megan Lalk',
+                    'description' => __('Besides marketing, social media and community management, Megan is around to assist in
+                        general queries, community assistance and CakeFest planning.'),
+                    'language' => __('English'),
+                    'mycake' => 'Megslalk',
+                    'role' => __('CakePHP Community Manager'),
+                    'image-url' => 'team/megan.jpg',
+                    'country' => 'South Africa',
+                ],
+                'burzum' => [
+                    'name' => 'Florian Kramer (Burzum)',
+                    'description' => __('A software developer by profession and not just because it’s a job. Florian is a core CakePHP team
+                                developer as well as having worked with CakeDC itself, doing CakePHP development since 2007. Florian sees
+                                programming as a true profession and not just a job for him, he likes to work on open source projects after
+                                work hours and has an interest in Unity3D and c# as well. He’s working as lead developer for PSA Publishers
+                                Ltd'),
+                    'language' => __('English, German'),
+                    'twitter' => 'burzum793',
+                    'github' => 'burzum',
+                    'mycake' => 'burzum',
+                    'role' => __('Core Member'),
+                    'image-url' => 'team/florian_kramer.jpg',
+                    'country' => 'Germany',
+                ],
             ],
         ],
         'writers_form_enabled' => true,
