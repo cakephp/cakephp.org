@@ -47,18 +47,6 @@ use Cake\Core\Configure;
     </div>
     <div class="col-sm-12 p0">
         <div class="col-sm-1 p0">
-            <i class="get-social-icon icon-irc-2">#IRC</i>
-        </div>
-        <div class="col-sm-11 p0">
-            <p>
-                <?= __('{0}: Join us in the #cakephp IRC channel',
-                    $this->Html->link('IRC', Configure::read('Site.menu.items.help.irc.url'), ['target' => '_blank'])
-                ) ?>
-            </p>
-        </div>
-    </div>
-    <div class="col-sm-12 p0">
-        <div class="col-sm-1 p0">
             <i class="fa-brands get-social-icon fa-git"></i>
         </div>
         <div class="col-sm-11 p0">
