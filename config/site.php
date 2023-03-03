@@ -391,6 +391,16 @@ return [
                     'image-url' => 'team/pfeifer_kevin.jpg',
                     'country' => 'Austria',
                 ],
+                'amanda_goff' => [
+                    'name' => 'Amanda Goff',
+                    'description' => __('Amanda has 15 years of marketing and management experience, and is serving as the CakePHP Community Manager. She has experience in branding, management, team building, and advertising.'),
+                    'language' => __('English'),
+                    'twitter' => 'AmandaDeeGoff',
+                    'mycake' => 'amandaCakePHP',
+                    'role' => __('CakePHP Community Manager'),
+                    'image-url' => 'team/amanda_goff.jpg',
+                    'country' => 'United States',
+                ],
             ],
             'alumni' => [
                 'rchavik' => [
