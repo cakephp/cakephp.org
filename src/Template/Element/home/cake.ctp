@@ -22,7 +22,7 @@
 			</div>
 		</div>
 		<div class="col-md-6 visible-md-block visible-lg-block artwork">
-			<?= $this->Html->image('hero_artwork.svg') ?>
+			<?= $this->Html->image('hero_artwork.svg', ['alt' => 'CakePHP']) ?>
 		</div>
 	</div>
 </section>
