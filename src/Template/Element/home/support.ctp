@@ -10,7 +10,7 @@
 		<div class="row">
 			<div class="col-md-12 text-center">
 				<div class="text-center">
-					<?= $this->Html->image('cakedc.svg', ['class' => 'logo']) ?>
+					<?= $this->Html->image('cakedc.svg', ['class' => 'logo'], ['alt' => 'CakeDC']) ?>
 				</div>
 				<p>
 					<?= __('CakeDC offers you access to the leading CakePHP developers from around the world.
@@ -20,7 +20,7 @@
 		</div>
 		<div class="service-boxes">
 			<div class="box-services-c">
-				<?= $this->Html->image('cakedc_expert.png') ?>
+				<?= $this->Html->image('cakedc_expert.png', ['alt' => 'Expert Consultancy']) ?>
 				<h4 class="title-small"><?= __('Expert Consultancy') ?></h4>
 				<p class="flex-grow-1">
 					<?= __('We can help with the areas which need special
@@ -35,7 +35,7 @@ rest assured that you\'ve got all bases covered.') ?>
 				</div>
 			</div>
 			<div class="box-services-c">
-				<?= $this->Html->image('cakedc_training.png') ?>
+				<?= $this->Html->image('cakedc_training.png', ['alt' => 'CakePHP Training']) ?>
 				<h4 class="title-small"><?= __('CakePHP Training') ?></h4>
 				<p class="mb0 flex-grow-1">
 					<?= __('Learn the insights and reasoning behind the
@@ -53,7 +53,7 @@ CakeDC.') ?>
 				</div>
 			</div>
 			<div class="box-services-c">
-				<?= $this->Html->image('cakedc_support.png') ?>
+				<?= $this->Html->image('cakedc_support.png', ['alt' => 'CakePHP Support']) ?>
 				<h4 class="title-small"><?= __('CakePHP Support') ?></h4>
 				<p class="flex-grow-1">
 					<?= __('Professional support for CakePHP is provided

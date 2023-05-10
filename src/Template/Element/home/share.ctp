@@ -1,7 +1,7 @@
 <section id="sharing" class="sharing mt80">
 	<div class="container">
 		<div class="visible-md-block visible-lg-block artwork">
-			<?= $this->Html->image('share_cake_bg.svg') ?>
+			<?= $this->Html->image('share_cake_bg.svg', ['alt' => 'Sharing the cake']) ?>
 		</div>
 		<div>
 			<div>
