@@ -10,7 +10,7 @@ $quotes = Configure::read('Site.quotes');
 		<div class="quote-block">
 			<?= $this->Html->tag('blockquote', __($quote['text'])) ?>
 			<div class="quote-client">
-				<?= $this->Html->image($quote['image']) ?>
+				<?= $this->Html->image($quote['image'], ['alt' => $quote['client']]) ?>
 				<div class="quote-info">
 					<?= $this->Html->tag('h5', $quote['client']) ?>
 					<?= $this->Html->tag('h6',
