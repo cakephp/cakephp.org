@@ -5,7 +5,7 @@ use Cake\Utility\Hash;
 $sponsors = Configure::read('Site.cakefest.sponsors');
 ?>
 <section id="sponsors" class="pt-90">
-	<?= $this->Html->image('sponsor_words.svg', ['class' => 'sponsor-icon']) ?>
+	<?= $this->Html->image('sponsor_words.svg', ['class' => 'sponsor-icon', 'alt' => 'Sponsor icon']) ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
