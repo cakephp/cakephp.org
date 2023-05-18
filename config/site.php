@@ -246,15 +246,17 @@ return [
             'sponsors' => [
                 [
                     'name' => 'CakeDC',
-                    'logo' => ['img' => '/images/companies/logos/sponsors/cakedc.jpg', 'alt' => 'CakeDC'],
+                    'logo' => ['img' => '/images/companies/logos/sponsors/cakedc.jpg'],
                     'copy' => ['text' => '<a href="https://cakedc.com" target="_blank">CakeDC</a> is the commercial entity behind the framework and was established by Larry Masters, founder of CakePHP. From startups and social networks, to e-commerce and enterprise level applications, CakeDC provides the highest quality CakePHP development available. CakeDC is committed to supporting the CakePHP framework and community.', 'style' => ''],
                     'link' => 'https://cakedc.com',
+                    'alt'  => 'CakeDC',
                 ],
                 [
                     'name' => 'Linode',
-                    'logo' => ['img' => '/images/companies/logos/sponsors/linode.jpg', 'alt' => 'Linode'],
+                    'logo' => ['img' => '/images/companies/logos/sponsors/linode.jpg'],
                     'copy' => ['text' => '<a href="https://www.linode.com/" target="_blank">Linode</a> is the largest independent open cloud provider in the world with 10 global data centers serving over 800,000 customers and businesses around the globe. Linode products, services, and people enable developers and businesses to build, deploy, and scale applications more easily and cost-effectively in the cloud.', 'style' => ''],
                     'link' => 'https://www.linode.com/',
+                    'alt'  => 'Linode',
                 ],
             ],
         ],
