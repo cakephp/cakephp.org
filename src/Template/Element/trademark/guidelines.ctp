@@ -78,35 +78,35 @@
 
 	<div class="col-md-10 col-md-offset-1 logos-trade mb40">
 		<div class="col-sm-5">
-			<?= $this->Html->image('trademarks/logo-1.jpg')?>
+			<?= $this->Html->image('trademarks/logo-1.jpg', ['alt' => 'CakePHP Horizontal Logo'])?>
 			<p><?= __('CakePHP Horizontal Logo')?></p>
 		</div>
 		<div class="col-sm-5 col-sm-offset-2">
-			<?= $this->Html->image('trademarks/logo-2.jpg')?>
+			<?= $this->Html->image('trademarks/logo-2.jpg', ['alt' => 'CakePHP Vertical Logo'])?>
 			<p><?= __('CakePHP Vertical Logo')?></p>
 		</div>
 		<div class="col-sm-5">
-			<?= $this->Html->image('trademarks/logo-3.jpg')?>
+			<?= $this->Html->image('trademarks/logo-3.jpg', ['alt' => 'CakePHP Vertical Tagline Logo'])?>
 			<p><?= __('CakePHP Vertical Tagline Logo')?></p>
 		</div>
 		<div class="col-sm-5 col-sm-offset-2">
-			<?= $this->Html->image('trademarks/logo-4.jpg')?>
+			<?= $this->Html->image('trademarks/logo-4.jpg', ['alt' => 'CakePHP Horizontal Tagline Logo'])?>
 			<p><?= __('CakePHP Horizontal Tagline Logo')?></p>
 		</div>
 		<div class="col-sm-5">
-			<?= $this->Html->image('trademarks/logo-5.jpg')?>
+			<?= $this->Html->image('trademarks/logo-5.jpg', ['alt' => 'CakePHP Version Number Horizontal Logo'])?>
 			<p><?= __('CakePHP Version Number <br> Horizontal Logo')?></p>
 		</div>
 		<div class="col-sm-5 col-sm-offset-2">
-			<?= $this->Html->image('trademarks/logo-6.jpg')?>
+			<?= $this->Html->image('trademarks/logo-6.jpg', ['alt' => 'CakePHP Version Number Vertical Logo'])?>
 			<p><?= __('CakePHP Version Number<br>Vertical Logo')?></p>
 		</div>
 		<div class="col-sm-5">
-			<?= $this->Html->image('trademarks/logo-7.jpg')?>
+			<?= $this->Html->image('trademarks/logo-7.jpg', ['alt' => 'CakePHP Version Number and Name Horizontal Logo'])?>
 			<p><?= __('CakePHP Version Number<br>and Name Horizontal Logo')?></p>
 		</div>
 		<div class="col-sm-5 col-sm-offset-2">
-			<?= $this->Html->image('trademarks/logo-8.jpg')?>
+			<?= $this->Html->image('trademarks/logo-8.jpg', ['alt' => 'CakePHP Version Number and Name Vertical Logo'])?>
 			<p><?= __('CakePHP Version Number<br>and Name Vertical Logo')?></p>
 		</div>
 	</div>
@@ -115,67 +115,67 @@
 	<p><?= __('3. CakePHP sister brands’ logos:')?></p>
 	<div class="col-md-10 col-md-offset-1 logos-trade mb40">
 		<div class="col-sm-5">
-			<?= $this->Html->image('trademarks/logo-develop.jpg')?>
+			<?= $this->Html->image('trademarks/logo-develop.jpg', ['alt' => 'CakeDC Full Name Horizontal Signature'])?>
 			<p><?= __('CakeDC Full Name Horizontal Signature')?></p>
 		</div>
 		<div class="col-sm-5 col-sm-offset-2">
-			<?= $this->Html->image('trademarks/logo-dc.jpg')?>
+			<?= $this->Html->image('trademarks/logo-dc.jpg', ['alt' => 'CakeDC Initials Horizontal Signature'])?>
 			<p><?= __('CakeDC Initials Horizontal Signature')?></p>
 		</div>
 		<div class="col-sm-5">
-			<?= $this->Html->image('trademarks/logo-develop-2.jpg')?>
+			<?= $this->Html->image('trademarks/logo-develop-2.jpg', ['alt' => 'CakeDC Full Name Vertical Signature'])?>
 			<p><?= __('CakeDC Full Name Vertical Signature')?></p>
 		</div>
 		<div class="col-sm-5 col-sm-offset-2">
-			<?= $this->Html->image('trademarks/logo-dc-2.jpg')?>
+			<?= $this->Html->image('trademarks/logo-dc-2.jpg', ['alt' => 'CakeDC Initials Vertical Signature'])?>
 			<p><?= __('CakeDC Initials Vertical Signature')?></p>
 		</div>
 		<div class="col-sm-5">
-			<?= $this->Html->image('trademarks/soft.jpg')?>
+			<?= $this->Html->image('trademarks/soft.jpg', ['alt' => 'CakeSF Full Name Horizontal Signature'])?>
 			<p><?= __('CakeSF Full Name Horizontal Signature')?></p>
 		</div>
 		<div class="col-sm-5 col-sm-offset-2">
-			<?= $this->Html->image('trademarks/sf.jpg')?>
+			<?= $this->Html->image('trademarks/sf.jpg', ['alt' => 'CakeSF Initials Horizontal Signature'])?>
 			<p><?= __('CakeSF Initials Horizontal Signature')?></p>
 		</div>
 		<div class="col-sm-5">
-			<?= $this->Html->image('trademarks/soft-2.jpg')?>
+			<?= $this->Html->image('trademarks/soft-2.jpg', ['alt' => 'CakeSF Full Name Vertical Signature'])?>
 			<p><?= __('CakeSF Full Name Vertical Signature')?></p>
 		</div>
 		<div class="col-sm-5 col-sm-offset-2">
-			<?= $this->Html->image('trademarks/sf-2.jpg')?>
+			<?= $this->Html->image('trademarks/sf-2.jpg', ['alt' => 'CakeSF Initials Vertical Signature'])?>
 			<p><?= __('CakeSF Initials Vertical Signature')?></p>
 		</div>
 		<div class="col-sm-5">
-			<?= $this->Html->image('trademarks/fest.jpg')?>
+			<?= $this->Html->image('trademarks/fest.jpg', ['alt' => 'CakeFest Horizontal Signature'])?>
 			<p><?= __('CakeFest Horizontal Signature')?></p>
 		</div>
 		<div class="col-sm-5 col-sm-offset-2">
-			<?= $this->Html->image('trademarks/fest-2.jpg')?>
+			<?= $this->Html->image('trademarks/fest-2.jpg', ['alt' => 'CakeFest Vertical Signature'])?>
 			<p><?= __('CakeFest Vertical Signature')?></p>
 		</div>
 		<div class="col-sm-5">
-			<?= $this->Html->image('trademarks/talent.jpg')?>
+			<?= $this->Html->image('trademarks/talent.jpg', ['alt' => 'CakeTalent Horizontal Signature'])?>
 			<p><?= __('CakeTalent Horizontal Signature')?></p>
 		</div>
 		<div class="col-sm-5 col-sm-offset-2">
-			<?= $this->Html->image('trademarks/talent-2.jpg')?>
+			<?= $this->Html->image('trademarks/talent-2.jpg', ['alt' => 'CakeTalent Vertical Signature'])?>
 			<p><?= __('CakeTalent Vertical Signature')?></p>
 		</div>
 		<div class="col-sm-5">
-			<?= $this->Html->image('trademarks/jobs.jpg')?>
+			<?= $this->Html->image('trademarks/jobs.jpg', ['alt' => 'CakeJobs Horizontal Signature'])?>
 			<p><?= __('CakeJobs Horizontal Signature')?></p>
 		</div>
 		<div class="col-sm-5 col-sm-offset-2">
-			<?= $this->Html->image('trademarks/jobs-2.jpg')?>
+			<?= $this->Html->image('trademarks/jobs-2.jpg', ['alt' => 'CakeJobs Vertical Signature'])?>
 			<p><?= __('CakeJobs Vertical Signature')?></p>
 		</div>
 		<div class="col-sm-5">
-			<?= $this->Html->image('trademarks/uni.jpg')?>
+			<?= $this->Html->image('trademarks/uni.jpg', ['alt' => 'CakeUniversity Horizontal Signature'])?>
 			<p><?= __('CakeUniversity Horizontal Signature')?></p>
 		</div>
 		<div class="col-sm-5 col-sm-offset-2">
-			<?= $this->Html->image('trademarks/uni-2.jpg')?>
+			<?= $this->Html->image('trademarks/uni-2.jpg', ['alt' => 'CakeUniversity Vertical Signature'])?>
 			<p><?= __('CakeUniversity Vertical Signature')?></p>
 		</div>
 	</div>
