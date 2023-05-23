@@ -2,7 +2,7 @@
 developers wanting to let others know you use CakePHP.')?><br/>
 <div class="col-md-12 p0 flag-m">
 	<div class="col-sm-4 flag-box">
-		<?= $this->Html->image('trademarks/flag-1.jpg', ['class' => 'img-responsive']) ?>
+		<?= $this->Html->image('trademarks/flag-1.jpg', ['class' => 'img-responsive', 'alt' => 'We bake with CakePHP']) ?>
 	</div>
 	<div class="col-sm-8">
 		<p><?= __('Floating Flag Embed Code:')?></p>
@@ -28,7 +28,7 @@ developers wanting to let others know you use CakePHP.')?><br/>
 <p><?= __('2. Application Flag: The Application Flag is used to show that your have built an application that is using CakePHP.')?></p>
 <div class="col-md-12 p0 flag-m">
 	<div class="col-sm-4 flag-box">
-		<?= $this->Html->image('trademarks/flag-2.jpg', ['class' => 'img-responsive']) ?>
+		<?= $this->Html->image('trademarks/flag-2.jpg', ['class' => 'img-responsive', 'alt' => 'Baked with CakePHP']) ?>
 	</div>
 	<div class="col-sm-8">
 		<p><?= __('Floating Flag Embed Code:')?></p>
@@ -54,7 +54,7 @@ developers wanting to let others know you use CakePHP.')?><br/>
  they are using CakePHP.')?></p>
 <div class="col-md-12 p0 flag-m">
 	<div class="col-sm-4 flag-box">
-		<?= $this->Html->image('trademarks/flag-3.jpg', ['class' => 'img-responsive']) ?>
+		<?= $this->Html->image('trademarks/flag-3.jpg', ['class' => 'img-responsive', 'alt' => 'I bake with CakePHP']) ?>
 	</div>
 	<div class="col-sm-8">
 		<p><?= __('Floating Flag Embed Code:')?></p>
@@ -80,7 +80,7 @@ developers wanting to let others know you use CakePHP.')?><br/>
 <p><?= __('4. Supporter Flag: The Supporter Flag is used to spread the word about CakePHP and tell them to use CakePHP.')?></p>
 <div class="col-md-12 p0 flag-m">
 	<div class="col-sm-4 flag-box">
-		<?= $this->Html->image('trademarks/flag-4.jpg', ['class' => 'img-responsive']) ?>
+		<?= $this->Html->image('trademarks/flag-4.jpg', ['class' => 'img-responsive', 'alt' => 'Bake with CakePHP']) ?>
 	</div>
 	<div class="col-sm-8">
 		<p><?= __('Floating Flag Embed Code:')?></p>
