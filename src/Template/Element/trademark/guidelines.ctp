@@ -195,19 +195,19 @@
 			<?= __('Respect a margin over a forth of the flag’s hight to ensure visual effectiveness. The side margins might be
 			disregarded while using the flag on the extreme left or right sides of a layout.')?>
 		</p>
-		<?= $this->Html->image('trademarks/flags-guidelines.jpg', ['class' => 'img-responsive']) ?>
+		<?= $this->Html->image('trademarks/flags-guidelines.jpg', ['class' => 'img-responsive', 'alt' => 'Community Flags usage Guidelines']) ?>
 	</div>
 
 	<?= $this->element('trademark/brand-colors')?>
 
 	<p><?= __('5.2. Brand stylistic shape: the ellipse used to design the Brandmark is also a brand asset itself, and it can be
 		used as a decorative corner on layout boxes and backgrounds.')?></p>
-	<?= $this->Html->image('trademarks/brand-stylistic.jpg', ['class' => 'img-responsive'])?>
+	<?= $this->Html->image('trademarks/brand-stylistic.jpg', ['class' => 'img-responsive', 'alt' => 'Brand stylistic'])?>
 
 	<p><?= __('5.3. Iconography: icons and illustrations follow the Brandmark aesthetics: flat, clean and use negative space for
 		lighting and shading. The images are designed using the official color palette. Conceptually, the ico nography
 		follows the baking universe.')?></p>
-	<?= $this->Html->image('trademarks/iconography.jpg', ['class' => 'img-responsive'])?>
+	<?= $this->Html->image('trademarks/iconography.jpg', ['class' => 'img-responsive', 'alt' => 'Iconography'])?>
 
 	<p><?= __('This Policy encompasses all trademarks and service marks, whether Word Marks, Logos or Trade Dress, which are
 		collectively referred to as the “Marks.” Some Marks may not be registered, but registration does not equal
