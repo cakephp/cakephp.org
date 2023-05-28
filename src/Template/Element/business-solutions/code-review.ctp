@@ -15,7 +15,7 @@
 	<div class="clearfix"></div>
 
 	<div class="col-sm-12 back-busi-ft ">
-		<?= $this->Html->image('business/project.jpg', ['class' => 'img-responsive']) ?>
+		<?= $this->Html->image('business/project.jpg', ['class' => 'img-responsive', 'alt' => 'Project code review']) ?>
 	</div>
 
 	<div class="col-sm-12 p0 business-list-2">
