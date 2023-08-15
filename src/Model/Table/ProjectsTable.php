@@ -21,7 +21,7 @@ class ProjectsTable extends Table
      * @param array $config The configuration for the Table.
      * @return void
      */
-    public function initialize(array $config)
+    public function initialize(array $config): void
     {
         parent::initialize($config);
 
@@ -54,34 +54,34 @@ class ProjectsTable extends Table
      * @param \Cake\Validation\Validator $validator Validator instance.
      * @return \Cake\Validation\Validator
      */
-    public function validationDefault(Validator $validator)
+    public function validationDefault(Validator $validator): Validator
     {
         $validator
             ->integer('id')
-            ->allowEmpty('id', 'create');
+            ->allowEmptyString('id', 'create');
 
         $validator
             ->requirePresence('title')
-            ->notEmpty('title');
+            ->notEmptyString('title');
 
         $validator
             ->requirePresence('description')
-            ->notEmpty('title');
+            ->notEmptyString('title');
 
         $validator
             ->requirePresence('website', 'create')
-            ->notEmpty('website')
+            ->notEmptyString('website')
             ->add('website', 'valid-url', ['rule' => 'url']);
 
         $validator
             ->boolean('is_highlighted')
             ->requirePresence('is_highlighted', 'create')
-            ->notEmpty('is_highlighted');
+            ->notEmptyString('is_highlighted');
 
         $validator
             ->boolean('is_showcase')
             ->requirePresence('is_showcase', 'create')
-            ->notEmpty('is_showcase');
+            ->notEmptyString('is_showcase');
 
         return $validator;
     }

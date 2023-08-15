@@ -28,7 +28,7 @@ class WritersTable extends Table
      * @param array $config The configuration for the Table.
      * @return void
      */
-    public function initialize(array $config)
+    public function initialize(array $config): void
     {
         parent::initialize($config);
 
@@ -45,35 +45,35 @@ class WritersTable extends Table
      * @param \Cake\Validation\Validator $validator Validator instance.
      * @return \Cake\Validation\Validator
      */
-    public function validationDefault(Validator $validator)
+    public function validationDefault(Validator $validator): Validator
     {
         $validator
             ->integer('id')
-            ->allowEmpty('id', 'create');
+            ->allowEmptyString('id', 'create');
 
         $validator
             ->requirePresence('name', 'create')
-            ->notEmpty('name');
+            ->notEmptyString('name');
 
         $validator
             ->email('email')
             ->requirePresence('email', 'create')
-            ->notEmpty('email');
+            ->notEmptyString('email');
 
         $validator
-            ->allowEmpty('username');
+            ->allowEmptyString('username');
 
         $validator
             ->requirePresence('article_titles', 'create')
-            ->notEmpty('article_titles');
+            ->notEmptyString('article_titles');
 
         $validator
             ->requirePresence('writing_sample', 'create')
-            ->notEmpty('writing_sample');
+            ->notEmptyString('writing_sample');
 
         $validator
             ->requirePresence('extra_information', 'create')
-            ->allowEmpty('extra_information');
+            ->allowEmptyString('extra_information');
 
         return $validator;
     }

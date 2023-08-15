@@ -18,7 +18,7 @@ class HtmlHelper extends BaseHtmlHelper
      * @param array $options options
      * @return string
      */
-    public function link($title, $url = null, array $options = [])
+    public function link($title, $url = null, array $options = []): string
     {
         if (Hash::get($options, 'target') === '_blank' && !Hash::get($options, 'rel')) {
             $options['rel'] = 'noopener noreferrer';

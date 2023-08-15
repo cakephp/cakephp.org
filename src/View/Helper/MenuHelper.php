@@ -9,7 +9,7 @@ use Cake\View\Helper;
  */
 class MenuHelper extends Helper
 {
-    public $helpers = ['Html'];
+    protected $helpers = ['Html'];
 
     /**
      * List of options related to community menu option

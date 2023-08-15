@@ -20,7 +20,7 @@ class ContactsTable extends Table
      * @param array $config The configuration for the Table.
      * @return void
      */
-    public function initialize(array $config)
+    public function initialize(array $config): void
     {
         parent::initialize($config);
 
@@ -37,28 +37,28 @@ class ContactsTable extends Table
      * @param \Cake\Validation\Validator $validator Validator instance.
      * @return \Cake\Validation\Validator
      */
-    public function validationDefault(Validator $validator)
+    public function validationDefault(Validator $validator): Validator
     {
         $validator
             ->integer('id')
-            ->allowEmpty('id', 'create');
+            ->allowEmptyString('id', 'create');
 
         $validator
             ->requirePresence('subject', 'create')
-            ->notEmpty('subject');
+            ->notEmptyString('subject');
 
         $validator
             ->requirePresence('name', 'create')
-            ->notEmpty('name');
+            ->notEmptyString('name');
 
         $validator
             ->email('email')
             ->requirePresence('email', 'create')
-            ->notEmpty('email');
+            ->notEmptyString('email');
 
         $validator
             ->requirePresence('body', 'create')
-            ->notEmpty('body');
+            ->notEmptyString('body');
 
         return $validator;
     }
@@ -70,7 +70,7 @@ class ContactsTable extends Table
      * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
      * @return \Cake\ORM\RulesChecker
      */
-    public function buildRules(RulesChecker $rules)
+    public function buildRules(RulesChecker $rules): RulesChecker
     {
         return $rules;
     }
@@ -83,7 +83,7 @@ class ContactsTable extends Table
      */
     public function createRapidContact($data)
     {
-        $contact = $this->newEntity();
+        $contact = $this->newEmptyEntity();
         $contact->set('name', $data['name']);
         $contact->set('email', $data['email']);
         $contact->set('subject', $this->extractRapidSubject($data));

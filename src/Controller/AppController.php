@@ -14,6 +14,9 @@
  */
 namespace App\Controller;
 
+use Cake\Controller\Component\FlashComponent;
+use Cake\Controller\Component\FormProtectionComponent;
+use Cake\Controller\Component\RequestHandlerComponent;
 use Cake\Controller\Controller;
 use Cake\Core\Configure;
 use Cake\Event\Event;
@@ -43,22 +46,21 @@ class AppController extends Controller
      * e.g. `$this->loadComponent('Security');`
      *
      * @return void
+     * @throws \Exception
      */
-    public function initialize()
+    public function initialize(): void
     {
         parent::initialize();
 
-        $this->loadComponent('RequestHandler');
-        $this->loadComponent('Flash');
-        $this->loadComponent('Security');
-        $this->loadComponent('Csrf');
-        $this->loadComponent('CakeDC/Users.UsersAuth');
+        $this->loadComponent(RequestHandlerComponent::class);
+        $this->loadComponent(FlashComponent::class);
+        $this->loadComponent(FormProtectionComponent::class);;
     }
 
     /**
      * @inheritDoc
      */
-    public function beforeFilter(Event $event)
+    public function beforeFilter(\Cake\Event\EventInterface $event)
     {
         $this->setLocale();
         $this->set('server', $this->request->host());
@@ -91,7 +93,7 @@ class AppController extends Controller
      * @param \Cake\Event\Event $event The beforeRender event.
      * @return void
      */
-    public function beforeRender(Event $event)
+    public function beforeRender(\Cake\Event\EventInterface $event)
     {
         $this->set([
             '_version' => Configure::read('App.cakeVersion', '5.0'),

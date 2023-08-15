@@ -5,7 +5,7 @@ use Cake\View\Helper;
 
 class ShowcaseHelper extends Helper
 {
-    public $helpers = ['Html'];
+    protected $helpers = ['Html'];
 
     /**
      * Output a boolean value using bootstrap label

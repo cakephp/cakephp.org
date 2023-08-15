@@ -9,7 +9,7 @@ use Cake\View\Helper;
 
 class MeetupsHelper extends Helper
 {
-    public $helpers = ['Html'];
+    protected $helpers = ['Html'];
 
     /**
      * @return string

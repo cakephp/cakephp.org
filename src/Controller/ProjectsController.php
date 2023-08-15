@@ -13,7 +13,7 @@ class ProjectsController extends AppController
     /**
      * @inheritDoc
      */
-    public function beforeFilter(Event $event)
+    public function beforeFilter(\Cake\Event\EventInterface $event)
     {
         $this->Auth->allow();
 

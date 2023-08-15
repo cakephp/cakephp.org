@@ -20,7 +20,7 @@ class UploadedFilesTable extends Table
      * @param array $config The configuration for the Table.
      * @return void
      */
-    public function initialize(array $config)
+    public function initialize(array $config): void
     {
         parent::initialize($config);
 
@@ -38,27 +38,27 @@ class UploadedFilesTable extends Table
      * @param \Cake\Validation\Validator $validator Validator instance.
      * @return \Cake\Validation\Validator
      */
-    public function validationDefault(Validator $validator)
+    public function validationDefault(Validator $validator): Validator
     {
         $validator
             ->integer('id')
-            ->allowEmpty('id', 'create');
+            ->allowEmptyString('id', 'create');
 
         $validator
             ->requirePresence('file', 'create')
-            ->notEmpty('file');
+            ->notEmptyString('file');
 
         $validator
             ->requirePresence('dir', 'create')
-            ->notEmpty('dir');
+            ->notEmptyString('dir');
 
         $validator
             ->requirePresence('size', 'create')
-            ->notEmpty('size');
+            ->notEmptyString('size');
 
         $validator
             ->requirePresence('type', 'create')
-            ->notEmpty('type');
+            ->notEmptyString('type');
 
         return $validator;
     }
@@ -73,6 +73,6 @@ class UploadedFilesTable extends Table
      */
     public function beforeSave(Event $event, Entity $entity, ArrayObject $options)
     {
-        $entity->set('model', $this->alias());
+        $entity->set('model', $this->getAlias());
     }
 }

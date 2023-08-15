@@ -14,12 +14,13 @@ class AddPrintivoProject extends AbstractMigration
      */
     public function change()
     {
-        $projectTable = TableRegistry::get('Projects');
-        $perspectiveImagesTable = TableRegistry::get('PerspectiveImages');
-        $screenMonitorImagesTable = TableRegistry::get('ScreenMonitorImages');
-        $uploadedFilesTable = TableRegistry::get('UploadedFiles');
 
-        $project = $projectTable->newEntity();
+        $projectTable = TableRegistry::getTableLocator()->get('Projects');
+        $perspectiveImagesTable = TableRegistry::getTableLocator()->get('PerspectiveImages');
+        $screenMonitorImagesTable = TableRegistry::getTableLocator()->get('ScreenMonitorImages');
+        $uploadedFilesTable = TableRegistry::getTableLocator()->get('UploadedFiles');
+
+        $project = $projectTable->newEmptyEntity();
         $project->title = 'Printivo.com';
         $project->slug = 'printivo-com';
         $project->website = 'https://printivo.com';
@@ -33,7 +34,7 @@ class AddPrintivoProject extends AbstractMigration
         $project->modified = Chronos::now();
 
         if ($projectTable->save($project)) {
-            $perspectiveImages = $uploadedFilesTable->newEntity();
+            $perspectiveImages = $uploadedFilesTable->newEmptyEntity();
             $perspectiveImages->file = 'Perspective_Printivo.jpg';
             $perspectiveImages->dir = 'https://s3-us-west-2.amazonaws.com/printivo/files/cakephp/PerspectiveImages';
             $perspectiveImages->size = '163374';
@@ -43,10 +44,10 @@ class AddPrintivoProject extends AbstractMigration
             $perspectiveImages->modified = Chronos::now();
             $uploadedFilesTable->save($perspectiveImages);
 
-            $perspectiveImages->model = $perspectiveImagesTable->alias();
+            $perspectiveImages->model = $perspectiveImagesTable->getAlias();
             $perspectiveImagesTable->save($perspectiveImages);
 
-            $screenMonitorImages = $uploadedFilesTable->newEntity();
+            $screenMonitorImages = $uploadedFilesTable->newEmptyEntity();
             $screenMonitorImages->file = 'printivo.jpg';
             $screenMonitorImages->dir = 'https://s3-us-west-2.amazonaws.com/printivo/files/cakephp/ScreenMonitorImages';
             $screenMonitorImages->size = '150539';
@@ -56,7 +57,7 @@ class AddPrintivoProject extends AbstractMigration
             $screenMonitorImages->modified = Chronos::now();
             $uploadedFilesTable->save($screenMonitorImages);
 
-            $screenMonitorImages->model = $screenMonitorImagesTable->alias();
+            $screenMonitorImages->model = $screenMonitorImagesTable->getAlias();
             $screenMonitorImagesTable->save($screenMonitorImages);
         }
     }
