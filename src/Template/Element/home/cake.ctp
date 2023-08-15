@@ -1,15 +1,16 @@
 <section class="hero">
 	<div class="container">
-		<div class="col-sm-12 col-md-6">
+		<div class="col-sm-12 col-md-12 col-lg-12">
 			<div class="title-home">
-				<h1><?= __('New CakePHP {0} Strawberry.', $_version)?></h1>
-				<h3><?= __('Cleaner. Faster.')?></h3>
-				<h3><?= __('Tasty as usual.') ?></h3>
-			</div>
+				<h1><span><?= __('New CakePHP {0} Strawberry.', $_version)?></span></h1>
+                <h3><span class="subtitle-home"><?= __('Faster. Simple. Delicious.') ?></span></h3>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-12">
 			<div class="cta-home">
 				<a href="https://book.cakephp.org/4/en/installation.html" class="btn btn-home">
 					<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
-					Install <?= $_version ?>
+					<?= __('DOWNLOAD') ?>
 				</a>
 				<a href="https://book.cakephp.org" class="btn btn-home btn-inverted">
 					<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
@@ -20,9 +21,6 @@
 					API
 				</a>
 			</div>
-		</div>
-		<div class="col-md-6 visible-md-block visible-lg-block artwork">
-			<?= $this->Html->image('hero_artwork.svg', ['alt' => 'CakePHP']) ?>
 		</div>
 	</div>
 </section>

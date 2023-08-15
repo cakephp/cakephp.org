@@ -4,11 +4,11 @@ use Cake\Utility\Hash;
 
 $sponsors = Configure::read('Site.cakefest.sponsors');
 ?>
-<section id="sponsors" class="pt-90">
-	<?= $this->Html->image('sponsor_words.svg', ['class' => 'sponsor-icon', 'alt' => 'Sponsor icon']) ?>
+<section id="sponsors">
+	<?= $this->Html->image('sponsor_words_chiffon.svg', ['class' => 'sponsor-icon', 'alt' => 'Sponsor icon']) ?>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 text-center">
+			<div class="col-md-12 text-center mt50">
 				<h2><?= __('A word from our sponsors:')?></h2>
 			</div>
 			<?php foreach($sponsors as $sponsor): ?>

@@ -1,13 +1,13 @@
 <section id="recipe" class="mb0 pt-90">
 	<div class="container">
 		<div class="text-center">
-			<h2><?= __('A recipe to succeed.') ?></h2>
-			<h3><?= __('Prototype faster, Validate faster, Grow consistently.') ?></h3>
+			<h1><?= __('A recipe to succeed.') ?></h1>
+			<h2><?= __('Prototype faster, Validate faster, Grow consistently.') ?></h2>
 		</div>
 
 		<div class="service-boxes recipe">
 			<div class="box-services-c">
-				<?= $this->Html->image('build_quickly.svg', ['alt' => 'Build Quickly']) ?>
+				<?= $this->Html->image('build_quickly_chiffon.svg', ['alt' => 'Build Quickly']) ?>
 				<h4 class="title-small"><?= __('Build Quickly') ?></h4>
 				<p>
 					<?= __('Use code generation and scaffolding features to {0}.',
@@ -16,7 +16,7 @@
 			</div>
 
 			<div class="box-services-c">
-				<?= $this->Html->image('no_config.svg', ['alt' => 'No Configuration']) ?>
+				<?= $this->Html->image('no_config_chiffon.svg', ['alt' => 'No Configuration']) ?>
 
 				<h4 class="title-small"><?= __('No Configuration') ?></h4>
 
@@ -26,7 +26,7 @@
 			</div>
 
 			<div class="box-services-c">
-				<?= $this->Html->image('license.svg', ['alt' => 'Friendly License']) ?>
+				<?= $this->Html->image('license_chiffon.svg', ['alt' => 'Friendly License']) ?>
 
 				<h4 class="title-small"><?= __('Friendly License') ?></h4>
 				<p>
@@ -36,7 +36,7 @@
 			</div>
 
 			<div class="box-services-c">
-				<?= $this->Html->image('batteries_included.svg', ['alt' => 'Batteries Included']) ?>
+				<?= $this->Html->image('batteries_included_chiffon.svg', ['alt' => 'Batteries Included']) ?>
 
 				<h4 class="title-small"><?= __('Batteries Included') ?></h4>
 
@@ -46,7 +46,7 @@
 			</div>
 
 			<div class="box-services-c">
-				<?= $this->Html->image('mvc.svg', ['alt' => 'Clean MVC Conventions']) ?>
+				<?= $this->Html->image('mvc_chiffon.svg', ['alt' => 'Clean MVC Conventions']) ?>
 
 				<h4 class="title-small"><?= __('Clean MVC Conventions') ?></h4>
 
@@ -58,7 +58,7 @@
 			</div>
 
 			<div class="box-services-c">
-				<?= $this->Html->image('secure.svg', ['alt' => 'Secure']) ?>
+				<?= $this->Html->image('secure_chiffon.svg', ['alt' => 'Secure']) ?>
 				<h4 class="title-small"><?= __('Secure') ?></h4>
 				<p><?= __('CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention. CakePHP codebase itself has been audited through the {0} program.', $this->Html->link('Mozilla Secure Open Source',
                         'https://bakery.cakephp.org/2017/11/22/mozilla_sos_audit_published.html')) ?></p>
