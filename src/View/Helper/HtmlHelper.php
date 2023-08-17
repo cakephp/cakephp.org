@@ -7,6 +7,8 @@ use Cake\View\View;
 
 /**
  * Html helper
+ *
+ * @property \Cake\View\Helper\UrlHelper $Url
  */
 class HtmlHelper extends BaseHtmlHelper
 {

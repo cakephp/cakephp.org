@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div class="container" style="min-height: 400px">
     <div class="row">
         <div class="col-md-10 col-md-offset-1 p0 t-trademark">

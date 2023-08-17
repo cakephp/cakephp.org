@@ -30,7 +30,8 @@
 		"phpunit/phpunit": "^9.5",
         "phpstan/extension-installer": "^1.0",
         "phpstan/phpstan": "1.7.15",
-        "psalm/phar": "^4.18.1"
+        "psalm/phar": "^4.18.1",
+        "dereuromark/cakephp-ide-helper": "@stable"
     },
 	"autoload": {
 		"psr-4": {

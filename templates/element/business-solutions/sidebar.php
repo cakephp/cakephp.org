@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div class="col-md-3 hidden-xs hidden-sm">
 	<aside class="sidebar-2 pt-60">
 		<div class="content mb30">

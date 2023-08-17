@@ -10,14 +10,20 @@ use Cake\Validation\Validator;
  * Writers Model
  *
  * @method \App\Model\Entity\Writer get($primaryKey, $options = [])
- * @method \App\Model\Entity\Writer newEntity($data = null, array $options = [])
+ * @method \App\Model\Entity\Writer newEntity(array $data, array $options = [])
  * @method \App\Model\Entity\Writer[] newEntities(array $data, array $options = [])
- * @method \App\Model\Entity\Writer|bool save(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \App\Model\Entity\Writer|false save(\Cake\Datasource\EntityInterface $entity, $options = [])
  * @method \App\Model\Entity\Writer patchEntity(\Cake\Datasource\EntityInterface $entity, array $data, array $options = [])
- * @method \App\Model\Entity\Writer[] patchEntities($entities, array $data, array $options = [])
- * @method \App\Model\Entity\Writer findOrCreate($search, callable $callback = null)
+ * @method \App\Model\Entity\Writer[] patchEntities(iterable $entities, array $data, array $options = [])
+ * @method \App\Model\Entity\Writer findOrCreate($search, ?callable $callback = null, $options = [])
  *
  * @mixin \Cake\ORM\Behavior\TimestampBehavior
+ * @method \App\Model\Entity\Writer newEmptyEntity()
+ * @method \App\Model\Entity\Writer saveOrFail(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \App\Model\Entity\Writer[]|\Cake\Datasource\ResultSetInterface|false saveMany(iterable $entities, $options = [])
+ * @method \App\Model\Entity\Writer[]|\Cake\Datasource\ResultSetInterface saveManyOrFail(iterable $entities, $options = [])
+ * @method \App\Model\Entity\Writer[]|\Cake\Datasource\ResultSetInterface|false deleteMany(iterable $entities, $options = [])
+ * @method \App\Model\Entity\Writer[]|\Cake\Datasource\ResultSetInterface deleteManyOrFail(iterable $entities, $options = [])
  */
 class WritersTable extends Table
 {

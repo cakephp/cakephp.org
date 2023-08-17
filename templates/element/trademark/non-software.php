@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div id="non-software" class="col-sm-12 list-trad">
 	<h3><?= __('Use for non-software goods and services') ?></h3>
 

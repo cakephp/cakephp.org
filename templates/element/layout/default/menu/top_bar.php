@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <section id="sub">
 	<div class="container-fluid">
 		<div class="row">

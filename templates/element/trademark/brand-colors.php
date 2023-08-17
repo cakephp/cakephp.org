@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div class="col-sm-12 mt30">
 	<p><?= __('5. And the unique visual styling of our website and packaging (the "Trade Dress").')?>
 		<br><?= __('5.1. Brand colors.')?> </p>

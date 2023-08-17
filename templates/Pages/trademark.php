@@ -1,6 +1,7 @@
 <?php
 /**
  * @todo New contact form needs to replace $emailLegal in the sections below
+ * @var \App\View\AppView $this
  */
 	$title = __('CakePHP - Build fast, grow solid | Logos and Trademarks');
 	$description = __('CakePHP Logos and Trademark policies.');

@@ -1,6 +1,7 @@
 <?php
 /**
  * @var \App\View\AppView $this;
+ * @var \App\View\AppView $this
  */
 $title = __('CakePHP - Build fast, grow solid | PHP Framework | Home');
 $description = __('CakePHP is an open-source web, rapid development framework that makes building web applications simpler,

@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <h3 class="pt-30"><?= __('Introduction')?></h3>
 <p>
 	<?= __('This document, the "Policy," outlines the CakePHP project\'s (the "Project") policy for the use of

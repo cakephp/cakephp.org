@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div id="considerations" class="col-sm-12 list-trad">
 	<h3><?= __('General considerations about trademarks and their use')?></h3>
 	<h4 id="considerations-about" class="p-trad-sub"><?= __('What trademark law is about')?></h4>

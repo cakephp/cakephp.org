@@ -6,6 +6,8 @@ use Cake\View\Helper;
 
 /**
  * Menu Helper
+ *
+ * @property \App\View\Helper\HtmlHelper $Html
  */
 class MenuHelper extends Helper
 {

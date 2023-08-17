@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <ul id="sidebar-2" class="nav-pills nav-stacked affix-top" data-spy="affix" data-offset-top="250" data-offset-bottom="-6560">
 	<li>
 		<?= $this->Html->link(__('Get Involved'), '#getInvolved');?>

@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <?php $menu = [
 	'business' => [
 		'class' => 'menu-title',

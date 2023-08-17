@@ -2,6 +2,8 @@
 /**
  * Authorized Ohloh sources
  *
+ *
+ * @var \App\View\AppView $this
  */
 return false;
 

@@ -1,4 +1,7 @@
 <?php
+/**
+ * @var \App\View\AppView $this
+ */
 
 	$title = __('CakePHP - Build fast, grow solid | Newsletter Sign Up');
 	$description = __('Newsletter Sign Up Form');

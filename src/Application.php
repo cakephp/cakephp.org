@@ -121,6 +121,9 @@ class Application extends BaseApplication
     {
         $this->addOptionalPlugin('Cake/Repl');
         $this->addOptionalPlugin('Bake');
+        if (Configure::read('debug')) {
+            $this->addPlugin('IdeHelper');
+        }
 
         $this->addPlugin('Migrations');
 

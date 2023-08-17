@@ -23,6 +23,13 @@ use Cake\View\View;
  * Your application's default view class
  *
  * @link https://book.cakephp.org/4/en/views.html#the-app-view
+ * @property \AssetCompress\View\Helper\AssetCompressHelper $AssetCompress
+ * @property \App\View\Helper\MenuHelper $Menu
+ * @property \App\View\Helper\ShowcaseHelper $Showcase
+ * @property \App\View\Helper\AppHelper $App
+ * @property \App\View\Helper\HtmlHelper $Html
+ * @property \App\View\Helper\MeetupsHelper $Meetups
+ * @property \App\View\Helper\MetaHelper $Meta
  */
 class AppView extends View
 {

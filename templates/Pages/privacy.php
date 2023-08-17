@@ -1,4 +1,7 @@
 <?php
+/**
+ * @var \App\View\AppView $this
+ */
 	$title = __('CakePHP - Build fast, grow solid | Privacy policy');
 	$description = __('CakePHP Privacy Policy.');
 	$this->assign('title', $title);

@@ -1,3 +1,9 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ * @var array $highlights
+ */
+?>
 <?php if (isset($highlights[0])): ?>
 <section>
 	<?= $this->element('Showcase/highlight_carousel', ['givenHighlight' => $highlights[0]]) ?>

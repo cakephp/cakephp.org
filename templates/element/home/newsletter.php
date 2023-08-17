@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <section class="newsletter-signup">
 	<div class="container back-red">
 		<div class="row">

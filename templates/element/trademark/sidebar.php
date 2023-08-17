@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <aside class="page-content-list page-content-trad hidden-xs hidden-sm">
 	<div class="mb30"><strong><?= __('Contents')?></strong></div>
 	<ol>

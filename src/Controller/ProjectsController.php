@@ -6,7 +6,7 @@ use Cake\Event\Event;
 /**
  * Projects Controller
  *
- * @property \Showcase\Model\Table\ProjectsTable $Projects
+ * @property \App\Model\Table\ProjectsTable $Projects
  */
 class ProjectsController extends AppController
 {

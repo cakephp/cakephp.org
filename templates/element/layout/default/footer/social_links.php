@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <?= $this->Html->link(
 	$this->Html->tag('i', '', ['class' => 'fa-brands icon-social fa-twitter']),
 	'https://www.twitter.com/cakephp',

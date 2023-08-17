@@ -1,6 +1,8 @@
 <?php
 /**
  * The mobile menu element
+ *
+ * @var \App\View\AppView $this
  */
 if (!isset($selectedLanguage)) {
 	$selectedLanguage = 'en';

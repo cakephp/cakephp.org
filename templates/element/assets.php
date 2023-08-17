@@ -1,4 +1,7 @@
 <?php
+/**
+ * @var \App\View\AppView $this
+ */
 $wallpapers = array(
 	'CakePHP-1.1-iPad01-light',
 	'CakePHP-1.1-iPad01',

@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <section class="back-light-gray cake-variations">
 	<div class="container">
 		<div class="row">

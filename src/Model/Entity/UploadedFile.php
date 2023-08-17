@@ -11,8 +11,10 @@ use Cake\ORM\Entity;
  * @property string $dir
  * @property string $size
  * @property string $type
- * @property \Cake\I18n\Time $created
- * @property \Cake\I18n\Time $modified
+ * @property \Cake\I18n\FrozenTime|null $created
+ * @property \Cake\I18n\FrozenTime|null $modified
+ * @property int $entity_id
+ * @property string $model
  */
 class UploadedFile extends Entity
 {

@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div id="consultancy-busi" class="col-sm-12 padd-certification">
 	<div class="col-sm-6 p0">
 		<h2><?= __('Expert Consultancy') ?></h2>

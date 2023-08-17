@@ -1,3 +1,9 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ * @var mixed $_version
+ */
+?>
 <section class="hero">
 	<div class="container">
 		<div class="col-sm-12 col-md-12 col-lg-12">

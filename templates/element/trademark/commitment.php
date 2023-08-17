@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div id="commitment">
 	<h3><?= __('Our commitment to open source principles')?></h3>
 	<p><?= __('We want to encourage and facilitate the use of our trademarks by the community, but do so in a way that still

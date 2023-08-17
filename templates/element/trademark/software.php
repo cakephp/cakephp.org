@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div id="software" class="col-sm-12 use-soft-trade">
 	<h3><?= __('Use for software')?></h3>
 	<p>

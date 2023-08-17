@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <?= $this->element('adwords/find-out-more-click')?>
 <div id="development-busi" class="col-sm-12">
 	<div class="col-sm-6 p0">

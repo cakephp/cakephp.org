@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div id="contact-busi" class="col-sm-12 pt-50">
 	<div class="premium-contact-busi text-center">
 		<h3><?= __('Give us a') ?> <strong><?= __('Call') ?></strong></h3>

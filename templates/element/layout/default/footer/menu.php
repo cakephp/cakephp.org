@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div class="col-sm-6 col-md-3 business-solution">
 	<?= $this->element('layout/default/footer/menu/column_one') ?>
 </div>

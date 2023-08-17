@@ -10,6 +10,7 @@ use Cake\Event\Event;
  *
  * @package app
  * @subpackage app.controllers
+ * @property \App\Model\Table\ChangelogsTable $Changelogs
  */
 class ChangelogsController extends AppController
 {

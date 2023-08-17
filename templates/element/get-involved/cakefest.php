@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div id="cakefest" class="col-sm-12 get-conference pt-100">
 	<h2><?= __('The Annual CakePHP Conference')?><?= $this->Html->link('¶', '#cakefest', ['class' => 'headerlink', 'title' => __('Permalink to this headline')]) ?></h2>
 	<?= $this->Html->image('cakefest/slide.jpg', ['class' => 'img-responsive', 'alt' => __('Cakefest')]) ?>

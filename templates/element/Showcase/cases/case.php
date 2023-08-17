@@ -1,3 +1,10 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ * @var mixed $index
+ * @var \App\Model\Entity\Project $project
+ */
+?>
 <?php if ($project->website): ?>
 	<div class="col-sm-12 showcase-cases ptb-30">
 		<div class="col-sm-4 <?= $index % 2 === 1 ? 'col-sm-push-8' : '' ?>">

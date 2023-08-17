@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div id="professional-busi" class="col-sm-12 padd-certification">
 	<div class="col-sm-6 p0">
 		<span class="glyph_range icon-business-dev">r</span>

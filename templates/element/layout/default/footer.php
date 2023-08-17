@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <section id="socials" class="back-3 footer-wrapper">
 	<div class="container-fluid">
 		<div class="row">

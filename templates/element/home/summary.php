@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <section id="recipe" class="mb0 pt-90">
 	<div class="container">
 		<div class="text-center">

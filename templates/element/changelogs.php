@@ -1,3 +1,10 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ * @var array $matches
+ * @var mixed $tags
+ */
+?>
 
 <?php
 $sidebar = [];

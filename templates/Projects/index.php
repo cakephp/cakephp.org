@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div class="showcase-page">
     <?= $this->element('Showcase/title') ?>
 

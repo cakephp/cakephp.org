@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div id="universal-considerations" class="col-sm-12">
 	<h3><?= __('Universal considerations for all uses') ?></h3>
 

@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div id="general" class="col-sm-12">
 	<h3><?= __('General Information')?></h3>
 	<h4 id="legends" class="p-trad-sub"><?= __('Trademark marking and legends')?></h4>

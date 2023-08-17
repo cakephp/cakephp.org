@@ -10,6 +10,21 @@ use Cake\Validation\Validator;
 /**
  * Contacts Model
  *
+ *
+ * @method \App\Model\Entity\Contact newEmptyEntity()
+ * @method \App\Model\Entity\Contact newEntity(array $data, array $options = [])
+ * @method \App\Model\Entity\Contact[] newEntities(array $data, array $options = [])
+ * @method \App\Model\Entity\Contact get($primaryKey, $options = [])
+ * @method \App\Model\Entity\Contact findOrCreate($search, ?callable $callback = null, $options = [])
+ * @method \App\Model\Entity\Contact patchEntity(\Cake\Datasource\EntityInterface $entity, array $data, array $options = [])
+ * @method \App\Model\Entity\Contact[] patchEntities(iterable $entities, array $data, array $options = [])
+ * @method \App\Model\Entity\Contact|false save(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \App\Model\Entity\Contact saveOrFail(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \App\Model\Entity\Contact[]|\Cake\Datasource\ResultSetInterface|false saveMany(iterable $entities, $options = [])
+ * @method \App\Model\Entity\Contact[]|\Cake\Datasource\ResultSetInterface saveManyOrFail(iterable $entities, $options = [])
+ * @method \App\Model\Entity\Contact[]|\Cake\Datasource\ResultSetInterface|false deleteMany(iterable $entities, $options = [])
+ * @method \App\Model\Entity\Contact[]|\Cake\Datasource\ResultSetInterface deleteManyOrFail(iterable $entities, $options = [])
+ * @mixin \Cake\ORM\Behavior\TimestampBehavior
  */
 class ContactsTable extends Table
 {

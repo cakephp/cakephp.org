@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <section class="rebranding ptb-120">
 	<div class="container">
 		<div class="row">

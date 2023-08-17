@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div class="col-sm-3 col-xs-6">
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {

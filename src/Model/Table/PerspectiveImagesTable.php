@@ -1,6 +1,25 @@
 <?php
 namespace App\Model\Table;
 
+/**
+ * @property \App\Model\Table\ProjectsTable&\Cake\ORM\Association\BelongsTo $Projects
+ *
+ * @method \App\Model\Entity\PerspectiveImage newEmptyEntity()
+ * @method \App\Model\Entity\PerspectiveImage newEntity(array $data, array $options = [])
+ * @method \App\Model\Entity\PerspectiveImage[] newEntities(array $data, array $options = [])
+ * @method \App\Model\Entity\PerspectiveImage get($primaryKey, $options = [])
+ * @method \App\Model\Entity\PerspectiveImage findOrCreate($search, ?callable $callback = null, $options = [])
+ * @method \App\Model\Entity\PerspectiveImage patchEntity(\Cake\Datasource\EntityInterface $entity, array $data, array $options = [])
+ * @method \App\Model\Entity\PerspectiveImage[] patchEntities(iterable $entities, array $data, array $options = [])
+ * @method \App\Model\Entity\PerspectiveImage|false save(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \App\Model\Entity\PerspectiveImage saveOrFail(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \App\Model\Entity\PerspectiveImage[]|\Cake\Datasource\ResultSetInterface|false saveMany(iterable $entities, $options = [])
+ * @method \App\Model\Entity\PerspectiveImage[]|\Cake\Datasource\ResultSetInterface saveManyOrFail(iterable $entities, $options = [])
+ * @method \App\Model\Entity\PerspectiveImage[]|\Cake\Datasource\ResultSetInterface|false deleteMany(iterable $entities, $options = [])
+ * @method \App\Model\Entity\PerspectiveImage[]|\Cake\Datasource\ResultSetInterface deleteManyOrFail(iterable $entities, $options = [])
+ *
+ * @mixin \Josegonzalez\Upload\Model\Behavior\UploadBehavior
+ */
 class PerspectiveImagesTable extends UploadedFilesTable
 {
     /**

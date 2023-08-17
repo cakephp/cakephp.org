@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <p><?= __('1. Group Flag: The Group Flag is used to show plural form of usage. Example, you are a company or group of
 developers wanting to let others know you use CakePHP.')?><br/>
 <div class="col-md-12 p0 flag-m">

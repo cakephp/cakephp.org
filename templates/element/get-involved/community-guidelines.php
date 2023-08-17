@@ -1,4 +1,7 @@
 <?php
+/**
+ * @var \App\View\AppView $this
+ */
 use Cake\Core\Configure;
 ?>
 <div id="comunityguidelinesside" class="col-sm-12 get-developer pt-100">

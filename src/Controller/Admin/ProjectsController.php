@@ -4,6 +4,11 @@ namespace App\Controller\Admin;
 use App\Controller\AppController;
 use Cake\Event\Event;
 
+/**
+ * @property \App\Model\Table\ProjectsTable $Projects
+ *
+ * @method \App\Model\Entity\Project[]|\Cake\Datasource\ResultSetInterface paginate($object = null, array $settings = [])
+ */
 class ProjectsController extends AppController
 {
     /**

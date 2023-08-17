@@ -1,3 +1,11 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ * @var object $givenHighlight
+ * @var mixed $imageVersion
+ * @var object $p
+ */
+?>
 <?php if (is_array($givenHighlight)): ?>
 	<?php $images = collection($givenHighlight)
 		->filter(function ($p) {

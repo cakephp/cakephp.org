@@ -7,6 +7,9 @@ use Cake\I18n\FrozenTime;
 use Cake\Utility\Hash;
 use Cake\View\Helper;
 
+/**
+ * @property \App\View\Helper\HtmlHelper $Html
+ */
 class MeetupsHelper extends Helper
 {
     protected $helpers = ['Html'];

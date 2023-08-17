@@ -1,3 +1,11 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ * @var string $class
+ * @var array $highlights
+ * @var mixed $index
+ */
+?>
 <?php if (isset($highlights[$index])): ?>
 <section class="section-bg p0 m0 <?= $class ?>">
 	<div class="row col-p0">

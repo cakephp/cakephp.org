@@ -12,6 +12,27 @@ use Cake\Validation\Validator;
 /**
  * Projects Model
  *
+ *
+ * @property \Muffin\Tags\Model\Table\TaggedTable&\Cake\ORM\Association\HasMany $Tagged
+ * @property \App\Model\Table\ScreenMonitorImagesTable&\Cake\ORM\Association\HasMany $ScreenMonitorImages
+ * @property \Muffin\Tags\Model\Table\TagsTable&\Cake\ORM\Association\BelongsToMany $Tags
+ * @property \App\Model\Table\PerspectiveImagesTable&\Cake\ORM\Association\HasOne $PerspectiveImages
+ * @method \App\Model\Entity\Project newEmptyEntity()
+ * @method \App\Model\Entity\Project newEntity(array $data, array $options = [])
+ * @method \App\Model\Entity\Project[] newEntities(array $data, array $options = [])
+ * @method \App\Model\Entity\Project get($primaryKey, $options = [])
+ * @method \App\Model\Entity\Project findOrCreate($search, ?callable $callback = null, $options = [])
+ * @method \App\Model\Entity\Project patchEntity(\Cake\Datasource\EntityInterface $entity, array $data, array $options = [])
+ * @method \App\Model\Entity\Project[] patchEntities(iterable $entities, array $data, array $options = [])
+ * @method \App\Model\Entity\Project|false save(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \App\Model\Entity\Project saveOrFail(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \App\Model\Entity\Project[]|\Cake\Datasource\ResultSetInterface|false saveMany(iterable $entities, $options = [])
+ * @method \App\Model\Entity\Project[]|\Cake\Datasource\ResultSetInterface saveManyOrFail(iterable $entities, $options = [])
+ * @method \App\Model\Entity\Project[]|\Cake\Datasource\ResultSetInterface|false deleteMany(iterable $entities, $options = [])
+ * @method \App\Model\Entity\Project[]|\Cake\Datasource\ResultSetInterface deleteManyOrFail(iterable $entities, $options = [])
+ * @mixin \Cake\ORM\Behavior\TimestampBehavior
+ * @mixin \Muffin\Slug\Model\Behavior\SlugBehavior
+ * @mixin \Muffin\Tags\Model\Behavior\TagBehavior
  */
 class ProjectsTable extends Table
 {
@@ -91,7 +112,7 @@ class ProjectsTable extends Table
      * beforeSave
      *
      * @param Event $event event
-     * @param Entity $entity entity
+     * @param \App\Model\Entity\Project $entity entity
      * @param array $options options
      * @return void
      */

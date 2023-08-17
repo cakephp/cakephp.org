@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <section class="hero">
 	<div class="container">
 		<div class="col-sm-12 col-md-12">

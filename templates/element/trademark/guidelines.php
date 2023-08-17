@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div id="guidelines" class="col-sm-12">
 	<h3 class="mb0"><?= __('Trademarks subject to the guidelines')?></h3>
 	<h4 id="our-guidelines" class="p-trad-sub"><?= __('Our trademarks')?></h4>

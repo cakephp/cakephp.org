@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div class="hero narrowbox second">
 	<div class="wrap">
 		<div class="container-fluid text-center">

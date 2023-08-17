@@ -1,4 +1,7 @@
 <?php
+/**
+ * @var \App\View\AppView $this
+ */
 
 	$title = __('CakePHP - Build fast, grow solid | CakePHP latest news');
 	$description = __('Latest CakePHP News.');

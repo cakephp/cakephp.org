@@ -1,3 +1,9 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ * @var object $projects
+ */
+?>
 <section class="pt-120 pb-50">
 	<div class="container">
 		<div class="row">

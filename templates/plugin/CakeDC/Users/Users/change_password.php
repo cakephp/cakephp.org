@@ -7,6 +7,7 @@
  *
  * @copyright Copyright 2010 - 2015, Cake Development Corporation (https://cakedc.com)
  * @license MIT License (https://www.opensource.org/licenses/mit-license.php)
+ * @var \App\View\AppView $this
  */
 
 use Cake\Core\Configure;

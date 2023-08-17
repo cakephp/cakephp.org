@@ -1,3 +1,9 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ * @var \App\Model\Entity\Project $project
+ */
+?>
 <div class="container ptb-120">
 	<div class="row">
 		<div class="col-sm-12 crud-actions">

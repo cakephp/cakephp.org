@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div id="code-busi" class="col-sm-12 padd-certification">
 	<div class="col-sm-6 p0 business-list-2">
 		<h2><?= __('Code Review') ?></h2>

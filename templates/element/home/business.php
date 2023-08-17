@@ -1,6 +1,7 @@
 <?php
 /**
  * @var \App\View\AppView
+ * @var \App\View\AppView $this
  */
 ?>
 <section class="business-solution">

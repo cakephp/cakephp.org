@@ -10,6 +10,22 @@ use Cake\Validation\Validator;
 /**
  * UploadedFiles Model
  *
+ *
+ * @method \App\Model\Entity\UploadedFile newEmptyEntity()
+ * @method \App\Model\Entity\UploadedFile newEntity(array $data, array $options = [])
+ * @method \App\Model\Entity\UploadedFile[] newEntities(array $data, array $options = [])
+ * @method \App\Model\Entity\UploadedFile get($primaryKey, $options = [])
+ * @method \App\Model\Entity\UploadedFile findOrCreate($search, ?callable $callback = null, $options = [])
+ * @method \App\Model\Entity\UploadedFile patchEntity(\Cake\Datasource\EntityInterface $entity, array $data, array $options = [])
+ * @method \App\Model\Entity\UploadedFile[] patchEntities(iterable $entities, array $data, array $options = [])
+ * @method \App\Model\Entity\UploadedFile|false save(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \App\Model\Entity\UploadedFile saveOrFail(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \App\Model\Entity\UploadedFile[]|\Cake\Datasource\ResultSetInterface|false saveMany(iterable $entities, $options = [])
+ * @method \App\Model\Entity\UploadedFile[]|\Cake\Datasource\ResultSetInterface saveManyOrFail(iterable $entities, $options = [])
+ * @method \App\Model\Entity\UploadedFile[]|\Cake\Datasource\ResultSetInterface|false deleteMany(iterable $entities, $options = [])
+ * @method \App\Model\Entity\UploadedFile[]|\Cake\Datasource\ResultSetInterface deleteManyOrFail(iterable $entities, $options = [])
+ * @mixin \Cake\ORM\Behavior\TimestampBehavior
+ * @mixin \Burzum\Imagine\Model\Behavior\ImagineBehavior
  */
 class UploadedFilesTable extends Table
 {
@@ -67,7 +83,7 @@ class UploadedFilesTable extends Table
      * beforeSave
      *
      * @param \Cake\Event\Event $event an event instance
-     * @param \ArrayObject $entity data being marshalled
+     * @param \App\Model\Entity\UploadedFile $entity data being marshalled
      * @param \ArrayObject $options options for the current event
      * @return void
      */

@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div class="container ptb-120">
 	<div class="row">
 		<div class="col-sm-12">

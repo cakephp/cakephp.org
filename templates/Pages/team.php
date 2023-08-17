@@ -1,4 +1,7 @@
 <?php
+/**
+ * @var \App\View\AppView $this
+ */
 use Cake\Core\Configure;
 $title = __('CakePHP - Build fast, grow solid | Core Team Profiles');
 $description = __('Meet the CakePHP Core development team');

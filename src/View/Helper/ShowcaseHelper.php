@@ -3,6 +3,9 @@ namespace App\View\Helper;
 
 use Cake\View\Helper;
 
+/**
+ * @property \App\View\Helper\HtmlHelper $Html
+ */
 class ShowcaseHelper extends Helper
 {
     protected $helpers = ['Html'];

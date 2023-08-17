@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <section  class="dark-gray-stripe">
 	<div class="container">
 		<div class="row">

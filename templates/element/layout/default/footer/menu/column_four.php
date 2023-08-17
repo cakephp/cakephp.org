@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <?php $calendarHeader = [
 	'Calendar' => [
 		'class' => 'menu-title mt30',

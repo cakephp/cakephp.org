@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <?= $this->element('adwords/rapid-response-click')?>
 <section id="expertise" class="mt100">
 	<div class="container">

@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <div>
     <div style="display: none">
         <?= $this->Form->create(null, ['class' => 'form']) ?>

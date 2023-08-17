@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <section id="sharing" class="sharing">
 	<div class="container">
 		<div class="mb50 mt50 image visible-md-block visible-lg-block artwork">

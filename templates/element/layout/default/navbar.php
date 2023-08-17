@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <header class="nav-down">
     <div class="container-fluid hidden-xs hidden-sm">
         <div class="row">

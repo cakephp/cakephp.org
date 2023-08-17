@@ -1,3 +1,12 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ * @var string $description
+ * @var string $firstTitle
+ * @var string $modalId
+ * @var string $secondTitle
+ */
+?>
 <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" id="<?= $modalId ?>">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content modal-showcase">

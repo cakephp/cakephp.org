@@ -8,6 +8,9 @@ use Cake\Utility\Hash;
 use Cake\View\Helper;
 use DateTime;
 
+/**
+ * @property \App\View\Helper\HtmlHelper $Html
+ */
 class AppHelper extends Helper
 {
 

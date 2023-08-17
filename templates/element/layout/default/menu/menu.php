@@ -1,6 +1,8 @@
 <?php
 /**
  * The main menu element
+ *
+ * @var \App\View\AppView $this
  */
 
 if (!isset($selectedLanguage)) {

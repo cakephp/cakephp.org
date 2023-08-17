@@ -1,4 +1,7 @@
 <?php
+/**
+ * @var \App\View\AppView $this
+ */
 	$title = __('CakePHP - Build fast, grow solid  | Business Solutions');
 	$description = __('CakePHP Business solutions by CakeDC, the commercial entity behind the framework.');
 	$this->assign('title', $title);
