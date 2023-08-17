@@ -28,7 +28,6 @@ use Cake\Validation\Validator;
  */
 class ContactsTable extends Table
 {
-
     /**
      * Initialize method
      *

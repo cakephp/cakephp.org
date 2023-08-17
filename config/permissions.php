@@ -109,7 +109,7 @@ $permissions = [
         'controller' => ['_css', '_js'],
         'action' => '*',
         'bypassAuth' => true,
-    ]
+    ],
 ];
 
 return ['CakeDC/Auth.permissions' => $permissions];

@@ -36,7 +36,6 @@ use Cake\Validation\Validator;
  */
 class ProjectsTable extends Table
 {
-
     /**
      * Initialize method
      *

@@ -9,7 +9,6 @@ use Cake\TestSuite\TestCase;
  */
 class HomePageHighlightCellTest extends TestCase
 {
-
     /**
      * Request mock
      *

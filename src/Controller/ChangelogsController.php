@@ -14,7 +14,6 @@ use Cake\Event\Event;
  */
 class ChangelogsController extends AppController
 {
-
     /**
      * Initialize method
      *

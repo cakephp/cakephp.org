@@ -27,7 +27,6 @@ use Cake\Validation\Validator;
  */
 class WritersTable extends Table
 {
-
     /**
      * Initialize method
      *

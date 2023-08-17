@@ -29,7 +29,6 @@ use Cake\Validation\Validator;
  */
 class UploadedFilesTable extends Table
 {
-
     /**
      * Initialize method
      *

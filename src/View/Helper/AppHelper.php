@@ -13,7 +13,6 @@ use DateTime;
  */
 class AppHelper extends Helper
 {
-
     /**
      * Helpers
      *
