@@ -19,7 +19,8 @@
 		"google/recaptcha": "~1.1",
         "league/flysystem": "^2.2",
 		"linkorb/jsmin-php": "^1.0",
-		"natxet/cssmin": "^3.0"
+		"natxet/cssmin": "^3.0",
+		"cakedc/cakephp-cached-routing": "^1.0"
 	},
 	"require-dev": {
 		"psy/psysh": "@stable",

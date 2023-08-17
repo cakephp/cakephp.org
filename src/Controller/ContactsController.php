@@ -2,8 +2,6 @@
 namespace App\Controller;
 
 use Cake\Core\Configure;
-use Cake\Event\Event;
-use Cake\Mailer\Email;
 use Cake\Mailer\Mailer;
 
 /**
@@ -16,8 +14,6 @@ class ContactsController extends AppController
      */
     public function beforeFilter(\Cake\Event\EventInterface $event)
     {
-        $this->Auth->allow();
-
         return parent::beforeFilter($event);
     }
 
@@ -71,6 +67,6 @@ class ContactsController extends AppController
             ->setFrom([Configure::read('Site.contact.email') => 'CakeDC Website'])
             ->setTo(Configure::read('Site.contact.email'))
             ->setSubject($contact->subject)
-            ->send($contact->body);
+            ->deliver($contact->body);
     }
 }

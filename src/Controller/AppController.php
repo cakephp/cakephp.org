@@ -14,12 +14,8 @@
  */
 namespace App\Controller;
 
-use Cake\Controller\Component\FlashComponent;
-use Cake\Controller\Component\FormProtectionComponent;
-use Cake\Controller\Component\RequestHandlerComponent;
 use Cake\Controller\Controller;
 use Cake\Core\Configure;
-use Cake\Event\Event;
 use Cake\I18n\I18n;
 
 /**
@@ -52,9 +48,9 @@ class AppController extends Controller
     {
         parent::initialize();
 
-        $this->loadComponent(RequestHandlerComponent::class);
-        $this->loadComponent(FlashComponent::class);
-        $this->loadComponent(FormProtectionComponent::class);;
+        $this->loadComponent('RequestHandler');
+        $this->loadComponent('Flash');
+        $this->loadComponent('FormProtection');
     }
 
     /**

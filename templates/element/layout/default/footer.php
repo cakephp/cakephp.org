@@ -32,7 +32,7 @@
 				<p class="copyright"><?= __(
 						'Copyright &copy; Cake Software Foundation, Inc. All rights reserved. {1}.',
 						date('Y'),
-						$this->Html->link(__('Designs by Ibaldo'), ['prefix' => false, 'plugin' => false, 'controller' => 'pages', 'action' => 'display', 'rebranding'], ['class' => 'ibaldo'])
+						$this->Html->link(__('Designs by Ibaldo'), ['prefix' => false, 'plugin' => false, 'controller' => 'Pages', 'action' => 'display', 'rebranding'], ['class' => 'ibaldo'])
 				)?></p>
 			</div>
 		</div>

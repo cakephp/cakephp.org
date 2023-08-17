@@ -5,7 +5,13 @@
                 <?=
                 $this->Html->link(
                     $this->Html->image('cake-logo.svg', ['alt' => __('Home')]),
-					['controller' => 'pages', 'action' => 'display', 'home'],
+					[
+                        'prefix' => false,
+                        'plugin' => false,
+                        'controller' => 'Pages',
+                        'action' => 'display',
+                        'home',
+                    ],
                     ['escape' => false, 'class' => 'logo-cake']
                 ); ?>
             </div>
@@ -22,7 +28,13 @@
                 <?=
                 $this->Html->link(
                     $this->Html->image('cake-logo.svg', ['alt' => __('Home')]),
-					['controller' => 'pages', 'action' => 'display', 'home'],
+                    [
+                        'prefix' => false,
+                        'plugin' => false,
+                        'controller' => 'Pages',
+                        'action' => 'display',
+                        'home',
+                    ],
 					['escape' => false, 'class' => 'logo-cake']
 				); ?>
 			</div>

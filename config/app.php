@@ -194,7 +194,7 @@ return [
      *   your application that still emit deprecations.
      */
     'Error' => [
-        'errorLevel' => E_ALL,
+        'errorLevel' => E_ALL & ~E_DEPRECATED,
         'exceptionRenderer' => WebExceptionRenderer::class,
         'skipLog' => [],
         'log' => true,

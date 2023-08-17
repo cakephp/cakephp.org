@@ -12,7 +12,7 @@ $quotes = Configure::read('Site.quotes');
 				<div>
 					<h2><?= __("Companies using CakePHP") ?></h2>
 					<h3><?= __('Here are some of the companies trusting our framework.') ?></h3>
-					<?= $this->Html->link(__("View Showcase"), ['controller' => 'projects', 'action' => 'index'],
+					<?= $this->Html->link(__("View Showcase"), ['prefix' => false, 'plugin' => false, 'controller' => 'Projects', 'action' => 'index'],
 						['class' => 'btn btn-home mb40 mt10']) ?>
 				</div>
 

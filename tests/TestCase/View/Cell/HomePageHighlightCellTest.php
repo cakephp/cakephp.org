@@ -36,7 +36,7 @@ class HomePageHighlightCellTest extends TestCase
      *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->request = $this->getMockBuilder(\Cake\Network\Request::class)->getMock();
@@ -49,7 +49,7 @@ class HomePageHighlightCellTest extends TestCase
      *
      * @return void
      */
-    public function tearDown()
+    public function tearDown(): void
     {
         unset($this->HomePageHighlight);
 

@@ -22,16 +22,6 @@ $config = [
             'route' => ['plugin' => 'CakeDC/Users', 'controller' => 'Users', 'action' => 'profile'],
         ],
     ],
-    //default configuration used to auto-load the Auth Component, override to change the way Auth works
-    'Auth' => [
-        'Identifiers' => [
-            'Password' => [
-                'resolver' => [
-                    'finder' => 'auth',
-                ],
-            ],
-        ],
-    ],
 ];
 
 return $config;

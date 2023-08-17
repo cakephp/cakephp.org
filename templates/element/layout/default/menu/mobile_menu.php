@@ -41,7 +41,7 @@ if (!isset($availableLanguages)) {
 									<h4 class="panel-title title-responsivo-menu">
 										<?= $this->Html->link(
 											__('Business Solutions'),
-											['controller' => 'pages', 'action' => 'display', 'business-solutions'],
+											['prefix' => false, 'plugin' => false, 'controller' => 'Pages', 'action' => 'display', 'business-solutions'],
 											['escape' => false]
 										) ?>
 									</h4>
@@ -65,7 +65,7 @@ if (!isset($availableLanguages)) {
 									<h4 class="panel-title title-responsivo-menu">
 										<?= $this->Html->link(
 											__('Team'),
-											['controller' => 'pages', 'action' => 'display', 'team'],
+											['prefix' => false, 'plugin' => false, 'controller' => 'Pages', 'action' => 'display', 'team'],
 											['escape' => false]
 										) ?>
 									</h4>

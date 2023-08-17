@@ -3,7 +3,6 @@ namespace App\Controller;
 
 use Cake\Core\Configure;
 use Cake\Event\Event;
-use Cake\Mailer\Email;
 use Cake\Mailer\Mailer;
 use ReCaptcha\ReCaptcha;
 
@@ -19,8 +18,6 @@ class WritersController extends AppController
      */
     public function beforeFilter(\Cake\Event\EventInterface $event)
     {
-        $this->Auth->allow();
-
         return parent::beforeFilter($event);
     }
 
@@ -51,7 +48,7 @@ class WritersController extends AppController
                         ->viewBuilder()
                         ->setTemplate('writers_form');
 
-                    $email->send();
+                    $email->deliver();
 
                     $this->Flash->success(__('Thanks for your submission! We will review and get back to you shortly!'));
 

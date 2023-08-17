@@ -21,10 +21,9 @@ use Cake\Core\ContainerInterface;
 use Cake\Error\Middleware\ErrorHandlerMiddleware;
 use Cake\Http\BaseApplication;
 use Cake\Http\Middleware\BodyParserMiddleware;
-use Cake\Http\Middleware\CsrfProtectionMiddleware;
 use Cake\Http\MiddlewareQueue;
 use Cake\Routing\Middleware\AssetMiddleware;
-use Cake\Routing\Middleware\RoutingMiddleware;
+use CakeDC\CachedRouting\Routing\Middleware\CachedRoutingMiddleware;
 
 /**
  * Application setup class.
@@ -90,7 +89,7 @@ class Application extends BaseApplication
             // creating the middleware instance specify the cache config name by
             // using it's second constructor argument:
             // `new RoutingMiddleware($this, '_cake_routes_')`
-            ->add(new RoutingMiddleware($this, '_cake_routes_'))
+            ->add(new CachedRoutingMiddleware($this, '_cake_routes_'))
 
             // Parse various types of encoded request bodies so that they are
             // available as array through $request->getData()

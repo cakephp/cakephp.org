@@ -1,11 +1,24 @@
 <?php
 namespace App\File\Transformer;
 
+use Cake\Utility\Text;
 use Imagine\Imagick\Imagine;
 use InvalidaArgumentException;
+use Laminas\Diactoros\Exception\UploadedFileAlreadyMovedException;
+use Laminas\Diactoros\UploadedFile;
 
 abstract class AbstractVersion
 {
+    /**
+     * @var \Laminas\Diactoros\UploadedFile
+     */
+    protected $data;
+
+    /**
+     * @var string
+     */
+    protected $tmpFilePath;
+
     /**
      * @var string
      */
@@ -34,14 +47,13 @@ abstract class AbstractVersion
     /**
      * Constructor
      *
-     * @param array $data data
+     * @param \Laminas\Diactoros\UploadedFile $data data
      */
-    public function __construct($data)
+    public function __construct(UploadedFile $data)
     {
-        if (empty($data['tmp_name']) || empty($data['name'])) {
-            throw new InvalidaArgumentException('You should provide an array with `tmp_name` and `name`');
+        if ($data->getError() !== UPLOAD_ERR_OK) {
+            throw new \InvalidArgumentException('Invalid uploaded file');
         }
-
         $this->data = $data;
     }
 
@@ -57,14 +69,14 @@ abstract class AbstractVersion
         $imagine = new Imagine($mockFilename);
 
         $mock = $imagine->open($mockFilename);
-        $uploaded = $imagine->open($this->data['tmp_name']);
+        $uploaded = $imagine->open($this->data->getStream()->getMetadata('uri'));
 
         $mock->paste($uploaded->resize($this->getResizeBox()), $this->getPoint());
 
-        $dest = $this->getDestFilename($this->data['tmp_name']);
+        $dest = $this->getDestFilename($this->data->getStream()->getMetadata('uri'));
         $mock->save($dest);
 
-        return [$dest => $this->getDestFilename($this->data['name'])];
+        return [$dest => $this->getDestFilename($this->data->getClientFilename())];
     }
 
     /**
@@ -92,8 +104,9 @@ abstract class AbstractVersion
     private function getDestFilename($name)
     {
         $name = explode('.', $name);
+        $type = $name[1];
         $name = $name[0];
 
-        return $name . $this->extractSuffix() . self::EXT;
+        return $name . $this->extractSuffix() . '.' . $type;
     }
 }

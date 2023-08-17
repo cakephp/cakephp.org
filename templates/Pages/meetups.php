@@ -1,7 +1,6 @@
 <?php
 
 use Cake\Core\Configure;
-use Cake\I18n\Time;
 
 $title = __('CakePHP - Build fast, grow solid | Meetups');
 $description = __('Online CakePHP Meetups');

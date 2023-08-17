@@ -29,7 +29,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title><?= $this->fetch('title') ?></title>
-	<?= $this->Html->meta('icon', ['type' => 'icon']) ?>
+	<?= $this->Html->meta('icon') ?>
 	<meta charset="utf-8" >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

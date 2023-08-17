@@ -3,6 +3,7 @@ namespace App\Model\Table;
 
 use App\Model\Entity\Project;
 use Cake\Event\Event;
+use Cake\I18n\FrozenTime;
 use Cake\ORM\Entity;
 use Cake\ORM\Query;
 use Cake\ORM\Table;
@@ -96,23 +97,23 @@ class ProjectsTable extends Table
      */
     public function beforeSave(Event $event, Entity $entity, $options)
     {
-        if (empty($entity->perspective_image->file['name'])) {
+        if (empty($entity->perspective_image->file->getClientFilename())) {
             unset($entity->perspective_image);
         }
-        if (empty($entity->screen_monitor_images[0]->file['name'])) {
+        if (empty($entity->screen_monitor_images[0]->file->getClientFilename())) {
             unset($entity->screen_monitor_images);
         }
 
         if (!$entity->isNew()) {
             if ($entity->perspective_image) {
                 $this->PerspectiveImages->deleteAll([
-                    'entity_id' => $entity->id, 'model' => $this->PerspectiveImages->alias(),
+                    'entity_id' => $entity->id, 'model' => $this->PerspectiveImages->getAlias(),
                 ]);
             }
 
             if ($entity->screen_monitor_images) {
                 $this->ScreenMonitorImages->deleteAll([
-                    'entity_id' => $entity->id, 'model' => $this->ScreenMonitorImages->alias(),
+                    'entity_id' => $entity->id, 'model' => $this->ScreenMonitorImages->getAlias(),
                 ]);
             }
         }
@@ -182,5 +183,25 @@ class ProjectsTable extends Table
         return $query
             ->find('view')
             ->where(['is_showcase' => true]);
+    }
+
+    /**
+     * Before marshal method
+     *
+     * @param \Cake\Event\Event $event Event
+     * @param \ArrayObject $data Data
+     * @param \ArrayObject $options Options
+     * @return void
+     */
+    public function beforeMarshal(Event $event, \ArrayObject $data, \ArrayObject $options): void
+    {
+        if (isset($data['screen_monitor_images']['file'])) {
+            $files = $data['screen_monitor_images']['file'];
+            $data['screen_monitor_images'] = [];
+
+            foreach ($files as $f) {
+                $data['screen_monitor_images'][] = ['file' => $f];
+            }
+        }
     }
 }

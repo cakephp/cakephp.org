@@ -35,7 +35,6 @@ class ChangelogsController extends AppController
     public function beforeFilter(\Cake\Event\EventInterface $event)
     {
         parent::beforeFilter($event);
-        $this->Auth->allow();
         $this->Changelogs->repository(Configure::read('Changelog.Repository'));
     }
 

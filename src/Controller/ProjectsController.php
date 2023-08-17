@@ -15,8 +15,6 @@ class ProjectsController extends AppController
      */
     public function beforeFilter(\Cake\Event\EventInterface $event)
     {
-        $this->Auth->allow();
-
         return parent::beforeFilter($event);
     }
 

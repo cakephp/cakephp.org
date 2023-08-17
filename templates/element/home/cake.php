@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="col-sm-12 col-md-12 col-lg-12">
 			<div class="title-home">
-				<h1><span><?= __('New CakePHP {0} Strawberry.', $_version)?></span></h1>
+				<h1><span><?= __('New CakePHP {0} Chiffon.', $_version)?></span></h1>
                 <h3><span class="subtitle-home"><?= __('Faster. Simple. Delicious.') ?></span></h3>
             </div>
         </div>

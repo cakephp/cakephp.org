@@ -19,8 +19,9 @@ class ProjectsController extends AppController
      */
     public function beforeFilter(\Cake\Event\EventInterface $event)
     {
-        if (in_array($this->request->action, ['edit', 'add'])) {
-            $this->fetchTable('Muffin/Tags.Tags');
+        $action = $this->getRequest()->getParam('action');
+        if (in_array($action, ['edit', 'add'])) {
+            $this->Tags = $this->fetchTable('Muffin/Tags.Tags');
             $this->set('tags', $this->Tags->find('list', ['keyField' => 'label']));
         }
 
@@ -69,8 +70,6 @@ class ProjectsController extends AppController
         $project = $this->Projects->newEmptyEntity();
 
         if ($this->request->is('post')) {
-            $this->normalizeScreenMonitorImages();
-
             $project = $this->Projects->patchEntity($project, $this->getRequest()->getData(), $this->patchOptions);
             if ($this->Projects->save($project)) {
                 $this->Flash->success(__('The project has been saved.'));
@@ -82,25 +81,6 @@ class ProjectsController extends AppController
         }
         $this->set(compact('project'));
         $this->viewBuilder()->setOption('serialize', ['project']);
-    }
-
-    /**
-     * Normalizes screen monitor images from multiple file input to the expected structure
-     *
-     * @return void
-     */
-    private function normalizeScreenMonitorImages()
-    {
-//        @todo fix this
-        $data = $this->getRequest()->getData();
-        if (isset($data['screen_monitor_images']['file'])) {
-            $files = $data['screen_monitor_images']['file'];
-//            $this->request->data['screen_monitor_images'] = [];
-
-            foreach ($files as $f) {
-//                $this->request->data['screen_monitor_images'][] = ['file' => $f];
-            }
-        }
     }
 
     /**
@@ -119,8 +99,6 @@ class ProjectsController extends AppController
         ]);
 
         if ($this->request->is(['patch', 'post', 'put'])) {
-            $this->normalizeScreenMonitorImages();
-
             unset($project->perspective_image);
 
             $project = $this->Projects->patchEntity($project, $this->getRequest()->getData(), $this->patchOptions);

@@ -2,13 +2,13 @@
 	'business' => [
 		'class' => 'menu-title',
 		'icon' => 'fa fa-menu-title fa-briefcase',
-		'url' => ['controller' => 'pages', 'action' => 'display', 'business-solutions'],
+		'url' => ['prefix' => false, 'plugin' => false, 'controller' => 'Pages', 'action' => 'display', 'business-solutions'],
 		'title' => __('Business Solutions')
 	],
 	'showcase' => [
 		'class' => 'menu-title mt30',
 		'icon' => 'fa fa-menu-title fa-desktop',
-		'url' => ['controller' => 'projects'],
+		'url' => ['prefix' => false, 'plugin' => false, 'controller' => 'Projects'],
 		'title' => __('Showcase')
 	]
 ];

@@ -48,42 +48,68 @@
         }
     ],
  */
-$baseUsersPermissions = include ROOT . '/vendor/cakedc/users/config/permissions.php';
 
-$appPermissions = [
-    'CakeDC/Auth.permissions' => [
-        [
-            'role' => '*',
-            'controller' => 'Pages',
-            'action' => 'display',
-            'bypassAuth' => true,
+$permissions = [
+    [
+        'plugin' => 'CakeDC/Users',
+        'controller' => 'Users',
+        'action' => [
+            // LoginTrait
+            'socialLogin',
+            'login',
+            'logout',
+            'socialEmail',
+            'verify',
+            // RegisterTrait
+            'register',
+            'validateEmail',
+            // PasswordManagementTrait used in RegisterTrait
+            'changePassword',
+            'resetPassword',
+            'requestResetPassword',
+            // UserValidationTrait used in PasswordManagementTrait
+            'resendTokenValidation',
+            'linkSocial',
         ],
-        [
-            'role' => '*',
-            'controller' => 'Changelogs',
-            'action' => ['index', 'view'],
-            'bypassAuth' => true,
-        ],
-        [
-            'role' => ['user'],
-            'controller' => ['Dashboards'],
-            'action' => ['index'],
-            'prefix' => 'admin',
-        ],
-        [
-            'role' => ['user'],
-            'controller' => ['Projects'],
-            'action' => '*',
-            'prefix' => 'admin',
-        ],
-        [
-            'role' => '*',
-            'plugin' => 'DebugKit',
-            'controller' => '*',
-            'action' => '*',
-            'bypassAuth' => true,
-        ],
+        'bypassAuth' => true,
     ],
+    [
+        'role' => '*',
+        'controller' => 'Pages',
+        'action' => 'display',
+        'bypassAuth' => true,
+    ],
+    [
+        'role' => '*',
+        'controller' => 'Changelogs',
+        'action' => ['index', 'view'],
+        'bypassAuth' => true,
+    ],
+    [
+        'role' => 'user',
+        'controller' => 'Dashboards',
+        'action' => ['index'],
+        'prefix' => 'admin',
+    ],
+    [
+        'role' => 'user',
+        'controller' => 'Projects',
+        'action' => '*',
+        'prefix' => 'admin',
+    ],
+    [
+        'role' => '*',
+        'plugin' => 'DebugKit',
+        'controller' => '*',
+        'action' => '*',
+        'bypassAuth' => true,
+    ],
+    [
+        'role' => '*',
+        'controller' => ['_css', '_js'],
+        'action' => '*',
+        'bypassAuth' => true,
+    ]
 ];
 
-return $appPermissions + $baseUsersPermissions;
+return ['CakeDC/Auth.permissions' => $permissions];

@@ -30,7 +30,7 @@ if (!isset($availableLanguages)) {
         <?=
             $this->Html->link(
                 __('Business Solutions'),
-                ['controller' => 'pages', 'action' => 'display', 'business-solutions'],
+                ['prefix' => false, 'plugin' => false, 'controller' => 'Pages', 'action' => 'display', 'business-solutions'],
                 ['escape' => false]
             );?>
     </li>
@@ -46,7 +46,7 @@ if (!isset($availableLanguages)) {
         <?=
             $this->Html->link(
                 __('Showcase'),
-                ['controller' => 'projects', 'action' => 'index'],
+                ['prefix' => false, 'plugin' => false, 'controller' => 'Projects', 'action' => 'index'],
                 ['escape' => false, 'class' => 'hide']
             );?>
     </li>
@@ -118,7 +118,7 @@ if (!isset($availableLanguages)) {
             <?php endforeach; ?>
         </ul>
     </li>
-    <?php if ($this->request->getSession()->check('Auth.User')) : ?>
+    <?php if ($this->request->getSession()->check('Auth')) : ?>
         <li>
             <?= $this->Html->link(
                 $this->Html->tag('i', '', ['class' => 'fa fa-logout']) . __('Logout'),
