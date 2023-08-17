@@ -5322,6 +5322,10 @@
     text-align: center;
 }
 
+.subtitle-home {
+    font-weight: normal;
+}
+
 .cake-introdution p {
     color: #363637;
     font-size: 15px;
@@ -10828,43 +10832,50 @@ a.btn-home.btn-inverted:hover, button.btn-home.btn-inverted:hover {
     color: #FFFFFF;
 }
 .whats-new .btn-home {
-    background: #1a1a1a;
+    background: #363737;
 }
 .whats-new .description {
     margin-right: 50px;
 }
 
 .business-solution .container {
-    background: grey;
-    color: #FFFFFF;
+    background: #e5e5e5;
 }
 .business-solution .description {
     margin-left: 30px;
+    color: #363737;
 }
 .business-solution .image {
     text-align: center;
 }
 
 .sharing .container {
-    background: #1a1a1a;
+    background: #363737;
     color: #FFFFFF;
 }
-.sharing h2,
-.sharing h3 {
+.sharing .title-share h2 {
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.sharing .title-share h4 {
     color: #FFFFFF;
 }
 .sharing h2 {
     margin-bottom: 0;
 }
 .sharing .description {
+    color: #FFFFFF;
     margin-right: 50px;
 }
 .quote-highlight {
     color: #d33c44;
 }
 #sponsors .container {
-    background: grey;
-    color: #FFFFFF;
+    background: #e5e5e5;
+    color: #363737;
+}
+.sponsor {
+    color: #363737;
 }
 .newsletter-submit {
     text-align: left;
