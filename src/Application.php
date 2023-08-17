@@ -16,14 +16,14 @@ declare(strict_types=1);
  */
 namespace App;
 
+use CakeDC\CachedRouting\Routing\Middleware\CachedRoutingMiddleware;
 use Cake\Core\Configure;
 use Cake\Core\ContainerInterface;
 use Cake\Error\Middleware\ErrorHandlerMiddleware;
 use Cake\Http\BaseApplication;
-use Cake\Http\Middleware\BodyParserMiddleware;
 use Cake\Http\MiddlewareQueue;
+use Cake\Http\Middleware\BodyParserMiddleware;
 use Cake\Routing\Middleware\AssetMiddleware;
-use CakeDC\CachedRouting\Routing\Middleware\CachedRoutingMiddleware;
 
 /**
  * Application setup class.

@@ -6,7 +6,7 @@ use Josegonzalez\Upload\File\Transformer\DefaultTransformer;
 class GenerateDifferentVersionsTransformer extends DefaultTransformer
 {
     /**
-     * @return array
+     * @inheritDoc
      */
     public function transform(string $filename): array
     {
