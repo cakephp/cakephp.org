@@ -1,17 +1,17 @@
 <?php
 /**
- * @var \App\View\AppView
+ * @var \App\View\AppView $this
  */
 ?>
-<section class="whats-new pt-120">
+<section class="whats-new">
     <div class="container">
-        <div class="visible-md-block visible-lg-block artwork">
-            <?= $this->Html->image('whats_new.svg', ['alt' => 'Whats new']) ?>
+        <div class="mb50 mt50 image visible-md-block visible-lg-block artwork">
+            <?= $this->Html->image('whats_new_chiffon.svg', ['alt' => 'Whats new']) ?>
         </div>
-        <div>
-            <div class="mb50">
-                <h2>What's new in version 4.4</h2>
-                <p>The migration guide has a complete list of what's new in 4.4.0. We recommend you give that page a read when upgrading. A few highlights from 4.4.0 are:
+        <div class="description">
+            <div class="mb50 mt50">
+                <h2>What's new in version</h2>
+                <p>The migration guide has a complete list of what's new in. We recommend you give that page a read when upgrading. A few highlights from 4.4.0 are:
                 <ul>
                     <li> A new Error and Exception handling framework that is easier to extend and requires less application code to operate. </li>
                     <li> Controller::viewClasses() was added. This method enables controllers to take control of what content-types they can respond as. </li>
@@ -25,19 +25,7 @@
                     covering all the deprecated and removed features as well as highlighting the shiny new features.
                 </p>
                 <div>
-                    <a href="https://book.cakephp.org/4/en/appendices/4-4-migration-guide.html" class="learn-more">Learn more</a>
-                </div>
-            </div>
-
-            <div>
-                <h2>Business Solutions</h2>
-                <p>CakeDC, the commercial entity behind the CakePHP framework, was established by Larry Masters, the
-                   founder of CakePHP. CakeDC offers CakePHP development, consultancy, CakePHP training and code review Services.
-                    From startups and social networks, to e-commerce and enterprise level applications, CakeDC provides
-                   the highest quality CakePHP development available.
-                </p>
-                <div>
-                    <a href="https://www.cakedc.com" class="learn-more">Chat to the top CakePHP developers</a>
+                    <a href="https://book.cakephp.org/4/en/appendices/4-4-migration-guide.html" class="btn btn-home">Learn more</a>
                 </div>
             </div>
         </div>

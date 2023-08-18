@@ -5296,11 +5296,14 @@
 }
 
 .title-home h1{
-    color: #D33C44;
-    font-weight: bold;
-    font-size: 32px;
-    margin-bottom: 28px;
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 0;
     letter-spacing: 0.01em;
+    text-align: center;
+}
+.title-home h1 span{
+    background: #D33C44;
 }
 
 .title-home h3{
@@ -5308,6 +5311,19 @@
     font-size: 32px;
     letter-spacing: 0.01em;
     margin: 0;
+}
+
+.title-home h3 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 28px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.subtitle-home {
+    font-weight: normal;
 }
 
 .cake-introdution p {
@@ -5376,6 +5392,13 @@
     line-height: 20px;
     letter-spacing: 0.01em;
     color: #363637;
+}
+
+#recipe h1 {
+    margin: 0 0 10px 0;
+}
+#recipe h2 {
+    margin: 0 0 30px 0;
 }
 
 #recipe h3 {
@@ -5600,7 +5623,6 @@
 }
 
 #companies-logos {
-    background: #EFF2F7;
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom-left-radius: 40px;
@@ -6235,7 +6257,10 @@ header {
 }
 
 .hero .container {
-    background: #1d0036;
+    background-image: url('../images/home/chiffon_edit.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .hero-2 {
@@ -10623,18 +10648,16 @@ code {
 }
 
 .sponsor-icon {
-    width: 60px;
     display: block;
     margin: 0 auto 70px auto;
 }
 
 .btn-home {
+    text-transform: uppercase;
+    font-weight: bold;
     background: #D33C44;
     color: #fff;
     border-radius: 20px 0;
-    padding: 10px 15px;
-    margin-bottom: 10px;
-    margin-right: 10px;
     border-color: #D33C44;
 }
 
@@ -10660,7 +10683,7 @@ a.btn-home.btn-inverted:hover, button.btn-home.btn-inverted:hover {
 
 #showcase-carousel {
     height: 650px;
-    background: url('../img/using_cakephp.svg');
+    background: url('../img/using_cakephp_chiffon.svg');
     background-repeat: no-repeat;
     background-size: contain;
     margin: 20px auto;
@@ -10771,7 +10794,8 @@ a.btn-home.btn-inverted:hover, button.btn-home.btn-inverted:hover {
 }
 
 .cta-home {
-    padding-bottom: 30px;
+    text-align: right;
+    padding-bottom: 0;
 }
 
 .newsletter-signup .form-control {
@@ -10798,4 +10822,62 @@ a.btn-home.btn-inverted:hover, button.btn-home.btn-inverted:hover {
 
 .section-caption a {
     color: #4EA9D0;
+}
+
+.whats-new .container {
+    background: #d33c44;
+    color: #FFFFFF;
+}
+.whats-new h2 {
+    color: #FFFFFF;
+}
+.whats-new .btn-home {
+    background: #363737;
+}
+.whats-new .description {
+    margin-right: 50px;
+}
+
+.business-solution .container {
+    background: #e5e5e5;
+}
+.business-solution .description {
+    margin-left: 30px;
+    color: #363737;
+}
+.business-solution .image {
+    text-align: center;
+}
+
+.sharing .container {
+    background: #363737;
+    color: #FFFFFF;
+}
+.sharing .title-share h2 {
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.sharing .title-share h4 {
+    color: #FFFFFF;
+}
+.sharing h2 {
+    margin-bottom: 0;
+}
+.sharing .description {
+    color: #FFFFFF;
+    margin-right: 50px;
+}
+.quote-highlight {
+    color: #d33c44;
+}
+#sponsors .container {
+    background: #e5e5e5;
+    color: #363737;
+}
+.sponsor {
+    color: #363737;
+}
+.newsletter-submit {
+    text-align: left;
+    margin-top: 10px;
 }

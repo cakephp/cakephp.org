@@ -1,8 +1,6 @@
 @media (max-width: 767px) {
 /*CSS LIDO EM DISPOSITIVOS ATÉ 767 PX DE LARGURA*/
-    .hero:first-child {
-        margin-top: 80px;
-    }
+
 
     .title-home h1 {
     	font-size: 32px;
@@ -726,9 +724,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
 /*CSS LIDO EM DISPOSITIVOS ATÉ 991 PX DE LARGURA*/
-    .hero:first-child {
-        margin-top: 90px;
-    }
+
 
 	.header-transparent .main-header {
 		background-color: #d33c44;
@@ -1004,9 +1000,7 @@
 
 @media (min-width: 992px){
 /*CSS LIDO EM DISPOSITIVOS ATÉ 1199 PX DE LARGURA*/
-    .hero:first-child {
-        margin-top: 110px;
-    }
+
 
 	.menu > li > a {
 		padding: 25px 20px;
@@ -1119,15 +1113,22 @@
 		height: 90px;
 	}
 
-	.whats-new .container > div, .sharing .container > div {
+	.whats-new .container > div,
+    .business-solution .container > div,
+    .sharing .container > div {
 		flex: 1 0 47%;
 	}
 
 	.whats-new .artwork, .sharing .artwork {
 		margin-right: 50px;
 	}
+    .business-solution .artwork {
+        margin-left: 50px;
+    }
 
-	.whats-new .container, .sharing .container {
+	.whats-new .container,
+    .business-solution .container,
+    .sharing .container {
 		display: flex;
 		justify-content: space-between;
 	}
@@ -1155,12 +1156,9 @@
 
 @media (min-width: 1200px) {
   /*CSS LIDO EM DISPOSITIVOS DE MAIS DE 1200 PX DE LARGURA*/
-    .hero:first-child {
-        margin-top: 166px;
-    }
+
 
 	.hero {
-		margin-top: 166px;
 		position: relative;
 	}
 
@@ -1168,6 +1166,7 @@
 		padding: 40px;
 		min-height: 381px;
 		display: flex;
+        flex-flow: column wrap;
 		justify-content: space-between;
 		align-items: center;
 	}

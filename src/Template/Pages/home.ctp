@@ -1,4 +1,7 @@
 <?php
+/**
+ * @var \App\View\AppView $this;
+ */
 $title = __('CakePHP - Build fast, grow solid | PHP Framework | Home');
 $description = __('CakePHP is an open-source web, rapid development framework that makes building web applications simpler,
  faster and require less code. It follows the model–view–controller (MVC) . Manual for beginners now available and links
@@ -14,11 +17,13 @@ $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'descrip
 
 <?= $this->element('home/whats_new')?>
 
+<?= $this->element('home/business')?>
+
 <?= $this->element('home/summary')?>
 
 <?= $this->element('home/share') ?>
 
-<?= $this->element('home/support') ?>
+<?php //= $this->element('home/support') ?>
 
 <?= $this->element('home/showcase')?>
 

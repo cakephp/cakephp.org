@@ -1,5 +1,5 @@
-<section class="newsletter-signup mb100">
-	<div class="container  back-red">
+<section class="newsletter-signup">
+	<div class="container back-red">
 		<div class="row">
 			<div class="col-sm-12 text-center">
 				<h3 class="title-white mb50 mt50"><?= __('Sign up for our newsletter.') ?></h3>
@@ -43,11 +43,13 @@
 									</label>
 								</div>
 								<div class="col-sm-12">
-									<button
-										type="submit"
-										name="subscribe"
-										id="mc-embedded-subscribe"
-										class="btn btn-home btn-inverted"><?= __('Send!') ?></button>
+                                    <div class="newsletter-submit">
+                                        <button
+                                            type="submit"
+                                            name="subscribe"
+                                            id="mc-embedded-subscribe"
+                                            class="btn btn-home btn-inverted"><?= __('Submit') ?></button>
+                                    </div>
 								</div>
 							</div>
 						</div>
@@ -74,14 +76,15 @@
 											<label for="mce-group[19433]-19433-3">Freelancers</label>
 										</li>
 									</ul>
+                                    <br>
 									<strong class="mt10"><?= __('Email Format') ?></strong>
 									<ul>
 										<li>
-											<input type="radio" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0">
+											<input type="checkbox" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0">
 											<label for="mce-EMAILTYPE-0">html</label>
 										</li>
 										<li>
-											<input type="radio" value="text" name="EMAILTYPE" id="mce-EMAILTYPE-1">
+											<input type="checkbox" value="text" name="EMAILTYPE" id="mce-EMAILTYPE-1">
 											<label for="mce-EMAILTYPE-1">text</label>
 										</li>
 									</ul>
