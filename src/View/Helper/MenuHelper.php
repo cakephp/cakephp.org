@@ -6,10 +6,12 @@ use Cake\View\Helper;
 
 /**
  * Menu Helper
+ *
+ * @property \App\View\Helper\HtmlHelper $Html
  */
 class MenuHelper extends Helper
 {
-    public $helpers = ['Html'];
+    protected $helpers = ['Html'];
 
     /**
      * List of options related to community menu option

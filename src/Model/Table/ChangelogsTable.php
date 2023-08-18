@@ -11,7 +11,6 @@ use Cake\Utility\Hash;
  */
 class ChangelogsTable extends Table
 {
-
     /**
      * Table to use
      *

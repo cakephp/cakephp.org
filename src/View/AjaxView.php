@@ -1,4 +1,6 @@
 <?php
+declare(strict_types=1);
+
 /**
  * CakePHP(tm) : Rapid Development Framework (https://cakephp.org)
  * Copyright (c) Cake Software Foundation, Inc. (https://cakefoundation.org)
@@ -10,13 +12,9 @@
  * @copyright     Copyright (c) Cake Software Foundation, Inc. (https://cakefoundation.org)
  * @link          https://cakephp.org CakePHP(tm) Project
  * @since         3.0.4
- * @license       https://www.opensource.org/licenses/mit-license.php MIT License
+ * @license       https://opensource.org/licenses/mit-license.php MIT License
  */
 namespace App\View;
-
-use Cake\Event\EventManager;
-use Cake\Network\Request;
-use Cake\Network\Response;
 
 /**
  * A view class that is used for AJAX responses.
@@ -25,11 +23,10 @@ use Cake\Network\Response;
  */
 class AjaxView extends AppView
 {
-
     /**
      * The name of the layout file to render the view inside of. The name
-     * specified is the filename of the layout in /src/Template/Layout without
-     * the .ctp extension.
+     * specified is the filename of the layout in /templates/Layout without
+     * the .php extension.
      *
      * @var string
      */
@@ -40,10 +37,10 @@ class AjaxView extends AppView
      *
      * @return void
      */
-    public function initialize()
+    public function initialize(): void
     {
         parent::initialize();
 
-        $this->response->type('ajax');
+        $this->response = $this->response->withType('ajax');
     }
 }

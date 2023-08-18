@@ -4,6 +4,11 @@ namespace App\Controller\Admin;
 use App\Controller\AppController;
 use Cake\Event\Event;
 
+/**
+ * @property \App\Model\Table\ProjectsTable $Projects
+ *
+ * @method \App\Model\Entity\Project[]|\Cake\Datasource\ResultSetInterface paginate($object = null, array $settings = [])
+ */
 class ProjectsController extends AppController
 {
     /**
@@ -17,10 +22,11 @@ class ProjectsController extends AppController
     /**
      * @inheritDoc
      */
-    public function beforeFilter(Event $event)
+    public function beforeFilter(\Cake\Event\EventInterface $event)
     {
-        if (in_array($this->request->action, ['edit', 'add'])) {
-            $this->loadModel('Muffin/Tags.Tags');
+        $action = $this->getRequest()->getParam('action');
+        if (in_array($action, ['edit', 'add'])) {
+            $this->Tags = $this->fetchTable('Muffin/Tags.Tags');
             $this->set('tags', $this->Tags->find('list', ['keyField' => 'label']));
         }
 
@@ -37,7 +43,7 @@ class ProjectsController extends AppController
         $projects = $this->paginate($this->Projects);
 
         $this->set(compact('projects'));
-        $this->set('_serialize', ['projects']);
+        $this->viewBuilder()->setOption('serialize', ['projects']);
     }
 
     /**
@@ -54,7 +60,7 @@ class ProjectsController extends AppController
         ]);
 
         $this->set('project', $project);
-        $this->set('_serialize', ['project']);
+        $this->viewBuilder()->setOption('serialize', ['project']);
     }
 
     /**
@@ -66,12 +72,10 @@ class ProjectsController extends AppController
      */
     public function add()
     {
-        $project = $this->Projects->newEntity();
+        $project = $this->Projects->newEmptyEntity();
 
         if ($this->request->is('post')) {
-            $this->normalizeScreenMonitorImages();
-
-            $project = $this->Projects->patchEntity($project, $this->request->data, $this->patchOptions);
+            $project = $this->Projects->patchEntity($project, $this->getRequest()->getData(), $this->patchOptions);
             if ($this->Projects->save($project)) {
                 $this->Flash->success(__('The project has been saved.'));
 
@@ -81,24 +85,7 @@ class ProjectsController extends AppController
             }
         }
         $this->set(compact('project'));
-        $this->set('_serialize', ['project']);
-    }
-
-    /**
-     * Normalizes screen monitor images from multiple file input to the expected structure
-     *
-     * @return void
-     */
-    private function normalizeScreenMonitorImages()
-    {
-        if (isset($this->request->data['screen_monitor_images']['file'])) {
-            $files = $this->request->data['screen_monitor_images']['file'];
-            $this->request->data['screen_monitor_images'] = [];
-
-            foreach ($files as $f) {
-                $this->request->data['screen_monitor_images'][] = ['file' => $f];
-            }
-        }
+        $this->viewBuilder()->setOption('serialize', ['project']);
     }
 
     /**
@@ -117,11 +104,9 @@ class ProjectsController extends AppController
         ]);
 
         if ($this->request->is(['patch', 'post', 'put'])) {
-            $this->normalizeScreenMonitorImages();
-
             unset($project->perspective_image);
 
-            $project = $this->Projects->patchEntity($project, $this->request->data, $this->patchOptions);
+            $project = $this->Projects->patchEntity($project, $this->getRequest()->getData(), $this->patchOptions);
 
             if ($this->Projects->save($project)) {
                 $this->Flash->success(__('The project has been saved.'));
@@ -132,7 +117,7 @@ class ProjectsController extends AppController
             }
         }
         $this->set(compact('project'));
-        $this->set('_serialize', ['project']);
+        $this->viewBuilder()->setOption('serialize', ['project']);
     }
 
     /**

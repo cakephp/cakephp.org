@@ -9,7 +9,6 @@ use Cake\TestSuite\Fixture\TestFixture;
  */
 class ContactsFixture extends TestFixture
 {
-
     /**
      * Fields
      *
@@ -39,7 +38,7 @@ class ContactsFixture extends TestFixture
      *
      * @return void
      */
-    public function init()
+    public function init(): void
     {
         $this->records = [
             [

@@ -3,9 +3,12 @@ namespace App\View\Helper;
 
 use Cake\View\Helper;
 
+/**
+ * @property \App\View\Helper\HtmlHelper $Html
+ */
 class ShowcaseHelper extends Helper
 {
-    public $helpers = ['Html'];
+    protected $helpers = ['Html'];
 
     /**
      * Output a boolean value using bootstrap label

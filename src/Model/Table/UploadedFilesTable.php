@@ -10,17 +10,32 @@ use Cake\Validation\Validator;
 /**
  * UploadedFiles Model
  *
+ *
+ * @method \App\Model\Entity\UploadedFile newEmptyEntity()
+ * @method \App\Model\Entity\UploadedFile newEntity(array $data, array $options = [])
+ * @method \App\Model\Entity\UploadedFile[] newEntities(array $data, array $options = [])
+ * @method \App\Model\Entity\UploadedFile get($primaryKey, $options = [])
+ * @method \App\Model\Entity\UploadedFile findOrCreate($search, ?callable $callback = null, $options = [])
+ * @method \App\Model\Entity\UploadedFile patchEntity(\Cake\Datasource\EntityInterface $entity, array $data, array $options = [])
+ * @method \App\Model\Entity\UploadedFile[] patchEntities(iterable $entities, array $data, array $options = [])
+ * @method \App\Model\Entity\UploadedFile|false save(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \App\Model\Entity\UploadedFile saveOrFail(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \App\Model\Entity\UploadedFile[]|\Cake\Datasource\ResultSetInterface|false saveMany(iterable $entities, $options = [])
+ * @method \App\Model\Entity\UploadedFile[]|\Cake\Datasource\ResultSetInterface saveManyOrFail(iterable $entities, $options = [])
+ * @method \App\Model\Entity\UploadedFile[]|\Cake\Datasource\ResultSetInterface|false deleteMany(iterable $entities, $options = [])
+ * @method \App\Model\Entity\UploadedFile[]|\Cake\Datasource\ResultSetInterface deleteManyOrFail(iterable $entities, $options = [])
+ * @mixin \Cake\ORM\Behavior\TimestampBehavior
+ * @mixin \Burzum\Imagine\Model\Behavior\ImagineBehavior
  */
 class UploadedFilesTable extends Table
 {
-
     /**
      * Initialize method
      *
      * @param array $config The configuration for the Table.
      * @return void
      */
-    public function initialize(array $config)
+    public function initialize(array $config): void
     {
         parent::initialize($config);
 
@@ -38,27 +53,27 @@ class UploadedFilesTable extends Table
      * @param \Cake\Validation\Validator $validator Validator instance.
      * @return \Cake\Validation\Validator
      */
-    public function validationDefault(Validator $validator)
+    public function validationDefault(Validator $validator): Validator
     {
         $validator
             ->integer('id')
-            ->allowEmpty('id', 'create');
+            ->allowEmptyString('id', 'create');
 
         $validator
             ->requirePresence('file', 'create')
-            ->notEmpty('file');
+            ->notEmptyString('file');
 
         $validator
             ->requirePresence('dir', 'create')
-            ->notEmpty('dir');
+            ->notEmptyString('dir');
 
         $validator
             ->requirePresence('size', 'create')
-            ->notEmpty('size');
+            ->notEmptyString('size');
 
         $validator
             ->requirePresence('type', 'create')
-            ->notEmpty('type');
+            ->notEmptyString('type');
 
         return $validator;
     }
@@ -67,12 +82,12 @@ class UploadedFilesTable extends Table
      * beforeSave
      *
      * @param \Cake\Event\Event $event an event instance
-     * @param \ArrayObject $entity data being marshalled
+     * @param \App\Model\Entity\UploadedFile $entity data being marshalled
      * @param \ArrayObject $options options for the current event
      * @return void
      */
     public function beforeSave(Event $event, Entity $entity, ArrayObject $options)
     {
-        $entity->set('model', $this->alias());
+        $entity->set('model', $this->getAlias());
     }
 }

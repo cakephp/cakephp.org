@@ -8,7 +8,7 @@ use Cake\View\Helper;
 /**
  * Class MetaHelper
  *
- * @property \Cake\View\Helper\HtmlHelper $Html
+ * @property \App\View\Helper\HtmlHelper $Html
  * @property \Cake\View\Helper\UrlHelper $Url
  *
  * @package App\View\Helper
@@ -18,7 +18,7 @@ class MetaHelper extends Helper
     /**
      * @var array
      */
-    public $helpers = ['Html', 'Url'];
+    protected $helpers = ['Html', 'Url'];
 
     /**
      * Set twitter cards and facebook specific tags

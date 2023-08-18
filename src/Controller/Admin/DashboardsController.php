@@ -6,7 +6,6 @@ use Cake\Event\Event;
 
 class DashboardsController extends AppController
 {
-
     /**
      * Index method
      *

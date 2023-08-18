@@ -11,12 +11,20 @@ use Cake\ORM\Entity;
  * @property string $website
  * @property bool $is_highlighted
  * @property bool $is_showcase
- * @property \Cake\I18n\Time $created
- * @property \Cake\I18n\Time $modified
+ * @property \Cake\I18n\FrozenTime|null $created
+ * @property \Cake\I18n\FrozenTime|null $modified
+ * @property string $slug
+ * @property string|null $technologies
+ * @property string $brief_description
+ * @property string $description
+ * @property array $tags_array
+ * @property \Muffin\Tags\Model\Entity\Tagged[] $tagged
+ * @property \Muffin\Tags\Model\Entity\Tag[] $tags
+ * @property \App\Model\Entity\PerspectiveImage|null $perspective_image
+ * @property \App\Model\Entity\ScreenMonitorImage[] $screen_monitor_images
  */
 class Project extends Entity
 {
-
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
      *
@@ -33,6 +41,7 @@ class Project extends Entity
 
     /**
      * @return array
+     * @see \App\Model\Entity\Project::$tags_array
      */
     protected function _getTagsArray()
     {

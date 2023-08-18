@@ -10,17 +10,31 @@ use Cake\Validation\Validator;
 /**
  * Contacts Model
  *
+ *
+ * @method \App\Model\Entity\Contact newEmptyEntity()
+ * @method \App\Model\Entity\Contact newEntity(array $data, array $options = [])
+ * @method \App\Model\Entity\Contact[] newEntities(array $data, array $options = [])
+ * @method \App\Model\Entity\Contact get($primaryKey, $options = [])
+ * @method \App\Model\Entity\Contact findOrCreate($search, ?callable $callback = null, $options = [])
+ * @method \App\Model\Entity\Contact patchEntity(\Cake\Datasource\EntityInterface $entity, array $data, array $options = [])
+ * @method \App\Model\Entity\Contact[] patchEntities(iterable $entities, array $data, array $options = [])
+ * @method \App\Model\Entity\Contact|false save(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \App\Model\Entity\Contact saveOrFail(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \App\Model\Entity\Contact[]|\Cake\Datasource\ResultSetInterface|false saveMany(iterable $entities, $options = [])
+ * @method \App\Model\Entity\Contact[]|\Cake\Datasource\ResultSetInterface saveManyOrFail(iterable $entities, $options = [])
+ * @method \App\Model\Entity\Contact[]|\Cake\Datasource\ResultSetInterface|false deleteMany(iterable $entities, $options = [])
+ * @method \App\Model\Entity\Contact[]|\Cake\Datasource\ResultSetInterface deleteManyOrFail(iterable $entities, $options = [])
+ * @mixin \Cake\ORM\Behavior\TimestampBehavior
  */
 class ContactsTable extends Table
 {
-
     /**
      * Initialize method
      *
      * @param array $config The configuration for the Table.
      * @return void
      */
-    public function initialize(array $config)
+    public function initialize(array $config): void
     {
         parent::initialize($config);
 
@@ -37,28 +51,28 @@ class ContactsTable extends Table
      * @param \Cake\Validation\Validator $validator Validator instance.
      * @return \Cake\Validation\Validator
      */
-    public function validationDefault(Validator $validator)
+    public function validationDefault(Validator $validator): Validator
     {
         $validator
             ->integer('id')
-            ->allowEmpty('id', 'create');
+            ->allowEmptyString('id', 'create');
 
         $validator
             ->requirePresence('subject', 'create')
-            ->notEmpty('subject');
+            ->notEmptyString('subject');
 
         $validator
             ->requirePresence('name', 'create')
-            ->notEmpty('name');
+            ->notEmptyString('name');
 
         $validator
             ->email('email')
             ->requirePresence('email', 'create')
-            ->notEmpty('email');
+            ->notEmptyString('email');
 
         $validator
             ->requirePresence('body', 'create')
-            ->notEmpty('body');
+            ->notEmptyString('body');
 
         return $validator;
     }
@@ -70,7 +84,7 @@ class ContactsTable extends Table
      * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
      * @return \Cake\ORM\RulesChecker
      */
-    public function buildRules(RulesChecker $rules)
+    public function buildRules(RulesChecker $rules): RulesChecker
     {
         return $rules;
     }
@@ -83,7 +97,7 @@ class ContactsTable extends Table
      */
     public function createRapidContact($data)
     {
-        $contact = $this->newEntity();
+        $contact = $this->newEmptyEntity();
         $contact->set('name', $data['name']);
         $contact->set('email', $data['email']);
         $contact->set('subject', $this->extractRapidSubject($data));
