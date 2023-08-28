@@ -86,6 +86,19 @@ $permissions = [
         'bypassAuth' => true,
     ],
     [
+        'role' => '*',
+        'prefix' => false,
+        'controller' => 'Projects',
+        'action' => ['index', 'view'],
+        'bypassAuth' => true,
+    ],
+    [
+        'role' => '*',
+        'controller' => 'Writers',
+        'action' => ['index'],
+        'bypassAuth' => true,
+    ],
+    [
         'role' => 'user',
         'controller' => 'Dashboards',
         'action' => ['index'],

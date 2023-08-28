@@ -10658,6 +10658,9 @@ code {
     background: #D33C44;
     color: #fff;
     border-radius: 20px 0;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
     border-color: #D33C44;
 }
 

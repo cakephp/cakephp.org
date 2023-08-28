@@ -8,14 +8,14 @@
     <div class="container">
         <div class="mb50 mt50 description">
             <div>
-                <h2>Business Solutions</h2>
-                <p>CakeDC, the commercial entity behind the CakePHP framework, was established by Larry Masters, the
+                <h2><?= __('Business Solutions') ?></h2>
+                <p><?= __('CakeDC, the commercial entity behind the CakePHP framework, was established by Larry Masters, the
                    founder of CakePHP. CakeDC offers CakePHP development, consultancy, CakePHP training and code review Services.
                     From startups and social networks, to e-commerce and enterprise level applications, CakeDC provides
-                   the highest quality CakePHP development available.
+                   the highest quality CakePHP development available.') ?>
                 </p>
                 <div>
-                    <a href="https://www.cakedc.com" class="btn btn-home">Chat to the top CakePHP developers</a>
+                    <a href="https://www.cakedc.com" class="btn btn-home"><?= __('Learn more') ?></a>
                 </div>
             </div>
         </div>
