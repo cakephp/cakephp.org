@@ -10,22 +10,23 @@
         </div>
         <div class="description">
             <div class="mb50 mt50">
-                <h2>What's new in version</h2>
-                <p>The migration guide has a complete list of what's new in. We recommend you give that page a read when upgrading. A few highlights from 4.4.0 are:
+                <h2><?= __("What's new in version") ?></h2>
+                <p><?= __("The migration guide has a complete list of what's new in. We recommend you give that page a read when upgrading. A few highlights from 5.0 are:") ?>
                 <ul>
-                    <li> A new Error and Exception handling framework that is easier to extend and requires less application code to operate. </li>
-                    <li> Controller::viewClasses() was added. This method enables controllers to take control of what content-types they can respond as. </li>
-                    <li> The QueryExpression::case() builder now supports inferring the type from expressions passed to then() and else() that implement \Cake\Database\TypedResultInterface. </li>
-                    <li> HttpsEnforcerMiddleware now has an hsts option that allows you to configure the Strict-Transport-Security header. </li>
-                    <li> bin/cake routes now highlights collisions in route templates. </li>
-                    <li> The RedisEngine now supports fast deletes with deleteAsync(). </li>
+                    <li><?= __('PHP 8.1 required.') ?></li>
+                    <li><?= __('Improved typehints across the framework. CakePHP now leverages union types to formalize the types of many parameters across the framework.') ?></li>
+                    <li><?= __('Upgraded to PHPUnit 10.x') ?></li>
+                    <li><?= __('New enum type mapping support in the ORM enabling more expressive model layers with improved type checking.') ?></li>
+                    <li><?= __('Table finders with named parameters, providing more expressive query building APIs.') ?></li>
+                    <li><?= __('Added time-only Time type and greatly improved Date and DateTime support via chronos 3.x.') ?></li>
+                    <li><?= __('Support for PSR17 HTTP factories was added.') ?></li>
                 </ul>
                 <p>
-                    While CakePHP 4 contains a number of breaking changes we have prepared an exhaustive migration guide
-                    covering all the deprecated and removed features as well as highlighting the shiny new features.
+                    <?= __('While CakePHP 5 contains a number of breaking changes we have prepared an exhaustive migration guide
+                    covering all the deprecated and removed features as well as highlighting the shiny new features.') ?>
                 </p>
                 <div>
-                    <a href="https://book.cakephp.org/4/en/appendices/4-4-migration-guide.html" class="btn btn-home">Learn more</a>
+                    <a href="https://book.cakephp.org/5/en/appendices/5-0-migration-guide.html" class="btn btn-home">Learn more</a>
                 </div>
             </div>
         </div>

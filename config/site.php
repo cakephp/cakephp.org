@@ -173,7 +173,7 @@ return [
                 ],
                 'documentation' => [
                     'book' => [
-                        'url' => 'https://book.cakephp.org/4',
+                        'url' => 'https://book.cakephp.org/5',
                         'title' => __('Book'),
                     ],
                     'api' => [
@@ -190,7 +190,7 @@ return [
                         'title' => __('Videos'),
                     ],
                     'security' => [
-                        'url' => 'https://book.cakephp.org/4.0/en/contributing/tickets.html#reporting-security-issues',
+                        'url' => 'https://book.cakephp.org/5/en/contributing/tickets.html#reporting-security-issues',
                         'title' => __('Reporting Security Issues'),
                     ],
                     'privacy' => [
@@ -253,7 +253,7 @@ return [
                 ],
                 [
                     'name' => 'Linode',
-                    'logo' => ['img' => '/images/companies/logos/sponsors/linode.jpg'],
+                    'logo' => ['img' => '/images/companies/logos/sponsors/linodeLogo.svg'],
                     'copy' => ['text' => '<a href="https://www.linode.com/" target="_blank">Linode</a> is the largest independent open cloud provider in the world with 10 global data centers serving over 800,000 customers and businesses around the globe. Linode products, services, and people enable developers and businesses to build, deploy, and scale applications more easily and cost-effectively in the cloud.', 'style' => ''],
                     'link' => 'https://www.linode.com/',
                     'img' => ['alt' => 'Linode'],
