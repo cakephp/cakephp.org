@@ -14,7 +14,7 @@
         </div>
         <div class="col-sm-12 col-md-12 col-lg-12">
 			<div class="cta-home">
-				<a href="https://book.cakephp.org/4/en/installation.html" class="btn btn-home">
+				<a href="https://book.cakephp.org/5/en/installation.html" class="btn btn-home">
 					<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
 					<?= __('DOWNLOAD') ?>
 				</a>
