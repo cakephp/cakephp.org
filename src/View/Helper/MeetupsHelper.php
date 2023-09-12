@@ -3,13 +3,16 @@
 namespace App\View\Helper;
 
 use Cake\Core\Configure;
-use Cake\I18n\Time;
+use Cake\I18n\FrozenTime;
 use Cake\Utility\Hash;
 use Cake\View\Helper;
 
+/**
+ * @property \App\View\Helper\HtmlHelper $Html
+ */
 class MeetupsHelper extends Helper
 {
-    public $helpers = ['Html'];
+    protected $helpers = ['Html'];
 
     /**
      * @return string
@@ -19,7 +22,7 @@ class MeetupsHelper extends Helper
         $out = '';
         $meetups = Configure::read('Site.meetups');
         foreach ($meetups as $meetup) {
-            $when = Time::parse($meetup['when']);
+            $when = FrozenTime::parse($meetup['when']);
             if ($when->isPast() && !$when->wasWithinLast('1 day')) {
                 continue;
             }

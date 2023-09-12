@@ -10,7 +10,6 @@ use Cake\TestSuite\TestCase;
  */
 class ContactsTableTest extends TestCase
 {
-
     /**
      * Test subject
      *
@@ -35,11 +34,11 @@ class ContactsTableTest extends TestCase
      *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
-        $config = TableRegistry::exists('Contacts') ? [] : ['className' => 'App\Model\Table\ContactsTable'];
-        $this->Contacts = TableRegistry::get('Contacts', $config);
+        $config = TableRegistry::getTableLocator()->exists('Contacts') ? [] : ['className' => 'App\Model\Table\ContactsTable'];
+        $this->Contacts = TableRegistry::getTableLocator()->get('Contacts', $config);
     }
 
     /**
@@ -47,7 +46,7 @@ class ContactsTableTest extends TestCase
      *
      * @return void
      */
-    public function tearDown()
+    public function tearDown(): void
     {
         unset($this->Contacts);
 

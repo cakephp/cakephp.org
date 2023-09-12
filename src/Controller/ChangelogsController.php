@@ -10,16 +10,16 @@ use Cake\Event\Event;
  *
  * @package app
  * @subpackage app.controllers
+ * @property \App\Model\Table\ChangelogsTable $Changelogs
  */
 class ChangelogsController extends AppController
 {
-
     /**
      * Initialize method
      *
      * @return void
      */
-    public function initialize()
+    public function initialize(): void
     {
         parent::initialize();
 
@@ -32,10 +32,9 @@ class ChangelogsController extends AppController
      * @param \Cake\Event\Event $event The event object.
      * @return void
      */
-    public function beforeFilter(Event $event)
+    public function beforeFilter(\Cake\Event\EventInterface $event)
     {
         parent::beforeFilter($event);
-        $this->Auth->allow();
         $this->Changelogs->repository(Configure::read('Changelog.Repository'));
     }
 

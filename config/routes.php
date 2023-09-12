@@ -1,10 +1,13 @@
 <?php
 /**
- * Routes configuration
+ * Routes configuration.
  *
  * In this file, you set up routes to your controllers and their actions.
  * Routes are very important mechanism that allows you to freely connect
  * different URLs to chosen controllers and their actions (functions).
+ *
+ * It's loaded within the context of `Application::routes()` method which
+ * receives a `RouteBuilder` instance `$routes` as method argument.
  *
  * CakePHP(tm) : Rapid Development Framework (https://cakephp.org)
  * Copyright (c) Cake Software Foundation, Inc. (https://cakefoundation.org)
@@ -15,14 +18,15 @@
  *
  * @copyright     Copyright (c) Cake Software Foundation, Inc. (https://cakefoundation.org)
  * @link          https://cakephp.org CakePHP(tm) Project
- * @license       https://www.opensource.org/licenses/mit-license.php MIT License
+ * @license       https://opensource.org/licenses/mit-license.php MIT License
  */
 
-use Cake\Core\Plugin;
+use Cake\Http\Middleware\CsrfProtectionMiddleware;
 use Cake\Routing\RouteBuilder;
 use Cake\Routing\Router;
+use Cake\Routing\Route\DashedRoute;
 
-/**
+/*
  * The default class to use for all routes
  *
  * The following route classes are supplied with CakePHP and are appropriate
@@ -38,9 +42,9 @@ use Cake\Routing\Router;
  * Note that `Route` does not do any inflections on URLs which will result in
  * inconsistently cased URLs when used with `:plugin`, `:controller` and
  * `:action` markers.
- *
  */
-Router::defaultRouteClass('DashedRoute');
+/** @var \Cake\Routing\RouteBuilder $routes */
+$routes->setRouteClass(DashedRoute::class);
 
 Router::addUrlFilter(function ($params, $request) {
     if ($request->getParam('language') && !isset($params['language'])) {
@@ -51,6 +55,18 @@ Router::addUrlFilter(function ($params, $request) {
 });
 
 $basicRoutes = function (RouteBuilder $routes) {
+
+    // Register scoped middleware for in scopes.
+    $routes->registerMiddleware('csrf', new CsrfProtectionMiddleware([
+        'httponly' => true,
+    ]));
+
+    /*
+     * Apply a middleware to the current route scope.
+     * Requires middleware to be registered through `Application::routes()` with `registerMiddleware()`
+     */
+    $routes->applyMiddleware('csrf');
+
     /**
      * Here, we are connecting '/' (base path) to a controller called 'Pages',
      * its action called 'display', and we pass a param to select the view file
@@ -76,8 +92,8 @@ $basicRoutes = function (RouteBuilder $routes) {
     $routes->connect('/business-solutions', ['controller' => 'Pages', 'action' => 'display', 'business-solutions']);
     $routes->connect('/roadtrip', ['controller' => 'Pages', 'action' => 'display', 'road_trip']);
 
-    $routes->redirect('/pages/documentation', 'https://book.cakephp.org/4');
-    $routes->redirect('/documentation', 'https://book.cakephp.org/4');
+    $routes->redirect('/pages/documentation', 'http://book.cakephp.org/5');
+    $routes->redirect('/documentation', 'http://book.cakephp.org/5');
     $routes->connect('/changelogs', ['controller' => 'Changelogs', 'action' => 'index']);
     $routes->connect('/changelogs/*', ['controller' => 'Changelogs', 'action' => 'view']);
     $routes->redirect('/development', ['controller' => 'Pages', 'action' => 'display', 'business-solutions']);
@@ -94,23 +110,7 @@ $basicRoutes = function (RouteBuilder $routes) {
      */
     $routes->connect('/pages/*', ['controller' => 'Pages', 'action' => 'display']);
 
-    /**
-     * Connect catchall routes for all controllers.
-     *
-     * Using the argument `DashedRoute`, the `fallbacks` method is a shortcut for
-     *    `$routes->connect('/:controller', ['action' => 'index'], ['routeClass' => 'DashedRoute']);`
-     *    `$routes->connect('/:controller/:action/*', [], ['routeClass' => 'DashedRoute']);`
-     *
-     * Any route class can be used with this method, such as:
-     * - DashedRoute
-     * - InflectedRoute
-     * - Route
-     * - Or your own route class
-     *
-     * You can remove these routes once you've connected the
-     * routes you want in your application.
-     */
-    $routes->fallbacks('DashedRoute');
+    $routes->fallbacks();
 };
 
 $realRoutes = function ($routes) use ($basicRoutes) {
@@ -119,8 +119,8 @@ $realRoutes = function ($routes) use ($basicRoutes) {
     return $routes;
 };
 
-Router::scope('/jp', ['language' => 'ja_JP'], $realRoutes);
-Router::scope('/fr', ['language' => 'fr_FR'], $realRoutes);
-Router::scope('/pt', ['language' => 'pt_BR'], $realRoutes);
-Router::scope('/', ['language' => 'en'], $realRoutes);
-Router::scope('/', $realRoutes);
+$routes->scope('/jp', ['language' => 'ja_JP'], $realRoutes);
+$routes->scope('/fr', ['language' => 'fr_FR'], $realRoutes);
+$routes->scope('/pt', ['language' => 'pt_BR'], $realRoutes);
+$routes->scope('/', ['language' => 'en'], $realRoutes);
+$routes->scope('/', $realRoutes);

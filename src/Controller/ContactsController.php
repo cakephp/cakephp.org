@@ -2,8 +2,7 @@
 namespace App\Controller;
 
 use Cake\Core\Configure;
-use Cake\Event\Event;
-use Cake\Mailer\Email;
+use Cake\Mailer\Mailer;
 
 /**
  * @property \App\Model\Table\ContactsTable $Contacts
@@ -13,10 +12,8 @@ class ContactsController extends AppController
     /**
      * @inheritDoc
      */
-    public function beforeFilter(Event $event)
+    public function beforeFilter(\Cake\Event\EventInterface $event)
     {
-        $this->Auth->allow();
-
         return parent::beforeFilter($event);
     }
 
@@ -27,7 +24,7 @@ class ContactsController extends AppController
     {
         $this->autoRender = false;
 
-        $contact = $this->Contacts->createRapidContact($this->request->data);
+        $contact = $this->Contacts->createRapidContact($this->getRequest()->getData());
 
         if ($this->Contacts->save($contact)) {
             $this->sendEmail($contact);
@@ -35,7 +32,7 @@ class ContactsController extends AppController
             return;
         }
 
-        $this->response->statusCode(422);
+        $this->response = $this->response->withStatus(422);
     }
 
     /**
@@ -45,7 +42,7 @@ class ContactsController extends AppController
     {
         $this->autoRender = false;
 
-        $contact = $this->Contacts->createRapidContact(['type' => 'road_trip', 'subject' => 'road_trip'] + $this->request->data);
+        $contact = $this->Contacts->createRapidContact(['type' => 'road_trip', 'subject' => 'road_trip'] + $this->getRequest()->getData());
 
         if ($this->Contacts->save($contact)) {
             $this->sendEmail($contact);
@@ -57,12 +54,12 @@ class ContactsController extends AppController
     }
 
     /**
-     * @param App\Model\Entity\Contact $contact contact
+     * @param \App\Model\Entity\Contact $contact contact
      * @return void
      */
     private function sendEmail($contact)
     {
-        $email = new Email('default');
+        $email = new Mailer('default');
 
         $email
             ->setEmailFormat('text')
@@ -70,6 +67,6 @@ class ContactsController extends AppController
             ->setFrom([Configure::read('Site.contact.email') => 'CakeDC Website'])
             ->setTo(Configure::read('Site.contact.email'))
             ->setSubject($contact->subject)
-            ->send($contact->body);
+            ->deliver($contact->body);
     }
 }

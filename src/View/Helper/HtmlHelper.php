@@ -7,6 +7,8 @@ use Cake\View\View;
 
 /**
  * Html helper
+ *
+ * @property \Cake\View\Helper\UrlHelper $Url
  */
 class HtmlHelper extends BaseHtmlHelper
 {
@@ -18,7 +20,7 @@ class HtmlHelper extends BaseHtmlHelper
      * @param array $options options
      * @return string
      */
-    public function link($title, $url = null, array $options = [])
+    public function link($title, $url = null, array $options = []): string
     {
         if (Hash::get($options, 'target') === '_blank' && !Hash::get($options, 'rel')) {
             $options['rel'] = 'noopener noreferrer';

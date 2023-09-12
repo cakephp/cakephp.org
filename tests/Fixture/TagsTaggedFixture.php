@@ -9,7 +9,6 @@ use Cake\TestSuite\Fixture\TestFixture;
  */
 class TagsTaggedFixture extends TestFixture
 {
-
     /**
      * Table name
      *
@@ -46,7 +45,7 @@ class TagsTaggedFixture extends TestFixture
      *
      * @return void
      */
-    public function init()
+    public function init(): void
     {
         $this->records = [
             [

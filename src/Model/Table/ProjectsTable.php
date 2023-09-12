@@ -3,6 +3,7 @@ namespace App\Model\Table;
 
 use App\Model\Entity\Project;
 use Cake\Event\Event;
+use Cake\I18n\FrozenTime;
 use Cake\ORM\Entity;
 use Cake\ORM\Query;
 use Cake\ORM\Table;
@@ -11,17 +12,37 @@ use Cake\Validation\Validator;
 /**
  * Projects Model
  *
+ *
+ * @property \Muffin\Tags\Model\Table\TaggedTable&\Cake\ORM\Association\HasMany $Tagged
+ * @property \App\Model\Table\ScreenMonitorImagesTable&\Cake\ORM\Association\HasMany $ScreenMonitorImages
+ * @property \Muffin\Tags\Model\Table\TagsTable&\Cake\ORM\Association\BelongsToMany $Tags
+ * @property \App\Model\Table\PerspectiveImagesTable&\Cake\ORM\Association\HasOne $PerspectiveImages
+ * @method \App\Model\Entity\Project newEmptyEntity()
+ * @method \App\Model\Entity\Project newEntity(array $data, array $options = [])
+ * @method \App\Model\Entity\Project[] newEntities(array $data, array $options = [])
+ * @method \App\Model\Entity\Project get($primaryKey, $options = [])
+ * @method \App\Model\Entity\Project findOrCreate($search, ?callable $callback = null, $options = [])
+ * @method \App\Model\Entity\Project patchEntity(\Cake\Datasource\EntityInterface $entity, array $data, array $options = [])
+ * @method \App\Model\Entity\Project[] patchEntities(iterable $entities, array $data, array $options = [])
+ * @method \App\Model\Entity\Project|false save(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \App\Model\Entity\Project saveOrFail(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \App\Model\Entity\Project[]|\Cake\Datasource\ResultSetInterface|false saveMany(iterable $entities, $options = [])
+ * @method \App\Model\Entity\Project[]|\Cake\Datasource\ResultSetInterface saveManyOrFail(iterable $entities, $options = [])
+ * @method \App\Model\Entity\Project[]|\Cake\Datasource\ResultSetInterface|false deleteMany(iterable $entities, $options = [])
+ * @method \App\Model\Entity\Project[]|\Cake\Datasource\ResultSetInterface deleteManyOrFail(iterable $entities, $options = [])
+ * @mixin \Cake\ORM\Behavior\TimestampBehavior
+ * @mixin \Muffin\Slug\Model\Behavior\SlugBehavior
+ * @mixin \Muffin\Tags\Model\Behavior\TagBehavior
  */
 class ProjectsTable extends Table
 {
-
     /**
      * Initialize method
      *
      * @param array $config The configuration for the Table.
      * @return void
      */
-    public function initialize(array $config)
+    public function initialize(array $config): void
     {
         parent::initialize($config);
 
@@ -54,34 +75,34 @@ class ProjectsTable extends Table
      * @param \Cake\Validation\Validator $validator Validator instance.
      * @return \Cake\Validation\Validator
      */
-    public function validationDefault(Validator $validator)
+    public function validationDefault(Validator $validator): Validator
     {
         $validator
             ->integer('id')
-            ->allowEmpty('id', 'create');
+            ->allowEmptyString('id', 'create');
 
         $validator
             ->requirePresence('title')
-            ->notEmpty('title');
+            ->notEmptyString('title');
 
         $validator
             ->requirePresence('description')
-            ->notEmpty('title');
+            ->notEmptyString('title');
 
         $validator
             ->requirePresence('website', 'create')
-            ->notEmpty('website')
+            ->notEmptyString('website')
             ->add('website', 'valid-url', ['rule' => 'url']);
 
         $validator
             ->boolean('is_highlighted')
             ->requirePresence('is_highlighted', 'create')
-            ->notEmpty('is_highlighted');
+            ->notEmptyString('is_highlighted');
 
         $validator
             ->boolean('is_showcase')
             ->requirePresence('is_showcase', 'create')
-            ->notEmpty('is_showcase');
+            ->notEmptyString('is_showcase');
 
         return $validator;
     }
@@ -90,29 +111,29 @@ class ProjectsTable extends Table
      * beforeSave
      *
      * @param Event $event event
-     * @param Entity $entity entity
+     * @param \App\Model\Entity\Project $entity entity
      * @param array $options options
      * @return void
      */
     public function beforeSave(Event $event, Entity $entity, $options)
     {
-        if (empty($entity->perspective_image->file['name'])) {
+        if (empty($entity->perspective_image->file->getClientFilename())) {
             unset($entity->perspective_image);
         }
-        if (empty($entity->screen_monitor_images[0]->file['name'])) {
+        if (empty($entity->screen_monitor_images[0]->file->getClientFilename())) {
             unset($entity->screen_monitor_images);
         }
 
         if (!$entity->isNew()) {
             if ($entity->perspective_image) {
                 $this->PerspectiveImages->deleteAll([
-                    'entity_id' => $entity->id, 'model' => $this->PerspectiveImages->alias(),
+                    'entity_id' => $entity->id, 'model' => $this->PerspectiveImages->getAlias(),
                 ]);
             }
 
             if ($entity->screen_monitor_images) {
                 $this->ScreenMonitorImages->deleteAll([
-                    'entity_id' => $entity->id, 'model' => $this->ScreenMonitorImages->alias(),
+                    'entity_id' => $entity->id, 'model' => $this->ScreenMonitorImages->getAlias(),
                 ]);
             }
         }
@@ -182,5 +203,25 @@ class ProjectsTable extends Table
         return $query
             ->find('view')
             ->where(['is_showcase' => true]);
+    }
+
+    /**
+     * Before marshal method
+     *
+     * @param \Cake\Event\Event $event Event
+     * @param \ArrayObject $data Data
+     * @param \ArrayObject $options Options
+     * @return void
+     */
+    public function beforeMarshal(Event $event, \ArrayObject $data, \ArrayObject $options): void
+    {
+        if (isset($data['screen_monitor_images']['file'])) {
+            $files = $data['screen_monitor_images']['file'];
+            $data['screen_monitor_images'] = [];
+
+            foreach ($files as $f) {
+                $data['screen_monitor_images'][] = ['file' => $f];
+            }
+        }
     }
 }

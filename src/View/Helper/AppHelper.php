@@ -3,20 +3,22 @@ namespace App\View\Helper;
 
 use Cake\Cache\Cache;
 use Cake\Core\Configure;
-use Cake\I18n\Time;
+use Cake\I18n\FrozenTime;
 use Cake\Utility\Hash;
 use Cake\View\Helper;
 use DateTime;
 
+/**
+ * @property \App\View\Helper\HtmlHelper $Html
+ */
 class AppHelper extends Helper
 {
-
     /**
      * Helpers
      *
      * @var array
      */
-    public $helpers = [
+    protected $helpers = [
         'Html',
     ];
 
@@ -82,7 +84,7 @@ class AppHelper extends Helper
      */
     public function active($controller)
     {
-        return strtolower($this->request->controller) == strtolower($controller) ? 'active' : '';
+        return strtolower($this->getView()->getRequest()->getParam('controller')) == strtolower($controller) ? 'active' : '';
     }
 
     /**
@@ -94,7 +96,7 @@ class AppHelper extends Helper
     {
         $endDate = Configure::read('Site.cakefest.end_date');
 
-        return (new Time($endDate)) < (new Time());
+        return (new FrozenTime($endDate)) < (new FrozenTime());
     }
 
     /**
@@ -106,7 +108,7 @@ class AppHelper extends Helper
     {
         $startDate = Configure::read('Site.cakefest.start_date');
 
-        return (new Time($startDate)) > (new Time());
+        return (new FrozenTime($startDate)) > (new FrozenTime());
     }
 
     /**
@@ -118,13 +120,14 @@ class AppHelper extends Helper
     {
         $startDate = Configure::read('Site.cakefest.start_date');
 
-        return (new Time($startDate))->diff(new Time())->days;
+        return (new FrozenTime($startDate))->diff(new FrozenTime())->days;
     }
 
     /**
      * CakeFestDates
      *
      * @return string
+     * @throws \Exception
      */
     public function cakeFestDates()
     {

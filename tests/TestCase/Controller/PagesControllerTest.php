@@ -19,14 +19,15 @@ use Cake\Core\App;
 use Cake\Core\Configure;
 use Cake\Network\Request;
 use Cake\Network\Response;
-use Cake\TestSuite\IntegrationTestCase;
+use Cake\TestSuite\IntegrationTestTrait;
 use Cake\View\Exception\MissingTemplateException;
 
 /**
  * PagesControllerTest class
  */
-class PagesControllerTest extends IntegrationTestCase
+class PagesControllerTest
 {
+    use IntegrationTestTrait;
 
     /**
      * Fixtures

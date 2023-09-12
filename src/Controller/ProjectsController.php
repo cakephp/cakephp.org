@@ -6,17 +6,15 @@ use Cake\Event\Event;
 /**
  * Projects Controller
  *
- * @property \Showcase\Model\Table\ProjectsTable $Projects
+ * @property \App\Model\Table\ProjectsTable $Projects
  */
 class ProjectsController extends AppController
 {
     /**
      * @inheritDoc
      */
-    public function beforeFilter(Event $event)
+    public function beforeFilter(\Cake\Event\EventInterface $event)
     {
-        $this->Auth->allow();
-
         return parent::beforeFilter($event);
     }
 

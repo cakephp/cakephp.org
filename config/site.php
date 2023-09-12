@@ -2,7 +2,7 @@
 
 return [
     // use major.minor to indicate current version in home page
-    'App.cakeVersion' => '4.4',
+    'App.cakeVersion' => '5.0',
     'Site' => [
         'contact' => [
             'email' => 'contact@cakedc.com',
@@ -173,7 +173,7 @@ return [
                 ],
                 'documentation' => [
                     'book' => [
-                        'url' => 'https://book.cakephp.org/4',
+                        'url' => 'https://book.cakephp.org/5',
                         'title' => __('Book'),
                     ],
                     'api' => [
@@ -190,7 +190,7 @@ return [
                         'title' => __('Videos'),
                     ],
                     'security' => [
-                        'url' => 'https://book.cakephp.org/4.0/en/contributing/tickets.html#reporting-security-issues',
+                        'url' => 'https://book.cakephp.org/5/en/contributing/tickets.html#reporting-security-issues',
                         'title' => __('Reporting Security Issues'),
                     ],
                     'privacy' => [
@@ -249,14 +249,14 @@ return [
                     'logo' => ['img' => '/images/companies/logos/sponsors/cakedc.jpg'],
                     'copy' => ['text' => '<a href="https://cakedc.com" target="_blank">CakeDC</a> is the commercial entity behind the framework and was established by Larry Masters, founder of CakePHP. From startups and social networks, to e-commerce and enterprise level applications, CakeDC provides the highest quality CakePHP development available. CakeDC is committed to supporting the CakePHP framework and community.', 'style' => ''],
                     'link' => 'https://cakedc.com',
-                    'img'  => ['alt' => 'CakeDC'],
+                    'img' => ['alt' => 'CakeDC'],
                 ],
                 [
                     'name' => 'Linode',
-                    'logo' => ['img' => '/images/companies/logos/sponsors/linode.jpg'],
+                    'logo' => ['img' => '/images/companies/logos/sponsors/linodeLogo.svg'],
                     'copy' => ['text' => '<a href="https://www.linode.com/" target="_blank">Linode</a> is the largest independent open cloud provider in the world with 10 global data centers serving over 800,000 customers and businesses around the globe. Linode products, services, and people enable developers and businesses to build, deploy, and scale applications more easily and cost-effectively in the cloud.', 'style' => ''],
                     'link' => 'https://www.linode.com/',
-                    'img'  => ['alt' => 'Linode'],
+                    'img' => ['alt' => 'Linode'],
                 ],
             ],
         ],

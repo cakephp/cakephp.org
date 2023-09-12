@@ -14,12 +14,11 @@ use Cake\ORM\Entity;
  * @property string $writing_sample
  * @property string $extra_information
  * @property string $client_ip
- * @property \Cake\I18n\Time $created
- * @property \Cake\I18n\Time $modified
+ * @property \Cake\I18n\FrozenTime $created
+ * @property \Cake\I18n\FrozenTime $modified
  */
 class Writer extends Entity
 {
-
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
      *

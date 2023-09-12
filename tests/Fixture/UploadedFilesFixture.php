@@ -9,7 +9,6 @@ use Cake\TestSuite\Fixture\TestFixture;
  */
 class UploadedFilesFixture extends TestFixture
 {
-
     /**
      * Fields
      *
@@ -41,7 +40,7 @@ class UploadedFilesFixture extends TestFixture
      *
      * @return void
      */
-    public function init()
+    public function init(): void
     {
         $this->records = [
             [
