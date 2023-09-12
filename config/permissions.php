@@ -99,6 +99,12 @@ $permissions = [
         'bypassAuth' => true,
     ],
     [
+        'role' => '*',
+        'controller' => 'Contacts',
+        'action' => ['rapid', 'roadTrip'],
+        'bypassAuth' => true,
+    ],
+    [
         'role' => 'user',
         'controller' => 'Dashboards',
         'action' => ['index'],
