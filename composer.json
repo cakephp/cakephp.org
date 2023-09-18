@@ -20,7 +20,8 @@
         "league/flysystem": "^2.2",
 		"linkorb/jsmin-php": "^1.0",
 		"natxet/cssmin": "^3.0",
-		"cakedc/cakephp-cached-routing": "^1.0"
+		"cakedc/cakephp-cached-routing": "^1.0",
+		"paragonie/csp-builder": "^2.9"
 	},
 	"require-dev": {
 		"psy/psysh": "@stable",

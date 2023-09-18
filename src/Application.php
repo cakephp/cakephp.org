@@ -14,16 +14,23 @@ declare(strict_types=1);
  * @since     3.3.0
  * @license   https://opensource.org/licenses/mit-license.php MIT License
  */
+
 namespace App;
 
-use CakeDC\CachedRouting\Routing\Middleware\CachedRoutingMiddleware;
 use Cake\Core\Configure;
 use Cake\Core\ContainerInterface;
 use Cake\Error\Middleware\ErrorHandlerMiddleware;
 use Cake\Http\BaseApplication;
-use Cake\Http\MiddlewareQueue;
 use Cake\Http\Middleware\BodyParserMiddleware;
+use Cake\Http\Middleware\CspMiddleware;
+use Cake\Http\Middleware\HttpsEnforcerMiddleware;
+use Cake\Http\Middleware\SecurityHeadersMiddleware;
+use Cake\Http\MiddlewareQueue;
 use Cake\Routing\Middleware\AssetMiddleware;
+use CakeDC\CachedRouting\Routing\Middleware\CachedRoutingMiddleware;
+use Psr\Http\Message\ResponseInterface;
+use Psr\Http\Message\ServerRequestInterface;
+use Psr\Http\Server\RequestHandlerInterface;
 
 /**
  * Application setup class.
@@ -77,7 +84,40 @@ class Application extends BaseApplication
             // Catch any exceptions in the lower layers,
             // and make an error page/response
             ->add(new ErrorHandlerMiddleware(Configure::read('Error')))
-
+            ->add(new CspMiddleware([
+                'script-src' => [
+                    'allow' => [
+                        'https://www.googletagmanager.com/',
+                        'https://www.google.com/',
+                        'https://www.gstatic.com/',
+                        'https://connect.facebook.net/',
+                        'https://platform.twitter.com/',
+                    ],
+                    'self' => true,
+                    'unsafe-inline' => true,
+                    'unsafe-eval' => true,
+                ],
+                "upgrade-insecure-requests" => true,
+            ]))
+            ->add((new SecurityHeadersMiddleware())
+                ->setReferrerPolicy()
+                ->setXFrameOptions()
+                ->noOpen()
+                ->noSniff())
+            ->add(function(
+                ServerRequestInterface $request,
+                RequestHandlerInterface $handler
+            ): ResponseInterface {
+                return $handler->handle($request)
+                    ->withHeader('Permissions-Policy', 'camera=(), geolocation=(), microphone=(), usb=()');
+            })
+            ->add(new HttpsEnforcerMiddleware([
+                'hsts' => [
+                    'maxAge' => 600,
+                    'includeSubDomains' => true,
+                    'preload' => false,
+                ],
+            ]))
             // Handle plugin/theme assets like CakePHP normally does.
             ->add(new AssetMiddleware([
                 'cacheTime' => Configure::read('Asset.cacheTime'),
