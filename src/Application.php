@@ -97,14 +97,14 @@ class Application extends BaseApplication
                     'unsafe-inline' => true,
                     'unsafe-eval' => true,
                 ],
-                "upgrade-insecure-requests" => true,
+                'upgrade-insecure-requests' => true,
             ]))
             ->add((new SecurityHeadersMiddleware())
                 ->setReferrerPolicy()
                 ->setXFrameOptions()
                 ->noOpen()
                 ->noSniff())
-            ->add(function(
+            ->add(function (
                 ServerRequestInterface $request,
                 RequestHandlerInterface $handler
             ): ResponseInterface {
