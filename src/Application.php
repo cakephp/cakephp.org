@@ -114,7 +114,7 @@ class Application extends BaseApplication
             ->add(new HttpsEnforcerMiddleware([
                 'hsts' => [
                     'maxAge' => 600,
-                    'includeSubDomains' => true,
+                    'includeSubDomains' => false,
                     'preload' => false,
                 ],
             ]))
