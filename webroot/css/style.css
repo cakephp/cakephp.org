@@ -6261,6 +6261,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    padding-bottom: 30px;
 }
 
 .hero-2 {
