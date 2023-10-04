@@ -698,6 +698,10 @@
         font-size: 44px;
         line-height: 5px;
     }
+
+    #sponsors .mb90 {
+        margin-bottom: 30px !important;
+    }
 }
 
 @media (max-width: 375px) {
