@@ -485,3 +485,18 @@ li.language a {
 .bg-white {
     background-color: white;
 }
+
+@media (max-width: 767px) {
+    .showcase-page .showcase-cases .img-responsive {
+        display: inline;
+    }
+    .showcase-page .showcase-cases .image-center {
+        text-align: center;
+    }
+    #expertise .box-services-c {
+        text-align: center;
+    }
+    #expertise .box-services-c .btn.btn-home {
+        float: none !important;
+    }
+}
