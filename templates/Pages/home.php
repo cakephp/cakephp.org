@@ -12,7 +12,7 @@ $this->assign('meta', $this->Html->meta('description', $description));
 $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
 ?>
 
-<?= $this->element('home/cakefest_online')?>
+<?php //= $this->element('home/cakefest_online')?>
 
 <?= $this->element('home/cake')?>
 
