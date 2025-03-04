@@ -6,6 +6,9 @@
  * @var string $modalId
  * @var string $secondTitle
  */
+
+use Cake\Core\Configure;
+
 ?>
 <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" id="<?= $modalId ?>">
 	<div class="modal-dialog" role="document">
@@ -127,6 +130,15 @@
 							</div>
 						</div>
 					</div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="fv-row mb-10 mt-10 text-center">
+                                <div class="g-recaptcha" data-sitekey="<?= Configure::read('ReCaptcha.site_key') ?>"></div>
+                                <?php $this->Html->script('https://www.google.com/recaptcha/api.js', ['block' => true]); ?>
+                                <?php $this->Form->unlockField('g-recaptcha-response'); ?>
+                            </div>
+                        </div>
+                    </div>
 			</div>
 
 			<div class="modal-footer back-modal-footer-show">
