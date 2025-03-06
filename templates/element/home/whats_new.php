@@ -12,7 +12,7 @@
             <div class="mb50 mt50">
                 <h2><?= __("What's new in 5.1") ?></h2>
                 <p><?= __("The migration guide has a complete list of {0}. We recommend you give that page a read when upgrading. A few highlights from 5.1 are:",
-                    $this->Html->link(__("what's new in 5.1", 'https://book.cakephp.org/5/en/appendices/5-1-migration-guide.html'))
+                    $this->Html->link(__("what's new in 5.1"), 'https://book.cakephp.org/5/en/appendices/5-1-migration-guide.html')
                     ) ?>
                 </p>
                 <ul>
