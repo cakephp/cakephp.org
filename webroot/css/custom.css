@@ -500,3 +500,10 @@ li.language a {
         float: none !important;
     }
 }
+
+.whats-new a {
+    color: #fff;
+}
+.whats-new a:hover {
+    color: #428bca;
+}
