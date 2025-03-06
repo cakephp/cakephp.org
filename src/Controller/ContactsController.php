@@ -3,6 +3,7 @@ namespace App\Controller;
 
 use Cake\Core\Configure;
 use Cake\Mailer\Mailer;
+use ReCaptcha\ReCaptcha;
 
 /**
  * @property \App\Model\Table\ContactsTable $Contacts
@@ -24,12 +25,17 @@ class ContactsController extends AppController
     {
         $this->autoRender = false;
 
-        $contact = $this->Contacts->createRapidContact($this->getRequest()->getData());
+        if ($this->getRequest()->is('post')) {
+            $contact = $this->Contacts->createRapidContact($this->getRequest()->getData());
+            $recaptcha = new ReCaptcha(Configure::read('ReCaptcha.secret_key'));
+            $resp = $recaptcha->verify($this->getRequest()->getData('g-recaptcha-response'), $this->getRequest()->clientIp());
+            if ($resp->isSuccess()) {
+                if ($this->Contacts->save($contact)) {
+                    $this->sendEmail($contact);
 
-        if ($this->Contacts->save($contact)) {
-            $this->sendEmail($contact);
-
-            return;
+                    return;
+                }
+            }
         }
 
         $this->response = $this->response->withStatus(422);
@@ -64,7 +70,7 @@ class ContactsController extends AppController
         $email
             ->setEmailFormat('text')
             ->setReplyTo($contact->email, $contact->name)
-            ->setFrom([Configure::read('Site.contact.email') => 'CakeDC Website'])
+            ->setFrom([Configure::read('Site.contact.email') => 'CakePHP.org Website'])
             ->setTo(Configure::read('Site.contact.email'))
             ->setSubject($contact->subject)
             ->deliver($contact->body);
