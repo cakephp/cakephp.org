@@ -451,16 +451,16 @@ return [
                     'image-url' => 'team/megan.jpg',
                     'country' => 'South Africa',
                 ],
-                'floriankramer' => [
-                    'name' => 'Florian Kramer (floriankramer)',
+                'floriankraemer' => [
+                    'name' => 'Florian Kramer (floriankraemer)',
                     'description' => __('A software developer by profession and not just because it’s a job. Florian is a core CakePHP team
                                 developer as well as having worked with CakeDC itself, doing CakePHP development since 2007. Florian sees
                                 programming as a true profession and not just a job for him, he likes to work on open source projects after
                                 work hours and has an interest in Unity3D and c# as well. He’s working as lead developer for PSA Publishers
                                 Ltd'),
                     'language' => __('English, German'),
-                    'github' => 'floriankramer',
-                    'mycake' => 'floriankramer',
+                    'github' => 'floriankraemer',
+                    'mycake' => 'floriankraemer',
                     'role' => __('Core Member'),
                     'image-url' => 'team/florian_kramer.jpg',
                     'country' => 'Germany',
