@@ -12,7 +12,7 @@
             <div class="mb50 mt50">
                 <h2><?= __("What's new in 5.3") ?></h2>
                 <p><?= __("The migration guide has a complete list of {0}. We recommend you give that page a read when upgrading. A few highlights from 5.3 are:",
-                    $this->Html->link(__("what's new in 5.3"), 'https://book.cakephp.org/5/en/appendices/5-3-migration-guide.html')
+                    $this->Html->link(__("what's new in 5.3"), 'https://book.cakephp.org/5.x/appendices/5-3-migration-guide.html')
                     ) ?>
                 </p>
                 <ul>
@@ -25,7 +25,7 @@
                     <li><?= __('Added new fluent builders for defining the "sortableFields" data of your pagination operations.') ?>
                 </ul>
                 <div>
-                    <a href="https://book.cakephp.org/5/en/appendices/5-3-migration-guide.html" class="btn btn-home">Learn more</a>
+                    <a href="https://book.cakephp.org/5.x/appendices/5-3-migration-guide.html" class="btn btn-home">Learn more</a>
                 </div>
             </div>
         </div>
