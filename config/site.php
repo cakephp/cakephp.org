@@ -173,7 +173,7 @@ return [
                 ],
                 'documentation' => [
                     'book' => [
-                        'url' => 'https://book.cakephp.org/5.x/',
+                        'url' => 'https://book.cakephp.org',
                         'title' => __('Book'),
                     ],
                     'api' => [
