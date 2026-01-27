@@ -92,8 +92,8 @@ $basicRoutes = function (RouteBuilder $routes) {
     $routes->connect('/business-solutions', ['controller' => 'Pages', 'action' => 'display', 'business-solutions']);
     $routes->connect('/roadtrip', ['controller' => 'Pages', 'action' => 'display', 'road_trip']);
 
-    $routes->redirect('/pages/documentation', 'http://book.cakephp.org/5.x/');
-    $routes->redirect('/documentation', 'http://book.cakephp.org/5.x/');
+    $routes->redirect('/pages/documentation', 'http://book.cakephp.org');
+    $routes->redirect('/documentation', 'http://book.cakephp.org');
     $routes->connect('/changelogs', ['controller' => 'Changelogs', 'action' => 'index']);
     $routes->connect('/changelogs/*', ['controller' => 'Changelogs', 'action' => 'view']);
     $routes->redirect('/development', ['controller' => 'Pages', 'action' => 'display', 'business-solutions']);
