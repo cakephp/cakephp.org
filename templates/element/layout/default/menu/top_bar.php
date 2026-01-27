@@ -12,7 +12,7 @@
 							$this->Html->tag('strong', __('Cookbook')),
 							$this->Html->tag('span', 'B', ['class' => 'glyph_range icon-submenu'])
 						)),
-					"https://book.cakephp.org/4",
+					"https://book.cakephp.org/5.x/",
 					['escape' => false]
 				);?>
 			</div>

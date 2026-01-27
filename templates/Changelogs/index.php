@@ -82,7 +82,7 @@
 		__('Contributing to CakePHP is easy.'),
 		__(
 			'Checkout the {0} for how you can get started contributing to CakePHP.',
-			'<a href="https://book.cakephp.org/4/en/contributing/code.html">' . __('guide on contributing') . '</a>'
+			'<a href="https://book.cakephp.org/5.x/contributing/code.html">' . __('guide on contributing') . '</a>'
 		)
 	)) ?>
 </p>
