@@ -106,6 +106,12 @@ $basicRoutes = function (RouteBuilder $routes) {
     $routes->connect('/meetups', ['controller' => 'Pages', 'action' => 'display', 'meetups']);
 
     /**
+     * Custom routes for newsletter subscription
+     */
+    $routes->connect('/newsletter_completed', ['controller' => 'Pages', 'action' => 'display', 'newsletter_completed']);
+    $routes->connect('/newsletter_confirmation', ['controller' => 'Pages', 'action' => 'display', 'newsletter_confirmation']);
+
+    /**
      * ...and connect the rest of 'Pages' controller's URLs.
      */
     $routes->connect('/pages/*', ['controller' => 'Pages', 'action' => 'display']);
