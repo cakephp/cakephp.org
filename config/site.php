@@ -2,7 +2,7 @@
 
 return [
     // use major.minor to indicate current version in home page
-    'App.cakeVersion' => '5.3',
+    'App.cakeVersion' => '5.4',
     'Site' => [
         'contact' => [
             'email' => 'contact@cakedc.com',
