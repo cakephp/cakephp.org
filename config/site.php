@@ -122,6 +122,16 @@ return [
                         'options' => ['target' => '_blank', 'rel' => 'me'],
                         'title' => 'Mastodon',
                     ],
+                    'support' => [
+                        'url' => [
+                            'plugin' => false,
+                            'controller' => 'Pages',
+                            'action' => 'display',
+                            'support',
+                            'prefix' => false,
+                        ],
+                        'title' => __('Versions / Support'),
+                    ],
                 ],
                 'help' => [
                     'discourse' => [

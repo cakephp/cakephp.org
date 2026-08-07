@@ -104,6 +104,7 @@ $basicRoutes = function (RouteBuilder $routes) {
         $routes->fallbacks('DashedRoute');
     });
     $routes->connect('/meetups', ['controller' => 'Pages', 'action' => 'display', 'meetups']);
+    $routes->connect('/support', ['controller' => 'Pages', 'action' => 'display', 'support']);
 
     /**
      * Custom routes for newsletter subscription
