@@ -17,6 +17,7 @@ declare(strict_types=1);
 
 use Cake\Core\Configure;
 use Cake\Datasource\ConnectionManager;
+use Cake\TestSuite\ConnectionHelper;
 use Migrations\TestSuite\Migrator;
 
 /**
@@ -52,14 +53,13 @@ ConnectionManager::alias('test_debug_kit', 'debug_kit');
 // has been written to.
 session_id('cli');
 
-// Use migrations to build test database schema.
-//
-// Will rebuild the database if the migration state differs
-// from the migration history in files.
-//
-// If you are not using CakePHP's migrations you can
-// hook into your migration tool of choice here or
-// load schema from a SQL dump file with
-// use Cake\TestSuite\Fixture\SchemaLoader;
-// (new SchemaLoader())->loadSqlFiles('./tests/schema.sql', 'test');
-(new Migrator())->run();
+// Point the 'default' connection at the test database.
+(new ConnectionHelper())->addTestAliases();
+
+// The tables used by the app tests are created from the fixtures. The app's own
+// migrations are not run here: several of them seed showcase data through the
+// ORM, which needs uploaded files and is not usable in a test run. Only the
+// schema of the Users plugin is migrated.
+(new Migrator())->runMany([
+    ['plugin' => 'CakeDC/Users'],
+]);
